@@ -149,6 +149,13 @@ Lista exactă, procesabilă, este în `tools/bibliografie.py` (`BIB`, `RESTRICTI
 - **Legea 360/2023**: în vigoare de la 1 septembrie 2024, a înlocuit Legea
   263/2010 — nu se folosesc valorile din legea veche (stagiu minim/complet,
   vârste standard, penalizări la anticipată) decât dacă apar în textul nou.
+- **Derogări în vigoare care NU apar în textul consolidat** (verificate la 17.09.2026):
+  OUG 7/2026 art. LIV — indemnizația pentru titlul de doctor (Legea 153/2017 art. 14
+  alin. (1)) este 500 lei brut în 2026; Legea 141/2025 — pensiile militare nu se
+  indexează în 2026 (art. 59 Legea 223/2015, în afara tematicii) și CASS 10 % pe
+  indemnizația de creștere a copilului (prin Codul fiscal, nu prin OUG 111/2010).
+  Întrebarea testează textul legii; explicația poate menționa derogarea, marcată
+  ca atare („prin derogare, în 2026...").
 - **Legea 153/2017 + Anexa VI**: corpul legii și anexa au numerotări separate —
   `sursa.anexa` obligatoriu pentru anexă; soldele de funcție sunt în tabele
   (citatele din tabele sunt greu de verificat: preferă articolele, nu rândurile
