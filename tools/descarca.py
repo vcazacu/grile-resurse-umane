@@ -146,7 +146,7 @@ class Extractor(html.parser.HTMLParser):
         nota = (cls.startswith("S_NTA") or nota_stramosi
                 or re.match(r"^\(la \d{2}-\d{2}-\d{4},", t) or re.match(r"^\(?la data de \d", t)
                 # istoric în stil vechi (acte republicate): „Alin. (2) al art. 5 a fost modificat de ...", „Art. 11 a fost ..."
-                or re.match(r"^(Alineatul|Articolul|Litera|Punctul|Alin\.|Art\.|Lit\.|Pct\.|Anexa|Capitolul|Sec[țt]iunea|Titlul)\s.*\b(a fost|au fost) (modificat|abrogat|introdus|completat|eliminat|suspendat)", t)
+                or re.match(r"^(Alineatul|Alineatele|Articolul|Articolele|Litera|Literele|Punctul|Punctele|Partea introductivă|Alin\.|Art\.|Lit\.|Pct\.|Anexa|Capitolul|Sec[țt]iunea|Titlul)\s.*\b(a fost|au fost) (modificat|abrogat|introdus|completat|eliminat|suspendat)", t)
                 or re.match(r"^-{5,}$", t))
         if nota:
             t = "§NOTA§ " + t          # notele au prioritate: o anexă citată într-o notă rămâne notă
