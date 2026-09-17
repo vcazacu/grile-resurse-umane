@@ -6,6 +6,7 @@ intercalare proporțională pe teste, reparare „max 4 multiple/test", raport.
 Utilizare:
     python3 asambleaza.py [--teste 30] [--marime 20] [--permite-deficit] [--scrie]
     python3 asambleaza.py --raport-din ../intrebari.js     (doar raportul de distribuție al unui fișier existent)
+    --scaleaza-cote: COTE se scalează proporțional la teste × mărime (ex. un singur test de calibrare)
 Fără --scrie doar afișează raportul (dry run).
 """
 import glob, json, os, re, sys
@@ -161,7 +162,7 @@ def raport_din(cale, marime=20):
 
 
 def main(argv):
-    teste, marime, scrie, permite = nr_teste_din_app(), 20, False, False
+    teste, marime, scrie, permite, scaleaza = nr_teste_din_app(), 20, False, False, False
     if "--raport-din" in argv:
         return raport_din(argv[argv.index("--raport-din") + 1])
     i = 0
@@ -170,11 +171,16 @@ def main(argv):
         elif argv[i] == "--marime": marime = int(argv[i + 1]); i += 1
         elif argv[i] == "--scrie": scrie = True
         elif argv[i] == "--permite-deficit": permite = True
+        elif argv[i] == "--scaleaza-cote": scaleaza = True
         else: sys.exit("Argument necunoscut: %s\n%s" % (argv[i], __doc__))
         i += 1
     if teste != nr_teste_din_app():
         print("ATENȚIE: --teste %d diferă de NR_TESTE=%d din app.js — aplicația va raporta erori." % (teste, nr_teste_din_app()))
     total = teste * marime
+    if scaleaza and sum(COTE.values()) != total:
+        noi = repartizeaza(COTE, total)
+        print("Cote scalate la %d: %s" % (total, ", ".join("%s=%d" % (et(g), noi[g]) for g in COTE)))
+        COTE.clear(); COTE.update(noi)
     if sum(COTE.values()) != total:
         sys.exit("EROARE: suma cotelor (%d) diferă de teste × mărime (%d × %d = %d). Editează COTE." % (sum(COTE.values()), teste, marime, total))
 
