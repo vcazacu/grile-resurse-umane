@@ -120,7 +120,19 @@ Lista exactă, procesabilă, este în `tools/bibliografie.py` (`BIB`, `RESTRICTI
    lungi cu multe alineate (ex. art. 9 și 21 din Legea 80/1995, art. 39 din Codul
    muncii, art. 2 din OUG 111/2010) primesc mai multe. Nu se repetă aceeași idee
    cu formulare diferită.
-8. **Restricțiile din bibliografie** (`RESTRICTII`): la art. 45 din Legea 80/1995
+8. **Lecții din calibrare** (verificarea adversarială a testului 1): ultima
+   propoziție a explicației e tot o trimitere la text, nu o concluzie generală
+   („legea nu mai prevede...", „în toate cazurile...") — acolo au apărut
+   inexactitățile; când un distractor vine din legea veche (Legea 263/2010,
+   „solda lunară" din Legea 80/1995), explicația îi numește sursa; distractorii
+   care diferă de cheie doar printr-un sinonim („succesive"/„consecutive") sunt
+   interziși — diferența trebuie să fie de drept; la `multiplu` se alternează
+   2/4 și 3/4 corecte, ca să nu existe un tipar; termenele se scriu cu unitatea
+   exactă din text („zile calendaristice"/„zile lucrătoare"); un act din AFARA
+   corpusului (Legea 263/2010, Legea 19/2000, Codul fiscal etc.) nu se citează cu
+   articol și cifre — se spune cel mult „legislația anterioară", fără detalii
+   neverificabile.
+9. **Restricțiile din bibliografie** (`RESTRICTII`): la art. 45 din Legea 80/1995
    doar lit. a)–f); la art. 16 din Codul muncii doar alin. (1)–(3); la art. 7, 9,
    14 din Anexa VI doar alin. (1); la art. 86 din Anexa VI doar alin. (1)–(6).
    Restul alineatelor NU sunt în tematică.
