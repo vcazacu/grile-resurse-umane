@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#09090b">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Grile RU">
+  <link rel="manifest" href="./manifest.json">
+  <link rel="apple-touch-icon" href="./apple-touch-icon.png">
+  <link rel="icon" href="./icon-192.png">
+  <title>Grile — Resurse Umane</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>🪖 Grile — Resurse Umane</h1>
+      <div class="subtitle">Examen resurse umane — statutul cadrelor militare, SIE, Codul muncii, pensii, salarizare, concedii</div>
+    </header>
+    <main id="app"></main>
+  </div>
+  <script src="intrebari.js"></script>
+  <script src="app.js"></script>
+  <script>
+    // Înregistrarea service worker-ului funcționează doar peste http(s), nu la deschidere
+    // directă de pe disc (file://) — de aceea e protejată de verificarea de mai jos.
+    if ("serviceWorker" in navigator && location.protocol.indexOf("http") === 0) {
+      window.addEventListener("load", function () {
+        navigator.serviceWorker.register("./sw.js").catch(function () { /* offline-ul rămâne indisponibil, aplicația merge normal */ });
+      });
+    }
+  </script>
+</body>
+</html>

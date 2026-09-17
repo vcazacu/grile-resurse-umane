@@ -1,0 +1,17 @@
+{
+  "name": "Grile — Resurse Umane",
+  "short_name": "Grile RU",
+  "description": "Baterie de 30 de teste pentru examenul de resurse umane (statutul cadrelor militare, SIE, Codul muncii, pensii, salarizare, concedii), pe legislația în formă consolidată.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#09090b",
+  "theme_color": "#09090b",
+  "lang": "ro",
+  "icons": [
+    { "src": "./icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "./icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "./icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

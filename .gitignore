@@ -1,0 +1,4 @@
+# Fișiere locale care nu se publică
+.DS_Store
+tools/nou/
+tools/__pycache__/

@@ -1,0 +1,47 @@
+[
+  {
+    "id": "L80-001",
+    "tip": "unic",
+    "intrebare": "Potrivit Legii nr. 80/1995, compensația lunară pentru chirie la care au dreptul cadrele militare în activitate mutate în interesul serviciului într-o altă garnizoană decât cea de domiciliu, care nu dețin locuință proprietate personală acolo și cărora nu li se poate asigura spațiu de locuit corespunzător, este de până la:",
+    "variante": [
+      "50% din solda lunară",
+      "30% din solda lunară",
+      "50% din solda de funcție",
+      "100% din chiria plătită"
+    ],
+    "corecte": [
+      0
+    ],
+    "explicatie": "Art. 20^1 alin. (1) din Legea nr. 80/1995 stabilește plafonul compensației lunare pentru chirie la 50% din solda lunară. Distractorii: 30% nu apare în text; „solda de funcție” este baza de calcul din H.G. nr. 1867/2005 (art. 1), nu din Legea nr. 80/1995; „100% din chirie” contrazice ideea de plafon.",
+    "sursa": {
+      "act": "Legea nr. 80/1995 privind statutul cadrelor militare",
+      "articol": "art. 20^1 alin. (1)",
+      "citat": "Cadrele militare în activitate numite în prima funcție/mutate în interesul serviciului, detașate și/sau împuternicite într-o altă garnizoană decât cea în care își au domiciliul [...] au dreptul la o compensație lunară pentru chirie de până la 50% din solda lunară.",
+      "fisier": "01_Legea_80-1995_statutul_cadrelor_militare.txt"
+    },
+    "status": "ok"
+  },
+  {
+    "id": "A6-001",
+    "tip": "unic",
+    "intrebare": "Exemplu din anexă (doar pentru testarea uneltelor).",
+    "variante": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "corecte": [
+      0
+    ],
+    "explicatie": "exemplu",
+    "sursa": {
+      "act": "Legea-cadru nr. 153/2017 (anexa nr. VI – apărare, ordine publică și securitate națională)",
+      "articol": "art. 1 alin. (1)",
+      "citat": "Personalul încadrat în instituțiile publice de apărare, ordine publică și securitate națională este salarizat în raport cu statutul, activitățile și organizarea stabilite prin lege [...] precum și cu interdicțiile și restrângerea exercițiului unor drepturi prevăzute pentru personalul din aceste instituții de legislația în vigoare.",
+      "fisier": "06_Legea_153-2017_salarizarea_bugetara.txt",
+      "anexa": "Anexa nr. VI"
+    },
+    "status": "ok"
+  }
+]

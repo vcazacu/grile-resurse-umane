@@ -1,0 +1,66 @@
+[
+  {
+    "id": "GRESIT-A-citat-inexistent",
+    "tip": "unic",
+    "test": 1,
+    "intrebare": "(a) Citat care NU apare în text: procentul a fost schimbat din 50% în 30%.",
+    "variante": ["a", "b", "c", "d"],
+    "corecte": [0],
+    "explicatie": "check_citat.py trebuie să respingă fragmentul 2 (30% nu există în art. 20^1).",
+    "sursa": {
+      "act": "Legea nr. 80/1995 privind statutul cadrelor militare",
+      "articol": "art. 20^1 alin. (1)",
+      "citat": "Cadrele militare în activitate numite în prima funcție/mutate în interesul serviciului [...] au dreptul la o compensație lunară pentru chirie de până la 30% din solda lunară.",
+      "fisier": "01_Legea_80-1995_statutul_cadrelor_militare.txt"
+    },
+    "status": "ok"
+  },
+  {
+    "id": "GRESIT-B-articol-gresit",
+    "tip": "unic",
+    "test": 1,
+    "intrebare": "(b) Citat verbatim din art. 9^1, dar atribuit art. 2.",
+    "variante": ["a", "b", "c", "d"],
+    "corecte": [0],
+    "explicatie": "check_citat.py îl confirmă (textul există), dar check_articol.py trebuie să arate că citatul e în art. 9^1, nu în art. 2.",
+    "sursa": {
+      "act": "Legea nr. 80/1995 privind statutul cadrelor militare",
+      "articol": "art. 2",
+      "citat": "Cadrele militare trecute în rezervă sau direct în retragere au dreptul la pensie militară de stat, potrivit legii.",
+      "fisier": "01_Legea_80-1995_statutul_cadrelor_militare.txt"
+    },
+    "status": "ok"
+  },
+  {
+    "id": "GRESIT-C-in-afara-tematicii",
+    "tip": "unic",
+    "test": 1,
+    "intrebare": "(c) Art. 10 din Legea nr. 80/1995 (abrogat) nu este în bibliografie.",
+    "variante": ["a", "b", "c", "d"],
+    "corecte": [0],
+    "explicatie": "Citatul e verbatim și chiar în art. 10, dar check_articol.py trebuie să-l raporteze ÎN AFARA tematicii.",
+    "sursa": {
+      "act": "Legea nr. 80/1995 privind statutul cadrelor militare",
+      "articol": "art. 10",
+      "citat": "Abrogat.",
+      "fisier": "01_Legea_80-1995_statutul_cadrelor_militare.txt"
+    },
+    "status": "ok"
+  },
+  {
+    "id": "GRESIT-D-citat-din-nota",
+    "tip": "unic",
+    "test": 1,
+    "intrebare": "(d) Citat luat dintr-o linie §NOTA§ (decizia HP nr. 40/2025 de sub art. 20^1), nu din text normativ.",
+    "variante": ["a", "b", "c", "d"],
+    "corecte": [0],
+    "explicatie": "Textul există în fișier doar pe linii §NOTA§; ambele unelte trebuie să-l respingă.",
+    "sursa": {
+      "act": "Legea nr. 80/1995 privind statutul cadrelor militare",
+      "articol": "art. 20^1",
+      "citat": "Dreptul la compensația lunară pentru chirie nu poate fi recunoscut și cadrelor militare care au încheiat contracte de credit ipotecar în vederea construirii unei locuințe.",
+      "fisier": "01_Legea_80-1995_statutul_cadrelor_militare.txt"
+    },
+    "status": "ok"
+  }
+]
