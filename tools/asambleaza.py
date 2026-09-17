@@ -86,8 +86,22 @@ def selecteaza(intrebari, cota):
     n = len(lst)
     if cota >= n:
         return lst
-    idx = sorted({min(n - 1, int(round((i + 0.5) * n / cota))) for i in range(cota)})
-    return [lst[i] for i in idx]
+    # 1) acoperirea tematicii: prima întrebare („ok" dacă există) din fiecare articol e garantată
+    garantate, vazute = [], set()
+    for q in lst:
+        k = cheie_articol(q)
+        if k not in vazute:
+            vazute.add(k); garantate.append(q)
+    if len(garantate) >= cota:
+        idx = sorted({min(len(garantate) - 1, int(round((i + 0.5) * len(garantate) / cota))) for i in range(cota)})
+        return [garantate[i] for i in idx]
+    # 2) restul cotei se umple uniform din întrebările rămase, păstrând ordinea pe articole
+    rest = [q for q in lst if not any(q is g for g in garantate)]
+    lipsa = cota - len(garantate)
+    idx = sorted({min(len(rest) - 1, int(round((i + 0.5) * len(rest) / lipsa))) for i in range(lipsa)}) if lipsa else []
+    ales = garantate + [rest[i] for i in idx]
+    ales.sort(key=cheie_articol)
+    return ales
 
 
 def repara_multiple(teste, marime):
