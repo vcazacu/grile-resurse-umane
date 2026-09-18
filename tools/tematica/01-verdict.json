@@ -1,0 +1,58 @@
+{
+  "verdict_general": "OK",
+  "probleme": [],
+  "lipsuri": [],
+  "reverificare": {
+    "data": "2026-09-18",
+    "probleme_anterioare": [
+      {
+        "loc": "secțiunea Rezerviștii... paragraful 1 (art. 97 „egal cu al celor în activitate”)",
+        "status": "ADRESAT",
+        "nota": "Reformulat „majorarea cu un an dispare”, cu art. 98 ca paranteză; capcana 10 preia corect distincția (rezerviști toți = art. 94 întreg; art. 98 = jumătate pentru cei în activitate și rezerviștii mobilizați)."
+      },
+      {
+        "loc": "secțiunea Gradele în MApN... paragraful 2 (șase/cinci trepte)",
+        "status": "ADRESAT",
+        "nota": "Acum explicit: lista MApN șase (a)–f)), lista generală cinci (a)–e)); conform art. 2 alin. (2) lit. B și alin. (2^1) lit. A^1."
+      },
+      {
+        "loc": "secțiunea Ce nu intră... paragraful 2 (SIE, art. 109 alin. (16))",
+        "status": "ADRESAT",
+        "nota": "Marcat ca „consecință, nu text expres”; textul spune doar că art. 95 nu se aplică S.R.I., S.I.E., S.T.S., S.P.P."
+      }
+    ],
+    "lipsuri_anterioare": [
+      {
+        "lipsa": "art. 50 alin. (2), (3), (5)",
+        "status": "ADRESAT",
+        "nota": "Secțiunea 6 P5: tabelul de echivalare (plutonier → cl. III-a; plutonier major → cl. II-a; plutonier adjutant → cl. I; plutonier adjutant șef → principal), examenul pentru cl. I/principal cu alternativa cl. II-a sau păstrarea gradului de subofițer, alin. (5) cu trimiterile la art. 38 lit. a), d)–h) și art. 39 lit. b), c) — toate exacte."
+      },
+      {
+        "lipsa": "art. 109 alin. (3) — art. 5 alin. 2 și art. 50 alin. 5 exclusiv MApN",
+        "status": "ADRESAT",
+        "nota": "Secțiunea 1 P5, secțiunea 3 P4, capcanele 3 și 8; art. 109 alin. (3) enumeră într-adevăr art. 5 alin. 2 și art. 50 alin. 5."
+      },
+      {
+        "lipsa": "art. 98 ca context",
+        "status": "ADRESAT",
+        "nota": "Secțiunea 7 P5 și capcana 14: jumătate în război pentru cei în activitate și rezerviștii mobilizați; dublu în zona acțiunilor militare — conform textului; marcat ca în afara bibliografiei (confirmat: bibliografia listează 94–95, 97)."
+      },
+      {
+        "lipsa": "art. 109 alin. (1) integral (MI, MJ)",
+        "status": "ADRESAT",
+        "nota": "Secțiunea 2 P4 și capcana 2 — conform textului."
+      },
+      {
+        "lipsa": "art. 4 alin. (1) lit. a) teza finală (cetățenie română și domiciliul în țară)",
+        "status": "ADRESAT",
+        "nota": "Secțiunea 1 P4 și capcana 2 — conform textului."
+      },
+      {
+        "lipsa": "art. 5 alin. (1) teza a doua și alin. (3)",
+        "status": "ADRESAT",
+        "nota": "Secțiunea 1 P5 și capcana 3 — conform textului; afirmația „legea nu prevede un asemenea ghid pentru SIE” verificată prin căutarea „ghid” în tot textul: apare numai la art. 5 alin. (2)–(3) (și în art. 75^1/76 ca aplicare pentru MApN)."
+      }
+    ],
+    "afirmatii_noi_nesustinute": []
+  }
+}

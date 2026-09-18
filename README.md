@@ -68,6 +68,21 @@ tuturor întrebărilor (exact 20 pe test, cel mult 4 „multiplu”, câmpuri
 complete). Dacă ceva e greșit, pe ecranul principal apare un banner roșu cu
 problemele exacte, iar testul nu pornește până nu sunt corectate.
 
+## Tematica — sinteze pe teme
+
+Pe lângă teste, aplicația are o secțiune **Tematica** (`tematica/index.html`, link în
+antet): câte o pagină de sinteză pentru fiecare dintre cele 18 teme din tematica
+oficială, în același stil ca explicațiile din teste — reguli, termene, excepții și
+capcane, fiecare cu temeiul legal citat verbatim din forma consolidată la zi.
+
+Conținutul unei teme stă în `tools/tematica/NN.json` (rezumat, secțiuni cu paragrafe
+și temeiuri `{act, articol, citat, fisier}`, capcane, id-urile întrebărilor legate).
+`tools/tematica_build.py` verifică fiecare citat contra `../legislatie/*.txt`, generează
+paginile HTML și indexul, și actualizează lista de fișiere din `sw.js` pentru offline.
+Temele fără fișier de conținut apar în index ca „în pregătire". Fiecare temă trece,
+înainte de publicare, și printr-o verificare adversarială independentă a sensului
+(nu doar a citatelor).
+
 ## Fișiere
 
 - `index.html` — pagina aplicației (deschide-o pe aceasta)
@@ -75,6 +90,7 @@ problemele exacte, iar testul nu pornește până nu sunt corectate.
 - `style.css` — stilurile (design inspirat din shadcn/ui, temă light/dark automată)
 - `intrebari.js` — **banca de întrebări** (generată, nu se editează manual)
 - `sw.js` — service worker (offline + versiunea cache-ului)
+- `tools/tematica_build.py`, `tools/tematica/` — construirea paginilor de tematică
 - `tools/` — lanțul de generare și verificare:
   - `descarca.py` — descarcă formele consolidate de pe legislatie.just.ro în `../legislatie/`
   - `bibliografie.py` — tematica oficială → articole cerute (`BIB`, `RESTRICTII`)

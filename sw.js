@@ -1,6 +1,6 @@
 /* Service worker — face aplicația disponibilă offline după prima deschidere.
    La fiecare modificare a întrebărilor, schimbă VERSIUNE ca să se reîmprospăteze cache-ul. */
-const VERSIUNE = "grile-ru-v1";
+const VERSIUNE = "grile-ru-v2";
 const FISIERE = [
   "./",
   "./index.html",
@@ -10,7 +10,11 @@ const FISIERE = [
   "./manifest.json",
   "./icon-192.png",
   "./icon-512.png",
-  "./apple-touch-icon.png"
+  "./apple-touch-icon.png",
+  /* TEMATICA-START */
+  "./tematica/index.html",
+  "./tematica/01-gradele-militare-si-stagiile-minime-in-grad.html",
+  /* TEMATICA-END */
 ];
 
 self.addEventListener("install", function (e) {
