@@ -142,6 +142,23 @@ def raport(teste, cote, total_grup):
     print("  %-8s %3d / %3d / %3d" % ("TOTAL", sum(sel.values()), sum(cote.values()), sum(total_grup.values())))
 
 
+def amesteca_variante(lista):
+    """Amestecă determinist variantele fiecărei întrebări (sămânța = id-ul), remapând
+    indecșii din `corecte`. Fără asta cheia ar sta preponderent pe prima poziție
+    (generatorii scriu răspunsul corect primul), iar aplicația nu amestecă variantele."""
+    import random
+    out = []
+    for q in lista:
+        rng = random.Random("grile-ru:" + q["id"])
+        perm = list(range(len(q["variante"])))
+        rng.shuffle(perm)                       # perm[nou] = vechi
+        q2 = dict(q)
+        q2["variante"] = [q["variante"][v] for v in perm]
+        q2["corecte"] = sorted(perm.index(c) for c in q["corecte"])
+        out.append(q2)
+    return out
+
+
 def scrie_js(cale, lista, teste, marime):
     """Scrie intrebari.js cu antet + `const INTREBARI = [...];`, cheile în ordinea standard."""
     ordonat = [{k: q[k] for k in ORDINE_CHEI if k in q} | {k: v for k, v in q.items() if k not in ORDINE_CHEI} for q in lista]
@@ -248,6 +265,11 @@ def main(argv):
     for t, lst in enumerate(teste_lst, 1):
         for q in lst:
             final.append({**q, "test": t})
+    final = amesteca_variante(final)
+    poz = {}
+    for q in final:
+        if q["tip"] == "unic": poz[q["corecte"][0]] = poz.get(q["corecte"][0], 0) + 1
+    print("Poziția cheii la întrebările unic după amestecare:", dict(sorted(poz.items())))
 
     # 5. raport + scriere
     raport(teste_lst, cote, disp)

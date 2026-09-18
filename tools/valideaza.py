@@ -12,6 +12,7 @@ Regulile pe teste (20/test, max 4 multiple, test în 1..N) se aplică doar pentr
 .js sau când se dă --teste (fără număr: N se citește din ../app.js, implicit 30).
 Ieșire 1 dacă există erori. Importabil: incarca(path), valideaza(lista, nr_teste).
 """
+import re as _re_poz
 import glob, json, os, re, sys
 
 DIR = os.path.dirname(os.path.abspath(__file__))
@@ -62,6 +63,9 @@ def e_int(x):
     return isinstance(x, int) and not isinstance(x, bool)
 
 
+POZITIE = _re_poz.compile(r"(prima|a doua|a treia|a patra|ultima)\s+variant|variant(a|ele)\s+[A-D]\)|răspunsul\s+[A-D]\)", _re_poz.I)
+
+
 def valideaza(lista, nr_teste=None):
     """Întoarce lista de erori (goală = valid). nr_teste=None → fără regulile pe teste."""
     erori = []
@@ -94,6 +98,7 @@ def valideaza(lista, nr_teste=None):
                     e("indexul corect %r nu există în variante." % (c,))
             if len(set(map(str, cor))) != len(cor): e("corecte conține indecși duplicați.")
         if not q.get("explicatie"): e("lipsește explicația.")
+        if POZITIE.search(str(q.get("explicatie",""))) or POZITIE.search(str(q.get("intrebare",""))): erori.append(loc + ": explicația/enunțul se referă la poziția variantelor (se amestecă la asamblare).")
         s = q.get("sursa")
         if not isinstance(s, dict) or not s.get("act") or not s.get("articol") or not s.get("citat"):
             e("sursa trebuie să conțină act, articol și citat.")
