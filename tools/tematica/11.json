@@ -1,0 +1,391 @@
+{
+ "nr": 11,
+ "titlu": "Timpul de muncă și timpul de odihnă",
+ "rezumat": "Tema cu cele mai multe cifre din toată bibliografia. Reperele: 8 ore pe zi și 40 pe săptămână, 6 și 30 pentru tinerii sub 18 ani; maximul de 48 de ore pe săptămână inclusiv orele suplimentare, cu media pe o perioadă de referință de 4 luni, extensibilă prin contract colectiv la cel mult 6 luni; compensarea muncii suplimentare prin ore libere plătite în 90 de zile calendaristice, iar în lipsa ei un spor de cel puțin 75%; munca de noapte între 22,00 și 6,00, cu program redus cu o oră sau spor de 25%; repausul zilnic de cel puțin 12 ore, respectiv 8 ore între schimburi; repausul săptămânal de 48 de ore consecutive; și concediul de odihnă de minimum 20 de zile lucrătoare.",
+ "sectiuni": [
+  {
+   "titlu": "Durata timpului de muncă și repartizarea lui (art. 111–119)",
+   "paragrafe": [
+    "Art. 111 alin. (1) definește timpul de muncă prin trei elemente simultane: perioada în care salariatul prestează munca, se află la dispoziția angajatorului și își îndeplinește sarcinile și atribuțiile. Alin. (2) definește separat programul de muncă, ca model de organizare a activității care stabilește orele și zilele când începe și se încheie prestarea muncii.",
+    "Art. 112 dă cele două perechi de cifre: pentru salariații cu normă întreagă, 8 ore pe zi și 40 de ore pe săptămână; pentru tinerii în vârstă de până la 18 ani, 6 ore pe zi și 30 de ore pe săptămână.",
+    "Art. 113 alin. (1) prevede repartizarea uniformă ca regulă — 8 ore pe zi timp de 5 zile, cu două zile de repaus — iar alin. (2) admite repartizarea inegală în funcție de specificul unității sau al muncii, cu respectarea duratei normale de 40 de ore pe săptămână.",
+    "Art. 114 alin. (1) fixează durata maximă legală la 48 de ore pe săptămână, inclusiv orele suplimentare. Alin. (2) permite depășirea, cu condiția ca media calculată pe o perioadă de referință de 4 luni calendaristice să nu depășească 48 de ore pe săptămână, iar alin. (3) permite negocierea, prin contract colectiv, a unor perioade de referință mai mari de 4 luni, dar care să nu depășească 6 luni.",
+    "Alin. (5) prevede că la stabilirea perioadelor de referință nu se iau în calcul durata concediului de odihnă anual și situațiile de suspendare a contractului. Alin. (6) exclude de la aplicarea acestor reguli tinerii care nu au împlinit vârsta de 18 ani.",
+    "Art. 115 alin. (1) permite, pentru anumite sectoare, unități sau profesii, o durată zilnică mai mică sau mai mare de 8 ore, stabilită prin negocieri sau prin acte normative specifice. Alin. (2) leagă o durată zilnică de 12 ore de o perioadă de repaus de 24 de ore.",
+    "Art. 116 alin. (2) condiționează programul de lucru inegal de menționarea lui expresă în contractul individual de muncă. Art. 117 impune aducerea la cunoștința salariaților a programului de muncă și a modului de repartizare pe zile, precum și afișarea la sediul angajatorului.",
+    "Art. 118 reglementează programele individualizate de muncă: alin. (3) le descrie prin împărțirea zilei în două perioade — una fixă, în care personalul se află simultan la locul de muncă, și una variabilă, mobilă, în care salariatul își alege orele de sosire și de plecare. Alin. (4) le condiționează de respectarea art. 112 și 114, iar alin. (5) impune angajatorului ca orice refuz al solicitării să fie motivat în scris, în termen de 5 zile lucrătoare de la primire."
+   ],
+   "temei": [
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 111 alin. (2)",
+     "citat": "Programul de muncă reprezintă modelul de organizare a activității, care stabilește orele și zilele când începe și când se încheie prestarea muncii.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    },
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 112",
+     "citat": "Pentru salariații angajați cu normă întreagă durata normală a timpului de muncă este de 8 ore pe zi și de 40 de ore pe săptămână. (2) În cazul tinerilor în vârstă de până la 18 ani durata timpului de muncă este de 6 ore pe zi și de 30 de ore pe săptămână.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    },
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 113",
+     "citat": "Repartizarea timpului de muncă în cadrul săptămânii este, de regulă, uniformă, de 8 ore pe zi timp de 5 zile, cu două zile de repaus. (2) În funcție de specificul unității sau al muncii prestate, se poate opta și pentru o repartizare inegală a timpului de muncă, cu respectarea duratei normale a timpului de muncă de 40 de ore pe săptămână.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    },
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 114",
+     "citat": "Durata maximă legală a timpului de muncă nu poate depăși 48 de ore pe săptămână, inclusiv orele suplimentare. (2) Prin excepție, durata timpului de muncă, ce include și orele suplimentare, poate fi prelungită peste 48 de ore pe săptămână, cu condiția ca media orelor de muncă, calculată pe o perioadă de referință de 4 luni calendaristice, să nu depășească 48 de ore pe săptămână. (3) Pentru anumite activități sau profesii stabilite prin contractul colectiv de muncă aplicabil, se pot negocia, prin contractul colectiv de muncă respectiv, perioade de referință mai mari de 4 luni, dar care să nu depășească 6 luni.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    },
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 114 alin. (5)",
+     "citat": "La stabilirea perioadelor de referință prevăzute la alin. (2)-(4) nu se iau în calcul durata concediului de odihnă anual și situațiile de suspendare a contractului individual de muncă.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    },
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 114 alin. (6)",
+     "citat": "Prevederile alin. (1)-(4) nu se aplică tinerilor care nu au împlinit vârsta de 18 ani.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    },
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 115",
+     "citat": "Pentru anumite sectoare de activitate, unități sau profesii se poate stabili prin negocieri colective sau individuale ori prin acte normative specifice o durată zilnică a timpului de muncă mai mică sau mai mare de 8 ore. (2) Durata zilnică a timpului de muncă de 12 ore va fi urmată de o perioadă de repaus de 24 de ore.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    },
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 116 alin. (2)",
+     "citat": "Programul de lucru inegal poate funcționa numai dacă este specificat expres în contractul individual de muncă.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    },
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 117",
+     "citat": "Programul de muncă și modul de repartizare a acestuia pe zile sunt aduse la cunoștință salariaților și sunt afișate la sediul angajatorului.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    },
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 118 alin. (4)",
+     "citat": "Programul individualizat de muncă poate funcționa numai cu respectarea dispozițiilor art. 112 și 114.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    },
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 118 alin. (5)",
+     "citat": "Orice refuz al solicitării prevăzute la alin. (1) trebuie motivat, în scris, de către angajator, în termen de 5 zile lucrătoare de la primirea solicitării.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    }
+   ]
+  },
+  {
+   "titlu": "Munca suplimentară (art. 120–123)",
+   "paragrafe": [
+    "Art. 120 alin. (1) definește munca suplimentară prin raportare la durata normală săptămânală de la art. 112. Alin. (2) o condiționează de acordul salariatului, cu excepția cazului de forță majoră sau a lucrărilor urgente destinate prevenirii producerii unor accidente ori înlăturării consecințelor unui accident.",
+    "Art. 121 alin. (2) interzice efectuarea muncii suplimentare peste limita stabilită potrivit art. 114 sau 115, cu aceleași două excepții.",
+    "Art. 122 alin. (1) stabilește modul principal de compensare: prin ore libere plătite în următoarele 90 de zile calendaristice după efectuarea muncii suplimentare. Alin. (3) permite, în perioadele de reducere a activității, acordarea de zile libere plătite din care pot fi compensate orele suplimentare ce vor fi prestate în următoarele 12 luni.",
+    "Art. 123 prevede soluția subsidiară: dacă în luna următoare compensarea prin ore libere plătite nu este posibilă în termenul de la art. 122 alin. (1), munca suplimentară se plătește prin adăugarea unui spor la salariu. Alin. (2) arată că sporul se stabilește prin negociere și nu poate fi mai mic de 75% din salariul de bază — este un prag minim."
+   ],
+   "temei": [
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 120",
+     "citat": "Munca prestată în afara duratei normale a timpului de muncă săptămânal, prevăzută la art. 112, este considerată muncă suplimentară. (2) Munca suplimentară nu poate fi efectuată fără acordul salariatului, cu excepția cazului de forță majoră sau pentru lucrări urgente destinate prevenirii producerii unor accidente ori înlăturării consecințelor unui accident.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    },
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 122",
+     "citat": "Munca suplimentară se compensează prin ore libere plătite în următoarele 90 de zile calendaristice după efectuarea acesteia. (2) În aceste condiții salariatul beneficiază de salariul corespunzător pentru orele prestate peste programul normal de lucru. (3) În perioadele de reducere a activității angajatorul are posibilitatea de a acorda zile libere plătite din care pot fi compensate orele suplimentare ce vor fi prestate în următoarele 12 luni.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    },
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 123",
+     "citat": "În cazul în care compensarea prin ore libere plătite nu este posibilă în termenul prevăzut de art. 122 alin. (1) în luna următoare, munca suplimentară va fi plătită salariatului prin adăugarea unui spor la salariu corespunzător duratei acesteia. (2) Sporul pentru munca suplimentară, acordat în condițiile prevăzute la alin. (1), se stabilește prin negociere, în cadrul contractului colectiv de muncă sau, după caz, al contractului individual de muncă, și nu poate fi mai mic de 75% din salariul de bază.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    }
+   ]
+  },
+  {
+   "titlu": "Munca de noapte (art. 125–127)",
+   "paragrafe": [
+    "Art. 125 alin. (1) definește munca de noapte prin interval: munca prestată între orele 22,00 și 6,00. Alin. (2) definește separat salariatul de noapte, prin două criterii alternative: cel care efectuează muncă de noapte cel puțin 3 ore din timpul său zilnic de lucru, sau cel care o efectuează în proporție de cel puțin 30% din timpul său lunar de lucru.",
+    "Alin. (3) limitează durata normală a timpului de lucru pentru salariatul de noapte la o medie de 8 ore pe zi, calculată pe o perioadă de referință de maximum 3 luni calendaristice. Alin. (6) obligă angajatorul care utilizează în mod frecvent munca de noapte să informeze inspectoratul teritorial de muncă.",
+    "Art. 126 dă salariaților de noapte o alegere între două compensații: fie program de lucru redus cu o oră față de durata normală a zilei de muncă, pentru zilele în care efectuează cel puțin 3 ore de muncă de noapte, fără scăderea salariului de bază; fie un spor pentru munca prestată în timpul nopții de 25% din salariul de bază, dacă timpul astfel lucrat reprezintă cel puțin 3 ore de noapte din timpul normal de lucru.",
+    "Art. 127 alin. (1) impune un examen medical gratuit înainte de începerea activității și, după aceea, periodic. Alin. (3) prevede că salariații cu probleme de sănătate recunoscute ca având legătură cu munca de noapte vor fi trecuți la o muncă de zi pentru care sunt apți."
+   ],
+   "temei": [
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 125",
+     "citat": "Munca prestată între orele 22,00-6,00 este considerată muncă de noapte. (2) Salariatul de noapte reprezintă, după caz: a) salariatul care efectuează muncă de noapte cel puțin 3 ore din timpul său zilnic de lucru; b) salariatul care efectuează muncă de noapte în proporție de cel puțin 30% din timpul său lunar de lucru. (3) Durata normală a timpului de lucru, pentru salariatul de noapte, nu va depăși o medie de 8 ore pe zi, calculată pe o perioadă de referință de maximum 3 luni calendaristice, cu respectarea prevederilor legale cu privire la repausul săptămânal.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    },
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 125 alin. (6)",
+     "citat": "Angajatorul care, în mod frecvent, utilizează munca de noapte este obligat să informeze despre aceasta inspectoratul teritorial de muncă.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    },
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 126",
+     "citat": "Salariații de noapte beneficiază: a) fie de program de lucru redus cu o oră față de durata normală a zilei de muncă, pentru zilele în care efectuează cel puțin 3 ore de muncă de noapte, fără ca aceasta să ducă la scăderea salariului de bază; b) fie de un spor pentru munca prestată în timpul nopții de 25% din salariul de bază, dacă timpul astfel lucrat reprezintă cel puțin 3 ore de noapte din timpul normal de lucru.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    },
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 127",
+     "citat": "Salariații care urmează să desfășoare muncă de noapte în condițiile art. 125 alin. (2) sunt supuși unui examen medical gratuit înainte de începerea activității și, după aceea, periodic. [...] (3) Salariații care desfășoară muncă de noapte și au probleme de sănătate recunoscute ca având legătură cu aceasta vor fi trecuți la o muncă de zi pentru care sunt apți.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    }
+   ]
+  },
+  {
+   "titlu": "Repausul zilnic și săptămânal (art. 135–138)",
+   "paragrafe": [
+    "Art. 135 alin. (1) prevede repausul dintre două zile de muncă: nu poate fi mai mic de 12 ore consecutive. Alin. (2) dă excepția pentru munca în schimburi, unde repausul nu poate fi mai mic de 8 ore între schimburi. Regula are deci 12 ore, excepția 8 ore — nu invers.",
+    "Art. 136 alin. (1) definește munca în schimburi ca orice mod de organizare a programului de lucru potrivit căruia salariații se succed unul pe altul la același post de muncă, potrivit unui anumit program, inclusiv program rotativ.",
+    "Art. 137 alin. (1) fixează repausul săptămânal la 48 de ore consecutive, de regulă sâmbăta și duminica. Alin. (2) permite acordarea în alte zile dacă repausul de sâmbătă și duminică ar prejudicia interesul public sau desfășurarea normală a activității, caz în care alin. (3) dă dreptul la un spor la salariu.",
+    "Alin. (4) prevede situația de excepție a cumulării: zilele de repaus săptămânal sunt acordate cumulat, după o perioadă de activitate continuă ce nu poate depăși 14 zile calendaristice, cu autorizarea inspectoratului teritorial de muncă și cu acordul sindicatului sau al reprezentanților salariaților. Alin. (5) dă acestor salariați dreptul la dublul compensațiilor cuvenite potrivit art. 123 alin. (2).",
+    "Art. 138 alin. (2) prevede același drept la dublul compensațiilor pentru salariații al căror repaus săptămânal a fost suspendat pentru lucrări urgente."
+   ],
+   "temei": [
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 135",
+     "citat": "Salariații au dreptul între două zile de muncă la un repaus care nu poate fi mai mic de 12 ore consecutive. (2) Prin excepție, în cazul muncii în schimburi, acest repaus nu poate fi mai mic de 8 ore între schimburi.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    },
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 136 alin. (2)",
+     "citat": "Salariat în schimburi reprezintă orice salariat al cărui program de lucru se înscrie în cadrul programului de muncă în schimburi.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    },
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 137",
+     "citat": "Repausul săptămânal este de 48 de ore consecutive, de regulă sâmbăta și duminica. (2) În cazul în care repausul în zilele de sâmbătă și duminică ar prejudicia interesul public sau desfășurarea normală a activității, repausul săptămânal poate fi acordat și în alte zile stabilite prin contractul colectiv de muncă aplicabil",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    },
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 137 alin. (3)",
+     "citat": "În situația prevăzută la alin. (2) salariații vor beneficia de un spor la salariu stabilit prin contractul colectiv de muncă sau, după caz, prin contractul individual de muncă.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    },
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 137 alin. (5)",
+     "citat": "Salariații al căror repaus săptămânal se acordă în condițiile alin. (4) au dreptul la dublul compensațiilor cuvenite potrivit art. 123 alin. (2).",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    },
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 138 alin. (2)",
+     "citat": "Salariații al căror repaus săptămânal a fost suspendat în condițiile alin. (1) au dreptul la dublul compensațiilor cuvenite potrivit art. 123 alin. (2).",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    }
+   ]
+  },
+  {
+   "titlu": "Sărbătorile legale (art. 139, 141, 142)",
+   "paragrafe": [
+    "Art. 139 alin. (1) enumeră zilele de sărbătoare legală în care nu se lucrează, de la 1 și 2 ianuarie până la prima și a doua zi de Crăciun, incluzând Boboteaza, Soborul Sfântului Proroc Ioan Botezătorul, 24 ianuarie, Vinerea Mare, Paștele, 1 mai, 1 iunie, Rusaliile, Adormirea Maicii Domnului, 30 noiembrie și 1 decembrie.",
+    "Ultima liniuță a enumerării privește persoanele aparținând altor culte decât cele creștine: două zile pentru fiecare dintre cele 3 sărbători religioase anuale declarate astfel de cultele religioase legale. Alin. (3) prevede că aceste zile se acordă de angajator în alte zile decât zilele de sărbătoare legală sau de concediu de odihnă.",
+    "Art. 141 exclude aplicarea art. 139 în locurile de muncă în care activitatea nu poate fi întreruptă datorită caracterului procesului de producție sau specificului activității.",
+    "Art. 142 alin. (1) prevede compensarea cu timp liber corespunzător în următoarele 30 de zile. Alin. (2) dă soluția subsidiară: dacă din motive justificate nu se acordă zile libere, salariații beneficiază de un spor la salariul de bază ce nu poate fi mai mic de 100% din salariul de bază corespunzător muncii prestate."
+   ],
+   "temei": [
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 139 alin. (1)",
+     "citat": "Zilele de sărbătoare legală în care nu se lucrează sunt: – 1 și 2 ianuarie; – 6 ianuarie - Botezul Domnului - Boboteaza; – 7 ianuarie - Soborul Sfântului Proroc Ioan Botezătorul; – 24 ianuarie – Ziua Unirii Principatelor Române; – Vinerea Mare, ultima zi de vineri înaintea Paștelui; – prima și a doua zi de Paști; – 1 mai; – 1 iunie; – prima și a doua zi de Rusalii; – Adormirea Maicii Domnului; – 30 noiembrie - Sfântul Apostol Andrei, cel Întâi chemat, Ocrotitorul României; – 1 decembrie; – prima și a doua zi de Crăciun; – două zile pentru fiecare dintre cele 3 sărbători religioase anuale, declarate astfel de cultele religioase legale, altele decât cele creștine, pentru persoanele aparținând acestora.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    },
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 141",
+     "citat": "Prevederile art. 139 nu se aplică în locurile de muncă în care activitatea nu poate fi întreruptă datorită caracterului procesului de producție sau specificului activității.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    },
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 142 alin. (1)",
+     "citat": "Salariaților care lucrează în unitățile prevăzute la art. 140, precum și la locurile de muncă prevăzute la art. 141 li se asigură compensarea cu timp liber corespunzător în următoarele 30 de zile.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    }
+   ]
+  },
+  {
+   "titlu": "Concediul de odihnă (art. 144–147, 149–152)",
+   "paragrafe": [
+    "Art. 144 garantează dreptul la concediu de odihnă anual plătit tuturor salariaților și, la alin. (2), îl declară insusceptibil de cesiune, renunțare sau limitare.",
+    "Art. 145 alin. (1) fixează durata minimă la 20 de zile lucrătoare, iar alin. (2) lasă durata efectivă în seama contractului individual de muncă, cu respectarea legii și a contractelor colective. Alin. (3) exclude din durata concediului sărbătorile legale în care nu se lucrează și zilele libere plătite stabilite prin contractul colectiv.",
+    "Alin. (5) prevede întreruperea concediului dacă în timpul lui survine incapacitatea temporară de muncă, concediul de maternitate, cel de risc maternal ori cel pentru îngrijirea copilului bolnav. Alin. (6) păstrează dreptul la concediu de odihnă chiar dacă incapacitatea temporară de muncă se menține pe întreaga perioadă a unui an calendaristic.",
+    "Art. 146 alin. (1) cere efectuarea concediului în fiecare an, iar alin. (3) limitează strict compensarea în bani a concediului neefectuat: este permisă numai în cazul încetării contractului individual de muncă.",
+    "Art. 147 prevede, pentru salariații care lucrează în condiții grele, periculoase sau vătămătoare, pentru nevăzători, alte persoane cu handicap și tinerii în vârstă de până la 18 ani, un concediu de odihnă suplimentar de cel puțin 3 zile lucrătoare.",
+    "Art. 150 alin. (1) leagă indemnizația de concediu de un prag: nu poate fi mai mică decât salariul de bază, indemnizațiile și sporurile cu caracter permanent cuvenite pentru perioada respectivă. Alin. (2) o calculează ca media zilnică a acestor drepturi din ultimele 3 luni anterioare celei în care este efectuat concediul, multiplicată cu numărul de zile de concediu, iar alin. (3) impune plata cu cel puțin 5 zile lucrătoare înainte de plecarea în concediu.",
+    "Art. 151 distinge întreruperea la cererea salariatului, pentru motive obiective (alin. (1)), de rechemarea de către angajator, posibilă în caz de forță majoră sau pentru interese urgente, cu obligația angajatorului de a suporta cheltuielile salariatului și ale familiei sale (alin. (2)).",
+    "Art. 152 prevede dreptul la zile libere plătite în cazul unor evenimente familiale deosebite, care nu se includ în durata concediului de odihnă; evenimentele și numărul zilelor se stabilesc prin lege, prin contractul colectiv aplicabil sau prin regulamentul intern."
+   ],
+   "temei": [
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 144",
+     "citat": "Dreptul la concediu de odihnă anual plătit este garantat tuturor salariaților. (2) Dreptul la concediu de odihnă anual nu poate forma obiectul vreunei cesiuni, renunțări sau limitări.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    },
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 145",
+     "citat": "Durata minimă a concediului de odihnă anual este de 20 de zile lucrătoare. (2) Durata efectivă a concediului de odihnă anual se stabilește în contractul individual de muncă, cu respectarea legii și a contractelor colective de muncă aplicabile. (3) Sărbătorile legale în care nu se lucrează, precum și zilele libere plătite stabilite prin contractul colectiv de muncă aplicabil nu sunt incluse în durata concediului de odihnă anual.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    },
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 146",
+     "citat": "Concediul de odihnă se efectuează în fiecare an. [...] (3) Compensarea în bani a concediului de odihnă neefectuat este permisă numai în cazul încetării contractului individual de muncă.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    },
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 147",
+     "citat": "Salariații care lucrează în condiții grele, periculoase sau vătămătoare, nevăzătorii, alte persoane cu handicap și tinerii în vârstă de până la 18 ani beneficiază de un concediu de odihnă suplimentar de cel puțin 3 zile lucrătoare.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    },
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 149",
+     "citat": "Salariatul este obligat să efectueze în natură concediul de odihnă în perioada în care a fost programat, cu excepția situațiilor expres prevăzute de lege sau atunci când, din motive obiective, concediul nu poate fi efectuat.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    },
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 150",
+     "citat": "Pentru perioada concediului de odihnă salariatul beneficiază de o indemnizație de concediu, care nu poate fi mai mică decât salariul de bază, indemnizațiile și sporurile cu caracter permanent cuvenite pentru perioada respectivă",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    },
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 150 alin. (2)",
+     "citat": "Indemnizația de concediu de odihnă reprezintă media zilnică a drepturilor salariale prevăzute la alin. (1) din ultimele 3 luni anterioare celei în care este efectuat concediul, multiplicată cu numărul de zile de concediu.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    },
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 150 alin. (3)",
+     "citat": "Indemnizația de concediu de odihnă se plătește de către angajator cu cel puțin 5 zile lucrătoare înainte de plecarea în concediu.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    },
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 151",
+     "citat": "Concediul de odihnă poate fi întrerupt, la cererea salariatului, pentru motive obiective.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    },
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 152",
+     "citat": "În cazul unor evenimente familiale deosebite, salariații au dreptul la zile libere plătite, care nu se includ în durata concediului de odihnă. (2) Evenimentele familiale deosebite și numărul zilelor libere plătite sunt stabilite prin lege, prin contractul colectiv de muncă aplicabil sau prin regulamentul intern.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    }
+   ]
+  },
+  {
+   "titlu": "Concediile fără plată și pentru formare profesională (art. 153–155, 158)",
+   "paragrafe": [
+    "Art. 153 prevede dreptul la concedii fără plată pentru rezolvarea unor situații personale, cu durata stabilită prin contractul colectiv de muncă aplicabil sau prin regulamentul intern — nu prin lege.",
+    "Art. 154 recunoaște dreptul la concedii pentru formare profesională, acordate la cerere, și precizează că acestea se pot acorda cu sau fără plată.",
+    "Art. 155 alin. (1) leagă concediul fără plată pentru formare profesională de inițiativa salariatului. Alin. (2) limitează dreptul angajatorului de a refuza: poate respinge solicitarea numai dacă absența salariatului ar prejudicia grav desfășurarea activității.",
+    "Art. 158 dă două reguli de calcul: durata concediului pentru formare profesională nu poate fi dedusă din durata concediului de odihnă anual și este asimilată unei perioade de muncă efectivă în ceea ce privește drepturile cuvenite salariatului, altele decât salariul."
+   ],
+   "temei": [
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 153",
+     "citat": "Pentru rezolvarea unor situații personale salariații au dreptul la concedii fără plată. (2) Durata concediului fără plată se stabilește prin contractul colectiv de muncă aplicabil sau prin regulamentul intern.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    },
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 154",
+     "citat": "Salariații au dreptul să beneficieze, la cerere, de concedii pentru formare profesională. (2) Concediile pentru formare profesională se pot acorda cu sau fără plată.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    },
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 155",
+     "citat": "Concediile fără plată pentru formare profesională se acordă la solicitarea salariatului, pe perioada formării profesionale pe care salariatul o urmează din inițiativa sa. (2) Angajatorul poate respinge solicitarea salariatului numai dacă absența salariatului ar prejudicia grav desfășurarea activității.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    },
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 158",
+     "citat": "Durata concediului pentru formare profesională nu poate fi dedusă din durata concediului de odihnă anual și este asimilată unei perioade de muncă efectivă în ceea ce privește drepturile cuvenite salariatului, altele decât salariul.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    }
+   ]
+  }
+ ],
+ "capcane": [
+  "Repausul zilnic: regula este de cel puțin 12 ore consecutive, iar excepția pentru munca în schimburi de cel puțin 8 ore între schimburi (art. 135). Distractorul clasic inversează regula cu excepția.",
+  "Cele 24 de ore de repaus nu sunt repaus zilnic general: ele urmează unei zile de muncă de 12 ore (art. 115 alin. (2)). Cele 48 de ore consecutive sunt repausul săptămânal (art. 137 alin. (1)).",
+  "Maximul de 48 de ore pe săptămână include orele suplimentare (art. 114 alin. (1)). Perioada de referință este de 4 luni calendaristice, extensibilă prin contract colectiv la cel mult 6 luni.",
+  "Munca suplimentară se compensează cu ore libere plătite în 90 de zile calendaristice (art. 122 alin. (1)); sporul de cel puțin 75% intervine doar dacă această compensare nu este posibilă (art. 123).",
+  "Sporul minim pentru munca prestată în zilele de sărbătoare legală este de 100% din salariul de bază (art. 142 alin. (2)), iar compensarea cu timp liber se face în următoarele 30 de zile — cifre diferite de cele de la munca suplimentară.",
+  "Munca de noapte se definește prin interval (22,00-6,00), iar salariatul de noapte prin două criterii alternative: cel puțin 3 ore din timpul zilnic sau cel puțin 30% din timpul lunar (art. 125).",
+  "La munca de noapte compensarea este alternativă: fie o oră de program redus fără scăderea salariului, fie spor de 25% din salariul de bază (art. 126) — nu ambele.",
+  "Durata minimă a concediului de odihnă este de 20 de zile lucrătoare (art. 145 alin. (1)), iar concediul suplimentar pentru condiții grele este de cel puțin 3 zile lucrătoare (art. 147).",
+  "Compensarea în bani a concediului de odihnă neefectuat este permisă numai la încetarea contractului individual de muncă (art. 146 alin. (3)).",
+  "Indemnizația de concediu se calculează ca medie zilnică a drepturilor din ultimele 3 luni și se plătește cu cel puțin 5 zile lucrătoare înainte de plecarea în concediu (art. 150).",
+  "Repausul săptămânal cumulat se poate acorda după o perioadă de activitate continuă de cel mult 14 zile calendaristice, cu autorizarea inspectoratului teritorial de muncă (art. 137 alin. (4))."
+ ],
+ "intrebari": [
+  "CM-243",
+  "CM-333",
+  "CM-314",
+  "CM-236",
+  "CM-237",
+  "CM-238",
+  "CM-239",
+  "CM-240",
+  "CM-241",
+  "CM-242",
+  "CM-244",
+  "CM-302",
+  "CM-303",
+  "CM-304",
+  "CM-305",
+  "CM-306",
+  "CM-307",
+  "CM-308",
+  "CM-309",
+  "CM-310",
+  "CM-311",
+  "CM-312",
+  "CM-313",
+  "CM-315",
+  "CM-316",
+  "CM-317",
+  "CM-318",
+  "CM-319",
+  "CM-320",
+  "CM-321",
+  "CM-322",
+  "CM-323",
+  "CM-324",
+  "CM-325",
+  "CM-328",
+  "CM-331",
+  "CM-332"
+ ]
+}

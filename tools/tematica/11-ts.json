@@ -1,0 +1,1093 @@
+[
+ {
+  "loc": "Durata timpului de muncă și repartizarea lui (art. 111–119) / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 111 alin. (1) definește timpul de muncă prin trei elemente simultane: perioada în care salariatul prestează munca, se află la dispoziția angajatorului și își îndeplinește sarcinile și atribuțiile.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.02,
+     "absenta_corecta": 0.0,
+     "sustine": 0.98,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.97
+   },
+   "1": {
+    "text": "Alin. (2) definește separat programul de muncă, ca model de organizare a activității care stabilește orele și zilele când începe și se încheie prestarea muncii.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0,
+     "sustine": 1.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 5245
+ },
+ {
+  "loc": "Durata timpului de muncă și repartizarea lui (art. 111–119) / paragraful 2",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 112 dă cele două perechi de cifre: pentru salariații cu normă întreagă, 8 ore pe zi și 40 de ore pe săptămână; pentru tinerii în vârstă de până la 18 ani, 6 ore pe zi și 30 de ore pe săptămână.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 4716
+ },
+ {
+  "loc": "Durata timpului de muncă și repartizarea lui (art. 111–119) / paragraful 3",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 113 alin. (1) prevede repartizarea uniformă ca regulă — 8 ore pe zi timp de 5 zile, cu două zile de repaus — iar alin. (2) admite repartizarea inegală în funcție de specificul unității sau al muncii, cu respectarea duratei normale de 40 de ore pe săptămână.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 4789
+ },
+ {
+  "loc": "Durata timpului de muncă și repartizarea lui (art. 111–119) / paragraful 4",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 114 alin. (1) fixează durata maximă legală la 48 de ore pe săptămână, inclusiv orele suplimentare.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Alin. (2) permite depășirea, cu condiția ca media calculată pe o perioadă de referință de 4 luni calendaristice să nu depășească 48 de ore pe săptămână, iar alin. (3) permite negocierea, prin contract colectiv, a unor perioade de referință mai mari de 4 luni, dar care să nu depășească 6 luni.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.96,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.04
+    },
+    "confidence": 0.95
+   }
+  },
+  "usage": 5217
+ },
+ {
+  "loc": "Durata timpului de muncă și repartizarea lui (art. 111–119) / paragraful 5",
+  "afirmatii": {
+   "0": {
+    "text": "Alin. (5) prevede că la stabilirea perioadelor de referință nu se iau în calcul durata concediului de odihnă anual și situațiile de suspendare a contractului.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Alin. (6) exclude de la aplicarea acestor reguli tinerii care nu au împlinit vârsta de 18 ani.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 5094
+ },
+ {
+  "loc": "Durata timpului de muncă și repartizarea lui (art. 111–119) / paragraful 6",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 115 alin. (1) permite, pentru anumite sectoare, unități sau profesii, o durată zilnică mai mică sau mai mare de 8 ore, stabilită prin negocieri sau prin acte normative specifice.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Alin. (2) leagă o durată zilnică de 12 ore de o perioadă de repaus de 24 de ore.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 5186
+ },
+ {
+  "loc": "Durata timpului de muncă și repartizarea lui (art. 111–119) / paragraful 7",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 116 alin. (2) condiționează programul de lucru inegal de menționarea lui expresă în contractul individual de muncă.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Art. 117 impune aducerea la cunoștința salariaților a programului de muncă și a modului de repartizare pe zile, precum și afișarea la sediul angajatorului.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 5144
+ },
+ {
+  "loc": "Durata timpului de muncă și repartizarea lui (art. 111–119) / paragraful 8",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 118 reglementează programele individualizate de muncă: alin. (3) le descrie prin împărțirea zilei în două perioade — una fixă, în care personalul se află simultan la locul de muncă, și una variabilă, mobilă, în care salariatul își alege orele de sosire și de plecare.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Alin. (4) le condiționează de respectarea art. 112 și 114, iar alin. (5) impune angajatorului ca orice refuz al solicitării să fie motivat în scris, în termen de 5 zile lucrătoare de la primire.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 5176
+ },
+ {
+  "loc": "Munca suplimentară (art. 120–123) / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 120 alin. (1) definește munca suplimentară prin raportare la durata normală săptămânală de la art. 112.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Alin. (2) o condiționează de acordul salariatului, cu excepția cazului de forță majoră sau a lucrărilor urgente destinate prevenirii producerii unor accidente ori înlăturării consecințelor unui accident.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 3268
+ },
+ {
+  "loc": "Munca suplimentară (art. 120–123) / paragraful 2",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 121 alin. (2) interzice efectuarea muncii suplimentare peste limita stabilită potrivit art. 114 sau 115, cu aceleași două excepții.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.25,
+     "contrazice": 0.18,
+     "absenta_corecta": 0.02,
+     "sustine": 0.55
+    },
+    "confidence": 0.4
+   }
+  },
+  "usage": 2870
+ },
+ {
+  "loc": "Munca suplimentară (art. 120–123) / paragraful 3",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 122 alin. (1) stabilește modul principal de compensare: prin ore libere plătite în următoarele 90 de zile calendaristice după efectuarea muncii suplimentare.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.99
+   },
+   "1": {
+    "text": "Alin. (3) permite, în perioadele de reducere a activității, acordarea de zile libere plătite din care pot fi compensate orele suplimentare ce vor fi prestate în următoarele 12 luni.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.99,
+     "contrazice": 0.01,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.99
+   }
+  },
+  "usage": 3202
+ },
+ {
+  "loc": "Munca suplimentară (art. 120–123) / paragraful 4",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 123 prevede soluția subsidiară: dacă în luna următoare compensarea prin ore libere plătite nu este posibilă în termenul de la art. 122 alin. (1), munca suplimentară se plătește prin adăugarea unui spor la salariu.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.02,
+     "sustine": 0.98,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.98
+   },
+   "1": {
+    "text": "Alin. (2) arată că sporul se stabilește prin negociere și nu poate fi mai mic de 75% din salariul de bază — este un prag minim.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 3213
+ },
+ {
+  "loc": "Munca de noapte (art. 125–127) / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 125 alin. (1) definește munca de noapte prin interval: munca prestată între orele 22,00 și 6,00.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Alin. (2) definește separat salariatul de noapte, prin două criterii alternative: cel care efectuează muncă de noapte cel puțin 3 ore din timpul său zilnic de lucru, sau cel care o efectuează în proporție de cel puțin 30% din timpul său lunar de lucru.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 3791
+ },
+ {
+  "loc": "Munca de noapte (art. 125–127) / paragraful 2",
+  "afirmatii": {
+   "0": {
+    "text": "Alin. (3) limitează durata normală a timpului de lucru pentru salariatul de noapte la o medie de 8 ore pe zi, calculată pe o perioadă de referință de maximum 3 luni calendaristice.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Alin. (6) obligă angajatorul care utilizează în mod frecvent munca de noapte să informeze inspectoratul teritorial de muncă.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 3720
+ },
+ {
+  "loc": "Munca de noapte (art. 125–127) / paragraful 3",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 126 dă salariaților de noapte o alegere între două compensații: fie program de lucru redus cu o oră față de durata normală a zilei de muncă, pentru zilele în care efectuează cel puțin 3 ore de muncă de noapte, fără scăderea salariului de bază; fie un spor pentru munca prestată în timpul nopții de 25% din salariul de bază, dacă timpul astfel lucrat reprezintă cel puțin 3 ore de noapte din timpul normal de lucru.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 3376
+ },
+ {
+  "loc": "Munca de noapte (art. 125–127) / paragraful 4",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 127 alin. (1) impune un examen medical gratuit înainte de începerea activității și, după aceea, periodic.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Alin. (3) prevede că salariații cu probleme de sănătate recunoscute ca având legătură cu munca de noapte vor fi trecuți la o muncă de zi pentru care sunt apți.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 3780
+ },
+ {
+  "loc": "Repausul zilnic și săptămânal (art. 135–138) / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 135 alin. (1) prevede repausul dintre două zile de muncă: nu poate fi mai mic de 12 ore consecutive.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Alin. (2) dă excepția pentru munca în schimburi, unde repausul nu poate fi mai mic de 8 ore între schimburi.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   },
+   "2": {
+    "text": "Regula are deci 12 ore, excepția 8 ore — nu invers.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 0.99
+   }
+  },
+  "usage": 4093
+ },
+ {
+  "loc": "Repausul zilnic și săptămânal (art. 135–138) / paragraful 2",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 136 alin. (1) definește munca în schimburi ca orice mod de organizare a programului de lucru potrivit căruia salariații se succed unul pe altul la același post de muncă, potrivit unui anumit program, inclusiv program rotativ.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.99
+   }
+  },
+  "usage": 3428
+ },
+ {
+  "loc": "Repausul zilnic și săptămânal (art. 135–138) / paragraful 3",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 137 alin. (1) fixează repausul săptămânal la 48 de ore consecutive, de regulă sâmbăta și duminica.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Alin. (2) permite acordarea în alte zile dacă repausul de sâmbătă și duminică ar prejudicia interesul public sau desfășurarea normală a activității, caz în care alin. (3) dă dreptul la un spor la salariu.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 3741
+ },
+ {
+  "loc": "Repausul zilnic și săptămânal (art. 135–138) / paragraful 4",
+  "afirmatii": {
+   "0": {
+    "text": "Alin. (4) prevede situația de excepție a cumulării: zilele de repaus săptămânal sunt acordate cumulat, după o perioadă de activitate continuă ce nu poate depăși 14 zile calendaristice, cu autorizarea inspectoratului teritorial de muncă și cu acordul sindicatului sau al reprezentanților salariaților.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 0.99
+   },
+   "1": {
+    "text": "Alin. (5) dă acestor salariați dreptul la dublul compensațiilor cuvenite potrivit art. 123 alin. (2).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 3716
+ },
+ {
+  "loc": "Repausul zilnic și săptămânal (art. 135–138) / paragraful 5",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 138 alin. (2) prevede același drept la dublul compensațiilor pentru salariații al căror repaus săptămânal a fost suspendat pentru lucrări urgente.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 3334
+ },
+ {
+  "loc": "Sărbătorile legale (art. 139, 141, 142) / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 139 alin. (1) enumeră zilele de sărbătoare legală în care nu se lucrează, de la 1 și 2 ianuarie până la prima și a doua zi de Crăciun, incluzând Boboteaza, Soborul Sfântului Proroc Ioan Botezătorul, 24 ianuarie, Vinerea Mare, Paștele, 1 mai, 1 iunie, Rusaliile, Adormirea Maicii Domnului, 30 noiembrie și 1 decembrie.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.96,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.04
+    },
+    "confidence": 0.94
+   }
+  },
+  "usage": 3592
+ },
+ {
+  "loc": "Sărbătorile legale (art. 139, 141, 142) / paragraful 2",
+  "afirmatii": {
+   "0": {
+    "text": "Ultima liniuță a enumerării privește persoanele aparținând altor culte decât cele creștine: două zile pentru fiecare dintre cele 3 sărbători religioase anuale declarate astfel de cultele religioase legale.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0
+    },
+    "confidence": 0.99
+   },
+   "1": {
+    "text": "Alin. (3) prevede că aceste zile se acordă de angajator în alte zile decât zilele de sărbătoare legală sau de concediu de odihnă.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0
+    },
+    "confidence": 0.99
+   }
+  },
+  "usage": 3659
+ },
+ {
+  "loc": "Sărbătorile legale (art. 139, 141, 142) / paragraful 3",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 141 exclude aplicarea art. 139 în locurile de muncă în care activitatea nu poate fi întreruptă datorită caracterului procesului de producție sau specificului activității.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 3231
+ },
+ {
+  "loc": "Sărbătorile legale (art. 139, 141, 142) / paragraful 4",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 142 alin. (1) prevede compensarea cu timp liber corespunzător în următoarele 30 de zile.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0,
+     "sustine": 1.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Alin. (2) dă soluția subsidiară: dacă din motive justificate nu se acordă zile libere, salariații beneficiază de un spor la salariul de bază ce nu poate fi mai mic de 100% din salariul de bază corespunzător muncii prestate.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 3752
+ },
+ {
+  "loc": "Concediul de odihnă (art. 144–147, 149–152) / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 144 garantează dreptul la concediu de odihnă anual plătit tuturor salariaților și, la alin. (2), îl declară insusceptibil de cesiune, renunțare sau limitare.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 4410
+ },
+ {
+  "loc": "Concediul de odihnă (art. 144–147, 149–152) / paragraful 2",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 145 alin. (1) fixează durata minimă la 20 de zile lucrătoare, iar alin. (2) lasă durata efectivă în seama contractului individual de muncă, cu respectarea legii și a contractelor colective.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Alin. (3) exclude din durata concediului sărbătorile legale în care nu se lucrează și zilele libere plătite stabilite prin contractul colectiv.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 4885
+ },
+ {
+  "loc": "Concediul de odihnă (art. 144–147, 149–152) / paragraful 3",
+  "afirmatii": {
+   "0": {
+    "text": "Alin. (5) prevede întreruperea concediului dacă în timpul lui survine incapacitatea temporară de muncă, concediul de maternitate, cel de risc maternal ori cel pentru îngrijirea copilului bolnav.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Alin. (6) păstrează dreptul la concediu de odihnă chiar dacă incapacitatea temporară de muncă se menține pe întreaga perioadă a unui an calendaristic.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 4840
+ },
+ {
+  "loc": "Concediul de odihnă (art. 144–147, 149–152) / paragraful 4",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 146 alin. (1) cere efectuarea concediului în fiecare an, iar alin. (3) limitează strict compensarea în bani a concediului neefectuat: este permisă numai în cazul încetării contractului individual de muncă.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 4451
+ },
+ {
+  "loc": "Concediul de odihnă (art. 144–147, 149–152) / paragraful 5",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 147 prevede, pentru salariații care lucrează în condiții grele, periculoase sau vătămătoare, pentru nevăzători, alte persoane cu handicap și tinerii în vârstă de până la 18 ani, un concediu de odihnă suplimentar de cel puțin 3 zile lucrătoare.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 4439
+ },
+ {
+  "loc": "Concediul de odihnă (art. 144–147, 149–152) / paragraful 6",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 150 alin. (1) leagă indemnizația de concediu de un prag: nu poate fi mai mică decât salariul de bază, indemnizațiile și sporurile cu caracter permanent cuvenite pentru perioada respectivă.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Alin. (2) o calculează ca media zilnică a acestor drepturi din ultimele 3 luni anterioare celei în care este efectuat concediul, multiplicată cu numărul de zile de concediu, iar alin. (3) impune plata cu cel puțin 5 zile lucrătoare înainte de plecarea în concediu.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 4978
+ },
+ {
+  "loc": "Concediul de odihnă (art. 144–147, 149–152) / paragraful 7",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 151 distinge întreruperea la cererea salariatului, pentru motive obiective (alin. (1)), de rechemarea de către angajator, posibilă în caz de forță majoră sau pentru interese urgente, cu obligația angajatorului de a suporta cheltuielile salariatului și ale familiei sale (alin. (2)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 4439
+ },
+ {
+  "loc": "Concediul de odihnă (art. 144–147, 149–152) / paragraful 8",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 152 prevede dreptul la zile libere plătite în cazul unor evenimente familiale deosebite, care nu se includ în durata concediului de odihnă; evenimentele și numărul zilelor se stabilesc prin lege, prin contractul colectiv aplicabil sau prin regulamentul intern.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 4426
+ },
+ {
+  "loc": "Concediile fără plată și pentru formare profesională (art. 1 / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 153 prevede dreptul la concedii fără plată pentru rezolvarea unor situații personale, cu durata stabilită prin contractul colectiv de muncă aplicabil sau prin regulamentul intern — nu prin lege.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.02,
+     "nu_spune": 0.0,
+     "contrazice": 0.01,
+     "sustine": 0.97
+    },
+    "confidence": 0.97
+   }
+  },
+  "usage": 2459
+ },
+ {
+  "loc": "Concediile fără plată și pentru formare profesională (art. 1 / paragraful 2",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 154 recunoaște dreptul la concedii pentru formare profesională, acordate la cerere, și precizează că acestea se pot acorda cu sau fără plată.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 2449
+ },
+ {
+  "loc": "Concediile fără plată și pentru formare profesională (art. 1 / paragraful 3",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 155 alin. (1) leagă concediul fără plată pentru formare profesională de inițiativa salariatului.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Alin. (2) limitează dreptul angajatorului de a refuza: poate respinge solicitarea numai dacă absența salariatului ar prejudicia grav desfășurarea activității.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 2930
+ },
+ {
+  "loc": "Concediile fără plată și pentru formare profesională (art. 1 / paragraful 4",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 158 dă două reguli de calcul: durata concediului pentru formare profesională nu poate fi dedusă din durata concediului de odihnă anual și este asimilată unei perioade de muncă efectivă în ceea ce privește drepturile cuvenite salariatului, altele decât salariul.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 2484
+ },
+ {
+  "loc": "capcana 1",
+  "afirmatii": {
+   "0": {
+    "text": "Repausul zilnic: regula este de cel puțin 12 ore consecutive, iar excepția pentru munca în schimburi de cel puțin 8 ore între schimburi (art. 135).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Distractorul clasic inversează regula cu excepția.",
+    "alegere": "nu_spune",
+    "probabilitati": {
+     "nu_spune": 0.68,
+     "contrazice": 0.16,
+     "absenta_corecta": 0.01,
+     "sustine": 0.15
+    },
+    "confidence": 0.57
+   }
+  },
+  "usage": 14061
+ },
+ {
+  "loc": "capcana 2",
+  "afirmatii": {
+   "0": {
+    "text": "Cele 24 de ore de repaus nu sunt repaus zilnic general: ele urmează unei zile de muncă de 12 ore (art. 115 alin. (2)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.03,
+     "absenta_corecta": 0.04,
+     "sustine": 0.92,
+     "contrazice": 0.01
+    },
+    "confidence": 0.88
+   },
+   "1": {
+    "text": "Cele 48 de ore consecutive sunt repausul săptămânal (art. 137 alin. (1)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 14169
+ },
+ {
+  "loc": "capcana 3",
+  "afirmatii": {
+   "0": {
+    "text": "Maximul de 48 de ore pe săptămână include orele suplimentare (art. 114 alin. (1)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Perioada de referință este de 4 luni calendaristice, extensibilă prin contract colectiv la cel mult 6 luni.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.99,
+     "contrazice": 0.01,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.98
+   }
+  },
+  "usage": 14118
+ },
+ {
+  "loc": "capcana 4",
+  "afirmatii": {
+   "0": {
+    "text": "Munca suplimentară se compensează cu ore libere plătite în 90 de zile calendaristice (art. 122 alin. (1)); sporul de cel puțin 75% intervine doar dacă această compensare nu este posibilă (art. 123).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 13688
+ },
+ {
+  "loc": "capcana 5",
+  "afirmatii": {
+   "0": {
+    "text": "Sporul minim pentru munca prestată în zilele de sărbătoare legală este de 100% din salariul de bază (art. 142 alin. (2)), iar compensarea cu timp liber se face în următoarele 30 de zile — cifre diferite de cele de la munca suplimentară.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.99,
+     "contrazice": 0.01,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 0.99
+   }
+  },
+  "usage": 13811
+ },
+ {
+  "loc": "capcana 6",
+  "afirmatii": {
+   "0": {
+    "text": "Munca de noapte se definește prin interval (22,00-6,00), iar salariatul de noapte prin două criterii alternative: cel puțin 3 ore din timpul zilnic sau cel puțin 30% din timpul lunar (art. 125).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 13685
+ },
+ {
+  "loc": "capcana 7",
+  "afirmatii": {
+   "0": {
+    "text": "La munca de noapte compensarea este alternativă: fie o oră de program redus fără scăderea salariului, fie spor de 25% din salariul de bază (art. 126) — nu ambele.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.01,
+     "sustine": 0.99,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 0.99
+   }
+  },
+  "usage": 13674
+ },
+ {
+  "loc": "capcana 8",
+  "afirmatii": {
+   "0": {
+    "text": "Durata minimă a concediului de odihnă este de 20 de zile lucrătoare (art. 145 alin. (1)), iar concediul suplimentar pentru condiții grele este de cel puțin 3 zile lucrătoare (art. 147).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 13734
+ },
+ {
+  "loc": "capcana 9",
+  "afirmatii": {
+   "0": {
+    "text": "Compensarea în bani a concediului de odihnă neefectuat este permisă numai la încetarea contractului individual de muncă (art. 146 alin. (3)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 13718
+ },
+ {
+  "loc": "capcana 10",
+  "afirmatii": {
+   "0": {
+    "text": "Indemnizația de concediu se calculează ca medie zilnică a drepturilor din ultimele 3 luni și se plătește cu cel puțin 5 zile lucrătoare înainte de plecarea în concediu (art. 150).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 13686
+ },
+ {
+  "loc": "capcana 11",
+  "afirmatii": {
+   "0": {
+    "text": "Repausul săptămânal cumulat se poate acorda după o perioadă de activitate continuă de cel mult 14 zile calendaristice, cu autorizarea inspectoratului teritorial de muncă (art. 137 alin. (4)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.99,
+     "contrazice": 0.01,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.99
+   }
+  },
+  "usage": 13793
+ }
+]
