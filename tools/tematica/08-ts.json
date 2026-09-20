@@ -1,0 +1,699 @@
+[
+ {
+  "loc": "Natura juridică, coordonarea și controlul (art. 1, 2, 3, 5) / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 1 definește Serviciul de Informații Externe ca organ de stat specializat în domeniul informațiilor externe privind siguranța națională și apărarea României și a intereselor sale.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Definiția cuprinde deci atât siguranța națională, cât și apărarea și interesele statului.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 3322
+ },
+ {
+  "loc": "Natura juridică, coordonarea și controlul (art. 1, 2, 3, 5) / paragraful 2",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 2 alin. (1) îl așază în sistemul național de apărare și încredințează organizarea și coordonarea activității sale Consiliului Suprem de Apărare a Țării.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Alin. (2) prevede obligația de raportare: directorul prezintă Consiliului Suprem de Apărare a Țării rapoarte referitoare la modul de îndeplinire a atribuțiilor, anual sau ori de câte ori se impune.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 3432
+ },
+ {
+  "loc": "Natura juridică, coordonarea și controlul (art. 1, 2, 3, 5) / paragraful 3",
+  "afirmatii": {
+   "0": {
+    "text": "Controlul este o funcție distinctă de coordonare și aparține Parlamentului.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "nu_spune": 0.05,
+     "sustine": 0.95,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 0.92
+   },
+   "1": {
+    "text": "Art. 3 alin. (1) prevede că el se exercită cu respectarea secretului asupra mijloacelor și surselor de informare, printr-o comisie specială formată din patru deputați și trei senatori, aleși din cadrul comisiilor pentru apărare, ordine publică și siguranță națională ale celor două Camere.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 3474
+ },
+ {
+  "loc": "Natura juridică, coordonarea și controlul (art. 1, 2, 3, 5) / paragraful 4",
+  "afirmatii": {
+   "0": {
+    "text": "Alin. (2) precizează obiectul controlului — verificarea concordanței activității Serviciului cu Constituția României și cu politica statului român — și forma de reglementare: organizarea, funcționarea și modalitățile de exercitare se stabilesc printr-o hotărâre comună a celor două Camere.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.01,
+     "sustine": 0.99,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.99
+   }
+  },
+  "usage": 2952
+ },
+ {
+  "loc": "Natura juridică, coordonarea și controlul (art. 1, 2, 3, 5) / paragraful 5",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 5 alin. (1) stabilește forma de organizare: autoritate administrativă autonomă.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Alin. (2) enumeră ce se aprobă de Consiliul Suprem de Apărare a Țării: structura organizatorică, efectivele în timp de pace și la mobilizare, regulamentul de funcționare și atribuțiile Serviciului.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 3383
+ },
+ {
+  "loc": "Directorul, atribuțiile sale și Consiliul director (art. 6,  / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 6 alin. (1) reunește trei elemente care se confundă ușor: directorul are rang de ministru; este numit de Camera Deputaților și Senat în ședință comună; iar propunerea aparține Președintelui României.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.04,
+     "sustine": 0.96
+    },
+    "confidence": 0.95
+   },
+   "1": {
+    "text": "Numirea nu este deci nici a Președintelui, nici a Consiliului Suprem de Apărare a Țării.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.01,
+     "absenta_corecta": 0.14,
+     "nu_spune": 0.01,
+     "sustine": 0.84
+    },
+    "confidence": 0.79
+   }
+  },
+  "usage": 3533
+ },
+ {
+  "loc": "Directorul, atribuțiile sale și Consiliul director (art. 6,  / paragraful 2",
+  "afirmatii": {
+   "0": {
+    "text": "Alin. (2) prevede că la numirea în funcție directorul depune jurământul în fața Președintelui României — singura atribuție a Președintelui, alături de propunere.",
+    "alegere": "contrazice",
+    "probabilitati": {
+     "sustine": 0.43,
+     "absenta_corecta": 0.02,
+     "nu_spune": 0.09,
+     "contrazice": 0.46
+    },
+    "confidence": 0.27
+   }
+  },
+  "usage": 3035
+ },
+ {
+  "loc": "Directorul, atribuțiile sale și Consiliul director (art. 6,  / paragraful 3",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 7 alin. (1) dă directorului conducerea întregii activități și reprezentarea în raporturile cu ministerele, instituțiile publice și cu alte persoane juridice publice și private din țară, precum și cu organisme similare din străinătate.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 3144
+ },
+ {
+  "loc": "Directorul, atribuțiile sale și Consiliul director (art. 6,  / paragraful 4",
+  "afirmatii": {
+   "0": {
+    "text": "Alin. (2) enumeră ce aprobă directorul la nivelul unităților componente: încadrarea, atribuțiile, dotarea, normele de funcționare, regulamentele și structurile organizatorice.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Aceasta este o competență internă, care nu se confundă cu aprobarea structurii organizatorice a Serviciului însuși, dată Consiliului Suprem de Apărare a Țării prin art. 5 alin. (2).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.08,
+     "contrazice": 0.01,
+     "sustine": 0.89,
+     "absenta_corecta": 0.02
+    },
+    "confidence": 0.85
+   },
+   "2": {
+    "text": "Alin. (3) prevede că, în executarea atribuțiilor, directorul emite ordine și instrucțiuni, potrivit legii.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 3972
+ },
+ {
+  "loc": "Directorul, atribuțiile sale și Consiliul director (art. 6,  / paragraful 5",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 8 alin. (1) descrie Consiliul director ca organ consultativ, compus din adjuncții directorului și șefii unor unități din structura Serviciului; lucrările sunt conduse de director, iar în lipsa acestuia de unul dintre adjuncți, desemnat de el.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 3175
+ },
+ {
+  "loc": "Directorul, atribuțiile sale și Consiliul director (art. 6,  / paragraful 6",
+  "afirmatii": {
+   "0": {
+    "text": "Alin. (2) separă din nou competențele: adjuncții directorului au rang de secretar de stat și sunt numiți de Consiliul Suprem de Apărare a Țării, la propunerea directorului.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "contrazice": 0.06,
+     "nu_spune": 0.0,
+     "sustine": 0.94
+    },
+    "confidence": 0.91
+   },
+   "1": {
+    "text": "Alin. (3) lasă directorului aprobarea componenței, a regulamentului de organizare și funcționare și a atribuțiilor Consiliului director.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 3455
+ },
+ {
+  "loc": "Funcționarea, secretul de stat și arhiva (art. 9, art. 20) / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 9 alin. (1) enumeră cele patru izvoare după care își desfășoară activitatea Serviciul: Constituția României, legile țării, hotărârile Consiliului Suprem de Apărare a Țării și regulamentele militare.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 2748
+ },
+ {
+  "loc": "Funcționarea, secretul de stat și arhiva (art. 9, art. 20) / paragraful 2",
+  "afirmatii": {
+   "0": {
+    "text": "Alin. (2) califică activitatea: are caracter de secret de stat.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Alin. (3) prevede că documentele sunt păstrate în arhiva proprie și pot fi consultate, în funcție de clasificare, numai în condițiile legii, cu aprobarea directorului.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 3033
+ },
+ {
+  "loc": "Funcționarea, secretul de stat și arhiva (art. 9, art. 20) / paragraful 3",
+  "afirmatii": {
+   "0": {
+    "text": "Alin. (4) conține o clauză de protecție: reglementările privind transmiterea către alte instituții a unor date și informații de evidență nominală sau statistice se aplică numai în măsura în care furnizarea acestora nu conduce la deconspirarea acțiunilor, sediilor și personalului instituției.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 2678
+ },
+ {
+  "loc": "Funcționarea, secretul de stat și arhiva (art. 9, art. 20) / paragraful 4",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 20 alin. (1) prevede că activitatea contrainformativă în exterior și de protecție a personalului propriu, atât în țară cât și în străinătate, precum și controlul întregii activități operative, de pază, curierat diplomatic, cifru de stat, asigurare tehnico-materială, financiară și sanitară se realizează prin organe proprii.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "sustine": 0.99,
+     "nu_spune": 0.0,
+     "contrazice": 0.01
+    },
+    "confidence": 0.98
+   }
+  },
+  "usage": 2816
+ },
+ {
+  "loc": "Personalul: categorii, statut și interdicții (art. 13, 14, 1 / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 13 enumeră trei categorii de personal: cadre militare, militari angajați pe bază de contract și salariați civili.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Regimul lor juridic diferă, iar art. 14 îl detaliază pe fiecare.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 3585
+ },
+ {
+  "loc": "Personalul: categorii, statut și interdicții (art. 13, 14, 1 / paragraful 2",
+  "afirmatii": {
+   "0": {
+    "text": "Cadrele militare în activitate, în rezervă sau în retragere au toate drepturile și îndatoririle prevăzute de actele normative aplicabile armatei române, precum și de reglementările specifice acestui serviciu (art. 14 alin. (1)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0
+    },
+    "confidence": 0.99
+   },
+   "1": {
+    "text": "Aici se face joncțiunea cu Legea nr. 80/1995.",
+    "alegere": "nu_spune",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.7,
+     "sustine": 0.3,
+     "contrazice": 0.0
+    },
+    "confidence": 0.6
+   }
+  },
+  "usage": 3716
+ },
+ {
+  "loc": "Personalul: categorii, statut și interdicții (art. 13, 14, 1 / paragraful 3",
+  "afirmatii": {
+   "0": {
+    "text": "Militarii angajați pe bază de contract sunt învestiți cu exercițiul autorității publice pe timpul și în legătură cu îndeplinirea atribuțiilor de serviciu, în limitele competențelor stabilite prin lege pentru cadrele militare în activitate.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Modul de angajare, durata contractului, drepturile și îndatoririle lor sunt cele prevăzute de actele normative aplicabile armatei române și prin ordin al directorului (alin. (2)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 3655
+ },
+ {
+  "loc": "Personalul: categorii, statut și interdicții (art. 13, 14, 1 / paragraful 4",
+  "afirmatii": {
+   "0": {
+    "text": "Salariaților civili li se aplică, după caz, dispozițiile Codului muncii, ale Statutului funcționarilor publici, precum și actele normative și reglementările specifice Serviciului (alin. (3)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Ei sunt obligați să depună jurământul cu privire la respectarea Constituției, a legilor țării și a reglementărilor specifice (alin. (4)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 3632
+ },
+ {
+  "loc": "Personalul: categorii, statut și interdicții (art. 13, 14, 1 / paragraful 5",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 15 instituie o interdicție care privește întregul personal, nu doar cadrele militare: personalul nu poate să facă parte din partide, formațiuni sau organizații politice ori să desfășoare propagandă prin orice mijloace sau alte activități în favoarea acestora.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 3234
+ },
+ {
+  "loc": "Personalul: categorii, statut și interdicții (art. 13, 14, 1 / paragraful 6",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 18 alin. (1) prevede obligația de a păstra cu strictețe secretul datelor și al informațiilor cunoscute, inclusiv după părăsirea în orice mod a serviciului.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Alin. (2) permite comunicarea, în mod excepțional, numai în cazuri autorizate de lege și cu acordul prealabil al directorului.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   },
+   "2": {
+    "text": "Alin. (3) interzice divulgarea în orice mod a datelor sau informațiilor care fac obiectul activității Serviciului, faptă care se pedepsește conform legii.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 4124
+ },
+ {
+  "loc": "capcana 1",
+  "afirmatii": {
+   "0": {
+    "text": "Cele patru autorități fac lucruri diferite: C.S.A.T. organizează și coordonează activitatea (art. 2 alin. (1)), aprobă structura și efectivele (art. 5 alin. (2)) și numește adjuncții (art. 8 alin. (2)); Parlamentul controlează (art. 3); Președintele propune directorul și îi primește jurământul (art. 6); cele două Camere, în ședință comună, îl numesc (art. 6 alin. (1)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "sustine": 0.96,
+     "contrazice": 0.04,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.94
+   }
+  },
+  "usage": 6929
+ },
+ {
+  "loc": "capcana 2",
+  "afirmatii": {
+   "0": {
+    "text": "Comisia specială de control are 4 deputați și 3 senatori — șapte membri, cu o compoziție asimetrică — aleși din comisiile pentru apărare, ordine publică și siguranță națională ale celor două Camere.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 6545
+ },
+ {
+  "loc": "capcana 3",
+  "afirmatii": {
+   "0": {
+    "text": "Organizarea controlului parlamentar se stabilește prin hotărâre comună a celor două Camere (art. 3 alin. (2)), nu prin lege și nu prin hotărâre a C.S.A.T.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.87,
+     "absenta_corecta": 0.13,
+     "contrazice": 0.0
+    },
+    "confidence": 0.82
+   }
+  },
+  "usage": 6635
+ },
+ {
+  "loc": "capcana 4",
+  "afirmatii": {
+   "0": {
+    "text": "Structura organizatorică a Serviciului se aprobă de C.S.A.T. (art. 5 alin. (2)), dar structurile organizatorice ale unităților componente se aprobă de director (art. 7 alin. (2)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 0.99
+   },
+   "1": {
+    "text": "Distractorul mută una în locul celeilalte.",
+    "alegere": "nu_spune",
+    "probabilitati": {
+     "sustine": 0.32,
+     "nu_spune": 0.58,
+     "absenta_corecta": 0.01,
+     "contrazice": 0.09
+    },
+    "confidence": 0.44
+   }
+  },
+  "usage": 7085
+ },
+ {
+  "loc": "capcana 5",
+  "afirmatii": {
+   "0": {
+    "text": "Consiliul director este organ consultativ, nu decizional, și este compus din adjuncții directorului și șefii unor unități (art. 8 alin. (1)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "contrazice": 0.01,
+     "nu_spune": 0.0,
+     "sustine": 0.99
+    },
+    "confidence": 0.99
+   }
+  },
+  "usage": 6648
+ },
+ {
+  "loc": "capcana 6",
+  "afirmatii": {
+   "0": {
+    "text": "Adjuncții au rang de secretar de stat, directorul are rang de ministru — două ranguri diferite, ușor de inversat.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.04,
+     "absenta_corecta": 0.0,
+     "sustine": 0.96,
+     "contrazice": 0.0
+    },
+    "confidence": 0.94
+   }
+  },
+  "usage": 6517
+ },
+ {
+  "loc": "capcana 7",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 13 enumeră trei categorii de personal.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Salariații civili depun și ei jurământ (art. 14 alin. (4)), iar interdicția politică de la art. 15 privește întregul personal, nu doar cadrele militare.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.99,
+     "contrazice": 0.01,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 0.99
+   }
+  },
+  "usage": 7001
+ },
+ {
+  "loc": "capcana 8",
+  "afirmatii": {
+   "0": {
+    "text": "Obligația de păstrare a secretului se menține inclusiv după părăsirea în orice mod a serviciului (art. 18 alin. (1)), iar comunicarea excepțională cere acordul prealabil al directorului (alin. (2)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 6623
+ },
+ {
+  "loc": "capcana 9",
+  "afirmatii": {
+   "0": {
+    "text": "Raportarea către C.S.A.T. se face anual sau ori de câte ori se impune (art. 2 alin. (2)) — nu doar anual.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 6608
+ }
+]
