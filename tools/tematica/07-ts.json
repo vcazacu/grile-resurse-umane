@@ -1,0 +1,751 @@
+[
+ {
+  "loc": "Situațiile de trecere în rezervă sau direct în retragere (ar / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 85 alin. (1) enumeră situațiile, de la lit. a) la lit. n).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 0.98,
+     "contrazice": 0.02
+    },
+    "confidence": 0.98
+   },
+   "1": {
+    "text": "Primele privesc vârsta și starea de sănătate: împlinirea vârstei standard de pensionare pentru limită de vârstă (lit. a)); împlinirea vârstei care conferă dreptul la pensie de serviciu pentru limită de vârstă cu reducerea vârstei standard (lit. a^1)); clasarea „inapt pentru serviciul militar” (lit. b)) sau „apt limitat” (lit. c)) — ambele cu excepția situației în care a intervenit menținerea în activitate potrivit art. 21 alin. (4); împlinirea limitei de vârstă în grad (lit. d)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 4959
+ },
+ {
+  "loc": "Situațiile de trecere în rezervă sau direct în retragere (ar / paragraful 2",
+  "afirmatii": {
+   "0": {
+    "text": "Lit. e) privește reorganizarea unităților și reducerea funcțiilor, când nu sunt posibilități de încadrare în alte funcții sau unități, precum și alte motive sau nevoi ale Ministerului Apărării Naționale.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Lit. f) privește numirea într-o funcție publică civilă, cu mențiunea de a fi trecuți în rezervă.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 4430
+ },
+ {
+  "loc": "Situațiile de trecere în rezervă sau direct în retragere (ar / paragraful 3",
+  "afirmatii": {
+   "0": {
+    "text": "Lit. g) și h) sunt cele două forme voluntare și nu trebuie confundate: la cerere, pentru motive bine întemeiate (lit. g)), respectiv prin demisie (lit. h)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.1,
+     "contrazice": 0.01,
+     "sustine": 0.89
+    },
+    "confidence": 0.86
+   }
+  },
+  "usage": 4000
+ },
+ {
+  "loc": "Situațiile de trecere în rezervă sau direct în retragere (ar / paragraful 4",
+  "afirmatii": {
+   "0": {
+    "text": "Ultimele litere privesc conduita și accesul la informații clasificate: dezinteresul în îndeplinirea atribuțiilor (lit. i)); nepromovarea baremelor de pregătire fizică (lit. i^1)); abaterile grave de la regulamentele militare sau de la alte dispoziții legale (lit. j)); anumite situații penale (lit. k)); încălcarea condițiilor de cetățenie română și domiciliu în țară de la art. 4 lit. a) (lit. l)); neavizarea, retragerea sau nerevalidarea autorizației de acces la informații clasificate, din motive imputabile (lit. m)); și imposibilitatea identificării unei funcții corespunzătoare după limitarea nivelului de acces (lit. n)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.11,
+     "absenta_corecta": 0.0,
+     "sustine": 0.89,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.85
+   }
+  },
+  "usage": 4169
+ },
+ {
+  "loc": "Cine declanșează trecerea în rezervă și interdicțiile pe stă / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Alin. (2) împarte situațiile pe patru moduri de declanșare: din oficiu, pentru lit. a), b), d), e), e^1), f), i^1), l), m) și n); la cererea cadrului militar, numai în situația de la lit. a^1); la propunerea consiliilor de onoare, pentru lit. i) și j); iar în celelalte condiții, la propunerea comandanților unităților din care fac parte, înaintată ierarhic.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 0.97,
+     "contrazice": 0.03
+    },
+    "confidence": 0.96
+   }
+  },
+  "usage": 4143
+ },
+ {
+  "loc": "Cine declanșează trecerea în rezervă și interdicțiile pe stă / paragraful 2",
+  "afirmatii": {
+   "0": {
+    "text": "Alin. (4) suspendă trecerea în rezervă pe timpul stării de urgență, de asediu, de mobilizare și pe timp de război, dar nu pentru toate situațiile: enumerarea privește lit. a), a^1), c), d), e), e^1), g), h), i), i^1) și j).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.01,
+     "sustine": 0.99,
+     "contrazice": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.99
+   },
+   "1": {
+    "text": "Situațiile legate de inaptitudine medicală totală, de numirea într-o funcție publică civilă sau de accesul la informații clasificate nu sunt suspendate.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.36,
+     "contrazice": 0.01,
+     "sustine": 0.63,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.51
+   }
+  },
+  "usage": 4532
+ },
+ {
+  "loc": "Cine declanșează trecerea în rezervă și interdicțiile pe stă / paragraful 3",
+  "afirmatii": {
+   "0": {
+    "text": "Alin. (5) arată când trecerea se face direct în retragere: ofițerii în activitate care au împlinit limita de vârstă în grad pentru clasa a III-a în rezervă, prevăzută la art. 86 alin. (4), precum și cadrele clasate medical «inapt pentru serviciul militar cu scoatere din evidență».",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 4110
+ },
+ {
+  "loc": "Cine declanșează trecerea în rezervă și interdicțiile pe stă / paragraful 4",
+  "afirmatii": {
+   "0": {
+    "text": "Alin. (6) conține o protecție specială: cadrele militare nu pot fi trecute în rezervă ca urmare a prezentării demisiei pe timpul executării misiunilor prevăzute la art. 2 din Legea nr. 42/2004, precum și pe timpul executării altor misiuni în străinătate.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 0.99
+   }
+  },
+  "usage": 4110
+ },
+ {
+  "loc": "Limitele de vârstă în grad și menținerea în activitate (art. / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Alin. (1) nu dă cifre proprii: limitele de vârstă în grad până la care cadrele militare pot fi menținute în activitate sunt vârstele standard de pensionare pentru limită de vârstă prevăzute de legislația asigurărilor sociale și pensiilor pentru instituțiile din domeniul apărării naționale, ordinii publice și siguranței naționale.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.13,
+     "sustine": 0.86,
+     "nu_spune": 0.0,
+     "contrazice": 0.01
+    },
+    "confidence": 0.82
+   }
+  },
+  "usage": 3939
+ },
+ {
+  "loc": "Limitele de vârstă în grad și menținerea în activitate (art. / paragraful 2",
+  "afirmatii": {
+   "0": {
+    "text": "Alin. (2) dă, în schimb, o scară proprie pentru generali și amirali, crescătoare cu numărul de stele: 56 de ani pentru general de brigadă cu o stea, general de flotilă aeriană cu o stea și contraamiral de flotilă cu o stea; 57 de ani pentru general-maior cu două stele și contraamiral cu două stele; 58 de ani pentru general-locotenent cu trei stele și viceamiral cu trei stele; 59 de ani pentru general cu patru stele și amiral cu patru stele.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 3977
+ },
+ {
+  "loc": "Limitele de vârstă în grad și menținerea în activitate (art. / paragraful 3",
+  "afirmatii": {
+   "0": {
+    "text": "Aceste cifre au două limitări importante.",
+    "alegere": "nu_spune",
+    "probabilitati": {
+     "contrazice": 0.02,
+     "absenta_corecta": 0.01,
+     "sustine": 0.28,
+     "nu_spune": 0.69
+    },
+    "confidence": 0.59
+   },
+   "1": {
+    "text": "Alin. (2^1) prevede că, dacă ele sunt mai mici decât vârstele standard de pensionare din legislația aplicabilă, generalii și amiralii sunt menținuți în activitate până la vârsta standard.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0,
+     "sustine": 1.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   },
+   "2": {
+    "text": "Alin. (2^2) prevede că alin. (2) se aplică exclusiv Ministerului Apărării Naționale.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0,
+     "sustine": 1.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 4689
+ },
+ {
+  "loc": "Limitele de vârstă în grad și menținerea în activitate (art. / paragraful 4",
+  "afirmatii": {
+   "0": {
+    "text": "Pentru Serviciul de Informații Externe regula este alta: potrivit alin. (2^3), generalii și amiralii din Ministerul Afacerilor Interne, Serviciul Român de Informații, Serviciul de Informații Externe, Serviciul de Telecomunicații Speciale și Serviciul de Protecție și Pază sunt menținuți în activitate după împlinirea vârstei standard de pensionare până la vârsta de 60 de ani, sau sunt trecuți în rezervă, la cerere.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.02,
+     "sustine": 0.98,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 0.97
+   }
+  },
+  "usage": 3965
+ },
+ {
+  "loc": "Limitele de vârstă în grad și menținerea în activitate (art. / paragraful 5",
+  "afirmatii": {
+   "0": {
+    "text": "Alin. (5) permite o prelungire suplimentară, dar pentru o listă mai scurtă de instituții: după împlinirea vârstei de 60 de ani, generalii și amiralii din Ministerul Afacerilor Interne, Serviciul Român de Informații și Serviciul de Informații Externe pot fi menținuți în activitate până la împlinirea vârstei de 62 de ani, la cerere, dacă starea de sănătate le permite rezolvarea în foarte bune condiții a atribuțiilor, cu aprobarea conducătorului instituției.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.99,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.01
+    },
+    "confidence": 0.99
+   }
+  },
+  "usage": 3983
+ },
+ {
+  "loc": "Limitele de vârstă în grad și menținerea în activitate (art. / paragraful 6",
+  "afirmatii": {
+   "0": {
+    "text": "Alin. (3) dă regula generală de menținere: în raport cu nevoile de încadrare, cadrele militare pot fi menținute în activitate după împlinirea vârstei standard de pensionare până la vârsta de 60 de ani, cu aprobarea anuală a conducătorului instituției.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Alin. (4) dă limitele pentru rezervă: 55 de ani pentru clasa I, 60 de ani pentru clasa a II-a și 63 de ani pentru clasa a III-a.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 4342
+ },
+ {
+  "loc": "Condamnările penale și consiliile de onoare (art. 87, art. 8 / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 87 alin. (1) prevede trecerea în rezervă sau direct în retragere în două ipoteze: condamnarea prin hotărâre judecătorească la pedeapsa închisorii cu executarea acesteia, indiferent de forma de vinovăție; și condamnarea pentru infracțiuni săvârșite cu intenție la pedeapsa închisorii cu suspendarea executării ori cu amendă.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "sustine": 0.97,
+     "contrazice": 0.03
+    },
+    "confidence": 0.96
+   }
+  },
+  "usage": 2922
+ },
+ {
+  "loc": "Condamnările penale și consiliile de onoare (art. 87, art. 8 / paragraful 2",
+  "afirmatii": {
+   "0": {
+    "text": "Alin. (2) precizează modul de declanșare pentru prima ipoteză: cadrele condamnate prin hotărâre rămasă definitivă la pedeapsa închisorii cu executarea acesteia se trec în rezervă sau direct în retragere din oficiu.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.11,
+     "nu_spune": 0.0,
+     "sustine": 0.89,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 0.85
+   }
+  },
+  "usage": 2760
+ },
+ {
+  "loc": "Condamnările penale și consiliile de onoare (art. 87, art. 8 / paragraful 3",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 88 leagă trecerea în rezervă de hotărârile consiliilor de onoare: cadrele pentru care consiliile de onoare au stabilit că au încălcat prevederile art. 28 și art. 30 alin. (2) se trec în rezervă sau direct în retragere.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.01,
+     "sustine": 0.99
+    },
+    "confidence": 0.99
+   },
+   "1": {
+    "text": "Este trimiterea la interdicțiile absolute și la interdicțiile privind funcțiile și societățile comerciale.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.01,
+     "nu_spune": 0.1,
+     "contrazice": 0.13,
+     "sustine": 0.76
+    },
+    "confidence": 0.69
+   }
+  },
+  "usage": 3175
+ },
+ {
+  "loc": "Suspendarea, punerea la dispoziție și repunerea în drepturi  / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Alin. (1) amână decizia: hotărârea privind menținerea în activitate a cadrelor militare trimise în judecată pentru săvârșirea de infracțiuni se ia după soluționarea definitivă a cauzei.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 3620
+ },
+ {
+  "loc": "Suspendarea, punerea la dispoziție și repunerea în drepturi  / paragraful 2",
+  "afirmatii": {
+   "0": {
+    "text": "Alin. (2) leagă suspendarea din funcție de starea de arest preventiv: cadrele din Ministerul Apărării Naționale se suspendă din funcție pe perioada în care, fiind în stare de arest preventiv, sunt urmărite penal, trimise în judecată ori sunt judecate, iar pe perioada suspendării nu beneficiază de niciun drept din partea ministerului.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.99,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.01
+    },
+    "confidence": 0.99
+   },
+   "1": {
+    "text": "Alin. (3) lasă totuși două drepturi: asistența juridică de la art. 9 lit. e) și folosința locuinței de serviciu.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 4082
+ },
+ {
+  "loc": "Suspendarea, punerea la dispoziție și repunerea în drepturi  / paragraful 3",
+  "afirmatii": {
+   "0": {
+    "text": "Punerea la dispoziție este o măsură distinctă de suspendare și se aplică atunci când cadrul este judecat în stare de libertate, pentru fapte în legătură cu exercitarea atribuțiilor.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Potrivit alin. (6), cadrele puse la dispoziție îndeplinesc atribuțiile stabilite în scris de comandanții unităților și beneficiază de drepturile bănești corespunzătoare gradului pe care îl au, la minimum.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 4063
+ },
+ {
+  "loc": "Suspendarea, punerea la dispoziție și repunerea în drepturi  / paragraful 4",
+  "afirmatii": {
+   "0": {
+    "text": "Alin. (7) prevede repunerea în drepturile avute la data suspendării în cazul în care s-a dispus achitarea, încetarea procesului penal, renunțarea la aplicarea pedepsei, clasarea ori renunțarea la urmărirea penală.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.99,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.01
+    },
+    "confidence": 0.99
+   },
+   "1": {
+    "text": "Alin. (8) prevede situația inversă: cadrele condamnate definitiv la o pedeapsă privativă de libertate cu executarea acesteia, care anterior au fost suspendate din funcții, se trec în rezervă începând cu data suspendării.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 4075
+ },
+ {
+  "loc": "Suspendarea, punerea la dispoziție și repunerea în drepturi  / paragraful 5",
+  "afirmatii": {
+   "0": {
+    "text": "Alin. (9) coordonează răspunderea disciplinară cu cea penală: cadrelor care au comis fapte pentru care s-a început urmărirea penală sau pentru care au fost trimise în judecată li se pot aplica sancțiuni disciplinare numai după soluționarea cauzei de către parchet ori de către instanță, iar în acest timp procedura disciplinară se suspendă.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 3662
+ },
+ {
+  "loc": "Interdicțiile temporare și restituirea cheltuielilor (art. 9 / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 90 alin. (1) interzice trecerea în rezervă a cadrelor militare în activitate care nu îndeplinesc condițiile de pensionare, pe timpul cât se află în incapacitate temporară de muncă, fiind internate în spitale ori sanatorii, se găsesc în concedii medicale sau în concediu pentru creșterea copilului, iar pentru cadrele militare femei, nici în perioada gravidității, a concediului de risc maternal și a celui de maternitate.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 3421
+ },
+ {
+  "loc": "Interdicțiile temporare și restituirea cheltuielilor (art. 9 / paragraful 2",
+  "afirmatii": {
+   "0": {
+    "text": "Alin. (2) o înlătură pentru cei care urmează să fie trecuți în rezervă potrivit art. 85 alin. (1) lit. g), h), j), k), l), m) și n), precum și potrivit art. 87 și 88 — adică, printre altele, la cerere, prin demisie, pentru abateri grave sau pentru situații penale.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 0.99
+   }
+  },
+  "usage": 3233
+ },
+ {
+  "loc": "Interdicțiile temporare și restituirea cheltuielilor (art. 9 / paragraful 3",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 91 prevede restituirea cheltuielilor pentru cei care au angajamente sau contracte cu Ministerul Apărării Naționale și nu le respectă, fiind trecuți în rezervă prin aplicarea uneia dintre prevederile art. 85 alin. (1) lit. g)–n), art. 87 și art. 88: sunt obligați să restituie cheltuielile de întreținere și instruire pe timpul școlarizării ori alte cheltuieli ocazionate de situațiile pentru care s-au încheiat angajamente sau contracte, în condiții stabilite prin ordin al ministrului apărării naționale.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 3306
+ },
+ {
+  "loc": "capcana 1",
+  "afirmatii": {
+   "0": {
+    "text": "Scara generalilor de la art. 86 alin. (2) — 56, 57, 58, 59 de ani — se aplică exclusiv Ministerului Apărării Naționale (alin. (2^2)) și cedează în fața vârstei standard de pensionare dacă aceasta e mai mare (alin. (2^1)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 11121
+ },
+ {
+  "loc": "capcana 2",
+  "afirmatii": {
+   "0": {
+    "text": "Pentru Serviciul de Informații Externe se aplică alin. (2^3): menținere până la 60 de ani, iar apoi, potrivit alin. (5), posibil până la 62 de ani, la cerere.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.98,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.02
+    },
+    "confidence": 0.97
+   },
+   "1": {
+    "text": "Lista de la alin. (5) este mai scurtă decât cea de la alin. (2^3) — nu cuprinde S.T.S. și S.P.P.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.52,
+     "absenta_corecta": 0.47,
+     "nu_spune": 0.0,
+     "contrazice": 0.01
+    },
+    "confidence": 0.36
+   }
+  },
+  "usage": 11503
+ },
+ {
+  "loc": "capcana 3",
+  "afirmatii": {
+   "0": {
+    "text": "Limitele din rezervă (art. 86 alin. (4)) sunt 55 / 60 / 63 de ani pentru clasa I, a II-a, respectiv a III-a.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Depășirea limitei pentru clasa a III-a duce la trecerea direct în retragere (art. 85 alin. (5)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.96,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.04
+    },
+    "confidence": 0.95
+   }
+  },
+  "usage": 11488
+ },
+ {
+  "loc": "capcana 4",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 85 alin. (2) are patru moduri de declanșare, nu două.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 0.94,
+     "contrazice": 0.06
+    },
+    "confidence": 0.92
+   },
+   "1": {
+    "text": "„La cererea cadrului militar” apare o singură dată, pentru lit. a^1); propunerea consiliilor de onoare privește doar lit. i) și j).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.02,
+     "nu_spune": 0.0,
+     "sustine": 0.71,
+     "contrazice": 0.27
+    },
+    "confidence": 0.62
+   }
+  },
+  "usage": 11474
+ },
+ {
+  "loc": "capcana 5",
+  "afirmatii": {
+   "0": {
+    "text": "Interdicția din timpul stării de urgență, de asediu, de mobilizare și de război (art. 85 alin. (4)) nu acoperă toate situațiile: lit. b), f), k), l), m) și n) nu sunt în enumerare.",
+    "alegere": "absenta_corecta",
+    "probabilitati": {
+     "contrazice": 0.01,
+     "absenta_corecta": 0.69,
+     "nu_spune": 0.0,
+     "sustine": 0.3
+    },
+    "confidence": 0.59
+   }
+  },
+  "usage": 11105
+ },
+ {
+  "loc": "capcana 6",
+  "afirmatii": {
+   "0": {
+    "text": "Demisia nu produce efect pe timpul misiunilor din afara teritoriului (art. 85 alin. (6)) — o protecție distinctă de cea de la art. 90.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.01,
+     "sustine": 0.97,
+     "contrazice": 0.01,
+     "nu_spune": 0.01
+    },
+    "confidence": 0.96
+   }
+  },
+  "usage": 11077
+ },
+ {
+  "loc": "capcana 7",
+  "afirmatii": {
+   "0": {
+    "text": "La art. 87 alin. (1) cele două ipoteze diferă: închisoarea cu executare atrage trecerea în rezervă indiferent de forma de vinovăție, în timp ce suspendarea executării ori amenda o atrag numai pentru infracțiuni săvârșite cu intenție.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.01,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 0.99
+    },
+    "confidence": 0.99
+   }
+  },
+  "usage": 11112
+ },
+ {
+  "loc": "capcana 8",
+  "afirmatii": {
+   "0": {
+    "text": "Suspendarea din funcție (art. 89 alin. (2)) este legată de starea de arest preventiv; punerea la dispoziție privește judecata în stare de libertate.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.95,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.05
+    },
+    "confidence": 0.93
+   },
+   "1": {
+    "text": "Pe timpul suspendării rămân doar asistența juridică de la art. 9 lit. e) și folosința locuinței de serviciu.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.78,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.01,
+     "contrazice": 0.21
+    },
+    "confidence": 0.71
+   }
+  },
+  "usage": 11499
+ },
+ {
+  "loc": "capcana 9",
+  "afirmatii": {
+   "0": {
+    "text": "Interdicția de trecere în rezervă din art. 90 alin. (1) privește numai cadrele care nu îndeplinesc condițiile de pensionare și cedează în situațiile de la alin. (2), printre care demisia și cererea proprie.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.98,
+     "contrazice": 0.02,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 0.97
+   }
+  },
+  "usage": 11101
+ },
+ {
+  "loc": "capcana 10",
+  "afirmatii": {
+   "0": {
+    "text": "Restituirea cheltuielilor de școlarizare (art. 91) se declanșează doar pentru trecerile în rezervă întemeiate pe art. 85 alin. (1) lit. g)-n), art. 87 și art. 88 — nu pentru trecerea la împlinirea vârstei sau pentru reorganizare.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.91,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.09,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.87
+   }
+  },
+  "usage": 11121
+ }
+]
