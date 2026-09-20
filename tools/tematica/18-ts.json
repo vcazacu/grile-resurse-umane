@@ -1,0 +1,555 @@
+[
+ {
+  "loc": "Cuantumul și localitățile (art. 1) / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 1 alin. (1) leagă dreptul de situațiile prevăzute la art. 20^1 alin. 1, 2 și 2^1 din Legea nr. 80/1995 și dă două procente, calculate la solda de funcție aflată în plată: 50% dacă locuința închiriată ori achiziționată se află în municipii, stațiuni turistice sau balneare ori în localități cu situații deosebite (lit. a)); 40% în alte localități decât cele de la lit. a) (lit. b)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.02,
+     "sustine": 0.98
+    },
+    "confidence": 0.98
+   }
+  },
+  "usage": 3239
+ },
+ {
+  "loc": "Cuantumul și localitățile (art. 1) / paragraful 2",
+  "afirmatii": {
+   "0": {
+    "text": "În ambele cazuri procentul este un plafon dublu: compensația nu poate depăși nici procentul, nici chiria prevăzută în contractul de închiriere ori rata lunară din contractul de credit.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.04,
+     "nu_spune": 0.0,
+     "sustine": 0.96,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 0.94
+   }
+  },
+  "usage": 2711
+ },
+ {
+  "loc": "Cuantumul și localitățile (art. 1) / paragraful 3",
+  "afirmatii": {
+   "0": {
+    "text": "Alin. (2) și (3) definesc categoriile de localități: stațiunile turistice ori balneare sunt cele definite și atestate prin acte normative aplicabile la nivel național, iar localitățile cu situații deosebite sunt cele care îndeplinesc criteriile privind acordarea sporului pentru activitatea desfășurată în localități sau zone izolate ori cele din județele unde încadrarea personalului se face cu greutate.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 2774
+ },
+ {
+  "loc": "Cuantumul și localitățile (art. 1) / paragraful 4",
+  "afirmatii": {
+   "0": {
+    "text": "Alin. (4) prevede instrumentul de verificare: comandantul sau șeful unității militare numește o comisie, ale cărei organizare și funcționare se stabilesc prin ordin al ministrului apărării.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 2719
+ },
+ {
+  "loc": "Condițiile cumulative, după garnizoană (art. 2, art. 3, art. / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 2 privește cadrul militar numit în prima funcție, mutat în interesul serviciului, detașat sau împuternicit într-o altă garnizoană decât cea de domiciliu și cere îndeplinirea cumulativă a mai multor condiții: să nu efectueze naveta la și de la locul de muncă — condiție care nu se ia în calcul dacă naveta se face la și de la locuința închiriată; nici el, nici soțul sau soția să nu dețină locuință proprietate personală în acea garnizoană; soțul sau soția încadrată în altă autoritate publică să nu beneficieze acolo de spațiu de locuit ori de compensație pentru chirie; să nu i se asigure de către minister un spațiu de locuit corespunzător; și să nu aibă atribuită o locuință din fondul locativ de stat cu plata subvenționată a chiriei.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 0.99,
+     "contrazice": 0.01
+    },
+    "confidence": 0.98
+   }
+  },
+  "usage": 4571
+ },
+ {
+  "loc": "Condițiile cumulative, după garnizoană (art. 2, art. 3, art. / paragraful 2",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 3 alin. (1) privește situația din garnizoana de domiciliu, cu un set propriu de condiții cumulative, printre care prezentarea unui contract de închiriere a unui spațiu de locuit încheiat în nume propriu sau în numele soțului ori al soției.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Textul exclude expres contractele încheiate cu anumite rude — precizare care înlătură soluțiile formale.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 0.99
+   }
+  },
+  "usage": 5227
+ },
+ {
+  "loc": "Condițiile cumulative, după garnizoană (art. 2, art. 3, art. / paragraful 3",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 4 extinde dreptul la trei situații suplimentare: cei care au pierdut, în baza unor titluri executorii, beneficiul folosinței unor locuințe deținute inițial (lit. a)); cei detașați pentru a îndeplini funcții în afara Ministerului Apărării (lit. b)); și, în cazuri temeinic justificate, cu aprobarea ministrului apărării, la solicitarea cadrelor militare și cu avizul comandantului unității (lit. c)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 4459
+ },
+ {
+  "loc": "Condițiile cumulative, după garnizoană (art. 2, art. 3, art. / paragraful 4",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 5 rezolvă situația soților militari: dacă atât soțul, cât și soția sunt cadre militare în activitate având dreptul la compensație și locuiesc împreună, se acordă o singură compensație lunară, potrivit opțiunii lor.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 4404
+ },
+ {
+  "loc": "Procedura: raportul, comisia, termenele și plata (art. 6–11) / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 6 alin. (1) prevede că dreptul se solicită prin raport scris adresat comandantului sau șefului unității militare.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Alin. (2) cere înregistrarea raportului la compartimentul documente clasificate al unității și enumeră elementele pe care trebuie să le conțină, printre care numărul și data ordinului de mutare, detașare ori numire, datele privind situația familială și adresa la care locuiește.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 5914
+ },
+ {
+  "loc": "Procedura: raportul, comisia, termenele și plata (art. 6–11) / paragraful 2",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 7 alin. (1) atribuie comisiei verificarea condițiilor legale și consemnarea rezultatelor și propunerilor într-un proces-verbal prezentat comandantului, care fie acordă dreptul și emite ordinul de zi pe unitate, fie respinge solicitarea și comunică în scris motivele.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 5666
+ },
+ {
+  "loc": "Procedura: raportul, comisia, termenele și plata (art. 6–11) / paragraful 3",
+  "afirmatii": {
+   "0": {
+    "text": "Alin. (2) fixează data de la care se acordă compensația: începând cu data înregistrării raportului la compartimentul documente clasificate — nu de la data emiterii ordinului.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Alin. (3) dă termenul maxim de 20 de zile lucrătoare de la înregistrarea raportului, atât pentru emiterea ordinului de alocare la plată, cât și pentru comunicarea în scris a respingerii.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 5818
+ },
+ {
+  "loc": "Procedura: raportul, comisia, termenele și plata (art. 6–11) / paragraful 4",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 9 alin. (1) prevede plata pentru luna în curs, în ultima zi lucrătoare a lunii, de către unitatea militară la care beneficiarul este alocat la drepturi.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Alin. (2) atașează semnăturii de primire o declarație implicită: prin ea, cadrul militar confirmă că în luna pentru care se face plata nu au intervenit schimbări de natură să modifice dreptul.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "2": {
+    "text": "Alin. (3) prevede recuperarea sumelor plătite necuvenit.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0
+    },
+    "confidence": 0.99
+   }
+  },
+  "usage": 6288
+ },
+ {
+  "loc": "Procedura: raportul, comisia, termenele și plata (art. 6–11) / paragraful 5",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 11 dă regula pentru fracțiunile de lună: calculul se face raportând compensația lunară la numărul de zile calendaristice din luna pentru care se face plata.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 5370
+ },
+ {
+  "loc": "Menținerea, neacordarea și încetarea dreptului (art. 12–15,  / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 12 alin. (1) enumeră situațiile în care compensația se plătește în continuare: trimiterea în străinătate pentru misiuni cu caracter temporar; trimiterea la studii, cursuri, stagii de practică, de specializare sau perfecționare în străinătate, cu durata de până la 2 ani inclusiv; punerea la dispoziție potrivit legii; mutarea în altă unitate militară situată în aceeași garnizoană; și detașarea în altă localitate decât cea în care au închiriat spațiul, dacă nu optează pentru compensația din localitatea de detașare.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.97,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.03
+    },
+    "confidence": 0.96
+   }
+  },
+  "usage": 5435
+ },
+ {
+  "loc": "Menținerea, neacordarea și încetarea dreptului (art. 12–15,  / paragraful 2",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 13 alin. (1) prevede neacordarea compensației atunci când cadrului militar i se atribuie un spațiu de locuit corespunzător, iar acesta refuză sau ulterior renunță.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Alin. (2) sancționează înstrăinarea unei locuințe deținute în garnizoana respectivă, iar alin. (3) lasă aprecierea intenției vădite comisiei, pe baza rezultatelor anchetei sociale.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.01,
+     "sustine": 0.99,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 0.98
+   }
+  },
+  "usage": 5447
+ },
+ {
+  "loc": "Menținerea, neacordarea și încetarea dreptului (art. 12–15,  / paragraful 3",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 14 alin. (1) enumeră cazurile de încetare a dreptului: dobândirea pe orice cale a unei locuințe proprietate personală, alta decât cea achiziționată prin creditul pentru care se acordă compensația; încheierea căsătoriei, dacă soțul sau soția deține locuință proprietate personală a cărei locație permite îndeplinirea atribuțiilor de serviciu; încheierea contractului de închiriere pentru o locuință din fondul locativ de stat cu plata subvenționată a chiriei; încheierea contractului pentru locuința de serviciu sau de intervenție ori acceptarea în scris a cazării în căminul de garnizoană; și refuzul atribuirii unui spațiu de locuit corespunzător.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.96,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.04
+    },
+    "confidence": 0.95
+   }
+  },
+  "usage": 5490
+ },
+ {
+  "loc": "Menținerea, neacordarea și încetarea dreptului (art. 12–15,  / paragraful 4",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 15 alin. (1) exclude de la plată cadrele militare trimise în misiune permanentă în străinătate, iar alin. (2) păstrează dreptul pentru cele care aveau contractat un credit ipotecar sau un contract de vânzare-cumpărare cu plata în rate în baza căruia li se acordase compensația înainte de plecare.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 5016
+ },
+ {
+  "loc": "Menținerea, neacordarea și încetarea dreptului (art. 12–15,  / paragraful 5",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 17^2 trimite, pentru clauzele minime obligatorii ale contractului de închiriere, la modelul de contract prevăzut în anexa care face parte integrantă din hotărâre.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 4911
+ },
+ {
+  "loc": "capcana 1",
+  "afirmatii": {
+   "0": {
+    "text": "Cele două procente se raportează la solda de funcție aflată în plată, nu la solda lunară: 50% în municipii, stațiuni turistice ori balneare și localități cu situații deosebite, 40% în rest (art. 1 alin. (1)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Art. 20^1 alin. (1) din Legea nr. 80/1995 vorbește însă de „până la 50% din solda lunară” — cele două texte se citesc împreună, dar cifrele nu se amestecă.",
+    "alegere": "nu_spune",
+    "probabilitati": {
+     "contrazice": 0.08,
+     "sustine": 0.12,
+     "absenta_corecta": 0.01,
+     "nu_spune": 0.79
+    },
+    "confidence": 0.71
+   }
+  },
+  "usage": 13033
+ },
+ {
+  "loc": "capcana 2",
+  "afirmatii": {
+   "0": {
+    "text": "Procentul este un plafon dublu: compensația nu poate depăși nici cota, nici chiria din contract sau rata lunară (art. 1 alin. (1)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 12550
+ },
+ {
+  "loc": "capcana 3",
+  "afirmatii": {
+   "0": {
+    "text": "Condiția privind naveta nu se ia în calcul dacă naveta se efectuează la și de la locuința închiriată (art. 2 lit. a)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 12185
+ },
+ {
+  "loc": "capcana 4",
+  "afirmatii": {
+   "0": {
+    "text": "Compensația se acordă începând cu data înregistrării raportului la compartimentul documente clasificate (art. 7 alin. (2)), nu de la data emiterii ordinului de zi pe unitate.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 0.99
+   }
+  },
+  "usage": 12189
+ },
+ {
+  "loc": "capcana 5",
+  "afirmatii": {
+   "0": {
+    "text": "Termenul de 20 de zile lucrătoare de la înregistrarea raportului acoperă atât emiterea ordinului de alocare, cât și comunicarea respingerii (art. 7 alin. (3)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "contrazice": 0.01,
+     "sustine": 0.99,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.99
+   }
+  },
+  "usage": 12325
+ },
+ {
+  "loc": "capcana 6",
+  "afirmatii": {
+   "0": {
+    "text": "Plata se face pentru luna în curs, în ultima zi lucrătoare a lunii (art. 9 alin. (1)), iar pentru fracțiuni de lună calculul se raportează la zilele calendaristice (art. 11).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0,
+     "sustine": 1.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 12217
+ },
+ {
+  "loc": "capcana 7",
+  "afirmatii": {
+   "0": {
+    "text": "Studiile în străinătate mențin dreptul numai dacă au durata de până la 2 ani inclusiv (art. 12 alin. (1) lit. b)); misiunea permanentă în străinătate îl exclude (art. 15 alin. (1)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 12277
+ },
+ {
+  "loc": "capcana 8",
+  "afirmatii": {
+   "0": {
+    "text": "Dacă ambii soți sunt cadre militare îndreptățite și locuiesc împreună, se acordă o singură compensație, potrivit opțiunii lor (art. 5).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 12130
+ },
+ {
+  "loc": "capcana 9",
+  "afirmatii": {
+   "0": {
+    "text": "Încheierea căsătoriei duce la încetarea dreptului doar dacă soțul ori soția deține o locuință proprietate personală a cărei locație permite îndeplinirea atribuțiilor de serviciu (art. 14 alin. (1) lit. b)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 12233
+ },
+ {
+  "loc": "capcana 10",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 3^1 este abrogat; o variantă care îi atribuie un conținut este greșită.",
+    "alegere": "contrazice",
+    "probabilitati": {
+     "absenta_corecta": 0.28,
+     "nu_spune": 0.18,
+     "sustine": 0.09,
+     "contrazice": 0.45
+    },
+    "confidence": 0.27
+   }
+  },
+  "usage": 12106
+ }
+]

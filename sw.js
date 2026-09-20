@@ -1,6 +1,6 @@
 /* Service worker — face aplicația disponibilă offline după prima deschidere.
    La fiecare modificare a întrebărilor, schimbă VERSIUNE ca să se reîmprospăteze cache-ul. */
-const VERSIUNE = "grile-ru-v17";
+const VERSIUNE = "grile-ru-v18";
 const FISIERE = [
   "./",
   "./index.html",
@@ -28,6 +28,9 @@ const FISIERE = [
   "./tematica/13-sistemul-pensiilor-militare-de-stat.html",
   "./tematica/14-sistemul-public-de-pensii.html",
   "./tematica/15-salarizarea-personalului-militar-si-contractual.html",
+  "./tematica/16-concediul-si-indemnizatia-pentru-cresterea-copiilor.html",
+  "./tematica/17-stimulentul-de-insertie.html",
+  "./tematica/18-compensatia-lunara-pentru-chirie.html",
   /* TEMATICA-END */
 ];
 

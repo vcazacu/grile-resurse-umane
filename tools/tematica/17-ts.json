@@ -1,0 +1,454 @@
+[
+ {
+  "loc": "Cele două cuantumuri și pragurile de vârstă (art. 7 alin. (1 / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 7 alin. (1) condiționează dreptul de obținerea, în perioada în care persoana este îndreptățită să beneficieze de concediul pentru creșterea copilului, a unor venituri supuse impozitului.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 3932
+ },
+ {
+  "loc": "Cele două cuantumuri și pragurile de vârstă (art. 7 alin. (1 / paragraful 2",
+  "afirmatii": {
+   "0": {
+    "text": "Lit. a) prevede cuantumul de 1.500 lei, dacă persoanele îndreptățite obțin venituri înainte de împlinirea de către copil a vârstei de 6 luni, respectiv 1 an în cazul copilului cu dizabilități.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Acest cuantum se acordă până la împlinirea de către copil a vârstei de 2 ani, respectiv 3 ani în cazul copilului cu dizabilități.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 4069
+ },
+ {
+  "loc": "Cele două cuantumuri și pragurile de vârstă (art. 7 alin. (1 / paragraful 3",
+  "afirmatii": {
+   "0": {
+    "text": "Lit. b) prevede cuantumul de 650 lei dacă persoanele îndreptățite obțin venituri după împlinirea de către copil a vârstei de 6 luni, respectiv 1 an în cazul copilului cu dizabilități.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Diferența dintre cele două cuantumuri ține deci de momentul reluării activității, nu de nivelul veniturilor.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.98,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.01,
+     "nu_spune": 0.01
+    },
+    "confidence": 0.98
+   }
+  },
+  "usage": 4057
+ },
+ {
+  "loc": "Cele două cuantumuri și pragurile de vârstă (art. 7 alin. (1 / paragraful 4",
+  "afirmatii": {
+   "0": {
+    "text": "Alin. (2) tratează etapa următoare: persoanele care au finalizat concediul pentru creșterea copiilor și obțin venituri supuse impozitului beneficiază de stimulentul în cuantumul de la lit. b) după împlinirea de către copil a vârstei de 2 ani, respectiv 3 ani, până la împlinirea vârstei de 3 ani, respectiv 4 ani în cazul copilului cu dizabilități.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Textul precizează că acest stimulent se acordă inclusiv persoanelor prevăzute la alin. (1).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 4103
+ },
+ {
+  "loc": "Cele două cuantumuri și pragurile de vârstă (art. 7 alin. (1 / paragraful 5",
+  "afirmatii": {
+   "0": {
+    "text": "Alin. (8) prevede că majorarea cuantumului stimulentului se face prin hotărâre a Guvernului.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 3606
+ },
+ {
+  "loc": "Necumulul cu indemnizația și cu alte drepturi (art. 7 alin.  / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Alin. (4) conține regula esențială: în cazul persoanelor care beneficiază de indemnizația lunară pentru creșterea copilului și solicită stimulentul de inserție, plata indemnizației se suspendă, iar indemnizația nu se cumulează cu stimulentul.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 3534
+ },
+ {
+  "loc": "Necumulul cu indemnizația și cu alte drepturi (art. 7 alin.  / paragraful 2",
+  "afirmatii": {
+   "0": {
+    "text": "Alin. (3) adaugă o a doua regulă de necumul: stimulentul acordat până la împlinirea de către copil a vârstei de 4 ani în cazul copilului cu dizabilități nu se cumulează cu indemnizația prevăzută la art. 31 alin. (2) — cea pentru concediul de îngrijire a copilului cu dizabilitate între 3 și 7 ani.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.05,
+     "sustine": 0.64,
+     "absenta_corecta": 0.01,
+     "contrazice": 0.3
+    },
+    "confidence": 0.52
+   }
+  },
+  "usage": 3558
+ },
+ {
+  "loc": "Necumulul cu indemnizația și cu alte drepturi (art. 7 alin.  / paragraful 3",
+  "afirmatii": {
+   "0": {
+    "text": "Alin. (5) menține dreptul la stimulentul în cuantumul de la alin. (2) și în situația în care certificatul de încadrare în grad de handicap al copilului expiră după împlinirea de către copil a vârstei de 3 ani.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0,
+     "sustine": 1.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 3520
+ },
+ {
+  "loc": "Necumulul cu indemnizația și cu alte drepturi (art. 7 alin.  / paragraful 4",
+  "afirmatii": {
+   "0": {
+    "text": "Alin. (6) tratează situația inversă: dacă un copil este încadrat în grad de handicap după împlinirea vârstei de 3 ani, stimulentul se acordă până la împlinirea vârstei de 4 ani.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.01,
+     "sustine": 0.99,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.99
+   },
+   "1": {
+    "text": "Alin. (7) cere, pentru această prelungire, o nouă cerere și copia certificatului de încadrare în grad de handicap.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 3923
+ },
+ {
+  "loc": "Încetarea dreptului și normele metodologice (art. 17 din ord / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 17 alin. (1) din ordonanță prevede că dreptul la stimulentul de inserție încetează începând cu ziua următoare celei în care copilul a împlinit vârsta de 3 ani, respectiv 4 ani în cazul copilului cu dizabilități, ori a avut loc decesul copilului.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 4992
+ },
+ {
+  "loc": "Încetarea dreptului și normele metodologice (art. 17 din ord / paragraful 2",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 12 alin. (1) din norme confirmă modul de acordare a stimulentului prevăzut la art. 7 alin. (1): lunar, până la împlinirea de către copil a vârstei de 2 ani, respectiv 3 ani în cazul copilului cu handicap, dacă persoanele realizează venituri supuse impozitului.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.99,
+     "nu_spune": 0.0,
+     "contrazice": 0.01,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 0.97
+   }
+  },
+  "usage": 4993
+ },
+ {
+  "loc": "Încetarea dreptului și normele metodologice (art. 17 din ord / paragraful 3",
+  "afirmatii": {
+   "0": {
+    "text": "Alin. (3) al aceluiași articol precizează că acordarea indemnizației pentru creșterea copilului sau, după caz, a stimulentului de inserție se face la cererea scrisă a persoanei îndreptățite, ori de câte ori aceasta solicită, cu respectarea condițiilor din ordonanță.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.1,
+     "absenta_corecta": 0.0,
+     "sustine": 0.87,
+     "nu_spune": 0.03
+    },
+    "confidence": 0.82
+   }
+  },
+  "usage": 4883
+ },
+ {
+  "loc": "Încetarea dreptului și normele metodologice (art. 17 din ord / paragraful 4",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 13 alin. (1) din norme distinge documentația după situația solicitantului: pentru cel care beneficiază deja de concediu și indemnizație, cererea va fi însoțită numai de dovada eliberată de angajator ori de alte documente ale autorităților competente; pentru cel care, deși are dreptul, nu solicită concediul și indemnizația, cererea este însoțită de actele doveditoare necesare stabilirii acestui drept.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 0.95,
+     "contrazice": 0.05
+    },
+    "confidence": 0.92
+   }
+  },
+  "usage": 5212
+ },
+ {
+  "loc": "Baza de calcul a indemnizației, în normele metodologice (art / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 21 alin. (1) din norme arată ce se ia în considerare la stabilirea bazei de calcul al indemnizației pentru creșterea copilului: toate veniturile realizate de persoana îndreptățită în condițiile art. 3 din ordonanță, precum și veniturile aferente perioadelor asimilate.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.01,
+     "sustine": 0.99,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.98
+   }
+  },
+  "usage": 2790
+ },
+ {
+  "loc": "Baza de calcul a indemnizației, în normele metodologice (art / paragraful 2",
+  "afirmatii": {
+   "0": {
+    "text": "Alin. (2) repetă formula de calcul și pragul: cuantumul se calculează prin aplicarea cotei de 85% asupra bazei de calcul și nu poate fi mai mic decât cel prevăzut de art. 2 alin. (2) din ordonanță.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 2635
+ },
+ {
+  "loc": "Baza de calcul a indemnizației, în normele metodologice (art / paragraful 3",
+  "afirmatii": {
+   "0": {
+    "text": "Alin. (3) dă o regulă pentru luna nașterii: se ia în calcul venitul cuvenit în luna respectivă.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 2603
+ },
+ {
+  "loc": "capcana 1",
+  "afirmatii": {
+   "0": {
+    "text": "Cele două cuantumuri nu depind de nivelul veniturilor, ci de momentul reluării activității: 1.500 lei dacă veniturile se obțin înainte de 6 luni (1 an la copilul cu dizabilități), 650 lei dacă se obțin după (art. 7 alin. (1)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "sustine": 0.99,
+     "contrazice": 0.01
+    },
+    "confidence": 0.99
+   }
+  },
+  "usage": 8071
+ },
+ {
+  "loc": "capcana 2",
+  "afirmatii": {
+   "0": {
+    "text": "Cuantumul de 1.500 lei se acordă până la 2 ani, respectiv 3 ani; după acest moment se trece la cuantumul de 650 lei, până la 3 ani, respectiv 4 ani (art. 7 alin. (1) lit. a) și alin. (2)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.02,
+     "sustine": 0.98
+    },
+    "confidence": 0.98
+   }
+  },
+  "usage": 8198
+ },
+ {
+  "loc": "capcana 3",
+  "afirmatii": {
+   "0": {
+    "text": "Indemnizația lunară pentru creșterea copilului nu se cumulează cu stimulentul; solicitarea stimulentului suspendă plata indemnizației (art. 7 alin. (4)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.99,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.01
+    },
+    "confidence": 0.99
+   }
+  },
+  "usage": 8160
+ },
+ {
+  "loc": "capcana 4",
+  "afirmatii": {
+   "0": {
+    "text": "Al doilea necumul privește indemnizația de la art. 31 alin. (2) — cea pentru concediul de îngrijire a copilului cu dizabilitate — și stimulentul acordat până la 4 ani (art. 7 alin. (3)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.01,
+     "sustine": 0.83,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.16
+    },
+    "confidence": 0.77
+   }
+  },
+  "usage": 8261
+ },
+ {
+  "loc": "capcana 5",
+  "afirmatii": {
+   "0": {
+    "text": "Încadrarea copilului în grad de handicap după împlinirea vârstei de 3 ani prelungește stimulentul până la 4 ani, dar numai pe baza unei noi cereri și a copiei certificatului (art. 7 alin. (6) și (7)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 8254
+ },
+ {
+  "loc": "capcana 6",
+  "afirmatii": {
+   "0": {
+    "text": "Dreptul la stimulent încetează la 3 ani, respectiv 4 ani pentru copilul cu dizabilități (art. 17 alin. (1)) — praguri diferite de cele ale indemnizației, care sunt 2 și 3 ani (art. 16 alin. (1)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.99,
+     "nu_spune": 0.0,
+     "contrazice": 0.01,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 0.98
+   }
+  },
+  "usage": 8336
+ },
+ {
+  "loc": "capcana 7",
+  "afirmatii": {
+   "0": {
+    "text": "Majorarea cuantumului stimulentului se face prin hotărâre a Guvernului (art. 7 alin. (8)), nu prin legea bugetului.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.79,
+     "absenta_corecta": 0.17,
+     "nu_spune": 0.03,
+     "contrazice": 0.01
+    },
+    "confidence": 0.73
+   }
+  },
+  "usage": 8064
+ },
+ {
+  "loc": "capcana 8",
+  "afirmatii": {
+   "0": {
+    "text": "Documentația diferă după situație: cine primește deja indemnizația depune numai dovada de la angajator; cine nu a solicitat concediul depune toate actele doveditoare (art. 13 alin. (1) din norme).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 8336
+ }
+]

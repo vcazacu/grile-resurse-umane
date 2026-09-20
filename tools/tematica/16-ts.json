@@ -1,0 +1,638 @@
+[
+ {
+  "loc": "Condiția de stagiu și cuantumul indemnizației (art. 2, art.  / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 2 alin. (1) cere realizarea, în ultimii 2 ani anteriori datei nașterii copilului, a cel puțin 12 luni de venituri supuse impozitului — din salarii și asimilate, activități independente, drepturi de proprietate intelectuală ori activități agricole, silvicultură și piscicultură.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Cine îndeplinește această condiție beneficiază de concediu pentru creșterea copilului în vârstă de până la 2 ani, respectiv 3 ani în cazul copilului cu handicap, precum și de o indemnizație lunară.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 7852
+ },
+ {
+  "loc": "Condiția de stagiu și cuantumul indemnizației (art. 2, art.  / paragraful 2",
+  "afirmatii": {
+   "0": {
+    "text": "Alin. (2) dă formula și cele două limite: indemnizația este de 85% din media veniturilor nete realizate în ultimele 12 luni din ultimii 2 ani anteriori nașterii; cuantumul minim nu poate fi mai mic decât suma rezultată din aplicarea unui coeficient de multiplicare de 2,5 la valoarea indicatorului social de referință, iar cuantumul maxim nu poate depăși 8.500 lei.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 7199
+ },
+ {
+  "loc": "Condiția de stagiu și cuantumul indemnizației (art. 2, art.  / paragraful 3",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 3 alin. (2) precizează ce se înțelege prin venituri nete: cele rezultate după scăderea impozitului pe venit și, după caz, a contribuțiilor sociale obligatorii.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.02,
+     "nu_spune": 0.0,
+     "sustine": 0.98,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 0.97
+   },
+   "1": {
+    "text": "Alin. (4) prevede că, dacă o persoană realizează concomitent venituri din mai multe surse supuse impozitului, se iau în calcul toate veniturile lunare încasate.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.01,
+     "nu_spune": 0.0,
+     "sustine": 0.99,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 0.99
+   }
+  },
+  "usage": 7789
+ },
+ {
+  "loc": "Condiția de stagiu și cuantumul indemnizației (art. 2, art.  / paragraful 4",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 5 prevede majorarea pentru sarcinile multiple: cuantumul indemnizației se majorează cu 50% din indemnizația cuvenită, pentru fiecare copil născut dintr-o sarcină gemelară, de tripleți sau multipleți, începând cu al doilea copil provenit dintr-o astfel de sarcină.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.99,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.01
+    },
+    "confidence": 0.99
+   },
+   "1": {
+    "text": "Majorarea nu se acordă deci pentru primul copil.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.98,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.02,
+     "contrazice": 0.0
+    },
+    "confidence": 0.97
+   }
+  },
+  "usage": 7556
+ },
+ {
+  "loc": "Fracțiunea de lună și nașterea înainte de termen (art. 4) / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 4 alin. (1) prevede că în calculul celor 12 luni se includ și fracțiunile de lună în care s-au realizat venituri supuse impozitului sau în care solicitantul s-a aflat în situațiile asimilate.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 2392
+ },
+ {
+  "loc": "Fracțiunea de lună și nașterea înainte de termen (art. 4) / paragraful 2",
+  "afirmatii": {
+   "0": {
+    "text": "Alin. (2) definește fracțiunea de lună: efectuarea a cel puțin jumătate din zilele lucrătoare din acea lună.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Alin. (3) admite o excepție limitată numeric: se acceptă ca de cel mult 3 ori fracțiunea de lună să fie constituită dintr-un număr mai mic de zile lucrătoare.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 2691
+ },
+ {
+  "loc": "Fracțiunea de lună și nașterea înainte de termen (art. 4) / paragraful 3",
+  "afirmatii": {
+   "0": {
+    "text": "Alin. (4) tratează nașterea înainte de termen: perioada de la art. 2 alin. (1) se diminuează cu perioada cuprinsă între data nașterii copilului și data prezumată a nașterii, certificată de medicul de specialitate.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 2522
+ },
+ {
+  "loc": "Cine beneficiază, suprapunerea drepturilor și luna celuilalt / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 8 alin. (1) arată că de indemnizație beneficiază oricare dintre părinții firești, oricare dintre persoanele cărora li s-a încredințat copilul în vederea adopției sau care l-au adoptat.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 0.99
+   },
+   "1": {
+    "text": "Alin. (2) extinde dreptul la persoana care are copilul în plasament ori în plasament în regim de urgență, cu excepția asistentului maternal profesionist, care poate beneficia numai pentru copiii săi.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 5690
+ },
+ {
+  "loc": "Cine beneficiază, suprapunerea drepturilor și luna celuilalt / paragraful 2",
+  "afirmatii": {
+   "0": {
+    "text": "Alin. (4) tratează decesul părintelui îndreptățit: părintele supraviețuitor are dreptul fie de drepturile părintelui decedat, dacă el însuși nu îndeplinește condițiile, fie de drepturile proprii, dacă le îndeplinește.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 5270
+ },
+ {
+  "loc": "Cine beneficiază, suprapunerea drepturilor și luna celuilalt / paragraful 3",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 9 alin. (2) prevede prelungirea corespunzătoare a concediului în cazul suprapunerii a două sau mai multor situații, iar alin. (3) precizează că se acordă totuși o singură indemnizație.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Alin. (4) adaugă majorarea cu 50% pentru fiecare dintre copii, începând cu al doilea.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.99,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.01
+    },
+    "confidence": 0.98
+   }
+  },
+  "usage": 5735
+ },
+ {
+  "loc": "Cine beneficiază, suprapunerea drepturilor și luna celuilalt / paragraful 4",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 11 alin. (1) lit. a) rezervă celuilalt părinte cel puțin 2 luni din concediul pentru creșterea copilului.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Lit. b) prevede sancțiunea: dacă acel părinte nu solicită concediul pentru cel puțin 2 luni, deși îndeplinește cerințele, celălalt părinte nu poate beneficia de dreptul la concediu în locul său.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.01,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 0.99
+    },
+    "confidence": 0.98
+   },
+   "2": {
+    "text": "Alin. (2) lasă, în această situație, opțiunea pentru concediu fără plată sau pentru realizarea de venituri supuse impozitului.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 6157
+ },
+ {
+  "loc": "Cine beneficiază, suprapunerea drepturilor și luna celuilalt / paragraful 5",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 12 alin. (1) enumeră condițiile cumulative pentru acordarea drepturilor: cetățenia română, străină sau apatridă; domiciliul ori reședința pe teritoriul României; și locuirea în România împreună cu copilul, cu ocuparea de creșterea și îngrijirea acestuia.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "contrazice": 0.03,
+     "nu_spune": 0.0,
+     "sustine": 0.97
+    },
+    "confidence": 0.96
+   }
+  },
+  "usage": 5446
+ },
+ {
+  "loc": "Procedura, termenele și încetarea dreptului (art. 13–16) / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 13 alin. (1) prevede acordarea pe bază de cerere, însoțită obligatoriu de actele enumerate acolo, printre care dovada privind veniturile realizate.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.01,
+     "contrazice": 0.02,
+     "sustine": 0.8099999999999999,
+     "nu_spune": 0.16
+    },
+    "confidence": 0.76
+   }
+  },
+  "usage": 5433
+ },
+ {
+  "loc": "Procedura, termenele și încetarea dreptului (art. 13–16) / paragraful 2",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 14 alin. (3) fixează termenul de soluționare: 15 zile lucrătoare de la data înregistrării la agenția teritorială, prin decizie de admitere sau de respingere emisă de directorul executiv.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Alin. (4) prevede comunicarea deciziei în 5 zile lucrătoare de la emitere.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 5551
+ },
+ {
+  "loc": "Procedura, termenele și încetarea dreptului (art. 13–16) / paragraful 3",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 15 alin. (1) leagă data de la care se stabilesc drepturile de respectarea unor termene de depunere: ziua următoare încetării concediului de maternitate, dacă cererea este depusă în 60 de zile lucrătoare de la acea dată; data nașterii copilului, în același termen, pentru cei care nu îndeplinesc condițiile pentru concediul de maternitate; data adopției, tutelei, plasamentului sau încredințării, tot în 60 de zile lucrătoare.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.01,
+     "absenta_corecta": 0.0,
+     "sustine": 0.99,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.99
+   }
+  },
+  "usage": 5560
+ },
+ {
+  "loc": "Procedura, termenele și încetarea dreptului (art. 13–16) / paragraful 4",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 16 alin. (1) enumeră cazurile de încetare a dreptului la indemnizație: împlinirea de către copil a vârstei de 2 ani, respectiv 3 ani în cazul copilului cu handicap; decesul copilului; și trecerea a 3 luni de la expirarea certificatului de încadrare în grad de handicap, fără depunerea unui certificat nou.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 5254
+ },
+ {
+  "loc": "Efectele asupra vechimii, protecția locului de muncă și copi / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 22 alin. (1) prevede că perioada în care se beneficiază de aceste drepturi constituie perioadă asimilată stagiului de cotizare în vederea stabilirii drepturilor de pensie.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Alin. (2) adaugă că perioada concediului pentru creșterea copilului constituie vechime în muncă și în serviciu, precum și în specialitate.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 5750
+ },
+ {
+  "loc": "Efectele asupra vechimii, protecția locului de muncă și copi / paragraful 2",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 25 alin. (1) obligă angajatorul să aprobe concediul pentru creșterea copilului.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Alin. (2) interzice angajatorului să dispună încetarea raporturilor de muncă sau de serviciu pentru salariatul aflat în concediu pentru creșterea copilului, pentru cel aflat în plata stimulentului de inserție și pentru cel aflat în concediul rezervat celuilalt părinte de la art. 11 alin. (1) lit. a).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.01,
+     "absenta_corecta": 0.0,
+     "sustine": 0.99,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.99
+   }
+  },
+  "usage": 5677
+ },
+ {
+  "loc": "Efectele asupra vechimii, protecția locului de muncă și copi / paragraful 3",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 31 alin. (1) prevede, pentru copilul cu dizabilitate care a împlinit vârsta de 3 ani, un concediu pentru îngrijirea copilului până la vârsta de 7 ani, acordat în continuarea concediului obișnuit ori, în condițiile de acolo, oricând până la împlinirea acestei vârste.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Alin. (2) stabilește indemnizația pentru această perioadă: egală cu cuantumul minim al indemnizației de la art. 2 alin. (2).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 5928
+ },
+ {
+  "loc": "capcana 1",
+  "afirmatii": {
+   "0": {
+    "text": "Condiția este de cel puțin 12 luni de venituri în ultimii 2 ani anteriori nașterii — nu 12 luni consecutive și nu 2 ani de venituri (art. 2 alin. (1)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.09,
+     "sustine": 0.91,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 0.87
+   }
+  },
+  "usage": 17241
+ },
+ {
+  "loc": "capcana 2",
+  "afirmatii": {
+   "0": {
+    "text": "Indemnizația este de 85% din media veniturilor nete, cu minimul de 2,5 ori indicatorul social de referință și maximul de 8.500 lei (art. 2 alin. (2)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Procentul se aplică veniturilor nete, nu brute.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 17635
+ },
+ {
+  "loc": "capcana 3",
+  "afirmatii": {
+   "0": {
+    "text": "Majorarea de 50% pentru sarcini gemelare se acordă începând cu al doilea copil, nu pentru fiecare copil (art. 5).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.99
+   }
+  },
+  "usage": 17222
+ },
+ {
+  "loc": "capcana 4",
+  "afirmatii": {
+   "0": {
+    "text": "Fracțiunea de lună înseamnă cel puțin jumătate din zilele lucrătoare, iar excepția de la această regulă poate fi folosită de cel mult 3 ori (art. 4 alin. (2) și (3)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 17421
+ },
+ {
+  "loc": "capcana 5",
+  "afirmatii": {
+   "0": {
+    "text": "Cele cel puțin 2 luni rezervate celuilalt părinte nu sunt transferabile: dacă acesta nu le solicită deși îndeplinește condițiile, celălalt părinte nu poate beneficia de ele (art. 11 alin. (1) lit. b)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 17370
+ },
+ {
+  "loc": "capcana 6",
+  "afirmatii": {
+   "0": {
+    "text": "Termenul de depunere a cererii este de 60 de zile lucrătoare, dar termenul de soluționare este de 15 zile lucrătoare, iar comunicarea deciziei se face în 5 zile lucrătoare (art. 14 și 15).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "sustine": 0.97,
+     "nu_spune": 0.0,
+     "contrazice": 0.03
+    },
+    "confidence": 0.96
+   }
+  },
+  "usage": 17257
+ },
+ {
+  "loc": "capcana 7",
+  "afirmatii": {
+   "0": {
+    "text": "Dreptul încetează la 2 ani, respectiv 3 ani pentru copilul cu handicap; expirarea certificatului de handicap duce la încetare doar după 3 luni fără depunerea unui certificat nou (art. 16 alin. (1)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.99,
+     "contrazice": 0.01,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 0.99
+   }
+  },
+  "usage": 17416
+ },
+ {
+  "loc": "capcana 8",
+  "afirmatii": {
+   "0": {
+    "text": "Interdicția de concediere acoperă trei situații distincte, inclusiv perioada în care salariatul se află în plata stimulentului de inserție (art. 25 alin. (2)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 17423
+ },
+ {
+  "loc": "capcana 9",
+  "afirmatii": {
+   "0": {
+    "text": "Concediul pentru îngrijirea copilului cu dizabilitate între 3 și 7 ani are o indemnizație egală cu cuantumul minim al indemnizației, nu cu 85% din venituri (art. 31 alin. (2)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 17319
+ },
+ {
+  "loc": "capcana 10",
+  "afirmatii": {
+   "0": {
+    "text": "Asistentul maternal profesionist poate beneficia de aceste drepturi numai pentru copiii săi (art. 8 alin. (2)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 17312
+ }
+]
