@@ -2,3 +2,4 @@
 .DS_Store
 tools/nou/
 tools/__pycache__/
+.venv-ts/
