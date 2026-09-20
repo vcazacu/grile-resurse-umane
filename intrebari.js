@@ -396,7 +396,7 @@ const INTREBARI = [
       2,
       3
     ],
-    "explicatie": "Art. 2 enumeră zece principii de bază: unicitatea (lit. a), obligativitatea (lit. b), contributivitatea (lit. c), egalitatea (lit. d), repartiția (lit. e), solidaritatea socială (lit. f), autonomia (lit. g), imprescriptibilitatea (lit. h), incesibilitatea (lit. i) și stabilitatea asigurării (lit. j). Primele trei variante reproduc lit. a), c) și h). Varianta a patra contrazice principiul obligativității de la lit. b), potrivit căruia persoanele fizice și juridice au, conform legii, obligația de a participa la sistemul public de pensii, drepturile de asigurări sociale exercitându-se corelativ cu îndeplinirea obligațiilor; asigurarea facultativă există doar ca posibilitate suplimentară, prin contractul de asigurare socială de la art. 6 alin. (2).",
+    "explicatie": "Art. 2 enumeră zece principii de bază: unicitatea (lit. a), obligativitatea (lit. b), contributivitatea (lit. c), egalitatea (lit. d), repartiția (lit. e), solidaritatea socială (lit. f), autonomia (lit. g), imprescriptibilitatea (lit. h), incesibilitatea (lit. i) și stabilitatea asigurării (lit. j). Variantele care enunță unicitatea, contributivitatea și imprescriptibilitatea reproduc lit. a), c) și h). Varianta potrivit căreia participarea la sistemul public de pensii ar fi facultativă contrazice principiul obligativității de la lit. b), potrivit căruia persoanele fizice și juridice au, conform legii, obligația de a participa la sistemul public de pensii, drepturile de asigurări sociale exercitându-se corelativ cu îndeplinirea obligațiilor; asigurarea facultativă există doar ca posibilitate suplimentară, prin contractul de asigurare socială de la art. 6 alin. (2).",
     "sursa": {
       "act": "Legea nr. 360/2023 privind sistemul public de pensii",
       "articol": "art. 2",
@@ -2429,7 +2429,7 @@ const INTREBARI = [
     "corecte": [
       0
     ],
-    "explicatie": "Art. 6 alin. (6): se pot încheia mai multe contracte de asigurare socială în baza alin. (3), cu condiția ca perioadele de asigurare înscrise în acestea, cumulate, să nu depășească 6 ani. Limita de 6 ani este deci globală, nu pe fiecare contract, ceea ce exclude varianta a doua. Textul nu impune încheierea tuturor contractelor cu aceeași casă teritorială de pensii. Calitatea de pensionar nu este o condiție, ci dimpotrivă un impediment: art. 6 alin. (3) permite acest tip de contract doar persoanelor care nu au calitatea de pensionari. Perioada acoperită de astfel de contracte constituie stagiu de cotizare și se valorifică pentru obținerea pensiei pentru limită de vârstă (art. 6 alin. (5)).",
+    "explicatie": "Art. 6 alin. (6): se pot încheia mai multe contracte de asigurare socială în baza alin. (3), cu condiția ca perioadele de asigurare înscrise în acestea, cumulate, să nu depășească 6 ani. Limita de 6 ani este deci globală, nu pe fiecare contract, ceea ce exclude varianta care ar plafona la 6 ani fiecare contract în parte, fără limită a perioadelor cumulate. Textul nu impune încheierea tuturor contractelor cu aceeași casă teritorială de pensii. Calitatea de pensionar nu este o condiție, ci dimpotrivă un impediment: art. 6 alin. (3) permite acest tip de contract doar persoanelor care nu au calitatea de pensionari. Perioada acoperită de astfel de contracte constituie stagiu de cotizare și se valorifică pentru obținerea pensiei pentru limită de vârstă (art. 6 alin. (5)).",
     "sursa": {
       "act": "Legea nr. 360/2023 privind sistemul public de pensii",
       "articol": "art. 6 alin. (6)",
@@ -4179,7 +4179,7 @@ const INTREBARI = [
     "corecte": [
       0
     ],
-    "explicatie": "Art. 16 alin. (1): condițiile sunt cumulative — vârsta standard de pensionare (65 de ani, atinsă prin eșalonările din anexele nr. 1 și 2, alin. (2)) și o vechime efectivă de cel puțin 25 de ani, din care cel puțin 15 ani reprezintă vechimea în serviciu. Varianta a doua inversează cei doi indicatori; a treia elimină condiția de vârstă; a patra descrie pensia de serviciu anticipată (art. 17), care cere vârsta standard diminuată cu 5 ani, aceleași condiții de vechime și una dintre situațiile de trecere în rezervă prevăzute acolo.",
+    "explicatie": "Art. 16 alin. (1): condițiile sunt cumulative — vârsta standard de pensionare (65 de ani, atinsă prin eșalonările din anexele nr. 1 și 2, alin. (2)) și o vechime efectivă de cel puțin 25 de ani, din care cel puțin 15 ani reprezintă vechimea în serviciu. Varianta care cere o vechime efectivă de cel puțin 15 ani, din care 25 de ani vechime în serviciu, inversează cei doi indicatori; cea care cere numai 25 de ani vechime în serviciu, indiferent de vârstă, elimină condiția de vârstă; cea care cere vârsta standard diminuată cu 5 ani descrie pensia de serviciu anticipată (art. 17), care cere vârsta standard diminuată cu 5 ani, aceleași condiții de vechime și una dintre situațiile de trecere în rezervă prevăzute acolo.",
     "sursa": {
       "act": "Legea nr. 223/2015 privind pensiile militare de stat",
       "articol": "art. 16 alin. (1)",
@@ -6748,7 +6748,7 @@ const INTREBARI = [
       2,
       3
     ],
-    "explicatie": "Art. 47 alin. (1): vârsta standard de pensionare este de 65 de ani pentru ambele sexe, atinsă prin creșterea vârstelor conform eșalonării din anexa nr. 5. Alin. (2): stagiul minim de cotizare contributiv este de 15 ani, pentru femei și pentru bărbați. Alin. (4): la calculul stagiului minim și al celui complet de cotizare contributiv se ia în considerare și perioada de la art. 14 alin. (1) lit. e), adică concediul pentru creșterea copilului, deși aceasta este o perioadă asimilată. Varianta a patra este greșită: alin. (3) stabilește stagiul complet de cotizare contributiv la 35 de ani atât pentru femei, cât și pentru bărbați, atins prin eșalonarea din anexa nr. 5; valorile diferențiate de 30 și 35 de ani aparțin legislației anterioare de pensii.",
+    "explicatie": "Art. 47 alin. (1): vârsta standard de pensionare este de 65 de ani pentru ambele sexe, atinsă prin creșterea vârstelor conform eșalonării din anexa nr. 5. Alin. (2): stagiul minim de cotizare contributiv este de 15 ani, pentru femei și pentru bărbați. Alin. (4): la calculul stagiului minim și al celui complet de cotizare contributiv se ia în considerare și perioada de la art. 14 alin. (1) lit. e), adică concediul pentru creșterea copilului, deși aceasta este o perioadă asimilată. Varianta care dă stagiul complet de cotizare contributiv ca fiind de 30 de ani pentru femei și de 35 de ani pentru bărbați este greșită: alin. (3) stabilește stagiul complet de cotizare contributiv la 35 de ani atât pentru femei, cât și pentru bărbați, atins prin eșalonarea din anexa nr. 5; valorile diferențiate de 30 și 35 de ani aparțin legislației anterioare de pensii.",
     "sursa": {
       "act": "Legea nr. 360/2023 privind sistemul public de pensii",
       "articol": "art. 47",
@@ -10289,7 +10289,7 @@ const INTREBARI = [
     "corecte": [
       1
     ],
-    "explicatie": "Art. 135 alin. (1): salariații au dreptul între două zile de muncă la un repaus care nu poate fi mai mic de 12 ore consecutive; alin. (2) prevede excepția pentru munca în schimburi, unde repausul nu poate fi mai mic de 8 ore între schimburi. Varianta a doua inversează regula cu excepția. Cele 48 de ore consecutive, de regulă sâmbăta și duminica, reprezintă repausul săptămânal (art. 137 alin. (1)), nu repausul zilnic. Valoarea de 24 de ore nu apare în art. 135; ea provine din art. 115 alin. (2), potrivit căruia durata zilnică a timpului de muncă de 12 ore va fi urmată de o perioadă de repaus de 24 de ore. Munca în schimburi este definită la art. 136 alin. (1) ca modul de organizare în care salariații se succed unul pe altul la același post de muncă, potrivit unui anumit program.",
+    "explicatie": "Art. 135 alin. (1): salariații au dreptul între două zile de muncă la un repaus care nu poate fi mai mic de 12 ore consecutive; alin. (2) prevede excepția pentru munca în schimburi, unde repausul nu poate fi mai mic de 8 ore între schimburi. Varianta care dă 8 ore consecutive ca regulă și 12 ore între schimburi ca excepție inversează regula cu excepția. Cele 48 de ore consecutive, de regulă sâmbăta și duminica, reprezintă repausul săptămânal (art. 137 alin. (1)), nu repausul zilnic. Valoarea de 24 de ore nu apare în art. 135; ea provine din art. 115 alin. (2), potrivit căruia durata zilnică a timpului de muncă de 12 ore va fi urmată de o perioadă de repaus de 24 de ore. Munca în schimburi este definită la art. 136 alin. (1) ca modul de organizare în care salariații se succed unul pe altul la același post de muncă, potrivit unui anumit program.",
     "sursa": {
       "act": "Legea nr. 53/2003 – Codul muncii",
       "articol": "art. 135",

@@ -95,11 +95,19 @@ Temele fără fișier de conținut apar în index ca „în pregătire". Fiecare
   - `descarca.py` — descarcă formele consolidate de pe legislatie.just.ro în `../legislatie/`
   - `bibliografie.py` — tematica oficială → articole cerute (`BIB`, `RESTRICTII`)
   - `asambleaza.py` — asamblează `nou/*.json` în `intrebari.js` (cote, teste, amestecare)
-  - `valideaza.py` — schema aplicației, unicitate, fără referiri la poziția variantelor
+  - `valideaza.py` — schema aplicației, unicitate, id-uri și texte nedublate
+  - `check_semantic.py --doar-pozitionale` — explicațiile nu trimit la poziția
+    variantei („a doua variantă”), fiindcă `asambleaza.py` le amestecă; determinist,
+    fără cheie API
   - `check_citat.py` — citatul din `sursa.citat` apare verbatim în sursă (după normalizare)
   - `check_articol.py` — articolul declarat = locul real al citatului + în tematică + restricții pe alineate
   - `acoperire.py` — fiecare articol cerut de bibliografie are cel puțin o întrebare
-  - `verifica_tot.sh` — rulează toate verificările de mai sus într-un singur pas
+  - `verifica_tot.sh` — rulează toate verificările de mai sus într-un singur pas;
+    cu `--semantic` adaugă poarta semantică de mai jos (cere `TYPESAFE_API_KEY`)
+  - `check_semantic.py`, `alineate.py` — poarta semantică (TypeSafe): verifică
+    independent cheia fiecărei întrebări cu răspuns unic, temeiurile abrogate și
+    explicațiile, frază cu frază, față de textul legii. Rezultate și limite în
+    `tools/CALIBRARE-typesafe.md`
   - `SPEC.md` — contractul complet privind schema și sursele
   - `nou/` — întrebările brute înainte de asamblare (neversionate)
 

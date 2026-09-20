@@ -238,3 +238,27 @@ per-variantă au scăzut de la 11 la 6 în coadă (cele rămase sunt pe întreb�
 unde nu există judecată comparativă), iar L80-203 și L223-113 nu mai poartă acuzația falsă.
 Detecția pe mutante rămâne 23/24 — la chei greșite comparativul **nu** confirmă, deci
 suprimarea nu se aplică.
+
+---
+
+# Reparațiile și legarea în `verifica_tot.sh`
+
+20.09.2026. Cele 5 explicații cu referiri poziționale au fost rescrise ca să descrie
+varianta **prin conținut**, nu prin poziție — corectura s-a aplicat în paralel în
+`intrebari.js` și în `nou/*.json`, cu textul determinat din ordinea pre-amestec, ca
+fișierele să rămână identice. `sw.js` a trecut la `grile-ru-v3`.
+
+Exemplu (L360-102): „Primele trei variante reproduc lit. a), c) și h). Varianta a patra
+contrazice principiul obligativității" → „Variantele care enunță unicitatea,
+contributivitatea și imprescriptibilitatea reproduc lit. a), c) și h). Varianta potrivit
+căreia participarea la sistemul public de pensii ar fi facultativă contrazice…". În
+aplicație, „varianta a patra" era imprescriptibilitatea, adică una dintre cele **corecte**.
+
+`verifica_tot.sh` are acum pasul 4, „referiri poziționale" — determinist, fără cheie API —
+și un `--semantic` opțional care rulează poarta completă (nu pornește niciodată singur:
+durează ~70 s pe banca întreagă și consumă tokens). Pasul semantic folosește `./.venv-ts/bin/python`,
+fiindcă `typesafe-sdk` nu e în Python-ul de sistem.
+
+Nota care explică scăparea: README-ul descria de la început `valideaza.py` ca verificând
+„fără referiri la poziția variantelor". Verificarea nu exista. Un contract scris în
+documentație, dar neimplementat, nu prinde nimic — acum e implementat și rulează.
