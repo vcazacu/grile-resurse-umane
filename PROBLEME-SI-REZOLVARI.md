@@ -9,9 +9,11 @@ instructive.
 Raportul de calibrare cu cifrele brute: [`tools/CALIBRARE-typesafe.md`](tools/CALIBRARE-typesafe.md).
 
 **Rezumat:** 5 defecte reale în banca publicată (reparate), 1 cauză-rădăcină în
-documentație (reparată), 4 capcane în construcția stării și 4 greșeli de design al
+documentație (reparată), 5 capcane în construcția stării și 6 greșeli de design al
 judecăților (toate reparate), 3 probleme de infrastructură (reparate). Verificarea
-independentă a celor 505 chei cu răspuns unic nu a găsit nicio cheie greșită.
+independentă a celor 505 chei cu răspuns unic nu a găsit nicio cheie greșită, iar
+verificarea paginii de sinteză „Gradele militare" nu a găsit nicio afirmație contrazisă
+de textul legii.
 
 ---
 
@@ -89,6 +91,28 @@ Plafon de 2500 de caractere aplicat și articolelor invocate. La L80-114, art. 2
 — „50% … nu mai mult de 9 luni" — cădea după tăietură, ceea ce a produs o **alarmă falsă cu
 p=0.95**. Plafonul pentru articolele-dovadă e acum 9000.
 
+### C5. Literele se suprascriau în articolele cu subgrupuri — **reparat**
+
+Găsit la verificarea temei 1 din secțiunea „Tematica". `alineate.descompune()` ținea literele
+unui alineat într-un dicționar plat. În articolele structurate pe subgrupuri majuscule —
+`A. Subofițeri`, `B. Maiștri militari`, `C. Ofițeri` — literele grupului B le suprascriau pe
+ale lui A, iar ale lui C pe ale lui B. La art. 2 din Legea 80/1995 modelul primea o listă
+amestecată, în care „a)" era „ofițeri cu grade inferioare", iar „d)" și „e)" erau grade de
+maistru militar.
+
+**Consecința:** 10 alarme false pe o temă care era corectă, unele cu p=0.92. Fără verificarea
+manuală în lege, aș fi „reparat" o pagină care nu avea nimic.
+
+**Rezolvare:** literele se cheie acum cu grupul din care fac parte — `A. a)`, `A^1. b)`,
+`C. c)`. Trimiterile la literă simplă (art. 85 lit. h)) funcționează în continuare, fiindcă
+acolo nu există subgrupuri.
+
+**Ecou asupra rezultatelor anterioare:** bug-ul exista și la rularea băncii de întrebări.
+Nu a schimbat concluzia — judecata comparativă a fost de acord cu cheia la 505 din 505
+întrebări `unic` — dar articolele cu subgrupuri majuscule au fost judecate pe o listă
+amestecată. O rerulare a băncii ar costa ~6M tokens; merită făcută dacă se modifică oricum
+întrebări pe astfel de articole.
+
 ### C4. Notele erau colectate peste granița de capitol — **reparat**
 
 `_note_articol()` se oprea doar la următorul „Articolul N", deci nota „Cap. V a fost
@@ -147,6 +171,22 @@ articolul pe alineate și litere și **rezolvă trimiterile până la literă** 
 lit. g), h), j)…" devine câmpuri numite cu textul exact. Cheia a urcat la **0.98**.
 Pe banca întreagă se rezolvă 1.850 de astfel de trimiteri.
 
+### D6. Afirmațiile de absență nu aveau unde să meargă — **reparat**
+
+Sintezele spun des „pentru maistru militar principal nu este prevăzut stagiu" sau „art. 96 nu
+este în bibliografie". Astfel de afirmații sunt corecte — art. 94 lit. B chiar se oprește la
+clasa I — dar întrebarea avea doar trei ieșiri: susține, contrazice, nu spune nimic. Modelul
+nu putea alege „susține" (textul nu afirmă nimic despre maistrul principal), așa că alegea
+**contrazice**.
+
+**Rezolvare:** o a patra categorie, `absenta_corecta`, descrisă explicit: afirmația susține că
+ceva NU este prevăzut, iar textul îi dă dreptate prin chiar lipsa acelui lucru. Plus lista
+oficială de articole cerute de tematică în stare, pentru afirmațiile despre bibliografie.
+
+**Efect secundar util:** cu o categorie „nu spune nimic" formulată să acopere și sfaturile de
+învățare („citește întrebarea până la capăt"), propozițiile pedagogice se clasifică singure
+acolo, în loc să polueze verdictul.
+
 ---
 
 ## E. Greșeli de metodă (ale mele)
@@ -168,6 +208,21 @@ Explicația argumentează de ce fiecare distractor e greșit. Dacă ar sta în a
 întrebările despre variante, ar suprima exact semnalul „distractor apărabil". De aceea se
 fac **două cereri** per întrebare: una fără cheie și fără explicație, una cu ele.
 
+### E4. Lecția de la E1, aplicată de la început — **prag calibrat, nu ghicit**
+
+La verificarea tematicii nu am mai raportat un prag înainte de a avea pozitivi. Tema 1 e
+corectă, deci setul nu conținea nicio eroare reală. Am plantat 12: cifre schimbate (3 ani → 4
+ani), clase de grad (a IV-a → a VI-a), ministere (Apărării → Afacerilor Interne).
+
+| | p(contrazice) |
+|---|---|
+| afirmații mutate deliberat | **≥ 0.99** la 10 din 12 |
+| afirmații verificate manual ca fiind corecte | **≤ 0.76** |
+
+Pragul inițial de 0.50 producea 3 alarme false pe o temă fără erori. La 0.90 separarea e
+curată în ambele direcții. Aceasta este singura cifră din tot documentul obținută înainte de
+a fi avut nevoie de ea, nu după.
+
 ### E3. Cheia API tipărită în transcript — **de rotit**
 
 La prima verificare am folosit un fallback de shell care a tipărit valoarea cheii, nu doar
@@ -186,7 +241,33 @@ rotire din console.typesafe.ai.
 
 ---
 
-## G. Stare finală
+## G. Verificarea paginilor de sinteză („Tematica")
+
+Aceeași metodă, alt produs: fiecare frază din paragrafe și fiecare capcană devine o afirmație
+judecată separat contra textului integral al articolelor invocate de secțiune, descompus pe
+alineate, cu trimiterile rezolvate până la literă și cu lista de articole cerute de tematică
+în stare. `tematica_build.py` confirma deja citatele verbatim; ce lipsea era verificarea că
+sinteza **rezultă** din ele.
+
+**Tema 1 („Gradele militare și stagiile minime în grad") era corectă.** 101 afirmații:
+
+| | |
+|---|---|
+| confirmate de textul legii | 97 |
+| afirmații de absență, corecte | 2 |
+| sfaturi de învățare (nu afirmații despre lege) | 2 |
+| **contrazise** | **0** |
+
+Drumul până la acest verdict a trecut prin C5 (10 alarme false din cauza literelor
+suprascrise), D6 (afirmațiile de absență) și E4 (pragul calibrat pe erori plantate). Niciuna
+dintre cele 10 alarme inițiale nu era o problemă a paginii.
+
+**Morala repetată a treia oară:** flagul nu este dovada. De fiecare dată când poarta a arătat
+cu degetul, primul pas util a fost să deschid legea, nu fișierul acuzat.
+
+---
+
+## H. Stare finală
 
 **Banca publicată, după reparații** (600 de întrebări; rularea completă a durat 69 s,
 6,33M tokens, 0 cereri picate; judecățile celor 5 întrebări reparate au fost reluate după
@@ -214,17 +295,22 @@ articolul din tematică, **referirile poziționale**, distribuția pe teste.
 
 ---
 
-## H. Ce merită reținut dincolo de proiect
+## I. Ce merită reținut dincolo de proiect
 
-1. **Aproape fiecare „eroare a modelului" a fost o dovadă lipsă din stare.** Patru din cinci
-   cazuri investigate s-au dovedit a fi construcția stării, nu judecata. Înainte de a
-   reformula o întrebare, merită verificat ce vede efectiv modelul.
+1. **Aproape fiecare „eroare a modelului" a fost o dovadă lipsă sau stricată în stare.**
+   Cinci capcane de construcție a stării, față de trei greșeli reale de judecată ale
+   modelului. Înainte de a reformula o întrebare — și cu atât mai mult înainte de a
+   „repara" conținutul acuzat — merită tipărit exact ce vede modelul.
 2. **Forma întrebării contează mai mult decât pragul.** Aceeași materie, aceeași stare:
    judecăți independente → alarme false cu p≥0.9; o singură judecată comparativă → 505/505
    corect. Niciun prag n-ar fi salvat prima variantă.
 3. **Codul găsește, modelul judecă.** Trimiterile rezolvate cu regex, notele de abrogare
    găsite determinist, referirile poziționale prinse cu un tipar de text — partea care a
    găsit cele mai multe defecte reale n-a costat niciun token.
-4. **Politica separată de judecăți se plătește.** Judecățile brute stau în
+4. **Un prag fără pozitivi nu e un prag.** De două ori am avut un set de validare fără
+   nicio eroare reală în el. Prima dată am raportat „precizie 4/4" și nu s-a generalizat;
+   a doua oară am plantat 12 erori înainte de a alege pragul. Erorile plantate sunt ieftine
+   și schimbă complet ce știi despre propria poartă.
+5. **Politica separată de judecăți se plătește.** Judecățile brute stau în
    `tools/verificari/*-ts.json`; toate re-etajările de mai sus s-au aplicat cu `--din`,
    fără să reruleze inferența.
