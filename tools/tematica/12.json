@@ -1,0 +1,168 @@
+{
+ "nr": 12,
+ "titlu": "Răspunderea disciplinară a salariaților",
+ "rezumat": "Șase articole, dar dense: definiția abaterii disciplinare (art. 247 alin. (2)), cele cinci sancțiuni cu cifrele lor — 60 de zile la retrogradare, 1–3 luni și 5–10% la reducerea salariului —, radierea de drept în 12 luni, interdicția amenzilor disciplinare și regula unei singure sancțiuni, cele cinci criterii de individualizare, cercetarea disciplinară prealabilă obligatorie sub sancțiunea nulității absolute cu o singură excepție, și termenele deciziei: 30 de zile calendaristice de la luarea la cunoștință, dar nu mai târziu de 6 luni de la săvârșirea faptei, comunicare în 5 zile, contestare în 30 de zile. Merită comparat tot timpul cu regimul militar de la art. 35 din Legea nr. 80/1995, unde termenele sunt 6 luni și 2 ani.",
+ "sectiuni": [
+  {
+   "titlu": "Prerogativa disciplinară și abaterea disciplinară (art. 247)",
+   "paragrafe": [
+    "Art. 247 alin. (1) recunoaște angajatorului prerogativa disciplinară: dreptul de a aplica, potrivit legii, sancțiuni disciplinare salariaților săi ori de câte ori constată că aceștia au săvârșit o abatere disciplinară.",
+    "Alin. (2) definește abaterea disciplinară prin patru elemente: este o faptă în legătură cu munca; constă într-o acțiune sau inacțiune; este săvârșită cu vinovăție de către salariat; și prin ea se încalcă normele legale, regulamentul intern, contractul individual de muncă sau contractul colectiv de muncă aplicabil, ordinele și dispozițiile legale ale conducătorilor ierarhici. Inacțiunea este deci la fel de sancționabilă ca acțiunea."
+   ],
+   "temei": [
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 247 alin. (1)",
+     "citat": "Angajatorul dispune de prerogativă disciplinară, având dreptul de a aplica, potrivit legii, sancțiuni disciplinare salariaților săi ori de câte ori constată că aceștia au săvârșit o abatere disciplinară.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    },
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 247 alin. (2)",
+     "citat": "Abaterea disciplinară este o faptă în legătură cu munca și care constă într-o acțiune sau inacțiune săvârșită cu vinovăție de către salariat, prin care acesta a încălcat normele legale, regulamentul intern, contractul individual de muncă sau contractul colectiv de muncă aplicabil, ordinele și dispozițiile legale ale conducătorilor ier",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    }
+   ]
+  },
+  {
+   "titlu": "Sancțiunile disciplinare și radierea lor (art. 248, art. 249)",
+   "paragrafe": [
+    "Art. 248 alin. (1) enumeră cinci sancțiuni: avertismentul scris; retrogradarea din funcție, cu acordarea salariului corespunzător funcției în care s-a dispus retrogradarea, pentru o durată ce nu poate depăși 60 de zile; reducerea salariului de bază pe o durată de 1–3 luni cu 5–10%; reducerea salariului de bază și/sau, după caz, și a indemnizației de conducere pe o perioadă de 1–3 luni cu 5–10%; desfacerea disciplinară a contractului individual de muncă.",
+    "Retrogradarea nu este o sancțiune pecuniară deghizată: salariul se acordă corespunzător funcției în care s-a dispus retrogradarea, iar durata nu poate depăși 60 de zile.",
+    "Alin. (2) conține o clauză de prioritate a statutelor profesionale: dacă prin statute aprobate prin lege specială se stabilește un alt regim sancționator, va fi aplicat acela. Aceasta este poarta prin care regimul militar de la art. 35 din Legea nr. 80/1995 se aplică în locul celui din Codul muncii.",
+    "Alin. (3) prevede radierea de drept a sancțiunii disciplinare în termen de 12 luni de la aplicare, dacă salariatului nu i se aplică o nouă sancțiune în acest termen; radierea se constată prin decizie a angajatorului emisă în formă scrisă.",
+    "Art. 249 adaugă două reguli scurte, dar des verificate: amenzile disciplinare sunt interzise (alin. (1)) și pentru aceeași abatere disciplinară se poate aplica numai o singură sancțiune (alin. (2))."
+   ],
+   "temei": [
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 248 alin. (1)",
+     "citat": "Sancțiunile disciplinare pe care le poate aplica angajatorul în cazul în care salariatul săvârșește o abatere disciplinară sunt: a) avertismentul scris; b) retrogradarea din funcție, cu acordarea salariului corespunzător funcției în care s-a dispus retrogradarea, pentru o durată ce nu poate depăși 60 de zile; c) reducerea salariului de bază pe o durată de 1-3 luni cu 5-10%; d) reducerea salariului de bază și/sau, după caz, și a indemnizației de conducere pe o perioadă de 1-3 luni cu 5-10%; e) desfacerea disciplinară a contractului individual de muncă.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    },
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 248 alin. (2)",
+     "citat": "În cazul în care, prin statute profesionale aprobate prin lege specială, se stabilește un alt regim sancționator, va fi aplicat acesta.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    },
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 248 alin. (3)",
+     "citat": "Sancțiunea disciplinară se radiază de drept în termen de 12 luni de la aplicare, dacă salariatului nu i se aplică o nouă sancțiune disciplinară în acest termen. Radierea sancțiunilor disciplinare se constată prin decizie a angajatorului emisă în formă scrisă.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    },
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 249",
+     "citat": "Amenzile disciplinare sunt interzise. (2) Pentru aceeași abatere disciplinară se poate aplica numai o singură sancțiune.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    }
+   ]
+  },
+  {
+   "titlu": "Individualizarea sancțiunii și cercetarea prealabilă (art. 250, art. 251)",
+   "paragrafe": [
+    "Art. 250 enumeră cele cinci criterii după care angajatorul stabilește sancțiunea, în raport cu gravitatea abaterii: împrejurările în care fapta a fost săvârșită; gradul de vinovăție a salariatului; consecințele abaterii disciplinare; comportarea generală în serviciu a salariatului; eventualele sancțiuni disciplinare suferite anterior de către acesta.",
+    "Art. 251 alin. (1) impune cercetarea disciplinară prealabilă sub sancțiunea nulității absolute, cu o singură excepție: măsura prevăzută la art. 248 alin. (1) lit. a), adică avertismentul scris.",
+    "Alin. (1^1) arată cine efectuează cercetarea: angajatorul desemnează o persoană, stabilește o comisie sau apelează la serviciile unui consultant extern specializat în legislația muncii. Alin. (2) cere convocarea în scris, cu precizarea obiectului, datei, orei și locului întrevederii.",
+    "Alin. (3) prevede consecința neprezentării: neprezentarea salariatului la convocare fără un motiv obiectiv dă dreptul angajatorului să dispună sancționarea fără efectuarea cercetării disciplinare prealabile.",
+    "Alin. (4) enumeră drepturile salariatului în cursul cercetării: să formuleze și să susțină toate apărările în favoarea sa, să ofere toate probele și motivațiile pe care le consideră necesare și să fie asistat, la cererea sa, de către un consultant extern."
+   ],
+   "temei": [
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 250",
+     "citat": "Angajatorul stabilește sancțiunea disciplinară aplicabilă în raport cu gravitatea abaterii disciplinare săvârșite de salariat, avându-se în vedere următoarele: a) împrejurările în care fapta a fost săvârșită; b) gradul de vinovăție a salariatului; c) consecințele abaterii disciplinare; d) comportarea generală în serviciu a salariatului; e) eventualele sancțiuni disciplinare suferite anterior de către acesta.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    },
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 251 alin. (1)",
+     "citat": "Sub sancțiunea nulității absolute, nicio măsură, cu excepția celei prevăzute la art. 248 alin. (1) lit. a), nu poate fi dispusă mai înainte de efectuarea unei cercetări disciplinare prealabile.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    },
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 251 alin. (1^1)",
+     "citat": "Pentru efectuarea cercetării disciplinare, angajatorul va desemna o persoană sau va stabili o comisie ori va apela la serviciile unui consultant extern specializat în legislația muncii, pe care o/îl va împuternici în acest sens.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    },
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 251 alin. (2)",
+     "citat": "În vederea desfășurării cercetării disciplinare prealabile, salariatul va fi convocat în scris de către persoana desemnată, de către președintele comisiei sau de către consultantul extern, împuterniciți potrivit alin. (1^1), precizându-se obiectul, data, ora și locul întrevederii.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    },
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 251 alin. (3)",
+     "citat": "Neprezentarea salariatului la convocarea făcută în condițiile prevăzute la alin. (2) fără un motiv obiectiv dă dreptul angajatorului să dispună sancționarea, fără efectuarea cercetării disciplinare prealabile.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    }
+   ]
+  },
+  {
+   "titlu": "Decizia de sancționare: termene, conținut, contestare (art. 252)",
+   "paragrafe": [
+    "Art. 252 alin. (1) impune forma scrisă și fixează două termene care curg de la momente diferite: 30 de zile calendaristice de la data luării la cunoștință despre săvârșirea abaterii disciplinare, dar nu mai târziu de 6 luni de la data săvârșirii faptei.",
+    "Alin. (2) enumeră, sub sancțiunea nulității absolute, elementele obligatorii ale deciziei: descrierea faptei care constituie abatere disciplinară; precizarea prevederilor încălcate din statutul de personal, regulamentul intern, contractul individual sau cel colectiv; motivele pentru care au fost înlăturate apărările salariatului sau pentru care nu a fost efectuată cercetarea; temeiul de drept; termenul în care sancțiunea poate fi contestată; și instanța competentă.",
+    "Alin. (3) prevede comunicarea în cel mult 5 zile calendaristice de la data emiterii și precizează că decizia produce efecte de la data comunicării, nu de la emitere. Alin. (4) descrie modul de comunicare: personal, cu semnătură de primire, ori, în caz de refuz, prin scrisoare recomandată la domiciliul sau reședința comunicată.",
+    "Alin. (5) dă termenul de contestare: 30 de zile calendaristice de la data comunicării, la instanțele judecătorești competente."
+   ],
+   "temei": [
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 252 alin. (1)",
+     "citat": "Angajatorul dispune aplicarea sancțiunii disciplinare printr-o decizie emisă în formă scrisă, în termen de 30 de zile calendaristice de la data luării la cunoștință despre săvârșirea abaterii disciplinare, dar nu mai târziu de 6 luni de la data săvârșirii faptei.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    },
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 252 alin. (2)",
+     "citat": "Sub sancțiunea nulității absolute, în decizie se cuprind în mod obligatoriu: a) descrierea faptei care constituie abatere disciplinară; b) precizarea prevederilor din statutul de personal, regulamentul intern, contractul individual de muncă sau contractul colectiv de muncă aplicabil care au fost încălcate de salariat; c) motivele pentru care au fost înlăturate apărările formulate de salariat în timpul cercetării disciplinare prealabile sau motivele pentru care, în condițiile prevăzute la art. 251 alin. (3), nu a fost efectuată cercetarea; d) temeiul de drept în baza căruia sancțiunea disciplinară se aplică; e) termenul în care sancțiunea poate fi contestată; f) instanța competentă la care sancțiunea poate fi contestată.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    },
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 252 alin. (3)",
+     "citat": "Decizia de sancționare se comunică salariatului în cel mult 5 zile calendaristice de la data emiterii și produce efecte de la data comunicării.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    },
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 252 alin. (4)",
+     "citat": "Comunicarea se predă personal salariatului, cu semnătură de primire, ori, în caz de refuz al primirii, prin scrisoare recomandată, la domiciliul sau reședința comunicată de acesta.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    },
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 252 alin. (5)",
+     "citat": "Decizia de sancționare poate fi contestată de salariat la instanțele judecătorești competente în termen de 30 de zile calendaristice de la data comunicării.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    }
+   ]
+  }
+ ],
+ "capcane": [
+  "Termenele din Codul muncii și cele militare nu se confundă: la salariați, 30 de zile calendaristice de la luarea la cunoștință și cel mult 6 luni de la săvârșirea faptei (art. 252 alin. (1)); la cadrele militare, 6 luni de la constatare și cel mult 2 ani de la săvârșire (art. 35 alin. (3) din Legea nr. 80/1995).",
+  "Cercetarea disciplinară prealabilă este obligatorie sub sancțiunea nulității absolute pentru toate sancțiunile, cu o singură excepție: avertismentul scris (art. 251 alin. (1)).",
+  "Retrogradarea din funcție nu poate depăși 60 de zile, iar salariul se acordă corespunzător funcției în care s-a dispus retrogradarea (art. 248 alin. (1) lit. b)).",
+  "Reducerea salariului este dublu limitată: durata de 1-3 luni și procentul de 5-10% (art. 248 alin. (1) lit. c) și d)).",
+  "Radierea de drept operează în 12 luni de la aplicare, dacă nu intervine o nouă sancțiune, și se constată prin decizie scrisă a angajatorului (art. 248 alin. (3)).",
+  "Amenzile disciplinare sunt interzise (art. 249 alin. (1)) — o variantă care le include printre sancțiuni este greșită.",
+  "Decizia produce efecte de la data comunicării, nu de la emitere; comunicarea se face în cel mult 5 zile calendaristice de la emitere (art. 252 alin. (3)).",
+  "Termenul de contestare este de 30 de zile calendaristice de la comunicare (art. 252 alin. (5)) — același număr ca termenul de emitere, dar cu alt punct de plecare.",
+  "Neprezentarea nejustificată la convocare permite sancționarea fără cercetare prealabilă (art. 251 alin. (3)), iar decizia trebuie să arate motivele pentru care cercetarea nu a fost efectuată (art. 252 alin. (2) lit. c)).",
+  "Art. 248 alin. (2) dă prioritate statutelor profesionale aprobate prin lege specială — mecanismul prin care regimul disciplinar militar îl înlătură pe cel din Codul muncii."
+ ],
+ "intrebari": [
+  "CM-334",
+  "CM-335",
+  "CM-337",
+  "CM-338",
+  "CM-339",
+  "CM-340",
+  "CM-C04"
+ ]
+}

@@ -1,6 +1,6 @@
 /* Service worker — face aplicația disponibilă offline după prima deschidere.
    La fiecare modificare a întrebărilor, schimbă VERSIUNE ca să se reîmprospăteze cache-ul. */
-const VERSIUNE = "grile-ru-v13";
+const VERSIUNE = "grile-ru-v14";
 const FISIERE = [
   "./",
   "./index.html",
@@ -24,6 +24,7 @@ const FISIERE = [
   "./tematica/09-contractul-individual-de-munca.html",
   "./tematica/10-tipurile-de-contract-individual-de-munca.html",
   "./tematica/11-timpul-de-munca-si-timpul-de-odihna.html",
+  "./tematica/12-raspunderea-disciplinara-a-salariatilor.html",
   /* TEMATICA-END */
 ];
 
