@@ -1,0 +1,723 @@
+[
+ {
+  "loc": "Cine acordă gradele (art. 45 alin. (1) lit. a)–f)) / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Lit. a) rezervă gradele de general și amiral, în activitate și în rezervă, în timp de pace și în timp de război, decretului Președintelui României, la propunerea ministrului apărării naționale, după consultarea colegiului ministerului.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "sustine": 0.98,
+     "contrazice": 0.02
+    },
+    "confidence": 0.97
+   },
+   "1": {
+    "text": "Consultarea colegiului este o condiție expresă, nu o formalitate omisibilă.",
+    "alegere": "nu_spune",
+    "probabilitati": {
+     "nu_spune": 0.55,
+     "sustine": 0.43,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.02
+    },
+    "confidence": 0.4
+   }
+  },
+  "usage": 3231
+ },
+ {
+  "loc": "Cine acordă gradele (art. 45 alin. (1) lit. a)–f)) / paragraful 2",
+  "afirmatii": {
+   "0": {
+    "text": "Lit. b) și c) despart activitatea de rezervă pentru ceilalți ofițeri, în timp de pace: gradele ofițerilor în activitate se acordă prin ordin al ministrului apărării naționale, iar cele ale ofițerilor în rezervă prin ordin al șefului Statului Major General.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.01,
+     "absenta_corecta": 0.0,
+     "sustine": 0.99
+    },
+    "confidence": 0.99
+   }
+  },
+  "usage": 2836
+ },
+ {
+  "loc": "Cine acordă gradele (art. 45 alin. (1) lit. a)–f)) / paragraful 3",
+  "afirmatii": {
+   "0": {
+    "text": "Lit. d) schimbă complet competențele în timp de război: acordarea gradului de sublocotenent și înaintarea în gradele de locotenent și căpitan, în activitate sau în rezervă, se fac de comandanții stabiliți de șeful Marelui Cartier General, iar pentru gradele de ofițeri superiori, de însuși șeful Marelui Cartier General.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.02,
+     "sustine": 0.98,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.98
+   }
+  },
+  "usage": 2861
+ },
+ {
+  "loc": "Cine acordă gradele (art. 45 alin. (1) lit. a)–f)) / paragraful 4",
+  "afirmatii": {
+   "0": {
+    "text": "Lit. e) și f) privesc maiștrii militari și subofițerii, în timp de pace și în timp de război deopotrivă: în activitate, prin ordin al ministrului apărării naționale sau al comandanților stabiliți de acesta; în rezervă, prin ordin al comandanților stabiliți de ministrul apărării naționale.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 2850
+ },
+ {
+  "loc": "Când se acordă gradele și când se fac înaintările (art. 46) / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Regula de la alin. (1) este periodicitatea anuală: acordarea gradelor de ofițeri, maiștri militari și subofițeri în activitate, precum și înaintarea în gradele următoare se fac, de regulă, o dată pe an, la data stabilită prin ordin al ministrului apărării naționale.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Formula „de regulă” anunță excepțiile din alineatele următoare.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.08,
+     "sustine": 0.92,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 0.89
+   }
+  },
+  "usage": 3310
+ },
+ {
+  "loc": "Când se acordă gradele și când se fac înaintările (art. 46) / paragraful 2",
+  "afirmatii": {
+   "0": {
+    "text": "Alin. (2) permite acordarea gradelor în tot cursul anului pentru sursele enumerate expres — art. 36 alin. (1) lit. c)–g) și i)–k), art. 38 alin. (1) lit. b), c) și e)–h), art. 40 alin. (1) lit. b)–e) și g) — adică, în esență, pentru cei care intră în corp altfel decât prin absolvirea instituțiilor militare de formare.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "sustine": 0.95,
+     "nu_spune": 0.01,
+     "contrazice": 0.04
+    },
+    "confidence": 0.94
+   }
+  },
+  "usage": 2941
+ },
+ {
+  "loc": "Când se acordă gradele și când se fac înaintările (art. 46) / paragraful 3",
+  "afirmatii": {
+   "0": {
+    "text": "Alin. (3) separă cele două feluri de înaintare: înaintarea înainte de termen (art. 63) se face la datele stabilite prin ordin al ministrului apărării naționale, în timp ce înaintarea în mod excepțional (art. 64), precum și chemarea sau rechemarea în activitate a cadrelor în rezervă, se pot face în tot cursul anului.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.72,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.05,
+     "contrazice": 0.23
+    },
+    "confidence": 0.63
+   }
+  },
+  "usage": 2923
+ },
+ {
+  "loc": "Ce grad se acordă la intrarea în corp (art. 48, 50, 51, 52 a / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 48 alin. (1) leagă gradele de sublocotenent și aspirant de sursele „de școală”: cei prevăzuți la art. 36 alin. (1) lit. a)–c) și f) și la art. 37 lit. b)–d) și f).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.06,
+     "sustine": 0.94,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.92
+   }
+  },
+  "usage": 5206
+ },
+ {
+  "loc": "Ce grad se acordă la intrarea în corp (art. 48, 50, 51, 52 a / paragraful 2",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 50 alin. (1) acordă gradul de maistru militar clasa a IV-a celor de la art. 38 lit. a) și art. 39 lit. b).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Alin. (2) reglementează trecerea subofițerilor în corpul maiștrilor militari, cu acordarea gradului în raport cu gradul de subofițer deținut, iar alin. (4) prevede că la înaintarea în gradul următor li se ia în considerare stagiul avut în ultimul grad de subofițer.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 5643
+ },
+ {
+  "loc": "Ce grad se acordă la intrarea în corp (art. 48, 50, 51, 52 a / paragraful 3",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 51 alin. (1) acordă gradul de sergent major celor de la art. 40 alin. (1) lit. a), b) și d) și art. 41 lit. a), c), d) și f).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.99
+   },
+   "1": {
+    "text": "Alin. (2) arată însă că în Ministerul Apărării Naționale se acordă gradul de sergent, și pentru o listă mai largă de litere — consecință a celor două liste de grade din art. 2.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.65,
+     "contrazice": 0.06,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.29
+    },
+    "confidence": 0.53
+   }
+  },
+  "usage": 5624
+ },
+ {
+  "loc": "Ce grad se acordă la intrarea în corp (art. 48, 50, 51, 52 a / paragraful 4",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 52 alin. (1) enunță regula pentru intrările „din afara școlii”: persoanelor de la art. 36 alin. (1) lit. e), g) și h), art. 36 alin. (2), art. 37 lit. e), art. 39 lit. c), art. 40 alin. (1) lit. g) și art. 41 lit. e), g) și h) li se acordă grade militare în funcție de pregătirea lor, de vechimea în specialitatea dobândită pe timpul studiilor raportată la stagiile minime în grad, precum și de vârsta acestora — trei criterii, nu unul singur.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 0.99
+   }
+  },
+  "usage": 5308
+ },
+ {
+  "loc": "Felurile înaintării în grad și limita carierei (art. 53) / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Alin. (1) distinge trei feluri de înaintare pentru cadrele în activitate — la termen, înainte de termen sau în mod excepțional — dar numai două pentru cele în rezervă: la termen sau în mod excepțional.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.01,
+     "sustine": 0.99,
+     "contrazice": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.98
+   },
+   "1": {
+    "text": "Rezerviștii nu pot fi înaintați înainte de termen.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.19,
+     "sustine": 0.79,
+     "contrazice": 0.02,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.72
+   }
+  },
+  "usage": 2944
+ },
+ {
+  "loc": "Felurile înaintării în grad și limita carierei (art. 53) / paragraful 2",
+  "afirmatii": {
+   "0": {
+    "text": "Alin. (2) fixează criteriile: înaintarea se face în ordinea ierarhică a gradelor, în raport cu nevoile și posibilitățile forțelor armate, pe baza competenței profesionale și conduitei morale, consemnate în aprecierile de serviciu.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 2569
+ },
+ {
+  "loc": "Felurile înaintării în grad și limita carierei (art. 53) / paragraful 3",
+  "afirmatii": {
+   "0": {
+    "text": "Alin. (3) adaugă o regulă de prioritate la ofițeri: au întâietate cei care, prin profesionalism și rezultate deosebite, prin cultură, personalitate, spirit de organizare și inițiativă, au perspective de a îndeplini funcții superioare și au stagiu în grad mai mare.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 2580
+ },
+ {
+  "loc": "Felurile înaintării în grad și limita carierei (art. 53) / paragraful 4",
+  "afirmatii": {
+   "0": {
+    "text": "Alin. (4) conține limita de carieră: pe parcursul întregii cariere militare, cadrele militare în activitate pot beneficia de cel mult două înaintări în grad înainte de termen și/sau în mod excepțional.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0,
+     "sustine": 1.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Excepția privește pe cei care execută misiuni speciale sau în afara teritoriului național.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0,
+     "sustine": 1.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 2960
+ },
+ {
+  "loc": "Condițiile înaintării la termen (art. 54, 55, 56) / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 54 alin. (1) pune două condiții cumulative, peste cele de la art. 53: împlinirea stagiului minim în grad prevăzut la art. 94 și 95 — sau împlinirea lui în cursul anului calendaristic respectiv (lit. a)) — și aprecierea cel puțin cu calificativul „corespunzător” pe întreaga perioadă a stagiului minim, iar pentru cei care l-au depășit, și în anul premergător înaintării (lit. b)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 4764
+ },
+ {
+  "loc": "Condițiile înaintării la termen (art. 54, 55, 56) / paragraful 2",
+  "afirmatii": {
+   "0": {
+    "text": "Sancțiunea calificativelor slabe este exprimată direct în text: anii în care li s-au acordat calificative inferioare celui de „corespunzător” nu se socotesc la calculul stagiului minim în grad.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 4456
+ },
+ {
+  "loc": "Condițiile înaintării la termen (art. 54, 55, 56) / paragraful 3",
+  "afirmatii": {
+   "0": {
+    "text": "Alin. (1^1) exceptează de la condiția aprecierii de serviciu cadrele aflate în concediu fără plată potrivit art. 14^1 alin. (1) și în concediile de la art. 15 alin. (2) — printre care concediul pentru creșterea copilului.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.01,
+     "absenta_corecta": 0.0,
+     "sustine": 0.99
+    },
+    "confidence": 0.99
+   }
+  },
+  "usage": 4480
+ },
+ {
+  "loc": "Condițiile înaintării la termen (art. 54, 55, 56) / paragraful 4",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 55 alin. (1) adaugă, pentru ofițeri, condiția de încadrare: pentru a fi propuși la înaintarea în grad la termen, trebuie să fie încadrați cu cel puțin un an înainte de data înaintărilor în funcții prevăzute în statele de organizare cu grad superior celui pe care îl au.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Alin. (2) asimilează acestei situații pe ofițerii studenți la cursurile de zi ale instituțiilor de învățământ superior.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 5005
+ },
+ {
+  "loc": "Condițiile înaintării la termen (art. 54, 55, 56) / paragraful 5",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 56 adaugă condiții suplimentare pentru anumite grade: examenul de grad pentru maistru militar clasa I și plutonier adjutant (paragraful A); pentru maior și locotenent-comandor, un curs de perfecționare în specialitate și un stagiu de cel puțin 3–5 ani în funcții la unități până la eșalonul regiment inclusiv (paragraful B); pentru colonel și comandor, cumulativ, studii superioare, cursuri de capacitate cu admitere pe bază de examen și un stagiu de 6–8 ani la unități și mari unități până la corp de armată sau similare inclusiv (paragraful C).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.04,
+     "sustine": 0.96
+    },
+    "confidence": 0.95
+   }
+  },
+  "usage": 4574
+ },
+ {
+  "loc": "Înaintarea înainte de termen, în mod excepțional și post-mor / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 63 alin. (1) cere, pentru înaintarea înaintea expirării stagiului minim, ca la data înaintării să fie împlinit cel puțin jumătate din stagiul respectiv, cu respectarea strictă a celorlalte condiții, mai puțin cele de la art. 56 alin. (1) paragrafele A, B și C lit. c) — adică examenul de grad și stagiile la unități.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.04,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.04,
+     "sustine": 0.92
+    },
+    "confidence": 0.89
+   }
+  },
+  "usage": 3339
+ },
+ {
+  "loc": "Înaintarea înainte de termen, în mod excepțional și post-mor / paragraful 2",
+  "afirmatii": {
+   "0": {
+    "text": "Alin. (2) exclude două categorii de la această înaintare: sublocotenenții și aspiranții, pe de o parte, și cei care au fost condamnați penal sau care, de la ultima lor înaintare în grad, au fost sancționați ca urmare a hotărârii consiliilor de onoare, pe de altă parte.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 3128
+ },
+ {
+  "loc": "Înaintarea înainte de termen, în mod excepțional și post-mor / paragraful 3",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 64 alin. (1) privește înaintarea în mod excepțional: cadrele militare în activitate și în rezervă care, în executarea misiunilor sau în alte situații, săvârșesc fapte de eroism și acte exemplare de curaj pot fi înaintate în gradul următor, atât în timp de pace, cât și în timp de război, chiar dacă nu îndeplinesc condițiile prevăzute la art. 54–56 și 61.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Spre deosebire de art. 63, aici nu există prag de stagiu.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.47,
+     "contrazice": 0.0,
+     "sustine": 0.53,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.36
+   }
+  },
+  "usage": 3716
+ },
+ {
+  "loc": "Înaintarea înainte de termen, în mod excepțional și post-mor / paragraful 4",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 68 reglementează înaintarea post-mortem.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Alin. (1) prevede înaintarea în gradul următor a celor care și-au sacrificat viața săvârșind acte de devotament excepțional, iar coloneilor și comandorilor li se acordă post-mortem gradul de general.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   },
+   "2": {
+    "text": "Alin. (2) permite acordarea post-mortem a gradului de sublocotenent maiștrilor militari, subofițerilor, gradaților și soldaților care și-au sacrificat viața în aceleași condiții.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   },
+   "3": {
+    "text": "Alin. (3) precizează că acestea se fac în tot cursul anului, conform art. 45.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 4346
+ },
+ {
+  "loc": "capcana 1",
+  "afirmatii": {
+   "0": {
+    "text": "Decretul Președintelui privește numai gradele de general și amiral, și numai la propunerea ministrului apărării naționale, după consultarea colegiului ministerului (art. 45 alin. (1) lit. a)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.88,
+     "absenta_corecta": 0.01,
+     "contrazice": 0.11
+    },
+    "confidence": 0.84
+   },
+   "1": {
+    "text": "Consultarea colegiului este adesea omisă din distractori.",
+    "alegere": "nu_spune",
+    "probabilitati": {
+     "nu_spune": 0.96,
+     "sustine": 0.03,
+     "absenta_corecta": 0.01,
+     "contrazice": 0.0
+    },
+    "confidence": 0.94
+   }
+  },
+  "usage": 11633
+ },
+ {
+  "loc": "capcana 2",
+  "afirmatii": {
+   "0": {
+    "text": "În timp de pace, gradele ofițerilor în activitate se acordă prin ordin al ministrului, iar cele ale ofițerilor în rezervă prin ordin al șefului Statului Major General (lit. b) și c)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.04,
+     "absenta_corecta": 0.0,
+     "sustine": 0.96,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.95
+   }
+  },
+  "usage": 11234
+ },
+ {
+  "loc": "capcana 3",
+  "afirmatii": {
+   "0": {
+    "text": "Marele Cartier General apare numai în timp de război (lit. d)); în timp de pace competența este a ministrului, respectiv a șefului Statului Major General.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.07,
+     "absenta_corecta": 0.04,
+     "nu_spune": 0.0,
+     "sustine": 0.89
+    },
+    "confidence": 0.86
+   }
+  },
+  "usage": 11222
+ },
+ {
+  "loc": "capcana 4",
+  "afirmatii": {
+   "0": {
+    "text": "Cadrele în rezervă nu pot fi înaintate înainte de termen: art. 53 alin. (1) le lasă doar înaintarea la termen sau în mod excepțional.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.28,
+     "absenta_corecta": 0.12,
+     "nu_spune": 0.0,
+     "sustine": 0.6
+    },
+    "confidence": 0.47
+   }
+  },
+  "usage": 11222
+ },
+ {
+  "loc": "capcana 5",
+  "afirmatii": {
+   "0": {
+    "text": "Limita de la art. 53 alin. (4) este de cel mult două înaintări pe întreaga carieră, și numără împreună înaintările înainte de termen și cele excepționale („și/sau”).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.98,
+     "contrazice": 0.02,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 0.97
+   },
+   "1": {
+    "text": "Excepția privește misiunile speciale sau cele în afara teritoriului național.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 11638
+ },
+ {
+  "loc": "capcana 6",
+  "afirmatii": {
+   "0": {
+    "text": "Pragul de la înaintarea înainte de termen este jumătate din stagiul minim (art. 63 alin. (1)); înaintarea în mod excepțional (art. 64) nu are prag de stagiu, dar cere fapte de eroism și acte exemplare de curaj.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 11247
+ },
+ {
+  "loc": "capcana 7",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 63 alin. (2) exclude sublocotenenții și aspiranții de la înaintarea înainte de termen — o excludere pe grad, nu pe conduită, alături de cea pentru condamnare penală sau sancțiune a consiliului de onoare.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.99,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.01
+    },
+    "confidence": 0.99
+   }
+  },
+  "usage": 11245
+ },
+ {
+  "loc": "capcana 8",
+  "afirmatii": {
+   "0": {
+    "text": "La art. 54 alin. (1) lit. a) stagiul minim poate fi și doar pe cale de a se împlini: textul acceptă și împlinirea lui în cursul anului calendaristic respectiv.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 11231
+ },
+ {
+  "loc": "capcana 9",
+  "afirmatii": {
+   "0": {
+    "text": "Anii cu calificativ inferior celui de „corespunzător” nu se scad din vechime în general, ci nu se socotesc la calculul stagiului minim în grad (art. 54 alin. (1) lit. b)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "contrazice": 0.03,
+     "nu_spune": 0.0,
+     "sustine": 0.97
+    },
+    "confidence": 0.95
+   }
+  },
+  "usage": 11234
+ },
+ {
+  "loc": "capcana 10",
+  "afirmatii": {
+   "0": {
+    "text": "Post-mortem, coloneilor și comandorilor li se acordă gradul de general (art. 68 alin. (1)), iar maiștrilor militari, subofițerilor, gradaților și soldaților li se poate acorda gradul de sublocotenent (alin. (2)) — nu gradul imediat următor.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.76,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.06,
+     "contrazice": 0.18
+    },
+    "confidence": 0.68
+   }
+  },
+  "usage": 11261
+ }
+]
