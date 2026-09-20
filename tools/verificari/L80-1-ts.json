@@ -14,54 +14,54 @@
    "A": {
     "alegere": "contrazice",
     "probabilitati": {
-     "contrazice": 0.97,
-     "sustine": 0.02,
-     "nu_spune": 0.01
+     "nu_spune": 0.01,
+     "sustine": 0.01,
+     "contrazice": 0.98
     },
-    "confidence": 0.96
+    "confidence": 0.98
    },
    "B": {
     "alegere": "sustine",
     "probabilitati": {
-     "contrazice": 0.0,
+     "nu_spune": 0.0,
      "sustine": 1.0,
-     "nu_spune": 0.0
+     "contrazice": 0.0
     },
     "confidence": 1.0
    },
    "C": {
     "alegere": "contrazice",
     "probabilitati": {
-     "contrazice": 0.78,
+     "nu_spune": 0.01,
      "sustine": 0.0,
-     "nu_spune": 0.22
+     "contrazice": 0.99
     },
-    "confidence": 0.66
+    "confidence": 0.99
    },
    "D": {
     "alegere": "contrazice",
     "probabilitati": {
-     "contrazice": 0.99,
+     "nu_spune": 0.01,
      "sustine": 0.0,
-     "nu_spune": 0.01
+     "contrazice": 0.99
     },
     "confidence": 0.99
    }
   },
   "nouls": {
    "sinonim": 0.11,
-   "absolut": 0.33,
-   "abrogat": 0.1,
+   "absolut": 0.29,
+   "abrogat": 0.11,
    "numeste_actul": 0.74,
-   "categorie_ambigua": 0.21,
+   "categorie_ambigua": 0.2,
    "citat_acopera": 0.97
   },
   "afirmatii": {
    "0": {
     "alegere": "sustine",
     "probabilitati": {
-     "contrazice": 0.0,
      "nu_spune": 0.0,
+     "contrazice": 0.0,
      "sustine": 1.0
     },
     "confidence": 1.0
@@ -69,18 +69,18 @@
    "1": {
     "alegere": "sustine",
     "probabilitati": {
-     "contrazice": 0.04,
-     "nu_spune": 0.0,
-     "sustine": 0.96
+     "sustine": 0.99,
+     "contrazice": 0.01,
+     "nu_spune": 0.0
     },
-    "confidence": 0.94
+    "confidence": 0.99
    },
    "2": {
     "alegere": "sustine",
     "probabilitati": {
-     "contrazice": 0.0,
      "nu_spune": 0.06,
-     "sustine": 0.94
+     "contrazice": 0.01,
+     "sustine": 0.9299999999999999
     },
     "confidence": 0.91
    }
@@ -91,13 +91,30 @@
    "Soldații și gradații profesioniști nu apar în definiția de la art. 1, care se limitează la cei cărora li s-a acordat grad de ofițer, maistru militar sau subofițer."
   ],
   "pozitionale": [],
+  "care_varianta": {
+   "alegere": "B",
+   "probabilitati": {
+    "niciuna": 0.0,
+    "A": 0.0,
+    "B": 1.0,
+    "D": 0.0,
+    "C": 0.0
+   },
+   "confidence": 1.0
+  },
+  "trimiteri": [
+   "art. 1 alin. (1)",
+   "art. 4 alin. (1) lit. a)",
+   "art. 4 alin. (1) lit. b)",
+   "art. 4 alin. (1) lit. c)"
+  ],
   "nivel": {
-   "score": 2.71,
+   "score": 2.44,
    "confidence": 0.0
   },
   "usage": {
-   "a": 2474,
-   "b": 3966
+   "a": 3476,
+   "b": 4441
   }
  },
  {
@@ -115,46 +132,46 @@
    "A": {
     "alegere": "contrazice",
     "probabilitati": {
-     "sustine": 0.0,
-     "contrazice": 1.0,
-     "nu_spune": 0.0
+     "nu_spune": 0.01,
+     "sustine": 0.01,
+     "contrazice": 0.98
     },
-    "confidence": 0.99
+    "confidence": 0.97
    },
    "B": {
     "alegere": "contrazice",
     "probabilitati": {
-     "sustine": 0.0,
-     "contrazice": 1.0,
-     "nu_spune": 0.0
+     "nu_spune": 0.02,
+     "sustine": 0.04,
+     "contrazice": 0.94
     },
-    "confidence": 0.99
+    "confidence": 0.92
    },
    "C": {
     "alegere": "sustine",
     "probabilitati": {
-     "sustine": 0.99,
-     "contrazice": 0.01,
-     "nu_spune": 0.0
+     "nu_spune": 0.01,
+     "sustine": 0.82,
+     "contrazice": 0.17
     },
-    "confidence": 0.99
+    "confidence": 0.73
    },
    "D": {
     "alegere": "contrazice",
     "probabilitati": {
-     "sustine": 0.01,
-     "contrazice": 0.97,
-     "nu_spune": 0.02
+     "nu_spune": 0.04,
+     "sustine": 0.18,
+     "contrazice": 0.78
     },
-    "confidence": 0.96
+    "confidence": 0.67
    }
   },
   "nouls": {
-   "sinonim": 0.1,
-   "absolut": 0.14,
-   "abrogat": 0.08,
-   "numeste_actul": 0.77,
-   "categorie_ambigua": 0.18,
+   "sinonim": 0.08,
+   "absolut": 0.17,
+   "abrogat": 0.09,
+   "numeste_actul": 0.75,
+   "categorie_ambigua": 0.19,
    "citat_acopera": 0.96
   },
   "afirmatii": {
@@ -162,30 +179,12 @@
     "alegere": "sustine",
     "probabilitati": {
      "nu_spune": 0.0,
-     "sustine": 1.0,
-     "contrazice": 0.0
-    },
-    "confidence": 0.99
-   },
-   "1": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "nu_spune": 0.0,
-     "sustine": 1.0,
-     "contrazice": 0.0
-    },
-    "confidence": 1.0
-   },
-   "2": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "nu_spune": 0.0,
-     "sustine": 0.98,
-     "contrazice": 0.02
+     "sustine": 0.97,
+     "contrazice": 0.03
     },
     "confidence": 0.96
    },
-   "3": {
+   "1": {
     "alegere": "sustine",
     "probabilitati": {
      "nu_spune": 0.0,
@@ -193,6 +192,24 @@
      "contrazice": 0.01
     },
     "confidence": 0.98
+   },
+   "2": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.93,
+     "contrazice": 0.07
+    },
+    "confidence": 0.9
+   },
+   "3": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.98,
+     "contrazice": 0.02
+    },
+    "confidence": 0.96
    }
   },
   "fraze": [
@@ -202,13 +219,29 @@
    "Maistru militar principal este cel mai înalt grad din corpul maiștrilor militari (alin. (2^1) paragraful A^1), un corp distinct de cel al subofițerilor, potrivit art. 2 alin. (1)."
   ],
   "pozitionale": [],
+  "care_varianta": {
+   "alegere": "C",
+   "probabilitati": {
+    "D": 0.16,
+    "C": 0.76,
+    "niciuna": 0.06,
+    "A": 0.01,
+    "B": 0.01
+   },
+   "confidence": 0.71
+  },
+  "trimiteri": [
+   "art. 2 alin. (1)",
+   "art. 2 alin. (2)",
+   "art. 2 alin. (2^1)"
+  ],
   "nivel": {
-   "score": 2.18,
-   "confidence": 0.01
+   "score": 2.08,
+   "confidence": 0.09
   },
   "usage": {
-   "a": 2487,
-   "b": 4374
+   "a": 4235,
+   "b": 5099
   }
  },
  {
@@ -226,8 +259,8 @@
    "A": {
     "alegere": "contrazice",
     "probabilitati": {
-     "nu_spune": 0.0,
      "contrazice": 1.0,
+     "nu_spune": 0.0,
      "sustine": 0.0
     },
     "confidence": 0.99
@@ -235,37 +268,37 @@
    "B": {
     "alegere": "sustine",
     "probabilitati": {
+     "contrazice": 0.01,
      "nu_spune": 0.0,
-     "contrazice": 0.0,
-     "sustine": 1.0
+     "sustine": 0.99
     },
     "confidence": 0.99
    },
    "C": {
     "alegere": "contrazice",
     "probabilitati": {
+     "contrazice": 0.99,
      "nu_spune": 0.0,
-     "contrazice": 1.0,
-     "sustine": 0.0
+     "sustine": 0.01
     },
     "confidence": 0.99
    },
    "D": {
     "alegere": "contrazice",
     "probabilitati": {
-     "nu_spune": 0.0,
      "contrazice": 1.0,
+     "nu_spune": 0.0,
      "sustine": 0.0
     },
     "confidence": 0.99
    }
   },
   "nouls": {
-   "sinonim": 0.07,
+   "sinonim": 0.06,
    "absolut": 0.12,
    "abrogat": 0.07,
-   "numeste_actul": 0.74,
-   "categorie_ambigua": 0.14,
+   "numeste_actul": 0.76,
+   "categorie_ambigua": 0.15,
    "citat_acopera": 0.96
   },
   "afirmatii": {
@@ -273,10 +306,10 @@
     "alegere": "sustine",
     "probabilitati": {
      "nu_spune": 0.0,
-     "sustine": 0.89,
-     "contrazice": 0.11
+     "sustine": 0.91,
+     "contrazice": 0.09
     },
-    "confidence": 0.83
+    "confidence": 0.86
    },
    "1": {
     "alegere": "sustine",
@@ -291,10 +324,10 @@
     "alegere": "sustine",
     "probabilitati": {
      "nu_spune": 0.0,
-     "sustine": 0.98,
-     "contrazice": 0.02
+     "sustine": 1.0,
+     "contrazice": 0.0
     },
-    "confidence": 0.97
+    "confidence": 0.99
    }
   },
   "fraze": [
@@ -303,13 +336,28 @@
    "Peste aceste grade, art. 2 alin. (3) prevede că, pentru merite militare excepționale, în timp de război, Președintele României poate acorda generalilor/amiralilor cu patru stele gradul de mareșal."
   ],
   "pozitionale": [],
+  "care_varianta": {
+   "alegere": "B",
+   "probabilitati": {
+    "A": 0.0,
+    "B": 1.0,
+    "niciuna": 0.0,
+    "C": 0.0,
+    "D": 0.0
+   },
+   "confidence": 0.99
+  },
+  "trimiteri": [
+   "art. 2 alin. (2^1)",
+   "art. 2 alin. (3)"
+  ],
   "nivel": {
-   "score": 1.7,
-   "confidence": 0.7
+   "score": 1.71,
+   "confidence": 0.68
   },
   "usage": {
-   "a": 2471,
-   "b": 4165
+   "a": 3999,
+   "b": 4673
   }
  },
  {
@@ -327,75 +375,75 @@
    "A": {
     "alegere": "sustine",
     "probabilitati": {
-     "contrazice": 0.0,
-     "nu_spune": 0.0,
-     "sustine": 1.0
+     "sustine": 0.99,
+     "contrazice": 0.01,
+     "nu_spune": 0.0
     },
-    "confidence": 1.0
+    "confidence": 0.99
    },
    "B": {
     "alegere": "contrazice",
     "probabilitati": {
+     "sustine": 0.0,
      "contrazice": 1.0,
-     "nu_spune": 0.0,
-     "sustine": 0.0
+     "nu_spune": 0.0
     },
     "confidence": 1.0
    },
    "C": {
     "alegere": "contrazice",
     "probabilitati": {
+     "sustine": 0.0,
      "contrazice": 1.0,
-     "nu_spune": 0.0,
-     "sustine": 0.0
+     "nu_spune": 0.0
     },
     "confidence": 1.0
    },
    "D": {
     "alegere": "contrazice",
     "probabilitati": {
+     "sustine": 0.0,
      "contrazice": 1.0,
-     "nu_spune": 0.0,
-     "sustine": 0.0
+     "nu_spune": 0.0
     },
     "confidence": 1.0
    }
   },
   "nouls": {
    "sinonim": 0.09,
-   "absolut": 0.28,
+   "absolut": 0.24,
    "abrogat": 0.04,
-   "numeste_actul": 0.77,
-   "categorie_ambigua": 0.17,
+   "numeste_actul": 0.75,
+   "categorie_ambigua": 0.15,
    "citat_acopera": 0.97
   },
   "afirmatii": {
    "0": {
     "alegere": "sustine",
     "probabilitati": {
-     "sustine": 1.0,
+     "contrazice": 0.0,
      "nu_spune": 0.0,
-     "contrazice": 0.0
+     "sustine": 1.0
     },
     "confidence": 1.0
    },
    "1": {
     "alegere": "sustine",
     "probabilitati": {
-     "sustine": 0.99,
+     "contrazice": 0.02,
      "nu_spune": 0.0,
-     "contrazice": 0.01
+     "sustine": 0.98
     },
-    "confidence": 0.98
+    "confidence": 0.97
    },
    "2": {
     "alegere": "sustine",
     "probabilitati": {
-     "sustine": 0.98,
-     "nu_spune": 0.02,
-     "contrazice": 0.0
+     "contrazice": 0.0,
+     "nu_spune": 0.01,
+     "sustine": 0.99
     },
-    "confidence": 0.97
+    "confidence": 0.98
    }
   },
   "fraze": [
@@ -404,13 +452,28 @@
    "Textul alin. (3) nu condiționează acordarea de o propunere a ministrului apărării naționale."
   ],
   "pozitionale": [],
+  "care_varianta": {
+   "alegere": "A",
+   "probabilitati": {
+    "C": 0.0,
+    "B": 0.0,
+    "D": 0.0,
+    "A": 1.0,
+    "niciuna": 0.0
+   },
+   "confidence": 1.0
+  },
+  "trimiteri": [
+   "art. 2 alin. (2^1)",
+   "art. 2 alin. (3)"
+  ],
   "nivel": {
-   "score": 3.07,
-   "confidence": 0.92
+   "score": 3.24,
+   "confidence": 0.78
   },
   "usage": {
-   "a": 2565,
-   "b": 4187
+   "a": 4210,
+   "b": 4695
   }
  },
  {
@@ -428,8 +491,8 @@
    "A": {
     "alegere": "contrazice",
     "probabilitati": {
-     "contrazice": 1.0,
      "sustine": 0.0,
+     "contrazice": 1.0,
      "nu_spune": 0.0
     },
     "confidence": 1.0
@@ -437,8 +500,8 @@
    "B": {
     "alegere": "contrazice",
     "probabilitati": {
-     "contrazice": 1.0,
      "sustine": 0.0,
+     "contrazice": 1.0,
      "nu_spune": 0.0
     },
     "confidence": 0.99
@@ -446,8 +509,8 @@
    "C": {
     "alegere": "sustine",
     "probabilitati": {
-     "contrazice": 0.0,
      "sustine": 1.0,
+     "contrazice": 0.0,
      "nu_spune": 0.0
     },
     "confidence": 1.0
@@ -455,8 +518,8 @@
    "D": {
     "alegere": "contrazice",
     "probabilitati": {
-     "contrazice": 1.0,
      "sustine": 0.0,
+     "contrazice": 1.0,
      "nu_spune": 0.0
     },
     "confidence": 0.99
@@ -464,8 +527,8 @@
   },
   "nouls": {
    "sinonim": 0.08,
-   "absolut": 0.37,
-   "abrogat": 0.09,
+   "absolut": 0.35,
+   "abrogat": 0.07,
    "numeste_actul": 0.67,
    "categorie_ambigua": 0.16,
    "citat_acopera": 0.97
@@ -474,29 +537,29 @@
    "0": {
     "alegere": "sustine",
     "probabilitati": {
-     "sustine": 1.0,
      "nu_spune": 0.0,
-     "contrazice": 0.0
+     "contrazice": 0.0,
+     "sustine": 1.0
     },
     "confidence": 1.0
    },
    "1": {
     "alegere": "sustine",
     "probabilitati": {
-     "sustine": 1.0,
      "nu_spune": 0.0,
-     "contrazice": 0.0
+     "contrazice": 0.0,
+     "sustine": 1.0
     },
     "confidence": 0.99
    },
    "2": {
     "alegere": "sustine",
     "probabilitati": {
-     "sustine": 0.98,
-     "nu_spune": 0.01,
-     "contrazice": 0.01
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0
     },
-    "confidence": 0.98
+    "confidence": 0.99
    }
   },
   "fraze": [
@@ -505,13 +568,28 @@
    "Trecerea în rezervă sau în retragere nu atrage pierderea gradului, art. 4 descriind cele trei situații (activitate, rezervă, retragere) ca situații ale cadrelor militare, adică ale persoanelor care dețin grad potrivit art. 1 alin. (1)."
   ],
   "pozitionale": [],
+  "care_varianta": {
+   "alegere": "C",
+   "probabilitati": {
+    "C": 1.0,
+    "B": 0.0,
+    "A": 0.0,
+    "D": 0.0,
+    "niciuna": 0.0
+   },
+   "confidence": 1.0
+  },
+  "trimiteri": [
+   "art. 1 alin. (1)",
+   "art. 4 alin. (1) lit. b)"
+  ],
   "nivel": {
-   "score": 2.84,
-   "confidence": 0.03
+   "score": 2.85,
+   "confidence": 0.04
   },
   "usage": {
-   "a": 2744,
-   "b": 4348
+   "a": 3434,
+   "b": 4575
   }
  },
  {
@@ -530,8 +608,8 @@
     "alegere": "contrazice",
     "probabilitati": {
      "sustine": 0.02,
-     "contrazice": 0.98,
-     "nu_spune": 0.0
+     "nu_spune": 0.0,
+     "contrazice": 0.98
     },
     "confidence": 0.97
    },
@@ -547,36 +625,36 @@
    "C": {
     "alegere": "contrazice",
     "probabilitati": {
-     "sustine": 0.02,
-     "contrazice": 0.98,
-     "nu_spune": 0.0
+     "sustine": 0.03,
+     "nu_spune": 0.0,
+     "contrazice": 0.97
     },
-    "confidence": 0.97
+    "confidence": 0.95
    },
    "D": {
     "alegere": "contrazice",
     "probabilitati": {
      "sustine": 0.01,
-     "contrazice": 0.98,
-     "nu_spune": 0.01
+     "nu_spune": 0.02,
+     "contrazice": 0.97
     },
-    "confidence": 0.98
+    "confidence": 0.96
    }
   },
   "nouls": {
-   "sinonim": 0.08,
-   "absolut": 0.14,
+   "sinonim": 0.09,
+   "absolut": 0.13,
    "abrogat": 0.04,
-   "numeste_actul": 0.74,
-   "categorie_ambigua": 0.34,
-   "citat_acopera": 0.97
+   "numeste_actul": 0.75,
+   "categorie_ambigua": 0.31,
+   "citat_acopera": 0.96
   },
   "afirmatii": {
    "0": {
     "alegere": "sustine",
     "probabilitati": {
-     "nu_spune": 0.0,
      "sustine": 1.0,
+     "nu_spune": 0.0,
      "contrazice": 0.0
     },
     "confidence": 1.0
@@ -584,8 +662,8 @@
    "1": {
     "alegere": "sustine",
     "probabilitati": {
-     "nu_spune": 0.0,
      "sustine": 1.0,
+     "nu_spune": 0.0,
      "contrazice": 0.0
     },
     "confidence": 1.0
@@ -593,18 +671,18 @@
    "2": {
     "alegere": "sustine",
     "probabilitati": {
-     "nu_spune": 0.0,
      "sustine": 1.0,
+     "nu_spune": 0.0,
      "contrazice": 0.0
     },
-    "confidence": 0.99
+    "confidence": 1.0
    },
    "3": {
     "alegere": "sustine",
     "probabilitati": {
+     "sustine": 1.0,
      "nu_spune": 0.0,
-     "sustine": 0.99,
-     "contrazice": 0.01
+     "contrazice": 0.0
     },
     "confidence": 0.99
    }
@@ -616,13 +694,28 @@
    "Tot lit. a) cere, pentru cadrele în activitate, cetățenia română și domiciliul în țară."
   ],
   "pozitionale": [],
+  "care_varianta": {
+   "alegere": "B",
+   "probabilitati": {
+    "A": 0.0,
+    "D": 0.0,
+    "niciuna": 0.0,
+    "C": 0.0,
+    "B": 1.0
+   },
+   "confidence": 1.0
+  },
+  "trimiteri": [
+   "art. 4 alin. (1) lit. a)",
+   "art. 4 alin. (1) lit. b)"
+  ],
   "nivel": {
-   "score": 1.76,
-   "confidence": 0.36
+   "score": 1.64,
+   "confidence": 0.46
   },
   "usage": {
-   "a": 2134,
-   "b": 3760
+   "a": 3177,
+   "b": 4101
   }
  },
  {
@@ -641,8 +734,8 @@
     "alegere": "contrazice",
     "probabilitati": {
      "nu_spune": 0.0,
-     "contrazice": 1.0,
-     "sustine": 0.0
+     "sustine": 0.0,
+     "contrazice": 1.0
     },
     "confidence": 1.0
    },
@@ -650,74 +743,74 @@
     "alegere": "contrazice",
     "probabilitati": {
      "nu_spune": 0.01,
-     "contrazice": 0.99,
-     "sustine": 0.0
+     "sustine": 0.0,
+     "contrazice": 0.99
     },
     "confidence": 0.99
    },
    "C": {
     "alegere": "contrazice",
     "probabilitati": {
-     "nu_spune": 0.04,
-     "contrazice": 0.96,
-     "sustine": 0.0
+     "nu_spune": 0.03,
+     "sustine": 0.0,
+     "contrazice": 0.97
     },
-    "confidence": 0.94
+    "confidence": 0.95
    },
    "D": {
     "alegere": "sustine",
     "probabilitati": {
      "nu_spune": 0.0,
-     "contrazice": 0.0,
-     "sustine": 1.0
+     "sustine": 1.0,
+     "contrazice": 0.0
     },
     "confidence": 1.0
    }
   },
   "nouls": {
-   "sinonim": 0.08,
-   "absolut": 0.21,
+   "sinonim": 0.07,
+   "absolut": 0.19,
    "abrogat": 0.03,
-   "numeste_actul": 0.77,
-   "categorie_ambigua": 0.24,
+   "numeste_actul": 0.81,
+   "categorie_ambigua": 0.22,
    "citat_acopera": 0.97
   },
   "afirmatii": {
    "0": {
     "alegere": "sustine",
     "probabilitati": {
+     "nu_spune": 0.0,
      "sustine": 1.0,
-     "contrazice": 0.0,
-     "nu_spune": 0.0
+     "contrazice": 0.0
     },
     "confidence": 1.0
    },
    "1": {
     "alegere": "sustine",
     "probabilitati": {
-     "contrazice": 0.01,
+     "nu_spune": 0.0,
      "sustine": 0.99,
-     "nu_spune": 0.0
+     "contrazice": 0.01
     },
     "confidence": 0.99
    },
    "2": {
     "alegere": "sustine",
     "probabilitati": {
-     "contrazice": 0.0,
+     "nu_spune": 0.0,
      "sustine": 1.0,
-     "nu_spune": 0.0
+     "contrazice": 0.0
     },
     "confidence": 1.0
    },
    "3": {
     "alegere": "sustine",
     "probabilitati": {
-     "contrazice": 0.02,
-     "sustine": 0.98,
-     "nu_spune": 0.0
+     "nu_spune": 0.0,
+     "sustine": 0.99,
+     "contrazice": 0.01
     },
-    "confidence": 0.96
+    "confidence": 0.98
    }
   },
   "fraze": [
@@ -727,13 +820,30 @@
    "Alin. (1) al art. 5 califică ofițerii, maiștrii militari și subofițerii în activitate drept militari profesioniști."
   ],
   "pozitionale": [],
+  "care_varianta": {
+   "alegere": "D",
+   "probabilitati": {
+    "C": 0.0,
+    "niciuna": 0.0,
+    "A": 0.0,
+    "B": 0.0,
+    "D": 1.0
+   },
+   "confidence": 1.0
+  },
+  "trimiteri": [
+   "art. 14^3 alin. (1)",
+   "art. 17 alin. (2)",
+   "art. 5 alin. (2)",
+   "art. 9 alin. (1) lit. e)"
+  ],
   "nivel": {
-   "score": 2.94,
-   "confidence": 0.93
+   "score": 2.95,
+   "confidence": 0.94
   },
   "usage": {
-   "a": 2208,
-   "b": 4682
+   "a": 3177,
+   "b": 5098
   }
  },
  {
@@ -751,17 +861,17 @@
    "A": {
     "alegere": "sustine",
     "probabilitati": {
+     "sustine": 1.0,
      "nu_spune": 0.0,
-     "sustine": 0.99,
-     "contrazice": 0.01
+     "contrazice": 0.0
     },
-    "confidence": 0.98
+    "confidence": 0.99
    },
    "B": {
     "alegere": "contrazice",
     "probabilitati": {
-     "nu_spune": 0.0,
      "sustine": 0.0,
+     "nu_spune": 0.0,
      "contrazice": 1.0
     },
     "confidence": 1.0
@@ -769,37 +879,37 @@
    "C": {
     "alegere": "contrazice",
     "probabilitati": {
-     "nu_spune": 0.0,
      "sustine": 0.0,
+     "nu_spune": 0.0,
      "contrazice": 1.0
     },
-    "confidence": 0.99
+    "confidence": 1.0
    },
    "D": {
     "alegere": "contrazice",
     "probabilitati": {
-     "nu_spune": 0.0,
      "sustine": 0.0,
+     "nu_spune": 0.0,
      "contrazice": 1.0
     },
     "confidence": 1.0
    }
   },
   "nouls": {
-   "sinonim": 0.12,
-   "absolut": 0.16,
-   "abrogat": 0.04,
-   "numeste_actul": 0.74,
-   "categorie_ambigua": 0.49,
+   "sinonim": 0.13,
+   "absolut": 0.14,
+   "abrogat": 0.05,
+   "numeste_actul": 0.76,
+   "categorie_ambigua": 0.47,
    "citat_acopera": 0.97
   },
   "afirmatii": {
    "0": {
     "alegere": "sustine",
     "probabilitati": {
-     "contrazice": 0.0,
+     "nu_spune": 0.0,
      "sustine": 1.0,
-     "nu_spune": 0.0
+     "contrazice": 0.0
     },
     "confidence": 0.99
    },
@@ -810,25 +920,25 @@
      "sustine": 1.0,
      "contrazice": 0.0
     },
-    "confidence": 0.99
+    "confidence": 1.0
    },
    "2": {
     "alegere": "sustine",
     "probabilitati": {
-     "contrazice": 0.0,
-     "sustine": 0.98,
-     "nu_spune": 0.02
+     "nu_spune": 0.01,
+     "sustine": 0.99,
+     "contrazice": 0.0
     },
-    "confidence": 0.97
+    "confidence": 0.98
    },
    "3": {
     "alegere": "sustine",
     "probabilitati": {
-     "contrazice": 0.02,
-     "sustine": 0.98,
-     "nu_spune": 0.0
+     "nu_spune": 0.0,
+     "sustine": 0.99,
+     "contrazice": 0.01
     },
-    "confidence": 0.97
+    "confidence": 0.99
    }
   },
   "fraze": [
@@ -838,13 +948,29 @@
    "Exercițiul autorității publice, cu protecția legii penale, este prevăzut la art. 6 alin. (1) pentru toți ofițerii, maiștrii militari și subofițerii în exercitarea atribuțiilor, dar alin. (2) adaugă, pentru generali și amirali, rangul de demnitar."
   ],
   "pozitionale": [],
+  "care_varianta": {
+   "alegere": "A",
+   "probabilitati": {
+    "niciuna": 0.0,
+    "A": 1.0,
+    "C": 0.0,
+    "B": 0.0,
+    "D": 0.0
+   },
+   "confidence": 1.0
+  },
+  "trimiteri": [
+   "art. 2 alin. (2)",
+   "art. 6 alin. (1)",
+   "art. 6 alin. (2)"
+  ],
   "nivel": {
-   "score": 3.33,
-   "confidence": 0.44
+   "score": 3.4,
+   "confidence": 0.5
   },
   "usage": {
-   "a": 2045,
-   "b": 4505
+   "a": 3102,
+   "b": 4997
   }
  },
  {
@@ -862,9 +988,9 @@
    "A": {
     "alegere": "contrazice",
     "probabilitati": {
+     "contrazice": 1.0,
      "sustine": 0.0,
-     "nu_spune": 0.0,
-     "contrazice": 1.0
+     "nu_spune": 0.0
     },
     "confidence": 1.0
    },
@@ -872,8 +998,8 @@
     "alegere": "sustine",
     "probabilitati": {
      "sustine": 1.0,
-     "nu_spune": 0.0,
-     "contrazice": 0.0
+     "contrazice": 0.0,
+     "nu_spune": 0.0
     },
     "confidence": 1.0
    },
@@ -881,8 +1007,8 @@
     "alegere": "contrazice",
     "probabilitati": {
      "sustine": 0.0,
-     "nu_spune": 0.0,
-     "contrazice": 1.0
+     "contrazice": 1.0,
+     "nu_spune": 0.0
     },
     "confidence": 1.0
    },
@@ -890,56 +1016,56 @@
     "alegere": "contrazice",
     "probabilitati": {
      "sustine": 0.0,
-     "nu_spune": 0.0,
-     "contrazice": 1.0
+     "contrazice": 1.0,
+     "nu_spune": 0.0
     },
     "confidence": 1.0
    }
   },
   "nouls": {
    "sinonim": 0.08,
-   "absolut": 0.19,
-   "abrogat": 0.09,
-   "numeste_actul": 0.72,
-   "categorie_ambigua": 0.61,
+   "absolut": 0.18,
+   "abrogat": 0.11,
+   "numeste_actul": 0.73,
+   "categorie_ambigua": 0.66,
    "citat_acopera": 0.97
   },
   "afirmatii": {
    "0": {
     "alegere": "sustine",
     "probabilitati": {
-     "nu_spune": 0.0,
+     "contrazice": 0.0,
      "sustine": 1.0,
-     "contrazice": 0.0
+     "nu_spune": 0.0
     },
     "confidence": 1.0
    },
    "1": {
     "alegere": "sustine",
     "probabilitati": {
-     "nu_spune": 0.0,
-     "sustine": 0.95,
-     "contrazice": 0.05
+     "contrazice": 0.01,
+     "sustine": 0.99,
+     "nu_spune": 0.0
     },
-    "confidence": 0.92
+    "confidence": 0.98
    },
    "2": {
     "alegere": "sustine",
     "probabilitati": {
-     "nu_spune": 0.01,
-     "sustine": 0.98,
-     "contrazice": 0.01
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "nu_spune": 0.0
     },
-    "confidence": 0.98
+    "confidence": 0.99
    },
    "3": {
     "alegere": "sustine",
     "probabilitati": {
-     "nu_spune": 0.0,
-     "sustine": 0.98,
-     "contrazice": 0.02
+     "contrazice": 0.01,
+     "sustine": 0.99,
+     "nu_spune": 0.0
     },
-    "confidence": 0.97
+    "confidence": 0.98
    }
   },
   "fraze": [
@@ -949,13 +1075,27 @@
    "Restrângerea nu se stabilește exclusiv prin regulamente militare: potrivit alin. (1), îndatoririle, drepturile și libertățile cadrelor militare sunt cele stabilite de Constituția României, de legile țării și de prezentul statut, iar alin. (2) trimite la lege („potrivit legii”)."
   ],
   "pozitionale": [],
+  "care_varianta": {
+   "alegere": "B",
+   "probabilitati": {
+    "A": 0.0,
+    "C": 0.0,
+    "B": 1.0,
+    "D": 0.0,
+    "niciuna": 0.0
+   },
+   "confidence": 1.0
+  },
+  "trimiteri": [
+   "art. 7 alin. (2)"
+  ],
   "nivel": {
-   "score": 2.16,
-   "confidence": 0.02
+   "score": 2.05,
+   "confidence": 0.11
   },
   "usage": {
-   "a": 2640,
-   "b": 5024
+   "a": 3277,
+   "b": 5150
   }
  },
  {
@@ -978,13 +1118,13 @@
      "nu_spune": 0.0,
      "contrazice": 0.01
     },
-    "confidence": 0.99
+    "confidence": 0.98
    },
    "B": {
     "alegere": "contrazice",
     "probabilitati": {
-     "nu_spune": 0.0,
      "sustine": 0.0,
+     "nu_spune": 0.0,
      "contrazice": 1.0
     },
     "confidence": 1.0
@@ -1010,37 +1150,37 @@
   },
   "nouls": {
    "sinonim": 0.06,
-   "absolut": 0.2,
+   "absolut": 0.19,
    "abrogat": 0.03,
    "numeste_actul": 0.67,
-   "categorie_ambigua": 0.64,
-   "citat_acopera": 0.95
+   "categorie_ambigua": 0.63,
+   "citat_acopera": 0.94
   },
   "afirmatii": {
    "0": {
     "alegere": "sustine",
     "probabilitati": {
+     "contrazice": 0.0,
      "sustine": 1.0,
-     "nu_spune": 0.0,
-     "contrazice": 0.0
+     "nu_spune": 0.0
     },
     "confidence": 1.0
    },
    "1": {
     "alegere": "sustine",
     "probabilitati": {
+     "contrazice": 0.0,
      "sustine": 1.0,
-     "nu_spune": 0.0,
-     "contrazice": 0.0
+     "nu_spune": 0.0
     },
     "confidence": 1.0
    },
    "2": {
     "alegere": "sustine",
     "probabilitati": {
+     "contrazice": 0.0,
      "sustine": 1.0,
-     "nu_spune": 0.0,
-     "contrazice": 0.0
+     "nu_spune": 0.0
     },
     "confidence": 1.0
    }
@@ -1051,13 +1191,18 @@
    "Participarea la misiuni în afara teritoriului statului român este, potrivit art. 8 alin. (2), o obligație a cadrelor militare în activitate, în funcție de cerințele Ministerului Apărării Naționale, nu o opțiune condiționată de acordul scris; excepția, la cerere, este posibilă doar în situațiile familiale deosebite enumerate limitativ la alin. (3)."
   ],
   "pozitionale": [],
+  "care_varianta": null,
+  "trimiteri": [
+   "art. 8 alin. (1) lit. b)",
+   "art. 8 alin. (2)"
+  ],
   "nivel": {
-   "score": 3.3,
-   "confidence": 0.42
+   "score": 3.25,
+   "confidence": 0.38
   },
   "usage": {
-   "a": 2823,
-   "b": 4597
+   "a": 4052,
+   "b": 4899
   }
  },
  {
@@ -1087,17 +1232,17 @@
     "alegere": "sustine",
     "probabilitati": {
      "nu_spune": 0.0,
-     "contrazice": 0.01,
-     "sustine": 0.99
+     "contrazice": 0.0,
+     "sustine": 1.0
     },
-    "confidence": 0.98
+    "confidence": 1.0
    },
    "C": {
     "alegere": "contrazice",
     "probabilitati": {
      "nu_spune": 0.0,
-     "contrazice": 0.99,
-     "sustine": 0.01
+     "contrazice": 1.0,
+     "sustine": 0.0
     },
     "confidence": 0.99
    },
@@ -1105,38 +1250,38 @@
     "alegere": "sustine",
     "probabilitati": {
      "nu_spune": 0.0,
-     "contrazice": 0.0,
-     "sustine": 1.0
+     "sustine": 0.99,
+     "contrazice": 0.01
     },
     "confidence": 0.99
    }
   },
   "nouls": {
-   "sinonim": 0.08,
-   "absolut": 0.16,
+   "sinonim": 0.09,
+   "absolut": 0.15,
    "abrogat": 0.04,
-   "numeste_actul": 0.77,
-   "categorie_ambigua": 0.43,
-   "citat_acopera": 0.94
+   "numeste_actul": 0.75,
+   "categorie_ambigua": 0.47,
+   "citat_acopera": 0.95
   },
   "afirmatii": {
    "0": {
     "alegere": "sustine",
     "probabilitati": {
-     "nu_spune": 0.0,
      "sustine": 0.99,
+     "nu_spune": 0.0,
      "contrazice": 0.01
     },
-    "confidence": 0.98
+    "confidence": 0.99
    },
    "1": {
     "alegere": "sustine",
     "probabilitati": {
-     "nu_spune": 0.0,
      "sustine": 1.0,
+     "nu_spune": 0.0,
      "contrazice": 0.0
     },
-    "confidence": 0.99
+    "confidence": 1.0
    }
   },
   "fraze": [
@@ -1144,13 +1289,18 @@
    "Varianta cu soțul încadrat în gradul III de invaliditate este greșită, pentru că lit. d) se referă numai la gradul I sau II de invaliditate; gradul III de invaliditate apare în lege doar la art. 21 alin. (4), privind menținerea sau rechemarea în activitate a personalului militar."
   ],
   "pozitionale": [],
+  "care_varianta": null,
+  "trimiteri": [
+   "art. 21 alin. (4)",
+   "art. 8 alin. (3)"
+  ],
   "nivel": {
-   "score": 3.75,
-   "confidence": 0.8
+   "score": 3.81,
+   "confidence": 0.84
   },
   "usage": {
-   "a": 2751,
-   "b": 4630
+   "a": 4184,
+   "b": 5128
   }
  },
  {
@@ -1168,45 +1318,45 @@
    "A": {
     "alegere": "contrazice",
     "probabilitati": {
-     "sustine": 0.01,
+     "contrazice": 0.99,
      "nu_spune": 0.0,
-     "contrazice": 0.99
+     "sustine": 0.01
     },
-    "confidence": 0.98
+    "confidence": 0.99
    },
    "B": {
     "alegere": "sustine",
     "probabilitati": {
-     "sustine": 0.96,
+     "contrazice": 0.08,
      "nu_spune": 0.0,
-     "contrazice": 0.04
+     "sustine": 0.92
     },
-    "confidence": 0.94
+    "confidence": 0.88
    },
    "C": {
     "alegere": "contrazice",
     "probabilitati": {
-     "sustine": 0.0,
+     "contrazice": 1.0,
      "nu_spune": 0.0,
-     "contrazice": 1.0
+     "sustine": 0.0
     },
-    "confidence": 0.99
+    "confidence": 1.0
    },
    "D": {
     "alegere": "contrazice",
     "probabilitati": {
-     "sustine": 0.01,
+     "contrazice": 1.0,
      "nu_spune": 0.0,
-     "contrazice": 0.99
+     "sustine": 0.0
     },
-    "confidence": 0.98
+    "confidence": 0.99
    }
   },
   "nouls": {
-   "sinonim": 0.07,
+   "sinonim": 0.09,
    "absolut": 0.2,
-   "abrogat": 0.12,
-   "numeste_actul": 0.77,
+   "abrogat": 0.11,
+   "numeste_actul": 0.73,
    "categorie_ambigua": 0.64,
    "citat_acopera": 0.96
   },
@@ -1214,8 +1364,8 @@
    "0": {
     "alegere": "sustine",
     "probabilitati": {
-     "nu_spune": 0.0,
      "sustine": 1.0,
+     "nu_spune": 0.0,
      "contrazice": 0.0
     },
     "confidence": 1.0
@@ -1223,27 +1373,27 @@
    "1": {
     "alegere": "sustine",
     "probabilitati": {
-     "nu_spune": 0.01,
-     "sustine": 0.84,
-     "contrazice": 0.15
+     "sustine": 0.94,
+     "nu_spune": 0.0,
+     "contrazice": 0.06
     },
-    "confidence": 0.76
+    "confidence": 0.91
    },
    "2": {
     "alegere": "sustine",
     "probabilitati": {
-     "nu_spune": 0.0,
      "sustine": 0.99,
+     "nu_spune": 0.0,
      "contrazice": 0.01
     },
-    "confidence": 0.99
+    "confidence": 0.98
    },
    "3": {
     "alegere": "sustine",
     "probabilitati": {
+     "sustine": 1.0,
      "nu_spune": 0.0,
-     "sustine": 0.99,
-     "contrazice": 0.01
+     "contrazice": 0.0
     },
     "confidence": 0.99
    }
@@ -1255,13 +1405,27 @@
    "Solda de comandă nu figurează la art. 9 lit. a); ea apare la art. 14^4, printre drepturile de care beneficiază, după caz, cadrele militare din Ministerul Apărării Naționale pe timpul concediului de odihnă, al concediului paternal, al incapacității temporare de muncă și al permisiei."
   ],
   "pozitionale": [],
+  "care_varianta": {
+   "alegere": "B",
+   "probabilitati": {
+    "A": 0.0,
+    "C": 0.0,
+    "B": 1.0,
+    "D": 0.0,
+    "niciuna": 0.0
+   },
+   "confidence": 1.0
+  },
+  "trimiteri": [
+   "art. 9 alin. (1) lit. a)"
+  ],
   "nivel": {
-   "score": 1.84,
-   "confidence": 0.3
+   "score": 1.83,
+   "confidence": 0.31
   },
   "usage": {
-   "a": 2630,
-   "b": 6383
+   "a": 3414,
+   "b": 6521
   }
  },
  {
@@ -1283,25 +1447,25 @@
      "nu_spune": 0.0,
      "contrazice": 1.0
     },
-    "confidence": 0.99
+    "confidence": 1.0
    },
    "B": {
     "alegere": "contrazice",
     "probabilitati": {
      "sustine": 0.0,
-     "nu_spune": 0.01,
-     "contrazice": 0.99
+     "nu_spune": 0.0,
+     "contrazice": 1.0
     },
-    "confidence": 0.99
+    "confidence": 1.0
    },
    "C": {
     "alegere": "contrazice",
     "probabilitati": {
      "sustine": 0.0,
-     "nu_spune": 0.01,
-     "contrazice": 0.99
+     "nu_spune": 0.0,
+     "contrazice": 1.0
     },
-    "confidence": 0.99
+    "confidence": 1.0
    },
    "D": {
     "alegere": "sustine",
@@ -1315,39 +1479,39 @@
   },
   "nouls": {
    "sinonim": 0.07,
-   "absolut": 0.17,
+   "absolut": 0.15,
    "abrogat": 0.07,
-   "numeste_actul": 0.74,
-   "categorie_ambigua": 0.45,
+   "numeste_actul": 0.72,
+   "categorie_ambigua": 0.49,
    "citat_acopera": 0.96
   },
   "afirmatii": {
    "0": {
     "alegere": "sustine",
     "probabilitati": {
-     "contrazice": 0.0,
+     "nu_spune": 0.0,
      "sustine": 1.0,
-     "nu_spune": 0.0
+     "contrazice": 0.0
     },
     "confidence": 1.0
    },
    "1": {
     "alegere": "sustine",
     "probabilitati": {
-     "contrazice": 0.04,
-     "sustine": 0.96,
-     "nu_spune": 0.0
+     "nu_spune": 0.0,
+     "sustine": 0.98,
+     "contrazice": 0.02
     },
-    "confidence": 0.94
+    "confidence": 0.97
    },
    "2": {
     "alegere": "sustine",
     "probabilitati": {
-     "contrazice": 0.0,
+     "nu_spune": 0.01,
      "sustine": 0.99,
-     "nu_spune": 0.01
+     "contrazice": 0.0
     },
-    "confidence": 0.99
+    "confidence": 0.98
    }
   },
   "fraze": [
@@ -1356,13 +1520,27 @@
    "Regulamentele militare și ordinul comandantului unității nu sunt indicate la art. 9 ca forme de stabilire a acestor condiții."
   ],
   "pozitionale": [],
+  "care_varianta": {
+   "alegere": "D",
+   "probabilitati": {
+    "D": 1.0,
+    "C": 0.0,
+    "B": 0.0,
+    "niciuna": 0.0,
+    "A": 0.0
+   },
+   "confidence": 1.0
+  },
+  "trimiteri": [
+   "art. 9 alin. (1) lit. e)"
+  ],
   "nivel": {
-   "score": 2.74,
-   "confidence": 0.77
+   "score": 2.77,
+   "confidence": 0.8
   },
   "usage": {
-   "a": 2651,
-   "b": 4449
+   "a": 3416,
+   "b": 4596
   }
  },
  {
@@ -1380,8 +1558,8 @@
    "A": {
     "alegere": "sustine",
     "probabilitati": {
-     "nu_spune": 0.0,
      "sustine": 1.0,
+     "nu_spune": 0.0,
      "contrazice": 0.0
     },
     "confidence": 1.0
@@ -1389,36 +1567,36 @@
    "B": {
     "alegere": "contrazice",
     "probabilitati": {
-     "nu_spune": 0.11,
-     "sustine": 0.0,
-     "contrazice": 0.89
+     "sustine": 0.01,
+     "nu_spune": 0.18,
+     "contrazice": 0.81
     },
-    "confidence": 0.84
+    "confidence": 0.72
    },
    "C": {
     "alegere": "contrazice",
     "probabilitati": {
-     "nu_spune": 0.04,
      "sustine": 0.0,
+     "nu_spune": 0.04,
      "contrazice": 0.96
     },
-    "confidence": 0.95
+    "confidence": 0.94
    },
    "D": {
     "alegere": "contrazice",
     "probabilitati": {
-     "nu_spune": 0.31,
-     "sustine": 0.0,
-     "contrazice": 0.69
+     "sustine": 0.01,
+     "nu_spune": 0.35,
+     "contrazice": 0.64
     },
-    "confidence": 0.54
+    "confidence": 0.47
    }
   },
   "nouls": {
-   "sinonim": 0.08,
-   "absolut": 0.32,
+   "sinonim": 0.1,
+   "absolut": 0.27,
    "abrogat": 0.05,
-   "numeste_actul": 0.74,
+   "numeste_actul": 0.71,
    "categorie_ambigua": 0.52,
    "citat_acopera": 0.98
   },
@@ -1426,8 +1604,8 @@
    "0": {
     "alegere": "sustine",
     "probabilitati": {
-     "sustine": 0.98,
      "nu_spune": 0.01,
+     "sustine": 0.98,
      "contrazice": 0.01
     },
     "confidence": 0.98
@@ -1435,29 +1613,29 @@
    "1": {
     "alegere": "sustine",
     "probabilitati": {
-     "sustine": 0.99,
      "nu_spune": 0.0,
-     "contrazice": 0.01
-    },
-    "confidence": 0.98
-   },
-   "2": {
-    "alegere": "sustine",
-    "probabilitati": {
      "sustine": 1.0,
-     "nu_spune": 0.0,
      "contrazice": 0.0
     },
     "confidence": 0.99
    },
+   "2": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
    "3": {
     "alegere": "sustine",
     "probabilitati": {
-     "sustine": 0.59,
-     "nu_spune": 0.23,
-     "contrazice": 0.18
+     "nu_spune": 0.2,
+     "sustine": 0.61,
+     "contrazice": 0.19
     },
-    "confidence": 0.39
+    "confidence": 0.41
    }
   },
   "fraze": [
@@ -1467,13 +1645,29 @@
    "Art. 11 alin. (1) conținea aceeași regulă, dar prevederile sale referitoare la pensii sunt semnalate în notele portalului ca abrogate de legislația anterioară de pensii, motiv pentru care dreptul la pensie militară de stat a fost reintrodus expres la art. 9^1; alin. (3) al art. 11, în vigoare, prevede sporul de pensie pentru pensionarii militari decorați cu „Semnul onorific”."
   ],
   "pozitionale": [],
+  "care_varianta": {
+   "alegere": "A",
+   "probabilitati": {
+    "A": 1.0,
+    "D": 0.0,
+    "niciuna": 0.0,
+    "C": 0.0,
+    "B": 0.0
+   },
+   "confidence": 1.0
+  },
+  "trimiteri": [
+   "art. 11 alin. (1)",
+   "art. 20^1 alin. (4)",
+   "art. 23 alin. (3)"
+  ],
   "nivel": {
-   "score": 1.69,
-   "confidence": 0.41
+   "score": 1.63,
+   "confidence": 0.46
   },
   "usage": {
-   "a": 1829,
-   "b": 5463
+   "a": 2565,
+   "b": 5821
   }
  },
  {
@@ -1492,8 +1686,8 @@
     "alegere": "contrazice",
     "probabilitati": {
      "nu_spune": 0.0,
-     "contrazice": 1.0,
-     "sustine": 0.0
+     "sustine": 0.0,
+     "contrazice": 1.0
     },
     "confidence": 0.99
    },
@@ -1501,8 +1695,8 @@
     "alegere": "contrazice",
     "probabilitati": {
      "nu_spune": 0.0,
-     "contrazice": 0.99,
-     "sustine": 0.01
+     "sustine": 0.01,
+     "contrazice": 0.99
     },
     "confidence": 0.98
    },
@@ -1510,8 +1704,8 @@
     "alegere": "sustine",
     "probabilitati": {
      "nu_spune": 0.0,
-     "contrazice": 0.0,
-     "sustine": 1.0
+     "sustine": 1.0,
+     "contrazice": 0.0
     },
     "confidence": 1.0
    },
@@ -1519,17 +1713,17 @@
     "alegere": "contrazice",
     "probabilitati": {
      "nu_spune": 0.0,
-     "contrazice": 1.0,
-     "sustine": 0.0
+     "sustine": 0.0,
+     "contrazice": 1.0
     },
     "confidence": 1.0
    }
   },
   "nouls": {
-   "sinonim": 0.06,
+   "sinonim": 0.05,
    "absolut": 0.2,
-   "abrogat": 0.37,
-   "numeste_actul": 0.74,
+   "abrogat": 0.33,
+   "numeste_actul": 0.73,
    "categorie_ambigua": 0.43,
    "citat_acopera": 0.97
   },
@@ -1537,38 +1731,38 @@
    "0": {
     "alegere": "sustine",
     "probabilitati": {
-     "sustine": 1.0,
      "nu_spune": 0.0,
-     "contrazice": 0.0
+     "sustine": 0.99,
+     "contrazice": 0.01
     },
     "confidence": 0.99
    },
    "1": {
     "alegere": "sustine",
     "probabilitati": {
-     "sustine": 0.98,
-     "nu_spune": 0.01,
-     "contrazice": 0.01
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0
     },
-    "confidence": 0.98
+    "confidence": 0.99
    },
    "2": {
     "alegere": "sustine",
     "probabilitati": {
-     "sustine": 0.98,
-     "nu_spune": 0.01,
-     "contrazice": 0.01
+     "contrazice": 0.01,
+     "sustine": 0.99,
+     "nu_spune": 0.0
     },
-    "confidence": 0.97
+    "confidence": 0.98
    },
    "3": {
     "alegere": "sustine",
     "probabilitati": {
-     "sustine": 0.93,
-     "nu_spune": 0.02,
-     "contrazice": 0.05
+     "nu_spune": 0.01,
+     "sustine": 0.96,
+     "contrazice": 0.03
     },
-    "confidence": 0.9
+    "confidence": 0.94
    }
   },
   "fraze": [
@@ -1578,13 +1772,27 @@
    "Notele portalului arată că prevederile alin. (1) și (2) ale art. 11, referitoare la pensie și la actualizarea părții din pensie corespunzătoare soldei de grad, au fost abrogate prin legislația anterioară de pensii, dreptul la pensie militară de stat fiind prevăzut în prezent la art. 9^1."
   ],
   "pozitionale": [],
+  "care_varianta": {
+   "alegere": "C",
+   "probabilitati": {
+    "niciuna": 0.0,
+    "D": 0.0,
+    "C": 1.0,
+    "A": 0.0,
+    "B": 0.0
+   },
+   "confidence": 1.0
+  },
+  "trimiteri": [
+   "art. 11 alin. (3)"
+  ],
   "nivel": {
    "score": 2.04,
    "confidence": 0.96
   },
   "usage": {
-   "a": 1614,
-   "b": 3799
+   "a": 2162,
+   "b": 3920
   }
  },
  {
@@ -1602,54 +1810,54 @@
    "A": {
     "alegere": "contrazice",
     "probabilitati": {
-     "sustine": 0.0,
      "contrazice": 1.0,
-     "nu_spune": 0.0
+     "nu_spune": 0.0,
+     "sustine": 0.0
     },
     "confidence": 1.0
    },
    "B": {
     "alegere": "contrazice",
     "probabilitati": {
-     "sustine": 0.01,
      "contrazice": 0.98,
-     "nu_spune": 0.01
+     "nu_spune": 0.02,
+     "sustine": 0.0
     },
-    "confidence": 0.97
+    "confidence": 0.96
    },
    "C": {
     "alegere": "contrazice",
     "probabilitati": {
-     "sustine": 0.0,
-     "contrazice": 0.98,
-     "nu_spune": 0.02
+     "contrazice": 0.99,
+     "nu_spune": 0.01,
+     "sustine": 0.0
     },
-    "confidence": 0.97
+    "confidence": 0.98
    },
    "D": {
     "alegere": "sustine",
     "probabilitati": {
      "contrazice": 0.0,
-     "sustine": 1.0,
-     "nu_spune": 0.0
+     "nu_spune": 0.0,
+     "sustine": 1.0
     },
     "confidence": 1.0
    }
   },
   "nouls": {
-   "sinonim": 0.07,
-   "absolut": 0.34,
-   "abrogat": 0.09,
-   "numeste_actul": 0.66,
-   "categorie_ambigua": 0.61,
+   "sinonim": 0.08,
+   "absolut": 0.36,
+   "abrogat": 0.1,
+   "numeste_actul": 0.65,
+   "categorie_ambigua": 0.6,
    "citat_acopera": 0.98
   },
   "afirmatii": {
    "0": {
     "alegere": "sustine",
     "probabilitati": {
-     "nu_spune": 0.0,
      "sustine": 1.0,
+     "nu_spune": 0.0,
      "contrazice": 0.0
     },
     "confidence": 0.99
@@ -1657,8 +1865,8 @@
    "1": {
     "alegere": "sustine",
     "probabilitati": {
-     "nu_spune": 0.0,
      "sustine": 1.0,
+     "nu_spune": 0.0,
      "contrazice": 0.0
     },
     "confidence": 0.99
@@ -1666,8 +1874,8 @@
    "2": {
     "alegere": "sustine",
     "probabilitati": {
-     "nu_spune": 0.0,
      "sustine": 1.0,
+     "nu_spune": 0.0,
      "contrazice": 0.0
     },
     "confidence": 1.0
@@ -1679,13 +1887,28 @@
    "Legat de acest drept, art. 14 alin. (1) prevede și concediul de studii, iar art. 16 acordă celor care urmează cursurile de zi ale instituțiilor de învățământ superior vacanțe în locul concediilor de odihnă."
   ],
   "pozitionale": [],
+  "care_varianta": {
+   "alegere": "D",
+   "probabilitati": {
+    "A": 0.0,
+    "B": 0.0,
+    "niciuna": 0.0,
+    "C": 0.0,
+    "D": 1.0
+   },
+   "confidence": 1.0
+  },
+  "trimiteri": [
+   "art. 13 alin. (1)",
+   "art. 14 alin. (1)"
+  ],
   "nivel": {
-   "score": 1.88,
-   "confidence": 0.26
+   "score": 1.89,
+   "confidence": 0.25
   },
   "usage": {
-   "a": 1860,
-   "b": 3456
+   "a": 2498,
+   "b": 3643
   }
  },
  {
@@ -1704,8 +1927,8 @@
     "alegere": "contrazice",
     "probabilitati": {
      "sustine": 0.0,
-     "contrazice": 1.0,
-     "nu_spune": 0.0
+     "nu_spune": 0.0,
+     "contrazice": 1.0
     },
     "confidence": 1.0
    },
@@ -1713,8 +1936,8 @@
     "alegere": "contrazice",
     "probabilitati": {
      "sustine": 0.0,
-     "contrazice": 1.0,
-     "nu_spune": 0.0
+     "nu_spune": 0.0,
+     "contrazice": 1.0
     },
     "confidence": 1.0
    },
@@ -1722,8 +1945,8 @@
     "alegere": "sustine",
     "probabilitati": {
      "sustine": 1.0,
-     "contrazice": 0.0,
-     "nu_spune": 0.0
+     "nu_spune": 0.0,
+     "contrazice": 0.0
     },
     "confidence": 1.0
    },
@@ -1731,16 +1954,16 @@
     "alegere": "contrazice",
     "probabilitati": {
      "sustine": 0.0,
-     "contrazice": 0.98,
-     "nu_spune": 0.02
+     "nu_spune": 0.01,
+     "contrazice": 0.99
     },
-    "confidence": 0.96
+    "confidence": 0.98
    }
   },
   "nouls": {
    "sinonim": 0.07,
    "absolut": 0.27,
-   "abrogat": 0.08,
+   "abrogat": 0.07,
    "numeste_actul": 0.68,
    "categorie_ambigua": 0.59,
    "citat_acopera": 0.98
@@ -1749,8 +1972,8 @@
    "0": {
     "alegere": "sustine",
     "probabilitati": {
-     "contrazice": 0.0,
      "sustine": 1.0,
+     "contrazice": 0.0,
      "nu_spune": 0.0
     },
     "confidence": 1.0
@@ -1758,20 +1981,20 @@
    "1": {
     "alegere": "sustine",
     "probabilitati": {
-     "contrazice": 0.02,
-     "sustine": 0.97,
-     "nu_spune": 0.01
+     "sustine": 0.99,
+     "contrazice": 0.01,
+     "nu_spune": 0.0
     },
-    "confidence": 0.96
+    "confidence": 0.97
    },
    "2": {
     "alegere": "sustine",
     "probabilitati": {
-     "contrazice": 0.01,
      "sustine": 0.99,
+     "contrazice": 0.01,
      "nu_spune": 0.0
     },
-    "confidence": 0.98
+    "confidence": 0.99
    }
   },
   "fraze": [
@@ -1780,13 +2003,28 @@
    "Potrivit alin. (2), cadrele militare în activitate care au absolvit școli și academii militare, cursuri sau alte forme de pregătire în străinătate beneficiază de drepturi depline la încadrarea și promovarea în funcții corespunzătoare studiilor din țară cu care le-au fost echivalate diplomele, în condițiile legii și ale reglementărilor militare."
   ],
   "pozitionale": [],
+  "care_varianta": {
+   "alegere": "C",
+   "probabilitati": {
+    "niciuna": 0.0,
+    "A": 0.0,
+    "C": 1.0,
+    "D": 0.0,
+    "B": 0.0
+   },
+   "confidence": 1.0
+  },
+  "trimiteri": [
+   "art. 13 alin. (1)",
+   "art. 14^3 alin. (1)"
+  ],
   "nivel": {
-   "score": 3.06,
-   "confidence": 0.93
+   "score": 3.09,
+   "confidence": 0.91
   },
   "usage": {
-   "a": 1835,
-   "b": 3163
+   "a": 2526,
+   "b": 3353
   }
  },
  {
@@ -1804,75 +2042,75 @@
    "A": {
     "alegere": "contrazice",
     "probabilitati": {
-     "nu_spune": 0.0,
-     "contrazice": 1.0,
+     "contrazice": 0.99,
+     "nu_spune": 0.01,
      "sustine": 0.0
     },
-    "confidence": 1.0
+    "confidence": 0.99
    },
    "B": {
     "alegere": "sustine",
     "probabilitati": {
+     "contrazice": 0.0,
      "nu_spune": 0.0,
-     "sustine": 1.0,
-     "contrazice": 0.0
+     "sustine": 1.0
     },
     "confidence": 1.0
    },
    "C": {
     "alegere": "contrazice",
     "probabilitati": {
-     "nu_spune": 0.01,
-     "sustine": 0.0,
-     "contrazice": 0.99
+     "contrazice": 0.98,
+     "nu_spune": 0.02,
+     "sustine": 0.0
     },
-    "confidence": 0.99
+    "confidence": 0.97
    },
    "D": {
     "alegere": "contrazice",
     "probabilitati": {
+     "contrazice": 0.98,
      "nu_spune": 0.02,
-     "sustine": 0.0,
-     "contrazice": 0.98
+     "sustine": 0.0
     },
-    "confidence": 0.98
+    "confidence": 0.97
    }
   },
   "nouls": {
    "sinonim": 0.06,
-   "absolut": 0.13,
+   "absolut": 0.12,
    "abrogat": 0.08,
-   "numeste_actul": 0.7,
-   "categorie_ambigua": 0.57,
+   "numeste_actul": 0.71,
+   "categorie_ambigua": 0.56,
    "citat_acopera": 0.98
   },
   "afirmatii": {
    "0": {
     "alegere": "sustine",
     "probabilitati": {
-     "contrazice": 0.0,
+     "sustine": 1.0,
      "nu_spune": 0.0,
-     "sustine": 1.0
+     "contrazice": 0.0
     },
     "confidence": 1.0
    },
    "1": {
     "alegere": "sustine",
     "probabilitati": {
-     "contrazice": 0.0,
+     "sustine": 1.0,
      "nu_spune": 0.0,
-     "sustine": 1.0
+     "contrazice": 0.0
     },
-    "confidence": 0.99
+    "confidence": 1.0
    },
    "2": {
     "alegere": "sustine",
     "probabilitati": {
-     "contrazice": 0.0,
+     "sustine": 1.0,
      "nu_spune": 0.0,
-     "sustine": 1.0
+     "contrazice": 0.0
     },
-    "confidence": 0.99
+    "confidence": 1.0
    }
   },
   "fraze": [
@@ -1881,13 +2119,29 @@
    "Ordinul ministrului apărării naționale este forma prevăzută pentru condițiile concediului pentru formare profesională (art. 14^3 alin. (1)), regulamentele militare stabilesc durata permisiilor și comandanții care le aprobă (art. 17 alin. (2)), iar comandantul unității militare aprobă concediul pentru formare profesională (art. 14^3 alin. (1))."
   ],
   "pozitionale": [],
+  "care_varianta": {
+   "alegere": "B",
+   "probabilitati": {
+    "A": 0.0,
+    "C": 0.0,
+    "niciuna": 0.0,
+    "D": 0.0,
+    "B": 1.0
+   },
+   "confidence": 1.0
+  },
+  "trimiteri": [
+   "art. 14 alin. (2)",
+   "art. 14^3 alin. (1)",
+   "art. 17 alin. (2)"
+  ],
   "nivel": {
-   "score": 2.01,
-   "confidence": 0.11
+   "score": 1.93,
+   "confidence": 0.03
   },
   "usage": {
-   "a": 2598,
-   "b": 4160
+   "a": 3348,
+   "b": 4434
   }
  },
  {
@@ -1905,11 +2159,11 @@
    "A": {
     "alegere": "contrazice",
     "probabilitati": {
-     "sustine": 0.01,
+     "sustine": 0.0,
      "nu_spune": 0.0,
-     "contrazice": 0.99
+     "contrazice": 1.0
     },
-    "confidence": 0.98
+    "confidence": 0.99
    },
    "B": {
     "alegere": "contrazice",
@@ -1918,7 +2172,7 @@
      "nu_spune": 0.0,
      "contrazice": 1.0
     },
-    "confidence": 0.99
+    "confidence": 1.0
    },
    "C": {
     "alegere": "sustine",
@@ -1927,7 +2181,7 @@
      "nu_spune": 0.0,
      "contrazice": 0.0
     },
-    "confidence": 0.99
+    "confidence": 1.0
    },
    "D": {
     "alegere": "contrazice",
@@ -1940,49 +2194,49 @@
    }
   },
   "nouls": {
-   "sinonim": 0.06,
-   "absolut": 0.16,
+   "sinonim": 0.07,
+   "absolut": 0.15,
    "abrogat": 0.03,
    "numeste_actul": 0.73,
-   "categorie_ambigua": 0.63,
+   "categorie_ambigua": 0.61,
    "citat_acopera": 0.96
   },
   "afirmatii": {
    "0": {
     "alegere": "sustine",
     "probabilitati": {
-     "sustine": 0.99,
+     "contrazice": 0.01,
      "nu_spune": 0.0,
-     "contrazice": 0.01
+     "sustine": 0.99
     },
-    "confidence": 0.98
+    "confidence": 0.99
    },
    "1": {
     "alegere": "sustine",
     "probabilitati": {
-     "sustine": 0.99,
+     "contrazice": 0.01,
      "nu_spune": 0.0,
-     "contrazice": 0.01
+     "sustine": 0.99
     },
     "confidence": 0.98
    },
    "2": {
     "alegere": "sustine",
     "probabilitati": {
-     "sustine": 1.0,
+     "contrazice": 0.0,
      "nu_spune": 0.0,
-     "contrazice": 0.0
+     "sustine": 1.0
     },
     "confidence": 1.0
    },
    "3": {
     "alegere": "sustine",
     "probabilitati": {
-     "sustine": 0.98,
+     "contrazice": 0.01,
      "nu_spune": 0.0,
-     "contrazice": 0.02
+     "sustine": 0.99
     },
-    "confidence": 0.97
+    "confidence": 0.99
    }
   },
   "fraze": [
@@ -1992,13 +2246,27 @@
    "Concediile se aprobă de ministrul apărării naționale sau de comandanții stabiliți de acesta (alin. (3)), iar în Ministerul Afacerilor Interne prelungirea se aprobă potrivit competențelor de gestiune a resurselor umane (alin. (4^1))."
   ],
   "pozitionale": [],
+  "care_varianta": {
+   "alegere": "C",
+   "probabilitati": {
+    "D": 0.0,
+    "B": 0.0,
+    "niciuna": 0.0,
+    "A": 0.0,
+    "C": 1.0
+   },
+   "confidence": 1.0
+  },
+  "trimiteri": [
+   "art. 14^1 alin. (1) lit. a)"
+  ],
   "nivel": {
-   "score": 2.12,
-   "confidence": 0.89
+   "score": 2.14,
+   "confidence": 0.88
   },
   "usage": {
-   "a": 2762,
-   "b": 5285
+   "a": 4188,
+   "b": 5501
   }
  },
  {
@@ -2018,10 +2286,10 @@
     "alegere": "sustine",
     "probabilitati": {
      "nu_spune": 0.0,
-     "sustine": 0.99,
-     "contrazice": 0.01
+     "sustine": 1.0,
+     "contrazice": 0.0
     },
-    "confidence": 0.99
+    "confidence": 1.0
    },
    "B": {
     "alegere": "sustine",
@@ -2052,28 +2320,28 @@
    }
   },
   "nouls": {
-   "sinonim": 0.08,
+   "sinonim": 0.07,
    "absolut": 0.11,
    "abrogat": 0.05,
    "numeste_actul": 0.68,
-   "categorie_ambigua": 0.53,
-   "citat_acopera": 0.95
+   "categorie_ambigua": 0.51,
+   "citat_acopera": 0.94
   },
   "afirmatii": {
    "0": {
     "alegere": "sustine",
     "probabilitati": {
-     "sustine": 1.0,
      "contrazice": 0.0,
+     "sustine": 1.0,
      "nu_spune": 0.0
     },
-    "confidence": 0.99
+    "confidence": 1.0
    },
    "1": {
     "alegere": "sustine",
     "probabilitati": {
-     "sustine": 1.0,
      "contrazice": 0.0,
+     "sustine": 1.0,
      "nu_spune": 0.0
     },
     "confidence": 1.0
@@ -2081,8 +2349,8 @@
    "2": {
     "alegere": "sustine",
     "probabilitati": {
-     "sustine": 1.0,
      "contrazice": 0.0,
+     "sustine": 1.0,
      "nu_spune": 0.0
     },
     "confidence": 1.0
@@ -2094,13 +2362,15 @@
    "Pe durata concediului, cadrele militare sunt suspendate din funcție și nu beneficiază de niciun drept din partea Ministerului Apărării Naționale, cu excepția folosirii locuinței de serviciu, dacă dispun de aceasta (alin. (5))."
   ],
   "pozitionale": [],
+  "care_varianta": null,
+  "trimiteri": [],
   "nivel": {
-   "score": 2.88,
-   "confidence": 0.26
+   "score": 2.92,
+   "confidence": 0.23
   },
   "usage": {
-   "a": 2871,
-   "b": 5128
+   "a": 3924,
+   "b": 5164
   }
  },
  {
@@ -2118,17 +2388,17 @@
    "A": {
     "alegere": "contrazice",
     "probabilitati": {
-     "contrazice": 0.99,
-     "nu_spune": 0.01,
-     "sustine": 0.0
+     "nu_spune": 0.02,
+     "sustine": 0.05,
+     "contrazice": 0.9299999999999999
     },
-    "confidence": 0.98
+    "confidence": 0.91
    },
    "B": {
     "alegere": "sustine",
     "probabilitati": {
-     "contrazice": 0.0,
      "nu_spune": 0.0,
+     "contrazice": 0.0,
      "sustine": 1.0
     },
     "confidence": 1.0
@@ -2136,36 +2406,36 @@
    "C": {
     "alegere": "contrazice",
     "probabilitati": {
-     "contrazice": 1.0,
      "nu_spune": 0.0,
-     "sustine": 0.0
+     "sustine": 0.0,
+     "contrazice": 1.0
     },
     "confidence": 1.0
    },
    "D": {
     "alegere": "contrazice",
     "probabilitati": {
-     "contrazice": 0.96,
      "nu_spune": 0.04,
-     "sustine": 0.0
+     "sustine": 0.0,
+     "contrazice": 0.96
     },
     "confidence": 0.94
    }
   },
   "nouls": {
    "sinonim": 0.08,
-   "absolut": 0.29,
-   "abrogat": 0.04,
-   "numeste_actul": 0.68,
-   "categorie_ambigua": 0.58,
+   "absolut": 0.24,
+   "abrogat": 0.03,
+   "numeste_actul": 0.69,
+   "categorie_ambigua": 0.56,
    "citat_acopera": 0.97
   },
   "afirmatii": {
    "0": {
     "alegere": "sustine",
     "probabilitati": {
-     "sustine": 1.0,
      "nu_spune": 0.0,
+     "sustine": 1.0,
      "contrazice": 0.0
     },
     "confidence": 0.99
@@ -2173,8 +2443,8 @@
    "1": {
     "alegere": "sustine",
     "probabilitati": {
-     "sustine": 1.0,
      "nu_spune": 0.0,
+     "sustine": 1.0,
      "contrazice": 0.0
     },
     "confidence": 0.99
@@ -2182,20 +2452,20 @@
    "2": {
     "alegere": "sustine",
     "probabilitati": {
-     "sustine": 0.95,
-     "nu_spune": 0.04,
+     "nu_spune": 0.03,
+     "sustine": 0.96,
      "contrazice": 0.01
     },
-    "confidence": 0.93
+    "confidence": 0.95
    },
    "3": {
     "alegere": "sustine",
     "probabilitati": {
-     "sustine": 0.95,
      "nu_spune": 0.0,
-     "contrazice": 0.05
+     "sustine": 0.96,
+     "contrazice": 0.04
     },
-    "confidence": 0.92
+    "confidence": 0.94
    }
   },
   "fraze": [
@@ -2205,13 +2475,32 @@
    "Potrivit alin. (3), acestui concediu i se aplică în mod corespunzător art. 14^1 alin. (3), (5), (6) și (8^1), deci durata lui nu se ia în calcul la stabilirea stagiului în grad."
   ],
   "pozitionale": [],
+  "care_varianta": {
+   "alegere": "B",
+   "probabilitati": {
+    "A": 0.0,
+    "niciuna": 0.0,
+    "C": 0.0,
+    "D": 0.0,
+    "B": 1.0
+   },
+   "confidence": 1.0
+  },
+  "trimiteri": [
+   "art. 14^1 alin. (3)",
+   "art. 14^1 alin. (5)",
+   "art. 14^1 alin. (6)",
+   "art. 14^1 alin. (8^1)",
+   "art. 14^1 alin. (9)",
+   "art. 14^2 alin. (2)"
+  ],
   "nivel": {
    "score": 3.94,
    "confidence": 0.95
   },
   "usage": {
-   "a": 2797,
-   "b": 5478
+   "a": 4058,
+   "b": 6037
   }
  },
  {
@@ -2238,37 +2527,37 @@
    "B": {
     "alegere": "contrazice",
     "probabilitati": {
-     "nu_spune": 0.0,
+     "contrazice": 1.0,
      "sustine": 0.0,
-     "contrazice": 1.0
+     "nu_spune": 0.0
     },
     "confidence": 1.0
    },
    "C": {
     "alegere": "contrazice",
     "probabilitati": {
-     "nu_spune": 0.0,
+     "contrazice": 1.0,
      "sustine": 0.0,
-     "contrazice": 1.0
+     "nu_spune": 0.0
     },
     "confidence": 1.0
    },
    "D": {
     "alegere": "sustine",
     "probabilitati": {
-     "nu_spune": 0.0,
+     "contrazice": 0.0,
      "sustine": 1.0,
-     "contrazice": 0.0
+     "nu_spune": 0.0
     },
     "confidence": 1.0
    }
   },
   "nouls": {
    "sinonim": 0.09,
-   "absolut": 0.22,
+   "absolut": 0.19,
    "abrogat": 0.04,
-   "numeste_actul": 0.72,
-   "categorie_ambigua": 0.58,
+   "numeste_actul": 0.74,
+   "categorie_ambigua": 0.57,
    "citat_acopera": 0.98
   },
   "afirmatii": {
@@ -2302,8 +2591,8 @@
    "3": {
     "alegere": "sustine",
     "probabilitati": {
-     "nu_spune": 0.01,
-     "sustine": 0.98,
+     "nu_spune": 0.0,
+     "sustine": 0.99,
      "contrazice": 0.01
     },
     "confidence": 0.98
@@ -2316,13 +2605,28 @@
    "Acest concediu plătit nu trebuie confundat cu concediul fără plată pentru formare profesională de cel mult 4 ani, rezervat cadrelor confirmate în serviciul medical (art. 14^2 alin. (1))."
   ],
   "pozitionale": [],
+  "care_varianta": {
+   "alegere": "D",
+   "probabilitati": {
+    "niciuna": 0.0,
+    "C": 0.0,
+    "B": 0.0,
+    "A": 0.0,
+    "D": 1.0
+   },
+   "confidence": 1.0
+  },
+  "trimiteri": [
+   "art. 14^2 alin. (1)",
+   "art. 14^3 alin. (1)"
+  ],
   "nivel": {
-   "score": 2.95,
+   "score": 3.0,
    "confidence": 0.73
   },
   "usage": {
-   "a": 2056,
-   "b": 3948
+   "a": 2818,
+   "b": 4183
   }
  },
  {
@@ -2340,45 +2644,45 @@
    "A": {
     "alegere": "contrazice",
     "probabilitati": {
-     "contrazice": 1.0,
      "sustine": 0.0,
-     "nu_spune": 0.0
+     "nu_spune": 0.0,
+     "contrazice": 1.0
     },
     "confidence": 1.0
    },
    "B": {
     "alegere": "sustine",
     "probabilitati": {
-     "contrazice": 0.0,
      "sustine": 1.0,
-     "nu_spune": 0.0
+     "nu_spune": 0.0,
+     "contrazice": 0.0
     },
     "confidence": 1.0
    },
    "C": {
     "alegere": "contrazice",
     "probabilitati": {
-     "contrazice": 1.0,
      "sustine": 0.0,
-     "nu_spune": 0.0
+     "nu_spune": 0.0,
+     "contrazice": 1.0
     },
-    "confidence": 0.99
+    "confidence": 1.0
    },
    "D": {
     "alegere": "contrazice",
     "probabilitati": {
-     "contrazice": 1.0,
      "sustine": 0.0,
-     "nu_spune": 0.0
+     "nu_spune": 0.0,
+     "contrazice": 1.0
     },
     "confidence": 1.0
    }
   },
   "nouls": {
    "sinonim": 0.08,
-   "absolut": 0.33,
-   "abrogat": 0.05,
-   "numeste_actul": 0.73,
+   "absolut": 0.3,
+   "abrogat": 0.04,
+   "numeste_actul": 0.72,
    "categorie_ambigua": 0.61,
    "citat_acopera": 0.98
   },
@@ -2387,8 +2691,8 @@
     "alegere": "sustine",
     "probabilitati": {
      "nu_spune": 0.0,
-     "contrazice": 0.0,
-     "sustine": 1.0
+     "sustine": 1.0,
+     "contrazice": 0.0
     },
     "confidence": 1.0
    },
@@ -2396,8 +2700,8 @@
     "alegere": "sustine",
     "probabilitati": {
      "nu_spune": 0.0,
-     "contrazice": 0.01,
-     "sustine": 0.99
+     "sustine": 0.99,
+     "contrazice": 0.01
     },
     "confidence": 0.98
    },
@@ -2405,8 +2709,8 @@
     "alegere": "sustine",
     "probabilitati": {
      "nu_spune": 0.0,
-     "contrazice": 0.0,
-     "sustine": 1.0
+     "sustine": 1.0,
+     "contrazice": 0.0
     },
     "confidence": 1.0
    }
@@ -2417,13 +2721,27 @@
    "Textul art. 14^4 vizează expres cadrele militare în activitate din cadrul Ministerului Apărării Naționale."
   ],
   "pozitionale": [],
+  "care_varianta": {
+   "alegere": "B",
+   "probabilitati": {
+    "D": 0.0,
+    "A": 0.0,
+    "C": 0.0,
+    "B": 1.0,
+    "niciuna": 0.0
+   },
+   "confidence": 1.0
+  },
+  "trimiteri": [
+   "art. 14^1 alin. (5)"
+  ],
   "nivel": {
-   "score": 2.0,
-   "confidence": 0.16
+   "score": 1.99,
+   "confidence": 0.17
   },
   "usage": {
-   "a": 2069,
-   "b": 4341
+   "a": 2751,
+   "b": 4485
   }
  },
  {
@@ -2441,8 +2759,8 @@
    "A": {
     "alegere": "sustine",
     "probabilitati": {
-     "contrazice": 0.0,
      "nu_spune": 0.0,
+     "contrazice": 0.0,
      "sustine": 1.0
     },
     "confidence": 1.0
@@ -2450,17 +2768,17 @@
    "B": {
     "alegere": "contrazice",
     "probabilitati": {
-     "contrazice": 1.0,
-     "nu_spune": 0.0,
-     "sustine": 0.0
+     "nu_spune": 0.01,
+     "contrazice": 0.98,
+     "sustine": 0.01
     },
-    "confidence": 1.0
+    "confidence": 0.97
    },
    "C": {
     "alegere": "contrazice",
     "probabilitati": {
-     "contrazice": 1.0,
      "nu_spune": 0.0,
+     "contrazice": 1.0,
      "sustine": 0.0
     },
     "confidence": 1.0
@@ -2468,8 +2786,8 @@
    "D": {
     "alegere": "contrazice",
     "probabilitati": {
-     "contrazice": 1.0,
      "nu_spune": 0.0,
+     "contrazice": 1.0,
      "sustine": 0.0
     },
     "confidence": 1.0
@@ -2477,39 +2795,39 @@
   },
   "nouls": {
    "sinonim": 0.06,
-   "absolut": 0.42,
-   "abrogat": 0.06,
-   "numeste_actul": 0.75,
-   "categorie_ambigua": 0.43,
-   "citat_acopera": 0.96
+   "absolut": 0.47,
+   "abrogat": 0.07,
+   "numeste_actul": 0.73,
+   "categorie_ambigua": 0.47,
+   "citat_acopera": 0.95
   },
   "afirmatii": {
    "0": {
     "alegere": "sustine",
     "probabilitati": {
-     "nu_spune": 0.0,
      "contrazice": 0.0,
-     "sustine": 1.0
+     "sustine": 1.0,
+     "nu_spune": 0.0
     },
     "confidence": 0.99
    },
    "1": {
     "alegere": "sustine",
     "probabilitati": {
-     "nu_spune": 0.01,
-     "contrazice": 0.02,
-     "sustine": 0.97
+     "contrazice": 0.01,
+     "sustine": 0.99,
+     "nu_spune": 0.0
     },
     "confidence": 0.97
    },
    "2": {
     "alegere": "sustine",
     "probabilitati": {
-     "nu_spune": 0.01,
-     "contrazice": 0.01,
-     "sustine": 0.98
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "nu_spune": 0.0
     },
-    "confidence": 0.98
+    "confidence": 1.0
    }
   },
   "fraze": [
@@ -2518,13 +2836,30 @@
    "Art. 15 alin. (1) prevede, pentru femeile cadre militare în activitate, dreptul la concediu de maternitate, la pauze pentru alimentarea și îngrijirea copilului și la celelalte drepturi prevăzute de lege pentru femeile salariate din administrația publică."
   ],
   "pozitionale": [],
+  "care_varianta": {
+   "alegere": "A",
+   "probabilitati": {
+    "B": 0.0,
+    "niciuna": 0.0,
+    "D": 0.0,
+    "A": 1.0,
+    "C": 0.0
+   },
+   "confidence": 1.0
+  },
+  "trimiteri": [
+   "art. 14^1 alin. (7)",
+   "art. 14^1 alin. (8^1)",
+   "art. 15 alin. (1)",
+   "art. 15 alin. (3)"
+  ],
   "nivel": {
-   "score": 2.32,
-   "confidence": 0.72
+   "score": 2.39,
+   "confidence": 0.66
   },
   "usage": {
-   "a": 1885,
-   "b": 4728
+   "a": 2745,
+   "b": 5052
   }
  },
  {
@@ -2542,73 +2877,73 @@
    "A": {
     "alegere": "contrazice",
     "probabilitati": {
+     "contrazice": 0.99,
      "nu_spune": 0.0,
-     "sustine": 0.01,
-     "contrazice": 0.99
+     "sustine": 0.01
     },
-    "confidence": 0.98
+    "confidence": 0.99
    },
    "B": {
     "alegere": "sustine",
     "probabilitati": {
+     "contrazice": 0.0,
      "nu_spune": 0.0,
-     "sustine": 1.0,
-     "contrazice": 0.0
+     "sustine": 1.0
     },
     "confidence": 1.0
    },
    "C": {
     "alegere": "contrazice",
     "probabilitati": {
+     "contrazice": 1.0,
      "nu_spune": 0.0,
-     "sustine": 0.0,
-     "contrazice": 1.0
+     "sustine": 0.0
     },
-    "confidence": 0.99
+    "confidence": 1.0
    },
    "D": {
     "alegere": "contrazice",
     "probabilitati": {
+     "contrazice": 1.0,
      "nu_spune": 0.0,
-     "sustine": 0.0,
-     "contrazice": 1.0
+     "sustine": 0.0
     },
     "confidence": 1.0
    }
   },
   "nouls": {
-   "sinonim": 0.07,
-   "absolut": 0.4,
+   "sinonim": 0.08,
+   "absolut": 0.33,
    "abrogat": 0.07,
-   "numeste_actul": 0.64,
-   "categorie_ambigua": 0.49,
-   "citat_acopera": 0.98
+   "numeste_actul": 0.65,
+   "categorie_ambigua": 0.45,
+   "citat_acopera": 0.97
   },
   "afirmatii": {
    "0": {
     "alegere": "sustine",
     "probabilitati": {
+     "sustine": 1.0,
      "nu_spune": 0.0,
-     "contrazice": 0.0,
-     "sustine": 1.0
+     "contrazice": 0.0
     },
     "confidence": 1.0
    },
    "1": {
     "alegere": "sustine",
     "probabilitati": {
+     "sustine": 1.0,
      "nu_spune": 0.0,
-     "contrazice": 0.01,
-     "sustine": 0.99
+     "contrazice": 0.0
     },
     "confidence": 0.99
    },
    "2": {
     "alegere": "sustine",
     "probabilitati": {
+     "sustine": 1.0,
      "nu_spune": 0.0,
-     "contrazice": 0.01,
-     "sustine": 0.99
+     "contrazice": 0.0
     },
     "confidence": 0.99
    }
@@ -2619,13 +2954,28 @@
    "Potrivit alin. (2), durata permisiilor și comandanții care au dreptul să le aprobe se stabilesc prin regulamentele militare, iar art. 18 prevede că timpul acordat pentru permisii nu se scade din durata concediului anual de odihnă sau a concediului de odihnă suplimentar."
   ],
   "pozitionale": [],
+  "care_varianta": {
+   "alegere": "B",
+   "probabilitati": {
+    "A": 0.0,
+    "C": 0.0,
+    "B": 1.0,
+    "D": 0.0,
+    "niciuna": 0.0
+   },
+   "confidence": 1.0
+  },
+  "trimiteri": [
+   "art. 17 alin. (1)",
+   "art. 4 alin. (1) lit. c)"
+  ],
   "nivel": {
-   "score": 3.5,
-   "confidence": 0.58
+   "score": 3.54,
+   "confidence": 0.61
   },
   "usage": {
-   "a": 1711,
-   "b": 3303
+   "a": 2336,
+   "b": 3463
   }
  },
  {
@@ -2644,8 +2994,8 @@
     "alegere": "contrazice",
     "probabilitati": {
      "contrazice": 1.0,
-     "sustine": 0.0,
-     "nu_spune": 0.0
+     "nu_spune": 0.0,
+     "sustine": 0.0
     },
     "confidence": 1.0
    },
@@ -2653,8 +3003,8 @@
     "alegere": "contrazice",
     "probabilitati": {
      "contrazice": 1.0,
-     "sustine": 0.0,
-     "nu_spune": 0.0
+     "nu_spune": 0.0,
+     "sustine": 0.0
     },
     "confidence": 1.0
    },
@@ -2662,54 +3012,54 @@
     "alegere": "sustine",
     "probabilitati": {
      "contrazice": 0.0,
-     "sustine": 1.0,
-     "nu_spune": 0.0
+     "nu_spune": 0.0,
+     "sustine": 1.0
     },
     "confidence": 1.0
    },
    "D": {
     "alegere": "nu_spune",
     "probabilitati": {
-     "contrazice": 0.32,
-     "sustine": 0.0,
-     "nu_spune": 0.68
+     "contrazice": 0.44,
+     "nu_spune": 0.56,
+     "sustine": 0.0
     },
-    "confidence": 0.52
+    "confidence": 0.33
    }
   },
   "nouls": {
-   "sinonim": 0.07,
-   "absolut": 0.34,
-   "abrogat": 0.07,
-   "numeste_actul": 0.7,
+   "sinonim": 0.08,
+   "absolut": 0.31,
+   "abrogat": 0.06,
+   "numeste_actul": 0.68,
    "categorie_ambigua": 0.41,
-   "citat_acopera": 0.97
+   "citat_acopera": 0.98
   },
   "afirmatii": {
    "0": {
     "alegere": "sustine",
     "probabilitati": {
      "nu_spune": 0.0,
-     "contrazice": 0.0,
-     "sustine": 1.0
+     "sustine": 1.0,
+     "contrazice": 0.0
     },
     "confidence": 1.0
    },
    "1": {
     "alegere": "sustine",
     "probabilitati": {
-     "nu_spune": 0.02,
-     "contrazice": 0.01,
-     "sustine": 0.97
+     "nu_spune": 0.04,
+     "sustine": 0.95,
+     "contrazice": 0.01
     },
-    "confidence": 0.96
+    "confidence": 0.93
    },
    "2": {
     "alegere": "sustine",
     "probabilitati": {
-     "nu_spune": 0.0,
-     "contrazice": 0.0,
-     "sustine": 1.0
+     "nu_spune": 0.01,
+     "sustine": 0.99,
+     "contrazice": 0.0
     },
     "confidence": 0.99
    }
@@ -2720,13 +3070,28 @@
    "O regulă asemănătoare există la art. 14^3 alin. (2), potrivit căruia durata concediului pentru formare profesională nu poate fi dedusă din durata concediului de odihnă anual."
   ],
   "pozitionale": [],
+  "care_varianta": {
+   "alegere": "C",
+   "probabilitati": {
+    "A": 0.0,
+    "D": 0.0,
+    "B": 0.0,
+    "C": 1.0,
+    "niciuna": 0.0
+   },
+   "confidence": 1.0
+  },
+  "trimiteri": [
+   "art. 14 alin. (2)",
+   "art. 14^3 alin. (2)"
+  ],
   "nivel": {
-   "score": 2.49,
+   "score": 2.69,
    "confidence": 0.0
   },
   "usage": {
-   "a": 2223,
-   "b": 3616
+   "a": 2852,
+   "b": 3827
   }
  },
  {
@@ -2744,17 +3109,17 @@
    "A": {
     "alegere": "contrazice",
     "probabilitati": {
-     "nu_spune": 0.0,
      "sustine": 0.01,
+     "nu_spune": 0.0,
      "contrazice": 0.99
     },
-    "confidence": 0.98
+    "confidence": 0.99
    },
    "B": {
     "alegere": "contrazice",
     "probabilitati": {
-     "nu_spune": 0.0,
      "sustine": 0.0,
+     "nu_spune": 0.0,
      "contrazice": 1.0
     },
     "confidence": 1.0
@@ -2762,13 +3127,32 @@
    "C": {
     "alegere": "contrazice",
     "probabilitati": {
-     "nu_spune": 0.0,
      "sustine": 0.0,
+     "nu_spune": 0.0,
      "contrazice": 1.0
     },
-    "confidence": 0.99
+    "confidence": 1.0
    },
    "D": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "nouls": {
+   "sinonim": 0.1,
+   "absolut": 0.34,
+   "abrogat": 0.03,
+   "numeste_actul": 0.73,
+   "categorie_ambigua": 0.48,
+   "citat_acopera": 0.98
+  },
+  "afirmatii": {
+   "0": {
     "alegere": "sustine",
     "probabilitati": {
      "nu_spune": 0.0,
@@ -2776,41 +3160,22 @@
      "contrazice": 0.0
     },
     "confidence": 1.0
-   }
-  },
-  "nouls": {
-   "sinonim": 0.11,
-   "absolut": 0.39,
-   "abrogat": 0.03,
-   "numeste_actul": 0.75,
-   "categorie_ambigua": 0.44,
-   "citat_acopera": 0.97
-  },
-  "afirmatii": {
-   "0": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "nu_spune": 0.0,
-     "contrazice": 0.0,
-     "sustine": 1.0
-    },
-    "confidence": 1.0
    },
    "1": {
     "alegere": "nu_spune",
     "probabilitati": {
-     "nu_spune": 0.62,
-     "contrazice": 0.03,
-     "sustine": 0.35
+     "nu_spune": 0.72,
+     "sustine": 0.26,
+     "contrazice": 0.02
     },
-    "confidence": 0.43
+    "confidence": 0.58
    },
    "2": {
-    "alegere": "nu_spune",
+    "alegere": "sustine",
     "probabilitati": {
-     "nu_spune": 0.53,
-     "contrazice": 0.02,
-     "sustine": 0.45
+     "nu_spune": 0.46,
+     "sustine": 0.52,
+     "contrazice": 0.02
     },
     "confidence": 0.28
    },
@@ -2818,8 +3183,8 @@
     "alegere": "sustine",
     "probabilitati": {
      "nu_spune": 0.0,
-     "contrazice": 0.0,
-     "sustine": 1.0
+     "sustine": 1.0,
+     "contrazice": 0.0
     },
     "confidence": 1.0
    }
@@ -2831,13 +3196,29 @@
    "Potrivit art. 20^1 alin. (3), cuantumul concret al compensației și condițiile de acordare se stabilesc prin hotărâre a Guvernului, la propunerea ministrului apărării naționale."
   ],
   "pozitionale": [],
+  "care_varianta": {
+   "alegere": "D",
+   "probabilitati": {
+    "B": 0.0,
+    "A": 0.0,
+    "niciuna": 0.0,
+    "D": 1.0,
+    "C": 0.0
+   },
+   "confidence": 1.0
+  },
+  "trimiteri": [
+   "art. 20^1 alin. (1)",
+   "art. 20^1 alin. (3)",
+   "art. 9 alin. (1) lit. a)"
+  ],
   "nivel": {
-   "score": 2.88,
-   "confidence": 0.25
+   "score": 2.97,
+   "confidence": 0.19
   },
   "usage": {
-   "a": 3456,
-   "b": 7087
+   "a": 5687,
+   "b": 7482
   }
  },
  {
@@ -2855,73 +3236,73 @@
    "A": {
     "alegere": "contrazice",
     "probabilitati": {
-     "sustine": 0.0,
      "nu_spune": 0.0,
-     "contrazice": 1.0
+     "contrazice": 1.0,
+     "sustine": 0.0
     },
     "confidence": 1.0
    },
    "B": {
     "alegere": "contrazice",
     "probabilitati": {
-     "sustine": 0.0,
      "nu_spune": 0.0,
-     "contrazice": 1.0
+     "contrazice": 1.0,
+     "sustine": 0.0
     },
     "confidence": 1.0
    },
    "C": {
     "alegere": "sustine",
     "probabilitati": {
-     "sustine": 0.97,
      "nu_spune": 0.0,
-     "contrazice": 0.03
+     "contrazice": 0.03,
+     "sustine": 0.97
     },
-    "confidence": 0.95
+    "confidence": 0.96
    },
    "D": {
     "alegere": "contrazice",
     "probabilitati": {
-     "sustine": 0.03,
-     "nu_spune": 0.05,
-     "contrazice": 0.92
+     "nu_spune": 0.13,
+     "contrazice": 0.85,
+     "sustine": 0.02
     },
-    "confidence": 0.88
+    "confidence": 0.78
    }
   },
   "nouls": {
    "sinonim": 0.11,
-   "absolut": 0.18,
-   "abrogat": 0.04,
-   "numeste_actul": 0.74,
-   "categorie_ambigua": 0.47,
+   "absolut": 0.15,
+   "abrogat": 0.03,
+   "numeste_actul": 0.72,
+   "categorie_ambigua": 0.46,
    "citat_acopera": 0.96
   },
   "afirmatii": {
    "0": {
     "alegere": "sustine",
     "probabilitati": {
-     "sustine": 0.99,
-     "contrazice": 0.01,
-     "nu_spune": 0.0
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
     },
-    "confidence": 0.99
+    "confidence": 1.0
    },
    "1": {
     "alegere": "sustine",
     "probabilitati": {
      "sustine": 1.0,
-     "contrazice": 0.0,
-     "nu_spune": 0.0
+     "nu_spune": 0.0,
+     "contrazice": 0.0
     },
     "confidence": 1.0
    },
    "2": {
     "alegere": "sustine",
     "probabilitati": {
-     "sustine": 0.99,
-     "contrazice": 0.01,
-     "nu_spune": 0.0
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
     },
     "confidence": 0.99
    }
@@ -2932,13 +3313,27 @@
    "Creditul ipotecar/imobiliar sau contractul de vânzare-cumpărare cu plata în rate nu este o condiție a alin. (2), ci ipoteza distinctă de la alin. (2^1), în care cei care îndeplinesc condițiile de la alin. (1) și (2) primesc compensația pentru plata ratei, fără a depăși rata lunară plătită."
   ],
   "pozitionale": [],
+  "care_varianta": {
+   "alegere": "C",
+   "probabilitati": {
+    "A": 0.0,
+    "C": 1.0,
+    "B": 0.0,
+    "niciuna": 0.0,
+    "D": 0.0
+   },
+   "confidence": 1.0
+  },
+  "trimiteri": [
+   "art. 20^1 alin. (2)"
+  ],
   "nivel": {
-   "score": 3.29,
-   "confidence": 0.74
+   "score": 3.25,
+   "confidence": 0.77
   },
   "usage": {
-   "a": 3558,
-   "b": 6612
+   "a": 5784,
+   "b": 6864
   }
  },
  {
@@ -2958,8 +3353,8 @@
    "A": {
     "alegere": "sustine",
     "probabilitati": {
-     "nu_spune": 0.0,
      "contrazice": 0.0,
+     "nu_spune": 0.0,
      "sustine": 1.0
     },
     "confidence": 1.0
@@ -2967,8 +3362,8 @@
    "B": {
     "alegere": "contrazice",
     "probabilitati": {
-     "nu_spune": 0.0,
      "contrazice": 1.0,
+     "nu_spune": 0.0,
      "sustine": 0.0
     },
     "confidence": 1.0
@@ -2976,27 +3371,27 @@
    "C": {
     "alegere": "sustine",
     "probabilitati": {
-     "nu_spune": 0.0,
-     "contrazice": 0.02,
-     "sustine": 0.98
+     "contrazice": 0.03,
+     "nu_spune": 0.04,
+     "sustine": 0.93
     },
-    "confidence": 0.97
+    "confidence": 0.89
    },
    "D": {
     "alegere": "sustine",
     "probabilitati": {
-     "nu_spune": 0.0,
-     "contrazice": 0.0,
-     "sustine": 1.0
+     "contrazice": 0.01,
+     "nu_spune": 0.04,
+     "sustine": 0.95
     },
-    "confidence": 1.0
+    "confidence": 0.92
    }
   },
   "nouls": {
    "sinonim": 0.09,
    "absolut": 0.13,
    "abrogat": 0.04,
-   "numeste_actul": 0.67,
+   "numeste_actul": 0.66,
    "categorie_ambigua": 0.47,
    "citat_acopera": 0.93
   },
@@ -3004,8 +3399,8 @@
    "0": {
     "alegere": "sustine",
     "probabilitati": {
-     "sustine": 1.0,
      "nu_spune": 0.0,
+     "sustine": 1.0,
      "contrazice": 0.0
     },
     "confidence": 1.0
@@ -3013,8 +3408,8 @@
    "1": {
     "alegere": "sustine",
     "probabilitati": {
-     "sustine": 1.0,
      "nu_spune": 0.0,
+     "sustine": 1.0,
      "contrazice": 0.0
     },
     "confidence": 1.0
@@ -3022,8 +3417,8 @@
    "2": {
     "alegere": "sustine",
     "probabilitati": {
-     "sustine": 1.0,
      "nu_spune": 0.0,
+     "sustine": 1.0,
      "contrazice": 0.0
     },
     "confidence": 1.0
@@ -3031,8 +3426,8 @@
    "3": {
     "alegere": "sustine",
     "probabilitati": {
-     "sustine": 1.0,
      "nu_spune": 0.0,
+     "sustine": 1.0,
      "contrazice": 0.0
     },
     "confidence": 1.0
@@ -3045,13 +3440,17 @@
    "Tot alin. (2^2) precizează că Ministerul Apărării Naționale nu îi asigură cadrului militar care a optat pentru situația de la alin. (2^1) un spațiu de locuit corespunzător în garnizoana unde a achiziționat locuința, pe durata existenței acestei situații."
   ],
   "pozitionale": [],
+  "care_varianta": null,
+  "trimiteri": [
+   "art. 20^1 alin. (2^2)"
+  ],
   "nivel": {
-   "score": 3.49,
+   "score": 3.5,
    "confidence": 0.58
   },
   "usage": {
-   "a": 3460,
-   "b": 6930
+   "a": 5322,
+   "b": 7192
   }
  },
  {
@@ -3105,9 +3504,9 @@
   },
   "nouls": {
    "sinonim": 0.06,
-   "absolut": 0.12,
+   "absolut": 0.11,
    "abrogat": 0.03,
-   "numeste_actul": 0.75,
+   "numeste_actul": 0.73,
    "categorie_ambigua": 0.33,
    "citat_acopera": 0.98
   },
@@ -3115,27 +3514,27 @@
    "0": {
     "alegere": "sustine",
     "probabilitati": {
+     "contrazice": 0.0,
      "nu_spune": 0.0,
-     "sustine": 1.0,
-     "contrazice": 0.0
+     "sustine": 1.0
     },
     "confidence": 1.0
    },
    "1": {
     "alegere": "sustine",
     "probabilitati": {
+     "contrazice": 0.0,
      "nu_spune": 0.0,
-     "sustine": 1.0,
-     "contrazice": 0.0
+     "sustine": 1.0
     },
-    "confidence": 0.99
+    "confidence": 1.0
    },
    "2": {
     "alegere": "sustine",
     "probabilitati": {
+     "contrazice": 0.0,
      "nu_spune": 0.0,
-     "sustine": 1.0,
-     "contrazice": 0.0
+     "sustine": 1.0
     },
     "confidence": 1.0
    }
@@ -3146,13 +3545,27 @@
    "Potrivit alin. (5), de aceeași indemnizație beneficiază și soții sau soțiile care, la data mutării, erau înscrise ca șomeri la agențiile pentru ocuparea forței de muncă județene sau a municipiului București, dar numai după expirarea, potrivit legii, a termenului de plată a indemnizației de șomaj."
   ],
   "pozitionale": [],
+  "care_varianta": {
+   "alegere": "A",
+   "probabilitati": {
+    "C": 0.0,
+    "niciuna": 0.0,
+    "A": 1.0,
+    "B": 0.0,
+    "D": 0.0
+   },
+   "confidence": 1.0
+  },
+  "trimiteri": [
+   "art. 20^1 alin. (4)"
+  ],
   "nivel": {
-   "score": 2.36,
-   "confidence": 0.68
+   "score": 2.26,
+   "confidence": 0.77
   },
   "usage": {
-   "a": 3552,
-   "b": 6465
+   "a": 5761,
+   "b": 6673
   }
  },
  {
@@ -3180,8 +3593,8 @@
     "alegere": "sustine",
     "probabilitati": {
      "nu_spune": 0.0,
-     "contrazice": 0.01,
-     "sustine": 0.99
+     "sustine": 0.99,
+     "contrazice": 0.01
     },
     "confidence": 0.98
    },
@@ -3189,72 +3602,72 @@
     "alegere": "contrazice",
     "probabilitati": {
      "nu_spune": 0.0,
-     "sustine": 0.02,
-     "contrazice": 0.98
+     "sustine": 0.01,
+     "contrazice": 0.99
     },
-    "confidence": 0.97
+    "confidence": 0.98
    },
    "D": {
     "alegere": "contrazice",
     "probabilitati": {
-     "nu_spune": 0.0,
-     "contrazice": 1.0,
-     "sustine": 0.0
+     "nu_spune": 0.01,
+     "sustine": 0.0,
+     "contrazice": 0.99
     },
-    "confidence": 1.0
+    "confidence": 0.99
    }
   },
   "nouls": {
-   "sinonim": 0.09,
-   "absolut": 0.2,
-   "abrogat": 0.11,
-   "numeste_actul": 0.72,
+   "sinonim": 0.07,
+   "absolut": 0.18,
+   "abrogat": 0.1,
+   "numeste_actul": 0.7,
    "categorie_ambigua": 0.48,
-   "citat_acopera": 0.94
+   "citat_acopera": 0.93
   },
   "afirmatii": {
    "0": {
     "alegere": "sustine",
     "probabilitati": {
-     "nu_spune": 0.0,
-     "contrazice": 0.01,
-     "sustine": 0.99
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "nu_spune": 0.0
     },
-    "confidence": 0.99
+    "confidence": 1.0
    },
    "1": {
     "alegere": "sustine",
     "probabilitati": {
-     "nu_spune": 0.0,
+     "sustine": 1.0,
      "contrazice": 0.0,
-     "sustine": 1.0
+     "nu_spune": 0.0
     },
     "confidence": 1.0
    },
    "2": {
     "alegere": "sustine",
     "probabilitati": {
-     "nu_spune": 0.0,
      "contrazice": 0.0,
-     "sustine": 1.0
+     "sustine": 1.0,
+     "nu_spune": 0.0
     },
     "confidence": 0.99
    },
    "3": {
     "alegere": "sustine",
     "probabilitati": {
-     "nu_spune": 0.0,
      "contrazice": 0.0,
-     "sustine": 1.0
+     "sustine": 1.0,
+     "nu_spune": 0.0
     },
-    "confidence": 0.99
+    "confidence": 1.0
    },
    "4": {
     "alegere": "sustine",
     "probabilitati": {
-     "nu_spune": 0.0,
      "contrazice": 0.01,
-     "sustine": 0.99
+     "sustine": 0.99,
+     "nu_spune": 0.0
     },
     "confidence": 0.98
    }
@@ -3267,13 +3680,30 @@
    "Atenție: prevederile art. 21 alin. (3) referitoare la pensia pentru invaliditate permanentă sunt semnalate în notele portalului ca abrogate de legislația anterioară de pensii, pensiile militare fiind reglementate în prezent prin Legea nr. 223/2015; în schimb, alin. (4), în vigoare, permite personalului militar încadrat în gradul III de invaliditate sau clasat apt limitat să fie menținut ori rechemat în activitate sau încadrat în funcții civile fără examen sau concurs, la cerere."
   ],
   "pozitionale": [],
+  "care_varianta": {
+   "alegere": "B",
+   "probabilitati": {
+    "niciuna": 0.0,
+    "D": 0.0,
+    "C": 0.0,
+    "A": 0.0,
+    "B": 1.0
+   },
+   "confidence": 1.0
+  },
+  "trimiteri": [
+   "art. 21 alin. (1)",
+   "art. 21 alin. (3)",
+   "art. 23 alin. (3)",
+   "art. 4 alin. (1) lit. c)"
+  ],
   "nivel": {
-   "score": 3.56,
-   "confidence": 0.63
+   "score": 3.62,
+   "confidence": 0.68
   },
   "usage": {
-   "a": 3027,
-   "b": 6342
+   "a": 4375,
+   "b": 6799
   }
  },
  {
@@ -3291,46 +3721,46 @@
    "A": {
     "alegere": "contrazice",
     "probabilitati": {
-     "nu_spune": 0.04,
-     "sustine": 0.0,
-     "contrazice": 0.96
+     "contrazice": 0.95,
+     "nu_spune": 0.05,
+     "sustine": 0.0
     },
     "confidence": 0.93
    },
    "B": {
     "alegere": "contrazice",
     "probabilitati": {
+     "contrazice": 1.0,
      "nu_spune": 0.0,
-     "sustine": 0.0,
-     "contrazice": 1.0
+     "sustine": 0.0
     },
     "confidence": 0.99
    },
    "C": {
     "alegere": "sustine",
     "probabilitati": {
+     "contrazice": 0.0,
      "nu_spune": 0.0,
-     "sustine": 1.0,
-     "contrazice": 0.0
+     "sustine": 1.0
     },
-    "confidence": 0.99
+    "confidence": 1.0
    },
    "D": {
     "alegere": "contrazice",
     "probabilitati": {
+     "contrazice": 0.99,
      "nu_spune": 0.01,
-     "sustine": 0.0,
-     "contrazice": 0.99
+     "sustine": 0.0
     },
-    "confidence": 0.98
+    "confidence": 0.99
    }
   },
   "nouls": {
    "sinonim": 0.08,
-   "absolut": 0.15,
-   "abrogat": 0.14,
-   "numeste_actul": 0.72,
-   "categorie_ambigua": 0.39,
+   "absolut": 0.14,
+   "abrogat": 0.15,
+   "numeste_actul": 0.73,
+   "categorie_ambigua": 0.43,
    "citat_acopera": 0.98
   },
   "afirmatii": {
@@ -3347,10 +3777,10 @@
     "alegere": "sustine",
     "probabilitati": {
      "contrazice": 0.01,
-     "sustine": 0.98,
-     "nu_spune": 0.01
+     "sustine": 0.99,
+     "nu_spune": 0.0
     },
-    "confidence": 0.98
+    "confidence": 0.99
    },
    "2": {
     "alegere": "sustine",
@@ -3368,13 +3798,28 @@
    "O măsură asemănătoare, tot fără examen ori concurs, este prevăzută la art. 25 alin. (3) pentru copiii aflați în întreținere și soțul ori soția personalului militar clasat inapt sau apt limitat ori decedat în aceste condiții."
   ],
   "pozitionale": [],
+  "care_varianta": {
+   "alegere": "C",
+   "probabilitati": {
+    "B": 0.0,
+    "D": 0.0,
+    "C": 1.0,
+    "A": 0.0,
+    "niciuna": 0.0
+   },
+   "confidence": 1.0
+  },
+  "trimiteri": [
+   "art. 21 alin. (4)",
+   "art. 25 alin. (3)"
+  ],
   "nivel": {
-   "score": 3.29,
-   "confidence": 0.65
+   "score": 3.24,
+   "confidence": 0.7
   },
   "usage": {
-   "a": 3011,
-   "b": 5328
+   "a": 4298,
+   "b": 5701
   }
  },
  {
@@ -3393,47 +3838,47 @@
    "A": {
     "alegere": "sustine",
     "probabilitati": {
-     "contrazice": 0.0,
      "nu_spune": 0.0,
+     "contrazice": 0.0,
      "sustine": 1.0
     },
     "confidence": 1.0
    },
    "B": {
-    "alegere": "nu_spune",
+    "alegere": "contrazice",
     "probabilitati": {
-     "contrazice": 0.32,
-     "nu_spune": 0.68,
-     "sustine": 0.0
+     "nu_spune": 0.41,
+     "contrazice": 0.57,
+     "sustine": 0.02
     },
-    "confidence": 0.52
+    "confidence": 0.35
    },
    "C": {
     "alegere": "sustine",
     "probabilitati": {
-     "contrazice": 0.0,
      "nu_spune": 0.0,
+     "contrazice": 0.0,
      "sustine": 1.0
     },
     "confidence": 1.0
    },
    "D": {
-    "alegere": "nu_spune",
+    "alegere": "contrazice",
     "probabilitati": {
-     "contrazice": 0.38,
-     "nu_spune": 0.62,
-     "sustine": 0.0
+     "nu_spune": 0.29,
+     "contrazice": 0.68,
+     "sustine": 0.03
     },
-    "confidence": 0.43
+    "confidence": 0.52
    }
   },
   "nouls": {
-   "sinonim": 0.06,
-   "absolut": 0.25,
-   "abrogat": 0.05,
+   "sinonim": 0.07,
+   "absolut": 0.18,
+   "abrogat": 0.04,
    "numeste_actul": 0.7,
-   "categorie_ambigua": 0.59,
-   "citat_acopera": 0.98
+   "categorie_ambigua": 0.61,
+   "citat_acopera": 0.97
   },
   "afirmatii": {
    "0": {
@@ -3448,20 +3893,20 @@
    "1": {
     "alegere": "sustine",
     "probabilitati": {
-     "nu_spune": 0.01,
-     "sustine": 0.98,
-     "contrazice": 0.01
+     "nu_spune": 0.0,
+     "contrazice": 0.01,
+     "sustine": 0.99
     },
-    "confidence": 0.98
+    "confidence": 0.99
    },
    "2": {
     "alegere": "sustine",
     "probabilitati": {
      "nu_spune": 0.0,
-     "sustine": 1.0,
-     "contrazice": 0.0
+     "contrazice": 0.0,
+     "sustine": 1.0
     },
-    "confidence": 0.99
+    "confidence": 1.0
    }
   },
   "fraze": [
@@ -3470,13 +3915,18 @@
    "Potrivit alin. (2), membrii familiilor beneficiază și de pensie de urmaș și de alte drepturi conform prevederilor legale, iar alin. (3) prevede, la decesul unui cadru militar în activitate, ajutorul suplimentar de două solde lunare neimpozabile."
   ],
   "pozitionale": [],
+  "care_varianta": null,
+  "trimiteri": [
+   "art. 23 alin. (1)",
+   "art. 9 alin. (1) lit. b)"
+  ],
   "nivel": {
-   "score": 2.5,
+   "score": 2.73,
    "confidence": 0.0
   },
   "usage": {
-   "a": 2180,
-   "b": 3863
+   "a": 2780,
+   "b": 4111
   }
  },
  {
@@ -3521,48 +3971,48 @@
    "D": {
     "alegere": "contrazice",
     "probabilitati": {
-     "sustine": 0.0,
-     "nu_spune": 0.01,
-     "contrazice": 0.99
+     "sustine": 0.01,
+     "nu_spune": 0.04,
+     "contrazice": 0.95
     },
-    "confidence": 0.99
+    "confidence": 0.92
    }
   },
   "nouls": {
    "sinonim": 0.06,
-   "absolut": 0.24,
-   "abrogat": 0.05,
-   "numeste_actul": 0.72,
-   "categorie_ambigua": 0.6,
-   "citat_acopera": 0.98
+   "absolut": 0.23,
+   "abrogat": 0.04,
+   "numeste_actul": 0.73,
+   "categorie_ambigua": 0.62,
+   "citat_acopera": 0.97
   },
   "afirmatii": {
    "0": {
     "alegere": "sustine",
     "probabilitati": {
-     "contrazice": 0.0,
      "sustine": 1.0,
-     "nu_spune": 0.0
+     "nu_spune": 0.0,
+     "contrazice": 0.0
     },
     "confidence": 1.0
    },
    "1": {
     "alegere": "sustine",
     "probabilitati": {
-     "contrazice": 0.01,
+     "sustine": 1.0,
      "nu_spune": 0.0,
-     "sustine": 0.99
+     "contrazice": 0.0
     },
-    "confidence": 0.98
+    "confidence": 0.99
    },
    "2": {
     "alegere": "sustine",
     "probabilitati": {
-     "contrazice": 0.0,
+     "sustine": 0.99,
      "nu_spune": 0.0,
-     "sustine": 1.0
+     "contrazice": 0.01
     },
-    "confidence": 0.99
+    "confidence": 0.97
    }
   },
   "fraze": [
@@ -3571,13 +4021,29 @@
    "Ajutorul se acordă numai la decesul unui cadru militar în activitate, iar membrii familiilor beneficiază separat de pensie de urmaș și de alte drepturi în conformitate cu prevederile legale (art. 23 alin. (2))."
   ],
   "pozitionale": [],
+  "care_varianta": {
+   "alegere": "B",
+   "probabilitati": {
+    "A": 0.0,
+    "niciuna": 0.0,
+    "B": 1.0,
+    "C": 0.0,
+    "D": 0.0
+   },
+   "confidence": 1.0
+  },
+  "trimiteri": [
+   "art. 20^1 alin. (4)",
+   "art. 23 alin. (2)",
+   "art. 23 alin. (3)"
+  ],
   "nivel": {
-   "score": 2.03,
+   "score": 2.04,
    "confidence": 0.97
   },
   "usage": {
-   "a": 2124,
-   "b": 4858
+   "a": 3068,
+   "b": 5222
   }
  },
  {
@@ -3595,46 +4061,46 @@
    "A": {
     "alegere": "sustine",
     "probabilitati": {
+     "sustine": 1.0,
      "nu_spune": 0.0,
-     "contrazice": 0.0,
-     "sustine": 1.0
+     "contrazice": 0.0
     },
     "confidence": 1.0
    },
    "B": {
     "alegere": "contrazice",
     "probabilitati": {
-     "nu_spune": 0.15,
-     "contrazice": 0.85,
-     "sustine": 0.0
+     "sustine": 0.0,
+     "nu_spune": 0.03,
+     "contrazice": 0.97
     },
-    "confidence": 0.77
+    "confidence": 0.95
    },
    "C": {
     "alegere": "contrazice",
     "probabilitati": {
-     "nu_spune": 0.2,
-     "contrazice": 0.78,
-     "sustine": 0.02
+     "sustine": 0.01,
+     "nu_spune": 0.11,
+     "contrazice": 0.88
     },
-    "confidence": 0.66
+    "confidence": 0.82
    },
    "D": {
-    "alegere": "nu_spune",
+    "alegere": "contrazice",
     "probabilitati": {
-     "nu_spune": 0.92,
-     "contrazice": 0.08,
-     "sustine": 0.0
+     "sustine": 0.01,
+     "nu_spune": 0.34,
+     "contrazice": 0.65
     },
-    "confidence": 0.87
+    "confidence": 0.48
    }
   },
   "nouls": {
-   "sinonim": 0.06,
-   "absolut": 0.23,
-   "abrogat": 0.09,
-   "numeste_actul": 0.68,
-   "categorie_ambigua": 0.63,
+   "sinonim": 0.07,
+   "absolut": 0.24,
+   "abrogat": 0.07,
+   "numeste_actul": 0.71,
+   "categorie_ambigua": 0.61,
    "citat_acopera": 0.96
   },
   "afirmatii": {
@@ -3645,7 +4111,7 @@
      "nu_spune": 0.0,
      "contrazice": 0.0
     },
-    "confidence": 1.0
+    "confidence": 0.99
    },
    "1": {
     "alegere": "sustine",
@@ -3654,7 +4120,7 @@
      "nu_spune": 0.0,
      "contrazice": 0.0
     },
-    "confidence": 1.0
+    "confidence": 0.99
    },
    "2": {
     "alegere": "sustine",
@@ -3692,13 +4158,31 @@
    "De drepturile de la alin. (1) beneficiază, potrivit alin. (2), și foștii pensionari militari de invaliditate din cauza unor accidente în serviciu ori boli contractate în timpul și din cauza obligațiilor militare, care au optat ulterior pentru pensia din sistemul asigurărilor sociale de stat."
   ],
   "pozitionale": [],
+  "care_varianta": {
+   "alegere": "A",
+   "probabilitati": {
+    "D": 0.0,
+    "A": 1.0,
+    "C": 0.0,
+    "B": 0.0,
+    "niciuna": 0.0
+   },
+   "confidence": 1.0
+  },
+  "trimiteri": [
+   "art. 23 alin. (1) lit. a)",
+   "art. 23 alin. (1) lit. b)",
+   "art. 23 alin. (3)",
+   "art. 26 alin. (1)",
+   "art. 26 alin. (3)"
+  ],
   "nivel": {
-   "score": 3.69,
-   "confidence": 0.74
+   "score": 3.74,
+   "confidence": 0.78
   },
   "usage": {
-   "a": 2541,
-   "b": 4739
+   "a": 3728,
+   "b": 5241
   }
  },
  {
@@ -3716,8 +4200,8 @@
    "A": {
     "alegere": "sustine",
     "probabilitati": {
-     "sustine": 1.0,
      "contrazice": 0.0,
+     "sustine": 1.0,
      "nu_spune": 0.0
     },
     "confidence": 1.0
@@ -3725,8 +4209,8 @@
    "B": {
     "alegere": "contrazice",
     "probabilitati": {
-     "sustine": 0.0,
      "contrazice": 1.0,
+     "sustine": 0.0,
      "nu_spune": 0.0
     },
     "confidence": 1.0
@@ -3734,8 +4218,8 @@
    "C": {
     "alegere": "contrazice",
     "probabilitati": {
-     "sustine": 0.0,
      "contrazice": 1.0,
+     "sustine": 0.0,
      "nu_spune": 0.0
     },
     "confidence": 1.0
@@ -3743,8 +4227,8 @@
    "D": {
     "alegere": "contrazice",
     "probabilitati": {
-     "sustine": 0.0,
      "contrazice": 1.0,
+     "sustine": 0.0,
      "nu_spune": 0.0
     },
     "confidence": 1.0
@@ -3752,37 +4236,37 @@
   },
   "nouls": {
    "sinonim": 0.06,
-   "absolut": 0.34,
-   "abrogat": 0.05,
-   "numeste_actul": 0.7,
-   "categorie_ambigua": 0.66,
+   "absolut": 0.33,
+   "abrogat": 0.04,
+   "numeste_actul": 0.71,
+   "categorie_ambigua": 0.67,
    "citat_acopera": 0.97
   },
   "afirmatii": {
    "0": {
     "alegere": "sustine",
     "probabilitati": {
-     "contrazice": 0.03,
-     "sustine": 0.97,
-     "nu_spune": 0.0
+     "sustine": 0.99,
+     "nu_spune": 0.0,
+     "contrazice": 0.01
     },
-    "confidence": 0.96
+    "confidence": 0.99
    },
    "1": {
     "alegere": "sustine",
     "probabilitati": {
-     "contrazice": 0.0,
      "sustine": 1.0,
-     "nu_spune": 0.0
+     "nu_spune": 0.0,
+     "contrazice": 0.0
     },
     "confidence": 1.0
    },
    "2": {
     "alegere": "sustine",
     "probabilitati": {
-     "contrazice": 0.0,
      "sustine": 1.0,
-     "nu_spune": 0.0
+     "nu_spune": 0.0,
+     "contrazice": 0.0
     },
     "confidence": 0.99
    }
@@ -3793,13 +4277,27 @@
    "Aceste interdicții (art. 28) se deosebesc de restrângerile de la art. 29, unde, de exemplu, exprimarea în public a opiniilor politice nu este permisă (lit. a)), iar participarea la mitinguri cu caracter politic ori sindical este interzisă cu excepția activităților la care se participă în misiune (lit. g))."
   ],
   "pozitionale": [],
+  "care_varianta": {
+   "alegere": "A",
+   "probabilitati": {
+    "C": 0.0,
+    "B": 0.0,
+    "D": 0.0,
+    "niciuna": 0.0,
+    "A": 1.0
+   },
+   "confidence": 1.0
+  },
+  "trimiteri": [
+   "art. 28 lit. b)"
+  ],
   "nivel": {
-   "score": 1.94,
-   "confidence": 0.21
+   "score": 1.86,
+   "confidence": 0.28
   },
   "usage": {
-   "a": 2365,
-   "b": 4249
+   "a": 3047,
+   "b": 4355
   }
  },
  {
@@ -3819,8 +4317,8 @@
    "A": {
     "alegere": "sustine",
     "probabilitati": {
-     "nu_spune": 0.0,
      "contrazice": 0.0,
+     "nu_spune": 0.0,
      "sustine": 1.0
     },
     "confidence": 1.0
@@ -3828,17 +4326,17 @@
    "B": {
     "alegere": "contrazice",
     "probabilitati": {
-     "nu_spune": 0.0,
      "contrazice": 0.99,
+     "nu_spune": 0.0,
      "sustine": 0.01
     },
-    "confidence": 0.99
+    "confidence": 0.98
    },
    "C": {
     "alegere": "sustine",
     "probabilitati": {
-     "nu_spune": 0.0,
      "contrazice": 0.0,
+     "nu_spune": 0.0,
      "sustine": 1.0
     },
     "confidence": 1.0
@@ -3846,46 +4344,46 @@
    "D": {
     "alegere": "sustine",
     "probabilitati": {
-     "nu_spune": 0.0,
      "contrazice": 0.0,
+     "nu_spune": 0.0,
      "sustine": 1.0
     },
     "confidence": 1.0
    }
   },
   "nouls": {
-   "sinonim": 0.07,
-   "absolut": 0.11,
+   "sinonim": 0.09,
+   "absolut": 0.12,
    "abrogat": 0.05,
-   "numeste_actul": 0.69,
-   "categorie_ambigua": 0.69,
-   "citat_acopera": 0.94
+   "numeste_actul": 0.72,
+   "categorie_ambigua": 0.68,
+   "citat_acopera": 0.93
   },
   "afirmatii": {
    "0": {
     "alegere": "sustine",
     "probabilitati": {
+     "nu_spune": 0.0,
      "sustine": 1.0,
-     "contrazice": 0.0,
-     "nu_spune": 0.0
+     "contrazice": 0.0
     },
     "confidence": 0.99
    },
    "1": {
     "alegere": "sustine",
     "probabilitati": {
+     "nu_spune": 0.0,
      "sustine": 1.0,
-     "contrazice": 0.0,
-     "nu_spune": 0.0
+     "contrazice": 0.0
     },
     "confidence": 1.0
    },
    "2": {
     "alegere": "sustine",
     "probabilitati": {
-     "sustine": 0.98,
-     "contrazice": 0.02,
-     "nu_spune": 0.0
+     "nu_spune": 0.0,
+     "sustine": 0.99,
+     "contrazice": 0.01
     },
     "confidence": 0.97
    }
@@ -3896,13 +4394,17 @@
    "Restrângerile de la art. 29 se deosebesc de interdicțiile de la art. 28 (apartenența politică, candidatura, greva); lit. i) adaugă că, pe timpul stării de urgență, de asediu, de mobilizare și pe timp de război, primirea în audiență și soluționarea petițiilor se suspendă."
   ],
   "pozitionale": [],
+  "care_varianta": null,
+  "trimiteri": [
+   "art. 29 lit. a)"
+  ],
   "nivel": {
-   "score": 3.86,
+   "score": 3.85,
    "confidence": 0.88
   },
   "usage": {
-   "a": 2434,
-   "b": 4552
+   "a": 3051,
+   "b": 4619
   }
  },
  {
@@ -3920,36 +4422,36 @@
    "A": {
     "alegere": "contrazice",
     "probabilitati": {
-     "contrazice": 1.0,
+     "nu_spune": 0.0,
      "sustine": 0.0,
-     "nu_spune": 0.0
+     "contrazice": 1.0
     },
-    "confidence": 0.99
+    "confidence": 1.0
    },
    "B": {
     "alegere": "contrazice",
     "probabilitati": {
+     "nu_spune": 0.0,
      "sustine": 0.0,
-     "contrazice": 1.0,
-     "nu_spune": 0.0
+     "contrazice": 1.0
     },
     "confidence": 1.0
    },
    "C": {
     "alegere": "contrazice",
     "probabilitati": {
-     "contrazice": 0.98,
-     "sustine": 0.01,
-     "nu_spune": 0.01
+     "nu_spune": 0.0,
+     "sustine": 0.0,
+     "contrazice": 1.0
     },
-    "confidence": 0.98
+    "confidence": 0.99
    },
    "D": {
     "alegere": "sustine",
     "probabilitati": {
-     "contrazice": 0.0,
+     "nu_spune": 0.0,
      "sustine": 1.0,
-     "nu_spune": 0.0
+     "contrazice": 0.0
     },
     "confidence": 1.0
    }
@@ -3958,16 +4460,16 @@
    "sinonim": 0.09,
    "absolut": 0.19,
    "abrogat": 0.04,
-   "numeste_actul": 0.69,
-   "categorie_ambigua": 0.66,
-   "citat_acopera": 0.97
+   "numeste_actul": 0.7,
+   "categorie_ambigua": 0.67,
+   "citat_acopera": 0.98
   },
   "afirmatii": {
    "0": {
     "alegere": "sustine",
     "probabilitati": {
-     "contrazice": 0.01,
      "sustine": 0.99,
+     "contrazice": 0.01,
      "nu_spune": 0.0
     },
     "confidence": 0.99
@@ -3984,8 +4486,8 @@
    "2": {
     "alegere": "sustine",
     "probabilitati": {
-     "contrazice": 0.0,
      "sustine": 1.0,
+     "contrazice": 0.0,
      "nu_spune": 0.0
     },
     "confidence": 0.99
@@ -3993,8 +4495,8 @@
    "3": {
     "alegere": "sustine",
     "probabilitati": {
-     "contrazice": 0.01,
-     "sustine": 0.99,
+     "sustine": 1.0,
+     "contrazice": 0.0,
      "nu_spune": 0.0
     },
     "confidence": 0.99
@@ -4007,13 +4509,28 @@
    "Tot art. 29 restrânge, la lit. b), exprimarea în public a unor opinii contrare intereselor României și forțelor armate."
   ],
   "pozitionale": [],
+  "care_varianta": {
+   "alegere": "D",
+   "probabilitati": {
+    "niciuna": 0.0,
+    "A": 0.0,
+    "D": 1.0,
+    "B": 0.0,
+    "C": 0.0
+   },
+   "confidence": 1.0
+  },
+  "trimiteri": [
+   "art. 29 lit. c)",
+   "art. 8 alin. (1) lit. f)"
+  ],
   "nivel": {
-   "score": 3.63,
-   "confidence": 0.7
+   "score": 3.68,
+   "confidence": 0.73
   },
   "usage": {
-   "a": 2369,
-   "b": 5200
+   "a": 3371,
+   "b": 5387
   }
  },
  {
@@ -4032,19 +4549,19 @@
     "alegere": "contrazice",
     "probabilitati": {
      "sustine": 0.0,
-     "contrazice": 0.96,
-     "nu_spune": 0.04
+     "nu_spune": 0.02,
+     "contrazice": 0.98
     },
-    "confidence": 0.93
+    "confidence": 0.97
    },
    "B": {
     "alegere": "contrazice",
     "probabilitati": {
      "sustine": 0.0,
-     "nu_spune": 0.08,
-     "contrazice": 0.92
+     "nu_spune": 0.07,
+     "contrazice": 0.93
     },
-    "confidence": 0.88
+    "confidence": 0.89
    },
    "C": {
     "alegere": "sustine",
@@ -4058,9 +4575,9 @@
    "D": {
     "alegere": "contrazice",
     "probabilitati": {
-     "sustine": 0.0,
+     "sustine": 0.01,
      "nu_spune": 0.0,
-     "contrazice": 1.0
+     "contrazice": 0.99
     },
     "confidence": 0.99
    }
@@ -4068,38 +4585,38 @@
   "nouls": {
    "sinonim": 0.06,
    "absolut": 0.3,
-   "abrogat": 0.06,
-   "numeste_actul": 0.71,
-   "categorie_ambigua": 0.67,
+   "abrogat": 0.05,
+   "numeste_actul": 0.73,
+   "categorie_ambigua": 0.65,
    "citat_acopera": 0.97
   },
   "afirmatii": {
    "0": {
     "alegere": "sustine",
     "probabilitati": {
-     "sustine": 0.99,
      "nu_spune": 0.0,
+     "sustine": 0.99,
      "contrazice": 0.01
     },
-    "confidence": 0.99
+    "confidence": 0.98
    },
    "1": {
     "alegere": "sustine",
     "probabilitati": {
-     "sustine": 0.87,
      "nu_spune": 0.0,
-     "contrazice": 0.13
+     "sustine": 0.9,
+     "contrazice": 0.1
     },
-    "confidence": 0.8
+    "confidence": 0.85
    },
    "2": {
     "alegere": "sustine",
     "probabilitati": {
-     "sustine": 1.0,
      "nu_spune": 0.0,
+     "sustine": 1.0,
      "contrazice": 0.0
     },
-    "confidence": 0.99
+    "confidence": 1.0
    }
   },
   "fraze": [
@@ -4108,13 +4625,27 @@
    "Lit. a) a aceluiași alineat interzice îndeplinirea altor funcții decât cele în care sunt încadrate, cu excepția cumulului prevăzut de lege, în condițiile stabilite prin ordin al ministrului apărării naționale, iar alin. (1) impune obligația generală de a nu efectua activități care contravin demnității, prestigiului și normelor de comportare ce decurg din calitatea de cadru militar."
   ],
   "pozitionale": [],
+  "care_varianta": {
+   "alegere": "C",
+   "probabilitati": {
+    "niciuna": 0.0,
+    "A": 0.0,
+    "C": 1.0,
+    "D": 0.0,
+    "B": 0.0
+   },
+   "confidence": 1.0
+  },
+  "trimiteri": [
+   "art. 30 alin. (2) lit. b)"
+  ],
   "nivel": {
-   "score": 3.58,
-   "confidence": 0.65
+   "score": 3.57,
+   "confidence": 0.64
   },
   "usage": {
-   "a": 2424,
-   "b": 3887
+   "a": 3292,
+   "b": 4059
   }
  },
  {
@@ -4132,11 +4663,11 @@
    "A": {
     "alegere": "contrazice",
     "probabilitati": {
-     "sustine": 0.0,
-     "nu_spune": 0.14,
-     "contrazice": 0.86
+     "sustine": 0.01,
+     "nu_spune": 0.05,
+     "contrazice": 0.94
     },
-    "confidence": 0.78
+    "confidence": 0.91
    },
    "B": {
     "alegere": "sustine",
@@ -4150,64 +4681,64 @@
    "C": {
     "alegere": "nu_spune",
     "probabilitati": {
-     "sustine": 0.06,
-     "nu_spune": 0.76,
-     "contrazice": 0.18
+     "sustine": 0.07,
+     "nu_spune": 0.82,
+     "contrazice": 0.11
     },
-    "confidence": 0.64
+    "confidence": 0.73
    },
    "D": {
     "alegere": "nu_spune",
     "probabilitati": {
-     "sustine": 0.03,
-     "nu_spune": 0.72,
-     "contrazice": 0.25
+     "sustine": 0.01,
+     "nu_spune": 0.64,
+     "contrazice": 0.35
     },
-    "confidence": 0.58
+    "confidence": 0.46
    }
   },
   "nouls": {
-   "sinonim": 0.08,
-   "absolut": 0.27,
+   "sinonim": 0.07,
+   "absolut": 0.28,
    "abrogat": 0.05,
-   "numeste_actul": 0.7,
-   "categorie_ambigua": 0.39,
-   "citat_acopera": 0.95
+   "numeste_actul": 0.68,
+   "categorie_ambigua": 0.4,
+   "citat_acopera": 0.96
   },
   "afirmatii": {
    "0": {
     "alegere": "sustine",
     "probabilitati": {
-     "nu_spune": 0.0,
-     "sustine": 0.94,
-     "contrazice": 0.06
+     "sustine": 0.96,
+     "contrazice": 0.04,
+     "nu_spune": 0.0
     },
-    "confidence": 0.9
+    "confidence": 0.94
    },
    "1": {
     "alegere": "sustine",
     "probabilitati": {
-     "nu_spune": 0.0,
      "sustine": 1.0,
-     "contrazice": 0.0
+     "contrazice": 0.0,
+     "nu_spune": 0.0
     },
     "confidence": 1.0
    },
    "2": {
     "alegere": "sustine",
     "probabilitati": {
-     "nu_spune": 0.06,
-     "sustine": 0.92,
-     "contrazice": 0.02
+     "sustine": 0.81,
+     "contrazice": 0.05,
+     "nu_spune": 0.14
     },
-    "confidence": 0.88
+    "confidence": 0.72
    },
    "3": {
     "alegere": "sustine",
     "probabilitati": {
-     "nu_spune": 0.0,
      "sustine": 1.0,
-     "contrazice": 0.0
+     "contrazice": 0.0,
+     "nu_spune": 0.0
     },
     "confidence": 1.0
    }
@@ -4219,13 +4750,29 @@
    "Potrivit art. 32 alin. (3), comandantul/șeful dispune de prerogativă disciplinară, având competența de a acorda recompense și de a aplica sancțiuni disciplinare."
   ],
   "pozitionale": [],
+  "care_varianta": {
+   "alegere": "B",
+   "probabilitati": {
+    "D": 0.0,
+    "A": 0.0,
+    "C": 0.0,
+    "B": 1.0,
+    "niciuna": 0.0
+   },
+   "confidence": 1.0
+  },
+  "trimiteri": [
+   "art. 14 alin. (2)",
+   "art. 32 alin. (3)",
+   "art. 35 alin. (1) lit. e)"
+  ],
   "nivel": {
-   "score": 2.49,
+   "score": 2.64,
    "confidence": 0.0
   },
   "usage": {
-   "a": 2134,
-   "b": 5606
+   "a": 2927,
+   "b": 5861
   }
  },
  {
@@ -4243,54 +4790,54 @@
    "A": {
     "alegere": "contrazice",
     "probabilitati": {
+     "contrazice": 1.0,
      "sustine": 0.0,
-     "nu_spune": 0.0,
-     "contrazice": 1.0
+     "nu_spune": 0.0
     },
     "confidence": 1.0
    },
    "B": {
     "alegere": "sustine",
     "probabilitati": {
+     "contrazice": 0.0,
      "sustine": 1.0,
-     "nu_spune": 0.0,
-     "contrazice": 0.0
+     "nu_spune": 0.0
     },
-    "confidence": 0.99
+    "confidence": 1.0
    },
    "C": {
     "alegere": "contrazice",
     "probabilitati": {
+     "contrazice": 1.0,
      "sustine": 0.0,
-     "nu_spune": 0.0,
-     "contrazice": 1.0
+     "nu_spune": 0.0
     },
     "confidence": 1.0
    },
    "D": {
     "alegere": "contrazice",
     "probabilitati": {
+     "contrazice": 0.98,
      "sustine": 0.0,
-     "nu_spune": 0.02,
-     "contrazice": 0.98
+     "nu_spune": 0.02
     },
-    "confidence": 0.96
+    "confidence": 0.97
    }
   },
   "nouls": {
    "sinonim": 0.09,
    "absolut": 0.22,
    "abrogat": 0.07,
-   "numeste_actul": 0.74,
-   "categorie_ambigua": 0.35,
+   "numeste_actul": 0.7,
+   "categorie_ambigua": 0.36,
    "citat_acopera": 0.97
   },
   "afirmatii": {
    "0": {
     "alegere": "sustine",
     "probabilitati": {
-     "nu_spune": 0.0,
      "sustine": 1.0,
+     "nu_spune": 0.0,
      "contrazice": 0.0
     },
     "confidence": 0.99
@@ -4298,29 +4845,29 @@
    "1": {
     "alegere": "sustine",
     "probabilitati": {
-     "nu_spune": 0.01,
-     "sustine": 0.97,
+     "sustine": 0.98,
+     "nu_spune": 0.0,
      "contrazice": 0.02
     },
-    "confidence": 0.97
+    "confidence": 0.96
    },
    "2": {
     "alegere": "sustine",
     "probabilitati": {
-     "nu_spune": 0.0,
      "sustine": 0.99,
+     "nu_spune": 0.0,
      "contrazice": 0.01
     },
-    "confidence": 0.99
+    "confidence": 0.98
    },
    "3": {
     "alegere": "sustine",
     "probabilitati": {
-     "nu_spune": 0.01,
-     "sustine": 0.98,
+     "sustine": 0.97,
+     "nu_spune": 0.02,
      "contrazice": 0.01
     },
-    "confidence": 0.96
+    "confidence": 0.95
    }
   },
   "fraze": [
@@ -4330,13 +4877,28 @@
    "Această absolvire de răspundere se leagă de art. 6 alin. (1), potrivit căruia, în exercitarea atribuțiilor, cadrele militare sunt investite cu exercițiul autorității publice, bucurându-se de protecție potrivit legii penale."
   ],
   "pozitionale": [],
+  "care_varianta": {
+   "alegere": "B",
+   "probabilitati": {
+    "D": 0.0,
+    "A": 0.0,
+    "B": 1.0,
+    "niciuna": 0.0,
+    "C": 0.0
+   },
+   "confidence": 1.0
+  },
+  "trimiteri": [
+   "art. 34 alin. (3)",
+   "art. 6 alin. (1)"
+  ],
   "nivel": {
-   "score": 3.0,
-   "confidence": 0.17
+   "score": 3.05,
+   "confidence": 0.21
   },
   "usage": {
-   "a": 1989,
-   "b": 3961
+   "a": 2754,
+   "b": 4182
   }
  },
  {
@@ -4355,8 +4917,8 @@
     "alegere": "sustine",
     "probabilitati": {
      "nu_spune": 0.0,
-     "sustine": 1.0,
-     "contrazice": 0.0
+     "contrazice": 0.0,
+     "sustine": 1.0
     },
     "confidence": 1.0
    },
@@ -4364,8 +4926,8 @@
     "alegere": "contrazice",
     "probabilitati": {
      "nu_spune": 0.0,
-     "sustine": 0.0,
-     "contrazice": 1.0
+     "contrazice": 1.0,
+     "sustine": 0.0
     },
     "confidence": 1.0
    },
@@ -4373,8 +4935,8 @@
     "alegere": "contrazice",
     "probabilitati": {
      "nu_spune": 0.0,
-     "sustine": 0.0,
-     "contrazice": 1.0
+     "contrazice": 1.0,
+     "sustine": 0.0
     },
     "confidence": 1.0
    },
@@ -4382,17 +4944,17 @@
     "alegere": "contrazice",
     "probabilitati": {
      "nu_spune": 0.0,
-     "sustine": 0.0,
-     "contrazice": 1.0
+     "contrazice": 1.0,
+     "sustine": 0.0
     },
-    "confidence": 0.99
+    "confidence": 1.0
    }
   },
   "nouls": {
-   "sinonim": 0.07,
-   "absolut": 0.32,
-   "abrogat": 0.04,
-   "numeste_actul": 0.68,
+   "sinonim": 0.08,
+   "absolut": 0.27,
+   "abrogat": 0.05,
+   "numeste_actul": 0.67,
    "categorie_ambigua": 0.42,
    "citat_acopera": 0.98
   },
@@ -4409,18 +4971,18 @@
    "1": {
     "alegere": "sustine",
     "probabilitati": {
-     "sustine": 0.98,
-     "contrazice": 0.02,
-     "nu_spune": 0.0
+     "nu_spune": 0.0,
+     "sustine": 0.97,
+     "contrazice": 0.03
     },
-    "confidence": 0.97
+    "confidence": 0.96
    },
    "2": {
     "alegere": "sustine",
     "probabilitati": {
-     "contrazice": 0.0,
+     "nu_spune": 0.0,
      "sustine": 1.0,
-     "nu_spune": 0.0
+     "contrazice": 0.0
     },
     "confidence": 1.0
    }
@@ -4431,13 +4993,28 @@
    "Sancțiunile disciplinare aplicabile pentru abateri sunt enumerate la art. 35."
   ],
   "pozitionale": [],
+  "care_varianta": {
+   "alegere": "A",
+   "probabilitati": {
+    "A": 1.0,
+    "C": 0.0,
+    "B": 0.0,
+    "niciuna": 0.0,
+    "D": 0.0
+   },
+   "confidence": 1.0
+  },
+  "trimiteri": [
+   "art. 34 alin. (1)",
+   "art. 8 alin. (1) lit. b)"
+  ],
   "nivel": {
-   "score": 2.74,
+   "score": 2.73,
    "confidence": 0.0
   },
   "usage": {
-   "a": 2533,
-   "b": 5689
+   "a": 3408,
+   "b": 5976
   }
  }
 ]

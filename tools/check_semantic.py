@@ -31,6 +31,7 @@ import sys
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
+import alineate as _alin
 import bibliografie
 from normalizare import (DIR_LEGISLATIE, DIR_TOOLS, cheie_bib, eticheta_articol,
                          incarca_intrebari)
@@ -59,6 +60,7 @@ PRAGURI = {
     "confidence": 0.55,  # sub această încredere pe o variantă → INCERT, nu OK
     "contrazice": 0.50,  # p(contrazice) pe o frază din explicație → REVIZUIT
     "neverificabil": 0.60,  # p(nu_spune) pe o frază din explicație → INCERT
+    "comparativ": 0.80,  # încrederea de la care dezacordul comparativ devine poartă
 }
 
 
@@ -137,13 +139,39 @@ def _litere_cheie(q):
 
 
 # ---------- Întrebările ----------
-def _cerere_variante(client, q, sectiune, vecine):
-    """Cererea A — fără cheie, fără explicație: fiecare variantă judecată independent."""
+def _temei_structurat(q, cache):
+    """Articolul citat, descompus pe alineate și litere, plus alineatul declarat."""
+    s = q.get("sursa") or {}
+    art = eticheta_articol(s.get("articol", ""))
+    fisier, anexa = s.get("fisier", ""), s.get("anexa", "")
+    k = (fisier, anexa)
+    if k not in cache:
+        cale = DIR_LEGISLATIE / fisier
+        cache[k] = bibliografie.articole_din_text(str(cale), anexa) if cale.is_file() else {}
+    linii = (cache[k] or {}).get(art) or []
+    bucati = _alin.descompune(linii)
+    m = re.search(r"alin\.\s*\(?(\d+(?:\^\d+)?)\)?", s.get("articol", ""), re.I)
+    citat = "alin. (%s)" % m.group(1) if m else ("text unic" if "text unic" in bucati else "")
+    return {
+        "articol": "art. %s" % art if art else "",
+        "alineatul_declarat": citat if citat in bucati else "",
+        "alineate": {kk: (vv["text"] + (" " + " ".join("%s %s" % (a, b)
+                                                      for a, b in vv["litere"].items())
+                                        if vv["litere"] else "")).strip()
+                     for kk, vv in bucati.items()},
+    }
+
+
+def _cerere_variante(client, q, sectiune, vecine, temei, rezolvate):
+    """Cererea A — fără cheie, fără explicație: fiecare variantă judecată independent,
+    plus o judecată comparativă între variante (vezi `care_varianta`)."""
     from typesafe_sdk import Choice
     var = _variante(q)
     stare = {
         "enunt": q["intrebare"],
         "variante": var,
+        "temei": temei,
+        "trimiteri_rezolvate": rezolvate,
         "sectiune": sectiune,
         "articole_vecine": vecine,
     }
@@ -151,8 +179,9 @@ def _cerere_variante(client, q, sectiune, vecine):
     for lit in var:
         intrebari["var_" + lit] = Choice(
             instructions=(
-                "Cum se raportează textul normativ din `sectiune` și `articole_vecine` "
-                "la varianta `variante.%s`, luată ca răspuns la `enunt`?" % lit),
+                "Cum se raportează textul normativ pus la dispoziție (`temei.alineate`, "
+                "`trimiteri_rezolvate`, `articole_vecine`) la varianta `variante.%s`, "
+                "luată ca răspuns la `enunt`?" % lit),
             criteria={
                 "sustine": "Textul afirmă sau implică direct că această variantă este un "
                            "răspuns corect la enunț.",
@@ -163,6 +192,17 @@ def _cerere_variante(client, q, sectiune, vecine):
                             "poate decide dacă varianta răspunde la enunț.",
             },
         )
+    if q.get("tip") == "unic" and len(var) > 1:
+        # Judecățile independente pe variante ratează inversările (care termen merge cu
+        # care regim: L80-203 prescripție/decădere, L223-113 H.G.-categorie). Aici
+        # variantele concurează între ele, deci discriminarea e directă.
+        criterii = dict(var)
+        criterii["niciuna"] = ("Niciuna dintre variante nu este susținută de textul pus "
+                               "la dispoziție.")
+        intrebari["care_varianta"] = Choice(
+            instructions=("Pe care dintre variantele din `variante` o susține textul "
+                          "normativ pus la dispoziție ca răspuns la `enunt`?"),
+            criteria=criterii)
     return client.system_one(state=stare, questions=intrebari)
 
 
@@ -202,7 +242,7 @@ def fraze_explicatie(explicatie, maxim=8):
     return [f.strip() for f in _FRAZA.split(explicatie or "") if len(f.strip()) > 25][:maxim]
 
 
-def _cerere_calitate(client, q, sectiune, note, vecine, invocate):
+def _cerere_calitate(client, q, sectiune, note, vecine, invocate, rezolvate):
     """Cererea B — cu cheie: explicația (frază cu frază) și forma întrebării."""
     from typesafe_sdk import Choice, Noul, Score
     stare = {
@@ -217,6 +257,7 @@ def _cerere_calitate(client, q, sectiune, note, vecine, invocate):
         "note_portal": note,
         "articole_vecine": vecine,
         "articole_invocate": invocate,
+        "trimiteri_rezolvate": rezolvate,
         "afirmatii": {str(i): f for i, f in enumerate(fraze_explicatie(q.get("explicatie", "")))},
     }
     intrebari = {
@@ -251,8 +292,9 @@ def _cerere_calitate(client, q, sectiune, note, vecine, invocate):
     for i in stare["afirmatii"]:
         intrebari["afirmatie_" + i] = Choice(
             instructions=("Cum se raportează textul normativ pus la dispoziție (`sectiune`, "
-                          "`note_portal`, `articole_vecine`, `articole_invocate`) la afirmația "
-                          "`afirmatii.%s` din explicație?" % i),
+                          "`note_portal`, `articole_vecine`, `articole_invocate`, "
+                          "`trimiteri_rezolvate`) la afirmația `afirmatii.%s` din "
+                          "explicație?" % i),
             criteria={
                 "sustine": "Textul pus la dispoziție confirmă afirmația.",
                 "contrazice": "Textul pus la dispoziție spune altceva: afirmația e greșită, "
@@ -272,10 +314,17 @@ def judeca(client, q, cache):
     note = _note_articol((q.get("sursa") or {}).get("fisier", ""),
                          (q.get("sursa") or {}).get("anexa", ""),
                          eticheta_articol((q.get("sursa") or {}).get("articol", "")))
-    ra = _cerere_variante(client, q, sectiune, vecine)
+    temei = _temei_structurat(q, cache)
+    sursa = q.get("sursa") or {}
+    text_trimiteri = " ".join([sursa.get("citat", ""),
+                               temei["alineate"].get(temei["alineatul_declarat"], ""),
+                               q.get("explicatie", "")])
+    rezolvate = _alin.rezolva(text_trimiteri, sursa, cache,
+                              fara=(eticheta_articol(sursa.get("articol", "")),))
+    ra = _cerere_variante(client, q, sectiune, vecine, temei, rezolvate)
     invocate = articole_invocate(q.get("explicatie", ""), q.get("sursa") or {}, cache,
                                  fara=(eticheta_articol((q.get("sursa") or {}).get("articol", "")),))
-    rb = _cerere_calitate(client, q, sectiune, note, vecine, invocate)
+    rb = _cerere_calitate(client, q, sectiune, note, vecine, invocate, rezolvate)
     variante = {}
     for lit in _variante(q):
         c = ra.choices["var_" + lit]
@@ -303,6 +352,11 @@ def judeca(client, q, cache):
                       for k, c in rb.choices.items() if k.startswith("afirmatie_")},
         "fraze": fraze_explicatie(q.get("explicatie", "")),
         "pozitionale": referiri_pozitionale(q),
+        "care_varianta": ({"alegere": ra.choices["care_varianta"].choice,
+                           "probabilitati": dict(ra.choices["care_varianta"].probabilities),
+                           "confidence": ra.choices["care_varianta"].confidence}
+                          if "care_varianta" in ra.choices else None),
+        "trimiteri": sorted(rezolvate),
         "nivel": {"score": nivel.score, "confidence": nivel.confidence},
         "usage": {"a": ra.usage.input_tokens + ra.usage.output_tokens,
                   "b": rb.usage.input_tokens + rb.usage.output_tokens},
@@ -346,6 +400,18 @@ def verdict(j, praguri=None):
     for frag in j.get("pozitionale") or []:
         grave.append("explicația trimite la poziția variantei („%s”) — asambleaza.py "
                      "amestecă variantele" % frag)
+    # Judecata comparativă e singurul semnal de model care s-a separat curat: acord pe
+    # 124/124 chei corecte (zero alarme false) și 24/24 chei mutate deliberat, cu încredere
+    # medie 0.99. Spre deosebire de judecățile per-variantă, care prind și ele mutantele
+    # dar produc 13 alarme false pe banca întreagă, aceasta e poartă.
+    cv = j.get("care_varianta")
+    if cv and j.get("cheie") and cv["alegere"] not in j["cheie"]:
+        if cv["confidence"] >= p["comparativ"]:
+            grave.append("judecata comparativă alege %s, cheia declarată e %s (încredere %.2f)"
+                         % (cv["alegere"], "/".join(j["cheie"]), cv["confidence"]))
+        else:
+            suspect.append("judecata comparativă alege %s, cheia e %s, dar cu încredere "
+                           "mică (%.2f)" % (cv["alegere"], "/".join(j["cheie"]), cv["confidence"]))
     n = j.get("nouls") or {}
     if n.get("abrogat", 0) >= p["noul"] and tuple(j.get("temei") or ("", "")) not in ABROGARE_ASUMATA:
         if j.get("nota_abrogare"):

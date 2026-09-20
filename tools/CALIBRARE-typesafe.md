@@ -144,3 +144,57 @@ Ce nu merită încă: judecățile pe variante ca poartă. Pe 600 de întrebări
 false cu p≥0.9 pe distincții juridice fine. Ca listă de triaj pentru un om sau pentru un
 verificator adversarial, cele 97 de INCERT rămân utile — dar trebuie citite ca „merită o
 privire", nu ca „e greșit".
+
+---
+
+# Starea la nivel de alineat (`alineate.py`)
+
+Articolul se descompune acum în alineate și litere, iar trimiterile din citat, din
+alineatul declarat și din explicație se **rezolvă până la literă**: „art. 85 alin. 1
+lit. g), h), j)…" devine un set de câmpuri numite, fiecare cu textul exact. Codul face
+căutarea, modelul judecă rezultatul.
+
+## Ce a reparat și ce nu
+
+**Reparat — L80-328.** Cheia „prin demisie" a urcat de la p_sustine=0.07 la **0.98**,
+odată cu cele 9 trimiteri rezolvate (lit. g)–n) din art. 85). Exact defectul de
+granularitate pe care îl urmărea schimbarea.
+
+**Nereparat — L80-203 și L223-113.** Ambele inversări erau de la început în **același
+alineat**, integral în stare; granularitatea nu avea ce să adauge. La L80-203 semnalul
+per-variantă chiar s-a înrăutățit (distractorul C: 0.93 → 0.99).
+
+## Descoperirea principală: forma întrebării, nu granularitatea
+
+S-a adăugat o judecată **comparativă** — un singur Choice ale cărui criterii sunt chiar
+variantele (plus „niciuna"), pus doar la întrebările `unic`, tot fără cheie în stare.
+Pe cele trei alarme false verificate în lege:
+
+| | judecata comparativă | judecățile per-variantă |
+|---|---|---|
+| L80-203 | **D, încredere 1.00** (cheia corectă) | D susținută p=0.03, C p=0.99 |
+| L223-113 | **C, 1.00** (cheia corectă) | C p=0.17, A p=0.78 |
+| L80-328 | C, 0.96 | C p=0.99 (reparat de trimiteri) |
+
+Patru judecăți independente „textul susține varianta asta?" sunt nesigure pe distincții
+juridice fine. Un Choice în care variantele **concurează între ele** discriminează corect —
+distribuția unui Choice compară opțiuni, ceea ce judecățile separate nu fac.
+
+## Validare
+
+| set | întrebări `unic` | rezultat |
+|---|---|---|
+| L80-1, A6-2, ambele pre- și post-reparație | 124 | **124 acorduri cu cheia, 0 dezacorduri** |
+| chei mutate deliberat pe un distractor | 24 | **24/24 prinse**, încredere medie 0.99 |
+
+Separarea e curată în ambele direcții, deci dezacordul comparativ cu încredere ≥ 0.80 a
+fost promovat la poartă (23 din cele 24 de mutante; a 24-a rămâne în coadă, sub prag).
+Pe seturile reale poarta rămâne tăcută: 0 REVIZUIT pe L80-1, A6-2 și pe cele 10 întrebări
+semnalate fals la rularea pe toată banca.
+
+Judecățile per-variantă rămân în coada de revizuire. Prind și ele toate cele 24 de mutante,
+dar au produs 13 alarme false pe banca întreagă — aceeași acoperire, precizie mult mai slabă.
+
+**Atenție:** `verificari/intrebari-ts.json` este de dinaintea acestei schimbări; cifrele din
+secțiunea anterioară (5 REVIZUIT / 97 INCERT) reflectă designul vechi. O rerulare a băncii
+costă ~6 milioane de tokens.
