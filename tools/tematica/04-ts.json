@@ -1,0 +1,678 @@
+[
+ {
+  "loc": "Ofițerii în activitate: sursele și pragul de 45 de ani (art. / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 36 alin. (1) enumeră sursele ofițerilor în activitate, de la lit. a) la lit. k).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 0.99,
+     "contrazice": 0.01
+    },
+    "confidence": 0.99
+   },
+   "1": {
+    "text": "Nucleul îl formează absolvenții cu diplomă de licență ai instituțiilor militare de învățământ pentru formarea ofițerilor (lit. a)), absolvenții anului IV din instituțiile militare de învățământ superior cu durata studiilor mai mare de 4 ani (lit. b)) și absolvenții unor instituții militare din alte state, trimiși la studii de Ministerul Apărării Naționale (lit. c)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.04,
+     "sustine": 0.95,
+     "contrazice": 0.01
+    },
+    "confidence": 0.93
+   }
+  },
+  "usage": 4890
+ },
+ {
+  "loc": "Ofițerii în activitate: sursele și pragul de 45 de ani (art. / paragraful 2",
+  "afirmatii": {
+   "0": {
+    "text": "Lit. d) privește chemarea sau rechemarea în activitate a ofițerilor în rezervă și a ofițerilor rezerviști voluntari, condiționată de promovarea testelor de aptitudini și de celelalte condiții stabilite prin ordin al miniștrilor sau al șefilor instituțiilor componente ale sistemului apărării naționale, ordinii publice și securității naționale.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 4034
+ },
+ {
+  "loc": "Ofițerii în activitate: sursele și pragul de 45 de ani (art. / paragraful 3",
+  "afirmatii": {
+   "0": {
+    "text": "Lit. e) permite trecerea în corpul ofițerilor a maiștrilor militari, subofițerilor, soldaților și gradaților profesioniști în activitate, absolvenți cu diplomă de licență ai instituțiilor civile de învățământ superior cu profil corespunzător specialităților militare, care au vârsta de cel mult 45 de ani și au promovat testele de aptitudini.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Lit. g) prevede aceeași cale pentru persoane din afara sistemului, cu aceleași condiții de vârstă, studii și teste.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.98,
+     "contrazice": 0.02,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 0.97
+   }
+  },
+  "usage": 4453
+ },
+ {
+  "loc": "Ofițerii în activitate: sursele și pragul de 45 de ani (art. / paragraful 4",
+  "afirmatii": {
+   "0": {
+    "text": "Pragul de vârstă nu este general.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.01,
+     "nu_spune": 0.0,
+     "contrazice": 0.01,
+     "sustine": 0.98
+    },
+    "confidence": 0.97
+   },
+   "1": {
+    "text": "Alin. (2) prevede că în Ministerul Afacerilor Interne, Serviciul de Telecomunicații Speciale, Serviciul Român de Informații, Serviciul de Informații Externe și Serviciul de Protecție și Pază limita de cel mult 45 de ani nu se aplică persoanelor de la alin. (1) lit. e), g) și k).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   },
+   "2": {
+    "text": "Alin. (3) o impune, în schimb, în Ministerul Apărării Naționale, pentru lit. d) și j).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.03,
+     "sustine": 0.97
+    },
+    "confidence": 0.95
+   }
+  },
+  "usage": 4818
+ },
+ {
+  "loc": "Ofițerii în activitate: sursele și pragul de 45 de ani (art. / paragraful 5",
+  "afirmatii": {
+   "0": {
+    "text": "Lit. f) este regula din timp de război: maiștrii militari și subofițerii care îndeplinesc cel puțin 3 luni, cu rezultate foarte bune și bune, funcții prevăzute a fi încadrate cu ofițeri în unitățile militare aflate în zona acțiunilor militare pot deveni ofițeri în activitate.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.02,
+     "sustine": 0.91,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.07
+    },
+    "confidence": 0.87
+   }
+  },
+  "usage": 4019
+ },
+ {
+  "loc": "Ofițerii în activitate: sursele și pragul de 45 de ani (art. / paragraful 6",
+  "afirmatii": {
+   "0": {
+    "text": "Lit. i) și j) privesc situații personale grave: urmașii personalului Ministerului Apărării Naționale decedat în timpul și din cauza serviciului, respectiv maiștrii militari, subofițerii, soldații și gradații profesioniști răniți în timpul și din cauza acțiunilor militare desfășurate în afara teritoriului statului român — în ambele cazuri cu diplomă de licență, profil corespunzător și teste de aptitudini promovate.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "sustine": 0.98,
+     "nu_spune": 0.01,
+     "contrazice": 0.01
+    },
+    "confidence": 0.98
+   }
+  },
+  "usage": 4056
+ },
+ {
+  "loc": "Ofițerii în rezervă și regimul studenților (art. 37) / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 37 enumeră sursele ofițerilor în rezervă: ofițerii trecuți din activitate în rezervă (lit. a)); absolvenții cu diplomă de licență ai instituțiilor civile de învățământ superior care au îndeplinit serviciul militar cu termen redus (lit. b)); absolvenții instituțiilor militare de învățământ pentru formarea ofițerilor școlarizați la solicitarea aviației și marinei civile sau a altor beneficiari (lit. c)) — aceștia sunt excepția la care trimite art. 36 alin. (1) lit. a).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.89,
+     "contrazice": 0.05,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.06
+    },
+    "confidence": 0.85
+   }
+  },
+  "usage": 2698
+ },
+ {
+  "loc": "Ofițerii în rezervă și regimul studenților (art. 37) / paragraful 2",
+  "afirmatii": {
+   "0": {
+    "text": "Lit. d) repetă, pentru rezervă, regula din timp de război: maiștrii militari și subofițerii în rezervă care îndeplinesc cel puțin 3 luni, cu rezultate foarte bune și bune, funcții prevăzute a fi încadrate cu ofițeri în unitățile militare din zona acțiunilor militare.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.06,
+     "nu_spune": 0.06,
+     "absenta_corecta": 0.0,
+     "sustine": 0.88
+    },
+    "confidence": 0.85
+   }
+  },
+  "usage": 2545
+ },
+ {
+  "loc": "Ofițerii în rezervă și regimul studenților (art. 37) / paragraful 3",
+  "afirmatii": {
+   "0": {
+    "text": "Lit. e) privește specialitățile militare deficitare în Ministerul Apărării Naționale și admite, la nevoie, și absolvenți de liceu cu diplomă de bacalaureat ori ai școlilor echivalente, cu condiția vârstei de cel mult 45 de ani.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 2529
+ },
+ {
+  "loc": "Ofițerii în rezervă și regimul studenților (art. 37) / paragraful 4",
+  "afirmatii": {
+   "0": {
+    "text": "Lit. f) tratează studenții instituțiilor militare de învățământ pentru formarea ofițerilor: cei care au promovat penultimul an de studii și nu mai pot continua pregătirea, dar sunt apți pentru serviciul militar, primesc grad de ofițer în rezervă.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.95,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.05
+    },
+    "confidence": 0.92
+   },
+   "1": {
+    "text": "Textul adaugă expres că nu se acordă grad de ofițer studenților exmatriculați.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 2933
+ },
+ {
+  "loc": "Maiștrii militari: trecerea din corpul subofițerilor (art. 3 / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 38 alin. (1) lit. a) dă sursa principală: absolvenții cu diplomă ai instituțiilor de învățământ pentru formarea maiștrilor militari, cu excepția celor de la art. 39 lit. b), care merg în rezervă.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.04,
+     "sustine": 0.51,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.45
+    },
+    "confidence": 0.34
+   }
+  },
+  "usage": 3482
+ },
+ {
+  "loc": "Maiștrii militari: trecerea din corpul subofițerilor (art. 3 / paragraful 2",
+  "afirmatii": {
+   "0": {
+    "text": "Lit. b) conține condițiile cumulative pentru trecerea subofițerilor în activitate în corpul maiștrilor militari: un stagiu neîntrerupt de cel puțin un an în funcții de exploatare, întreținere și reparare a tehnicii militare; promovarea examenului de trecere în corpul maiștrilor militari; și îndeplinirea celorlalte condiții stabilite prin dispoziție a șefului Statului Major al Apărării — nu prin ordin al ministrului, ca în alte litere.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.71,
+     "absenta_corecta": 0.02,
+     "nu_spune": 0.01,
+     "contrazice": 0.26
+    },
+    "confidence": 0.62
+   }
+  },
+  "usage": 3472
+ },
+ {
+  "loc": "Maiștrii militari: trecerea din corpul subofițerilor (art. 3 / paragraful 3",
+  "afirmatii": {
+   "0": {
+    "text": "Lit. h) prevede o vechime mare pentru soldații și gradații profesioniști în activitate: cel puțin 15 ani în această calitate, plus studii postliceale corespunzătoare specialităților militare și teste de aptitudini promovate.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 3403
+ },
+ {
+  "loc": "Maiștrii militari: trecerea din corpul subofițerilor (art. 3 / paragraful 4",
+  "afirmatii": {
+   "0": {
+    "text": "Limitele de vârstă apar și aici, dar altfel: alin. (2) prevede că în Ministerul Apărării Naționale persoanele de la lit. b), c), e), g) și h) pot fi chemate sau rechemate în activitate dacă au vârsta de cel mult 45 de ani, iar alin. (3) că în Serviciul Român de Informații și Serviciul de Telecomunicații Speciale nu se aplică limita de vârstă prevăzută la lit. f).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "sustine": 0.96,
+     "nu_spune": 0.0,
+     "contrazice": 0.04
+    },
+    "confidence": 0.95
+   }
+  },
+  "usage": 3459
+ },
+ {
+  "loc": "Maiștrii militari: trecerea din corpul subofițerilor (art. 3 / paragraful 5",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 39 enumeră sursele maiștrilor militari în rezervă: cei trecuți din activitate în rezervă (lit. a)); absolvenții școlarizați la solicitarea aviației și marinei civile sau a altor beneficiari (lit. b)); persoanele în vârstă de cel mult 45 de ani cu pregătire tehnică de nivel liceal sau postliceal în specialități militare deficitare (lit. c)); subofițerii în rezervă care au absolvit școli de maiștri în specialități necesare forțelor armate (lit. d)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 3489
+ },
+ {
+  "loc": "Subofițerii în activitate și în rezervă (art. 40, art. 41) / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 40 alin. (1) lit. a) dă sursa principală — absolvenții cu diplomă ai instituțiilor militare de învățământ pentru formarea subofițerilor — iar lit. a^1) o sursă specială din zona medicală: absolvenții învățământului superior medical la programele de licență «Asistent medical generalist» sau ai școlilor sanitare postliceale, școlarizați pentru nevoi ale Ministerului Apărării Naționale.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.95,
+     "contrazice": 0.01,
+     "nu_spune": 0.04,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 0.93
+   }
+  },
+  "usage": 3764
+ },
+ {
+  "loc": "Subofițerii în activitate și în rezervă (art. 40, art. 41) / paragraful 2",
+  "afirmatii": {
+   "0": {
+    "text": "Lit. b) privește soldații și gradații profesioniști în activitate care au promovat testele de aptitudini și concursul sau examenul susținut în acest scop.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Lit. d) este regula din timp de război pentru acest corp: gradații care îndeplinesc cu rezultate bune, cel puțin 3 luni, funcții prevăzute a fi încadrate cu subofițeri în unitățile militare aflate în zona acțiunilor militare.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.04,
+     "sustine": 0.69,
+     "contrazice": 0.27,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 0.59
+   }
+  },
+  "usage": 4077
+ },
+ {
+  "loc": "Subofițerii în activitate și în rezervă (art. 40, art. 41) / paragraful 3",
+  "afirmatii": {
+   "0": {
+    "text": "Lit. g) admite persoane din afara sistemului, cu vârsta de cel mult 45 de ani și pregătire de nivel liceal, postliceal sau superior.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.99,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.01
+    },
+    "confidence": 0.98
+   },
+   "1": {
+    "text": "Alin. (3) exceptează de la această limită de vârstă Ministerul Afacerilor Interne, Serviciul Român de Informații, Serviciul de Telecomunicații Speciale, Serviciul de Informații Externe și Serviciul de Protecție și Pază.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "2": {
+    "text": "Alin. (2) impune limita de 45 de ani, în Ministerul Apărării Naționale, pentru lit. b), c) și e).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.99,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.01
+    },
+    "confidence": 0.99
+   }
+  },
+  "usage": 4483
+ },
+ {
+  "loc": "Subofițerii în activitate și în rezervă (art. 40, art. 41) / paragraful 4",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 41 enumeră sursele subofițerilor în rezervă.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Lit. d) este simetrică celei de la art. 37 lit. f), dar cu alt prag: studenții instituțiilor militare de învățământ pentru formarea ofițerilor care au promovat cel puțin anul I de studii și nu mai pot continua pregătirea primesc grad de subofițer în rezervă; nici aici nu se acordă grad studenților exmatriculați.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.96,
+     "contrazice": 0.03,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.01
+    },
+    "confidence": 0.95
+   }
+  },
+  "usage": 4173
+ },
+ {
+  "loc": "Subofițerii în activitate și în rezervă (art. 40, art. 41) / paragraful 5",
+  "afirmatii": {
+   "0": {
+    "text": "Lit. f) privește sergenții în rezervă care, în ultimele 6 luni ale serviciului militar în termen, au îndeplinit cu rezultate bune și foarte bune funcții prevăzute a fi încadrate cu ofițeri sau subofițeri, iar lit. g) repetă regula celor cel puțin 3 luni din timp de război pentru gradați.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.99,
+     "nu_spune": 0.0,
+     "contrazice": 0.01,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 0.99
+   }
+  },
+  "usage": 3672
+ },
+ {
+  "loc": "Cadrele militare în retragere și competențele de trecere (ar / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 42 arată două surse ale cadrelor militare în retragere: cei care au depășit limita de vârstă în grad pentru clasa a III-a în rezervă, prevăzută la art. 86 alin. (4) — ofițeri în activitate sau în rezervă, precum și maiștri militari și subofițeri în rezervă (lit. a)); și cei clasați de comisiile de expertiză medico-militară „inapt pentru serviciul militar, cu scoatere din evidență” (lit. b)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 3467
+ },
+ {
+  "loc": "Cadrele militare în retragere și competențele de trecere (ar / paragraful 2",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 43 alin. (1) stabilește competențele, pe trei trepte, atât pentru trecerea din activitate în rezervă sau direct în retragere, cât și pentru chemarea din rezervă în activitate: generalii și amiralii, prin decret al Președintelui României, la propunerea ministrului apărării naționale; ceilalți ofițeri, prin ordin al ministrului apărării naționale; maiștrii militari și subofițerii, prin ordin al comandanților stabiliți de ministrul apărării naționale.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 0.99,
+     "contrazice": 0.01
+    },
+    "confidence": 0.99
+   }
+  },
+  "usage": 3634
+ },
+ {
+  "loc": "Cadrele militare în retragere și competențele de trecere (ar / paragraful 3",
+  "afirmatii": {
+   "0": {
+    "text": "Alin. (2) conține o interdicție de chemare în activitate: nu pot fi chemate cadrele cărora li s-au acordat grade în rezervă în baza art. 37 lit. e) și care nu au absolvit o instituție civilă de învățământ superior, precum și cele cu grade acordate în baza art. 39 lit. c).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0
+    },
+    "confidence": 0.99
+   }
+  },
+  "usage": 3423
+ },
+ {
+  "loc": "Cadrele militare în retragere și competențele de trecere (ar / paragraful 4",
+  "afirmatii": {
+   "0": {
+    "text": "Alin. (3) prevede regula pentru subofițerii cu grade acordate în baza art. 41 lit. e), f) și h): pot fi chemați în activitate, în condițiile stabilite prin ordin al ministrului apărării naționale, dacă nu au împlinit vârsta de 45 de ani.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 3406
+ },
+ {
+  "loc": "capcana 1",
+  "afirmatii": {
+   "0": {
+    "text": "Limita de 45 de ani nu se aplică uniform.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.01,
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 0.99
+    },
+    "confidence": 0.98
+   },
+   "1": {
+    "text": "Pentru Serviciul de Informații Externe ea este înlăturată la ofițeri pentru lit. e), g) și k) (art. 36 alin. (2)) și la subofițeri pentru lit. g) (art. 40 alin. (3)), dar SIE nu apare în excepția de la maiștri militari, unde art. 38 alin. (3) numește doar Serviciul Român de Informații și Serviciul de Telecomunicații Speciale.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.44,
+     "contrazice": 0.01,
+     "nu_spune": 0.0,
+     "sustine": 0.55
+    },
+    "confidence": 0.39
+   }
+  },
+  "usage": 10623
+ },
+ {
+  "loc": "capcana 2",
+  "afirmatii": {
+   "0": {
+    "text": "„Cel puțin 3 luni” în timp de război apare de patru ori, cu destinații diferite: maiștri militari și subofițeri → ofițeri în activitate (art. 36 lit. f)) sau în rezervă (art. 37 lit. d)); gradați → subofițeri în activitate (art. 40 lit. d)) sau în rezervă (art. 41 lit. g)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.03,
+     "absenta_corecta": 0.0,
+     "sustine": 0.97
+    },
+    "confidence": 0.95
+   }
+  },
+  "usage": 10323
+ },
+ {
+  "loc": "capcana 3",
+  "afirmatii": {
+   "0": {
+    "text": "Studenții care nu mai pot continua pregătirea: penultimul an promovat → grad de ofițer în rezervă (art. 37 lit. f)); cel puțin anul I promovat → grad de subofițer în rezervă (art. 41 lit. d)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.99,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.01
+    },
+    "confidence": 0.99
+   },
+   "1": {
+    "text": "În ambele cazuri, studenților exmatriculați nu li se acordă grad.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 10499
+ },
+ {
+  "loc": "capcana 4",
+  "afirmatii": {
+   "0": {
+    "text": "Trecerea subofițerilor în corpul maiștrilor militari (art. 38 alin. (1) lit. b)) cere trei condiții cumulative: un an neîntrerupt în funcții de exploatare, întreținere și reparare a tehnicii militare, promovarea examenului și condițiile stabilite prin dispoziție a șefului Statului Major al Apărării — singurul loc din temă unde competența aparține șefului Statului Major, nu ministrului.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.03,
+     "sustine": 0.93,
+     "contrazice": 0.04,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 0.9
+   }
+  },
+  "usage": 10084
+ },
+ {
+  "loc": "capcana 5",
+  "afirmatii": {
+   "0": {
+    "text": "Vechimea de cel puțin 15 ani apare o singură dată: la soldații și gradații profesioniști care devin maiștri militari (art. 38 alin. (1) lit. h)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.08,
+     "nu_spune": 0.01,
+     "sustine": 0.84,
+     "contrazice": 0.07
+    },
+    "confidence": 0.78
+   }
+  },
+  "usage": 10008
+ },
+ {
+  "loc": "capcana 6",
+  "afirmatii": {
+   "0": {
+    "text": "La art. 43 alin. (1) competențele sunt pe trei trepte și acoperă ambele sensuri — și trecerea în rezervă, și chemarea din rezervă în activitate.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.99,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.01
+    },
+    "confidence": 0.98
+   },
+   "1": {
+    "text": "Decretul Președintelui privește numai generalii și amiralii, la propunerea ministrului.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.95,
+     "absenta_corecta": 0.01,
+     "contrazice": 0.04
+    },
+    "confidence": 0.93
+   }
+  },
+  "usage": 10445
+ },
+ {
+  "loc": "capcana 7",
+  "afirmatii": {
+   "0": {
+    "text": "Absolvenții școlarizați la solicitarea aviației și marinei civile devin ofițeri în rezervă (art. 37 lit. c)), respectiv maiștri militari în rezervă (art. 39 lit. b)) — de aceea art. 36 lit. a) și art. 38 alin. (1) lit. a) îi exclud expres.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.93,
+     "absenta_corecta": 0.01,
+     "nu_spune": 0.0,
+     "contrazice": 0.06
+    },
+    "confidence": 0.9
+   }
+  },
+  "usage": 10005
+ },
+ {
+  "loc": "capcana 8",
+  "afirmatii": {
+   "0": {
+    "text": "Interdicția de chemare în activitate de la art. 43 alin. (2) are o condiție compusă: privește grade acordate în baza art. 37 lit. e) doar dacă persoana nu a absolvit o instituție civilă de învățământ superior, plus, necondiționat, gradele acordate în baza art. 39 lit. c).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 0.99
+   }
+  },
+  "usage": 10026
+ }
+]
