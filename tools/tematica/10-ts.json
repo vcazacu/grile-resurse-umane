@@ -1,0 +1,482 @@
+[
+ {
+  "loc": "Contractul pe durată determinată: regulă, formă, succesiune  / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 82 alin. (1) prezintă contractul pe durată determinată ca derogare de la regula duratei nedeterminate de la art. 12 alin. (1), posibilă numai în cazurile și în condițiile codului.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 2607
+ },
+ {
+  "loc": "Contractul pe durată determinată: regulă, formă, succesiune  / paragraful 2",
+  "afirmatii": {
+   "0": {
+    "text": "Alin. (2) cere forma scrisă și precizarea expresă a duratei pentru care se încheie — două cerințe cumulative, nu una singură.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 2498
+ },
+ {
+  "loc": "Contractul pe durată determinată: regulă, formă, succesiune  / paragraful 3",
+  "afirmatii": {
+   "0": {
+    "text": "Alin. (3) permite prelungirea, în condițiile art. 83, și după expirarea termenului inițial, cu acordul scris al părților, pentru perioada realizării unui proiect, program sau a unei lucrări.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 2521
+ },
+ {
+  "loc": "Contractul pe durată determinată: regulă, formă, succesiune  / paragraful 4",
+  "afirmatii": {
+   "0": {
+    "text": "Alin. (4) limitează numărul: între aceleași părți se pot încheia succesiv cel mult 3 contracte individuale de muncă pe durată determinată.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 2510
+ },
+ {
+  "loc": "Contractul pe durată determinată: regulă, formă, succesiune  / paragraful 5",
+  "afirmatii": {
+   "0": {
+    "text": "Alin. (5) definește ce înseamnă „succesive” și le impune o limită proprie: contractele încheiate în termen de 3 luni de la încetarea unui contract pe durată determinată sunt considerate succesive și nu pot avea o durată mai mare de 12 luni fiecare.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Această limită de 12 luni nu se confundă cu maximul general de 36 de luni de la art. 84.",
+    "alegere": "nu_spune",
+    "probabilitati": {
+     "nu_spune": 0.78,
+     "absenta_corecta": 0.03,
+     "sustine": 0.17,
+     "contrazice": 0.02
+    },
+    "confidence": 0.71
+   }
+  },
+  "usage": 2950
+ },
+ {
+  "loc": "Cazurile în care se poate încheia și durata maximă (art. 83, / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 83 enumeră limitativ cazurile: înlocuirea unui salariat în cazul suspendării contractului său de muncă, cu excepția situației în care acel salariat participă la grevă (lit. a)); creșterea și/sau modificarea temporară a structurii activității angajatorului (lit. b)); desfășurarea unor activități cu caracter sezonier (lit. c)); dispozițiile legale emise pentru a favoriza temporar anumite categorii de persoane fără loc de muncă (lit. d)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.96,
+     "contrazice": 0.04,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.94
+   }
+  },
+  "usage": 2706
+ },
+ {
+  "loc": "Cazurile în care se poate încheia și durata maximă (art. 83, / paragraful 2",
+  "afirmatii": {
+   "0": {
+    "text": "Lit. e) privește angajarea unei persoane care, în termen de 5 ani de la data angajării, îndeplinește condițiile de pensionare pentru limită de vârstă.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Lit. f) privește ocuparea unei funcții eligibile în organizații sindicale, patronale sau neguvernamentale, pe perioada mandatului, iar lit. g) angajarea pensionarilor care pot cumula pensia cu salariul.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 3045
+ },
+ {
+  "loc": "Cazurile în care se poate încheia și durata maximă (art. 83, / paragraful 3",
+  "afirmatii": {
+   "0": {
+    "text": "Excepția de la lit. a) este ușor de trecut cu vederea: înlocuirea pe durată determinată nu este permisă atunci când salariatul înlocuit participă la grevă.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "sustine": 0.98,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.02
+    },
+    "confidence": 0.98
+   }
+  },
+  "usage": 2609
+ },
+ {
+  "loc": "Cazurile în care se poate încheia și durata maximă (art. 83, / paragraful 4",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 84 alin. (1) fixează durata maximă la 36 de luni.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Alin. (2) dă o regulă specială pentru contractul încheiat spre a înlocui un salariat cu contractul suspendat: durata expiră la momentul încetării motivelor care au determinat suspendarea.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 3069
+ },
+ {
+  "loc": "Perioada de probă la contractul pe durată determinată (art.  / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 85 stabilește o scară proprie de perioade de probă, exprimată în zile lucrătoare și corelată cu durata contractului: 5 zile lucrătoare pentru o durată mai mică de 3 luni; 15 zile lucrătoare pentru o durată cuprinsă între 3 și 6 luni; 30 de zile lucrătoare pentru o durată mai mare de 6 luni; 45 de zile lucrătoare pentru salariații încadrați în funcții de conducere, la o durată mai mare de 6 luni.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 2229
+ },
+ {
+  "loc": "Perioada de probă la contractul pe durată determinată (art.  / paragraful 2",
+  "afirmatii": {
+   "0": {
+    "text": "Comparația cu regimul general este importantă: la contractul pe durată nedeterminată, perioadele de probă de la art. 31 sunt de 90 și 120 de zile calendaristice, în timp ce aici toate cele patru praguri sunt în zile lucrătoare.",
+    "alegere": "nu_spune",
+    "probabilitati": {
+     "sustine": 0.34,
+     "nu_spune": 0.61,
+     "absenta_corecta": 0.02,
+     "contrazice": 0.03
+    },
+    "confidence": 0.48
+   }
+  },
+  "usage": 2154
+ },
+ {
+  "loc": "Contractul cu timp parțial (art. 103–106) / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 103 definește salariatul cu fracțiune de normă prin comparație: este cel al cărui număr de ore normale de lucru, calculate săptămânal sau ca medie lunară, este inferior numărului de ore normale de lucru al unui salariat cu normă întreagă comparabil.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 3517
+ },
+ {
+  "loc": "Contractul cu timp parțial (art. 103–106) / paragraful 2",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 104 alin. (1) arată că încadrarea cu fracțiune de normă se poate face atât pe durată nedeterminată, cât și pe durată determinată, prin contracte denumite contracte individuale de muncă cu timp parțial.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 3592
+ },
+ {
+  "loc": "Contractul cu timp parțial (art. 103–106) / paragraful 3",
+  "afirmatii": {
+   "0": {
+    "text": "Alin. (3) definește salariatul comparabil: salariatul cu normă întreagă din aceeași unitate, care are același tip de contract individual de muncă și prestează aceeași activitate sau una similară.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.01,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 0.99
+    },
+    "confidence": 0.99
+   },
+   "1": {
+    "text": "Alin. (4) arată ce se face când nu există un asemenea salariat: se au în vedere dispozițiile din contractul colectiv de muncă aplicabil sau, în lipsa acestuia, reglementările legale în domeniu.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 3938
+ },
+ {
+  "loc": "Contractul cu timp parțial (art. 103–106) / paragraful 4",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 105 alin. (1) adaugă trei elemente la cele de la art. 17 alin. (3): durata muncii și repartizarea programului de lucru; condițiile în care se poate modifica programul de lucru; și interdicția de a efectua ore suplimentare, cu excepția cazurilor de forță majoră sau a altor lucrări urgente destinate prevenirii producerii unor accidente ori înlăturării consecințelor acestora.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 3713
+ },
+ {
+  "loc": "Contractul cu timp parțial (art. 103–106) / paragraful 5",
+  "afirmatii": {
+   "0": {
+    "text": "Alin. (2) prevede sancțiunea lipsei acestor elemente: contractul se consideră a fi încheiat pentru normă întreagă.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Este o sancțiune de conversie, nu de nulitate.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.01,
+     "sustine": 0.91,
+     "absenta_corecta": 0.01,
+     "nu_spune": 0.07
+    },
+    "confidence": 0.89
+   }
+  },
+  "usage": 3868
+ },
+ {
+  "loc": "Contractul cu timp parțial (art. 103–106) / paragraful 6",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 106 împacă egalitatea cu proporționalitatea: salariatul cu timp parțial se bucură de drepturile salariaților cu normă întreagă, în condițiile legii și ale contractelor colective aplicabile (alin. (1)), însă drepturile salariale se acordă proporțional cu timpul efectiv lucrat, raportat la drepturile stabilite pentru programul normal de lucru (alin. (2)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 3560
+ },
+ {
+  "loc": "capcana 1",
+  "afirmatii": {
+   "0": {
+    "text": "Trei cifre diferite la durata determinată: cel mult 3 contracte succesive (art. 82 alin. (4)), durata maximă de 36 de luni (art. 84 alin. (1)) și limita de 12 luni pentru fiecare contract considerat succesiv (art. 82 alin. (5)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 0.99
+   }
+  },
+  "usage": 5768
+ },
+ {
+  "loc": "capcana 2",
+  "afirmatii": {
+   "0": {
+    "text": "Sunt „succesive” contractele încheiate în termen de 3 luni de la încetarea unui contract pe durată determinată — pragul e de 3 luni, nu de 6.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 5538
+ },
+ {
+  "loc": "capcana 3",
+  "afirmatii": {
+   "0": {
+    "text": "Înlocuirea unui salariat cu contractul suspendat nu este permisă dacă acel salariat participă la grevă (art. 83 lit. a)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.97,
+     "absenta_corecta": 0.02,
+     "contrazice": 0.01
+    },
+    "confidence": 0.96
+   }
+  },
+  "usage": 5589
+ },
+ {
+  "loc": "capcana 4",
+  "afirmatii": {
+   "0": {
+    "text": "Perioadele de probă de la art. 85 sunt toate în zile lucrătoare (5 / 15 / 30 / 45), spre deosebire de cele de la art. 31, care sunt în zile calendaristice (90 / 120).",
+    "alegere": "nu_spune",
+    "probabilitati": {
+     "absenta_corecta": 0.02,
+     "sustine": 0.44,
+     "nu_spune": 0.51,
+     "contrazice": 0.03
+    },
+    "confidence": 0.34
+   }
+  },
+  "usage": 5560
+ },
+ {
+  "loc": "capcana 5",
+  "afirmatii": {
+   "0": {
+    "text": "Pragul de 45 de zile lucrătoare de la art. 85 lit. d) cere două condiții: funcție de conducere și durată a contractului mai mare de 6 luni.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 5605
+ },
+ {
+  "loc": "capcana 6",
+  "afirmatii": {
+   "0": {
+    "text": "Lipsa elementelor obligatorii din contractul cu timp parțial atrage considerarea contractului ca fiind încheiat pentru normă întreagă (art. 105 alin. (2)) — conversie, nu nulitate.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 0.99
+   }
+  },
+  "usage": 5625
+ },
+ {
+  "loc": "capcana 7",
+  "afirmatii": {
+   "0": {
+    "text": "Salariatul cu timp parțial are aceleași drepturi, dar drepturile salariale se acordă proporțional cu timpul efectiv lucrat (art. 106).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.01,
+     "sustine": 0.99,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 0.99
+   }
+  },
+  "usage": 5538
+ },
+ {
+  "loc": "capcana 8",
+  "afirmatii": {
+   "0": {
+    "text": "Interdicția orelor suplimentare la timp parțial are excepții: forța majoră și lucrările urgente destinate prevenirii accidentelor ori înlăturării consecințelor acestora (art. 105 alin. (1) lit. c)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 5644
+ }
+]

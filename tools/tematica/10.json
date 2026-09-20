@@ -1,0 +1,151 @@
+{
+ "nr": 10,
+ "titlu": "Tipurile de contract individual de muncă",
+ "rezumat": "Două tipuri, fiecare cu cifrele lui. La durata determinată: cel mult 3 contracte succesive între aceleași părți, o durată maximă de 36 de luni, pragul de 3 luni care face contractele „succesive” și limita de 12 luni fiecare pentru acestea, plus scara perioadelor de probă de la art. 85 (5, 15, 30 și 45 de zile lucrătoare). La timpul parțial: definiția prin raportare la salariatul comparabil, cele trei elemente obligatorii din contract și sancțiunea lipsei lor — contractul se consideră încheiat pentru normă întreagă.",
+ "sectiuni": [
+  {
+   "titlu": "Contractul pe durată determinată: regulă, formă, succesiune (art. 82)",
+   "paragrafe": [
+    "Art. 82 alin. (1) prezintă contractul pe durată determinată ca derogare de la regula duratei nedeterminate de la art. 12 alin. (1), posibilă numai în cazurile și în condițiile codului.",
+    "Alin. (2) cere forma scrisă și precizarea expresă a duratei pentru care se încheie — două cerințe cumulative, nu una singură.",
+    "Alin. (3) permite prelungirea, în condițiile art. 83, și după expirarea termenului inițial, cu acordul scris al părților, pentru perioada realizării unui proiect, program sau a unei lucrări.",
+    "Alin. (4) limitează numărul: între aceleași părți se pot încheia succesiv cel mult 3 contracte individuale de muncă pe durată determinată.",
+    "Alin. (5) definește ce înseamnă „succesive” și le impune o limită proprie: contractele încheiate în termen de 3 luni de la încetarea unui contract pe durată determinată sunt considerate succesive și nu pot avea o durată mai mare de 12 luni fiecare. Această limită de 12 luni nu se confundă cu maximul general de 36 de luni de la art. 84."
+   ],
+   "temei": [
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 82 alin. (1)",
+     "citat": "Prin derogare de la regula prevăzută la art. 12 alin. (1), angajatorii au posibilitatea de a angaja, în cazurile și în condițiile prezentului cod, personal salariat cu contract individual de muncă pe durată determinată.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    },
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 82 alin. (2)",
+     "citat": "Contractul individual de muncă pe durată determinată se poate încheia numai în formă scrisă, cu precizarea expresă a duratei pentru care se încheie.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    },
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 82 alin. (3)",
+     "citat": "Contractul individual de muncă pe durată determinată poate fi prelungit, în condițiile prevăzute la art. 83, și după expirarea termenului inițial, cu acordul scris al părților, pentru perioada realizării unui proiect, program sau unei lucrări.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    },
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 82 alin. (4)",
+     "citat": "Între aceleași părți se pot încheia succesiv cel mult 3 contracte individuale de muncă pe durată determinată.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    },
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 82 alin. (5)",
+     "citat": "Contractele individuale de muncă pe durată determinată încheiate în termen de 3 luni de la încetarea unui contract de muncă pe durată determinată sunt considerate contracte succesive și nu pot avea o durată mai mare de 12 luni fiecare.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    }
+   ]
+  },
+  {
+   "titlu": "Cazurile în care se poate încheia și durata maximă (art. 83, art. 84)",
+   "paragrafe": [
+    "Art. 83 enumeră limitativ cazurile: înlocuirea unui salariat în cazul suspendării contractului său de muncă, cu excepția situației în care acel salariat participă la grevă (lit. a)); creșterea și/sau modificarea temporară a structurii activității angajatorului (lit. b)); desfășurarea unor activități cu caracter sezonier (lit. c)); dispozițiile legale emise pentru a favoriza temporar anumite categorii de persoane fără loc de muncă (lit. d)).",
+    "Lit. e) privește angajarea unei persoane care, în termen de 5 ani de la data angajării, îndeplinește condițiile de pensionare pentru limită de vârstă. Lit. f) privește ocuparea unei funcții eligibile în organizații sindicale, patronale sau neguvernamentale, pe perioada mandatului, iar lit. g) angajarea pensionarilor care pot cumula pensia cu salariul.",
+    "Excepția de la lit. a) este ușor de trecut cu vederea: înlocuirea pe durată determinată nu este permisă atunci când salariatul înlocuit participă la grevă.",
+    "Art. 84 alin. (1) fixează durata maximă la 36 de luni. Alin. (2) dă o regulă specială pentru contractul încheiat spre a înlocui un salariat cu contractul suspendat: durata expiră la momentul încetării motivelor care au determinat suspendarea."
+   ],
+   "temei": [
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 83",
+     "citat": "Contractul individual de muncă poate fi încheiat pentru o durată determinată numai în următoarele cazuri: a) înlocuirea unui salariat în cazul suspendării contractului său de muncă, cu excepția situației în care acel salariat participă la grevă; b) creșterea și/sau modificarea temporară a structurii activității angajatorului; c) desfășurarea unor activități cu caracter sezonier; d) în situația în care este încheiat în temeiul unor dispoziții legale emise cu scopul de a favoriza temporar anumite categorii de persoane fără loc de muncă; e) angajarea unei persoane care, în termen de 5 ani de la data angajării, îndeplinește condițiile de pensionare pentru limită de vârstă; f) ocuparea unei funcții eligibile în cadrul organizațiilor sindicale, patronale sau al organizațiilor neguvernamentale, pe perioada mandatului; g) angajarea pensionarilor care, în condițiile legii, pot cumula pensia cu salariul; h) în alte cazuri prevăzute expres de legi speciale ori pentru desfășurarea unor lucrări, proiecte sau programe.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    },
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 84 alin. (1)",
+     "citat": "Contractul individual de muncă pe durată determinată nu poate fi încheiat pe o perioadă mai mare de 36 de luni.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    }
+   ]
+  },
+  {
+   "titlu": "Perioada de probă la contractul pe durată determinată (art. 85)",
+   "paragrafe": [
+    "Art. 85 stabilește o scară proprie de perioade de probă, exprimată în zile lucrătoare și corelată cu durata contractului: 5 zile lucrătoare pentru o durată mai mică de 3 luni; 15 zile lucrătoare pentru o durată cuprinsă între 3 și 6 luni; 30 de zile lucrătoare pentru o durată mai mare de 6 luni; 45 de zile lucrătoare pentru salariații încadrați în funcții de conducere, la o durată mai mare de 6 luni.",
+    "Comparația cu regimul general este importantă: la contractul pe durată nedeterminată, perioadele de probă de la art. 31 sunt de 90 și 120 de zile calendaristice, în timp ce aici toate cele patru praguri sunt în zile lucrătoare."
+   ],
+   "temei": [
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 85",
+     "citat": "Salariatul încadrat cu contract individual de muncă pe durată determinată poate fi supus unei perioade de probă, care nu va depăși: a) 5 zile lucrătoare pentru o durată a contractului individual de muncă mai mică de 3 luni; b) 15 zile lucrătoare pentru o durată a contractului individual de muncă cuprinsă între 3 și 6 luni; c) 30 de zile lucrătoare pentru o durată a contractului individual de muncă mai mare de 6 luni; d) 45 de zile lucrătoare în cazul salariaților încadrați în funcții de conducere, pentru o durată a contractului individual de muncă mai mare de 6 luni.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    }
+   ]
+  },
+  {
+   "titlu": "Contractul cu timp parțial (art. 103–106)",
+   "paragrafe": [
+    "Art. 103 definește salariatul cu fracțiune de normă prin comparație: este cel al cărui număr de ore normale de lucru, calculate săptămânal sau ca medie lunară, este inferior numărului de ore normale de lucru al unui salariat cu normă întreagă comparabil.",
+    "Art. 104 alin. (1) arată că încadrarea cu fracțiune de normă se poate face atât pe durată nedeterminată, cât și pe durată determinată, prin contracte denumite contracte individuale de muncă cu timp parțial. Alin. (2) cere forma scrisă.",
+    "Alin. (3) definește salariatul comparabil: salariatul cu normă întreagă din aceeași unitate, care are același tip de contract individual de muncă și prestează aceeași activitate sau una similară. Alin. (4) arată ce se face când nu există un asemenea salariat: se au în vedere dispozițiile din contractul colectiv de muncă aplicabil sau, în lipsa acestuia, reglementările legale în domeniu.",
+    "Art. 105 alin. (1) adaugă trei elemente la cele de la art. 17 alin. (3): durata muncii și repartizarea programului de lucru; condițiile în care se poate modifica programul de lucru; și interdicția de a efectua ore suplimentare, cu excepția cazurilor de forță majoră sau a altor lucrări urgente destinate prevenirii producerii unor accidente ori înlăturării consecințelor acestora.",
+    "Alin. (2) prevede sancțiunea lipsei acestor elemente: contractul se consideră a fi încheiat pentru normă întreagă. Este o sancțiune de conversie, nu de nulitate.",
+    "Art. 106 împacă egalitatea cu proporționalitatea: salariatul cu timp parțial se bucură de drepturile salariaților cu normă întreagă, în condițiile legii și ale contractelor colective aplicabile (alin. (1)), însă drepturile salariale se acordă proporțional cu timpul efectiv lucrat, raportat la drepturile stabilite pentru programul normal de lucru (alin. (2))."
+   ],
+   "temei": [
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 103",
+     "citat": "Salariatul cu fracțiune de normă este salariatul al cărui număr de ore normale de lucru, calculate săptămânal sau ca medie lunară, este inferior numărului de ore normale de lucru al unui salariat cu normă întreagă comparabil.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    },
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 104",
+     "citat": "Angajatorul poate încadra salariați cu fracțiune de normă prin contracte individuale de muncă pe durată nedeterminată sau pe durată determinată, denumite contracte individuale de muncă cu timp parțial. (2) Contractul individual de muncă cu timp parțial se încheie numai în formă scrisă.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    },
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 104 alin. (4)",
+     "citat": "Atunci când nu există un salariat comparabil în aceeași unitate, se au în vedere dispozițiile din contractul colectiv de muncă aplicabil sau, în lipsa acestuia, reglementările legale în domeniu.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    },
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 105",
+     "citat": "Contractul individual de muncă cu timp parțial cuprinde, în afara elementelor prevăzute la art. 17 alin. (3), următoarele: a) durata muncii și repartizarea programului de lucru; b) condițiile în care se poate modifica programul de lucru; c) interdicția de a efectua ore suplimentare, cu excepția cazurilor de forță majoră sau pentru alte lucrări urgente destinate prevenirii producerii unor accidente ori înlăturării consecințelor acestora. (2) În situația în care într-un contract individual de muncă cu timp parțial nu sunt precizate elementele prevăzute la alin. (1), contractul se consideră a fi încheiat pentru normă întreagă.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    },
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 106",
+     "citat": "Salariatul încadrat cu contract de muncă cu timp parțial se bucură de drepturile salariaților cu normă întreagă, în condițiile prevăzute de lege și de contractele colective de muncă aplicabile. (2) Drepturile salariale se acordă proporțional cu timpul efectiv lucrat, raportat la drepturile stabilite pentru programul normal de lucru.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    }
+   ]
+  }
+ ],
+ "capcane": [
+  "Trei cifre diferite la durata determinată: cel mult 3 contracte succesive (art. 82 alin. (4)), durata maximă de 36 de luni (art. 84 alin. (1)) și limita de 12 luni pentru fiecare contract considerat succesiv (art. 82 alin. (5)).",
+  "Sunt „succesive” contractele încheiate în termen de 3 luni de la încetarea unui contract pe durată determinată — pragul e de 3 luni, nu de 6.",
+  "Înlocuirea unui salariat cu contractul suspendat nu este permisă dacă acel salariat participă la grevă (art. 83 lit. a)).",
+  "Perioadele de probă de la art. 85 sunt toate în zile lucrătoare (5 / 15 / 30 / 45), spre deosebire de cele de la art. 31, care sunt în zile calendaristice (90 / 120).",
+  "Pragul de 45 de zile lucrătoare de la art. 85 lit. d) cere două condiții: funcție de conducere și durată a contractului mai mare de 6 luni.",
+  "Lipsa elementelor obligatorii din contractul cu timp parțial atrage considerarea contractului ca fiind încheiat pentru normă întreagă (art. 105 alin. (2)) — conversie, nu nulitate.",
+  "Salariatul cu timp parțial are aceleași drepturi, dar drepturile salariale se acordă proporțional cu timpul efectiv lucrat (art. 106).",
+  "Interdicția orelor suplimentare la timp parțial are excepții: forța majoră și lucrările urgente destinate prevenirii accidentelor ori înlăturării consecințelor acestora (art. 105 alin. (1) lit. c))."
+ ],
+ "intrebari": [
+  "CM-227",
+  "CM-228",
+  "CM-229",
+  "CM-230",
+  "CM-232",
+  "CM-233",
+  "CM-234",
+  "CM-235",
+  "CM-231"
+ ]
+}
