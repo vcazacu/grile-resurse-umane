@@ -1,0 +1,475 @@
+[
+ {
+  "loc": "Recompensele (art. 33) / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 33 enumeră cinci categorii de recompense.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.01,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 0.99
+    },
+    "confidence": 0.99
+   },
+   "1": {
+    "text": "Primele două privesc cariera: înaintarea în gradul următor în mod excepțional, în condițiile art. 64 (lit. a)), și înaintarea în gradul următor înainte de termen, în condițiile art. 63 (lit. b)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   },
+   "2": {
+    "text": "Sunt două instituții distincte, cu temeiuri diferite.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.09,
+     "sustine": 0.91
+    },
+    "confidence": 0.88
+   }
+  },
+  "usage": 2932
+ },
+ {
+  "loc": "Recompensele (art. 33) / paragraful 2",
+  "afirmatii": {
+   "0": {
+    "text": "Lit. c) și d) privesc distincțiile: conferirea de decorații și titluri de onoare, respectiv conferirea de medalii, ordine și semne onorifice.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 2121
+ },
+ {
+  "loc": "Recompensele (art. 33) / paragraful 3",
+  "afirmatii": {
+   "0": {
+    "text": "Lit. e) acoperă alte recompense morale, financiare sau materiale, în condiții stabilite prin ordin al conducătorului instituției militare, cu precizarea că recompensele financiare se acordă în condițiile prevăzute de lege pentru premierea personalului plătit din fonduri publice.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 2153
+ },
+ {
+  "loc": "Formele răspunderii și absolvirea de răspundere (art. 34) / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 34 alin. (1) enumeră patru forme de răspundere pe care le angajează încălcarea cu vinovăție a îndatoririlor de serviciu: disciplinară, materială, civilă sau penală, după caz.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Condiția comună este vinovăția.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.01,
+     "absenta_corecta": 0.0,
+     "sustine": 0.97,
+     "contrazice": 0.02
+    },
+    "confidence": 0.96
+   }
+  },
+  "usage": 2689
+ },
+ {
+  "loc": "Formele răspunderii și absolvirea de răspundere (art. 34) / paragraful 2",
+  "afirmatii": {
+   "0": {
+    "text": "Alin. (2) stabilește caracterul individual al răspunderii și întinderea ei în timp și spațiu: cadrele militare răspund pentru faptele și actele proprii sancționate de lege, săvârșite atât în exercitarea atribuțiilor de serviciu ori în legătură cu acesta, cât și în afara serviciului.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.98,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.01,
+     "contrazice": 0.01
+    },
+    "confidence": 0.97
+   }
+  },
+  "usage": 2245
+ },
+ {
+  "loc": "Formele răspunderii și absolvirea de răspundere (art. 34) / paragraful 3",
+  "afirmatii": {
+   "0": {
+    "text": "Alin. (3) conține o cauză de absolvire de orice răspundere: sunt absolvite cadrele militare care, prin exercitarea în limitele legii a atribuțiilor de serviciu, au cauzat vătămări unor persoane ori au adus prejudicii patrimoniului acestora.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Condiția esențială este exercitarea „în limitele legii”.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 2628
+ },
+ {
+  "loc": "Sancțiunile disciplinare (art. 35 alin. (1)–(2)) / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 35 alin. (1) enumeră șapte sancțiuni disciplinare, în ordine crescătoare a gravității: avertisment; mustrare scrisă; diminuarea soldei de funcție cu un procent de până la 10% pe o perioadă de maximum 3 luni; diminuarea soldei de comandă cu un procent de 5–10% pe o perioadă de maximum 3 luni; amânarea înaintării în gradul următor pe timp de un an sau 2 ani; retrogradarea în funcție până la cel mult nivelul gradului deținut; trecerea în rezervă.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.16,
+     "sustine": 0.61,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.23
+    },
+    "confidence": 0.47
+   }
+  },
+  "usage": 2915
+ },
+ {
+  "loc": "Sancțiunile disciplinare (art. 35 alin. (1)–(2)) / paragraful 2",
+  "afirmatii": {
+   "0": {
+    "text": "Cele două diminuări se deosebesc atât prin obiect, cât și prin procent: solda de funcție se poate diminua cu până la 10%, deci pornind de la orice valoare sub acest plafon, în timp ce solda de comandă se diminuează cu un procent de 5–10%, deci cu un minim de 5%.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "contrazice": 0.01,
+     "sustine": 0.99,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.98
+   },
+   "1": {
+    "text": "Durata maximă este aceeași, 3 luni.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 3058
+ },
+ {
+  "loc": "Sancțiunile disciplinare (art. 35 alin. (1)–(2)) / paragraful 3",
+  "afirmatii": {
+   "0": {
+    "text": "Amânarea înaintării în gradul următor nu se stabilește liber: textul prevede două durate, un an sau 2 ani.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Retrogradarea în funcție are și ea o limită — până la cel mult nivelul gradului deținut.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 3024
+ },
+ {
+  "loc": "Sancțiunile disciplinare (art. 35 alin. (1)–(2)) / paragraful 4",
+  "afirmatii": {
+   "0": {
+    "text": "Alin. (2) enunță regula non bis in idem în materie disciplinară: pentru aceeași abatere se poate aplica doar o singură sancțiune disciplinară.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 0.99
+   }
+  },
+  "usage": 2628
+ },
+ {
+  "loc": "Termenele de aplicare, suspendarea și excepția penală (art.  / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Alin. (3) fixează două termene și le califică expres: sancțiunile disciplinare se aplică în termen de cel mult 6 luni de la data constatării, dar nu mai târziu de 2 ani de la data săvârșirii faptei; termenul de 6 luni este termen de prescripție, iar cel de 2 ani este termen de decădere.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Calificarea este exact invers față de intuiția obișnuită și este capcana clasică.",
+    "alegere": "nu_spune",
+    "probabilitati": {
+     "sustine": 0.41,
+     "contrazice": 0.04,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.55
+    },
+    "confidence": 0.39
+   }
+  },
+  "usage": 3371
+ },
+ {
+  "loc": "Termenele de aplicare, suspendarea și excepția penală (art.  / paragraful 2",
+  "afirmatii": {
+   "0": {
+    "text": "Alin. (4) prevede că se suspendă de drept numai termenul de 6 luni, în trei situații: de la sesizarea organelor de urmărire penală până la soluționarea definitivă a cauzei, dacă pentru fapta care constituie abatere disciplinară s-a dispus sesizarea acestora; de la suspendarea raporturilor de serviciu până la reluarea activității; pe durata concediilor, permisiilor, învoirilor, misiunilor, stării de captivitate ori în alte situații de absență motivată.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 0.99
+   }
+  },
+  "usage": 3017
+ },
+ {
+  "loc": "Termenele de aplicare, suspendarea și excepția penală (art.  / paragraful 3",
+  "afirmatii": {
+   "0": {
+    "text": "Alin. (5) instituie singura excepție de la termenul de 2 ani: sancțiunile se pot aplica și după expirarea lui, dar numai dacă organele de urmărire penală sesizate decid că fapta nu constituie infracțiune și comunică decizia după expirarea acestui termen.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.01,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.01,
+     "sustine": 0.98
+    },
+    "confidence": 0.97
+   }
+  },
+  "usage": 2949
+ },
+ {
+  "loc": "Termenele de aplicare, suspendarea și excepția penală (art.  / paragraful 4",
+  "afirmatii": {
+   "0": {
+    "text": "În acest caz, alin. (6) dă un nou termen: sancțiunea se aplică în cel mult 6 luni de la data comunicării deciziei organului de urmărire penală, iar acest termen de 6 luni este calificat drept termen de decădere — spre deosebire de cel de la alin. (3), care este de prescripție.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 2955
+ },
+ {
+  "loc": "capcana 1",
+  "afirmatii": {
+   "0": {
+    "text": "Calificarea termenelor de la art. 35 alin. (3) este contraintuitivă și se inversează des în distractori: 6 luni de la constatare = termen de prescripție; 2 ani de la săvârșirea faptei = termen de decădere.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.73,
+     "nu_spune": 0.22,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.05
+    },
+    "confidence": 0.64
+   }
+  },
+  "usage": 4117
+ },
+ {
+  "loc": "capcana 2",
+  "afirmatii": {
+   "0": {
+    "text": "Suspendarea de drept de la alin. (4) privește numai termenul de 6 luni.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.99,
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.01
+    },
+    "confidence": 0.99
+   },
+   "1": {
+    "text": "Termenul de 2 ani nu se suspendă; el poate fi depășit doar prin excepția de la alin. (5).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "sustine": 0.88,
+     "absenta_corecta": 0.12
+    },
+    "confidence": 0.84
+   }
+  },
+  "usage": 4381
+ },
+ {
+  "loc": "capcana 3",
+  "afirmatii": {
+   "0": {
+    "text": "Termenul de 6 luni de la alin. (6), care curge de la comunicarea deciziei organului de urmărire penală, este termen de decădere — deci același număr de luni, altă calificare decât la alin. (3).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 4012
+ },
+ {
+  "loc": "capcana 4",
+  "afirmatii": {
+   "0": {
+    "text": "Cele două diminuări nu au același procent: solda de funcție, până la 10%; solda de comandă, 5-10%.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Durata maximă este însă aceeași, 3 luni.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 4378
+ },
+ {
+  "loc": "capcana 5",
+  "afirmatii": {
+   "0": {
+    "text": "Amânarea înaintării în gradul următor se dispune pe un an sau 2 ani — nu pe o durată aleasă liber, și nu pe 3 ani.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.95,
+     "absenta_corecta": 0.05,
+     "contrazice": 0.0
+    },
+    "confidence": 0.93
+   }
+  },
+  "usage": 3990
+ },
+ {
+  "loc": "capcana 6",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 33 lit. a) și b) sunt recompense distincte, cu temeiuri diferite: înaintarea în mod excepțional trimite la art. 64, înaintarea înainte de termen trimite la art. 63.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 4102
+ },
+ {
+  "loc": "capcana 7",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 34 alin. (1) enumeră patru forme de răspundere — disciplinară, materială, civilă sau penală — iar condiția comună este vinovăția.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0,
+     "sustine": 1.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 4080
+ },
+ {
+  "loc": "capcana 8",
+  "afirmatii": {
+   "0": {
+    "text": "Absolvirea de răspundere de la art. 34 alin. (3) operează numai dacă atribuțiile au fost exercitate în limitele legii; ea acoperă atât vătămările aduse persoanelor, cât și prejudiciile aduse patrimoniului acestora.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 4101
+ }
+]
