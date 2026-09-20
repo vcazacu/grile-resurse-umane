@@ -313,5 +313,6 @@ citatul le conține) și numere de alineat fără marcaj în paragraf. Nu s-au r
 de verificat și lărgirea regex-ului ar ascunde cazuri reale.
 
 Verdict: toate cele 18 teme au trecut acum prin ambele metode — 1 465 de afirmații judecate
-de poartă, zero contrazise; 51 de trimiteri de fond neacoperite de temeiuri, 51 confirmate
-manual în lege.
+de poartă, zero contrazise; 51 de semnale ale auditului (34 de trimiteri distincte de fond,
+restul duplicate, citate parțiale sau alarme false ale regex-ului), toate rezolvate manual în
+lege, niciunul cu eroare în spate.
