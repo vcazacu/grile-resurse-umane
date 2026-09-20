@@ -1,0 +1,410 @@
+{
+ "nr": 13,
+ "titlu": "Sistemul pensiilor militare de stat",
+ "rezumat": "Cifrele care decid punctajul: vârsta standard de 65 de ani și vechimea efectivă de cel puțin 25 de ani, din care cel puțin 15 ani vechime în serviciu (art. 16); pensia anticipată — aceleași condiții de vechime, vârsta diminuată cu 5 ani (art. 17); pensia anticipată parțială — minimum 20 de ani vechime efectivă, din care cel puțin 10 ani în serviciu (art. 18); reducerea vârstei pentru condiții de muncă, plafonată la 13 ani și niciodată sub 45 de ani (art. 21 alin. (2)); cele trei grade de invaliditate și baza de calcul a pensiei.",
+ "sectiuni": [
+  {
+   "titlu": "Principiile și noțiunile-cheie (art. 1, 2, 3, 6)",
+   "paragrafe": [
+    "Art. 1 garantează dreptul la pensii și asigurări sociale pentru militari, polițiști și funcționari publici cu statut special din sistemul administrației penitenciare, exercitat prin sistemul pensiilor militare de stat.",
+    "Art. 2 enumeră șase principii: unicitatea, egalitatea, imprescriptibilitatea, incesibilitatea, autonomia și recunoștința. Ultimele două sunt specifice acestui sistem: autonomia se bazează pe organizarea, conducerea și administrarea de sine stătătoare de către instituțiile din domeniul apărării naționale, ordinii publice și securității naționale, iar recunoștința privește loialitatea, sacrificiile și privațiunile suferite pe timpul carierei.",
+    "Art. 3 definește noțiunile care revin în tot restul legii. Trei dintre ele se confundă ușor: vechimea în serviciu (lit. e)) este perioada petrecută în una dintre situațiile enumerate acolo; vechimea cumulată (lit. f)) adună perioadele recunoscute ca vechime în serviciu, vechime în muncă, stagiu de cotizare sau perioade asimilate; iar vechimea efectivă (lit. g)) este vechimea cumulată din care se scot sporurile acordate pentru condiții deosebite, speciale sau alte condiții de muncă, respectiv grupele I și a II-a.",
+    "Lit. h) definește stagiul potențial ca perioada acordată la calculul pensiei de invaliditate, ca o creditare pentru vechimea nerealizată din cauza afecțiunilor invalidante. Lit. k) arată că administrarea se face prin case de pensii sectoriale, care funcționează în subordinea Ministerului Apărării Naționale, Ministerului Afacerilor Interne și Serviciului Român de Informații. Art. 6 repetă această regulă de administrare."
+   ],
+   "temei": [
+    {
+     "act": "Legea nr. 223/2015 privind pensiile militare de stat",
+     "articol": "art. 1",
+     "citat": "Dreptul la pensii și asigurări sociale pentru militari, polițiști și funcționari publici cu statut special din sistemul administrației penitenciare este garantat de stat și se exercită, în condițiile prezentei legi, prin sistemul pensiilor militare de stat și alte drepturi de asigurări sociale din domeniul apărării naționale, ordinii publice și securității naționale, denumit în continuare sistemul pensiilor militare de stat.",
+     "fisier": "04_Legea_223-2015_pensiile_militare.txt"
+    },
+    {
+     "act": "Legea nr. 223/2015 privind pensiile militare de stat",
+     "articol": "art. 2",
+     "citat": "Principiile de bază ale sistemului pensiilor militare de stat sunt următoarele: a) principiul unicității, potrivit căruia statul organizează și garantează sistemul de pensii militare de stat bazat pe aceleași norme de drept, pentru toți participanții la acesta; b) principiul egalității, prin care se asigură tuturor participanților la sistemul de pensii militare de stat un tratament nediscriminatoriu între persoane aflate în aceeași situație juridică, în ceea ce privește drepturile și obligațiile prevăzute de lege; c) principiul imprescriptibilității, potrivit căruia dreptul la pensie nu se prescrie; d) principiul incesibilității, potrivit căruia dreptul la pensie nu poate fi cedat, total sau parțial; e) principiul autonomiei, bazat pe organizarea, conducerea și administrarea, de sine stătătoare, a sistemului pensiilor militare de stat de către instituțiile din domeniul apărării naționale, ordinii publice și securității naționale; f) principiul recunoștinței față de loialitatea, sacrificiile și privațiunile suferite de militari, polițiști și funcționari publici cu statut special din sistemul administrației penitenciare și familiile acestora pe timpul carierei.",
+     "fisier": "04_Legea_223-2015_pensiile_militare.txt"
+    },
+    {
+     "act": "Legea nr. 223/2015 privind pensiile militare de stat",
+     "articol": "art. 3",
+     "citat": "f) vechime cumulată - perioadele de timp recunoscute ca vechime în serviciu, vechime în muncă, stagiu de cotizare sau perioade asimilate în vederea obținerii unei pensii în condițiile legii; g) vechime efectivă - vechimea prevăzută la lit. f), care nu cuprinde sporurile acordate pentru activitatea desfășurată în condiții deosebite, speciale sau alte condiții de muncă, respectiv grupa I și/sau a II-a de muncă; h) stagiu potențial - perioada de timp prevăzută de prezenta lege acordată la calculul pensiei de invaliditate, ca o creditare pentru vechimea nerealizată din cauza afecțiunilor invalidante;",
+     "fisier": "04_Legea_223-2015_pensiile_militare.txt"
+    },
+    {
+     "act": "Legea nr. 223/2015 privind pensiile militare de stat",
+     "articol": "art. 6",
+     "citat": "Administrarea sistemului pensiilor militare de stat se realizează prin case de pensii sectoriale.",
+     "fisier": "04_Legea_223-2015_pensiile_militare.txt"
+    }
+   ]
+  },
+  {
+   "titlu": "Condițiile de muncă și categoriile de pensii (art. 9, 10, 11, 14)",
+   "paragrafe": [
+    "Art. 9 enumeră patru categorii de condiții de muncă: normale, deosebite, speciale și alte condiții. Împărțirea contează direct la reducerea vârstei de pensionare de la art. 21.",
+    "Art. 10 rezolvă situația detașării: militarii, polițiștii și funcționarii publici cu statut special detașați în afara instituției din care fac parte beneficiază de condițiile de muncă specifice funcțiilor din care au fost detașați sau funcțiilor asimilate ori similare.",
+    "Art. 11 alin. (1) arată actele pe baza cărora se face încadrarea: Hotărârea Guvernului nr. 1.294/2001, pentru cadrele militare în activitate, și Hotărârea Guvernului nr. 1.822/2004, pentru polițiști. Alin. (3) extinde aplicarea și celor care au trecut în rezervă sau în retragere, respectiv le-au încetat raporturile de serviciu, până la data intrării în vigoare a legii.",
+    "Art. 14 enumeră cele trei categorii de pensii din sistem: pensia de serviciu, pensia de invaliditate și pensia de urmaș."
+   ],
+   "temei": [
+    {
+     "act": "Legea nr. 223/2015 privind pensiile militare de stat",
+     "articol": "art. 9",
+     "citat": "Condițiile de muncă în care se desfășoară activitatea militarilor, polițiștilor și funcționarilor publici cu statut special pot fi: a) normale; b) deosebite; c) speciale; d) alte condiții.",
+     "fisier": "04_Legea_223-2015_pensiile_militare.txt"
+    },
+    {
+     "act": "Legea nr. 223/2015 privind pensiile militare de stat",
+     "articol": "art. 10",
+     "citat": "Militarii, polițiștii și funcționarii publici cu statut special detașați în afara instituției din care fac parte beneficiază de condițiile de muncă specifice funcțiilor din care au fost detașați sau funcțiilor asimilate/similare, după caz.",
+     "fisier": "04_Legea_223-2015_pensiile_militare.txt"
+    },
+    {
+     "act": "Legea nr. 223/2015 privind pensiile militare de stat",
+     "articol": "art. 11 alin. (1)",
+     "citat": "Încadrarea locurilor de muncă în condiții deosebite, speciale și alte condiții se realizează pe baza criteriilor și metodologiei de încadrare prevăzute de Hotărârea Guvernului nr. 1.294/2001",
+     "fisier": "04_Legea_223-2015_pensiile_militare.txt"
+    },
+    {
+     "act": "Legea nr. 223/2015 privind pensiile militare de stat",
+     "articol": "art. 11 alin. (3)",
+     "citat": "Prevederile alin. (1) sunt aplicabile și militarilor, polițiștilor și funcționarilor publici cu statut special din sistemul administrației penitenciare care au trecut în rezervă/retragere, respectiv au încetat raporturile de serviciu, până la data intrării în vigoare a prezentei legi.",
+     "fisier": "04_Legea_223-2015_pensiile_militare.txt"
+    },
+    {
+     "act": "Legea nr. 223/2015 privind pensiile militare de stat",
+     "articol": "art. 14",
+     "citat": "În sistemul pensiilor militare de stat se acordă următoarele categorii de pensii: a) pensia de serviciu; b) pensia de invaliditate; c) pensia de urmaș.",
+     "fisier": "04_Legea_223-2015_pensiile_militare.txt"
+    }
+   ]
+  },
+  {
+   "titlu": "Pensia de serviciu: limită de vârstă, anticipată, anticipată parțială (art. 16–20)",
+   "paragrafe": [
+    "Art. 16 alin. (1) pune două condiții cumulative pentru pensia de serviciu pentru limită de vârstă: împlinirea vârstei standard de pensionare și o vechime efectivă de cel puțin 25 de ani, din care cel puțin 15 ani reprezintă vechimea în serviciu. Cei doi indicatori nu se inversează: 25 este vechimea efectivă totală, 15 este partea din ea care trebuie să fie vechime în serviciu.",
+    "Alin. (2) stabilește vârsta standard la 65 de ani, atinsă prin creșterea vârstelor standard conform eșalonărilor din anexele nr. 1 și 2.",
+    "Art. 17 alin. (1) reglementează pensia de serviciu anticipată: cere aceleași condiții de vechime ca la art. 16 alin. (1) lit. b), vârsta standard diminuată cu 5 ani, plus una dintre cele două situații — trecerea în rezervă ca urmare a reorganizării și reducerii de funcții ori pentru alte motive sau nevoi ale instituțiilor, respectiv clasarea ca inapt sau apt limitat de către comisiile de expertiză medico-militară.",
+    "Alin. (2) interzice cumulul: diminuarea vârstei standard cu 5 ani nu poate fi cumulată cu nicio altă reducere reglementată de lege sau de alte acte normative.",
+    "Art. 18 alin. (1) reglementează pensia de serviciu anticipată parțială, cu praguri de vechime la jumătate: minimum 20 de ani vechime efectivă, dintre care cel puțin 10 ani vechime în serviciu, plus aceleași două situații ca la art. 17. Alin. (3) prevede transformarea: la împlinirea vârstei standard, pensia anticipată parțială devine pensie de serviciu pentru limită de vârstă, iar cuantumul se recalculează.",
+    "Art. 20 prevede aceeași transformare, dar din oficiu, pentru pensia de serviciu anticipată."
+   ],
+   "temei": [
+    {
+     "act": "Legea nr. 223/2015 privind pensiile militare de stat",
+     "articol": "art. 16",
+     "citat": "Au dreptul la pensie de serviciu pentru limită de vârstă militarii, polițiștii și funcționarii publici cu statut special, în activitate, care îndeplinesc cumulativ următoarele condiții: a) au împlinit vârsta standard de pensionare pentru limită de vârstă; b) au o vechime efectivă de cel puțin 25 de ani, din care cel puțin 15 ani reprezintă vechimea în serviciu. (2) Vârsta standard de pensionare pentru limită de vârstă, prevăzută la alin. (1) lit. a), este de 65 de ani. Atingerea acestei vârste se realizează prin creșterea vârstelor standard de pensionare conform eșalonărilor prevăzute în anexele nr. 1 și 2 la prezenta lege.",
+     "fisier": "04_Legea_223-2015_pensiile_militare.txt"
+    },
+    {
+     "act": "Legea nr. 223/2015 privind pensiile militare de stat",
+     "articol": "art. 17 alin. (2)",
+     "citat": "La acordarea pensiei de serviciu anticipate, diminuarea vârstei standard de pensionare cu 5 ani prevăzută la alin. (1) nu poate fi cumulată cu nicio altă reducere reglementată de prezenta lege sau de alte acte normative.",
+     "fisier": "04_Legea_223-2015_pensiile_militare.txt"
+    },
+    {
+     "act": "Legea nr. 223/2015 privind pensiile militare de stat",
+     "articol": "art. 20",
+     "citat": "La împlinirea vârstei prevăzute de prezenta lege pentru obținerea pensiei militare de serviciu pentru limită de vârstă, pensia de serviciu anticipată devine, din oficiu, pensie de serviciu pentru limită de vârstă.",
+     "fisier": "04_Legea_223-2015_pensiile_militare.txt"
+    }
+   ]
+  },
+  {
+   "titlu": "Reducerea vârstei standard pentru condiții de muncă (art. 21)",
+   "paragrafe": [
+    "Art. 21 alin. (1) prevede reducerea vârstei standard de pensionare pentru cei care îndeplinesc condițiile de vechime de la art. 16 alin. (1) lit. b), pe două tabele distincte: unul pentru activitatea realizată în condiții de muncă deosebite și/sau în grupa a II-a de muncă, altul pentru condiții speciale și alte condiții și/sau grupa I de muncă. Pentru aceeași vechime, reducerea este net mai mare în al doilea tabel.",
+    "Alin. (2) dă cele două limite care se rețin cel mai ușor: reducerea nu poate fi mai mare de 13 ani, iar prin reducere vârsta standard de pensionare nu poate fi mai mică de 45 de ani. Limitele se aplică și reducerilor stabilite prin alte acte normative.",
+    "Alin. (3) extinde beneficiul reducerii și la cei care, la data depunerii cererii de pensionare, îndeplinesc condițiile de vechime de la art. 16 alin. (1) lit. b) și se află în situațiile enumerate acolo, printre care trecerea în rezervă din motive neimputabile, ca urmare a reorganizării unității militare sau a reducerii unor funcții."
+   ],
+   "temei": [
+    {
+     "act": "Legea nr. 223/2015 privind pensiile militare de stat",
+     "articol": "art. 21 alin. (2)",
+     "citat": "Reducerea vârstei standard de pensionare, potrivit alin. (1) sau în alte condiții stabilite prin acte normative, nu poate fi mai mare de 13 ani. Prin reducere, vârsta standard de pensionare nu poate fi mai mică de 45 de ani.",
+     "fisier": "04_Legea_223-2015_pensiile_militare.txt"
+    }
+   ]
+  },
+  {
+   "titlu": "Vechimea, sporurile și baza de calcul (art. 23–28)",
+   "paragrafe": [
+    "Art. 23 alin. (1) arată că vechimea în serviciu luată în considerare la stabilirea pensiei este perioada petrecută în situațiile de la art. 3 lit. e), la care se adaugă sporurile de la art. 24. Alin. (2) precizează însă că vechimea pentru deschiderea dreptului la pensie nu cuprinde aceste sporuri — deci sporurile contează la calculul pensiei, nu la îndeplinirea condiției de vechime.",
+    "Art. 24 dă echivalențele pentru fiecare an lucrat efectiv: 1 an și 3 luni în condiții deosebite; 1 an și 6 luni în condiții speciale; 2 ani în alte condiții. Scara este crescătoare pe cele trei trepte.",
+    "Art. 25 alin. (2) interzice dubla valorificare: vechimea valorificată pentru pensia militară nu se poate valorifica și în sistemul public de pensii sau în sistemele proprii neintegrate. Alin. (3) dă regula de rotunjire: fracțiunile de cel puțin 6 luni se întregesc la un an în favoarea beneficiarului, iar cele mai mici se neglijează.",
+    "Art. 28 alin. (1) definește baza de calcul: media soldelor/salariilor lunare brute realizate la funcția de bază în ultimele luni consecutive de activitate, stabilite conform eșalonării din anexa nr. 3, și enumeră, pe litere, veniturile care nu intră în ea — printre care diurnele, compensațiile lunare pentru chirie, valoarea normelor de hrană, echipamentul, indemnizațiile de instalare și de mutare, plățile compensatorii la trecerea în rezervă și compensarea în bani a concediului de odihnă neefectuat.",
+    "Alin. (10) conține o regulă ușor de trecut cu vederea: alegerea perioadei care se ia în considerare la stabilirea bazei de calcul se poate face o singură dată."
+   ],
+   "temei": [
+    {
+     "act": "Legea nr. 223/2015 privind pensiile militare de stat",
+     "articol": "art. 23",
+     "citat": "Vechimea în serviciu care se ia în considerare la stabilirea pensiei de serviciu este perioada în care o persoană s-a aflat în una sau mai multe din situațiile prevăzute la art. 3 lit. e), la care se adaugă sporurile acordate conform art. 24.",
+     "fisier": "04_Legea_223-2015_pensiile_militare.txt"
+    },
+    {
+     "act": "Legea nr. 223/2015 privind pensiile militare de stat",
+     "articol": "art. 24",
+     "citat": "La stabilirea pensiei se ia în calcul, pentru fiecare an lucrat efectiv, în condițiile stabilite de Hotărârea Guvernului nr. 1.294/2001, cu modificările ulterioare, și de Hotărârea Guvernului nr. 1.822/2004, cu modificările ulterioare, astfel: a) 1 an și 3 luni, în cazul celor care și-au desfășurat activitatea în condiții deosebite; b) 1 an și 6 luni, în cazul celor care și-au desfășurat activitatea în condiții speciale; c) 2 ani, în cazul celor care și-au desfășurat activitatea în alte condiții.",
+     "fisier": "04_Legea_223-2015_pensiile_militare.txt"
+    },
+    {
+     "act": "Legea nr. 223/2015 privind pensiile militare de stat",
+     "articol": "art. 25 alin. (3)",
+     "citat": "În cazul în care din însumarea perioadelor de vechime rezultă fracțiuni de cel puțin 6 luni, acestea se întregesc la un an în favoarea beneficiarului, iar cele mai mici se neglijează.",
+     "fisier": "04_Legea_223-2015_pensiile_militare.txt"
+    },
+    {
+     "act": "Legea nr. 223/2015 privind pensiile militare de stat",
+     "articol": "art. 28 alin. (1)",
+     "citat": "b) compensațiile lunare pentru chirie; c) valoarea financiară a normelor de hrană și alocațiile valorice de hrană;",
+     "fisier": "04_Legea_223-2015_pensiile_militare.txt"
+    },
+    {
+     "act": "Legea nr. 223/2015 privind pensiile militare de stat",
+     "articol": "art. 28 alin. (10)",
+     "citat": "Alegerea perioadei care se ia în considerare la stabilirea bazei de calcul al pensiei militare de stat se poate face o singură dată.",
+     "fisier": "04_Legea_223-2015_pensiile_militare.txt"
+    }
+   ]
+  },
+  {
+   "titlu": "Cuantumul pensiei de serviciu și plafonul (art. 29, art. 30)",
+   "paragrafe": [
+    "Art. 29 alin. (1) lit. a) dă procentul de referință: la o vechime cumulată de cel puțin 25 de ani, pensia de serviciu este de 65% din baza de calcul. Lit. b) adaugă câte 1% din baza de calcul pentru fiecare an care depășește această vechime.",
+    "Alin. (2) tratează situația inversă: pentru o vechime cumulată de până la 25 de ani, cuantumul se diminuează cu 1% din baza de calcul pentru fiecare an lipsă.",
+    "Art. 30 fixează plafonul: pensia stabilită, recalculată și actualizată nu poate fi mai mare decât 85% din baza de calcul prevăzută la art. 28."
+   ],
+   "temei": [
+    {
+     "act": "Legea nr. 223/2015 privind pensiile militare de stat",
+     "articol": "art. 29 alin. (1)",
+     "citat": "Cuantumul pensiei de serviciu se determină în procente din baza de calcul, astfel: a) militarii, polițiștii și funcționarii publici cu statut special, cu vechime cumulată conform art. 3 lit. f) de cel puțin 25 de ani, beneficiază, la împlinirea vârstei prevăzute de lege, de pensie de serviciu, în cuantum de 65% din baza de calcul",
+     "fisier": "04_Legea_223-2015_pensiile_militare.txt"
+    },
+    {
+     "act": "Legea nr. 223/2015 privind pensiile militare de stat",
+     "articol": "art. 30",
+     "citat": "Pensia stabilită, recalculată și actualizată în condițiile prezentei legi nu poate fi mai mare decât 85% din baza de calcul prevăzută la art. 28.",
+     "fisier": "04_Legea_223-2015_pensiile_militare.txt"
+    }
+   ]
+  },
+  {
+   "titlu": "Pensia de invaliditate (art. 32–35, 42, 43, 45)",
+   "paragrafe": [
+    "Art. 32 condiționează dreptul la pensie de invaliditate de pierderea totală sau a cel puțin jumătate din capacitatea de muncă și distinge două cauze: accidentele de muncă ori bolile contractate în timpul și din cauza îndeplinirii serviciului, tuberculoza, neoplaziile, schizofrenia și SIDA (lit. a)); respectiv accidentele sau bolile fără legătură cu serviciul (lit. b)).",
+    "Art. 34 definește cele trei grade: gradul I — pierderea totală a capacității de muncă și a capacității de autoîngrijire, necesitând îngrijire sau supraveghere permanentă din partea altei persoane; gradul II — pierderea totală a capacității de muncă, cu posibilitatea invalidului de a se autoîngriji fără ajutorul altei persoane; gradul III — pierderea a cel puțin jumătate din capacitatea de muncă, persoana putând să presteze o activitate profesională.",
+    "Diferența dintre gradele I și II nu ține de capacitatea de muncă — pierdută total în ambele — ci de capacitatea de autoîngrijire.",
+    "Art. 42 alin. (1) prevede revizuirea medicală periodică, în funcție de afecțiune, la intervale cuprinse între un an și 3 ani. Alin. (2) enumeră cele trei soluții posibile după revizuire: menținerea în același grad, încadrarea în alt grad sau redobândirea capacității de muncă. Alin. (4) sancționează neprezentarea din motive imputabile cu suspendarea plății pensiei.",
+    "Art. 43 alin. (1) arată cine nu mai este supus revizuirii: cei cu invalidități care afectează ireversibil capacitatea de muncă; cei care au împlinit vârsta de la art. 16 alin. (2); și cei care au dreptul la pensia de serviciu în condițiile art. 17 alin. (1) lit. b) și art. 18 alin. (1) lit. b).",
+    "Art. 45 dă un drept de opțiune, exercitabil de două ori: la deschiderea dreptului de pensie, între pensia de invaliditate și cea de serviciu, iar apoi din nou la împlinirea vârstei pentru pensia de serviciu pentru limită de vârstă."
+   ],
+   "temei": [
+    {
+     "act": "Legea nr. 223/2015 privind pensiile militare de stat",
+     "articol": "art. 32",
+     "citat": "Au dreptul la pensie de invaliditate militarii, polițiștii și funcționarii publici cu statut special care și-au pierdut total sau cel puțin jumătate din capacitatea de muncă din cauza: a) producerii unor accidente de muncă sau a unei boli contractate în timpul și din cauza îndeplinirii serviciului militar/serviciului, tuberculozei, neoplaziilor, schizofreniei și SIDA; b) accidentelor sau bolilor care nu au legătură cu îndeplinirea serviciului militar/serviciului.",
+     "fisier": "04_Legea_223-2015_pensiile_militare.txt"
+    },
+    {
+     "act": "Legea nr. 223/2015 privind pensiile militare de stat",
+     "articol": "art. 34",
+     "citat": "Pensia de invaliditate se determină în raport cu gradul de pierdere a capacității de muncă, astfel: a) invaliditatea de gradul I, caracterizată prin pierderea totală a capacității de muncă și a capacității de autoîngrijire, necesitând îngrijire sau supraveghere permanentă din partea altei persoane; b) invaliditatea de gradul II, caracterizată prin pierderea totală a capacității de muncă, cu posibilitatea invalidului de a se autoîngriji fără ajutorul altei persoane;",
+     "fisier": "04_Legea_223-2015_pensiile_militare.txt"
+    },
+    {
+     "act": "Legea nr. 223/2015 privind pensiile militare de stat",
+     "articol": "art. 42 alin. (1)",
+     "citat": "Pensionarii de invaliditate sunt supuși revizuirii medicale periodic, în funcție de afecțiune, la intervale cuprinse între un an și 3 ani",
+     "fisier": "04_Legea_223-2015_pensiile_militare.txt"
+    },
+    {
+     "act": "Legea nr. 223/2015 privind pensiile militare de stat",
+     "articol": "art. 42 alin. (2)",
+     "citat": "După fiecare revizuire medicală, comisiile de expertiză medico-militară emit o nouă decizie medicală asupra capacității de muncă, prin care se stabilește, după caz: a) menținerea în același grad de invaliditate; b) încadrarea în alt grad de invaliditate; c) redobândirea capacității de muncă.",
+     "fisier": "04_Legea_223-2015_pensiile_militare.txt"
+    },
+    {
+     "act": "Legea nr. 223/2015 privind pensiile militare de stat",
+     "articol": "art. 43 alin. (1)",
+     "citat": "Nu mai sunt supuși revizuirii medicale pensionarii de invaliditate care: a) prezintă invalidități care afectează ireversibil capacitatea de muncă; b) au împlinit vârsta prevăzută la art. 16 alin. (2); c) au dreptul la pensia de serviciu în condițiile art. 17 alin. (1) lit. b) și ale art. 18 alin. (1) lit. b).",
+     "fisier": "04_Legea_223-2015_pensiile_militare.txt"
+    },
+    {
+     "act": "Legea nr. 223/2015 privind pensiile militare de stat",
+     "articol": "art. 45",
+     "citat": "Militarii, polițiștii și funcționarii publici cu statut special care au dreptul la pensie de invaliditate pot opta, la deschiderea dreptului de pensie, pentru pensia mai avantajoasă dintre pensia de invaliditate și pensia de serviciu anticipată sau anticipată parțială, după caz, dacă îndeplinesc condițiile prevăzute de prezenta lege pentru acordarea acestora. (2) La împlinirea vârstei prevăzute de prezenta lege pentru obținerea pensiei militare de serviciu pentru limită de vârstă, beneficiarii pensiei de invaliditate pot opta pentru pensia care îi avantajează.",
+     "fisier": "04_Legea_223-2015_pensiile_militare.txt"
+    }
+   ]
+  },
+  {
+   "titlu": "Pensia de urmaș (art. 47–52, 57, 58)",
+   "paragrafe": [
+    "Art. 47 arată cui se cuvine pensia de urmaș — copiilor și soțului supraviețuitor — și în ce condiție privitoare la susținător: acesta, la data decesului, era pensionar sau îndeplinea condițiile pentru obținerea unei pensii militare de stat.",
+    "Art. 48 dă cele trei limite pentru copii: până la împlinirea vârstei de 16 ani; dacă își continuă studiile într-o formă de învățământ organizată potrivit legii, până la terminarea acestora, fără a depăși vârsta de 26 de ani; și pe toată durata invalidității de orice grad, dacă aceasta s-a ivit în perioada în care se aflau în una dintre situațiile anterioare.",
+    "Art. 49 alin. (1) condiționează dreptul soțului supraviețuitor pe tot timpul vieții de trei cerințe cumulative: împlinirea vârstei de la art. 16 alin. (2); o durată a căsătoriei de cel puțin 15 ani; și lipsa unor venituri lunare dintr-o activitate profesională pentru care asigurarea este obligatorie, ori venituri mai mici de 35% din câștigul salarial mediu brut utilizat la fundamentarea bugetului asigurărilor sociale de stat. Alin. (2) prevede, pentru o durată a căsătoriei mai mică de 15 ani, dar de cel puțin 10 ani, diminuarea cuantumului cu 0,5% pentru fiecare lună, respectiv 6,0% pentru fiecare an de căsătorie în minus.",
+    "Art. 50 alin. (1) dă dreptul indiferent de vârstă pe perioada invalidității de gradul I sau II, dacă durata căsătoriei a fost de cel puțin un an. Alin. (2) înlătură ambele condiții — și vârsta, și durata căsătoriei — dacă decesul s-a produs ca urmare a unui accident de muncă sau a unei boli contractate în condițiile legii.",
+    "Art. 51 prevede o pensie temporară de 6 luni de la data decesului pentru soțul supraviețuitor care nu îndeplinește condițiile de la art. 49 sau art. 50 alin. (1), tot sub condiția veniturilor sub pragul de 35%. Art. 52 dă dreptul soțului supraviețuitor care are în îngrijire, la data decesului, unul sau mai mulți copii în vârstă de până la 7 ani, până la împlinirea de către ultimul copil a vârstei de 7 ani, în aceleași condiții de venit.",
+    "Art. 57 permite soțului supraviețuitor care are dreptul la o pensie proprie să opteze pentru cea mai avantajoasă, iar art. 58 precizează că opțiunea se poate face atât în cadrul sistemului pensiilor militare de stat, cât și față de celelalte sisteme de pensii."
+   ],
+   "temei": [
+    {
+     "act": "Legea nr. 223/2015 privind pensiile militare de stat",
+     "articol": "art. 47",
+     "citat": "Pensia de urmaș se cuvine copiilor și soțului supraviețuitor dacă susținătorul, la data decesului, era pensionar sau îndeplinea condițiile pentru obținerea unei pensii militare de stat.",
+     "fisier": "04_Legea_223-2015_pensiile_militare.txt"
+    },
+    {
+     "act": "Legea nr. 223/2015 privind pensiile militare de stat",
+     "articol": "art. 48",
+     "citat": "Copiii au dreptul la pensie de urmaș: a) până la împlinirea vârstei de 16 ani; b) dacă își continuă studiile într-o formă de învățământ organizată potrivit legii, până la terminarea acestora, fără a depăși vârsta de 26 de ani; c) pe toată durata invalidității de orice grad, dacă aceasta s-a ivit în perioada în care se aflau în una dintre situațiile prevăzute la lit. a) sau b).",
+     "fisier": "04_Legea_223-2015_pensiile_militare.txt"
+    },
+    {
+     "act": "Legea nr. 223/2015 privind pensiile militare de stat",
+     "articol": "art. 49",
+     "citat": "Soțul supraviețuitor are dreptul la pensie de urmaș pe tot timpul vieții, la împlinirea vârstei prevăzute la art. 16 alin. (2), dacă durata căsătoriei cu persoana decedată a fost de cel puțin 15 ani și nu realizează venituri lunare provenite dintr-o activitate profesională pentru care asigurarea este obligatorie sau acestea sunt mai mici de 35% din câștigul salarial mediu brut utilizat la fundamentarea bugetului asigurărilor sociale de stat. (2) În cazul în care durata căsătoriei a fost mai mică de 15 ani, dar de cel puțin 10 ani, cuantumul pensiei de urmaș cuvenite soțului supraviețuitor se diminuează cu 0,5% pentru fiecare lună, respectiv 6,0% pentru fiecare an de căsătorie în minus.",
+     "fisier": "04_Legea_223-2015_pensiile_militare.txt"
+    },
+    {
+     "act": "Legea nr. 223/2015 privind pensiile militare de stat",
+     "articol": "art. 51",
+     "citat": "Soțul supraviețuitor care nu îndeplinește condițiile prevăzute la art. 49 sau la art. 50 alin. (1) beneficiază de pensie de urmaș pe o perioadă de 6 luni de la data decesului soțului susținător, dacă în această perioadă nu realizează venituri lunare pentru care asigurarea este obligatorie ori acestea sunt mai mici de 35% din câștigul salarial mediu brut utilizat la fundamentarea bugetului asigurărilor sociale de stat.",
+     "fisier": "04_Legea_223-2015_pensiile_militare.txt"
+    },
+    {
+     "act": "Legea nr. 223/2015 privind pensiile militare de stat",
+     "articol": "art. 52",
+     "citat": "Soțul supraviețuitor care are în îngrijire, la data decesului susținătorului, unul sau mai mulți copii în vârstă de până la 7 ani beneficiază de pensie de urmaș până la data împlinirii de către ultimul copil a vârstei de 7 ani, în perioadele în care nu realizează venituri lunare dintr-o activitate profesională pentru care asigurarea este obligatorie ori acestea sunt mai mici de 35% din câștigul salarial mediu brut utilizat la fundamentarea bugetului asigurărilor sociale de stat.",
+     "fisier": "04_Legea_223-2015_pensiile_militare.txt"
+    },
+    {
+     "act": "Legea nr. 223/2015 privind pensiile militare de stat",
+     "articol": "art. 50 alin. (1)",
+     "citat": "Soțul supraviețuitor are dreptul la pensie de urmaș, indiferent de vârstă, pe perioada în care este invalid de gradul I sau II, dacă durata căsătoriei a fost de cel puțin un an.",
+     "fisier": "04_Legea_223-2015_pensiile_militare.txt"
+    },
+    {
+     "act": "Legea nr. 223/2015 privind pensiile militare de stat",
+     "articol": "art. 57",
+     "citat": "Soțul supraviețuitor care are dreptul la o pensie proprie și îndeplinește condițiile prevăzute de lege pentru obținerea pensiei de urmaș după soțul decedat poate opta pentru cea mai avantajoasă pensie",
+     "fisier": "04_Legea_223-2015_pensiile_militare.txt"
+    },
+    {
+     "act": "Legea nr. 223/2015 privind pensiile militare de stat",
+     "articol": "art. 58",
+     "citat": "Opțiunea prevăzută la art. 57 poate fi făcută atât în cadrul sistemului pensiilor militare de stat, cât și față de celelalte sisteme de pensii.",
+     "fisier": "04_Legea_223-2015_pensiile_militare.txt"
+    }
+   ]
+  },
+  {
+   "titlu": "Alte drepturi: tratament balnear și ajutor de deces (art. 81, art. 84)",
+   "paragrafe": [
+    "Art. 81 alin. (1) enumeră drepturile acordate în afara pensiilor: tratament balnear și de recuperare, în condițiile legii, și ajutor de deces, în cazul decesului militarului, polițistului, funcționarului public cu statut special, al pensionarului militar ori al unui membru al familiei acestuia.",
+    "Alin. (1^1) arată regimul biletelor: gratuit pentru pensionarii de invaliditate, în cadrul programului de recuperare avizat de comisia de expertiză medico-militară; iar pentru ceilalți, cu suportarea de către beneficiar a unei contribuții bănești de maximum 50% din valoarea biletului.",
+    "Alin. (2) prevede că ajutorul de deces se acordă unei singure persoane, care face dovada că a suportat cheltuielile ocazionate de deces, iar alin. (4) că el se stabilește anual, prin legea bugetului asigurărilor sociale de stat.",
+    "Art. 84 alin. (2) precizează că ajutorul de deces poate fi solicitat, pe baza actelor justificative, în cadrul termenului general de prescripție, calculat de la data decesului, iar alin. (3) că se achită la nivelul cuvenit la data decesului."
+   ],
+   "temei": [
+    {
+     "act": "Legea nr. 223/2015 privind pensiile militare de stat",
+     "articol": "art. 81 alin. (2)",
+     "citat": "Ajutorul de deces se acordă unei singure persoane, care face dovada că a suportat cheltuielile ocazionate de deces",
+     "fisier": "04_Legea_223-2015_pensiile_militare.txt"
+    },
+    {
+     "act": "Legea nr. 223/2015 privind pensiile militare de stat",
+     "articol": "art. 81 alin. (4)",
+     "citat": "Cuantumul ajutorului de deces se stabilește anual, prin legea bugetului asigurărilor sociale de stat.",
+     "fisier": "04_Legea_223-2015_pensiile_militare.txt"
+    },
+    {
+     "act": "Legea nr. 223/2015 privind pensiile militare de stat",
+     "articol": "art. 84 alin. (2)",
+     "citat": "Ajutorul de deces poate fi solicitat, pe baza actelor justificative, în cadrul termenului general de prescripție, calculat de la data decesului.",
+     "fisier": "04_Legea_223-2015_pensiile_militare.txt"
+    },
+    {
+     "act": "Legea nr. 223/2015 privind pensiile militare de stat",
+     "articol": "art. 84 alin. (3)",
+     "citat": "Cuantumul ajutorului de deces solicitat potrivit alin. (2) se achită la nivelul cuvenit la data decesului stabilit conform legii.",
+     "fisier": "04_Legea_223-2015_pensiile_militare.txt"
+    }
+   ]
+  }
+ ],
+ "capcane": [
+  "Cei doi indicatori de la art. 16 alin. (1) lit. b) nu se inversează: vechime efectivă de cel puțin 25 de ani, din care cel puțin 15 ani vechime în serviciu.",
+  "Pensia anticipată (art. 17) cere aceleași condiții de vechime ca cea pentru limită de vârstă și scade vârsta cu 5 ani; pensia anticipată parțială (art. 18) coboară pragurile de vechime la 20, respectiv 10 ani.",
+  "Diminuarea de 5 ani de la pensia anticipată nu se poate cumula cu nicio altă reducere (art. 17 alin. (2)).",
+  "Reducerea vârstei pentru condiții de muncă are două plafoane: cel mult 13 ani și niciodată sub 45 de ani (art. 21 alin. (2)).",
+  "Sporurile de la art. 24 (1 an și 3 luni, 1 an și 6 luni, 2 ani) se iau în calcul la stabilirea pensiei, dar nu la deschiderea dreptului (art. 23 alin. (2)).",
+  "Procentele pensiei de serviciu: 65% la 25 de ani vechime cumulată, plus 1% pentru fiecare an peste, minus 1% pentru fiecare an sub — cu plafonul de 85% din baza de calcul (art. 29 și 30).",
+  "Compensația lunară pentru chirie și valoarea normelor de hrană NU intră în baza de calcul a pensiei (art. 28 alin. (1)).",
+  "Gradele I și II de invaliditate presupun amândouă pierderea totală a capacității de muncă; diferența este capacitatea de autoîngrijire (art. 34).",
+  "Revizuirea medicală se face la intervale între un an și 3 ani (art. 42 alin. (1)), cu excepțiile de la art. 43.",
+  "La pensia de urmaș pentru copii: 16 ani, 26 de ani dacă își continuă studiile, iar pentru invaliditate pe toată durata ei, dacă s-a ivit în una dintre primele două situații (art. 48).",
+  "Soțul supraviețuitor: dreptul pe tot timpul vieții cere cumulativ vârsta, 15 ani de căsătorie ȘI venituri sub 35% din câștigul salarial mediu brut (art. 49 alin. (1)) — condiția de venit se omite ușor. Între 10 și 15 ani de căsătorie, cuantumul se diminuează cu 0,5% pe lună, respectiv 6,0% pe an de căsătorie în minus (alin. (2)); cel puțin un an de căsătorie dacă este invalid de gradul I sau II (art. 50 alin. (1)); nicio condiție de vârstă sau durată dacă decesul a fost cauzat de un accident de muncă ori de o boală contractată în condițiile legii (art. 50 alin. (2)).",
+  "Fracțiunile de vechime de cel puțin 6 luni se întregesc la un an în favoarea beneficiarului (art. 25 alin. (3))."
+ ],
+ "intrebari": [
+  "L223-101",
+  "L223-102",
+  "L223-104",
+  "L223-105",
+  "L223-107",
+  "L223-108",
+  "L223-C02",
+  "L223-110",
+  "L223-111",
+  "L223-112",
+  "L223-113",
+  "L223-114",
+  "L223-115",
+  "L223-116",
+  "L223-117",
+  "L223-118",
+  "L223-C01",
+  "L223-120",
+  "L223-122",
+  "L223-123",
+  "L223-124",
+  "L223-125",
+  "L223-126",
+  "L223-127",
+  "L223-129",
+  "L223-130",
+  "L223-131",
+  "L223-132",
+  "L223-133",
+  "L223-134",
+  "L223-135",
+  "L223-137",
+  "L223-138",
+  "L223-201",
+  "L223-202",
+  "L223-203",
+  "L223-204",
+  "L223-205",
+  "L223-206",
+  "L223-207",
+  "L223-208",
+  "L223-209",
+  "L223-210",
+  "L223-211",
+  "L223-212",
+  "L223-213",
+  "L223-214",
+  "L223-215",
+  "L223-216",
+  "L223-217",
+  "L223-218",
+  "L223-219",
+  "L223-220",
+  "L223-221",
+  "L223-222"
+ ]
+}

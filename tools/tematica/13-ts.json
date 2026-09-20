@@ -1,0 +1,1123 @@
+[
+ {
+  "loc": "Principiile și noțiunile-cheie (art. 1, 2, 3, 6) / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 1 garantează dreptul la pensii și asigurări sociale pentru militari, polițiști și funcționari publici cu statut special din sistemul administrației penitenciare, exercitat prin sistemul pensiilor militare de stat.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 4551
+ },
+ {
+  "loc": "Principiile și noțiunile-cheie (art. 1, 2, 3, 6) / paragraful 2",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 2 enumeră șase principii: unicitatea, egalitatea, imprescriptibilitatea, incesibilitatea, autonomia și recunoștința.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Ultimele două sunt specifice acestui sistem: autonomia se bazează pe organizarea, conducerea și administrarea de sine stătătoare de către instituțiile din domeniul apărării naționale, ordinii publice și securității naționale, iar recunoștința privește loialitatea, sacrificiile și privațiunile suferite pe timpul carierei.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.02,
+     "contrazice": 0.01,
+     "sustine": 0.97,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 0.95
+   }
+  },
+  "usage": 5009
+ },
+ {
+  "loc": "Principiile și noțiunile-cheie (art. 1, 2, 3, 6) / paragraful 3",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 3 definește noțiunile care revin în tot restul legii.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.04,
+     "sustine": 0.95,
+     "contrazice": 0.01,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 0.93
+   },
+   "1": {
+    "text": "Trei dintre ele se confundă ușor: vechimea în serviciu (lit. e)) este perioada petrecută în una dintre situațiile enumerate acolo; vechimea cumulată (lit. f)) adună perioadele recunoscute ca vechime în serviciu, vechime în muncă, stagiu de cotizare sau perioade asimilate; iar vechimea efectivă (lit. g)) este vechimea cumulată din care se scot sporurile acordate pentru condiții deosebite, speciale sau alte condiții de muncă, respectiv grupele I și a II-a.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.99,
+     "contrazice": 0.01,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 0.98
+   }
+  },
+  "usage": 5031
+ },
+ {
+  "loc": "Principiile și noțiunile-cheie (art. 1, 2, 3, 6) / paragraful 4",
+  "afirmatii": {
+   "0": {
+    "text": "Lit. h) definește stagiul potențial ca perioada acordată la calculul pensiei de invaliditate, ca o creditare pentru vechimea nerealizată din cauza afecțiunilor invalidante.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Lit. k) arată că administrarea se face prin case de pensii sectoriale, care funcționează în subordinea Ministerului Apărării Naționale, Ministerului Afacerilor Interne și Serviciului Român de Informații.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "contrazice": 0.01,
+     "nu_spune": 0.0,
+     "sustine": 0.99
+    },
+    "confidence": 0.99
+   },
+   "2": {
+    "text": "Art. 6 repetă această regulă de administrare.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 0.99
+   }
+  },
+  "usage": 5375
+ },
+ {
+  "loc": "Condițiile de muncă și categoriile de pensii (art. 9, 10, 11 / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 9 enumeră patru categorii de condiții de muncă: normale, deosebite, speciale și alte condiții.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Împărțirea contează direct la reducerea vârstei de pensionare de la art. 21.",
+    "alegere": "nu_spune",
+    "probabilitati": {
+     "contrazice": 0.01,
+     "nu_spune": 0.94,
+     "sustine": 0.04,
+     "absenta_corecta": 0.01
+    },
+    "confidence": 0.93
+   }
+  },
+  "usage": 3189
+ },
+ {
+  "loc": "Condițiile de muncă și categoriile de pensii (art. 9, 10, 11 / paragraful 2",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 10 rezolvă situația detașării: militarii, polițiștii și funcționarii publici cu statut special detașați în afara instituției din care fac parte beneficiază de condițiile de muncă specifice funcțiilor din care au fost detașați sau funcțiilor asimilate ori similare.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 2834
+ },
+ {
+  "loc": "Condițiile de muncă și categoriile de pensii (art. 9, 10, 11 / paragraful 3",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 11 alin. (1) arată actele pe baza cărora se face încadrarea: Hotărârea Guvernului nr. 1.294/2001, pentru cadrele militare în activitate, și Hotărârea Guvernului nr. 1.822/2004, pentru polițiști.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Alin. (3) extinde aplicarea și celor care au trecut în rezervă sau în retragere, respectiv le-au încetat raporturile de serviciu, până la data intrării în vigoare a legii.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 3483
+ },
+ {
+  "loc": "Condițiile de muncă și categoriile de pensii (art. 9, 10, 11 / paragraful 4",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 14 enumeră cele trei categorii de pensii din sistem: pensia de serviciu, pensia de invaliditate și pensia de urmaș.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0
+    },
+    "confidence": 0.99
+   }
+  },
+  "usage": 2790
+ },
+ {
+  "loc": "Pensia de serviciu: limită de vârstă, anticipată, anticipată / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 16 alin. (1) pune două condiții cumulative pentru pensia de serviciu pentru limită de vârstă: împlinirea vârstei standard de pensionare și o vechime efectivă de cel puțin 25 de ani, din care cel puțin 15 ani reprezintă vechimea în serviciu.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Cei doi indicatori nu se inversează: 25 este vechimea efectivă totală, 15 este partea din ea care trebuie să fie vechime în serviciu.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.02,
+     "sustine": 0.98,
+     "contrazice": 0.0
+    },
+    "confidence": 0.97
+   }
+  },
+  "usage": 3475
+ },
+ {
+  "loc": "Pensia de serviciu: limită de vârstă, anticipată, anticipată / paragraful 2",
+  "afirmatii": {
+   "0": {
+    "text": "Alin. (2) stabilește vârsta standard la 65 de ani, atinsă prin creșterea vârstelor standard conform eșalonărilor din anexele nr. 1 și 2.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 2869
+ },
+ {
+  "loc": "Pensia de serviciu: limită de vârstă, anticipată, anticipată / paragraful 3",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 17 alin. (1) reglementează pensia de serviciu anticipată: cere aceleași condiții de vechime ca la art. 16 alin. (1) lit. b), vârsta standard diminuată cu 5 ani, plus una dintre cele două situații — trecerea în rezervă ca urmare a reorganizării și reducerii de funcții ori pentru alte motive sau nevoi ale instituțiilor, respectiv clasarea ca inapt sau apt limitat de către comisiile de expertiză medico-militară.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 3317
+ },
+ {
+  "loc": "Pensia de serviciu: limită de vârstă, anticipată, anticipată / paragraful 4",
+  "afirmatii": {
+   "0": {
+    "text": "Alin. (2) interzice cumulul: diminuarea vârstei standard cu 5 ani nu poate fi cumulată cu nicio altă reducere reglementată de lege sau de alte acte normative.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 2867
+ },
+ {
+  "loc": "Pensia de serviciu: limită de vârstă, anticipată, anticipată / paragraful 5",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 18 alin. (1) reglementează pensia de serviciu anticipată parțială, cu praguri de vechime la jumătate: minimum 20 de ani vechime efectivă, dintre care cel puțin 10 ani vechime în serviciu, plus aceleași două situații ca la art. 17.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.45999999999999996,
+     "nu_spune": 0.46,
+     "contrazice": 0.05,
+     "absenta_corecta": 0.03
+    },
+    "confidence": 0.29
+   },
+   "1": {
+    "text": "Alin. (3) prevede transformarea: la împlinirea vârstei standard, pensia anticipată parțială devine pensie de serviciu pentru limită de vârstă, iar cuantumul se recalculează.",
+    "alegere": "contrazice",
+    "probabilitati": {
+     "sustine": 0.04,
+     "nu_spune": 0.4,
+     "contrazice": 0.53,
+     "absenta_corecta": 0.02
+    },
+    "confidence": 0.38
+   }
+  },
+  "usage": 3620
+ },
+ {
+  "loc": "Pensia de serviciu: limită de vârstă, anticipată, anticipată / paragraful 6",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 20 prevede aceeași transformare, dar din oficiu, pentru pensia de serviciu anticipată.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.98,
+     "nu_spune": 0.01,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.01
+    },
+    "confidence": 0.98
+   }
+  },
+  "usage": 2848
+ },
+ {
+  "loc": "Reducerea vârstei standard pentru condiții de muncă (art. 21 / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 21 alin. (1) prevede reducerea vârstei standard de pensionare pentru cei care îndeplinesc condițiile de vechime de la art. 16 alin. (1) lit. b), pe două tabele distincte: unul pentru activitatea realizată în condiții de muncă deosebite și/sau în grupa a II-a de muncă, altul pentru condiții speciale și alte condiții și/sau grupa I de muncă.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Pentru aceeași vechime, reducerea este net mai mare în al doilea tabel.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.63,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.01,
+     "contrazice": 0.36
+    },
+    "confidence": 0.51
+   }
+  },
+  "usage": 3819
+ },
+ {
+  "loc": "Reducerea vârstei standard pentru condiții de muncă (art. 21 / paragraful 2",
+  "afirmatii": {
+   "0": {
+    "text": "Alin. (2) dă cele două limite care se rețin cel mai ușor: reducerea nu poate fi mai mare de 13 ani, iar prin reducere vârsta standard de pensionare nu poate fi mai mică de 45 de ani.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.98,
+     "nu_spune": 0.02,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 0.97
+   },
+   "1": {
+    "text": "Limitele se aplică și reducerilor stabilite prin alte acte normative.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 3151
+ },
+ {
+  "loc": "Reducerea vârstei standard pentru condiții de muncă (art. 21 / paragraful 3",
+  "afirmatii": {
+   "0": {
+    "text": "Alin. (3) extinde beneficiul reducerii și la cei care, la data depunerii cererii de pensionare, îndeplinesc condițiile de vechime de la art. 16 alin. (1) lit. b) și se află în situațiile enumerate acolo, printre care trecerea în rezervă din motive neimputabile, ca urmare a reorganizării unității militare sau a reducerii unor funcții.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 2871
+ },
+ {
+  "loc": "Vechimea, sporurile și baza de calcul (art. 23–28) / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 23 alin. (1) arată că vechimea în serviciu luată în considerare la stabilirea pensiei este perioada petrecută în situațiile de la art. 3 lit. e), la care se adaugă sporurile de la art. 24.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0,
+     "sustine": 1.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Alin. (2) precizează însă că vechimea pentru deschiderea dreptului la pensie nu cuprinde aceste sporuri — deci sporurile contează la calculul pensiei, nu la îndeplinirea condiției de vechime.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0,
+     "sustine": 1.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.99
+   }
+  },
+  "usage": 6351
+ },
+ {
+  "loc": "Vechimea, sporurile și baza de calcul (art. 23–28) / paragraful 2",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 24 dă echivalențele pentru fiecare an lucrat efectiv: 1 an și 3 luni în condiții deosebite; 1 an și 6 luni în condiții speciale; 2 ani în alte condiții.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Scara este crescătoare pe cele trei trepte.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.95,
+     "nu_spune": 0.05,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 0.93
+   }
+  },
+  "usage": 6197
+ },
+ {
+  "loc": "Vechimea, sporurile și baza de calcul (art. 23–28) / paragraful 3",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 25 alin. (2) interzice dubla valorificare: vechimea valorificată pentru pensia militară nu se poate valorifica și în sistemul public de pensii sau în sistemele proprii neintegrate.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Alin. (3) dă regula de rotunjire: fracțiunile de cel puțin 6 luni se întregesc la un an în favoarea beneficiarului, iar cele mai mici se neglijează.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 6326
+ },
+ {
+  "loc": "Vechimea, sporurile și baza de calcul (art. 23–28) / paragraful 4",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 28 alin. (1) definește baza de calcul: media soldelor/salariilor lunare brute realizate la funcția de bază în ultimele luni consecutive de activitate, stabilite conform eșalonării din anexa nr. 3, și enumeră, pe litere, veniturile care nu intră în ea — printre care diurnele, compensațiile lunare pentru chirie, valoarea normelor de hrană, echipamentul, indemnizațiile de instalare și de mutare, plățile compensatorii la trecerea în rezervă și compensarea în bani a concediului de odihnă neefectuat.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 6304
+ },
+ {
+  "loc": "Vechimea, sporurile și baza de calcul (art. 23–28) / paragraful 5",
+  "afirmatii": {
+   "0": {
+    "text": "Alin. (10) conține o regulă ușor de trecut cu vederea: alegerea perioadei care se ia în considerare la stabilirea bazei de calcul se poate face o singură dată.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.1,
+     "sustine": 0.9
+    },
+    "confidence": 0.86
+   }
+  },
+  "usage": 5800
+ },
+ {
+  "loc": "Cuantumul pensiei de serviciu și plafonul (art. 29, art. 30) / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 29 alin. (1) lit. a) dă procentul de referință: la o vechime cumulată de cel puțin 25 de ani, pensia de serviciu este de 65% din baza de calcul.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Lit. b) adaugă câte 1% din baza de calcul pentru fiecare an care depășește această vechime.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 3014
+ },
+ {
+  "loc": "Cuantumul pensiei de serviciu și plafonul (art. 29, art. 30) / paragraful 2",
+  "afirmatii": {
+   "0": {
+    "text": "Alin. (2) tratează situația inversă: pentru o vechime cumulată de până la 25 de ani, cuantumul se diminuează cu 1% din baza de calcul pentru fiecare an lipsă.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 2478
+ },
+ {
+  "loc": "Cuantumul pensiei de serviciu și plafonul (art. 29, art. 30) / paragraful 3",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 30 fixează plafonul: pensia stabilită, recalculată și actualizată nu poate fi mai mare decât 85% din baza de calcul prevăzută la art. 28.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 2477
+ },
+ {
+  "loc": "Pensia de invaliditate (art. 32–35, 42, 43, 45) / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 32 condiționează dreptul la pensie de invaliditate de pierderea totală sau a cel puțin jumătate din capacitatea de muncă și distinge două cauze: accidentele de muncă ori bolile contractate în timpul și din cauza îndeplinirii serviciului, tuberculoza, neoplaziile, schizofrenia și SIDA (lit. a)); respectiv accidentele sau bolile fără legătură cu serviciul (lit. b)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "sustine": 0.99,
+     "contrazice": 0.01
+    },
+    "confidence": 0.99
+   }
+  },
+  "usage": 4304
+ },
+ {
+  "loc": "Pensia de invaliditate (art. 32–35, 42, 43, 45) / paragraful 2",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 34 definește cele trei grade: gradul I — pierderea totală a capacității de muncă și a capacității de autoîngrijire, necesitând îngrijire sau supraveghere permanentă din partea altei persoane; gradul II — pierderea totală a capacității de muncă, cu posibilitatea invalidului de a se autoîngriji fără ajutorul altei persoane; gradul III — pierderea a cel puțin jumătate din capacitatea de muncă, persoana putând să presteze o activitate profesională.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.98,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.02
+    },
+    "confidence": 0.97
+   }
+  },
+  "usage": 4337
+ },
+ {
+  "loc": "Pensia de invaliditate (art. 32–35, 42, 43, 45) / paragraful 3",
+  "afirmatii": {
+   "0": {
+    "text": "Diferența dintre gradele I și II nu ține de capacitatea de muncă — pierdută total în ambele — ci de capacitatea de autoîngrijire.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 4223
+ },
+ {
+  "loc": "Pensia de invaliditate (art. 32–35, 42, 43, 45) / paragraful 4",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 42 alin. (1) prevede revizuirea medicală periodică, în funcție de afecțiune, la intervale cuprinse între un an și 3 ani.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Alin. (2) enumeră cele trei soluții posibile după revizuire: menținerea în același grad, încadrarea în alt grad sau redobândirea capacității de muncă.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "2": {
+    "text": "Alin. (4) sancționează neprezentarea din motive imputabile cu suspendarea plății pensiei.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "sustine": 0.99,
+     "contrazice": 0.01
+    },
+    "confidence": 0.99
+   }
+  },
+  "usage": 5172
+ },
+ {
+  "loc": "Pensia de invaliditate (art. 32–35, 42, 43, 45) / paragraful 5",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 43 alin. (1) arată cine nu mai este supus revizuirii: cei cu invalidități care afectează ireversibil capacitatea de muncă; cei care au împlinit vârsta de la art. 16 alin. (2); și cei care au dreptul la pensia de serviciu în condițiile art. 17 alin. (1) lit. b) și art. 18 alin. (1) lit. b).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 4434
+ },
+ {
+  "loc": "Pensia de invaliditate (art. 32–35, 42, 43, 45) / paragraful 6",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 45 dă un drept de opțiune, exercitabil de două ori: la deschiderea dreptului de pensie, între pensia de invaliditate și cea de serviciu, iar apoi din nou la împlinirea vârstei pentru pensia de serviciu pentru limită de vârstă.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 0.99
+   }
+  },
+  "usage": 4258
+ },
+ {
+  "loc": "Pensia de urmaș (art. 47–52, 57, 58) / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 47 arată cui se cuvine pensia de urmaș — copiilor și soțului supraviețuitor — și în ce condiție privitoare la susținător: acesta, la data decesului, era pensionar sau îndeplinea condițiile pentru obținerea unei pensii militare de stat.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 4175
+ },
+ {
+  "loc": "Pensia de urmaș (art. 47–52, 57, 58) / paragraful 2",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 48 dă cele trei limite pentru copii: până la împlinirea vârstei de 16 ani; dacă își continuă studiile într-o formă de învățământ organizată potrivit legii, până la terminarea acestora, fără a depăși vârsta de 26 de ani; și pe toată durata invalidității de orice grad, dacă aceasta s-a ivit în perioada în care se aflau în una dintre situațiile anterioare.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 4219
+ },
+ {
+  "loc": "Pensia de urmaș (art. 47–52, 57, 58) / paragraful 3",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 49 alin. (1) condiționează dreptul soțului supraviețuitor pe tot timpul vieții de trei cerințe cumulative: împlinirea vârstei de la art. 16 alin. (2); o durată a căsătoriei de cel puțin 15 ani; și lipsa unor venituri lunare dintr-o activitate profesională pentru care asigurarea este obligatorie, ori venituri mai mici de 35% din câștigul salarial mediu brut utilizat la fundamentarea bugetului asigurărilor sociale de stat.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Alin. (2) prevede, pentru o durată a căsătoriei mai mică de 15 ani, dar de cel puțin 10 ani, diminuarea cuantumului cu 0,5% pentru fiecare lună, respectiv 6,0% pentru fiecare an de căsătorie în minus.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 4868
+ },
+ {
+  "loc": "Pensia de urmaș (art. 47–52, 57, 58) / paragraful 4",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 50 alin. (1) dă dreptul indiferent de vârstă pe perioada invalidității de gradul I sau II, dacă durata căsătoriei a fost de cel puțin un an.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Alin. (2) înlătură ambele condiții — și vârsta, și durata căsătoriei — dacă decesul s-a produs ca urmare a unui accident de muncă sau a unei boli contractate în condițiile legii.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.96,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.04
+    },
+    "confidence": 0.94
+   }
+  },
+  "usage": 4591
+ },
+ {
+  "loc": "Pensia de urmaș (art. 47–52, 57, 58) / paragraful 5",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 51 prevede o pensie temporară de 6 luni de la data decesului pentru soțul supraviețuitor care nu îndeplinește condițiile de la art. 49 sau art. 50 alin. (1), tot sub condiția veniturilor sub pragul de 35%.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Art. 52 dă dreptul soțului supraviețuitor care are în îngrijire, la data decesului, unul sau mai mulți copii în vârstă de până la 7 ani, până la împlinirea de către ultimul copil a vârstei de 7 ani, în aceleași condiții de venit.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 4633
+ },
+ {
+  "loc": "Pensia de urmaș (art. 47–52, 57, 58) / paragraful 6",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 57 permite soțului supraviețuitor care are dreptul la o pensie proprie să opteze pentru cea mai avantajoasă, iar art. 58 precizează că opțiunea se poate face atât în cadrul sistemului pensiilor militare de stat, cât și față de celelalte sisteme de pensii.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0,
+     "sustine": 1.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 4179
+ },
+ {
+  "loc": "Alte drepturi: tratament balnear și ajutor de deces (art. 81 / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 81 alin. (1) enumeră drepturile acordate în afara pensiilor: tratament balnear și de recuperare, în condițiile legii, și ajutor de deces, în cazul decesului militarului, polițistului, funcționarului public cu statut special, al pensionarului militar ori al unui membru al familiei acestuia.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 3156
+ },
+ {
+  "loc": "Alte drepturi: tratament balnear și ajutor de deces (art. 81 / paragraful 2",
+  "afirmatii": {
+   "0": {
+    "text": "Alin. (1^1) arată regimul biletelor: gratuit pentru pensionarii de invaliditate, în cadrul programului de recuperare avizat de comisia de expertiză medico-militară; iar pentru ceilalți, cu suportarea de către beneficiar a unei contribuții bănești de maximum 50% din valoarea biletului.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 3025
+ },
+ {
+  "loc": "Alte drepturi: tratament balnear și ajutor de deces (art. 81 / paragraful 3",
+  "afirmatii": {
+   "0": {
+    "text": "Alin. (2) prevede că ajutorul de deces se acordă unei singure persoane, care face dovada că a suportat cheltuielile ocazionate de deces, iar alin. (4) că el se stabilește anual, prin legea bugetului asigurărilor sociale de stat.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 3008
+ },
+ {
+  "loc": "Alte drepturi: tratament balnear și ajutor de deces (art. 81 / paragraful 4",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 84 alin. (2) precizează că ajutorul de deces poate fi solicitat, pe baza actelor justificative, în cadrul termenului general de prescripție, calculat de la data decesului, iar alin. (3) că se achită la nivelul cuvenit la data decesului.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 3070
+ },
+ {
+  "loc": "capcana 1",
+  "afirmatii": {
+   "0": {
+    "text": "Cei doi indicatori de la art. 16 alin. (1) lit. b) nu se inversează: vechime efectivă de cel puțin 25 de ani, din care cel puțin 15 ani vechime în serviciu.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.02,
+     "sustine": 0.83,
+     "absenta_corecta": 0.03,
+     "nu_spune": 0.12
+    },
+    "confidence": 0.78
+   }
+  },
+  "usage": 18712
+ },
+ {
+  "loc": "capcana 2",
+  "afirmatii": {
+   "0": {
+    "text": "Pensia anticipată (art. 17) cere aceleași condiții de vechime ca cea pentru limită de vârstă și scade vârsta cu 5 ani; pensia anticipată parțială (art. 18) coboară pragurile de vechime la 20, respectiv 10 ani.",
+    "alegere": "nu_spune",
+    "probabilitati": {
+     "contrazice": 0.3,
+     "absenta_corecta": 0.01,
+     "sustine": 0.3,
+     "nu_spune": 0.39
+    },
+    "confidence": 0.19
+   }
+  },
+  "usage": 18671
+ },
+ {
+  "loc": "capcana 3",
+  "afirmatii": {
+   "0": {
+    "text": "Diminuarea de 5 ani de la pensia anticipată nu se poate cumula cu nicio altă reducere (art. 17 alin. (2)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 18705
+ },
+ {
+  "loc": "capcana 4",
+  "afirmatii": {
+   "0": {
+    "text": "Reducerea vârstei pentru condiții de muncă are două plafoane: cel mult 13 ani și niciodată sub 45 de ani (art. 21 alin. (2)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 18717
+ },
+ {
+  "loc": "capcana 5",
+  "afirmatii": {
+   "0": {
+    "text": "Sporurile de la art. 24 (1 an și 3 luni, 1 an și 6 luni, 2 ani) se iau în calcul la stabilirea pensiei, dar nu la deschiderea dreptului (art. 23 alin. (2)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.01,
+     "sustine": 0.99
+    },
+    "confidence": 0.98
+   }
+  },
+  "usage": 18780
+ },
+ {
+  "loc": "capcana 6",
+  "afirmatii": {
+   "0": {
+    "text": "Procentele pensiei de serviciu: 65% la 25 de ani vechime cumulată, plus 1% pentru fiecare an peste, minus 1% pentru fiecare an sub — cu plafonul de 85% din baza de calcul (art. 29 și 30).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.01,
+     "sustine": 0.99,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 0.99
+   }
+  },
+  "usage": 18653
+ },
+ {
+  "loc": "capcana 7",
+  "afirmatii": {
+   "0": {
+    "text": "Compensația lunară pentru chirie și valoarea normelor de hrană NU intră în baza de calcul a pensiei (art. 28 alin. (1)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.06,
+     "nu_spune": 0.0,
+     "sustine": 0.94,
+     "contrazice": 0.0
+    },
+    "confidence": 0.92
+   }
+  },
+  "usage": 19015
+ },
+ {
+  "loc": "capcana 8",
+  "afirmatii": {
+   "0": {
+    "text": "Gradele I și II de invaliditate presupun amândouă pierderea totală a capacității de muncă; diferența este capacitatea de autoîngrijire (art. 34).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.02,
+     "absenta_corecta": 0.0,
+     "sustine": 0.98,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.98
+   }
+  },
+  "usage": 18639
+ },
+ {
+  "loc": "capcana 9",
+  "afirmatii": {
+   "0": {
+    "text": "Revizuirea medicală se face la intervale între un an și 3 ani (art. 42 alin. (1)), cu excepțiile de la art. 43.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 18733
+ },
+ {
+  "loc": "capcana 10",
+  "afirmatii": {
+   "0": {
+    "text": "La pensia de urmaș pentru copii: 16 ani, 26 de ani dacă își continuă studiile, iar pentru invaliditate pe toată durata ei, dacă s-a ivit în una dintre primele două situații (art. 48).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 18647
+ },
+ {
+  "loc": "capcana 11",
+  "afirmatii": {
+   "0": {
+    "text": "Soțul supraviețuitor: dreptul pe tot timpul vieții cere cumulativ vârsta, 15 ani de căsătorie ȘI venituri sub 35% din câștigul salarial mediu brut (art. 49 alin. (1)) — condiția de venit se omite ușor.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.02,
+     "sustine": 0.83,
+     "nu_spune": 0.13,
+     "absenta_corecta": 0.02
+    },
+    "confidence": 0.79
+   },
+   "1": {
+    "text": "Între 10 și 15 ani de căsătorie, cuantumul se diminuează cu 0,5% pe lună, respectiv 6,0% pe an de căsătorie în minus (alin. (2)); cel puțin un an de căsătorie dacă este invalid de gradul I sau II (art. 50 alin. (1)); nicio condiție de vârstă sau durată dacă decesul a fost cauzat de un accident de muncă ori de o boală contractată în condițiile legii (art. 50 alin. (2)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.99,
+     "contrazice": 0.01,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 0.99
+   }
+  },
+  "usage": 19534
+ },
+ {
+  "loc": "capcana 12",
+  "afirmatii": {
+   "0": {
+    "text": "Fracțiunile de vechime de cel puțin 6 luni se întregesc la un an în favoarea beneficiarului (art. 25 alin. (3)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 18702
+ }
+]
