@@ -11,9 +11,15 @@ Raportul de calibrare cu cifrele brute: [`tools/CALIBRARE-typesafe.md`](tools/CA
 **Rezumat:** 5 defecte reale în banca publicată (reparate), 1 cauză-rădăcină în
 documentație (reparată), 5 capcane în construcția stării și 6 greșeli de design al
 judecăților (toate reparate), 3 probleme de infrastructură (reparate). Verificarea
-independentă a celor 505 chei cu răspuns unic nu a găsit nicio cheie greșită, iar
-verificarea paginii de sinteză „Gradele militare" nu a găsit nicio afirmație contrazisă
-de textul legii.
+independentă a celor 505 chei cu răspuns unic nu a găsit nicio cheie greșită — cu
+rezervele din secțiunea J. Toate cele 18 pagini de sinteză au fost scrise și verificate:
+953 de afirmații, 0 contrazise de textul legii; pe drum, cele două straturi de verificare
+au prins **două erori reale în conținut proaspăt scris** (secțiunea G).
+
+**Cost total, estimat din rulările înregistrate: aproximativ 20 de milioane de tokens** —
+două treceri complete peste bancă (5,25M și 6,33M), calibrările pe loturile de 72 de
+întrebări și pe chei mutate (~3,5M), rulările finale pe cele 18 teme (4,09M) și reluările
+lor după corecturi (~1,5M).
 
 ---
 
@@ -66,7 +72,7 @@ celelalte afirmații din README/SPEC care descriu verificări — și confruntat
 
 ## C. Capcane în construcția stării
 
-Toate patru sunt greșeli ale mele în `check_semantic.py`, dar fiecare a produs inițial ceea
+Toate cinci sunt greșeli ale mele în `check_semantic.py` și `alineate.py`, dar fiecare a produs inițial ceea
 ce părea o eroare a modelului. **În toate cazurile modelul răspunsese corect la ce i se
 arătase; dovada lipsea din stare.**
 
@@ -91,6 +97,12 @@ Plafon de 2500 de caractere aplicat și articolelor invocate. La L80-114, art. 2
 — „50% … nu mai mult de 9 luni" — cădea după tăietură, ceea ce a produs o **alarmă falsă cu
 p=0.95**. Plafonul pentru articolele-dovadă e acum 9000.
 
+### C4. Notele erau colectate peste granița de capitol — **reparat**
+
+`_note_articol()` se oprea doar la următorul „Articolul N", deci nota „Cap. V a fost
+abrogat" ajungea în notele art. 13 din H.G. 52/2011. Se oprește acum și la titlurile `## `.
+(Semnalul a rămas totuși 0.78 după reparație — vezi D4: acolo greșea modelul.)
+
 ### C5. Literele se suprascriau în articolele cu subgrupuri — **reparat**
 
 Găsit la verificarea temei 1 din secțiunea „Tematica". `alineate.descompune()` ținea literele
@@ -112,12 +124,6 @@ Nu a schimbat concluzia — judecata comparativă a fost de acord cu cheia la 50
 întrebări `unic` — dar articolele cu subgrupuri majuscule au fost judecate pe o listă
 amestecată. O rerulare a băncii ar costa ~6M tokens; merită făcută dacă se modifică oricum
 întrebări pe astfel de articole.
-
-### C4. Notele erau colectate peste granița de capitol — **reparat**
-
-`_note_articol()` se oprea doar la următorul „Articolul N", deci nota „Cap. V a fost
-abrogat" ajungea în notele art. 13 din H.G. 52/2011. Se oprește acum și la titlurile `## `.
-(Semnalul a rămas totuși 0.78 după reparație — vezi D4: acolo greșea modelul.)
 
 ---
 
@@ -208,6 +214,12 @@ Explicația argumentează de ce fiecare distractor e greșit. Dacă ar sta în a
 întrebările despre variante, ar suprima exact semnalul „distractor apărabil". De aceea se
 fac **două cereri** per întrebare: una fără cheie și fără explicație, una cu ele.
 
+### E3. Cheia API tipărită în transcript — **de rotit**
+
+La prima verificare am folosit un fallback de shell care a tipărit valoarea cheii, nu doar
+lungimea ei. Nu a plecat nicăieri din sesiune, dar cheia a rămas în transcript. Recomandare:
+rotire din console.typesafe.ai.
+
 ### E4. Lecția de la E1, aplicată de la început — **prag calibrat, nu ghicit**
 
 La verificarea tematicii nu am mai raportat un prag înainte de a avea pozitivi. Tema 1 e
@@ -222,12 +234,6 @@ ani), clase de grad (a IV-a → a VI-a), ministere (Apărării → Afacerilor In
 Pragul inițial de 0.50 producea 3 alarme false pe o temă fără erori. La 0.90 separarea e
 curată în ambele direcții. Aceasta este singura cifră din tot documentul obținută înainte de
 a fi avut nevoie de ea, nu după.
-
-### E3. Cheia API tipărită în transcript — **de rotit**
-
-La prima verificare am folosit un fallback de shell care a tipărit valoarea cheii, nu doar
-lungimea ei. Nu a plecat nicăieri din sesiune, dar cheia a rămas în transcript. Recomandare:
-rotire din console.typesafe.ai.
 
 ---
 
@@ -262,8 +268,33 @@ Drumul până la acest verdict a trecut prin C5 (10 alarme false din cauza liter
 suprascrise), D6 (afirmațiile de absență) și E4 (pragul calibrat pe erori plantate). Niciuna
 dintre cele 10 alarme inițiale nu era o problemă a paginii.
 
+**Temele 2–18 au fost scrise în aceeași sesiune, cu poarta pornită la fiecare pas.** Bilanț
+pe toate cele 18: **953 de afirmații judecate, 0 contrazise; 484 de citate confirmate
+verbatim din 484.** Cele 7 „neverificabile" rămase sunt sfaturi pedagogice sau comparații
+între două legi diferite — clasificate corect, fiindcă a doua lege nu era în stare.
+
+### G1. Două erori reale, prinse înainte de publicare
+
+Sunt cele mai importante două rânduri din document, fiindcă sunt singurele în care flagul
+**a fost** dovada — și amândouă erau în text scris cu atenție, în aceeași zi.
+
+| Unde | Ce am greșit | Cine a prins |
+|---|---|---|
+| tema 9, art. 17 alin. (5) din Codul muncii | am copiat citatul dintr-un afișaj trunchiat și i-am completat finalul din memorie („…contractul colectiv de muncă." în loc de „…aplicabil.") | `tematica_build.py`, verificarea verbatim |
+| tema 13, art. 49 alin. (1) din Legea 223/2015 | am scris că pensia de urmaș pe tot timpul vieții cere 15 ani de căsătorie; legea cere **trei** condiții cumulative — a treia, venituri sub 35% din câștigul salarial mediu brut, lipsea | `check_tematica.py`, poarta semantică (p=0.90) |
+
+Cele două straturi prind lucruri diferite: primul nu vede fondul, al doilea nu vede forma
+citatului. Prima eroare era corectă ca fond și greșită ca literă; a doua, invers. Niciuna
+n-ar fi fost prinsă de celălalt strat.
+
+La a doua, semnalul a apărut abia după ce am adăugat art. 49 la temeiurile secțiunii: cât
+timp articolul lipsea din stare, afirmația ieșea doar „neverificabilă". Este aceeași lecție
+ca la C1–C5, dar de data asta cu final bun — diferența dintre „nu știu" și „e greșit" a
+stat în dovada pusă la dispoziție.
+
 **Morala repetată a treia oară:** flagul nu este dovada. De fiecare dată când poarta a arătat
-cu degetul, primul pas util a fost să deschid legea, nu fișierul acuzat.
+cu degetul, primul pas util a fost să deschid legea, nu fișierul acuzat. Dar G1 arată și
+reversul: când dovada e completă, flagul merită luat în serios.
 
 ---
 
@@ -290,6 +321,9 @@ articolul din tematică, **referirile poziționale**, distribuția pe teste.
 **Ce rulează la cerere, cu `--semantic`:** poarta completă (~70 s pe banca întreagă, cere
 `TYPESAFE_API_KEY`). Nu pornește niciodată singură.
 
+**Tematica:** 18 din 18 teme scrise, construite și verificate; `sw.js` la `grile-ru-v18`;
+indexul nu mai are nicio temă „în pregătire". Fiecare temă are commit propriu.
+
 **Ce rămâne de făcut:** un merge al ramurii `analiza_typekey` în `main` și un push —
 `main` n-a fost atins și nimic nu a fost publicat.
 
@@ -314,3 +348,39 @@ articolul din tematică, **referirile poziționale**, distribuția pe teste.
 5. **Politica separată de judecăți se plătește.** Judecățile brute stau în
    `tools/verificari/*-ts.json`; toate re-etajările de mai sus s-au aplicat cu `--din`,
    fără să reruleze inferența.
+
+---
+
+## J. Limite cunoscute — unde să nu te bazezi pe verificare
+
+Secțiunile de mai sus pot lăsa impresia unei plase fără găuri. Nu e. Acestea sunt găurile
+pe care le știu; cele pe care nu le știu nu sunt aici.
+
+1. **Cele 95 de întrebări `multiplu` nu au niciun semnal de încredere pentru cheie.**
+   Judecata comparativă — singura care s-a separat curat — se pune doar la `unic`, unde o
+   singură variantă concurează cu celelalte. La `multiplu` rămân judecățile per-variantă,
+   care au produs 13 alarme false pe bancă. 16% din bancă e verificată doar de straturile
+   deterministe și de verificarea adversarială umană de la 18.09.2026.
+
+2. **„505/505" a fost obținut cu bug-ul C5 activ.** Articolele cu subgrupuri majuscule
+   (A./B./C.) au fost judecate pe o listă de litere amestecată. Rezultatul nu s-a schimbat
+   la temele verificate după reparație, dar banca n-a fost rerulată — costă ~6M tokens.
+
+3. **Detecția cheilor greșite e validată doar pe cazul ușor.** Cele 24 de mutante au avut
+   cheia mutată pe un distractor oarecare. O cheie *subtil* greșită — distractorul aproape
+   corect, diferența într-un termen sau într-o excepție — nu a fost testată. Aceasta este
+   exact clasa de erori din D3, unde modelul greșea cu p≥0.9, și nu există nicio dovadă că
+   judecata comparativă o prinde.
+
+4. **Orice afirmație despre o lege din afara secțiunii iese „neverificabilă".** Comparațiile
+   între două acte (frecvente în temele 13–14 și 15) și trimiterile la legi din afara
+   corpusului (Legea 263/2010, Codul fiscal) nu pot fi nici confirmate, nici contrazise.
+   Cele 91 de INCERT din bancă sunt în bună parte de acest tip — nu erori, dar nici verificate.
+
+5. **Pragurile sunt calibrate pe seturi mici, dintr-un singur domeniu.** 72 de întrebări,
+   24 de mutante, 12 afirmații plantate într-o singură temă. Separarea a fost curată de
+   fiecare dată, dar cifrele 0.80 / 0.90 nu au fost testate pe alt corpus juridic.
+
+6. **Verificarea semantică nu înlocuiește citirea legii.** În toată sesiunea, fiecare
+   verdict care a contat a fost confirmat manual în text înainte de a fi acționat — inclusiv
+   cele două din G1. Poarta reduce ce trebuie citit; nu elimină cititul.
