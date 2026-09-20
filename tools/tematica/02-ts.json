@@ -1,0 +1,1037 @@
+[
+ {
+  "loc": "Izvorul îndatoririlor și al drepturilor (art. 7) / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 7 alin. (1) așază îndatoririle, drepturile și libertățile cadrelor militare pe trei temeiuri: Constituția României, legile țării și statutul însuși.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Statutul nu este deci un regim separat de dreptul comun, ci se adaugă lui.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.37,
+     "sustine": 0.59,
+     "absenta_corecta": 0.01,
+     "contrazice": 0.03
+    },
+    "confidence": 0.45
+   }
+  },
+  "usage": 2497
+ },
+ {
+  "loc": "Izvorul îndatoririlor și al drepturilor (art. 7) / paragraful 2",
+  "afirmatii": {
+   "0": {
+    "text": "Alin. (2) arată specificul profesiei: ea incumbă îndatoriri suplimentare, precum și interzicerea ori restrângerea exercitării unor drepturi și libertăți, potrivit legii.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Acesta este textul-punte către tema următoare (art. 28–30), care detaliază restrângerile.",
+    "alegere": "nu_spune",
+    "probabilitati": {
+     "contrazice": 0.02,
+     "absenta_corecta": 0.01,
+     "nu_spune": 0.58,
+     "sustine": 0.39
+    },
+    "confidence": 0.43
+   }
+  },
+  "usage": 2438
+ },
+ {
+  "loc": "Îndatoririle principale și limita obligației de a executa or / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 8 alin. (1) enumeră șase îndatoriri principale, de la lit. a) la lit. f): loialitatea și devotamentul față de statul român și forțele sale armate, până la sacrificiul vieții; respectarea jurământului militar și a regulamentelor și executarea întocmai și la timp a ordinelor; prețuirea onoarei și gloriei de luptă și a demnității gradului și uniformei; perfecționarea pregătirii proprii, instruirea și educarea subordonaților și apărarea drepturilor acestora; întreținerea tehnicii și armamentului și folosirea eficientă a bunurilor din dotare; păstrarea secretului.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 3211
+ },
+ {
+  "loc": "Îndatoririle principale și limita obligației de a executa or / paragraful 2",
+  "afirmatii": {
+   "0": {
+    "text": "Lit. b) conține și limita obligației de supunere: cadrelor militare nu li se poate ordona și le este interzis să execute acte contrare legii, obiceiurilor războiului și convențiilor internaționale la care România este parte, iar neexecutarea ordinelor în aceste condiții nu atrage răspunderea penală și civilă a subordonaților.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.03,
+     "sustine": 0.97,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.95
+   },
+   "1": {
+    "text": "Răspunderea pentru modul de îndeplinire a misiunilor rămâne însă a cadrului militar.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 3123
+ },
+ {
+  "loc": "Îndatoririle principale și limita obligației de a executa or / paragraful 3",
+  "afirmatii": {
+   "0": {
+    "text": "Lit. f) nu se limitează la secretul militar: obligația privește secretul militar, de stat și de serviciu, precum și caracterul confidențial al unor activități și documente.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 2672
+ },
+ {
+  "loc": "Misiunile în afara teritoriului și excepțiile pe motive fami / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Alin. (2) instituie o obligație, nu o opțiune: cadrele militare în activitate au obligația să participe la misiuni în afara teritoriului statului român, în funcție de cerințele Ministerului Apărării Naționale, pentru îndeplinirea obligațiilor asumate de România prin convenții și tratate internaționale.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 2919
+ },
+ {
+  "loc": "Misiunile în afara teritoriului și excepțiile pe motive fami / paragraful 2",
+  "afirmatii": {
+   "0": {
+    "text": "Alin. (3) prevede că excepția se face la cerere și numai pentru cadrul militar care întâmpină greutăți familiale deosebite și se încadrează în una dintre situațiile enumerate: familie monoparentală; întreținător unic de familie, al copilului, fratelui sau părintelui; unul sau ambii părinți invalizi de gradul I sau II, în condițiile arătate la lit. c); soțul grav bolnav, încadrat în gradul I sau II de invaliditate; ambii soți sau frați ar urma să participe la misiune în aceeași perioadă și nu își exprimă acordul; caz de calamități naturale.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 2997
+ },
+ {
+  "loc": "Misiunile în afara teritoriului și excepțiile pe motive fami / paragraful 3",
+  "afirmatii": {
+   "0": {
+    "text": "Textul spune „poate face excepție, la cerere”: nu este o scutire automată, iar lista situațiilor este limitativă.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.99,
+     "absenta_corecta": 0.01,
+     "contrazice": 0.0
+    },
+    "confidence": 0.98
+   }
+  },
+  "usage": 2856
+ },
+ {
+  "loc": "Drepturile cadrelor în activitate și pensia militară (art. 9 / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 9 alin. (1) lit. a) definește solda lunară prin componentele ei: solda de grad, solda de funcție, gradații și indemnizații; alături de ea stau primele, premiile, sporurile și alte drepturi bănești, ale căror cuantumuri se stabilesc prin hotărâre a Guvernului.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "sustine": 0.99,
+     "nu_spune": 0.0,
+     "contrazice": 0.01
+    },
+    "confidence": 0.99
+   }
+  },
+  "usage": 2898
+ },
+ {
+  "loc": "Drepturile cadrelor în activitate și pensia militară (art. 9 / paragraful 2",
+  "afirmatii": {
+   "0": {
+    "text": "Lit. b) enumeră drepturile în natură acordate gratuit — echipament, hrană, asistență medicală, medicamente, locuință de serviciu — plus concediile și scutirile medicale plătite, toate în condițiile stabilite prin hotărâre a Guvernului.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Lit. c) privește reducerile sau scutirile de impozit pe venit și de chirie, lit. d) transportul gratuit.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.99
+   }
+  },
+  "usage": 3197
+ },
+ {
+  "loc": "Drepturile cadrelor în activitate și pensia militară (art. 9 / paragraful 3",
+  "afirmatii": {
+   "0": {
+    "text": "Lit. e) este o prevedere distinctă ca formă: suportarea de către Ministerul Apărării Naționale a sumelor pentru asistența juridică a cadrelor militare, pentru fapte săvârșite în exercitarea atribuțiilor de serviciu, se face în condițiile stabilite prin ordin al ministrului apărării naționale, nu prin hotărâre a Guvernului ca celelalte.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 2815
+ },
+ {
+  "loc": "Drepturile cadrelor în activitate și pensia militară (art. 9 / paragraful 4",
+  "afirmatii": {
+   "0": {
+    "text": "Dreptul la pensie apare în două locuri: art. 9^1 prevede că cadrele militare trecute în rezervă sau direct în retragere au dreptul la pensie militară de stat, potrivit legii, iar art. 11 alin. (1) repetă dreptul la pensie militară.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Art. 11 alin. (3) adaugă sporul pentru „Semnul onorific”: 10% pentru clasa a III-a, 15% pentru clasa a II-a și 20% pentru clasa I din cuantumul pensiei.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 3348
+ },
+ {
+  "loc": "Pregătirea profesională și studiile (art. 12, art. 13) / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 12 recunoaște dreptul cadrelor militare în activitate de a urma învățământul superior militar sau civil, postuniversitar, doctoratul sau alte forme de perfecționare a pregătirii, cu respectarea normelor legale.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 2259
+ },
+ {
+  "loc": "Pregătirea profesională și studiile (art. 12, art. 13) / paragraful 2",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 13 alin. (1) privește studiile în străinătate: trimiterea se face prin concurs și cu aprobarea ministrului apărării naționale — două condiții cumulative.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Alin. (2) leagă absolvirea de carieră: cei care au absolvit școli și academii militare, cursuri sau alte forme de pregătire în străinătate beneficiază de drepturi depline la încadrarea și promovarea în funcții corespunzătoare studiilor din țara cu care le-au fost echivalate diplomele.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 0.99
+   }
+  },
+  "usage": 2768
+ },
+ {
+  "loc": "Concediile: de odihnă, fără plată, de formare profesională ( / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 14 alin. (1) enumeră, pentru timp de pace, trei concedii: concediul de odihnă, concediul de odihnă suplimentar pentru activitate în locuri de muncă cu condiții deosebite — vătămătoare, grele sau periculoase — și concediul de studii.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Alin. (2) trimite la hotărâre a Guvernului pentru durata și acordarea lor, precum și pentru compensarea în bani a concediului de odihnă neefectuat.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 5320
+ },
+ {
+  "loc": "Concediile: de odihnă, fără plată, de formare profesională ( / paragraful 2",
+  "afirmatii": {
+   "0": {
+    "text": "Concediile fără plată au două durate distincte: cel mult 4 ani în cele două situații de la art. 14^1 alin. (1) — urmarea soțului sau soției trimis în străinătate pentru o misiune permanentă mai mare de 6 luni, respectiv selecția pentru a ocupa temporar posturi în organizații internaționale — și cel mult un an, pe durată determinată, pentru alte cazuri temeinic motivate (alin. (2)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 0.99
+   }
+  },
+  "usage": 5118
+ },
+ {
+  "loc": "Concediile: de odihnă, fără plată, de formare profesională ( / paragraful 3",
+  "afirmatii": {
+   "0": {
+    "text": "Aprobarea aparține ministrului apărării naționale sau comandanților stabiliți de acesta (alin. (3)), iar ministrul poate prelungi durata cu cel mult un an (alin. (4)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.01,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 0.99
+    },
+    "confidence": 0.98
+   }
+  },
+  "usage": 4766
+ },
+ {
+  "loc": "Concediile: de odihnă, fără plată, de formare profesională ( / paragraful 4",
+  "afirmatii": {
+   "0": {
+    "text": "Pe durata concediului fără plată cadrul militar este suspendat din funcție și nu beneficiază de niciun drept din partea Ministerului Apărării Naționale, cu o singură excepție: folosirea locuinței de serviciu, în cazul când se dispune de aceasta (alin. (5)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.01,
+     "absenta_corecta": 0.0,
+     "sustine": 0.99,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.98
+   },
+   "1": {
+    "text": "Perioada nu constituie vechime în serviciu pentru stabilirea pensiei, vechime în activitate pentru Semnul onorific În Serviciul Patriei sau pentru acordarea gradației următoare (alin. (6)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.01,
+     "absenta_corecta": 0.0,
+     "sustine": 0.99,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.98
+   }
+  },
+  "usage": 5228
+ },
+ {
+  "loc": "Concediile: de odihnă, fără plată, de formare profesională ( / paragraful 5",
+  "afirmatii": {
+   "0": {
+    "text": "La încetarea concediului fără plată, instituția are obligația de a numi cadrul militar pe o funcție vacantă sau să îl pună la dispoziție în vederea încadrării (alin. (9)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Regimul diferă la concediul fără plată pentru formare profesională al cadrelor confirmate în serviciul medical: acolo art. 14^2 alin. (2) prevede reîncadrarea din oficiu pe funcția de pe care cadrul a fost suspendat, prin rezervarea acesteia, cu excepția reorganizării sau restructurării în care postul se desființează.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.99,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.01
+    },
+    "confidence": 0.98
+   }
+  },
+  "usage": 5380
+ },
+ {
+  "loc": "Concediile: de odihnă, fără plată, de formare profesională ( / paragraful 6",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 14^3 alin. (1) prevede un concediu distinct, anual și plătit, pentru formare profesională, de până la 15 zile lucrătoare, cu aprobarea comandantului unității militare.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Alin. (2) adaugă două reguli: durata lui nu poate fi dedusă din concediul de odihnă anual și este asimilată unei perioade de muncă efectivă în ceea ce privește drepturile cuvenite personalului militar.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 5316
+ },
+ {
+  "loc": "Concediile: de odihnă, fără plată, de formare profesională ( / paragraful 7",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 14^4 arată ce se plătește pe timpul unor absențe: cadrele militare din Ministerul Apărării Naționale aflate în concediu de odihnă, concediu paternal, incapacitate temporară de muncă și în permisie beneficiază de solda de funcție, solda de grad, gradații și, după caz, solda de comandă, indemnizațiile, compensațiile, sporurile, primele, majorările și alte drepturi salariale cu caracter permanent.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 4853
+ },
+ {
+  "loc": "Maternitate, creșterea copilului, permisii (art. 15, 17, 18) / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 15 alin. (1) privește femeile cadre militare în activitate: au dreptul la concediu de maternitate și beneficiază de pauze pentru alimentarea și îngrijirea copilului, precum și de alte drepturi prevăzute de lege pentru femeile salariate din administrația publică.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 2744
+ },
+ {
+  "loc": "Maternitate, creșterea copilului, permisii (art. 15, 17, 18) / paragraful 2",
+  "afirmatii": {
+   "0": {
+    "text": "Alin. (2) enumeră, pentru cadrele militare în activitate fără distincție, concediul și indemnizația pentru îngrijirea copilului bolnav, concediul de acomodare, concediul paternal și concediul și indemnizația pentru creșterea copilului, în condițiile dispozițiilor legale în vigoare.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.99,
+     "nu_spune": 0.0,
+     "contrazice": 0.01,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 0.98
+   },
+   "1": {
+    "text": "Alin. (3) adaugă că la stabilirea stagiului în grad se ia în calcul întreaga durată a acestor concedii.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.95,
+     "contrazice": 0.05,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 0.93
+   }
+  },
+  "usage": 3073
+ },
+ {
+  "loc": "Maternitate, creșterea copilului, permisii (art. 15, 17, 18) / paragraful 3",
+  "afirmatii": {
+   "0": {
+    "text": "Permisiile (art. 17 alin. (1)) se acordă pentru rezolvarea unor situații personale sau familiale deosebite și privesc atât cadrele în activitate, cât și pe cele în rezervă, pe timpul cât sunt concentrate sau mobilizate în unități militare.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Durata lor și comandanții care le aprobă se stabilesc prin regulamentele militare, nu prin lege (alin. (2)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.01,
+     "sustine": 0.99,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 0.98
+   }
+  },
+  "usage": 3124
+ },
+ {
+  "loc": "Maternitate, creșterea copilului, permisii (art. 15, 17, 18) / paragraful 4",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 18 conține o regulă de necumul inversat: timpul acordat pentru permisii, scutiri și concedii medicale nu se scade din durata concediului anual de odihnă sau a concediului de odihnă suplimentar.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.06,
+     "nu_spune": 0.0,
+     "sustine": 0.94,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 0.92
+   }
+  },
+  "usage": 2635
+ },
+ {
+  "loc": "Compensația lunară pentru chirie și indemnizația soțului car / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 20^1 alin. (1) acordă o compensație lunară pentru chirie de până la 50% din solda lunară cadrelor numite în prima funcție, mutate în interesul serviciului, detașate și/sau împuternicite într-o altă garnizoană decât cea de domiciliu, care nu dețin locuință proprietate personală acolo — nici ele, nici soțiile sau soții — și cărora nu li se poate asigura spațiu de locuit corespunzător.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 4836
+ },
+ {
+  "loc": "Compensația lunară pentru chirie și indemnizația soțului car / paragraful 2",
+  "afirmatii": {
+   "0": {
+    "text": "Alin. (2) tratează situația inversă, în garnizoana de domiciliu: acolo dreptul nu este automat, ci cadrele pot beneficia, în cazuri justificate, pe baza rezultatelor anchetei sociale efectuate de o comisie constituită prin ordin al ministrului apărării naționale, la propunerea comandanților sau a șefilor.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Diferența dintre „au dreptul” (alin. 1) și „pot beneficia [...] în cazuri justificate” (alin. 2) este esențială.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 5045
+ },
+ {
+  "loc": "Compensația lunară pentru chirie și indemnizația soțului car / paragraful 3",
+  "afirmatii": {
+   "0": {
+    "text": "Alin. (2^1) extinde compensația la cei care contractează un credit ipotecar/imobiliar pentru achiziționarea unei locuințe sau încheie un contract de vânzare-cumpărare cu plata în rate: compensația se acordă pe o perioadă ce nu poate depăși durata creditului sau a contractului, în cuantumul de la alin. (1), dar nu poate depăși rata lunară plătită.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 4643
+ },
+ {
+  "loc": "Compensația lunară pentru chirie și indemnizația soțului car / paragraful 4",
+  "afirmatii": {
+   "0": {
+    "text": "Alin. (2^2) adaugă trei limite: compensația se acordă pentru o singură locuință achiziționată pe timpul carierei; nu se poate acorda concomitent pentru situația de la alin. (1) și (2) și pentru cea de la alin. (2^1), cadrul militar trebuind să opteze; iar Ministerul Apărării Naționale nu îi mai asigură spațiu de locuit în garnizoana unde a achiziționat locuința.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Alin. (2^4) prevede că beneficiul se poate obține într-o singură garnizoană.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 5058
+ },
+ {
+  "loc": "Compensația lunară pentru chirie și indemnizația soțului car / paragraful 5",
+  "afirmatii": {
+   "0": {
+    "text": "Cuantumul concret și condițiile de acordare se stabilesc prin hotărâre a Guvernului, la propunerea ministrului apărării naționale (alin. (3)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 4574
+ },
+ {
+  "loc": "Compensația lunară pentru chirie și indemnizația soțului car / paragraful 6",
+  "afirmatii": {
+   "0": {
+    "text": "Alin. (4) prevede un drept distinct, al soțului sau soției: cei care au fost încadrați în muncă și au întrerupt activitatea din cauza mutării împreună cu cadrul militar au dreptul la o indemnizație lunară de 50% din solda lunară a cadrelor pe care le-au urmat, până la o nouă angajare sau până la prestarea unei activități autorizate aducătoare de venituri, dar nu mai mult de 9 luni de la data mutării.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Alin. (5) extinde dreptul la cei înscriși ca șomeri, dar numai după expirarea termenului de plată a indemnizației de șomaj.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 5088
+ },
+ {
+  "loc": "Despăgubiri, invaliditate și drepturile familiei (art. 21, 2 / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 21 alin. (1) acordă despăgubiri pentru cazurile de invaliditate sau de deces produse ca urmare a unor acțiuni militare, prin accidente, catastrofe sau alte asemenea evenimente intervenite în timpul și din cauza serviciului militar ori a unor misiuni internaționale de menținere a păcii sau umanitare.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Beneficiarii sunt atât cadrele în activitate, cât și cele în rezervă concentrate sau mobilizate.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   },
+   "2": {
+    "text": "Cuantumul se stabilește prin hotărâre a Guvernului (alin. (2)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 4839
+ },
+ {
+  "loc": "Despăgubiri, invaliditate și drepturile familiei (art. 21, 2 / paragraful 2",
+  "afirmatii": {
+   "0": {
+    "text": "Alin. (3) prevede că pensia pentru invaliditate permanentă survenită în aceste condiții este egală cu solda lunară avută la data respectivă și se actualizează potrivit art. 11.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 3851
+ },
+ {
+  "loc": "Despăgubiri, invaliditate și drepturile familiei (art. 21, 2 / paragraful 3",
+  "afirmatii": {
+   "0": {
+    "text": "Alin. (4) oferă o cale de rămânere în sistem: la cerere, personalul încadrat în gradul III de invaliditate sau clasat apt limitat, în timpul ori în legătură cu exercitarea atribuțiilor de serviciu, poate fi menținut sau rechemat în activitate în funcții militare ori încadrat în funcții civile fără examen sau concurs, în condițiile stabilite prin ordin al conducătorului instituției.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.01,
+     "absenta_corecta": 0.0,
+     "sustine": 0.99,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.99
+   }
+  },
+  "usage": 3908
+ },
+ {
+  "loc": "Despăgubiri, invaliditate și drepturile familiei (art. 21, 2 / paragraful 4",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 23 alin. (1) acordă membrilor familiilor cadrelor militare în activitate, gratuit, asistență medicală și medicamente, precum și transport atunci când cadrul militar este mutat în interes de serviciu dintr-o garnizoană în alta.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Alin. (2) adaugă pensia de urmaș.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "2": {
+    "text": "Alin. (3) prevede că la decesul unui cadru militar în activitate se acordă familiei sau persoanei care a suportat cheltuielile de deces un ajutor suplimentar în cuantum de două solde lunare neimpozabile.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 4826
+ },
+ {
+  "loc": "Despăgubiri, invaliditate și drepturile familiei (art. 21, 2 / paragraful 5",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 26 extinde asistența medicală gratuită, în condițiile art. 23 alin. (1) lit. a), la cadrele în rezervă și în retragere care sunt pensionari militari, care au și acces la cercurile militare, casele de odihnă, sanatoriile, căminele de garnizoană și alte amenajări recreative sau sportive.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Alin. (2) păstrează aceste drepturi și pentru foștii pensionari militari de invaliditate care ulterior au optat pentru pensia din sistemul asigurărilor sociale de stat, iar alin. (3) le extinde, pentru asistența medicală, la membrii familiilor lor.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.02,
+     "sustine": 0.98
+    },
+    "confidence": 0.97
+   }
+  },
+  "usage": 4342
+ },
+ {
+  "loc": "capcana 1",
+  "afirmatii": {
+   "0": {
+    "text": "Compensația pentru chirie are două regimuri: în altă garnizoană decât cea de domiciliu cadrele „au dreptul” (art. 20^1 alin. (1)), în garnizoana de domiciliu „pot beneficia, în cazuri justificate”, pe baza anchetei sociale (alin. (2)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Distractorii inversează cele două situații sau omit ancheta socială.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.39,
+     "absenta_corecta": 0.06,
+     "sustine": 0.44,
+     "contrazice": 0.11
+    },
+    "confidence": 0.25
+   }
+  },
+  "usage": 14227
+ },
+ {
+  "loc": "capcana 2",
+  "afirmatii": {
+   "0": {
+    "text": "Procentul de 50% apare de două ori, cu roluri diferite: compensația pentru chirie este de până la 50% din solda lunară (art. 20^1 alin. (1)), iar indemnizația soțului care a întrerupt activitatea este de 50% din solda lunară a cadrului urmat, pentru cel mult 9 luni (alin. (4)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 13850
+ },
+ {
+  "loc": "capcana 3",
+  "afirmatii": {
+   "0": {
+    "text": "Concediile fără plată au două durate: cel mult 4 ani pentru situațiile de la art. 14^1 alin. (1), cel mult un an pentru „alte cazuri, temeinic motivate” (alin. (2)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Prelungirea făcută de ministru este tot de cel mult un an (alin. (4)), nu de 4 ani.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 14318
+ },
+ {
+  "loc": "capcana 4",
+  "afirmatii": {
+   "0": {
+    "text": "La revenirea din concediu fără plată regula generală este numirea pe o funcție vacantă sau punerea la dispoziție (art. 14^1 alin. (9)); reîncadrarea din oficiu pe funcția rezervată este prevăzută doar pentru concediul de formare profesională al cadrelor confirmate în serviciul medical (art. 14^2 alin. (2)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.01,
+     "contrazice": 0.02,
+     "sustine": 0.97,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.96
+   }
+  },
+  "usage": 13879
+ },
+ {
+  "loc": "capcana 5",
+  "afirmatii": {
+   "0": {
+    "text": "Concediul pentru formare profesională de la art. 14^3 este plătit, anual, de până la 15 zile lucrătoare, și se aprobă de comandantul unității militare — nu de ministru, ca la concediile fără plată.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0
+    },
+    "confidence": 0.99
+   }
+  },
+  "usage": 13650
+ },
+ {
+  "loc": "capcana 6",
+  "afirmatii": {
+   "0": {
+    "text": "Sporul pentru „Semnul onorific” crește invers față de numărul clasei: 10% pentru clasa a III-a, 15% pentru clasa a II-a, 20% pentru clasa I (art. 11 alin. (3)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 0.99
+   }
+  },
+  "usage": 13723
+ },
+ {
+  "loc": "capcana 7",
+  "afirmatii": {
+   "0": {
+    "text": "Ajutorul suplimentar la decesul unui cadru militar în activitate este de două solde lunare neimpozabile (art. 23 alin. (3)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Nu se confundă cu despăgubirile de la art. 21, al căror cuantum se stabilește prin hotărâre a Guvernului.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.01,
+     "nu_spune": 0.15,
+     "sustine": 0.79,
+     "absenta_corecta": 0.05
+    },
+    "confidence": 0.72
+   }
+  },
+  "usage": 14131
+ },
+ {
+  "loc": "capcana 8",
+  "afirmatii": {
+   "0": {
+    "text": "Asistența juridică suportată de minister (art. 9 alin. (1) lit. e)) se acordă în condiții stabilite prin ordin al ministrului apărării naționale, spre deosebire de drepturile de la lit. a)–d), unde textul trimite la hotărâre a Guvernului.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 0.99
+   }
+  },
+  "usage": 13777
+ },
+ {
+  "loc": "capcana 9",
+  "afirmatii": {
+   "0": {
+    "text": "Participarea la misiuni în afara teritoriului este o obligație (art. 8 alin. (2)); excepția se face la cerere și numai în una dintre cele șase situații de la alin. (3).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.99,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.01
+    },
+    "confidence": 0.98
+   }
+  },
+  "usage": 13730
+ },
+ {
+  "loc": "capcana 10",
+  "afirmatii": {
+   "0": {
+    "text": "Limita obligației de a executa ordine este în chiar textul îndatoririi de la art. 8 alin. (1) lit. b): actele contrare legii, obiceiurilor războiului și convențiilor internaționale nu pot fi ordonate, iar neexecutarea lor nu atrage răspunderea penală și civilă a subordonatului.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 13851
+ }
+]
