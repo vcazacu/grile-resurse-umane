@@ -1,0 +1,1509 @@
+[
+ {
+  "loc": "Domeniul de aplicare și raportul cu legile speciale (art. 1, / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 1 alin. (1) arată ce reglementează codul: domeniul raporturilor de muncă, modul în care se efectuează controlul aplicării reglementărilor din acest domeniu și jurisdicția muncii.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 3082
+ },
+ {
+  "loc": "Domeniul de aplicare și raportul cu legile speciale (art. 1, / paragraful 2",
+  "afirmatii": {
+   "0": {
+    "text": "Alin. (2) conține regula care interesează direct personalul militar și pe cel din serviciile de informații: codul se aplică și raporturilor de muncă reglementate prin legi speciale, numai în măsura în care acestea nu conțin dispoziții specifice derogatorii.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.01,
+     "sustine": 0.99,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 0.98
+   },
+   "1": {
+    "text": "Legea specială nu înlătură deci Codul muncii în bloc, ci doar acolo unde derogă expres.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 0.99
+   }
+  },
+  "usage": 3423
+ },
+ {
+  "loc": "Domeniul de aplicare și raportul cu legile speciale (art. 1, / paragraful 3",
+  "afirmatii": {
+   "0": {
+    "text": "Alin. (4) definește raportul juridic de muncă: raportul reglementat prin lege în temeiul căruia o persoană fizică, denumită lucrător, se obligă să presteze o activitate pentru și sub autoritatea unei alte persoane fizice sau juridice, în schimbul unei remunerații.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 3028
+ },
+ {
+  "loc": "Domeniul de aplicare și raportul cu legile speciale (art. 1, / paragraful 4",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 2 enumeră categoriile cărora li se aplică dispozițiile codului, de la lit. a) la lit. h): cetățenii români încadrați cu contract individual de muncă care prestează muncă în România; cei care prestează activitatea în străinătate în baza unor contracte încheiate cu un angajator român, cu excepția cazului în care legislația statului pe teritoriul căruia se execută contractul este mai favorabilă; cetățenii străini sau apatrizii încadrați cu contract individual de muncă pentru un angajator român pe teritoriul României; refugiații; ucenicii; angajatorii persoane fizice și juridice; organizațiile sindicale și patronale.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.92,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.08
+    },
+    "confidence": 0.89
+   }
+  },
+  "usage": 3143
+ },
+ {
+  "loc": "Noțiunea, durata și forma contractului (art. 10, 11, 12, 14, / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 10 definește contractul individual de muncă prin cele trei elemente ale sale: prestarea muncii de către o persoană fizică denumită salariat, subordonarea — „pentru și sub autoritatea” unui angajator — și remunerația denumită salariu.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 4306
+ },
+ {
+  "loc": "Noțiunea, durata și forma contractului (art. 10, 11, 12, 14, / paragraful 2",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 11 fixează limita conținutului: clauzele nu pot conține prevederi contrare sau drepturi sub nivelul minim stabilit prin acte normative ori prin contracte colective de muncă.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Nivelul minim este deci un plafon inferior, nu o simplă recomandare.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.93,
+     "contrazice": 0.01,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.05
+    },
+    "confidence": 0.91
+   }
+  },
+  "usage": 4683
+ },
+ {
+  "loc": "Noțiunea, durata și forma contractului (art. 10, 11, 12, 14, / paragraful 3",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 12 alin. (1) enunță regula duratei nedeterminate, iar alin. (2) arată că durata determinată este excepția, posibilă numai în condițiile expres prevăzute de lege.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 4325
+ },
+ {
+  "loc": "Noțiunea, durata și forma contractului (art. 10, 11, 12, 14, / paragraful 4",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 14 definește angajatorul și momentul de la care poate încheia contracte: persoana juridică, din momentul dobândirii personalității juridice (alin. (2)); persoana fizică, din momentul dobândirii capacității depline de exercițiu (alin. (3)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 4323
+ },
+ {
+  "loc": "Noțiunea, durata și forma contractului (art. 10, 11, 12, 14, / paragraful 5",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 16 alin. (1) impune patru cerințe pentru încheiere: consimțământul părților, forma scrisă, limba română și termenul — cel târziu în ziua anterioară începerii activității de către salariat.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Obligația de încheiere în formă scrisă revine angajatorului.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 4813
+ },
+ {
+  "loc": "Noțiunea, durata și forma contractului (art. 10, 11, 12, 14, / paragraful 6",
+  "afirmatii": {
+   "0": {
+    "text": "Alin. (2) prevede înregistrarea în registrul general de evidență a salariaților, anterior începerii activității, cu transmiterea la inspectoratul teritorial de muncă cel târziu în ziua anterioară începerii activității.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Alin. (3) obligă angajatorul ca, anterior începerii activității, să înmâneze salariatului un exemplar din contract.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 4726
+ },
+ {
+  "loc": "Obligația de informare (art. 17) / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 17 alin. (1) situează informarea înaintea încheierii sau modificării contractului și o raportează la clauzele esențiale pe care angajatorul intenționează să le înscrie sau să le modifice.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0,
+     "sustine": 1.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Alin. (2) precizează când se consideră îndeplinită obligația: la momentul semnării contractului individual de muncă sau a actului adițional.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0,
+     "sustine": 1.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 4353
+ },
+ {
+  "loc": "Obligația de informare (art. 17) / paragraful 2",
+  "afirmatii": {
+   "0": {
+    "text": "Alin. (3) enumeră elementele minime ale informării, printre care identitatea părților, locul de muncă, sediul sau domiciliul angajatorului, funcția sau ocupația și fișa postului, criteriile de evaluare a activității profesionale, riscurile specifice postului, data de la care contractul își produce efectele, durata concediului de odihnă, condițiile de acordare a preavizului și durata acestuia, salariul de bază și periodicitatea plății, durata normală a muncii, contractul colectiv aplicabil, precum și durata și condițiile perioadei de probă, dacă există.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.01,
+     "sustine": 0.99
+    },
+    "confidence": 0.98
+   }
+  },
+  "usage": 3945
+ },
+ {
+  "loc": "Obligația de informare (art. 17) / paragraful 3",
+  "afirmatii": {
+   "0": {
+    "text": "Alin. (4) prevede că elementele din informare trebuie să se regăsească și în conținutul contractului individual de muncă, cu excepția informațiilor de la lit. m), o) și p) — contractul colectiv aplicabil, procedurile privind semnătura electronică și dreptul la formare profesională.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.99
+   }
+  },
+  "usage": 3853
+ },
+ {
+  "loc": "Obligația de informare (art. 17) / paragraful 4",
+  "afirmatii": {
+   "0": {
+    "text": "Alin. (5) impune încheierea unui act adițional anterior producerii modificării oricăruia dintre elementele de la alin. (3), cu excepția situațiilor în care modificarea este prevăzută expres de lege sau în contractul colectiv de muncă.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 3833
+ },
+ {
+  "loc": "Certificatul medical, verificarea aptitudinilor și perioada  / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 27 alin. (1) condiționează angajarea de un certificat medical care constată că persoana este aptă pentru prestarea acelei munci, iar alin. (2) prevede sancțiunea: nerespectarea atrage nulitatea contractului individual de muncă.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Alin. (4) interzice expres solicitarea, la angajare, a testelor de graviditate.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 5459
+ },
+ {
+  "loc": "Certificatul medical, verificarea aptitudinilor și perioada  / paragraful 2",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 28 enumeră situațiile în care certificatul medical este obligatoriu și ulterior angajării, printre care reînceperea activității după o întrerupere mai mare de 6 luni pentru locurile de muncă cu expunere la factori nocivi profesionali și de un an în celelalte situații (lit. a)), detașarea sau trecerea în alt loc de muncă dacă se schimbă condițiile de muncă (lit. b)), începerea misiunii în cazul muncii temporare (lit. c)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 0.99
+   }
+  },
+  "usage": 5067
+ },
+ {
+  "loc": "Certificatul medical, verificarea aptitudinilor și perioada  / paragraful 3",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 29 alin. (3) limitează scopul informațiilor cerute la verificarea prealabilă: ele nu pot avea alt scop decât aprecierea capacității de a ocupa postul și a aptitudinilor profesionale.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Alin. (4) permite angajatorului să ceară informații de la foștii angajatori, dar numai cu privire la activitățile îndeplinite și la durata angajării și numai cu încunoștințarea prealabilă a celui în cauză.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 5532
+ },
+ {
+  "loc": "Certificatul medical, verificarea aptitudinilor și perioada  / paragraful 4",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 30 alin. (1) prevede, pentru instituțiile și autoritățile publice și pentru alte unități bugetare, încadrarea numai prin concurs sau examen.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Alin. (3) arată când se trece de la concurs la examen: dacă la concursul organizat nu s-au prezentat mai mulți candidați.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 5450
+ },
+ {
+  "loc": "Certificatul medical, verificarea aptitudinilor și perioada  / paragraful 5",
+  "afirmatii": {
+   "0": {
+    "text": "Perioada de probă are trei durate maxime, toate în zile calendaristice: cel mult 90 de zile pentru funcțiile de execuție, cel mult 120 de zile pentru funcțiile de conducere (art. 31 alin. (1)) și maximum 30 de zile la încadrarea persoanelor cu handicap, unde verificarea aptitudinilor se face exclusiv prin această modalitate (alin. (2)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 5133
+ },
+ {
+  "loc": "Certificatul medical, verificarea aptitudinilor și perioada  / paragraful 6",
+  "afirmatii": {
+   "0": {
+    "text": "Alin. (3) prevede că pe durata sau la sfârșitul perioadei de probă contractul poate înceta exclusiv printr-o notificare scrisă, fără preaviz, la inițiativa oricăreia dintre părți, fără a fi necesară motivarea.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Alin. (4) păstrează însă salariatului toate drepturile și obligațiile din legislația muncii.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 5415
+ },
+ {
+  "loc": "Certificatul medical, verificarea aptitudinilor și perioada  / paragraful 7",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 32 alin. (1) permite o singură perioadă de probă pe durata executării unui contract; alin. (2) admite o nouă perioadă doar dacă salariatul debutează la același angajator într-o nouă funcție sau profesie ori urmează să presteze activitatea într-un loc de muncă cu condiții grele, vătămătoare sau periculoase.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Alin. (3) prevede că perioada de probă constituie vechime în muncă.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 0.99
+   },
+   "2": {
+    "text": "Art. 33 limitează la maximum 12 luni perioada în care se pot face angajări succesive de probă ale mai multor persoane pentru același post.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 5902
+ },
+ {
+  "loc": "Drepturile și obligațiile părților (art. 39, art. 40) / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 39 alin. (1) enumeră drepturile principale ale salariatului, de la salarizare pentru munca depusă și repaus zilnic și săptămânal, până la dreptul de a constitui sau de a adera la un sindicat.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "sustine": 0.94,
+     "nu_spune": 0.0,
+     "contrazice": 0.06
+    },
+    "confidence": 0.92
+   },
+   "1": {
+    "text": "Lit. m^1) adaugă un drept condiționat: dreptul de a solicita trecerea pe un post vacant care îi asigură condiții de muncă mai favorabile, dacă și-a încheiat perioada de probă și are o vechime de cel puțin 6 luni la același angajator.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 4729
+ },
+ {
+  "loc": "Drepturile și obligațiile părților (art. 39, art. 40) / paragraful 2",
+  "afirmatii": {
+   "0": {
+    "text": "Alin. (2) enumeră obligațiile salariatului: realizarea normei de muncă sau îndeplinirea atribuțiilor din fișa postului, respectarea disciplinei muncii, a regulamentului intern, a contractului colectiv și a celui individual, obligația de fidelitate față de angajator în executarea atribuțiilor de serviciu, respectarea măsurilor de securitate și sănătate în muncă și a secretului de serviciu.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 3986
+ },
+ {
+  "loc": "Drepturile și obligațiile părților (art. 39, art. 40) / paragraful 3",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 40 alin. (1) enumeră drepturile angajatorului, printre care stabilirea organizării și funcționării unității, a atribuțiilor fiecărui salariat, emiterea de dispoziții obligatorii sub rezerva legalității lor, controlul îndeplinirii sarcinilor, constatarea abaterilor și aplicarea sancțiunilor, precum și stabilirea obiectivelor de performanță individuală și a criteriilor de evaluare.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 4234
+ },
+ {
+  "loc": "Drepturile și obligațiile părților (art. 39, art. 40) / paragraful 4",
+  "afirmatii": {
+   "0": {
+    "text": "Alin. (2) enumeră obligațiile angajatorului, printre care informarea salariaților, acordarea tuturor drepturilor ce decurg din lege și din contracte, consultarea sindicatului sau a reprezentanților salariaților în privința deciziilor susceptibile să afecteze substanțial drepturile și interesele acestora, plata contribuțiilor și impozitelor, înființarea registrului general de evidență a salariaților și asigurarea confidențialității datelor cu caracter personal.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Lit. j) adaugă obligația de a răspunde motivat, în scris, în termen de 30 de zile de la primirea solicitării prevăzute la art. 39 alin. (1) lit. m^1).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.99,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.01
+    },
+    "confidence": 0.99
+   }
+  },
+  "usage": 4526
+ },
+ {
+  "loc": "Modificarea contractului: delegarea și detașarea (art. 41–44 / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 41 alin. (1) enunță regula acordului părților, iar alin. (2) arată că modificarea unilaterală este posibilă numai în cazurile și în condițiile prevăzute de cod.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Alin. (3) enumeră elementele la care se referă modificarea: durata contractului, locul muncii, felul muncii, condițiile de muncă, salariul, timpul de muncă și timpul de odihnă.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 3263
+ },
+ {
+  "loc": "Modificarea contractului: delegarea și detașarea (art. 41–44 / paragraful 2",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 42 alin. (1) arată cele două instrumente prin care locul muncii poate fi modificat unilateral de angajator: delegarea și detașarea.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Alin. (2) păstrează, pe durata lor, funcția și toate celelalte drepturi prevăzute în contractul individual de muncă.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 3249
+ },
+ {
+  "loc": "Modificarea contractului: delegarea și detașarea (art. 41–44 / paragraful 3",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 43 definește delegarea ca exercitarea temporară, din dispoziția angajatorului, de către salariat, a unor lucrări sau sarcini corespunzătoare atribuțiilor de serviciu în afara locului său de muncă.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Atribuțiile rămân deci aceleași; se schimbă doar locul.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.07,
+     "sustine": 0.9,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.03
+    },
+    "confidence": 0.87
+   }
+  },
+  "usage": 3202
+ },
+ {
+  "loc": "Modificarea contractului: delegarea și detașarea (art. 41–44 / paragraful 4",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 44 alin. (1) fixează durata: cel mult 60 de zile calendaristice în 12 luni, cu posibilitatea de prelungire pentru perioade succesive de maximum 60 de zile calendaristice, dar numai cu acordul salariatului.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Textul adaugă expres că refuzul salariatului de prelungire a delegării nu poate constitui motiv pentru sancționarea sa.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.01,
+     "sustine": 0.99,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 0.99
+   },
+   "2": {
+    "text": "Alin. (2) prevede dreptul la plata cheltuielilor de transport și cazare, precum și la o indemnizație de delegare.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 3735
+ },
+ {
+  "loc": "Detașarea (art. 45–48) / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 45 definește detașarea ca actul prin care se dispune schimbarea temporară a locului de muncă, din dispoziția angajatorului, la un alt angajator, în scopul executării unor lucrări în interesul acestuia.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Deosebirea față de delegare este dublă: la detașare salariatul trece la un alt angajator și lucrează în interesul acestuia.",
+    "alegere": "nu_spune",
+    "probabilitati": {
+     "nu_spune": 0.52,
+     "sustine": 0.44,
+     "absenta_corecta": 0.03,
+     "contrazice": 0.01
+    },
+    "confidence": 0.36
+   }
+  },
+  "usage": 3645
+ },
+ {
+  "loc": "Detașarea (art. 45–48) / paragraful 2",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 46 alin. (1) fixează durata la cel mult un an.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Alin. (2) permite prelungirea în mod excepțional, pentru motive obiective ce impun prezența salariatului la angajatorul la care s-a dispus detașarea, cu acordul ambelor părți, din 6 în 6 luni.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 3648
+ },
+ {
+  "loc": "Detașarea (art. 45–48) / paragraful 3",
+  "afirmatii": {
+   "0": {
+    "text": "Alin. (3) prevede că salariatul poate refuza detașarea numai în mod excepțional și pentru motive personale temeinice — un regim mai strict decât la delegare, unde refuzul prelungirii nu poate fi sancționat.",
+    "alegere": "nu_spune",
+    "probabilitati": {
+     "contrazice": 0.04,
+     "nu_spune": 0.64,
+     "sustine": 0.3,
+     "absenta_corecta": 0.02
+    },
+    "confidence": 0.52
+   },
+   "1": {
+    "text": "Alin. (4) îi dă dreptul la plata cheltuielilor de transport și cazare, precum și la o indemnizație de detașare.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 3628
+ },
+ {
+  "loc": "Detașarea (art. 45–48) / paragraful 4",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 47 rezolvă problema celor doi angajatori: drepturile se acordă de angajatorul la care s-a dispus detașarea (alin. (1)), dar salariatul beneficiază de drepturile care îi sunt mai favorabile, fie de la angajatorul care a dispus detașarea, fie de la cel la care este detașat (alin. (2)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.99
+   },
+   "1": {
+    "text": "Dacă angajatorul la care s-a dispus detașarea nu își îndeplinește obligațiile, acestea vor fi îndeplinite de angajatorul care a dispus detașarea (alin. (4)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 3678
+ },
+ {
+  "loc": "Detașarea (art. 45–48) / paragraful 5",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 48 adaugă o a treia cale de modificare unilaterală: angajatorul poate modifica temporar locul și felul muncii, fără consimțământul salariatului, în cazul unor situații de forță majoră, cu titlu de sancțiune disciplinară sau ca măsură de protecție a salariatului, în cazurile și condițiile prevăzute de cod.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.07,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 0.93
+    },
+    "confidence": 0.9
+   }
+  },
+  "usage": 3260
+ },
+ {
+  "loc": "Suspendarea contractului: efecte și cele trei surse (art. 49 / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 49 alin. (1) arată cele trei moduri în care poate interveni suspendarea: de drept, prin acordul părților sau prin actul unilateral al uneia dintre părți.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Alin. (2) descrie efectul dublu: suspendarea prestării muncii de către salariat și a plății drepturilor de natură salarială de către angajator.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 5053
+ },
+ {
+  "loc": "Suspendarea contractului: efecte și cele trei surse (art. 49 / paragraful 2",
+  "afirmatii": {
+   "0": {
+    "text": "Alin. (4) prevede o consecință severă pentru culpa salariatului: în cazul suspendării din cauza unei fapte imputabile lui, pe durata suspendării nu va beneficia de niciun drept care rezultă din calitatea sa de salariat.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Alin. (5) stabilește o regulă de concurs: de fiecare dată când în timpul suspendării intervine o cauză de încetare de drept, cauza de încetare de drept prevalează.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 5018
+ },
+ {
+  "loc": "Suspendarea contractului: efecte și cele trei surse (art. 49 / paragraful 3",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 50 enumeră cazurile de suspendare de drept: concediul de maternitate; concediul pentru incapacitate temporară de muncă; carantina; exercitarea unei funcții în cadrul unei autorități executive, legislative ori judecătorești, pe toată durata mandatului; îndeplinirea unei funcții de conducere salarizate în sindicat; forța majoră; arestarea preventivă; expirarea perioadei pentru care au fost emise avizele, autorizațiile ori atestările necesare exercitării profesiei; și alte cazuri expres prevăzute de lege.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.99,
+     "nu_spune": 0.0,
+     "contrazice": 0.01,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 0.99
+   }
+  },
+  "usage": 4687
+ },
+ {
+  "loc": "Suspendarea contractului: efecte și cele trei surse (art. 49 / paragraful 4",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 51 alin. (1) enumeră suspendarea din inițiativa salariatului: concediul pentru creșterea copilului în vârstă de până la 2 ani sau, în cazul copilului cu handicap, până la 3 ani; concediul pentru îngrijirea copilului bolnav în vârstă de până la 7 ani sau, în cazul copilului cu handicap, pentru afecțiuni intercurente, până la 18 ani; concediul paternal; concediul pentru formare profesională; exercitarea unor funcții elective în organismele profesionale; participarea la grevă; concediul de acomodare.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.89,
+     "contrazice": 0.11,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.85
+   }
+  },
+  "usage": 4974
+ },
+ {
+  "loc": "Suspendarea contractului: efecte și cele trei surse (art. 49 / paragraful 5",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 52 alin. (1) enumeră suspendarea din inițiativa angajatorului, printre care plângerea penală formulată de angajator împotriva salariatului sau trimiterea acestuia în judecată pentru fapte penale incompatibile cu funcția deținută, până la rămânerea definitivă a hotărârii; întreruperea sau reducerea temporară a activității pentru motive economice, tehnologice, structurale sau similare; durata detașării; suspendarea de către autoritățile competente a avizelor, autorizațiilor sau atestărilor.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 0.99
+   }
+  },
+  "usage": 5096
+ },
+ {
+  "loc": "Suspendarea contractului: efecte și cele trei surse (art. 49 / paragraful 6",
+  "afirmatii": {
+   "0": {
+    "text": "Alin. (3) prevede o măsură specifică pentru reducerea temporară a activității pe perioade care depășesc 30 de zile lucrătoare: angajatorul are posibilitatea reducerii programului de lucru de la 5 zile la 4 zile pe săptămână, cu reducerea corespunzătoare a salariului.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.99,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.01
+    },
+    "confidence": 0.99
+   }
+  },
+  "usage": 4622
+ },
+ {
+  "loc": "Încetarea de drept și concedierea (art. 55, 56, 58, 60, 61,  / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 55 enumeră cele trei moduri de încetare: de drept; ca urmare a acordului părților, la data convenită de acestea; și ca urmare a voinței unilaterale a uneia dintre părți, în cazurile și în condițiile limitativ prevăzute de lege.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 6661
+ },
+ {
+  "loc": "Încetarea de drept și concedierea (art. 55, 56, 58, 60, 61,  / paragraful 2",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 56 alin. (1) enumeră cazurile de încetare de drept, printre care decesul salariatului sau al angajatorului persoană fizică și dizolvarea angajatorului persoană juridică (lit. a)); îndeplinirea cumulativă a condițiilor de vârstă standard și a stagiului minim de cotizare pentru pensionare (lit. c)); constatarea nulității absolute a contractului (lit. d)); admiterea cererii de reintegrare a unei persoane concediate nelegal (lit. e)); condamnarea la executarea unei pedepse privative de libertate (lit. f)); retragerea avizelor, autorizațiilor ori atestărilor necesare exercitării profesiei (lit. g)); expirarea termenului contractului pe durată determinată (lit. i)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.99,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.01
+    },
+    "confidence": 0.99
+   }
+  },
+  "usage": 7186
+ },
+ {
+  "loc": "Încetarea de drept și concedierea (art. 55, 56, 58, 60, 61,  / paragraful 3",
+  "afirmatii": {
+   "0": {
+    "text": "Alin. (2) impune o formalitate cu termen: pentru situațiile de la lit. c)–j), constatarea încetării de drept se face în termen de 5 zile lucrătoare de la intervenirea acesteia, în scris, prin decizie a angajatorului, și se comunică persoanelor în cauză în termen de 5 zile lucrătoare.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.01,
+     "sustine": 0.99,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 0.98
+   }
+  },
+  "usage": 6676
+ },
+ {
+  "loc": "Încetarea de drept și concedierea (art. 55, 56, 58, 60, 61,  / paragraful 4",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 58 definește concedierea ca încetarea contractului din inițiativa angajatorului și o împarte în două: pentru motive care țin de persoana salariatului și pentru motive care nu țin de persoana acestuia.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 6643
+ },
+ {
+  "loc": "Încetarea de drept și concedierea (art. 55, 56, 58, 60, 61,  / paragraful 5",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 60 alin. (1) enumeră situațiile în care concedierea nu poate fi dispusă, printre care incapacitatea temporară de muncă, carantina, graviditatea — în măsura în care angajatorul a luat cunoștință de acest fapt anterior emiterii deciziei —, concediul de maternitate, concediul pentru creșterea copilului, concediul pentru îngrijirea copilului bolnav, concediul de odihnă și concediul paternal.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.99,
+     "contrazice": 0.01,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.98
+   },
+   "1": {
+    "text": "Alin. (2) înlătură aceste interdicții în cazul concedierii pentru motive ce intervin ca urmare a reorganizării judiciare, a falimentului sau a dizolvării angajatorului.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 7497
+ },
+ {
+  "loc": "Încetarea de drept și concedierea (art. 55, 56, 58, 60, 61,  / paragraful 6",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 61 enumeră cele patru motive care țin de persoana salariatului: abaterea gravă sau abaterile repetate, ca sancțiune disciplinară (lit. a)); arestarea preventivă sau arestul la domiciliu pentru o perioadă mai mare de 30 de zile (lit. b)); inaptitudinea fizică și/sau psihică constatată prin decizie a organelor competente de expertiză medicală (lit. c)); necorespunderea profesională locului de muncă (lit. d)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 6719
+ },
+ {
+  "loc": "Încetarea de drept și concedierea (art. 55, 56, 58, 60, 61,  / paragraful 7",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 63 impune două proceduri prealabile distincte: cercetarea disciplinară prealabilă pentru concedierea întemeiată pe abateri (alin. (1)) și evaluarea prealabilă a salariatului pentru necorespunderea profesională de la art. 61 lit. d) (alin. (2)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 6707
+ },
+ {
+  "loc": "Încetarea de drept și concedierea (art. 55, 56, 58, 60, 61,  / paragraful 8",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 64 prevede, pentru concedierile întemeiate pe art. 61 lit. c) și d) și pentru încetarea de drept de la art. 56 alin. (1) lit. e), obligația angajatorului de a-i propune salariatului alte locuri de muncă vacante, iar în lipsa acestora obligația de a solicita sprijinul agenției teritoriale de ocupare a forței de muncă.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Salariatul are la dispoziție 3 zile lucrătoare de la comunicare pentru a-și manifesta în scris consimțământul.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   },
+   "2": {
+    "text": "Alin. (5) prevede o compensație pentru concedierea întemeiată pe art. 61 lit. c).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.01,
+     "nu_spune": 0.0,
+     "sustine": 0.99,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 0.99
+   }
+  },
+  "usage": 7646
+ },
+ {
+  "loc": "Încetarea de drept și concedierea (art. 55, 56, 58, 60, 61,  / paragraful 9",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 65 definește concedierea pentru motive care nu țin de persoana salariatului ca încetarea determinată de desființarea locului de muncă ocupat, din unul sau mai multe motive fără legătură cu persoana acestuia, și cere, la alin. (2), ca desființarea să fie efectivă și să aibă o cauză reală și serioasă.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 6685
+ },
+ {
+  "loc": "Preavizul, decizia de concediere și demisia (art. 75, 76, 77 / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 75 alin. (1) prevede, pentru persoanele concediate în temeiul art. 61 lit. c) și d) și al art. 65 și 66, dreptul la un preaviz care nu poate fi mai mic de 20 de zile lucrătoare.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Este un prag minim, nu unul maxim.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.99,
+     "contrazice": 0.0,
+     "nu_spune": 0.01,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 0.98
+   },
+   "2": {
+    "text": "Alin. (2) exceptează persoanele concediate în temeiul art. 61 lit. d) care se află în perioada de probă.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 4675
+ },
+ {
+  "loc": "Preavizul, decizia de concediere și demisia (art. 75, 76, 77 / paragraful 2",
+  "afirmatii": {
+   "0": {
+    "text": "Alin. (3) prevede suspendarea corespunzătoare a termenului de preaviz dacă în această perioadă contractul este suspendat, cu excepția cazului de la art. 51 alin. (2) — absențele nemotivate.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 0.99
+   }
+  },
+  "usage": 3789
+ },
+ {
+  "loc": "Preavizul, decizia de concediere și demisia (art. 75, 76, 77 / paragraful 3",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 76 enumeră conținutul obligatoriu al deciziei de concediere, care se comunică salariatului în scris: motivele care determină concedierea; durata preavizului; criteriile de stabilire a ordinii de priorități, numai în cazul concedierilor colective; și lista tuturor locurilor de muncă disponibile în unitate, cu termenul în care salariații urmează să opteze.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 0.99
+   },
+   "1": {
+    "text": "Art. 77 precizează că decizia produce efecte de la data comunicării ei salariatului.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 4246
+ },
+ {
+  "loc": "Preavizul, decizia de concediere și demisia (art. 75, 76, 77 / paragraful 4",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 81 alin. (1) definește demisia ca actul unilateral de voință a salariatului care, printr-o notificare scrisă, comunică angajatorului încetarea contractului, după împlinirea unui termen de preaviz.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Alin. (2) obligă angajatorul să înregistreze demisia, iar refuzul dă salariatului dreptul de a face dovada prin orice mijloace de probă.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   },
+   "2": {
+    "text": "Alin. (3) consacră dreptul de a nu motiva demisia.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 0.99
+   }
+  },
+  "usage": 4687
+ },
+ {
+  "loc": "Preavizul, decizia de concediere și demisia (art. 75, 76, 77 / paragraful 5",
+  "afirmatii": {
+   "0": {
+    "text": "Alin. (4) fixează termenele maxime de preaviz la demisie, altfel decât la concediere: nu mai mare de 20 de zile lucrătoare pentru salariații cu funcții de execuție și nu mai mare de 45 de zile lucrătoare pentru cei care ocupă funcții de conducere.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.99
+   },
+   "1": {
+    "text": "La concediere, cele 20 de zile lucrătoare sunt un minim; la demisie, sunt un maxim.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 4214
+ },
+ {
+  "loc": "Preavizul, decizia de concediere și demisia (art. 75, 76, 77 / paragraful 6",
+  "afirmatii": {
+   "0": {
+    "text": "Alin. (5) prevede că pe durata preavizului contractul continuă să își producă toate efectele, iar alin. (7) că încetarea are loc la data expirării termenului de preaviz sau la data renunțării totale ori parțiale de către angajator la acest termen.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Alin. (8) permite demisia fără preaviz dacă angajatorul nu își îndeplinește obligațiile asumate prin contractul individual de muncă.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 4219
+ },
+ {
+  "loc": "capcana 1",
+  "afirmatii": {
+   "0": {
+    "text": "Codul muncii se aplică raporturilor reglementate prin legi speciale numai în măsura în care acestea nu conțin dispoziții specifice derogatorii (art. 1 alin. (2)) — nu „în toate cazurile” și nici „deloc”.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.01,
+     "contrazice": 0.0,
+     "sustine": 0.99,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.99
+   }
+  },
+  "usage": 25138
+ },
+ {
+  "loc": "capcana 2",
+  "afirmatii": {
+   "0": {
+    "text": "Perioada de probă are trei praguri, toate în zile calendaristice: 90 pentru funcțiile de execuție, 120 pentru funcțiile de conducere, 30 pentru persoanele cu handicap — unde este singura modalitate de verificare a aptitudinilor.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.99,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.01
+    },
+    "confidence": 0.99
+   }
+  },
+  "usage": 25079
+ },
+ {
+  "loc": "capcana 3",
+  "afirmatii": {
+   "0": {
+    "text": "Delegarea: cel mult 60 de zile calendaristice în 12 luni, prelungire cu acordul salariatului, iar refuzul nu poate fi sancționat.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Detașarea: cel mult un an, prelungire din 6 în 6 luni, iar refuzul e posibil numai excepțional, pentru motive personale temeinice.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 25468
+ },
+ {
+  "loc": "capcana 4",
+  "afirmatii": {
+   "0": {
+    "text": "La detașare, drepturile se acordă de angajatorul la care s-a dispus detașarea, dar salariatul beneficiază de cele mai favorabile dintre cele două seturi (art. 47 alin. (1) și (2)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.99,
+     "contrazice": 0.01,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.99
+   }
+  },
+  "usage": 25200
+ },
+ {
+  "loc": "capcana 5",
+  "afirmatii": {
+   "0": {
+    "text": "Arestarea preventivă apare în trei locuri diferite: suspendare de drept (art. 50 lit. g)), motiv de concediere dacă depășește 30 de zile (art. 61 lit. b)) și, la militari, cu alt regim.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.04,
+     "absenta_corecta": 0.01,
+     "sustine": 0.49,
+     "nu_spune": 0.46
+    },
+    "confidence": 0.32
+   }
+  },
+  "usage": 25186
+ },
+ {
+  "loc": "capcana 6",
+  "afirmatii": {
+   "0": {
+    "text": "Participarea la grevă este suspendare din inițiativa salariatului (art. 51 alin. (1) lit. f)), nu de drept.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.99,
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.01
+    },
+    "confidence": 0.98
+   }
+  },
+  "usage": 25073
+ },
+ {
+  "loc": "capcana 7",
+  "afirmatii": {
+   "0": {
+    "text": "Termenul de 20 de zile lucrătoare are sensuri opuse: la concediere este un minim al preavizului (art. 75 alin. (1)), la demisie un maxim (art. 81 alin. (4), unde pentru funcțiile de conducere maximul este de 45 de zile lucrătoare).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 0.99
+   }
+  },
+  "usage": 25297
+ },
+ {
+  "loc": "capcana 8",
+  "afirmatii": {
+   "0": {
+    "text": "Interdicțiile de concediere de la art. 60 alin. (1) cad în cazul reorganizării judiciare, al falimentului sau al dizolvării angajatorului (alin. (2)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 0.99
+   }
+  },
+  "usage": 25413
+ },
+ {
+  "loc": "capcana 9",
+  "afirmatii": {
+   "0": {
+    "text": "Concedierea pentru abateri cere cercetare disciplinară prealabilă, cea pentru necorespundere profesională cere evaluare prealabilă — două proceduri distincte, la art. 63 alin. (1) și (2).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 25267
+ },
+ {
+  "loc": "capcana 10",
+  "afirmatii": {
+   "0": {
+    "text": "Decizia de concediere produce efecte de la data comunicării ei salariatului (art. 77), nu de la data emiterii.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 25045
+ },
+ {
+  "loc": "capcana 11",
+  "afirmatii": {
+   "0": {
+    "text": "Constatarea încetării de drept pentru situațiile de la art. 56 alin. (1) lit. c)-j) se face în 5 zile lucrătoare de la intervenire și se comunică tot în 5 zile lucrătoare.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.03,
+     "sustine": 0.97
+    },
+    "confidence": 0.96
+   }
+  },
+  "usage": 25309
+ }
+]

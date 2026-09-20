@@ -1,0 +1,588 @@
+{
+ "nr": 9,
+ "titlu": "Raporturile de muncă – contractul individual de muncă: încheierea, executarea, modificarea, suspendarea și încetarea",
+ "rezumat": "Cea mai întinsă temă a bibliografiei. Punctele care se cer cel mai des: aplicarea Codului muncii raporturilor reglementate prin legi speciale, numai în măsura în care acestea nu conțin dispoziții derogatorii (art. 1 alin. (2)) — regula care leagă Codul muncii de statutul cadrelor militare; forma scrisă și termenul de încheiere (art. 16); perioadele de probă de 90 și 120 de zile calendaristice și cea de 30 de zile pentru persoanele cu handicap (art. 31); delegarea de cel mult 60 de zile în 12 luni, prelungibilă numai cu acordul salariatului, față de detașarea de cel mult un an; cazurile de suspendare de drept, din inițiativa salariatului și din inițiativa angajatorului; și termenele de preaviz de la concediere și demisie.",
+ "sectiuni": [
+  {
+   "titlu": "Domeniul de aplicare și raportul cu legile speciale (art. 1, art. 2)",
+   "paragrafe": [
+    "Art. 1 alin. (1) arată ce reglementează codul: domeniul raporturilor de muncă, modul în care se efectuează controlul aplicării reglementărilor din acest domeniu și jurisdicția muncii.",
+    "Alin. (2) conține regula care interesează direct personalul militar și pe cel din serviciile de informații: codul se aplică și raporturilor de muncă reglementate prin legi speciale, numai în măsura în care acestea nu conțin dispoziții specifice derogatorii. Legea specială nu înlătură deci Codul muncii în bloc, ci doar acolo unde derogă expres.",
+    "Alin. (4) definește raportul juridic de muncă: raportul reglementat prin lege în temeiul căruia o persoană fizică, denumită lucrător, se obligă să presteze o activitate pentru și sub autoritatea unei alte persoane fizice sau juridice, în schimbul unei remunerații.",
+    "Art. 2 enumeră categoriile cărora li se aplică dispozițiile codului, de la lit. a) la lit. h): cetățenii români încadrați cu contract individual de muncă care prestează muncă în România; cei care prestează activitatea în străinătate în baza unor contracte încheiate cu un angajator român, cu excepția cazului în care legislația statului pe teritoriul căruia se execută contractul este mai favorabilă; cetățenii străini sau apatrizii încadrați cu contract individual de muncă pentru un angajator român pe teritoriul României; refugiații; ucenicii; angajatorii persoane fizice și juridice; organizațiile sindicale și patronale."
+   ],
+   "temei": [
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 1 alin. (1)",
+     "citat": "Prezentul cod reglementează domeniul raporturilor de muncă, modul în care se efectuează controlul aplicării reglementărilor din domeniul raporturilor de muncă, precum și jurisdicția muncii.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    },
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 1 alin. (2)",
+     "citat": "Prezentul cod se aplică și raporturilor de muncă reglementate prin legi speciale, numai în măsura în care acestea nu conțin dispoziții specifice derogatorii.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    },
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 1 alin. (4)",
+     "citat": "Raportul juridic de muncă este raportul reglementat prin lege în temeiul căruia o persoană fizică, denumită lucrător, se obligă să presteze o activitate pentru și sub autoritatea unei alte persoane fizice sau juridice în schimbul unei remunerații.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    },
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 2",
+     "citat": "Dispozițiile cuprinse în prezentul cod se aplică: a) cetățenilor români încadrați cu contract individual de muncă, care prestează muncă în România; b) cetățenilor români încadrați cu contract individual de muncă și care prestează activitatea în străinătate, în baza unor contracte încheiate cu un angajator român, cu excepția cazului în care legislația statului pe al cărui teritoriu se execută contractul individual de muncă este mai favorabilă; [...] e) ucenicilor care prestează muncă în baza unui contract de ucenicie la locul de muncă; f) angajatorilor, persoane fizice și juridice; g) organizațiilor sindicale și patronale.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    }
+   ]
+  },
+  {
+   "titlu": "Noțiunea, durata și forma contractului (art. 10, 11, 12, 14, 16 alin. (1)–(3))",
+   "paragrafe": [
+    "Art. 10 definește contractul individual de muncă prin cele trei elemente ale sale: prestarea muncii de către o persoană fizică denumită salariat, subordonarea — „pentru și sub autoritatea” unui angajator — și remunerația denumită salariu.",
+    "Art. 11 fixează limita conținutului: clauzele nu pot conține prevederi contrare sau drepturi sub nivelul minim stabilit prin acte normative ori prin contracte colective de muncă. Nivelul minim este deci un plafon inferior, nu o simplă recomandare.",
+    "Art. 12 alin. (1) enunță regula duratei nedeterminate, iar alin. (2) arată că durata determinată este excepția, posibilă numai în condițiile expres prevăzute de lege.",
+    "Art. 14 definește angajatorul și momentul de la care poate încheia contracte: persoana juridică, din momentul dobândirii personalității juridice (alin. (2)); persoana fizică, din momentul dobândirii capacității depline de exercițiu (alin. (3)).",
+    "Art. 16 alin. (1) impune patru cerințe pentru încheiere: consimțământul părților, forma scrisă, limba română și termenul — cel târziu în ziua anterioară începerii activității de către salariat. Obligația de încheiere în formă scrisă revine angajatorului.",
+    "Alin. (2) prevede înregistrarea în registrul general de evidență a salariaților, anterior începerii activității, cu transmiterea la inspectoratul teritorial de muncă cel târziu în ziua anterioară începerii activității. Alin. (3) obligă angajatorul ca, anterior începerii activității, să înmâneze salariatului un exemplar din contract."
+   ],
+   "temei": [
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 10",
+     "citat": "Contractul individual de muncă este contractul în temeiul căruia o persoană fizică, denumită salariat, se obligă să presteze munca pentru și sub autoritatea unui angajator, persoană fizică sau juridică, în schimbul unei remunerații denumite salariu.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    },
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 11",
+     "citat": "Clauzele contractului individual de muncă nu pot conține prevederi contrare sau drepturi sub nivelul minim stabilit prin acte normative ori prin contracte colective de muncă.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    },
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 12",
+     "citat": "Contractul individual de muncă se încheie pe durată nedeterminată. (2) Prin excepție, contractul individual de muncă se poate încheia și pe durată determinată, în condițiile expres prevăzute de lege.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    },
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 14",
+     "citat": "În sensul prezentului cod, prin angajator se înțelege persoana fizică sau juridică ce poate, potrivit legii, să angajeze forță de muncă pe bază de contract individual de muncă. (2) Persoana juridică poate încheia contracte individuale de muncă, în calitate de angajator, din momentul dobândirii personalității juridice. (3) Persoana fizică dobândește capacitatea de a încheia contracte individuale de muncă în calitate de angajator, din momentul dobândirii capacității depline de exercițiu.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    },
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 16 alin. (1)",
+     "citat": "Contractul individual de muncă se încheie în baza consimțământului părților, în formă scrisă, în limba română, cel târziu în ziua anterioară începerii activității de către salariat. Obligația de încheiere a contractului individual de muncă în formă scrisă revine angajatorului.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    },
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 16 alin. (2)",
+     "citat": "Anterior începerii activității, contractul individual de muncă se înregistrează în registrul general de evidență a salariaților, care se transmite inspectoratului teritorial de muncă cel târziu în ziua anterioară începerii activității.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    },
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 16 alin. (3)",
+     "citat": "Angajatorul este obligat ca, anterior începerii activității, să înmâneze salariatului un exemplar din contractul individual de muncă.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    }
+   ]
+  },
+  {
+   "titlu": "Obligația de informare (art. 17)",
+   "paragrafe": [
+    "Art. 17 alin. (1) situează informarea înaintea încheierii sau modificării contractului și o raportează la clauzele esențiale pe care angajatorul intenționează să le înscrie sau să le modifice. Alin. (2) precizează când se consideră îndeplinită obligația: la momentul semnării contractului individual de muncă sau a actului adițional.",
+    "Alin. (3) enumeră elementele minime ale informării, printre care identitatea părților, locul de muncă, sediul sau domiciliul angajatorului, funcția sau ocupația și fișa postului, criteriile de evaluare a activității profesionale, riscurile specifice postului, data de la care contractul își produce efectele, durata concediului de odihnă, condițiile de acordare a preavizului și durata acestuia, salariul de bază și periodicitatea plății, durata normală a muncii, contractul colectiv aplicabil, precum și durata și condițiile perioadei de probă, dacă există.",
+    "Alin. (4) prevede că elementele din informare trebuie să se regăsească și în conținutul contractului individual de muncă, cu excepția informațiilor de la lit. m), o) și p) — contractul colectiv aplicabil, procedurile privind semnătura electronică și dreptul la formare profesională.",
+    "Alin. (5) impune încheierea unui act adițional anterior producerii modificării oricăruia dintre elementele de la alin. (3), cu excepția situațiilor în care modificarea este prevăzută expres de lege sau în contractul colectiv de muncă."
+   ],
+   "temei": [
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 17 alin. (1)",
+     "citat": "Anterior încheierii sau modificării contractului individual de muncă, angajatorul are obligația de a informa persoana selectată în vederea angajării ori, după caz, salariatul, cu privire la clauzele esențiale pe care intenționează să le înscrie în contract sau să le modifice.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    },
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 17 alin. (2)",
+     "citat": "Obligația de informare a persoanei selectate în vederea angajării sau a salariatului se consideră îndeplinită de către angajator la momentul semnării contractului individual de muncă sau a actului adițional, după caz.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    },
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 17 alin. (3)",
+     "citat": "Persoana selectată în vederea angajării ori salariatul, după caz, va fi informată cu privire la cel puțin următoarele elemente: a) identitatea părților; [...] d) funcția/ocupația conform specificației Clasificării ocupațiilor din România sau altor acte normative, precum și fișa postului, cu specificarea atribuțiilor postului; e) criteriile de evaluare a activității profesionale a salariatului aplicabile la nivelul angajatorului; f) riscurile specifice postului; g) data de la care contractul urmează să își producă efectele; [...] i) durata concediului de odihnă la care salariatul are dreptul; j) condițiile de acordare a preavizului de către părțile contractante și durata acestuia;",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    },
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 17 alin. (4)",
+     "citat": "Elementele din informarea prevăzută la alin. (3) trebuie să se regăsească și în conținutul contractului individual de muncă, cu excepția informațiilor prevăzute la lit. m), o) și p).",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    },
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 17 alin. (5)",
+     "citat": "Orice modificare a unuia dintre elementele prevăzute la alin. (3) în timpul executării contractului individual de muncă impune încheierea unui act adițional la contract, anterior producerii modificării, cu excepția situațiilor în care o asemenea modificare este prevăzută în mod expres de lege sau în contractul colectiv de muncă aplicabil.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    }
+   ]
+  },
+  {
+   "titlu": "Certificatul medical, verificarea aptitudinilor și perioada de probă (art. 27–33)",
+   "paragrafe": [
+    "Art. 27 alin. (1) condiționează angajarea de un certificat medical care constată că persoana este aptă pentru prestarea acelei munci, iar alin. (2) prevede sancțiunea: nerespectarea atrage nulitatea contractului individual de muncă. Alin. (4) interzice expres solicitarea, la angajare, a testelor de graviditate.",
+    "Art. 28 enumeră situațiile în care certificatul medical este obligatoriu și ulterior angajării, printre care reînceperea activității după o întrerupere mai mare de 6 luni pentru locurile de muncă cu expunere la factori nocivi profesionali și de un an în celelalte situații (lit. a)), detașarea sau trecerea în alt loc de muncă dacă se schimbă condițiile de muncă (lit. b)), începerea misiunii în cazul muncii temporare (lit. c)).",
+    "Art. 29 alin. (3) limitează scopul informațiilor cerute la verificarea prealabilă: ele nu pot avea alt scop decât aprecierea capacității de a ocupa postul și a aptitudinilor profesionale. Alin. (4) permite angajatorului să ceară informații de la foștii angajatori, dar numai cu privire la activitățile îndeplinite și la durata angajării și numai cu încunoștințarea prealabilă a celui în cauză.",
+    "Art. 30 alin. (1) prevede, pentru instituțiile și autoritățile publice și pentru alte unități bugetare, încadrarea numai prin concurs sau examen. Alin. (3) arată când se trece de la concurs la examen: dacă la concursul organizat nu s-au prezentat mai mulți candidați.",
+    "Perioada de probă are trei durate maxime, toate în zile calendaristice: cel mult 90 de zile pentru funcțiile de execuție, cel mult 120 de zile pentru funcțiile de conducere (art. 31 alin. (1)) și maximum 30 de zile la încadrarea persoanelor cu handicap, unde verificarea aptitudinilor se face exclusiv prin această modalitate (alin. (2)).",
+    "Alin. (3) prevede că pe durata sau la sfârșitul perioadei de probă contractul poate înceta exclusiv printr-o notificare scrisă, fără preaviz, la inițiativa oricăreia dintre părți, fără a fi necesară motivarea. Alin. (4) păstrează însă salariatului toate drepturile și obligațiile din legislația muncii.",
+    "Art. 32 alin. (1) permite o singură perioadă de probă pe durata executării unui contract; alin. (2) admite o nouă perioadă doar dacă salariatul debutează la același angajator într-o nouă funcție sau profesie ori urmează să presteze activitatea într-un loc de muncă cu condiții grele, vătămătoare sau periculoase. Alin. (3) prevede că perioada de probă constituie vechime în muncă. Art. 33 limitează la maximum 12 luni perioada în care se pot face angajări succesive de probă ale mai multor persoane pentru același post."
+   ],
+   "temei": [
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 27",
+     "citat": "O persoană poate fi angajată în muncă numai în baza unui certificat medical, care constată faptul că cel în cauză este apt pentru prestarea acelei munci. (2) Nerespectarea prevederilor alin. (1) atrage nulitatea contractului individual de muncă. [...] (4) Solicitarea, la angajare, a testelor de graviditate este interzisă.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    },
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 28",
+     "citat": "Certificatul medical este obligatoriu și în următoarele situații: a) la reînceperea activității după o întrerupere mai mare de 6 luni, pentru locurile de muncă având expunere la factori nocivi profesionali, și de un an, în celelalte situații; b) în cazul detașării sau trecerii în alt loc de muncă ori în altă activitate, dacă se schimbă condițiile de muncă; c) la începerea misiunii, în cazul salariaților încadrați cu contract de muncă temporară;",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    },
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 29 alin. (3)",
+     "citat": "Informațiile cerute, sub orice formă, de către angajator persoanei care solicită angajarea cu ocazia verificării prealabile a aptitudinilor nu pot avea un alt scop decât acela de a aprecia capacitatea de a ocupa postul respectiv, precum și aptitudinile profesionale.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    },
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 29 alin. (4)",
+     "citat": "Angajatorul poate cere informații în legătură cu persoana care solicită angajarea de la foștii săi angajatori, dar numai cu privire la activitățile îndeplinite și la durata angajării și numai cu încunoștințarea prealabilă a celui în cauză.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    },
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 30",
+     "citat": "Încadrarea salariaților la instituțiile și autoritățile publice și la alte unități bugetare se face numai prin concurs sau examen, după caz. [...] (3) În cazul în care la concursul organizat în vederea ocupării unui post vacant nu s-au prezentat mai mulți candidați, încadrarea în muncă se face prin examen.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    },
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 31 alin. (1)",
+     "citat": "Pentru verificarea aptitudinilor salariatului, la încheierea contractului individual de muncă se poate stabili o perioadă de probă de cel mult 90 de zile calendaristice pentru funcțiile de execuție și de cel mult 120 de zile calendaristice pentru funcțiile de conducere.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    },
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 31 alin. (2)",
+     "citat": "Verificarea aptitudinilor profesionale la încadrarea persoanelor cu handicap se realizează exclusiv prin modalitatea perioadei de probă de maximum 30 de zile calendaristice.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    },
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 31 alin. (3)",
+     "citat": "Pe durata sau la sfârșitul perioadei de probă, contractul individual de muncă poate înceta exclusiv printr-o notificare scrisă, fără preaviz, la inițiativa oricăreia dintre părți, fără a fi necesară motivarea acesteia.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    },
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 32",
+     "citat": "Pe durata executării unui contract individual de muncă nu poate fi stabilită decât o singură perioadă de probă. (2) Prin excepție, salariatul poate fi supus la o nouă perioadă de probă în situația în care acesta debutează la același angajator într-o nouă funcție sau profesie ori urmează să presteze activitatea într-un loc de muncă cu condiții grele, vătămătoare sau periculoase. [...] (3) Perioada de probă constituie vechime în muncă.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    },
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 33",
+     "citat": "Perioada în care se pot face angajări succesive de probă ale mai multor persoane pentru același post este de maximum 12 luni.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    }
+   ]
+  },
+  {
+   "titlu": "Drepturile și obligațiile părților (art. 39, art. 40)",
+   "paragrafe": [
+    "Art. 39 alin. (1) enumeră drepturile principale ale salariatului, de la salarizare pentru munca depusă și repaus zilnic și săptămânal, până la dreptul de a constitui sau de a adera la un sindicat. Lit. m^1) adaugă un drept condiționat: dreptul de a solicita trecerea pe un post vacant care îi asigură condiții de muncă mai favorabile, dacă și-a încheiat perioada de probă și are o vechime de cel puțin 6 luni la același angajator.",
+    "Alin. (2) enumeră obligațiile salariatului: realizarea normei de muncă sau îndeplinirea atribuțiilor din fișa postului, respectarea disciplinei muncii, a regulamentului intern, a contractului colectiv și a celui individual, obligația de fidelitate față de angajator în executarea atribuțiilor de serviciu, respectarea măsurilor de securitate și sănătate în muncă și a secretului de serviciu.",
+    "Art. 40 alin. (1) enumeră drepturile angajatorului, printre care stabilirea organizării și funcționării unității, a atribuțiilor fiecărui salariat, emiterea de dispoziții obligatorii sub rezerva legalității lor, controlul îndeplinirii sarcinilor, constatarea abaterilor și aplicarea sancțiunilor, precum și stabilirea obiectivelor de performanță individuală și a criteriilor de evaluare.",
+    "Alin. (2) enumeră obligațiile angajatorului, printre care informarea salariaților, acordarea tuturor drepturilor ce decurg din lege și din contracte, consultarea sindicatului sau a reprezentanților salariaților în privința deciziilor susceptibile să afecteze substanțial drepturile și interesele acestora, plata contribuțiilor și impozitelor, înființarea registrului general de evidență a salariaților și asigurarea confidențialității datelor cu caracter personal. Lit. j) adaugă obligația de a răspunde motivat, în scris, în termen de 30 de zile de la primirea solicitării prevăzute la art. 39 alin. (1) lit. m^1)."
+   ],
+   "temei": [
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 39 alin. (1)",
+     "citat": "Salariatul are, în principal, următoarele drepturi: a) dreptul la salarizare pentru munca depusă; b) dreptul la repaus zilnic și săptămânal; c) dreptul la concediu de odihnă anual; d) dreptul la egalitate de șanse și de tratament; e) dreptul la demnitate în muncă; f) dreptul la securitate și sănătate în muncă; g) dreptul la acces la formarea profesională; h) dreptul la informare și consultare; [...] j) dreptul la protecție în caz de concediere; k) dreptul la negociere colectivă și individuală; l) dreptul de a participa la acțiuni colective; m) dreptul de a constitui sau de a adera la un sindicat;",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    },
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 39 alin. (1)",
+     "citat": "m^1) dreptul de a solicita trecerea pe un post vacant care îi asigură condiții de muncă mai favorabile dacă și-a încheiat perioada de probă și are o vechime de cel puțin 6 luni la același angajator;",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    },
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 39 alin. (2)",
+     "citat": "Salariatului îi revin, în principal, următoarele obligații: a) obligația de a realiza norma de muncă sau, după caz, de a îndeplini atribuțiile ce îi revin conform fișei postului; b) obligația de a respecta disciplina muncii; c) obligația de a respecta prevederile cuprinse în regulamentul intern, în contractul colectiv de muncă aplicabil, precum și în contractul individual de muncă; d) obligația de fidelitate față de angajator în executarea atribuțiilor de serviciu; e) obligația de a respecta măsurile de securitate și sănătate a muncii în unitate; f) obligația de a respecta secretul de serviciu;",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    },
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 40 alin. (1)",
+     "citat": "Angajatorul are, în principal, următoarele drepturi: a) să stabilească organizarea și funcționarea unității; b) să stabilească atribuțiile corespunzătoare fiecărui salariat, în condițiile legii; c) să dea dispoziții cu caracter obligatoriu pentru salariat, sub rezerva legalității lor; d) să exercite controlul asupra modului de îndeplinire a sarcinilor de serviciu; e) să constate săvârșirea abaterilor disciplinare și să aplice sancțiunile corespunzătoare, potrivit legii, contractului colectiv de muncă aplicabil și regulamentului intern; f) să stabilească obiectivele de performanță individuală, precum și criteriile de evaluare a realizării acestora.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    },
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 40 alin. (2)",
+     "citat": "e) să se consulte cu sindicatul sau, după caz, cu reprezentanții salariaților în privința deciziilor susceptibile să afecteze substanțial drepturile și interesele acestora; f) să plătească toate contribuțiile și impozitele aflate în sarcina sa, precum și să rețină și să vireze contribuțiile și impozitele datorate de salariați, în condițiile legii; g) să înființeze registrul general de evidență a salariaților și să opereze înregistrările prevăzute de lege; h) să elibereze, la cerere, toate documentele care atestă calitatea de salariat a solicitantului; i) să asigure confidențialitatea datelor cu caracter personal ale salariaților.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    }
+   ]
+  },
+  {
+   "titlu": "Modificarea contractului: delegarea și detașarea (art. 41–44)",
+   "paragrafe": [
+    "Art. 41 alin. (1) enunță regula acordului părților, iar alin. (2) arată că modificarea unilaterală este posibilă numai în cazurile și în condițiile prevăzute de cod. Alin. (3) enumeră elementele la care se referă modificarea: durata contractului, locul muncii, felul muncii, condițiile de muncă, salariul, timpul de muncă și timpul de odihnă.",
+    "Art. 42 alin. (1) arată cele două instrumente prin care locul muncii poate fi modificat unilateral de angajator: delegarea și detașarea. Alin. (2) păstrează, pe durata lor, funcția și toate celelalte drepturi prevăzute în contractul individual de muncă.",
+    "Art. 43 definește delegarea ca exercitarea temporară, din dispoziția angajatorului, de către salariat, a unor lucrări sau sarcini corespunzătoare atribuțiilor de serviciu în afara locului său de muncă. Atribuțiile rămân deci aceleași; se schimbă doar locul.",
+    "Art. 44 alin. (1) fixează durata: cel mult 60 de zile calendaristice în 12 luni, cu posibilitatea de prelungire pentru perioade succesive de maximum 60 de zile calendaristice, dar numai cu acordul salariatului. Textul adaugă expres că refuzul salariatului de prelungire a delegării nu poate constitui motiv pentru sancționarea sa. Alin. (2) prevede dreptul la plata cheltuielilor de transport și cazare, precum și la o indemnizație de delegare."
+   ],
+   "temei": [
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 41",
+     "citat": "Contractul individual de muncă poate fi modificat numai prin acordul părților. (2) Cu titlu de excepție, modificarea unilaterală a contractului individual de muncă este posibilă numai în cazurile și în condițiile prevăzute de prezentul cod. (3) Modificarea contractului individual de muncă se referă la oricare dintre următoarele elemente: a) durata contractului; b) locul muncii; c) felul muncii; d) condițiile de muncă; e) salariul; f) timpul de muncă și timpul de odihnă.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    },
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 42",
+     "citat": "Locul muncii poate fi modificat unilateral de către angajator prin delegarea sau detașarea salariatului într-un alt loc de muncă decât cel prevăzut în contractul individual de muncă. (2) Pe durata delegării, respectiv a detașării, salariatul își păstrează funcția și toate celelalte drepturi prevăzute în contractul individual de muncă.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    },
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 43",
+     "citat": "Delegarea reprezintă exercitarea temporară, din dispoziția angajatorului, de către salariat, a unor lucrări sau sarcini corespunzătoare atribuțiilor de serviciu în afara locului său de muncă.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    },
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 44 alin. (2)",
+     "citat": "Salariatul delegat are dreptul la plata cheltuielilor de transport și cazare, precum și la o indemnizație de delegare, în condițiile prevăzute de lege sau de contractul colectiv de muncă aplicabil.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    }
+   ]
+  },
+  {
+   "titlu": "Detașarea (art. 45–48)",
+   "paragrafe": [
+    "Art. 45 definește detașarea ca actul prin care se dispune schimbarea temporară a locului de muncă, din dispoziția angajatorului, la un alt angajator, în scopul executării unor lucrări în interesul acestuia. Deosebirea față de delegare este dublă: la detașare salariatul trece la un alt angajator și lucrează în interesul acestuia.",
+    "Art. 46 alin. (1) fixează durata la cel mult un an. Alin. (2) permite prelungirea în mod excepțional, pentru motive obiective ce impun prezența salariatului la angajatorul la care s-a dispus detașarea, cu acordul ambelor părți, din 6 în 6 luni.",
+    "Alin. (3) prevede că salariatul poate refuza detașarea numai în mod excepțional și pentru motive personale temeinice — un regim mai strict decât la delegare, unde refuzul prelungirii nu poate fi sancționat. Alin. (4) îi dă dreptul la plata cheltuielilor de transport și cazare, precum și la o indemnizație de detașare.",
+    "Art. 47 rezolvă problema celor doi angajatori: drepturile se acordă de angajatorul la care s-a dispus detașarea (alin. (1)), dar salariatul beneficiază de drepturile care îi sunt mai favorabile, fie de la angajatorul care a dispus detașarea, fie de la cel la care este detașat (alin. (2)). Dacă angajatorul la care s-a dispus detașarea nu își îndeplinește obligațiile, acestea vor fi îndeplinite de angajatorul care a dispus detașarea (alin. (4)).",
+    "Art. 48 adaugă o a treia cale de modificare unilaterală: angajatorul poate modifica temporar locul și felul muncii, fără consimțământul salariatului, în cazul unor situații de forță majoră, cu titlu de sancțiune disciplinară sau ca măsură de protecție a salariatului, în cazurile și condițiile prevăzute de cod."
+   ],
+   "temei": [
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 45",
+     "citat": "Detașarea este actul prin care se dispune schimbarea temporară a locului de muncă, din dispoziția angajatorului, la un alt angajator, în scopul executării unor lucrări în interesul acestuia.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    },
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 46",
+     "citat": "Detașarea poate fi dispusă pe o perioadă de cel mult un an. (2) În mod excepțional, perioada detașării poate fi prelungită pentru motive obiective ce impun prezența salariatului la angajatorul la care s-a dispus detașarea, cu acordul ambelor părți, din 6 în 6 luni. (3) Salariatul poate refuza detașarea dispusă de angajatorul său numai în mod excepțional și pentru motive personale temeinice. (4) Salariatul detașat are dreptul la plata cheltuielilor de transport și cazare, precum și la o indemnizație de detașare, în condițiile prevăzute de lege sau de contractul colectiv de muncă aplicabil.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    },
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 47",
+     "citat": "Drepturile cuvenite salariatului detașat se acordă de angajatorul la care s-a dispus detașarea. (2) Pe durata detașării salariatul beneficiază de drepturile care îi sunt mai favorabile, fie de drepturile de la angajatorul care a dispus detașarea, fie de drepturile de la angajatorul la care este detașat. [...] (4) Dacă angajatorul la care s-a dispus detașarea nu își îndeplinește integral și la timp toate obligațiile față de salariatul detașat, acestea vor fi îndeplinite de angajatorul care a dispus detașarea.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    },
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 48",
+     "citat": "Angajatorul poate modifica temporar locul și felul muncii, fără consimțământul salariatului, și în cazul unor situații de forță majoră, cu titlu de sancțiune disciplinară sau ca măsură de protecție a salariatului, în cazurile și în condițiile prevăzute de prezentul cod.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    }
+   ]
+  },
+  {
+   "titlu": "Suspendarea contractului: efecte și cele trei surse (art. 49–52)",
+   "paragrafe": [
+    "Art. 49 alin. (1) arată cele trei moduri în care poate interveni suspendarea: de drept, prin acordul părților sau prin actul unilateral al uneia dintre părți. Alin. (2) descrie efectul dublu: suspendarea prestării muncii de către salariat și a plății drepturilor de natură salarială de către angajator.",
+    "Alin. (4) prevede o consecință severă pentru culpa salariatului: în cazul suspendării din cauza unei fapte imputabile lui, pe durata suspendării nu va beneficia de niciun drept care rezultă din calitatea sa de salariat. Alin. (5) stabilește o regulă de concurs: de fiecare dată când în timpul suspendării intervine o cauză de încetare de drept, cauza de încetare de drept prevalează.",
+    "Art. 50 enumeră cazurile de suspendare de drept: concediul de maternitate; concediul pentru incapacitate temporară de muncă; carantina; exercitarea unei funcții în cadrul unei autorități executive, legislative ori judecătorești, pe toată durata mandatului; îndeplinirea unei funcții de conducere salarizate în sindicat; forța majoră; arestarea preventivă; expirarea perioadei pentru care au fost emise avizele, autorizațiile ori atestările necesare exercitării profesiei; și alte cazuri expres prevăzute de lege.",
+    "Art. 51 alin. (1) enumeră suspendarea din inițiativa salariatului: concediul pentru creșterea copilului în vârstă de până la 2 ani sau, în cazul copilului cu handicap, până la 3 ani; concediul pentru îngrijirea copilului bolnav în vârstă de până la 7 ani sau, în cazul copilului cu handicap, pentru afecțiuni intercurente, până la 18 ani; concediul paternal; concediul pentru formare profesională; exercitarea unor funcții elective în organismele profesionale; participarea la grevă; concediul de acomodare.",
+    "Art. 52 alin. (1) enumeră suspendarea din inițiativa angajatorului, printre care plângerea penală formulată de angajator împotriva salariatului sau trimiterea acestuia în judecată pentru fapte penale incompatibile cu funcția deținută, până la rămânerea definitivă a hotărârii; întreruperea sau reducerea temporară a activității pentru motive economice, tehnologice, structurale sau similare; durata detașării; suspendarea de către autoritățile competente a avizelor, autorizațiilor sau atestărilor.",
+    "Alin. (3) prevede o măsură specifică pentru reducerea temporară a activității pe perioade care depășesc 30 de zile lucrătoare: angajatorul are posibilitatea reducerii programului de lucru de la 5 zile la 4 zile pe săptămână, cu reducerea corespunzătoare a salariului."
+   ],
+   "temei": [
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 49",
+     "citat": "Suspendarea contractului individual de muncă poate interveni de drept, prin acordul părților sau prin actul unilateral al uneia dintre părți. (2) Suspendarea contractului individual de muncă are ca efect suspendarea prestării muncii de către salariat și a plății drepturilor de natură salarială de către angajator.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    },
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 49 alin. (4)",
+     "citat": "În cazul suspendării contractului individual de muncă din cauza unei fapte imputabile salariatului, pe durata suspendării acesta nu va beneficia de niciun drept care rezultă din calitatea sa de salariat.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    },
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 49 alin. (5)",
+     "citat": "De fiecare dată când în timpul perioadei de suspendare a contractului intervine o cauză de încetare de drept a contractului individual de muncă, cauza de încetare de drept prevalează.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    },
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 50",
+     "citat": "Contractul individual de muncă se suspendă de drept în următoarele situații: a) concediu de maternitate; b) concediu pentru incapacitate temporară de muncă; c) carantină; d) exercitarea unei funcții în cadrul unei autorități executive, legislative ori judecătorești, pe toată durata mandatului, dacă legea nu prevede altfel; e) îndeplinirea unei funcții de conducere salarizate în sindicat; f) forță majoră; g) în cazul în care salariatul este arestat preventiv, în condițiile Codului de procedură penală;",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    },
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 51 alin. (1)",
+     "citat": "Contractul individual de muncă poate fi suspendat din inițiativa salariatului, în următoarele situații: a) concediu pentru creșterea copilului în vârstă de până la 2 ani sau, în cazul copilului cu handicap, până la împlinirea vârstei de 3 ani; b) concediu pentru îngrijirea copilului bolnav în vârstă de până la 7 ani sau, în cazul copilului cu handicap, pentru afecțiuni intercurente, până la împlinirea vârstei de 18 ani; c) concediu paternal; d) concediu pentru formare profesională; e) exercitarea unor funcții elective în cadrul organismelor profesionale constituite la nivel central sau local, pe toată durata mandatului; f) participarea la grevă.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    },
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 52 alin. (1)",
+     "citat": "Contractul individual de muncă poate fi suspendat din inițiativa angajatorului în următoarele situații: [...] b) în cazul în care angajatorul a formulat plângere penală împotriva salariatului sau acesta a fost trimis în judecată pentru fapte penale incompatibile cu funcția deținută, până la rămânerea definitivă a hotărârii judecătorești*); c) în cazul întreruperii sau reducerii temporare a activității, fără încetarea raportului de muncă, pentru motive economice, tehnologice, structurale sau similare; [...] d) pe durata detașării; e) pe durata suspendării de către autoritățile competente a avizelor, autorizațiilor sau atestărilor necesare pentru exercitarea profesiilor.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    }
+   ]
+  },
+  {
+   "titlu": "Încetarea de drept și concedierea (art. 55, 56, 58, 60, 61, 63–65)",
+   "paragrafe": [
+    "Art. 55 enumeră cele trei moduri de încetare: de drept; ca urmare a acordului părților, la data convenită de acestea; și ca urmare a voinței unilaterale a uneia dintre părți, în cazurile și în condițiile limitativ prevăzute de lege.",
+    "Art. 56 alin. (1) enumeră cazurile de încetare de drept, printre care decesul salariatului sau al angajatorului persoană fizică și dizolvarea angajatorului persoană juridică (lit. a)); îndeplinirea cumulativă a condițiilor de vârstă standard și a stagiului minim de cotizare pentru pensionare (lit. c)); constatarea nulității absolute a contractului (lit. d)); admiterea cererii de reintegrare a unei persoane concediate nelegal (lit. e)); condamnarea la executarea unei pedepse privative de libertate (lit. f)); retragerea avizelor, autorizațiilor ori atestărilor necesare exercitării profesiei (lit. g)); expirarea termenului contractului pe durată determinată (lit. i)).",
+    "Alin. (2) impune o formalitate cu termen: pentru situațiile de la lit. c)–j), constatarea încetării de drept se face în termen de 5 zile lucrătoare de la intervenirea acesteia, în scris, prin decizie a angajatorului, și se comunică persoanelor în cauză în termen de 5 zile lucrătoare.",
+    "Art. 58 definește concedierea ca încetarea contractului din inițiativa angajatorului și o împarte în două: pentru motive care țin de persoana salariatului și pentru motive care nu țin de persoana acestuia.",
+    "Art. 60 alin. (1) enumeră situațiile în care concedierea nu poate fi dispusă, printre care incapacitatea temporară de muncă, carantina, graviditatea — în măsura în care angajatorul a luat cunoștință de acest fapt anterior emiterii deciziei —, concediul de maternitate, concediul pentru creșterea copilului, concediul pentru îngrijirea copilului bolnav, concediul de odihnă și concediul paternal. Alin. (2) înlătură aceste interdicții în cazul concedierii pentru motive ce intervin ca urmare a reorganizării judiciare, a falimentului sau a dizolvării angajatorului.",
+    "Art. 61 enumeră cele patru motive care țin de persoana salariatului: abaterea gravă sau abaterile repetate, ca sancțiune disciplinară (lit. a)); arestarea preventivă sau arestul la domiciliu pentru o perioadă mai mare de 30 de zile (lit. b)); inaptitudinea fizică și/sau psihică constatată prin decizie a organelor competente de expertiză medicală (lit. c)); necorespunderea profesională locului de muncă (lit. d)).",
+    "Art. 63 impune două proceduri prealabile distincte: cercetarea disciplinară prealabilă pentru concedierea întemeiată pe abateri (alin. (1)) și evaluarea prealabilă a salariatului pentru necorespunderea profesională de la art. 61 lit. d) (alin. (2)).",
+    "Art. 64 prevede, pentru concedierile întemeiate pe art. 61 lit. c) și d) și pentru încetarea de drept de la art. 56 alin. (1) lit. e), obligația angajatorului de a-i propune salariatului alte locuri de muncă vacante, iar în lipsa acestora obligația de a solicita sprijinul agenției teritoriale de ocupare a forței de muncă. Salariatul are la dispoziție 3 zile lucrătoare de la comunicare pentru a-și manifesta în scris consimțământul. Alin. (5) prevede o compensație pentru concedierea întemeiată pe art. 61 lit. c).",
+    "Art. 65 definește concedierea pentru motive care nu țin de persoana salariatului ca încetarea determinată de desființarea locului de muncă ocupat, din unul sau mai multe motive fără legătură cu persoana acestuia, și cere, la alin. (2), ca desființarea să fie efectivă și să aibă o cauză reală și serioasă."
+   ],
+   "temei": [
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 55",
+     "citat": "Contractul individual de muncă poate înceta astfel: a) de drept; b) ca urmare a acordului părților, la data convenită de acestea; c) ca urmare a voinței unilaterale a uneia dintre părți, în cazurile și în condițiile limitativ prevăzute de lege.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    },
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 56 alin. (1)",
+     "citat": "Contractul individual de muncă existent încetează de drept: a) la data decesului salariatului sau al angajatorului persoană fizică, precum și în cazul dizolvării angajatorului persoană juridică, de la data la care angajatorul și-a încetat existența conform legii; [...] d) ca urmare a constatării nulității absolute a contractului individual de muncă, de la data la care nulitatea a fost constatată prin acordul părților sau prin hotărâre judecătorească definitivă; e) ca urmare a admiterii cererii de reintegrare în funcția ocupată de salariat a unei persoane concediate nelegal sau pentru motive neîntemeiate, de la data rămânerii definitive a hotărârii judecătorești de reintegrare; f) ca urmare a condamnării la executarea unei pedepse privative de libertate, de la data rămânerii definitive a hotărârii judecătorești; g) de la data retragerii de către autoritățile sau organismele competente a avizelor, autorizațiilor ori atestărilor necesare pentru exercitarea profesiei; [...] i) la data expirării termenului contractului individual de muncă încheiat pe durată determinată;",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    },
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 56 alin. (2)",
+     "citat": "Pentru situațiile prevăzute la alin. (1) lit. c)-j), constatarea cazului de încetare de drept a contractului individual de muncă se face în termen de 5 zile lucrătoare de la intervenirea acestuia, în scris, prin decizie a angajatorului, și se comunică persoanelor aflate în situațiile respective în termen de 5 zile lucrătoare.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    },
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 58",
+     "citat": "Concedierea reprezintă încetarea contractului individual de muncă din inițiativa angajatorului. (2) Concedierea poate fi dispusă pentru motive care țin de persoana salariatului sau pentru motive care nu țin de persoana salariatului.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    },
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 60",
+     "citat": "Concedierea salariaților nu poate fi dispusă: a) pe durata incapacității temporare de muncă, stabilită prin certificat medical conform legii; b) pe durata suspendării activității ca urmare a instituirii carantinei; c) pe durata în care femeia salariată este gravidă, în măsura în care angajatorul a luat cunoștință de acest fapt anterior emiterii deciziei de concediere; d) pe durata concediului de maternitate; e) pe durata concediului pentru creșterea copilului în vârstă de până la 2 ani sau, în cazul copilului cu handicap, până la împlinirea vârstei de 3 ani; [...] h) pe durata efectuării concediului de odihnă.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    },
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 60 alin. (2)",
+     "citat": "Prevederile alin. (1) nu se aplică în cazul concedierii pentru motive ce intervin ca urmare a reorganizării judiciare, a falimentului sau a dizolvării angajatorului, în condițiile legii.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    },
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 61",
+     "citat": "Angajatorul poate dispune concedierea pentru motive care țin de persoana salariatului în următoarele situații: [...] b) în cazul în care salariatul este arestat preventiv sau arestat la domiciliu pentru o perioadă mai mare de 30 de zile, în condițiile Codului de procedură penală; c) în cazul în care, prin decizie a organelor competente de expertiză medicală, se constată inaptitudinea fizică și/sau psihică a salariatului, fapt ce nu permite acestuia să își îndeplinească atribuțiile corespunzătoare locului de muncă ocupat; d) în cazul în care salariatul nu corespunde profesional locului de muncă în care este încadrat.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    },
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 63",
+     "citat": "Concedierea pentru săvârșirea unei abateri grave sau a unor abateri repetate de la regulile de disciplină a muncii poate fi dispusă numai după îndeplinirea de către angajator a cercetării disciplinare prealabile și în termenele stabilite de prezentul cod.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    },
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 64 alin. (3)",
+     "citat": "Salariatul are la dispoziție un termen de 3 zile lucrătoare de la comunicarea angajatorului, conform prevederilor alin. (1), pentru a-și manifesta în scris consimțământul cu privire la noul loc de muncă oferit.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    },
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 64 alin. (5)",
+     "citat": "În cazul concedierii pentru motivul prevăzut la art. 61 lit. c) salariatul beneficiază de o compensație, în condițiile stabilite în contractul colectiv de muncă aplicabil sau în contractul individual de muncă, după caz.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    },
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 65",
+     "citat": "Concedierea pentru motive care nu țin de persoana salariatului reprezintă încetarea contractului individual de muncă determinată de desființarea locului de muncă ocupat de salariat, din unul sau mai multe motive fără legătură cu persoana acestuia. (2) Desființarea locului de muncă trebuie să fie efectivă și să aibă o cauză reală și serioasă.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    }
+   ]
+  },
+  {
+   "titlu": "Preavizul, decizia de concediere și demisia (art. 75, 76, 77, 81)",
+   "paragrafe": [
+    "Art. 75 alin. (1) prevede, pentru persoanele concediate în temeiul art. 61 lit. c) și d) și al art. 65 și 66, dreptul la un preaviz care nu poate fi mai mic de 20 de zile lucrătoare. Este un prag minim, nu unul maxim. Alin. (2) exceptează persoanele concediate în temeiul art. 61 lit. d) care se află în perioada de probă.",
+    "Alin. (3) prevede suspendarea corespunzătoare a termenului de preaviz dacă în această perioadă contractul este suspendat, cu excepția cazului de la art. 51 alin. (2) — absențele nemotivate.",
+    "Art. 76 enumeră conținutul obligatoriu al deciziei de concediere, care se comunică salariatului în scris: motivele care determină concedierea; durata preavizului; criteriile de stabilire a ordinii de priorități, numai în cazul concedierilor colective; și lista tuturor locurilor de muncă disponibile în unitate, cu termenul în care salariații urmează să opteze. Art. 77 precizează că decizia produce efecte de la data comunicării ei salariatului.",
+    "Art. 81 alin. (1) definește demisia ca actul unilateral de voință a salariatului care, printr-o notificare scrisă, comunică angajatorului încetarea contractului, după împlinirea unui termen de preaviz. Alin. (2) obligă angajatorul să înregistreze demisia, iar refuzul dă salariatului dreptul de a face dovada prin orice mijloace de probă. Alin. (3) consacră dreptul de a nu motiva demisia.",
+    "Alin. (4) fixează termenele maxime de preaviz la demisie, altfel decât la concediere: nu mai mare de 20 de zile lucrătoare pentru salariații cu funcții de execuție și nu mai mare de 45 de zile lucrătoare pentru cei care ocupă funcții de conducere. La concediere, cele 20 de zile lucrătoare sunt un minim; la demisie, sunt un maxim.",
+    "Alin. (5) prevede că pe durata preavizului contractul continuă să își producă toate efectele, iar alin. (7) că încetarea are loc la data expirării termenului de preaviz sau la data renunțării totale ori parțiale de către angajator la acest termen. Alin. (8) permite demisia fără preaviz dacă angajatorul nu își îndeplinește obligațiile asumate prin contractul individual de muncă."
+   ],
+   "temei": [
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 75",
+     "citat": "Persoanele concediate în temeiul art. 61 lit. c) și d), al art. 65 și 66 beneficiază de dreptul la un preaviz ce nu poate fi mai mic de 20 de zile lucrătoare. (2) Fac excepție de la prevederile alin. (1) persoanele concediate în temeiul art. 61 lit. d), care se află în perioada de probă. (3) În situația în care în perioada de preaviz contractul individual de muncă este suspendat, termenul de preaviz va fi suspendat corespunzător, cu excepția cazului prevăzut la art. 51 alin. (2).",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    },
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 76",
+     "citat": "Decizia de concediere se comunică salariatului în scris și trebuie să conțină în mod obligatoriu: a) motivele care determină concedierea; b) durata preavizului; c) criteriile de stabilire a ordinii de priorități, conform art. 69 alin. (2) lit. d), numai în cazul concedierilor colective; d) lista tuturor locurilor de muncă disponibile în unitate și termenul în care salariații urmează să opteze pentru a ocupa un loc de muncă vacant, în condițiile art. 64.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    },
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 77",
+     "citat": "Decizia de concediere produce efecte de la data comunicării ei salariatului.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    },
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 81 alin. (1)",
+     "citat": "Prin demisie se înțelege actul unilateral de voință a salariatului care, printr-o notificare scrisă, comunică angajatorului încetarea contractului individual de muncă, după împlinirea unui termen de preaviz.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    },
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 81 alin. (2)",
+     "citat": "Angajatorul este obligat să înregistreze demisia salariatului. Refuzul angajatorului de a înregistra demisia dă dreptul salariatului de a face dovada acesteia prin orice mijloace de probă.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    },
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 81 alin. (4)",
+     "citat": "Termenul de preaviz este cel convenit de părți în contractul individual de muncă sau, după caz, cel prevăzut în contractele colective de muncă aplicabile și nu poate fi mai mare de 20 de zile lucrătoare pentru salariații cu funcții de execuție, respectiv mai mare de 45 de zile lucrătoare pentru salariații care ocupă funcții de conducere.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    },
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 81 alin. (7)",
+     "citat": "Contractul individual de muncă încetează la data expirării termenului de preaviz sau la data renunțării totale ori parțiale de către angajator la termenul respectiv.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    },
+    {
+     "act": "Legea nr. 53/2003 – Codul muncii",
+     "articol": "art. 81 alin. (8)",
+     "citat": "Salariatul poate demisiona fără preaviz dacă angajatorul nu își îndeplinește obligațiile asumate prin contractul individual de muncă.",
+     "fisier": "03_Legea_53-2003_Codul_muncii.txt"
+    }
+   ]
+  }
+ ],
+ "capcane": [
+  "Codul muncii se aplică raporturilor reglementate prin legi speciale numai în măsura în care acestea nu conțin dispoziții specifice derogatorii (art. 1 alin. (2)) — nu „în toate cazurile” și nici „deloc”.",
+  "Perioada de probă are trei praguri, toate în zile calendaristice: 90 pentru funcțiile de execuție, 120 pentru funcțiile de conducere, 30 pentru persoanele cu handicap — unde este singura modalitate de verificare a aptitudinilor.",
+  "Delegarea: cel mult 60 de zile calendaristice în 12 luni, prelungire cu acordul salariatului, iar refuzul nu poate fi sancționat. Detașarea: cel mult un an, prelungire din 6 în 6 luni, iar refuzul e posibil numai excepțional, pentru motive personale temeinice.",
+  "La detașare, drepturile se acordă de angajatorul la care s-a dispus detașarea, dar salariatul beneficiază de cele mai favorabile dintre cele două seturi (art. 47 alin. (1) și (2)).",
+  "Arestarea preventivă apare în trei locuri diferite: suspendare de drept (art. 50 lit. g)), motiv de concediere dacă depășește 30 de zile (art. 61 lit. b)) și, la militari, cu alt regim.",
+  "Participarea la grevă este suspendare din inițiativa salariatului (art. 51 alin. (1) lit. f)), nu de drept.",
+  "Termenul de 20 de zile lucrătoare are sensuri opuse: la concediere este un minim al preavizului (art. 75 alin. (1)), la demisie un maxim (art. 81 alin. (4), unde pentru funcțiile de conducere maximul este de 45 de zile lucrătoare).",
+  "Interdicțiile de concediere de la art. 60 alin. (1) cad în cazul reorganizării judiciare, al falimentului sau al dizolvării angajatorului (alin. (2)).",
+  "Concedierea pentru abateri cere cercetare disciplinară prealabilă, cea pentru necorespundere profesională cere evaluare prealabilă — două proceduri distincte, la art. 63 alin. (1) și (2).",
+  "Decizia de concediere produce efecte de la data comunicării ei salariatului (art. 77), nu de la data emiterii.",
+  "Constatarea încetării de drept pentru situațiile de la art. 56 alin. (1) lit. c)-j) se face în 5 zile lucrătoare de la intervenire și se comunică tot în 5 zile lucrătoare."
+ ],
+ "intrebari": [
+  "CM-101",
+  "CM-103",
+  "CM-104",
+  "CM-105",
+  "CM-223",
+  "CM-107",
+  "CM-108",
+  "CM-109",
+  "CM-110",
+  "CM-112",
+  "CM-114",
+  "CM-115",
+  "CM-116",
+  "CM-118",
+  "CM-119",
+  "CM-121",
+  "CM-122",
+  "CM-123",
+  "CM-124",
+  "CM-125",
+  "CM-127",
+  "CM-128",
+  "CM-130",
+  "CM-131",
+  "CM-132",
+  "CM-134",
+  "CM-135",
+  "CM-136",
+  "CM-138",
+  "CM-139",
+  "CM-140",
+  "CM-141",
+  "CM-143",
+  "CM-201",
+  "CM-202",
+  "CM-203",
+  "CM-205",
+  "CM-206",
+  "CM-207",
+  "CM-208",
+  "CM-209",
+  "CM-212",
+  "CM-213",
+  "CM-214",
+  "CM-215",
+  "CM-216",
+  "CM-218",
+  "CM-219",
+  "CM-220",
+  "CM-221",
+  "CM-222",
+  "CM-C02",
+  "CM-106",
+  "CM-224",
+  "CM-225",
+  "CM-120",
+  "CM-210"
+ ]
+}
