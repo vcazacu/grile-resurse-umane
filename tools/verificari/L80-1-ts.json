@@ -1,0 +1,4233 @@
+[
+ {
+  "id": "L80-101",
+  "cheie": [
+   "B"
+  ],
+  "tip": "unic",
+  "variante": {
+   "A": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "contrazice": 0.98,
+     "sustine": 0.01,
+     "nu_spune": 0.01
+    },
+    "confidence": 0.98
+   },
+   "B": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   },
+   "C": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "nu_spune": 0.19,
+     "sustine": 0.0,
+     "contrazice": 0.81
+    },
+    "confidence": 0.71
+   },
+   "D": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "contrazice": 1.0,
+     "sustine": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.99
+   }
+  },
+  "nouls": {
+   "sinonim": 0.12,
+   "absolut": 0.3,
+   "abrogat": 0.09,
+   "numeste_actul": 0.76,
+   "categorie_ambigua": 0.21,
+   "citat_acopera": 0.97
+  },
+  "afirmatii": {
+   "0": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.99,
+     "contrazice": 0.01
+    },
+    "confidence": 0.98
+   },
+   "2": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.04,
+     "sustine": 0.96,
+     "contrazice": 0.0
+    },
+    "confidence": 0.94
+   }
+  },
+  "fraze": [
+   "Art. 1 alin. (1) definește cadrele militare prin două elemente cumulative: cetățenia română și acordarea gradului de ofițer, maistru militar sau subofițer, în raport cu pregătirea militară și de specialitate, în condițiile legii; alin. (2) adaugă că ele sunt în serviciul națiunii.",
+   "Ocuparea unei funcții militare nu este criteriul calității de cadru militar, ci al situației „în activitate” (art. 4 lit. a)), cadrele putând fi și în rezervă sau în retragere (art. 4 lit. b) și c)), fără a pierde această calitate.",
+   "Soldații și gradații profesioniști nu apar în definiția de la art. 1, care se limitează la cei cărora li s-a acordat grad de ofițer, maistru militar sau subofițer."
+  ],
+  "pozitionale": [],
+  "nivel": {
+   "score": 2.67,
+   "confidence": 0.0
+  },
+  "usage": {
+   "a": 2474,
+   "b": 3966
+  }
+ },
+ {
+  "id": "L80-102",
+  "cheie": [
+   "C"
+  ],
+  "tip": "unic",
+  "variante": {
+   "A": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "contrazice": 1.0,
+     "nu_spune": 0.0,
+     "sustine": 0.0
+    },
+    "confidence": 0.99
+   },
+   "B": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "contrazice": 0.99,
+     "nu_spune": 0.0,
+     "sustine": 0.01
+    },
+    "confidence": 0.99
+   },
+   "C": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.01,
+     "sustine": 0.99,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.99
+   },
+   "D": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "contrazice": 0.97,
+     "nu_spune": 0.02,
+     "sustine": 0.01
+    },
+    "confidence": 0.97
+   }
+  },
+  "nouls": {
+   "sinonim": 0.1,
+   "absolut": 0.16,
+   "abrogat": 0.08,
+   "numeste_actul": 0.76,
+   "categorie_ambigua": 0.18,
+   "citat_acopera": 0.96
+  },
+  "afirmatii": {
+   "0": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "contrazice": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "contrazice": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   },
+   "2": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.98,
+     "contrazice": 0.02,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.97
+   },
+   "3": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.99,
+     "contrazice": 0.01,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.98
+   }
+  },
+  "fraze": [
+   "Art. 2 alin. (2^1) paragraful A enumeră gradele subofițerilor din Ministerul Apărării Naționale, în ordine ierarhică: sergent, sergent-major, plutonier, plutonier-major, plutonier adjutant și plutonier adjutant principal, acesta din urmă fiind cel mai înalt.",
+   "Plutonier adjutant este penultimul grad al aceleiași liste.",
+   "Plutonier adjutant șef este ultimul grad din lista generală de la art. 2 alin. (2) paragraful A, nu din lista aplicabilă Ministerului Apărării Naționale.",
+   "Maistru militar principal este cel mai înalt grad din corpul maiștrilor militari (alin. (2^1) paragraful A^1), un corp distinct de cel al subofițerilor, potrivit art. 2 alin. (1)."
+  ],
+  "pozitionale": [],
+  "nivel": {
+   "score": 2.11,
+   "confidence": 0.07
+  },
+  "usage": {
+   "a": 2487,
+   "b": 4374
+  }
+ },
+ {
+  "id": "L80-103",
+  "cheie": [
+   "B"
+  ],
+  "tip": "unic",
+  "variante": {
+   "A": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.99,
+     "sustine": 0.01
+    },
+    "confidence": 0.99
+   },
+   "B": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   },
+   "C": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 1.0,
+     "sustine": 0.0
+    },
+    "confidence": 0.99
+   },
+   "D": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 1.0,
+     "sustine": 0.0
+    },
+    "confidence": 0.99
+   }
+  },
+  "nouls": {
+   "sinonim": 0.07,
+   "absolut": 0.12,
+   "abrogat": 0.07,
+   "numeste_actul": 0.75,
+   "categorie_ambigua": 0.16,
+   "citat_acopera": 0.96
+  },
+  "afirmatii": {
+   "0": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.05,
+     "sustine": 0.95,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.92
+   },
+   "1": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   },
+   "2": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.02,
+     "sustine": 0.98,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.97
+   }
+  },
+  "fraze": [
+   "Art. 2 alin. (2^1) paragraful B lit. c) stabilește gradele de generali și amirali cu numărul de stele: general de brigadă (respectiv general de flotilă aeriană și contraamiral de flotilă) cu o stea, general-maior (respectiv contra-amiral) cu două stele, general-locotenent (respectiv vice-amiral) cu trei stele și general (respectiv amiral) cu patru stele.",
+   "General-maior are două stele, general de brigadă o stea, iar general patru stele.",
+   "Peste aceste grade, art. 2 alin. (3) prevede că, pentru merite militare excepționale, în timp de război, Președintele României poate acorda generalilor/amiralilor cu patru stele gradul de mareșal."
+  ],
+  "pozitionale": [],
+  "nivel": {
+   "score": 1.7,
+   "confidence": 0.71
+  },
+  "usage": {
+   "a": 2471,
+   "b": 4165
+  }
+ },
+ {
+  "id": "L80-104",
+  "cheie": [
+   "A"
+  ],
+  "tip": "unic",
+  "variante": {
+   "A": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   },
+   "B": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "sustine": 0.0,
+     "contrazice": 1.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   },
+   "C": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "sustine": 0.0,
+     "contrazice": 1.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   },
+   "D": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "contrazice": 1.0,
+     "sustine": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "nouls": {
+   "sinonim": 0.09,
+   "absolut": 0.27,
+   "abrogat": 0.04,
+   "numeste_actul": 0.77,
+   "categorie_ambigua": 0.15,
+   "citat_acopera": 0.97
+  },
+  "afirmatii": {
+   "0": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.99,
+     "nu_spune": 0.0,
+     "contrazice": 0.01
+    },
+    "confidence": 0.99
+   },
+   "1": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.99,
+     "nu_spune": 0.0,
+     "contrazice": 0.01
+    },
+    "confidence": 0.99
+   },
+   "2": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.98,
+     "nu_spune": 0.02,
+     "contrazice": 0.0
+    },
+    "confidence": 0.97
+   }
+  },
+  "fraze": [
+   "Art. 2 alin. (3): în afara gradelor enumerate, pentru merite militare excepționale, în timp de război, Președintele României poate acorda generalilor/amiralilor cu patru stele gradul de mareșal, care este cel mai înalt grad militar.",
+   "Condițiile sunt cumulative: competența aparține Președintelui României, nu Guvernului ori Parlamentului; acordarea este posibilă doar în timp de război, nu și în timp de pace; beneficiarii pot fi numai generalii/amiralii cu patru stele, nu generalii-locotenenți (care au trei stele, potrivit art. 2 alin. (2^1) paragraful B lit. c)) și nu orice general sau amiral.",
+   "Textul alin. (3) nu condiționează acordarea de o propunere a ministrului apărării naționale."
+  ],
+  "pozitionale": [],
+  "nivel": {
+   "score": 3.09,
+   "confidence": 0.9
+  },
+  "usage": {
+   "a": 2565,
+   "b": 4187
+  }
+ },
+ {
+  "id": "L80-105",
+  "cheie": [
+   "C"
+  ],
+  "tip": "unic",
+  "variante": {
+   "A": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "contrazice": 1.0,
+     "nu_spune": 0.0,
+     "sustine": 0.0
+    },
+    "confidence": 1.0
+   },
+   "B": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "contrazice": 1.0,
+     "nu_spune": 0.0,
+     "sustine": 0.0
+    },
+    "confidence": 0.99
+   },
+   "C": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   },
+   "D": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "contrazice": 1.0,
+     "nu_spune": 0.0,
+     "sustine": 0.0
+    },
+    "confidence": 0.99
+   }
+  },
+  "nouls": {
+   "sinonim": 0.09,
+   "absolut": 0.38,
+   "abrogat": 0.07,
+   "numeste_actul": 0.62,
+   "categorie_ambigua": 0.16,
+   "citat_acopera": 0.97
+  },
+  "afirmatii": {
+   "0": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "2": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.01,
+     "sustine": 0.98,
+     "contrazice": 0.01
+    },
+    "confidence": 0.98
+   }
+  },
+  "fraze": [
+   "Art. 3 stabilește că gradul militar este un drept al titularului și reprezintă recunoașterea în plan social a calității de cadru militar, iar gradul de ofițer, maistru militar și subofițer nu se poate pierde decât în cazurile și în condițiile prevăzute de lege.",
+   "Gradul nu este legat de ocuparea unei funcții: art. 4 lit. b) arată că un cadru militar în rezervă nu ocupă o funcție militară, dar rămâne cadru militar, deci cu grad, putând fi chemat ca rezervist concentrat sau mobilizat.",
+   "Trecerea în rezervă sau în retragere nu atrage pierderea gradului, art. 4 descriind cele trei situații (activitate, rezervă, retragere) ca situații ale cadrelor militare, adică ale persoanelor care dețin grad potrivit art. 1 alin. (1)."
+  ],
+  "pozitionale": [],
+  "nivel": {
+   "score": 2.89,
+   "confidence": 0.07
+  },
+  "usage": {
+   "a": 2744,
+   "b": 4348
+  }
+ },
+ {
+  "id": "L80-106",
+  "cheie": [
+   "B"
+  ],
+  "tip": "unic",
+  "variante": {
+   "A": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "sustine": 0.01,
+     "nu_spune": 0.0,
+     "contrazice": 0.99
+    },
+    "confidence": 0.98
+   },
+   "B": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "C": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "sustine": 0.02,
+     "nu_spune": 0.0,
+     "contrazice": 0.98
+    },
+    "confidence": 0.97
+   },
+   "D": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "sustine": 0.01,
+     "nu_spune": 0.01,
+     "contrazice": 0.98
+    },
+    "confidence": 0.98
+   }
+  },
+  "nouls": {
+   "sinonim": 0.09,
+   "absolut": 0.14,
+   "abrogat": 0.05,
+   "numeste_actul": 0.72,
+   "categorie_ambigua": 0.33,
+   "citat_acopera": 0.97
+  },
+  "afirmatii": {
+   "0": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "contrazice": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "contrazice": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   },
+   "2": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.01,
+     "sustine": 0.99,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.99
+   },
+   "3": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.01,
+     "sustine": 0.99,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.98
+   }
+  },
+  "fraze": [
+   "Art. 4 lit. b) definește situația „în rezervă”: cadrul militar nu ocupă o funcție militară, dar întrunește condițiile legale pentru a fi chemat ca rezervist concentrat sau mobilizat, iar la nevoie, în calitate de cadru militar în activitate.",
+   "Imposibilitatea de a mai fi chemat pentru serviciul militar caracterizează situația „în retragere” (lit. c)).",
+   "Punerea la dispoziție în vederea încadrării sau trecerii în rezervă ori în retragere și suspendarea din funcție nu scot cadrul militar din situația „în activitate”: art. 4 lit. a) prevede expres că această calitate se menține pe timpul eliberării din funcție pentru pregătire, al suspendării din funcție și al punerii la dispoziție, inclusiv pentru cazurile de boală stabilite prin hotărâre a Guvernului și pe timpul captivității.",
+   "Tot lit. a) cere, pentru cadrele în activitate, cetățenia română și domiciliul în țară."
+  ],
+  "pozitionale": [],
+  "nivel": {
+   "score": 1.64,
+   "confidence": 0.46
+  },
+  "usage": {
+   "a": 2134,
+   "b": 3760
+  }
+ },
+ {
+  "id": "L80-107",
+  "cheie": [
+   "D"
+  ],
+  "tip": "unic",
+  "variante": {
+   "A": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "sustine": 0.0,
+     "contrazice": 1.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   },
+   "B": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "contrazice": 0.99,
+     "sustine": 0.0,
+     "nu_spune": 0.01
+    },
+    "confidence": 0.98
+   },
+   "C": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "contrazice": 0.92,
+     "sustine": 0.0,
+     "nu_spune": 0.08
+    },
+    "confidence": 0.88
+   },
+   "D": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "nouls": {
+   "sinonim": 0.07,
+   "absolut": 0.22,
+   "abrogat": 0.04,
+   "numeste_actul": 0.78,
+   "categorie_ambigua": 0.23,
+   "citat_acopera": 0.97
+  },
+  "afirmatii": {
+   "0": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 0.99
+   },
+   "2": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 0.99
+   },
+   "3": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.99,
+     "nu_spune": 0.0,
+     "contrazice": 0.01
+    },
+    "confidence": 0.99
+   }
+  },
+  "fraze": [
+   "Art. 5 alin. (2): accesul în profesie și evoluția ulterioară pe treptele ierarhiei militare au la bază principiile și normele din lege, iar în aplicarea lor, pentru cadrele militare ale Ministerului Apărării Naționale se elaborează Ghidul carierei militare, aprobat prin hotărâre a Guvernului.",
+   "Aceeași formă de aprobare, hotărârea Guvernului, este prevăzută la alin. (3) și pentru ghidurile carierei specifice fiecărei arme din structurile militare ale Ministerului Afacerilor Interne.",
+   "Ordinul ministrului apărării naționale este forma prevăzută în lege pentru alte reglementări (de exemplu, condițiile asistenței juridice de la art. 9 lit. e) sau ale concediului pentru formare profesională de la art. 14^3 alin. (1)), iar regulamentele militare stabilesc, de exemplu, durata permisiilor (art. 17 alin. (2)).",
+   "Alin. (1) al art. 5 califică ofițerii, maiștrii militari și subofițerii în activitate drept militari profesioniști."
+  ],
+  "pozitionale": [],
+  "nivel": {
+   "score": 2.94,
+   "confidence": 0.94
+  },
+  "usage": {
+   "a": 2208,
+   "b": 4682
+  }
+ },
+ {
+  "id": "L80-108",
+  "cheie": [
+   "A"
+  ],
+  "tip": "unic",
+  "variante": {
+   "A": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.98,
+     "contrazice": 0.02
+    },
+    "confidence": 0.97
+   },
+   "B": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.0,
+     "contrazice": 1.0
+    },
+    "confidence": 1.0
+   },
+   "C": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "nu_spune": 0.01,
+     "sustine": 0.0,
+     "contrazice": 0.99
+    },
+    "confidence": 0.99
+   },
+   "D": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.0,
+     "contrazice": 1.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "nouls": {
+   "sinonim": 0.12,
+   "absolut": 0.15,
+   "abrogat": 0.04,
+   "numeste_actul": 0.73,
+   "categorie_ambigua": 0.49,
+   "citat_acopera": 0.98
+  },
+  "afirmatii": {
+   "0": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.99
+   },
+   "2": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "sustine": 0.98,
+     "nu_spune": 0.02
+    },
+    "confidence": 0.97
+   },
+   "3": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.99,
+     "contrazice": 0.01,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.98
+   }
+  },
+  "fraze": [
+   "Art. 6 alin. (2): cadrele militare prevăzute la art. 2 alin. (2) paragraful C lit. c) și alin. (2^1) paragraful B lit. c), adică generalii și amiralii, au rangul de demnitari ai statului român în exercitarea funcțiilor prevăzute cu grad de general/similar, fără a beneficia de drepturi suplimentare conferite de această calitate.",
+   "Varianta cu drepturi suplimentare contrazice expres partea finală a alineatului.",
+   "Rangul de înalt funcționar public nu apare în text.",
+   "Exercițiul autorității publice, cu protecția legii penale, este prevăzut la art. 6 alin. (1) pentru toți ofițerii, maiștrii militari și subofițerii în exercitarea atribuțiilor, dar alin. (2) adaugă, pentru generali și amirali, rangul de demnitar."
+  ],
+  "pozitionale": [],
+  "nivel": {
+   "score": 3.38,
+   "confidence": 0.48
+  },
+  "usage": {
+   "a": 2045,
+   "b": 4505
+  }
+ },
+ {
+  "id": "L80-109",
+  "cheie": [
+   "B"
+  ],
+  "tip": "unic",
+  "variante": {
+   "A": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.0,
+     "contrazice": 1.0
+    },
+    "confidence": 1.0
+   },
+   "B": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "C": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.0,
+     "contrazice": 1.0
+    },
+    "confidence": 1.0
+   },
+   "D": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "sustine": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 1.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "nouls": {
+   "sinonim": 0.08,
+   "absolut": 0.19,
+   "abrogat": 0.09,
+   "numeste_actul": 0.7,
+   "categorie_ambigua": 0.62,
+   "citat_acopera": 0.98
+  },
+  "afirmatii": {
+   "0": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.96,
+     "contrazice": 0.04
+    },
+    "confidence": 0.94
+   },
+   "2": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.99,
+     "contrazice": 0.01
+    },
+    "confidence": 0.98
+   },
+   "3": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.98,
+     "contrazice": 0.02
+    },
+    "confidence": 0.96
+   }
+  },
+  "fraze": [
+   "Art. 7 alin. (2) prevede că profesia de ofițer, maistru militar sau subofițer în activitate incumbă îndatoriri suplimentare, precum și interzicerea ori restrângerea exercitării unor drepturi și libertăți, potrivit legii.",
+   "Interdicțiile sunt dezvoltate la art. 28 (apartenența politică, candidatura, greva), iar restrângerile la art. 29 și art. 30.",
+   "Varianta „fără nicio restrângere” și cea „numai îndatoriri suplimentare” contrazic alin. (2).",
+   "Restrângerea nu se stabilește exclusiv prin regulamente militare: potrivit alin. (1), îndatoririle, drepturile și libertățile cadrelor militare sunt cele stabilite de Constituția României, de legile țării și de prezentul statut, iar alin. (2) trimite la lege („potrivit legii”)."
+  ],
+  "pozitionale": [],
+  "nivel": {
+   "score": 2.1,
+   "confidence": 0.06
+  },
+  "usage": {
+   "a": 2640,
+   "b": 5024
+  }
+ },
+ {
+  "id": "L80-110",
+  "cheie": [
+   "A",
+   "C"
+  ],
+  "tip": "multiplu",
+  "variante": {
+   "A": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.01,
+     "sustine": 0.99,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.99
+   },
+   "B": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "contrazice": 1.0,
+     "sustine": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   },
+   "C": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   },
+   "D": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "contrazice": 1.0,
+     "sustine": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "nouls": {
+   "sinonim": 0.06,
+   "absolut": 0.2,
+   "abrogat": 0.03,
+   "numeste_actul": 0.65,
+   "categorie_ambigua": 0.62,
+   "citat_acopera": 0.95
+  },
+  "afirmatii": {
+   "0": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "contrazice": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "contrazice": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   },
+   "2": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "contrazice": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "fraze": [
+   "Art. 8 alin. (1) lit. b) impune respectarea jurământului militar și a regulamentelor militare și executarea întocmai și la timp a ordinelor comandanților și șefilor, iar lit. f) păstrarea cu strictețe a secretului militar, de stat și de serviciu și a caracterului confidențial al unor activități și documente.",
+   "Aceeași lit. b) prevede însă că nu li se poate ordona și le este interzis cadrelor militare să execute acte contrare legii, obiceiurilor războiului și convențiilor internaționale la care România este parte, neexecutarea ordinelor în aceste condiții neatrăgând răspunderea penală și civilă a subordonaților, deci varianta cu executarea ordinelor contrare legii este greșită.",
+   "Participarea la misiuni în afara teritoriului statului român este, potrivit art. 8 alin. (2), o obligație a cadrelor militare în activitate, în funcție de cerințele Ministerului Apărării Naționale, nu o opțiune condiționată de acordul scris; excepția, la cerere, este posibilă doar în situațiile familiale deosebite enumerate limitativ la alin. (3)."
+  ],
+  "pozitionale": [],
+  "nivel": {
+   "score": 3.3,
+   "confidence": 0.42
+  },
+  "usage": {
+   "a": 2823,
+   "b": 4597
+  }
+ },
+ {
+  "id": "L80-111",
+  "cheie": [
+   "A",
+   "B",
+   "D"
+  ],
+  "tip": "multiplu",
+  "variante": {
+   "A": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   },
+   "B": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.01,
+     "sustine": 0.99,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.98
+   },
+   "C": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "contrazice": 0.99,
+     "sustine": 0.01,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.99
+   },
+   "D": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.99
+   }
+  },
+  "nouls": {
+   "sinonim": 0.08,
+   "absolut": 0.16,
+   "abrogat": 0.04,
+   "numeste_actul": 0.75,
+   "categorie_ambigua": 0.44,
+   "citat_acopera": 0.95
+  },
+  "afirmatii": {
+   "0": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.01,
+     "nu_spune": 0.0,
+     "sustine": 0.99
+    },
+    "confidence": 0.98
+   },
+   "1": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "fraze": [
+   "Art. 8 alin. (3) enumeră limitativ situațiile în care cadrul militar care întâmpină greutăți familiale deosebite poate fi exceptat, la cerere, de la obligația de participare la misiuni în afara teritoriului statului român prevăzută la alin. (2): familia monoparentală (lit. a)), calitatea de întreținător unic de familie, al copilului/fratelui/părintelui (lit. b)), părinții invalizi de gradul I sau II fără alți frați sau surori majori apți de muncă (lit. c)), soțul grav bolnav încadrat în gradul I sau II de invaliditate (lit. d)), participarea ambilor soți sau frați la misiune în aceeași perioadă fără acordul lor (lit. e)) și calamitățile naturale (lit. f)).",
+   "Varianta cu soțul încadrat în gradul III de invaliditate este greșită, pentru că lit. d) se referă numai la gradul I sau II de invaliditate; gradul III de invaliditate apare în lege doar la art. 21 alin. (4), privind menținerea sau rechemarea în activitate a personalului militar."
+  ],
+  "pozitionale": [],
+  "nivel": {
+   "score": 3.76,
+   "confidence": 0.8
+  },
+  "usage": {
+   "a": 2751,
+   "b": 4630
+  }
+ },
+ {
+  "id": "L80-112",
+  "cheie": [
+   "B"
+  ],
+  "tip": "unic",
+  "variante": {
+   "A": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.01,
+     "contrazice": 0.99
+    },
+    "confidence": 0.98
+   },
+   "B": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.96,
+     "contrazice": 0.04
+    },
+    "confidence": 0.93
+   },
+   "C": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.0,
+     "contrazice": 1.0
+    },
+    "confidence": 0.99
+   },
+   "D": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.01,
+     "contrazice": 0.99
+    },
+    "confidence": 0.98
+   }
+  },
+  "nouls": {
+   "sinonim": 0.08,
+   "absolut": 0.22,
+   "abrogat": 0.12,
+   "numeste_actul": 0.75,
+   "categorie_ambigua": 0.64,
+   "citat_acopera": 0.96
+  },
+  "afirmatii": {
+   "0": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.07,
+     "sustine": 0.93
+    },
+    "confidence": 0.89
+   },
+   "2": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 0.99
+   },
+   "3": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.01,
+     "sustine": 0.99
+    },
+    "confidence": 0.99
+   }
+  },
+  "fraze": [
+   "Art. 9 lit. a): cadrele militare în activitate au dreptul la solda lunară, compusă din solda de grad, solda de funcție, gradații și indemnizații, precum și la prime, premii, sporuri și alte drepturi bănești, ale căror cuantumuri se stabilesc prin hotărâre a Guvernului.",
+   "Primele, premiile și sporurile sunt drepturi bănești distincte, enumerate separat de componentele soldei lunare, deci variantele care le includ în soldă sunt greșite.",
+   "Compensația lunară pentru chirie este un drept separat, reglementat la art. 20^1, nu o componentă a soldei lunare.",
+   "Solda de comandă nu figurează la art. 9 lit. a); ea apare la art. 14^4, printre drepturile de care beneficiază, după caz, cadrele militare din Ministerul Apărării Naționale pe timpul concediului de odihnă, al concediului paternal, al incapacității temporare de muncă și al permisiei."
+  ],
+  "pozitionale": [],
+  "nivel": {
+   "score": 2.0,
+   "confidence": 0.16
+  },
+  "usage": {
+   "a": 2630,
+   "b": 6383
+  }
+ },
+ {
+  "id": "L80-113",
+  "cheie": [
+   "D"
+  ],
+  "tip": "unic",
+  "variante": {
+   "A": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "sustine": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 1.0
+    },
+    "confidence": 0.99
+   },
+   "B": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "sustine": 0.0,
+     "nu_spune": 0.01,
+     "contrazice": 0.99
+    },
+    "confidence": 0.98
+   },
+   "C": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "sustine": 0.0,
+     "nu_spune": 0.01,
+     "contrazice": 0.99
+    },
+    "confidence": 0.99
+   },
+   "D": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "nouls": {
+   "sinonim": 0.07,
+   "absolut": 0.18,
+   "abrogat": 0.08,
+   "numeste_actul": 0.75,
+   "categorie_ambigua": 0.49,
+   "citat_acopera": 0.97
+  },
+  "afirmatii": {
+   "0": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.03,
+     "sustine": 0.97
+    },
+    "confidence": 0.95
+   },
+   "2": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.01,
+     "contrazice": 0.0,
+     "sustine": 0.99
+    },
+    "confidence": 0.99
+   }
+  },
+  "fraze": [
+   "Art. 9 lit. e) prevede dreptul cadrelor militare în activitate la suportarea de către Ministerul Apărării Naționale a sumelor necesare pentru asigurarea asistenței juridice, pentru fapte săvârșite în exercitarea, potrivit legii, a atribuțiilor de serviciu, în condițiile stabilite prin ordin al ministrului apărării naționale.",
+   "Hotărârea Guvernului este forma prevăzută pentru celelalte drepturi de la art. 9: cuantumurile soldei lunare și ale celorlalte drepturi bănești (lit. a)), condițiile privind echipamentul, hrana, asistența medicală, locuința de serviciu și concediile (lit. b)) și transportul gratuit (lit. d)).",
+   "Regulamentele militare și ordinul comandantului unității nu sunt indicate la art. 9 ca forme de stabilire a acestor condiții."
+  ],
+  "pozitionale": [],
+  "nivel": {
+   "score": 2.77,
+   "confidence": 0.79
+  },
+  "usage": {
+   "a": 2651,
+   "b": 4449
+  }
+ },
+ {
+  "id": "L80-114",
+  "cheie": [
+   "A"
+  ],
+  "tip": "unic",
+  "variante": {
+   "A": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "B": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "sustine": 0.0,
+     "nu_spune": 0.12,
+     "contrazice": 0.88
+    },
+    "confidence": 0.82
+   },
+   "C": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "sustine": 0.0,
+     "nu_spune": 0.04,
+     "contrazice": 0.96
+    },
+    "confidence": 0.94
+   },
+   "D": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "sustine": 0.0,
+     "nu_spune": 0.34,
+     "contrazice": 0.66
+    },
+    "confidence": 0.49
+   }
+  },
+  "nouls": {
+   "sinonim": 0.11,
+   "absolut": 0.31,
+   "abrogat": 0.05,
+   "numeste_actul": 0.72,
+   "categorie_ambigua": 0.52,
+   "citat_acopera": 0.98
+  },
+  "afirmatii": {
+   "0": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.99,
+     "nu_spune": 0.01,
+     "contrazice": 0.0
+    },
+    "confidence": 0.98
+   },
+   "1": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.99,
+     "nu_spune": 0.0,
+     "contrazice": 0.01
+    },
+    "confidence": 0.98
+   },
+   "2": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 0.99
+   },
+   "3": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.56,
+     "nu_spune": 0.28,
+     "contrazice": 0.16
+    },
+    "confidence": 0.34
+   }
+  },
+  "fraze": [
+   "Art. 9^1, introdus în secțiunea dedicată drepturilor, prevede că cadrele militare trecute în rezervă sau direct în retragere au dreptul la pensie militară de stat, potrivit legii; textul nu condiționează dreptul de o opțiune exprimată la trecerea în rezervă.",
+   "Indemnizația lunară de 50% din solda lunară, pentru cel mult 9 luni, este dreptul soțului sau soției care a întrerupt activitatea datorită mutării cadrului militar în altă garnizoană (art. 20^1 alin. (4)).",
+   "Ajutorul suplimentar de două solde lunare neimpozabile se acordă de Ministerul Apărării Naționale la decesul unui cadru militar în activitate, familiei sau persoanei care a suportat cheltuielile de deces (art. 23 alin. (3)).",
+   "Art. 11 alin. (1) conținea aceeași regulă, dar prevederile sale referitoare la pensii sunt semnalate în notele portalului ca abrogate de legislația anterioară de pensii, motiv pentru care dreptul la pensie militară de stat a fost reintrodus expres la art. 9^1; alin. (3) al art. 11, în vigoare, prevede sporul de pensie pentru pensionarii militari decorați cu „Semnul onorific”."
+  ],
+  "pozitionale": [],
+  "nivel": {
+   "score": 1.73,
+   "confidence": 0.37
+  },
+  "usage": {
+   "a": 1829,
+   "b": 5463
+  }
+ },
+ {
+  "id": "L80-115",
+  "cheie": [
+   "C"
+  ],
+  "tip": "unic",
+  "variante": {
+   "A": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "sustine": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 1.0
+    },
+    "confidence": 0.99
+   },
+   "B": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "sustine": 0.01,
+     "nu_spune": 0.0,
+     "contrazice": 0.99
+    },
+    "confidence": 0.98
+   },
+   "C": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "D": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "sustine": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 1.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "nouls": {
+   "sinonim": 0.05,
+   "absolut": 0.2,
+   "abrogat": 0.4,
+   "numeste_actul": 0.73,
+   "categorie_ambigua": 0.42,
+   "citat_acopera": 0.97
+  },
+  "afirmatii": {
+   "0": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.01,
+     "sustine": 0.99
+    },
+    "confidence": 0.99
+   },
+   "1": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0
+    },
+    "confidence": 0.99
+   },
+   "2": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.01,
+     "contrazice": 0.01,
+     "sustine": 0.98
+    },
+    "confidence": 0.97
+   },
+   "3": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.02,
+     "contrazice": 0.05,
+     "sustine": 0.93
+    },
+    "confidence": 0.89
+   }
+  },
+  "fraze": [
+   "Art. 11 alin. (3): pensionarii militari decorați cu „Semnul onorific” clasele a III-a, a II-a și I beneficiază de un spor de 10%, 15% și, respectiv, 20% al cuantumului pensiei, în ordinea claselor; clasa I, cea mai înaltă, corespunde sporului de 20%.",
+   "Sporul de 10% revine clasei a III-a, iar cel de 15% clasei a II-a; 25% nu apare în text.",
+   "Capcana este ordinea inversă a enumerării: textul începe cu clasa a III-a (cea mai mică) și cu procentul cel mai mic.",
+   "Notele portalului arată că prevederile alin. (1) și (2) ale art. 11, referitoare la pensie și la actualizarea părții din pensie corespunzătoare soldei de grad, au fost abrogate prin legislația anterioară de pensii, dreptul la pensie militară de stat fiind prevăzut în prezent la art. 9^1."
+  ],
+  "pozitionale": [],
+  "nivel": {
+   "score": 2.05,
+   "confidence": 0.95
+  },
+  "usage": {
+   "a": 1614,
+   "b": 3799
+  }
+ },
+ {
+  "id": "L80-116",
+  "cheie": [
+   "D"
+  ],
+  "tip": "unic",
+  "variante": {
+   "A": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 1.0,
+     "sustine": 0.0
+    },
+    "confidence": 1.0
+   },
+   "B": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "nu_spune": 0.01,
+     "contrazice": 0.98,
+     "sustine": 0.01
+    },
+    "confidence": 0.97
+   },
+   "C": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "nu_spune": 0.03,
+     "contrazice": 0.97,
+     "sustine": 0.0
+    },
+    "confidence": 0.96
+   },
+   "D": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "nouls": {
+   "sinonim": 0.08,
+   "absolut": 0.35,
+   "abrogat": 0.11,
+   "numeste_actul": 0.69,
+   "categorie_ambigua": 0.58,
+   "citat_acopera": 0.98
+  },
+  "afirmatii": {
+   "0": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 0.99
+   },
+   "1": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.99,
+     "nu_spune": 0.01,
+     "contrazice": 0.0
+    },
+    "confidence": 0.99
+   },
+   "2": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "fraze": [
+   "Art. 12 recunoaște cadrelor militare în activitate dreptul de a urma învățământul superior militar sau civil, postuniversitar, doctoratul sau alte forme de perfecționare a pregătirii, cu respectarea normelor legale, fără a limita dreptul la învățământul militar și fără a restrânge doctoratul la instituțiile militare.",
+   "Concursul și aprobarea ministrului apărării naționale sunt condițiile prevăzute la art. 13 alin. (1) pentru trimiterea la studii în străinătate, nu pentru învățământul superior civil în general.",
+   "Legat de acest drept, art. 14 alin. (1) prevede și concediul de studii, iar art. 16 acordă celor care urmează cursurile de zi ale instituțiilor de învățământ superior vacanțe în locul concediilor de odihnă."
+  ],
+  "pozitionale": [],
+  "nivel": {
+   "score": 1.91,
+   "confidence": 0.23
+  },
+  "usage": {
+   "a": 1860,
+   "b": 3456
+  }
+ },
+ {
+  "id": "L80-117",
+  "cheie": [
+   "C"
+  ],
+  "tip": "unic",
+  "variante": {
+   "A": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "sustine": 0.0,
+     "contrazice": 1.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   },
+   "B": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "sustine": 0.0,
+     "contrazice": 1.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   },
+   "C": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "contrazice": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   },
+   "D": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "sustine": 0.0,
+     "contrazice": 0.98,
+     "nu_spune": 0.02
+    },
+    "confidence": 0.97
+   }
+  },
+  "nouls": {
+   "sinonim": 0.07,
+   "absolut": 0.27,
+   "abrogat": 0.07,
+   "numeste_actul": 0.66,
+   "categorie_ambigua": 0.58,
+   "citat_acopera": 0.98
+  },
+  "afirmatii": {
+   "0": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.99,
+     "contrazice": 0.01,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.97
+   },
+   "2": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.99,
+     "contrazice": 0.01,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.98
+   }
+  },
+  "fraze": [
+   "Art. 13 alin. (1) impune două condiții cumulative pentru trimiterea la studii în străinătate: concursul și aprobarea ministrului apărării naționale.",
+   "Aprobarea comandantului unității militare este prevăzută în lege pentru concediul anual pentru formare profesională (art. 14^3 alin. (1)), nu pentru studiile în străinătate; varianta „la cerere, fără concurs” elimină condiția concursului; hotărârea Guvernului nu este prevăzută la art. 13.",
+   "Potrivit alin. (2), cadrele militare în activitate care au absolvit școli și academii militare, cursuri sau alte forme de pregătire în străinătate beneficiază de drepturi depline la încadrarea și promovarea în funcții corespunzătoare studiilor din țară cu care le-au fost echivalate diplomele, în condițiile legii și ale reglementărilor militare."
+  ],
+  "pozitionale": [],
+  "nivel": {
+   "score": 3.07,
+   "confidence": 0.93
+  },
+  "usage": {
+   "a": 1835,
+   "b": 3163
+  }
+ },
+ {
+  "id": "L80-118",
+  "cheie": [
+   "B"
+  ],
+  "tip": "unic",
+  "variante": {
+   "A": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "sustine": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 1.0
+    },
+    "confidence": 1.0
+   },
+   "B": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "C": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "sustine": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 1.0
+    },
+    "confidence": 0.99
+   },
+   "D": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "sustine": 0.0,
+     "nu_spune": 0.01,
+     "contrazice": 0.99
+    },
+    "confidence": 0.98
+   }
+  },
+  "nouls": {
+   "sinonim": 0.06,
+   "absolut": 0.12,
+   "abrogat": 0.09,
+   "numeste_actul": 0.67,
+   "categorie_ambigua": 0.55,
+   "citat_acopera": 0.98
+  },
+  "afirmatii": {
+   "0": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "2": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 0.99
+   }
+  },
+  "fraze": [
+   "Art. 14 alin. (2) trimite la hotărârea Guvernului pentru regulile privind durata și acordarea concediului de odihnă, a concediului de odihnă suplimentar și a concediului de studii, precum și pentru compensarea în bani a concediului de odihnă neefectuat.",
+   "Alin. (1) enumeră concediile la care au dreptul, în timp de pace, cadrele militare în activitate: concediul de odihnă, concediul de odihnă suplimentar pentru activitate în locuri de muncă cu condiții deosebite (vătămătoare, grele sau periculoase) și concediul de studii.",
+   "Ordinul ministrului apărării naționale este forma prevăzută pentru condițiile concediului pentru formare profesională (art. 14^3 alin. (1)), regulamentele militare stabilesc durata permisiilor și comandanții care le aprobă (art. 17 alin. (2)), iar comandantul unității militare aprobă concediul pentru formare profesională (art. 14^3 alin. (1))."
+  ],
+  "pozitionale": [],
+  "nivel": {
+   "score": 1.91,
+   "confidence": 0.01
+  },
+  "usage": {
+   "a": 2598,
+   "b": 4160
+  }
+ },
+ {
+  "id": "L80-119",
+  "cheie": [
+   "C"
+  ],
+  "tip": "unic",
+  "variante": {
+   "A": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "sustine": 0.01,
+     "contrazice": 0.99,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.97
+   },
+   "B": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "sustine": 0.0,
+     "contrazice": 1.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   },
+   "C": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "contrazice": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   },
+   "D": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "sustine": 0.0,
+     "contrazice": 1.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "nouls": {
+   "sinonim": 0.07,
+   "absolut": 0.15,
+   "abrogat": 0.03,
+   "numeste_actul": 0.7,
+   "categorie_ambigua": 0.62,
+   "citat_acopera": 0.96
+  },
+  "afirmatii": {
+   "0": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.99,
+     "nu_spune": 0.0,
+     "contrazice": 0.01
+    },
+    "confidence": 0.99
+   },
+   "1": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.98,
+     "nu_spune": 0.0,
+     "contrazice": 0.02
+    },
+    "confidence": 0.96
+   },
+   "2": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 0.99
+   },
+   "3": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.99,
+     "nu_spune": 0.0,
+     "contrazice": 0.01
+    },
+    "confidence": 0.98
+   }
+  },
+  "fraze": [
+   "Art. 14^1 alin. (1) lit. a): în timp de pace, cadrele militare în activitate au dreptul la concedii fără plată pe o durată de cel mult 4 ani atunci când solicită să își urmeze soția sau soțul trimis în străinătate pentru o misiune permanentă, pentru o perioadă mai mare de 6 luni; aceeași durată maximă de 4 ani se aplică și celor selectate să ocupe temporar posturi în structurile organizațiilor internaționale, cu aprobarea prealabilă a ministrului apărării naționale (lit. b)).",
+   "Durata de cel mult un an este prevăzută la alin. (2) pentru concediile fără plată acordate în alte cazuri, temeinic motivate, și tot cu cel mult un an poate ministrul apărării naționale prelungi concediile de la alin. (1) și (2) (alin. (4)).",
+   "Cele 6 luni reprezintă durata minimă a misiunii soțului în străinătate, care condiționează dreptul, nu durata concediului; 2 ani nu apare în text.",
+   "Concediile se aprobă de ministrul apărării naționale sau de comandanții stabiliți de acesta (alin. (3)), iar în Ministerul Afacerilor Interne prelungirea se aprobă potrivit competențelor de gestiune a resurselor umane (alin. (4^1))."
+  ],
+  "pozitionale": [],
+  "nivel": {
+   "score": 2.12,
+   "confidence": 0.9
+  },
+  "usage": {
+   "a": 2762,
+   "b": 5285
+  }
+ },
+ {
+  "id": "L80-120",
+  "cheie": [
+   "A",
+   "B"
+  ],
+  "tip": "multiplu",
+  "variante": {
+   "A": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.99
+   },
+   "B": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   },
+   "C": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "contrazice": 1.0,
+     "sustine": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   },
+   "D": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "contrazice": 1.0,
+     "sustine": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "nouls": {
+   "sinonim": 0.08,
+   "absolut": 0.1,
+   "abrogat": 0.05,
+   "numeste_actul": 0.7,
+   "categorie_ambigua": 0.54,
+   "citat_acopera": 0.94
+  },
+  "afirmatii": {
+   "0": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "2": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "fraze": [
+   "Art. 14^1 tratează diferit cele trei tipuri de concediu fără plată în privința stagiului în grad: pentru situația de la alin. (1) lit. a) (urmarea soțului în străinătate) se ia în calcul o perioadă egală cu trei pătrimi din durata concediului (alin. (7)); pentru situația de la alin. (1) lit. b) (posturi în organizații internaționale) se ia în calcul întreaga durată (alin. (8)); pentru concediul acordat în alte cazuri, temeinic motivate, potrivit alin. (2), durata nu se ia în calcul deloc la stabilirea stagiului în grad (alin. (8^1)), deci varianta cu „jumătate” este greșită.",
+   "Varianta potrivit căreia perioada concediului fără plată ar constitui vechime în serviciu pentru stabilirea pensiei contrazice alin. (6): perioada concediului fără plată nu constituie vechime în serviciu pentru stabilirea pensiei, vechime în activitate pentru acordarea Semnului onorific În Serviciul Patriei și/sau pentru acordarea gradației următoare.",
+   "Pe durata concediului, cadrele militare sunt suspendate din funcție și nu beneficiază de niciun drept din partea Ministerului Apărării Naționale, cu excepția folosirii locuinței de serviciu, dacă dispun de aceasta (alin. (5))."
+  ],
+  "pozitionale": [],
+  "nivel": {
+   "score": 2.88,
+   "confidence": 0.26
+  },
+  "usage": {
+   "a": 2871,
+   "b": 5128
+  }
+ },
+ {
+  "id": "L80-121",
+  "cheie": [
+   "B"
+  ],
+  "tip": "unic",
+  "variante": {
+   "A": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "nu_spune": 0.01,
+     "sustine": 0.0,
+     "contrazice": 0.99
+    },
+    "confidence": 0.98
+   },
+   "B": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "C": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.0,
+     "contrazice": 1.0
+    },
+    "confidence": 1.0
+   },
+   "D": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "nu_spune": 0.03,
+     "sustine": 0.0,
+     "contrazice": 0.97
+    },
+    "confidence": 0.95
+   }
+  },
+  "nouls": {
+   "sinonim": 0.08,
+   "absolut": 0.27,
+   "abrogat": 0.03,
+   "numeste_actul": 0.7,
+   "categorie_ambigua": 0.57,
+   "citat_acopera": 0.97
+  },
+  "afirmatii": {
+   "0": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.01,
+     "nu_spune": 0.0,
+     "sustine": 0.99
+    },
+    "confidence": 0.99
+   },
+   "1": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.01,
+     "nu_spune": 0.0,
+     "sustine": 0.99
+    },
+    "confidence": 0.99
+   },
+   "2": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.01,
+     "nu_spune": 0.02,
+     "sustine": 0.97
+    },
+    "confidence": 0.95
+   },
+   "3": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.06,
+     "nu_spune": 0.0,
+     "sustine": 0.94
+    },
+    "confidence": 0.91
+   }
+  },
+  "fraze": [
+   "Art. 14^2 alin. (2): la încetarea concediului fără plată pentru formare profesională, acordat potrivit alin. (1) cadrelor militare confirmate în serviciul medical pe o durată de cel mult 4 ani, instituția reîncadrează cadrul militar din oficiu, pe funcția de pe care a fost suspendat, prin rezervarea acesteia, singura excepție fiind reorganizarea sau restructurarea unității cu desființarea postului.",
+   "Numirea pe o funcție vacantă sau punerea la dispoziție în vederea încadrării este regula generală de la art. 14^1 alin. (9), aplicabilă la încetarea concediilor fără plată obișnuite, nu a celui pentru formare profesională din serviciul medical, unde funcția se rezervă.",
+   "Reîncadrarea prin concurs și trecerea în rezervă nu apar în text.",
+   "Potrivit alin. (3), acestui concediu i se aplică în mod corespunzător art. 14^1 alin. (3), (5), (6) și (8^1), deci durata lui nu se ia în calcul la stabilirea stagiului în grad."
+  ],
+  "pozitionale": [],
+  "nivel": {
+   "score": 3.93,
+   "confidence": 0.94
+  },
+  "usage": {
+   "a": 2797,
+   "b": 5478
+  }
+ },
+ {
+  "id": "L80-122",
+  "cheie": [
+   "D"
+  ],
+  "tip": "unic",
+  "variante": {
+   "A": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "sustine": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 1.0
+    },
+    "confidence": 1.0
+   },
+   "B": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "sustine": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 1.0
+    },
+    "confidence": 1.0
+   },
+   "C": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "sustine": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 1.0
+    },
+    "confidence": 1.0
+   },
+   "D": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "nouls": {
+   "sinonim": 0.09,
+   "absolut": 0.22,
+   "abrogat": 0.04,
+   "numeste_actul": 0.73,
+   "categorie_ambigua": 0.59,
+   "citat_acopera": 0.98
+  },
+  "afirmatii": {
+   "0": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 0.99
+   },
+   "2": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "3": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.99,
+     "nu_spune": 0.0,
+     "contrazice": 0.01
+    },
+    "confidence": 0.98
+   }
+  },
+  "fraze": [
+   "Art. 14^3 alin. (1): concediul anual pentru formare profesională este plătit, de până la 15 zile lucrătoare, se aprobă de comandantul unității militare și se acordă în condițiile stabilite prin ordin al ministrului apărării naționale; ministrul stabilește condițiile, dar aprobarea concediului aparține comandantului unității.",
+   "Termenul se socotește în zile lucrătoare, nu calendaristice, iar valorile de 30 și 10 zile nu apar în text.",
+   "Potrivit alin. (2), durata acestui concediu nu poate fi dedusă din durata concediului de odihnă anual și este asimilată unei perioade de muncă efectivă în ceea ce privește drepturile cuvenite personalului militar.",
+   "Acest concediu plătit nu trebuie confundat cu concediul fără plată pentru formare profesională de cel mult 4 ani, rezervat cadrelor confirmate în serviciul medical (art. 14^2 alin. (1))."
+  ],
+  "pozitionale": [],
+  "nivel": {
+   "score": 2.94,
+   "confidence": 0.73
+  },
+  "usage": {
+   "a": 2056,
+   "b": 3948
+  }
+ },
+ {
+  "id": "L80-123",
+  "cheie": [
+   "B"
+  ],
+  "tip": "unic",
+  "variante": {
+   "A": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 1.0,
+     "sustine": 0.0
+    },
+    "confidence": 1.0
+   },
+   "B": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   },
+   "C": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 1.0,
+     "sustine": 0.0
+    },
+    "confidence": 0.99
+   },
+   "D": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 1.0,
+     "sustine": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "nouls": {
+   "sinonim": 0.08,
+   "absolut": 0.32,
+   "abrogat": 0.04,
+   "numeste_actul": 0.75,
+   "categorie_ambigua": 0.61,
+   "citat_acopera": 0.98
+  },
+  "afirmatii": {
+   "0": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.99,
+     "nu_spune": 0.0,
+     "contrazice": 0.01
+    },
+    "confidence": 0.98
+   },
+   "2": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "fraze": [
+   "Art. 14^4 enumeră complet drepturile păstrate pe timpul concediului de odihnă, al concediului paternal, al incapacității temporare de muncă și al permisiei: solda de funcție, solda de grad, gradațiile și, după caz, solda de comandă, indemnizațiile, compensațiile, sporurile, primele, majorările și alte drepturi salariale cu caracter permanent cuvenite pentru perioada respectivă.",
+   "Variantele care exclud sporurile, indemnizațiile, solda de comandă sau primele restrâng nejustificat enumerarea, iar varianta cu suspendarea celorlalte drepturi descrie, de fapt, regimul concediului fără plată, în care cadrele militare nu beneficiază de niciun drept din partea Ministerului Apărării Naționale, cu excepția folosirii locuinței de serviciu (art. 14^1 alin. (5)).",
+   "Textul art. 14^4 vizează expres cadrele militare în activitate din cadrul Ministerului Apărării Naționale."
+  ],
+  "pozitionale": [],
+  "nivel": {
+   "score": 2.03,
+   "confidence": 0.13
+  },
+  "usage": {
+   "a": 2069,
+   "b": 4341
+  }
+ },
+ {
+  "id": "L80-124",
+  "cheie": [
+   "A"
+  ],
+  "tip": "unic",
+  "variante": {
+   "A": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "contrazice": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   },
+   "B": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "contrazice": 1.0,
+     "sustine": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   },
+   "C": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "contrazice": 1.0,
+     "sustine": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   },
+   "D": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "contrazice": 1.0,
+     "sustine": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "nouls": {
+   "sinonim": 0.06,
+   "absolut": 0.45,
+   "abrogat": 0.06,
+   "numeste_actul": 0.74,
+   "categorie_ambigua": 0.49,
+   "citat_acopera": 0.96
+  },
+  "afirmatii": {
+   "0": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 0.99
+   },
+   "1": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.01,
+     "contrazice": 0.01,
+     "sustine": 0.98
+    },
+    "confidence": 0.97
+   },
+   "2": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.01,
+     "sustine": 0.99
+    },
+    "confidence": 0.98
+   }
+  },
+  "fraze": [
+   "Art. 15 alin. (3): la stabilirea stagiului în gradul pe care îl au cadrele militare se ia în calcul întreaga durată a concediului prevăzut la alin. (2), adică a concediului și indemnizației pentru îngrijirea copilului bolnav, a concediului de acomodare, a concediului paternal și a concediului și indemnizației pentru creșterea copilului, acordate în condițiile dispozițiilor legale în vigoare.",
+   "Proporția de trei pătrimi se aplică, potrivit art. 14^1 alin. (7), concediului fără plată luat pentru a urma soțul trimis în misiune permanentă în străinătate, iar neluarea în calcul privește concediul fără plată acordat pentru alte cazuri temeinic motivate (art. 14^1 alin. (8^1)); proporția de jumătate nu apare în lege.",
+   "Art. 15 alin. (1) prevede, pentru femeile cadre militare în activitate, dreptul la concediu de maternitate, la pauze pentru alimentarea și îngrijirea copilului și la celelalte drepturi prevăzute de lege pentru femeile salariate din administrația publică."
+  ],
+  "pozitionale": [],
+  "nivel": {
+   "score": 2.35,
+   "confidence": 0.69
+  },
+  "usage": {
+   "a": 1885,
+   "b": 4728
+  }
+ },
+ {
+  "id": "L80-125",
+  "cheie": [
+   "B"
+  ],
+  "tip": "unic",
+  "variante": {
+   "A": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "contrazice": 0.99,
+     "nu_spune": 0.0,
+     "sustine": 0.01
+    },
+    "confidence": 0.99
+   },
+   "B": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   },
+   "C": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "contrazice": 1.0,
+     "nu_spune": 0.0,
+     "sustine": 0.0
+    },
+    "confidence": 0.99
+   },
+   "D": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "contrazice": 1.0,
+     "nu_spune": 0.0,
+     "sustine": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "nouls": {
+   "sinonim": 0.08,
+   "absolut": 0.35,
+   "abrogat": 0.09,
+   "numeste_actul": 0.64,
+   "categorie_ambigua": 0.48,
+   "citat_acopera": 0.98
+  },
+  "afirmatii": {
+   "0": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.01,
+     "sustine": 0.98,
+     "contrazice": 0.01
+    },
+    "confidence": 0.98
+   },
+   "2": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0
+    },
+    "confidence": 0.99
+   }
+  },
+  "fraze": [
+   "Art. 17 alin. (1) acordă dreptul la permisii, pentru rezolvarea unor situații personale sau familiale deosebite, cadrelor militare în activitate, precum și celor în rezervă, dar numai pe timpul cât acestea sunt concentrate sau mobilizate în unități militare.",
+   "Varianta „numai cadrelor în activitate” omite cadrele în rezervă concentrate sau mobilizate, iar cea cu cadrele în rezervă necondiționat omite cerința concentrării sau mobilizării; cadrele în retragere nu sunt menționate, ele nemaiputând fi chemate pentru îndeplinirea serviciului militar (art. 4 lit. c)).",
+   "Potrivit alin. (2), durata permisiilor și comandanții care au dreptul să le aprobe se stabilesc prin regulamentele militare, iar art. 18 prevede că timpul acordat pentru permisii nu se scade din durata concediului anual de odihnă sau a concediului de odihnă suplimentar."
+  ],
+  "pozitionale": [],
+  "nivel": {
+   "score": 3.41,
+   "confidence": 0.51
+  },
+  "usage": {
+   "a": 1711,
+   "b": 3303
+  }
+ },
+ {
+  "id": "L80-126",
+  "cheie": [
+   "C"
+  ],
+  "tip": "unic",
+  "variante": {
+   "A": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "sustine": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 1.0
+    },
+    "confidence": 1.0
+   },
+   "B": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "sustine": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 1.0
+    },
+    "confidence": 1.0
+   },
+   "C": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "D": {
+    "alegere": "nu_spune",
+    "probabilitati": {
+     "sustine": 0.0,
+     "nu_spune": 0.6,
+     "contrazice": 0.4
+    },
+    "confidence": 0.39
+   }
+  },
+  "nouls": {
+   "sinonim": 0.08,
+   "absolut": 0.31,
+   "abrogat": 0.06,
+   "numeste_actul": 0.69,
+   "categorie_ambigua": 0.45,
+   "citat_acopera": 0.97
+  },
+  "afirmatii": {
+   "0": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.96,
+     "nu_spune": 0.03,
+     "contrazice": 0.01
+    },
+    "confidence": 0.95
+   },
+   "2": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.99,
+     "nu_spune": 0.01,
+     "contrazice": 0.0
+    },
+    "confidence": 0.99
+   }
+  },
+  "fraze": [
+   "Art. 18 prevede expres că timpul acordat pentru permisii, scutiri și concedii medicale nu se scade nici din durata concediului anual de odihnă, nici din cea a concediului de odihnă suplimentar, deci ambele variante cu scădere sunt greșite.",
+   "Compensarea în bani, stabilită prin hotărâre a Guvernului, privește concediul de odihnă neefectuat (art. 14 alin. (2)), nu timpul permisiilor sau al concediilor medicale.",
+   "O regulă asemănătoare există la art. 14^3 alin. (2), potrivit căruia durata concediului pentru formare profesională nu poate fi dedusă din durata concediului de odihnă anual."
+  ],
+  "pozitionale": [],
+  "nivel": {
+   "score": 2.53,
+   "confidence": 0.0
+  },
+  "usage": {
+   "a": 2223,
+   "b": 3616
+  }
+ },
+ {
+  "id": "L80-127",
+  "cheie": [
+   "D"
+  ],
+  "tip": "unic",
+  "variante": {
+   "A": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "contrazice": 0.99,
+     "nu_spune": 0.0,
+     "sustine": 0.01
+    },
+    "confidence": 0.97
+   },
+   "B": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "contrazice": 1.0,
+     "nu_spune": 0.0,
+     "sustine": 0.0
+    },
+    "confidence": 1.0
+   },
+   "C": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "contrazice": 1.0,
+     "nu_spune": 0.0,
+     "sustine": 0.0
+    },
+    "confidence": 0.99
+   },
+   "D": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "nouls": {
+   "sinonim": 0.11,
+   "absolut": 0.38,
+   "abrogat": 0.03,
+   "numeste_actul": 0.75,
+   "categorie_ambigua": 0.45,
+   "citat_acopera": 0.97
+  },
+  "afirmatii": {
+   "0": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "alegere": "nu_spune",
+    "probabilitati": {
+     "nu_spune": 0.63,
+     "contrazice": 0.03,
+     "sustine": 0.34
+    },
+    "confidence": 0.45
+   },
+   "2": {
+    "alegere": "nu_spune",
+    "probabilitati": {
+     "nu_spune": 0.57,
+     "contrazice": 0.03,
+     "sustine": 0.4
+    },
+    "confidence": 0.37
+   },
+   "3": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "fraze": [
+   "Art. 20^1 alin. (1) stabilește plafonul compensației lunare pentru chirie la „până la 50% din solda lunară”, solda lunară fiind, potrivit art. 9 lit. a), compusă din solda de grad, solda de funcție, gradații și indemnizații.",
+   "Varianta „50% din solda de funcție” este capcana clasică: H.G. nr. 1867/2005, care stabilește cuantumul concret potrivit art. 20^1 alin. (3), raportează procentele la solda de funcție, dar întrebarea vizează textul Legii nr. 80/1995, unde baza este solda lunară; procentul de 40% apare tot în hotărârea Guvernului, pentru alte localități decât municipiile, stațiunile și localitățile cu situații deosebite, nu în lege.",
+   "Solda de grad nu este baza de calcul în niciunul dintre cele două acte.",
+   "Potrivit art. 20^1 alin. (3), cuantumul concret al compensației și condițiile de acordare se stabilesc prin hotărâre a Guvernului, la propunerea ministrului apărării naționale."
+  ],
+  "pozitionale": [],
+  "nivel": {
+   "score": 2.9,
+   "confidence": 0.25
+  },
+  "usage": {
+   "a": 3456,
+   "b": 7087
+  }
+ },
+ {
+  "id": "L80-128",
+  "cheie": [
+   "C"
+  ],
+  "tip": "unic",
+  "variante": {
+   "A": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "sustine": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 1.0
+    },
+    "confidence": 1.0
+   },
+   "B": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "sustine": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 1.0
+    },
+    "confidence": 1.0
+   },
+   "C": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.95,
+     "nu_spune": 0.0,
+     "contrazice": 0.05
+    },
+    "confidence": 0.92
+   },
+   "D": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "sustine": 0.03,
+     "nu_spune": 0.07,
+     "contrazice": 0.9
+    },
+    "confidence": 0.86
+   }
+  },
+  "nouls": {
+   "sinonim": 0.11,
+   "absolut": 0.17,
+   "abrogat": 0.04,
+   "numeste_actul": 0.74,
+   "categorie_ambigua": 0.46,
+   "citat_acopera": 0.96
+  },
+  "afirmatii": {
+   "0": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.99,
+     "contrazice": 0.01
+    },
+    "confidence": 0.99
+   },
+   "1": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "2": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.99,
+     "contrazice": 0.01
+    },
+    "confidence": 0.99
+   }
+  },
+  "fraze": [
+   "Art. 20^1 alin. (2) tratează situația cadrelor militare aflate în garnizoana de domiciliu: ele pot beneficia de compensația lunară pentru chirie prevăzută la alin. (1), dar numai în cazuri justificate, pe baza rezultatelor anchetei sociale efectuate de o comisie constituită prin ordin al ministrului apărării naționale și la propunerea comandanților sau a șefilor lor.",
+   "Dreptul nu este exclus, cum susține varianta care rezervă compensația celor mutați în altă garnizoană decât cea de domiciliu, dar nici nu se acordă de drept, cum susține varianta „în aceleași condiții ca cei mutați în altă garnizoană”: acordarea de drept este regimul situației de la alin. (1), în care cadrul militar este mutat în altă garnizoană decât cea de domiciliu.",
+   "Creditul ipotecar/imobiliar sau contractul de vânzare-cumpărare cu plata în rate nu este o condiție a alin. (2), ci ipoteza distinctă de la alin. (2^1), în care cei care îndeplinesc condițiile de la alin. (1) și (2) primesc compensația pentru plata ratei, fără a depăși rata lunară plătită."
+  ],
+  "pozitionale": [],
+  "nivel": {
+   "score": 3.31,
+   "confidence": 0.73
+  },
+  "usage": {
+   "a": 3558,
+   "b": 6612
+  }
+ },
+ {
+  "id": "L80-129",
+  "cheie": [
+   "A",
+   "C",
+   "D"
+  ],
+  "tip": "multiplu",
+  "variante": {
+   "A": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   },
+   "B": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "contrazice": 1.0,
+     "nu_spune": 0.0,
+     "sustine": 0.0
+    },
+    "confidence": 1.0
+   },
+   "C": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.01,
+     "nu_spune": 0.0,
+     "sustine": 0.99
+    },
+    "confidence": 0.98
+   },
+   "D": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "nouls": {
+   "sinonim": 0.11,
+   "absolut": 0.13,
+   "abrogat": 0.04,
+   "numeste_actul": 0.69,
+   "categorie_ambigua": 0.45,
+   "citat_acopera": 0.94
+  },
+  "afirmatii": {
+   "0": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   },
+   "2": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   },
+   "3": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "fraze": [
+   "Art. 20^1 alin. (2^2) prevede că, în situația creditului ipotecar/imobiliar sau a contractului de vânzare-cumpărare cu plata în rate (alin. (2^1)), compensația se acordă pentru o singură locuință achiziționată pe timpul carierei și că ea nu se poate acorda concomitent pentru situația de la alin. (1) și (2) (chirie) și pentru situația de la alin. (2^1) (rată), cadrul militar trebuind să opteze pentru una dintre ele, deci varianta privind acordarea concomitentă pentru plata chiriei și pentru plata ratei creditului este greșită.",
+   "Alin. (2^4) limitează beneficiul la o singură garnizoană pentru cadrele mutate sau detașate și/sau împuternicite prevăzute la alin. (1).",
+   "Alin. (3) trimite la hotărârea Guvernului, adoptată la propunerea ministrului apărării naționale, pentru cuantumul concret al compensației de la alin. (1), (2) și (2^1) și pentru condițiile de acordare.",
+   "Tot alin. (2^2) precizează că Ministerul Apărării Naționale nu îi asigură cadrului militar care a optat pentru situația de la alin. (2^1) un spațiu de locuit corespunzător în garnizoana unde a achiziționat locuința, pe durata existenței acestei situații."
+  ],
+  "pozitionale": [],
+  "nivel": {
+   "score": 3.5,
+   "confidence": 0.58
+  },
+  "usage": {
+   "a": 3460,
+   "b": 6930
+  }
+ },
+ {
+  "id": "L80-130",
+  "cheie": [
+   "A"
+  ],
+  "tip": "unic",
+  "variante": {
+   "A": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 0.99
+   },
+   "B": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "sustine": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 1.0
+    },
+    "confidence": 1.0
+   },
+   "C": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "sustine": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 1.0
+    },
+    "confidence": 1.0
+   },
+   "D": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "sustine": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 1.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "nouls": {
+   "sinonim": 0.07,
+   "absolut": 0.11,
+   "abrogat": 0.04,
+   "numeste_actul": 0.74,
+   "categorie_ambigua": 0.33,
+   "citat_acopera": 0.98
+  },
+  "afirmatii": {
+   "0": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 0.99
+   },
+   "2": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "fraze": [
+   "Art. 20^1 alin. (4) fixează trei elemente: cuantumul (50% din solda lunară a cadrului militar urmat), condiția de încetare (o nouă angajare sau prestarea unei activități autorizate aducătoare de venituri) și limita temporală (nu mai mult de 9 luni de la data mutării cadrului militar).",
+   "Variantele cu 6 luni, 25% sau 12 luni și solda de funcție modifică unul dintre aceste elemente; niciuna dintre aceste valori nu apare la alin. (4), iar baza de calcul este solda lunară, nu solda de funcție.",
+   "Potrivit alin. (5), de aceeași indemnizație beneficiază și soții sau soțiile care, la data mutării, erau înscrise ca șomeri la agențiile pentru ocuparea forței de muncă județene sau a municipiului București, dar numai după expirarea, potrivit legii, a termenului de plată a indemnizației de șomaj."
+  ],
+  "pozitionale": [],
+  "nivel": {
+   "score": 2.38,
+   "confidence": 0.67
+  },
+  "usage": {
+   "a": 3552,
+   "b": 6465
+  }
+ },
+ {
+  "id": "L80-131",
+  "cheie": [
+   "B"
+  ],
+  "tip": "unic",
+  "variante": {
+   "A": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.0,
+     "contrazice": 1.0
+    },
+    "confidence": 1.0
+   },
+   "B": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.99,
+     "contrazice": 0.01
+    },
+    "confidence": 0.99
+   },
+   "C": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.02,
+     "contrazice": 0.98
+    },
+    "confidence": 0.97
+   },
+   "D": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.0,
+     "contrazice": 1.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "nouls": {
+   "sinonim": 0.09,
+   "absolut": 0.2,
+   "abrogat": 0.1,
+   "numeste_actul": 0.66,
+   "categorie_ambigua": 0.47,
+   "citat_acopera": 0.93
+  },
+  "afirmatii": {
+   "0": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 0.99
+   },
+   "1": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "2": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 0.99
+   },
+   "3": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 0.99
+   },
+   "4": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.99,
+     "nu_spune": 0.0,
+     "contrazice": 0.01
+    },
+    "confidence": 0.98
+   }
+  },
+  "fraze": [
+   "Art. 21 alin. (1) stabilește beneficiarii despăgubirilor: ofițerii, maiștrii militari și subofițerii în activitate și cei în rezervă, dar numai pe timpul cât sunt concentrați sau mobilizați în unitățile militare, pentru invaliditatea sau decesul produse ca urmare a unor acțiuni militare, prin accidente, catastrofe sau alte asemenea evenimente intervenite în timpul și din cauza serviciului militar ori a unor misiuni în cadrul forțelor internaționale.",
+   "Potrivit alin. (2), cuantumul despăgubirilor acordate cadrelor devenite invalide, respectiv urmașilor celor decedate, se stabilește prin hotărâre a Guvernului, nu prin ordin al ministrului apărării naționale.",
+   "Varianta „numai cadrelor în activitate” omite rezerviștii concentrați sau mobilizați, iar cea cu cadrele în retragere adaugă o categorie pe care textul nu o prevede (cadrele în retragere nu mai pot fi chemate pentru îndeplinirea serviciului militar, art. 4 lit. c)).",
+   "Cele două solde lunare neimpozabile reprezintă ajutorul suplimentar acordat de Ministerul Apărării Naționale la decesul unui cadru militar în activitate (art. 23 alin. (3)), nu cuantumul despăgubirilor.",
+   "Atenție: prevederile art. 21 alin. (3) referitoare la pensia pentru invaliditate permanentă sunt semnalate în notele portalului ca abrogate de legislația anterioară de pensii, pensiile militare fiind reglementate în prezent prin Legea nr. 223/2015; în schimb, alin. (4), în vigoare, permite personalului militar încadrat în gradul III de invaliditate sau clasat apt limitat să fie menținut ori rechemat în activitate sau încadrat în funcții civile fără examen sau concurs, la cerere."
+  ],
+  "pozitionale": [],
+  "nivel": {
+   "score": 3.58,
+   "confidence": 0.65
+  },
+  "usage": {
+   "a": 3027,
+   "b": 6342
+  }
+ },
+ {
+  "id": "L80-132",
+  "cheie": [
+   "C"
+  ],
+  "tip": "unic",
+  "variante": {
+   "A": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "nu_spune": 0.03,
+     "contrazice": 0.97,
+     "sustine": 0.0
+    },
+    "confidence": 0.95
+   },
+   "B": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "nu_spune": 0.01,
+     "contrazice": 0.99,
+     "sustine": 0.0
+    },
+    "confidence": 0.99
+   },
+   "C": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   },
+   "D": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "nu_spune": 0.01,
+     "contrazice": 0.99,
+     "sustine": 0.0
+    },
+    "confidence": 0.98
+   }
+  },
+  "nouls": {
+   "sinonim": 0.08,
+   "absolut": 0.17,
+   "abrogat": 0.13,
+   "numeste_actul": 0.7,
+   "categorie_ambigua": 0.42,
+   "citat_acopera": 0.98
+  },
+  "afirmatii": {
+   "0": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.01,
+     "sustine": 0.99,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.99
+   },
+   "2": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.99
+   }
+  },
+  "fraze": [
+   "Art. 21 alin. (4) oferă, la cerere, personalului militar încadrat în gradul III de invaliditate sau clasat apt limitat, în timpul ori în legătură cu exercitarea atribuțiilor de serviciu, trei posibilități: menținerea în activitate, rechemarea în activitate în funcții militare sau încadrarea în funcții civile, fără examen sau concurs, în instituțiile din sistemul de apărare, ordine publică și siguranță națională, în condițiile stabilite prin ordin al conducătorului instituției.",
+   "Trecerea obligatorie în rezervă contrazice posibilitatea menținerii în activitate; încadrarea „numai în funcții civile, prin concurs” contrazice atât alternativa funcțiilor militare, cât și scutirea de examen sau concurs; aprobarea Guvernului nu apare în text, competența fiind a conducătorului instituției.",
+   "O măsură asemănătoare, tot fără examen ori concurs, este prevăzută la art. 25 alin. (3) pentru copiii aflați în întreținere și soțul ori soția personalului militar clasat inapt sau apt limitat ori decedat în aceste condiții."
+  ],
+  "pozitionale": [],
+  "nivel": {
+   "score": 3.28,
+   "confidence": 0.68
+  },
+  "usage": {
+   "a": 3011,
+   "b": 5328
+  }
+ },
+ {
+  "id": "L80-133",
+  "cheie": [
+   "A",
+   "C"
+  ],
+  "tip": "multiplu",
+  "variante": {
+   "A": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "B": {
+    "alegere": "nu_spune",
+    "probabilitati": {
+     "sustine": 0.01,
+     "nu_spune": 0.67,
+     "contrazice": 0.32
+    },
+    "confidence": 0.51
+   },
+   "C": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "D": {
+    "alegere": "nu_spune",
+    "probabilitati": {
+     "nu_spune": 0.62,
+     "sustine": 0.0,
+     "contrazice": 0.38
+    },
+    "confidence": 0.42
+   }
+  },
+  "nouls": {
+   "sinonim": 0.08,
+   "absolut": 0.24,
+   "abrogat": 0.04,
+   "numeste_actul": 0.67,
+   "categorie_ambigua": 0.6,
+   "citat_acopera": 0.97
+  },
+  "afirmatii": {
+   "0": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.97,
+     "nu_spune": 0.0,
+     "contrazice": 0.03
+    },
+    "confidence": 0.96
+   },
+   "1": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.99,
+     "nu_spune": 0.0,
+     "contrazice": 0.01
+    },
+    "confidence": 0.98
+   },
+   "2": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 0.99
+   }
+  },
+  "fraze": [
+   "Art. 23 alin. (1) enumeră două drepturi gratuite ale membrilor familiilor cadrelor militare în activitate: asistența medicală și medicamentele, în rețeaua sanitară a Ministerului Apărării Naționale sau în alte rețele sanitare, cu decontarea cheltuielilor de către minister (lit. a)), și transportul, atunci când cadrul militar este mutat în interes de serviciu dintr-o garnizoană în alta (lit. b)).",
+   "Locuința de serviciu, echipamentul și hrana gratuite sunt drepturi ale cadrelor militare în activitate înseși, prevăzute la art. 9 lit. b), nu ale membrilor familiilor lor.",
+   "Potrivit alin. (2), membrii familiilor beneficiază și de pensie de urmaș și de alte drepturi conform prevederilor legale, iar alin. (3) prevede, la decesul unui cadru militar în activitate, ajutorul suplimentar de două solde lunare neimpozabile."
+  ],
+  "pozitionale": [],
+  "nivel": {
+   "score": 2.31,
+   "confidence": 0.0
+  },
+  "usage": {
+   "a": 2180,
+   "b": 3863
+  }
+ },
+ {
+  "id": "L80-134",
+  "cheie": [
+   "B"
+  ],
+  "tip": "unic",
+  "variante": {
+   "A": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "contrazice": 1.0,
+     "nu_spune": 0.0,
+     "sustine": 0.0
+    },
+    "confidence": 1.0
+   },
+   "B": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   },
+   "C": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "contrazice": 1.0,
+     "nu_spune": 0.0,
+     "sustine": 0.0
+    },
+    "confidence": 1.0
+   },
+   "D": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "contrazice": 0.99,
+     "nu_spune": 0.01,
+     "sustine": 0.0
+    },
+    "confidence": 0.99
+   }
+  },
+  "nouls": {
+   "sinonim": 0.06,
+   "absolut": 0.24,
+   "abrogat": 0.05,
+   "numeste_actul": 0.74,
+   "categorie_ambigua": 0.61,
+   "citat_acopera": 0.98
+  },
+  "afirmatii": {
+   "0": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.01,
+     "nu_spune": 0.0,
+     "sustine": 0.99
+    },
+    "confidence": 0.99
+   },
+   "2": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 0.99
+   }
+  },
+  "fraze": [
+   "Art. 23 alin. (3): la decesul unui cadru militar în activitate, Ministerul Apărării Naționale acordă familiei acestuia sau, după caz, persoanei care a suportat cheltuielile ocazionate de deces un ajutor suplimentar în cuantum de două solde lunare neimpozabile.",
+   "Valorile de o soldă și trei solde nu apar în text, iar indemnizația de 50% din solda lunară pentru cel mult 9 luni este dreptul soțului care a întrerupt activitatea datorită mutării cadrului militar în altă garnizoană (art. 20^1 alin. (4)).",
+   "Ajutorul se acordă numai la decesul unui cadru militar în activitate, iar membrii familiilor beneficiază separat de pensie de urmaș și de alte drepturi în conformitate cu prevederile legale (art. 23 alin. (2))."
+  ],
+  "pozitionale": [],
+  "nivel": {
+   "score": 2.03,
+   "confidence": 0.97
+  },
+  "usage": {
+   "a": 2124,
+   "b": 4858
+  }
+ },
+ {
+  "id": "L80-135",
+  "cheie": [
+   "A"
+  ],
+  "tip": "unic",
+  "variante": {
+   "A": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   },
+   "B": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "contrazice": 0.82,
+     "nu_spune": 0.18,
+     "sustine": 0.0
+    },
+    "confidence": 0.72
+   },
+   "C": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "contrazice": 0.75,
+     "nu_spune": 0.23,
+     "sustine": 0.02
+    },
+    "confidence": 0.62
+   },
+   "D": {
+    "alegere": "nu_spune",
+    "probabilitati": {
+     "contrazice": 0.1,
+     "nu_spune": 0.9,
+     "sustine": 0.0
+    },
+    "confidence": 0.85
+   }
+  },
+  "nouls": {
+   "sinonim": 0.07,
+   "absolut": 0.23,
+   "abrogat": 0.08,
+   "numeste_actul": 0.71,
+   "categorie_ambigua": 0.62,
+   "citat_acopera": 0.96
+  },
+  "afirmatii": {
+   "0": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0
+    },
+    "confidence": 0.99
+   },
+   "2": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "3": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.99,
+     "contrazice": 0.01
+    },
+    "confidence": 0.97
+   },
+   "4": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.99,
+     "contrazice": 0.01
+    },
+    "confidence": 0.98
+   }
+  },
+  "fraze": [
+   "Art. 26 alin. (3) prevede pentru membrii familiilor cadrelor militare în rezervă și în retragere, pensionari militari, un singur drept gratuit: asistența medicală, în condițiile art. 23 alin. (1) lit. a).",
+   "Transportul gratuit la mutare este dreptul membrilor familiilor cadrelor militare în activitate (art. 23 alin. (1) lit. b)), fiind legat de mutarea în interes de serviciu.",
+   "Accesul la cercurile militare, casele de odihnă, sanatorii, căminele de garnizoană și alte amenajări, cu înlesniri stabilite prin ordin al ministrului apărării naționale, este recunoscut de art. 26 alin. (1) pensionarilor militari înșiși, împreună cu asistența medicală și medicamentele gratuite, nu membrilor familiilor lor.",
+   "Ajutorul de două solde lunare se acordă, potrivit art. 23 alin. (3), numai la decesul unui cadru militar în activitate.",
+   "De drepturile de la alin. (1) beneficiază, potrivit alin. (2), și foștii pensionari militari de invaliditate din cauza unor accidente în serviciu ori boli contractate în timpul și din cauza obligațiilor militare, care au optat ulterior pentru pensia din sistemul asigurărilor sociale de stat."
+  ],
+  "pozitionale": [],
+  "nivel": {
+   "score": 3.56,
+   "confidence": 0.63
+  },
+  "usage": {
+   "a": 2541,
+   "b": 4739
+  }
+ },
+ {
+  "id": "L80-136",
+  "cheie": [
+   "A"
+  ],
+  "tip": "unic",
+  "variante": {
+   "A": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "B": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "sustine": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 1.0
+    },
+    "confidence": 1.0
+   },
+   "C": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "sustine": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 1.0
+    },
+    "confidence": 1.0
+   },
+   "D": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "sustine": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 1.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "nouls": {
+   "sinonim": 0.07,
+   "absolut": 0.37,
+   "abrogat": 0.05,
+   "numeste_actul": 0.73,
+   "categorie_ambigua": 0.64,
+   "citat_acopera": 0.97
+  },
+  "afirmatii": {
+   "0": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.98,
+     "nu_spune": 0.0,
+     "contrazice": 0.02
+    },
+    "confidence": 0.97
+   },
+   "1": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 0.99
+   },
+   "2": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 0.99
+   }
+  },
+  "fraze": [
+   "Art. 28 lit. b) interzice cadrelor militare în activitate să candideze pentru a fi alese în administrația publică locală, în Parlamentul României și în Parlamentul European, precum și în funcția de Președinte al României; enumerarea este completă, fără excepții sau aprobări, deci variantele care permit candidatura pentru administrația publică locală ori pentru Parlamentul European sunt greșite.",
+   "Interdicția este însoțită, la lit. a), de interzicerea apartenenței la partide, formațiuni sau organizații politice și a propagandei în favoarea lor ori a unui candidat independent pentru funcții publice și, la lit. c), de interzicerea declarării sau participării la grevă.",
+   "Aceste interdicții (art. 28) se deosebesc de restrângerile de la art. 29, unde, de exemplu, exprimarea în public a opiniilor politice nu este permisă (lit. a)), iar participarea la mitinguri cu caracter politic ori sindical este interzisă cu excepția activităților la care se participă în misiune (lit. g))."
+  ],
+  "pozitionale": [],
+  "nivel": {
+   "score": 1.96,
+   "confidence": 0.2
+  },
+  "usage": {
+   "a": 2365,
+   "b": 4249
+  }
+ },
+ {
+  "id": "L80-137",
+  "cheie": [
+   "A",
+   "C",
+   "D"
+  ],
+  "tip": "multiplu",
+  "variante": {
+   "A": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   },
+   "B": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.99,
+     "sustine": 0.01
+    },
+    "confidence": 0.99
+   },
+   "C": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   },
+   "D": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "nouls": {
+   "sinonim": 0.07,
+   "absolut": 0.1,
+   "abrogat": 0.05,
+   "numeste_actul": 0.72,
+   "categorie_ambigua": 0.69,
+   "citat_acopera": 0.94
+  },
+  "afirmatii": {
+   "0": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   },
+   "2": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.03,
+     "nu_spune": 0.01,
+     "sustine": 0.96
+    },
+    "confidence": 0.95
+   }
+  },
+  "fraze": [
+   "Art. 29 lit. a) prevede că exprimarea în public a opiniilor politice nu este permisă; lit. g) interzice participarea la mitinguri, demonstrații, procesiuni sau întruniri cu caracter politic ori sindical, cu excepția activităților la care se participă în misiune; lit. h) permite deplasarea în străinătate în condițiile stabilite prin ordin al ministrului apărării naționale.",
+   "Varianta privind asocierea sindicală este greșită: lit. e) permite constituirea în forme de asociere cu caracter profesional, tehnico-științific, cultural, sportiv-recreativ sau caritabil, în condițiile regulamentelor militare, dar exceptează expres asocierile sindicale ori pe cele care contravin comenzii unice, ordinii și disciplinei specifice instituției armatei.",
+   "Restrângerile de la art. 29 se deosebesc de interdicțiile de la art. 28 (apartenența politică, candidatura, greva); lit. i) adaugă că, pe timpul stării de urgență, de asediu, de mobilizare și pe timp de război, primirea în audiență și soluționarea petițiilor se suspendă."
+  ],
+  "pozitionale": [],
+  "nivel": {
+   "score": 3.88,
+   "confidence": 0.9
+  },
+  "usage": {
+   "a": 2434,
+   "b": 4552
+  }
+ },
+ {
+  "id": "L80-138",
+  "cheie": [
+   "D"
+  ],
+  "tip": "unic",
+  "variante": {
+   "A": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "sustine": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 1.0
+    },
+    "confidence": 0.99
+   },
+   "B": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "sustine": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 1.0
+    },
+    "confidence": 1.0
+   },
+   "C": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "sustine": 0.01,
+     "nu_spune": 0.01,
+     "contrazice": 0.98
+    },
+    "confidence": 0.98
+   },
+   "D": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "nouls": {
+   "sinonim": 0.09,
+   "absolut": 0.18,
+   "abrogat": 0.05,
+   "numeste_actul": 0.71,
+   "categorie_ambigua": 0.65,
+   "citat_acopera": 0.97
+  },
+  "afirmatii": {
+   "0": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.98,
+     "nu_spune": 0.0,
+     "contrazice": 0.02
+    },
+    "confidence": 0.98
+   },
+   "1": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 0.99
+   },
+   "2": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 0.99
+   },
+   "3": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 0.99
+   }
+  },
+  "fraze": [
+   "Art. 29 lit. c): prezentarea în public de informații cu caracter militar nu este permisă cadrelor militare, cu excepția celor care au atribuții în acest sens, potrivit normelor stabilite prin ordin al ministrului apărării naționale.",
+   "Excepția este legată de atribuțiile stabilite prin ordin al ministrului, nu de caracterul clasificat sau nu al informațiilor și nici de o aprobare a comandantului unității, iar varianta „fără nicio excepție” ignoră partea finală a literei c).",
+   "Textul nu se limitează la secretul militar: obligația de a păstra cu strictețe secretul militar, de stat și de serviciu este o îndatorire distinctă, prevăzută la art. 8 alin. (1) lit. f).",
+   "Tot art. 29 restrânge, la lit. b), exprimarea în public a unor opinii contrare intereselor României și forțelor armate."
+  ],
+  "pozitionale": [],
+  "nivel": {
+   "score": 3.63,
+   "confidence": 0.69
+  },
+  "usage": {
+   "a": 2369,
+   "b": 5200
+  }
+ },
+ {
+  "id": "L80-139",
+  "cheie": [
+   "C"
+  ],
+  "tip": "unic",
+  "variante": {
+   "A": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "nu_spune": 0.04,
+     "sustine": 0.0,
+     "contrazice": 0.96
+    },
+    "confidence": 0.94
+   },
+   "B": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "nu_spune": 0.11,
+     "contrazice": 0.89,
+     "sustine": 0.0
+    },
+    "confidence": 0.83
+   },
+   "C": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   },
+   "D": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.0,
+     "contrazice": 1.0
+    },
+    "confidence": 0.99
+   }
+  },
+  "nouls": {
+   "sinonim": 0.06,
+   "absolut": 0.28,
+   "abrogat": 0.06,
+   "numeste_actul": 0.7,
+   "categorie_ambigua": 0.65,
+   "citat_acopera": 0.97
+  },
+  "afirmatii": {
+   "0": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.99,
+     "nu_spune": 0.0,
+     "contrazice": 0.01
+    },
+    "confidence": 0.99
+   },
+   "1": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.87,
+     "nu_spune": 0.0,
+     "contrazice": 0.13
+    },
+    "confidence": 0.81
+   },
+   "2": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 0.99
+   }
+  },
+  "fraze": [
+   "Art. 30 alin. (2) lit. b) interzice cadrelor militare în activitate să fie asociat unic ori să participe direct la administrarea sau conducerea unor organizații ori societăți comerciale, singura excepție fiind numirea în consiliile de administrație ale regiilor autonome și societăților comerciale din subordinea, coordonarea sau sub autoritatea Ministerului Apărării Naționale și ale filialelor acestora, din cadrul industriei de apărare sau în legătură cu aceasta.",
+   "Calitatea de asociat unic este interzisă expres, nu exceptată; capitalul privat, programul de lucru și aprobarea comandantului nu apar în text.",
+   "Lit. a) a aceluiași alineat interzice îndeplinirea altor funcții decât cele în care sunt încadrate, cu excepția cumulului prevăzut de lege, în condițiile stabilite prin ordin al ministrului apărării naționale, iar alin. (1) impune obligația generală de a nu efectua activități care contravin demnității, prestigiului și normelor de comportare ce decurg din calitatea de cadru militar."
+  ],
+  "pozitionale": [],
+  "nivel": {
+   "score": 3.55,
+   "confidence": 0.62
+  },
+  "usage": {
+   "a": 2424,
+   "b": 3887
+  }
+ },
+ {
+  "id": "L80-140",
+  "cheie": [
+   "B"
+  ],
+  "tip": "unic",
+  "variante": {
+   "A": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "contrazice": 0.83,
+     "nu_spune": 0.16,
+     "sustine": 0.01
+    },
+    "confidence": 0.75
+   },
+   "B": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   },
+   "C": {
+    "alegere": "nu_spune",
+    "probabilitati": {
+     "contrazice": 0.17,
+     "nu_spune": 0.75,
+     "sustine": 0.08
+    },
+    "confidence": 0.63
+   },
+   "D": {
+    "alegere": "nu_spune",
+    "probabilitati": {
+     "contrazice": 0.22,
+     "nu_spune": 0.76,
+     "sustine": 0.02
+    },
+    "confidence": 0.64
+   }
+  },
+  "nouls": {
+   "sinonim": 0.09,
+   "absolut": 0.27,
+   "abrogat": 0.05,
+   "numeste_actul": 0.69,
+   "categorie_ambigua": 0.41,
+   "citat_acopera": 0.95
+  },
+  "afirmatii": {
+   "0": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.04,
+     "nu_spune": 0.0,
+     "sustine": 0.96
+    },
+    "confidence": 0.94
+   },
+   "1": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 0.99
+   },
+   "2": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.02,
+     "nu_spune": 0.09,
+     "sustine": 0.89
+    },
+    "confidence": 0.84
+   },
+   "3": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 0.99
+   }
+  },
+  "fraze": [
+   "Art. 33 enumeră recompensele care pot fi acordate cadrelor militare: înaintarea în gradul următor, în mod excepțional, în condițiile art. 64 (lit. a)); înaintarea în gradul următor, înainte de termen, în condițiile art. 63 (lit. b)); conferirea de decorații și titluri de onoare (lit. c)); conferirea de medalii, ordine și semne onorifice (lit. d)); alte recompense morale, financiare sau materiale, în condiții stabilite prin ordin al conducătorului instituției militare, cele financiare acordându-se în condițiile prevăzute de lege pentru premierea personalului plătit din fonduri publice (lit. e)).",
+   "Amânarea înaintării în gradul următor pe timp de un an sau 2 ani este, dimpotrivă, o sancțiune disciplinară (art. 35 alin. (1) lit. e)).",
+   "Permisiile (art. 17) și compensarea în bani a concediului de odihnă neefectuat (art. 14 alin. (2)) sunt drepturi ale cadrelor militare, nu recompense.",
+   "Potrivit art. 32 alin. (3), comandantul/șeful dispune de prerogativă disciplinară, având competența de a acorda recompense și de a aplica sancțiuni disciplinare."
+  ],
+  "pozitionale": [],
+  "nivel": {
+   "score": 2.5,
+   "confidence": 0.0
+  },
+  "usage": {
+   "a": 2134,
+   "b": 5606
+  }
+ },
+ {
+  "id": "L80-141",
+  "cheie": [
+   "B"
+  ],
+  "tip": "unic",
+  "variante": {
+   "A": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "sustine": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 1.0
+    },
+    "confidence": 0.99
+   },
+   "B": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "C": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "sustine": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 1.0
+    },
+    "confidence": 1.0
+   },
+   "D": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "sustine": 0.0,
+     "nu_spune": 0.03,
+     "contrazice": 0.97
+    },
+    "confidence": 0.94
+   }
+  },
+  "nouls": {
+   "sinonim": 0.09,
+   "absolut": 0.2,
+   "abrogat": 0.07,
+   "numeste_actul": 0.74,
+   "categorie_ambigua": 0.32,
+   "citat_acopera": 0.97
+  },
+  "afirmatii": {
+   "0": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.01,
+     "nu_spune": 0.0,
+     "sustine": 0.99
+    },
+    "confidence": 0.99
+   },
+   "1": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.03,
+     "nu_spune": 0.01,
+     "sustine": 0.96
+    },
+    "confidence": 0.95
+   },
+   "2": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.01,
+     "nu_spune": 0.0,
+     "sustine": 0.99
+    },
+    "confidence": 0.98
+   },
+   "3": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.02,
+     "nu_spune": 0.01,
+     "sustine": 0.97
+    },
+    "confidence": 0.96
+   }
+  },
+  "fraze": [
+   "Art. 34 alin. (3) prevede că sunt absolvite de orice răspundere cadrele militare care, prin exercitarea, în limitele legii, a atribuțiilor de serviciu, au cauzat vătămări unor persoane ori au adus prejudicii patrimoniului acestora; condiția esențială este exercitarea atribuțiilor în limitele legii.",
+   "Variantele care mențin răspunderea materială, civilă sau disciplinară contrazic formula „orice răspundere”.",
+   "În schimb, potrivit alin. (1), încălcarea cu vinovăție a îndatoririlor de serviciu angajează răspunderea disciplinară, materială, civilă sau penală, după caz, iar potrivit alin. (2) cadrele militare răspund individual pentru faptele și actele proprii sancționate de lege, săvârșite atât în exercitarea atribuțiilor de serviciu ori în legătură cu acesta, cât și în afara serviciului.",
+   "Această absolvire de răspundere se leagă de art. 6 alin. (1), potrivit căruia, în exercitarea atribuțiilor, cadrele militare sunt investite cu exercițiul autorității publice, bucurându-se de protecție potrivit legii penale."
+  ],
+  "pozitionale": [],
+  "nivel": {
+   "score": 3.07,
+   "confidence": 0.22
+  },
+  "usage": {
+   "a": 1989,
+   "b": 3961
+  }
+ },
+ {
+  "id": "L80-142",
+  "cheie": [
+   "A"
+  ],
+  "tip": "unic",
+  "variante": {
+   "A": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   },
+   "B": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "contrazice": 1.0,
+     "sustine": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   },
+   "C": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "contrazice": 1.0,
+     "sustine": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   },
+   "D": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "contrazice": 1.0,
+     "sustine": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "nouls": {
+   "sinonim": 0.07,
+   "absolut": 0.3,
+   "abrogat": 0.05,
+   "numeste_actul": 0.67,
+   "categorie_ambigua": 0.42,
+   "citat_acopera": 0.98
+  },
+  "afirmatii": {
+   "0": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 0.99
+   },
+   "1": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.98,
+     "nu_spune": 0.0,
+     "contrazice": 0.02
+    },
+    "confidence": 0.97
+   },
+   "2": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "fraze": [
+   "Art. 34^1 definește abaterea disciplinară prin trei elemente: fapta săvârșită cu vinovăție de cadrul militar, încălcarea normelor legale, a regulamentelor militare, a ordinelor și dispozițiilor legale ale comandanților/șefilor ierarhici și condiția negativă ca fapta să nu fi fost săvârșită în condiții care o fac infracțiune potrivit legii penale.",
+   "Varianta care include infracțiunile contrazice această condiție negativă; varianta limitată la neexecutarea ordinelor, „indiferent de legalitatea acestora”, restrânge nejustificat definiția și contrazice art. 8 alin. (1) lit. b), potrivit căruia cadrelor militare le este interzis să execute acte contrare legii, iar neexecutarea unor astfel de ordine nu atrage răspunderea; varianta cu fapte săvârșite fără vinovăție contrazice cerința vinovăției, prezentă atât la art. 34^1, cât și la art. 34 alin. (1).",
+   "Sancțiunile disciplinare aplicabile pentru abateri sunt enumerate la art. 35."
+  ],
+  "pozitionale": [],
+  "nivel": {
+   "score": 2.48,
+   "confidence": 0.0
+  },
+  "usage": {
+   "a": 2533,
+   "b": 5689
+  }
+ }
+]

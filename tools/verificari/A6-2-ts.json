@@ -1,0 +1,3378 @@
+[
+ {
+  "id": "A6-201",
+  "cheie": [
+   "A"
+  ],
+  "tip": "unic",
+  "variante": {
+   "A": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.99,
+     "nu_spune": 0.0,
+     "contrazice": 0.01
+    },
+    "confidence": 0.99
+   },
+   "B": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "sustine": 0.03,
+     "nu_spune": 0.01,
+     "contrazice": 0.96
+    },
+    "confidence": 0.94
+   },
+   "C": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "sustine": 0.02,
+     "nu_spune": 0.02,
+     "contrazice": 0.96
+    },
+    "confidence": 0.94
+   },
+   "D": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "sustine": 0.0,
+     "nu_spune": 0.01,
+     "contrazice": 0.99
+    },
+    "confidence": 0.99
+   }
+  },
+  "nouls": {
+   "sinonim": 0.08,
+   "absolut": 0.3,
+   "abrogat": 0.05,
+   "numeste_actul": 0.7,
+   "categorie_ambigua": 0.23,
+   "citat_acopera": 0.97
+  },
+  "afirmatii": {
+   "0": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.01,
+     "sustine": 0.98,
+     "nu_spune": 0.01
+    },
+    "confidence": 0.97
+   },
+   "1": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.99,
+     "contrazice": 0.01,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.98
+   },
+   "2": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.98,
+     "contrazice": 0.01,
+     "nu_spune": 0.01
+    },
+    "confidence": 0.98
+   },
+   "3": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.99,
+     "contrazice": 0.01,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.99
+   },
+   "4": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.99,
+     "contrazice": 0.0,
+     "nu_spune": 0.01
+    },
+    "confidence": 0.99
+   }
+  },
+  "fraze": [
+   "Art. 21 alin. (1) lit. a) din anexa nr.",
+   "VI: indemnizația de mutare este egală cu solda de funcție/salariul de funcție cuvenită/cuvenit pentru noile funcții în care personalul a fost încadrat, iar potrivit alin. (2) se acordă în luna schimbării domiciliului.",
+   "Cuantumul de 1/4 din solda de funcție este indemnizația acordată pentru fiecare membru de familie aflat în întreținere, prevăzută la lit. b) a aceluiași alineat.",
+   "Nivelul a două solde de funcție privește indemnizația de instalare a absolvenților numiți în localități izolate sau în zone unde atragerea personalului se face cu greutate (alin. (9)).",
+   "Solda de grad nu este baza de calcul a niciuneia dintre indemnizațiile de la art. 21, care se raportează la solda de funcție/salariul de funcție."
+  ],
+  "pozitionale": [],
+  "nivel": {
+   "score": 2.03,
+   "confidence": 0.96
+  },
+  "usage": {
+   "a": 3395,
+   "b": 5255
+  }
+ },
+ {
+  "id": "A6-202",
+  "cheie": [
+   "A",
+   "B",
+   "C"
+  ],
+  "tip": "multiplu",
+  "variante": {
+   "A": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.07,
+     "sustine": 0.93
+    },
+    "confidence": 0.9
+   },
+   "B": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.12,
+     "sustine": 0.88
+    },
+    "confidence": 0.82
+   },
+   "C": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.99,
+     "contrazice": 0.01
+    },
+    "confidence": 0.98
+   },
+   "D": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "nu_spune": 0.11,
+     "contrazice": 0.87,
+     "sustine": 0.02
+    },
+    "confidence": 0.8
+   }
+  },
+  "nouls": {
+   "sinonim": 0.09,
+   "absolut": 0.17,
+   "abrogat": 0.05,
+   "numeste_actul": 0.69,
+   "categorie_ambigua": 0.36,
+   "citat_acopera": 0.95
+  },
+  "afirmatii": {
+   "0": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.89,
+     "nu_spune": 0.03,
+     "contrazice": 0.08
+    },
+    "confidence": 0.84
+   },
+   "1": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.01,
+     "sustine": 0.99,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.98
+   },
+   "2": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.98,
+     "nu_spune": 0.0,
+     "contrazice": 0.02
+    },
+    "confidence": 0.97
+   },
+   "3": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.01,
+     "sustine": 0.98,
+     "nu_spune": 0.01
+    },
+    "confidence": 0.97
+   }
+  },
+  "fraze": [
+   "Art. 21 alin. (1) din anexa nr.",
+   "VI enumeră patru drepturi ale personalului mutat sau transferat în interes de serviciu în altă localitate: indemnizația de mutare egală cu solda de funcție/salariul de funcție cuvenit pentru noile funcții (lit. a), indemnizația de 1/4 din solda de funcție/salariul de funcție pentru fiecare membru de familie aflat în întreținere, plătită în luna schimbării domiciliului membrilor de familie (lit. b), rambursarea costului transportului pentru personal, membrii de familie și gospodăria lor (lit. c) și o permisie, respectiv o învoire plătită de 5 zile lucrătoare, acordată la cerere (lit. d).",
+   "Indemnizația de instalare la nivelul a două solde de funcție/salarii de funcție nu este un drept al personalului mutat, ci o posibilitate prevăzută la alin. (9) pentru absolvenții instituțiilor de învățământ numiți în localități izolate sau în zone unde atragerea personalului se face cu greutate.",
+   "Potrivit alin. (4), aceleași drepturi se acordă și persoanelor nou-încadrate sau reintegrate în rândul polițiștilor."
+  ],
+  "pozitionale": [],
+  "nivel": {
+   "score": 2.18,
+   "confidence": 0.77
+  },
+  "usage": {
+   "a": 3467,
+   "b": 5387
+  }
+ },
+ {
+  "id": "A6-203",
+  "cheie": [
+   "A"
+  ],
+  "tip": "unic",
+  "variante": {
+   "A": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "contrazice": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   },
+   "B": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "sustine": 0.0,
+     "contrazice": 0.99,
+     "nu_spune": 0.01
+    },
+    "confidence": 0.98
+   },
+   "C": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "sustine": 0.0,
+     "contrazice": 1.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   },
+   "D": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "sustine": 0.0,
+     "contrazice": 1.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "nouls": {
+   "sinonim": 0.05,
+   "absolut": 0.13,
+   "abrogat": 0.05,
+   "numeste_actul": 0.73,
+   "categorie_ambigua": 0.26,
+   "citat_acopera": 0.97
+  },
+  "afirmatii": {
+   "0": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.01,
+     "contrazice": 0.02,
+     "sustine": 0.97
+    },
+    "confidence": 0.96
+   },
+   "1": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.01,
+     "sustine": 0.99
+    },
+    "confidence": 0.99
+   },
+   "2": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 0.99
+   },
+   "3": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   },
+   "4": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.01,
+     "contrazice": 0.02,
+     "sustine": 0.97
+    },
+    "confidence": 0.96
+   }
+  },
+  "fraze": [
+   "Art. 21 alin. (11) din anexa nr.",
+   "VI: personalul militar care a beneficiat de indemnizația de instalare și care își prezintă demisia înainte de împlinirea unui termen de 3 ani de la absolvirea instituțiilor de învățământ, respectiv de la semnarea primului contract, restituie indemnizația proporțional cu perioada rămasă până la expirarea termenului de 3 ani; regula se aplică și personalului care a urmat cursul de formare a cadrelor militare în activitate.",
+   "Același termen de 3 ani este prevăzut la alin. (13) pentru polițiști și funcționarii publici cu statut special din sistemul administrației penitenciare.",
+   "Termenul de 12 luni apare în art. 21 cu alt rol: este perioada în care cadrele trecute în rezervă (alin. (12)) sau familia personalului decedat (alin. (14)) trebuie să își schimbe domiciliul pentru a li se rambursa cheltuielile de transport.",
+   "Termenele de 2 ani și 5 ani nu apar în text."
+  ],
+  "pozitionale": [],
+  "nivel": {
+   "score": 2.04,
+   "confidence": 0.96
+  },
+  "usage": {
+   "a": 3401,
+   "b": 5381
+  }
+ },
+ {
+  "id": "A6-204",
+  "cheie": [
+   "A"
+  ],
+  "tip": "unic",
+  "variante": {
+   "A": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "B": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.0,
+     "contrazice": 1.0
+    },
+    "confidence": 0.99
+   },
+   "C": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.0,
+     "contrazice": 1.0
+    },
+    "confidence": 1.0
+   },
+   "D": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "nu_spune": 0.01,
+     "sustine": 0.0,
+     "contrazice": 0.99
+    },
+    "confidence": 0.99
+   }
+  },
+  "nouls": {
+   "sinonim": 0.06,
+   "absolut": 0.15,
+   "abrogat": 0.06,
+   "numeste_actul": 0.7,
+   "categorie_ambigua": 0.5,
+   "citat_acopera": 0.97
+  },
+  "afirmatii": {
+   "0": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.01,
+     "sustine": 0.97,
+     "contrazice": 0.02
+    },
+    "confidence": 0.97
+   },
+   "1": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.01,
+     "sustine": 0.95,
+     "contrazice": 0.04
+    },
+    "confidence": 0.92
+   },
+   "2": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0
+    },
+    "confidence": 0.99
+   },
+   "3": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.01,
+     "sustine": 0.98,
+     "contrazice": 0.01
+    },
+    "confidence": 0.97
+   },
+   "4": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.01,
+     "sustine": 0.98,
+     "contrazice": 0.01
+    },
+    "confidence": 0.97
+   },
+   "5": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.02,
+     "sustine": 0.97,
+     "contrazice": 0.01
+    },
+    "confidence": 0.96
+   }
+  },
+  "fraze": [
+   "Art. 21 alin. (12) din anexa nr.",
+   "VI: cadrele militare trecute în rezervă sau direct în retragere în baza art. 85 alin. (1) lit. a)-f) din Legea nr. 80/1995 beneficiază de rambursarea cheltuielilor de transport dacă își schimbă domiciliul în termen de 12 luni de la data schimbării poziției de activitate.",
+   "Același termen de 12 luni este prevăzut la alin. (14) pentru familia personalului militar decedat, calculat de la data decesului.",
+   "Termenul de 3 ani este cel în care demisia atrage restituirea indemnizației de instalare (alin. (11) și (13)).",
+   "Termenul de 22 de zile lucrătoare este durata maximă a predării funcției la trecerea în rezervă, prevăzută la art. 59 alin. (2) din anexă, și nu are legătură cu rambursarea transportului.",
+   "Termenul de 6 luni nu apare în text."
+  ],
+  "pozitionale": [],
+  "nivel": {
+   "score": 2.17,
+   "confidence": 0.85
+  },
+  "usage": {
+   "a": 3475,
+   "b": 6575
+  }
+ },
+ {
+  "id": "A6-205",
+  "cheie": [
+   "A"
+  ],
+  "tip": "unic",
+  "variante": {
+   "A": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "B": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "nu_spune": 0.02,
+     "sustine": 0.01,
+     "contrazice": 0.97
+    },
+    "confidence": 0.96
+   },
+   "C": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.0,
+     "contrazice": 1.0
+    },
+    "confidence": 1.0
+   },
+   "D": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.0,
+     "contrazice": 1.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "nouls": {
+   "sinonim": 0.07,
+   "absolut": 0.22,
+   "abrogat": 0.05,
+   "numeste_actul": 0.74,
+   "categorie_ambigua": 0.23,
+   "citat_acopera": 0.97
+  },
+  "afirmatii": {
+   "0": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.01,
+     "contrazice": 0.01,
+     "sustine": 0.98
+    },
+    "confidence": 0.97
+   },
+   "1": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.01,
+     "sustine": 0.99
+    },
+    "confidence": 0.98
+   },
+   "2": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 0.99
+   },
+   "3": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.01,
+     "contrazice": 0.01,
+     "sustine": 0.98
+    },
+    "confidence": 0.98
+   },
+   "4": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.01,
+     "contrazice": 0.01,
+     "sustine": 0.98
+    },
+    "confidence": 0.98
+   }
+  },
+  "fraze": [
+   "Art. 21 alin. (9) din anexa nr.",
+   "VI: în localitățile izolate sau în zonele unde atragerea personalului se face cu greutate, stabilite prin ordin al ordonatorului principal de credite, indemnizația de instalare prevăzută la alin. (6) poate fi la nivelul a două solde de funcție/salarii de funcție.",
+   "Regula generală de la alin. (6) este o indemnizație de instalare egală cu solda de funcție/salariul de funcție stabilită pentru funcția în care absolventul a fost numit, plus decontarea cheltuielilor de transport.",
+   "Indemnizația de 1/4 din solda de funcție pentru fiecare membru de familie aflat în întreținere este un drept distinct, prevăzut la alin. (1) lit. b) pentru personalul mutat în interes de serviciu, nu o majorare a indemnizației de instalare.",
+   "Ajutorul egal cu 12 solde de funcție este cel acordat familiei în caz de deces (art. 91), iar nivelul a trei solde de funcție nu apare în text."
+  ],
+  "pozitionale": [],
+  "nivel": {
+   "score": 2.5,
+   "confidence": 0.57
+  },
+  "usage": {
+   "a": 3454,
+   "b": 5584
+  }
+ },
+ {
+  "id": "A6-206",
+  "cheie": [
+   "A"
+  ],
+  "tip": "unic",
+  "variante": {
+   "A": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.99,
+     "nu_spune": 0.0,
+     "contrazice": 0.01
+    },
+    "confidence": 0.99
+   },
+   "B": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "sustine": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 1.0
+    },
+    "confidence": 0.99
+   },
+   "C": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "sustine": 0.01,
+     "nu_spune": 0.0,
+     "contrazice": 0.99
+    },
+    "confidence": 0.98
+   },
+   "D": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "sustine": 0.07,
+     "nu_spune": 0.0,
+     "contrazice": 0.93
+    },
+    "confidence": 0.89
+   }
+  },
+  "nouls": {
+   "sinonim": 0.05,
+   "absolut": 0.21,
+   "abrogat": 0.04,
+   "numeste_actul": 0.72,
+   "categorie_ambigua": 0.24,
+   "citat_acopera": 0.97
+  },
+  "afirmatii": {
+   "0": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.01,
+     "sustine": 0.99,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.97
+   },
+   "1": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.01,
+     "sustine": 0.99,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.98
+   },
+   "2": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.99
+   },
+   "3": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.01,
+     "sustine": 0.99,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.99
+   },
+   "4": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "sustine": 0.99,
+     "nu_spune": 0.01
+    },
+    "confidence": 0.99
+   }
+  },
+  "fraze": [
+   "Art. 28 alin. (3) din anexa nr.",
+   "VI: pentru titlurile de specialist de clasă/domeniu funcțional deținute în specialitate, majorarea soldei de funcție/salariului de funcție/salariului de bază este de 2,5%, 5%, respectiv 7,5%, corespunzător clasei a 3-a, clasei a 2-a sau clasei 1.",
+   "Potrivit alin. (2), titlul este ierarhizat pe trei niveluri, în ordinea crescătoare a calificării: clasa a 3-a, clasa a 2-a, clasa 1, astfel că procentul maxim de 7,5% revine clasei 1, iar 2,5% și 5% corespund claselor a 3-a și a 2-a.",
+   "Majorarea de 12,5% este cea acordată personalului încadrat în structurile centrale ale instituțiilor din sistem sau în structuri militare NATO/UE dislocate pe teritoriul României (art. 23).",
+   "Capcana de examen este ordinea claselor: clasa 1 este cea mai înaltă, nu cea mai joasă."
+  ],
+  "pozitionale": [],
+  "nivel": {
+   "score": 2.35,
+   "confidence": 0.7
+  },
+  "usage": {
+   "a": 2207,
+   "b": 4481
+  }
+ },
+ {
+  "id": "A6-207",
+  "cheie": [
+   "A"
+  ],
+  "tip": "unic",
+  "variante": {
+   "A": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "contrazice": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   },
+   "B": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "sustine": 0.0,
+     "contrazice": 1.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.99
+   },
+   "C": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "sustine": 0.02,
+     "contrazice": 0.95,
+     "nu_spune": 0.03
+    },
+    "confidence": 0.93
+   },
+   "D": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "sustine": 0.01,
+     "contrazice": 0.97,
+     "nu_spune": 0.02
+    },
+    "confidence": 0.96
+   }
+  },
+  "nouls": {
+   "sinonim": 0.08,
+   "absolut": 0.21,
+   "abrogat": 0.04,
+   "numeste_actul": 0.71,
+   "categorie_ambigua": 0.17,
+   "citat_acopera": 0.98
+  },
+  "afirmatii": {
+   "0": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.99,
+     "contrazice": 0.01,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.99
+   },
+   "1": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "contrazice": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   },
+   "2": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.99
+   },
+   "3": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "contrazice": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.99
+   },
+   "4": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "contrazice": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "fraze": [
+   "Art. 28 alin. (4) din anexa nr.",
+   "VI: specialitățile, condițiile de acordare și de retragere a titlului, retrogradarea dintr-o clasă superioară într-una inferioară, criteriile și standardele de performanță se stabilesc prin ordin al ordonatorului principal de credite; tot prin ordin al ordonatorului principal de credite se stabilesc, potrivit alin. (2), condițiile de obținere/menținere a fiecărei clase.",
+   "Hotărârea Guvernului, la propunerea conducătorilor instituțiilor, este instrumentul prin care se pot stabili alte drepturi salariale specifice (art. 27), nu condițiile titlului de specialist.",
+   "Ordinul de zi pe unitate este actul prin care, în Ministerul Apărării Naționale și Serviciul de Telecomunicații Speciale, se fac alocarea și scoaterea la și de la drepturile salariale (art. 86 alin. (8)).",
+   "Structura financiară centrală asigură îndeplinirea sarcinilor ordonatorului principal de credite în domeniul salarizării (art. 86 alin. (7)), dar textul art. 28 atribuie competența ordinului ordonatorului principal de credite."
+  ],
+  "pozitionale": [],
+  "nivel": {
+   "score": 2.99,
+   "confidence": 0.88
+  },
+  "usage": {
+   "a": 2283,
+   "b": 5293
+  }
+ },
+ {
+  "id": "A6-208",
+  "cheie": [
+   "A"
+  ],
+  "tip": "unic",
+  "variante": {
+   "A": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "contrazice": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   },
+   "B": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "sustine": 0.0,
+     "contrazice": 1.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.99
+   },
+   "C": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "sustine": 0.0,
+     "contrazice": 1.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   },
+   "D": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "sustine": 0.02,
+     "contrazice": 0.97,
+     "nu_spune": 0.01
+    },
+    "confidence": 0.95
+   }
+  },
+  "nouls": {
+   "sinonim": 0.07,
+   "absolut": 0.14,
+   "abrogat": 0.05,
+   "numeste_actul": 0.72,
+   "categorie_ambigua": 0.28,
+   "citat_acopera": 0.97
+  },
+  "afirmatii": {
+   "0": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0
+    },
+    "confidence": 0.99
+   },
+   "1": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.02,
+     "sustine": 0.97,
+     "contrazice": 0.01
+    },
+    "confidence": 0.95
+   },
+   "2": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.99,
+     "contrazice": 0.01
+    },
+    "confidence": 0.98
+   },
+   "3": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "fraze": [
+   "VI: conducătorii de autovehicule (inclusiv cei care conduc motociclete cu ataș) din categoriile enumerate, care lucrează peste programul normal de lucru, inclusiv în zilele de repaus săptămânal sau în zilele în care nu se lucrează, și cărora nu li se poate acorda timp liber corespunzător, au dreptul la o compensație de 5-25% din solda de funcție/salariul de funcție/salariul de bază, potrivit normelor metodologice aprobate prin ordin al ordonatorului principal de credite.",
+   "Sporul de până la 5% din solda de funcție este cel acordat personalului care are în primire cai sau câini de serviciu (art. 22).",
+   "Sporul de până la 100% din solda de funcție este cel pentru activitatea desfășurată în zilele de repaus săptămânal, de sărbători legale și în celelalte zile în care nu se lucrează (art. 88 alin. (1)).",
+   "Indemnizația de 15-20% este cea pentru personalul care lucrează cu cifru de stat (art. 18 alin. (1))."
+  ],
+  "pozitionale": [],
+  "nivel": {
+   "score": 2.21,
+   "confidence": 0.82
+  },
+  "usage": {
+   "a": 2460,
+   "b": 4725
+  }
+ },
+ {
+  "id": "A6-209",
+  "cheie": [
+   "A"
+  ],
+  "tip": "unic",
+  "variante": {
+   "A": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   },
+   "B": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "contrazice": 0.99,
+     "nu_spune": 0.0,
+     "sustine": 0.01
+    },
+    "confidence": 0.99
+   },
+   "C": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "contrazice": 1.0,
+     "nu_spune": 0.0,
+     "sustine": 0.0
+    },
+    "confidence": 0.99
+   },
+   "D": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "contrazice": 1.0,
+     "nu_spune": 0.0,
+     "sustine": 0.0
+    },
+    "confidence": 0.99
+   }
+  },
+  "nouls": {
+   "sinonim": 0.06,
+   "absolut": 0.15,
+   "abrogat": 0.05,
+   "numeste_actul": 0.73,
+   "categorie_ambigua": 0.53,
+   "citat_acopera": 0.97
+  },
+  "afirmatii": {
+   "0": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.99,
+     "nu_spune": 0.0,
+     "contrazice": 0.01
+    },
+    "confidence": 0.98
+   },
+   "1": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.99,
+     "nu_spune": 0.0,
+     "contrazice": 0.01
+    },
+    "confidence": 0.99
+   },
+   "2": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "3": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.99,
+     "nu_spune": 0.0,
+     "contrazice": 0.01
+    },
+    "confidence": 0.98
+   },
+   "4": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.99,
+     "nu_spune": 0.0,
+     "contrazice": 0.01
+    },
+    "confidence": 0.98
+   }
+  },
+  "fraze": [
+   "Art. 58 alin. (1) din anexa nr.",
+   "VI: cadrele militare în activitate, polițiștii și funcționarii publici cu statut special din sistemul administrației penitenciare puși la dispoziție în situații temeinic justificate beneficiază de solda de funcție avută/salariul de funcție avut, solda de grad/salariul gradului profesional deținut, gradații și de celelalte drepturi salariale avute, cu excepția soldei de comandă/salariului de comandă, în condițiile normelor metodologice aprobate prin ordin al ordonatorului principal de credite.",
+   "Solda de grad, gradațiile și solda de funcție avută sunt expres menținute de text, deci nu pot fi excepția.",
+   "Potrivit alin. (2), același regim se aplică și cadrelor militare puse la dispoziție ca efect al începerii urmăririi penale.",
+   "Capcana de examen este confuzia cu art. 60 alin. (1): în cazul punerii la dispoziție ca urmare a punerii în mișcare a acțiunii penale sau a trimiterii în judecată, personalul primește solda de funcție minimă corespunzătoare gradului deținut, nu solda de funcție avută."
+  ],
+  "pozitionale": [],
+  "nivel": {
+   "score": 3.95,
+   "confidence": 0.95
+  },
+  "usage": {
+   "a": 3050,
+   "b": 5523
+  }
+ },
+ {
+  "id": "A6-210",
+  "cheie": [
+   "A"
+  ],
+  "tip": "unic",
+  "variante": {
+   "A": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.99,
+     "nu_spune": 0.0,
+     "contrazice": 0.01
+    },
+    "confidence": 0.99
+   },
+   "B": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "sustine": 0.03,
+     "nu_spune": 0.0,
+     "contrazice": 0.97
+    },
+    "confidence": 0.95
+   },
+   "C": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "sustine": 0.03,
+     "nu_spune": 0.02,
+     "contrazice": 0.95
+    },
+    "confidence": 0.93
+   },
+   "D": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "sustine": 0.0,
+     "nu_spune": 0.01,
+     "contrazice": 0.99
+    },
+    "confidence": 0.99
+   }
+  },
+  "nouls": {
+   "sinonim": 0.08,
+   "absolut": 0.17,
+   "abrogat": 0.05,
+   "numeste_actul": 0.73,
+   "categorie_ambigua": 0.53,
+   "citat_acopera": 0.97
+  },
+  "afirmatii": {
+   "0": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.99,
+     "contrazice": 0.01
+    },
+    "confidence": 0.99
+   },
+   "1": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.98,
+     "contrazice": 0.02
+    },
+    "confidence": 0.96
+   },
+   "2": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0
+    },
+    "confidence": 0.99
+   },
+   "3": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.01,
+     "sustine": 0.99
+    },
+    "confidence": 0.99
+   },
+   "4": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 0.99
+   },
+   "5": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.98,
+     "contrazice": 0.02
+    },
+    "confidence": 0.97
+   }
+  },
+  "fraze": [
+   "Art. 59 alin. (4) din anexa nr.",
+   "VI: cadrele militare trecute în rezervă sau direct în retragere din inițiativa lor ori pentru motive imputabile acestora primesc solda de funcție, solda de grad, gradațiile și, după caz, solda de comandă, precum și alte drepturi salariale prevăzute de normele metodologice, numai până la data schimbării poziției de activitate.",
+   "Plata până la sfârșitul lunii în care a avut loc schimbarea poziției de activitate este regula generală de la alin. (1), aplicabilă celorlalte cadre militare trecute în rezervă.",
+   "Plata în continuare până la terminarea predării funcției, fără a depăși 22 de zile lucrătoare, este prevăzută la alin. (2) tot pentru cadrele de la alin. (1), atunci când termenul de predare depășește luna respectivă.",
+   "Plata până la sfârșitul lunii următoare nu apare în text: nici alin. (1), nici alin. (2) nu prelungesc drepturile dincolo de terminarea predării funcției.",
+   "Potrivit alin. (5), regulile de la alin. (1), (3) și (4) se aplică în mod corespunzător polițiștilor și funcționarilor publici cu statut special cărora le încetează raporturile de serviciu."
+  ],
+  "pozitionale": [],
+  "nivel": {
+   "score": 3.42,
+   "confidence": 0.52
+  },
+  "usage": {
+   "a": 2770,
+   "b": 5134
+  }
+ },
+ {
+  "id": "A6-211",
+  "cheie": [
+   "A"
+  ],
+  "tip": "unic",
+  "variante": {
+   "A": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   },
+   "B": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 1.0,
+     "sustine": 0.0
+    },
+    "confidence": 1.0
+   },
+   "C": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 1.0,
+     "sustine": 0.0
+    },
+    "confidence": 1.0
+   },
+   "D": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 1.0,
+     "sustine": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "nouls": {
+   "sinonim": 0.08,
+   "absolut": 0.14,
+   "abrogat": 0.06,
+   "numeste_actul": 0.69,
+   "categorie_ambigua": 0.35,
+   "citat_acopera": 0.97
+  },
+  "afirmatii": {
+   "0": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.99,
+     "contrazice": 0.01,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.99
+   },
+   "1": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.99,
+     "contrazice": 0.01,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.99
+   },
+   "2": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.03,
+     "sustine": 0.97,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.95
+   },
+   "3": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "contrazice": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.99
+   },
+   "4": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.97,
+     "contrazice": 0.02,
+     "nu_spune": 0.01
+    },
+    "confidence": 0.97
+   }
+  },
+  "fraze": [
+   "Art. 59 alin. (3) din anexa nr.",
+   "VI: în situațiile prevăzute la alin. (1) și (2), pentru cadrele militare înaintate în grad în activitate și trecute în rezervă cu aceeași dată, drepturile salariale se stabilesc proporțional, în raport cu noul grad.",
+   "Textul nu prevede stabilirea drepturilor în raport cu gradul anterior și nici o amânare a aplicării noului grad până la terminarea predării funcției.",
+   "Drepturile plătite în această perioadă includ, potrivit alin. (1), solda de funcție, solda de grad, gradațiile și, după caz, solda de comandă, deci nu se limitează la solda de funcție.",
+   "Potrivit alin. (5), regula de la alin. (3) se aplică în mod corespunzător și polițiștilor și funcționarilor publici cu statut special din sistemul administrației penitenciare cărora le încetează raporturile de serviciu."
+  ],
+  "pozitionale": [],
+  "nivel": {
+   "score": 2.67,
+   "confidence": 0.26
+  },
+  "usage": {
+   "a": 2745,
+   "b": 4593
+  }
+ },
+ {
+  "id": "A6-212",
+  "cheie": [
+   "A"
+  ],
+  "tip": "unic",
+  "variante": {
+   "A": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.99,
+     "contrazice": 0.01,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.98
+   },
+   "B": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "sustine": 0.01,
+     "contrazice": 0.99,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.99
+   },
+   "C": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "sustine": 0.0,
+     "contrazice": 1.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   },
+   "D": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "sustine": 0.0,
+     "contrazice": 1.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "nouls": {
+   "sinonim": 0.13,
+   "absolut": 0.19,
+   "abrogat": 0.08,
+   "numeste_actul": 0.72,
+   "categorie_ambigua": 0.43,
+   "citat_acopera": 0.97
+  },
+  "afirmatii": {
+   "0": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.98,
+     "contrazice": 0.02
+    },
+    "confidence": 0.97
+   },
+   "1": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.97,
+     "contrazice": 0.03
+    },
+    "confidence": 0.96
+   },
+   "2": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.01,
+     "sustine": 0.97,
+     "contrazice": 0.02
+    },
+    "confidence": 0.94
+   },
+   "3": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0
+    },
+    "confidence": 0.99
+   },
+   "4": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.99,
+     "contrazice": 0.01
+    },
+    "confidence": 0.98
+   }
+  },
+  "fraze": [
+   "Art. 60 alin. (1) din anexa nr.",
+   "VI: personalul militar, polițiștii și funcționarii publici cu statut special puși la dispoziție ca urmare a punerii în mișcare a acțiunii penale, ca efect al trimiterii în judecată în stare de libertate, precum și cel eliberat pe cauțiune beneficiază de solda de funcție/salariul de funcție minimă/minim corespunzătoare gradului deținut, de solda de grad/salariul gradului profesional, de gradațiile cuvenite și de alte drepturi prevăzute de normele metodologice, până la definitivarea situației.",
+   "Solda de funcție avută, cu excepția soldei de comandă, este regimul punerii la dispoziție în situații temeinic justificate sau ca efect al începerii urmăririi penale (art. 58).",
+   "Textul nu prevede pierderea soldei de funcție, ci acordarea ei la nivel minim.",
+   "Încetarea plății drepturilor salariale este prevăzută la alin. (2) numai pentru personalul arestat, începând cu data suspendării din funcție."
+  ],
+  "pozitionale": [],
+  "nivel": {
+   "score": 3.47,
+   "confidence": 0.56
+  },
+  "usage": {
+   "a": 2667,
+   "b": 4926
+  }
+ },
+ {
+  "id": "A6-213",
+  "cheie": [
+   "A",
+   "B"
+  ],
+  "tip": "multiplu",
+  "variante": {
+   "A": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "B": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.98,
+     "nu_spune": 0.0,
+     "contrazice": 0.02
+    },
+    "confidence": 0.96
+   },
+   "C": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "sustine": 0.0,
+     "nu_spune": 0.17,
+     "contrazice": 0.83
+    },
+    "confidence": 0.75
+   },
+   "D": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "sustine": 0.0,
+     "nu_spune": 0.14,
+     "contrazice": 0.86
+    },
+    "confidence": 0.79
+   }
+  },
+  "nouls": {
+   "sinonim": 0.07,
+   "absolut": 0.16,
+   "abrogat": 0.07,
+   "numeste_actul": 0.74,
+   "categorie_ambigua": 0.23,
+   "citat_acopera": 0.97
+  },
+  "afirmatii": {
+   "0": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.01,
+     "contrazice": 0.03,
+     "sustine": 0.96
+    },
+    "confidence": 0.94
+   },
+   "1": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.01,
+     "sustine": 0.99
+    },
+    "confidence": 0.98
+   },
+   "2": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.14,
+     "contrazice": 0.01,
+     "sustine": 0.85
+    },
+    "confidence": 0.78
+   },
+   "3": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.01,
+     "contrazice": 0.01,
+     "sustine": 0.98
+    },
+    "confidence": 0.98
+   }
+  },
+  "fraze": [
+   "Art. 60 alin. (3) din anexa nr.",
+   "VI enumeră situațiile în care persoanele cărora li s-au aplicat alin. (1) și (2) sunt repuse în toate drepturile bănești avute la data punerii la dispoziție, respectiv a suspendării din funcție: scoaterea de sub urmărire penală, achitarea, încetarea urmăririi penale și încetarea procesului penal; compensarea drepturilor de care au fost private se face actualizat potrivit majorărilor sau indexărilor salariale.",
+   "Condamnarea, chiar cu suspendarea executării pedepsei, nu figurează printre soluțiile care atrag repunerea în drepturi.",
+   "Eliberarea pe cauțiune nu este o soluție de finalizare a procedurii, ci una dintre situațiile de la alin. (1) în care personalul beneficiază, până la definitivarea situației, de solda de funcție minimă corespunzătoare gradului deținut."
+  ],
+  "pozitionale": [],
+  "nivel": {
+   "score": 2.32,
+   "confidence": 0.0
+  },
+  "usage": {
+   "a": 2633,
+   "b": 4297
+  }
+ },
+ {
+  "id": "A6-214",
+  "cheie": [
+   "A"
+  ],
+  "tip": "unic",
+  "variante": {
+   "A": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "B": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "sustine": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 1.0
+    },
+    "confidence": 1.0
+   },
+   "C": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "sustine": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 1.0
+    },
+    "confidence": 0.99
+   },
+   "D": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "sustine": 0.0,
+     "nu_spune": 0.13,
+     "contrazice": 0.87
+    },
+    "confidence": 0.8
+   }
+  },
+  "nouls": {
+   "sinonim": 0.07,
+   "absolut": 0.35,
+   "abrogat": 0.04,
+   "numeste_actul": 0.72,
+   "categorie_ambigua": 0.19,
+   "citat_acopera": 0.97
+  },
+  "afirmatii": {
+   "0": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.98,
+     "contrazice": 0.02
+    },
+    "confidence": 0.97
+   },
+   "1": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.01,
+     "sustine": 0.99
+    },
+    "confidence": 0.98
+   },
+   "2": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.03,
+     "contrazice": 0.01,
+     "sustine": 0.96
+    },
+    "confidence": 0.94
+   },
+   "3": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.03,
+     "contrazice": 0.01,
+     "sustine": 0.96
+    },
+    "confidence": 0.94
+   }
+  },
+  "fraze": [
+   "VI: în caz de deces, drepturile bănești cuvenite personalului militar, polițiștilor, funcționarilor publici cu statut special și personalului civil se plătesc pentru întreaga lună în care a avut loc decesul, după caz, soțului supraviețuitor, copiilor sau părinților, iar în lipsa acestora, celorlalți moștenitori legali.",
+   "Plata numai până la data unui eveniment este regula de la art. 59 alin. (4) pentru trecerea în rezervă din inițiativa cadrului militar, nu pentru deces.",
+   "Textul nu prelungește plata drepturilor bănești până la sfârșitul lunii următoare.",
+   "Ajutorul egal cu 12 solde de funcție/salarii de funcție este un drept distinct al soțului supraviețuitor, copiilor sau părinților, prevăzut la art. 91, care se adaugă drepturilor bănești pe luna decesului, nu le înlocuiește."
+  ],
+  "pozitionale": [],
+  "nivel": {
+   "score": 2.87,
+   "confidence": 0.25
+  },
+  "usage": {
+   "a": 2296,
+   "b": 4605
+  }
+ },
+ {
+  "id": "A6-215",
+  "cheie": [
+   "A"
+  ],
+  "tip": "unic",
+  "variante": {
+   "A": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.99
+   },
+   "B": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "contrazice": 1.0,
+     "sustine": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   },
+   "C": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "contrazice": 1.0,
+     "sustine": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.99
+   },
+   "D": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "contrazice": 1.0,
+     "sustine": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.99
+   }
+  },
+  "nouls": {
+   "sinonim": 0.05,
+   "absolut": 0.62,
+   "abrogat": 0.06,
+   "numeste_actul": 0.73,
+   "categorie_ambigua": 0.14,
+   "citat_acopera": 0.96
+  },
+  "afirmatii": {
+   "0": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.99
+   },
+   "1": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.99
+   },
+   "2": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.01,
+     "sustine": 0.99,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.99
+   },
+   "3": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.02,
+     "sustine": 0.97,
+     "nu_spune": 0.01
+    },
+    "confidence": 0.96
+   }
+  },
+  "fraze": [
+   "VI: drepturile neachitate personalului militar, polițiștilor, funcționarilor publici cu statut special din sistemul administrației penitenciare și personalului civil, nereclamate în termen de 3 ani de la data când trebuiau plătite, se prescriu.",
+   "Termenul de 3 ani apare în anexă și cu alt rol, la art. 21 alin. (11) și (13), ca perioadă în care demisia atrage restituirea indemnizației de instalare.",
+   "Termenul de 12 luni este cel din art. 21 alin. (12) și (14), pentru schimbarea domiciliului în vederea rambursării cheltuielilor de transport.",
+   "Termenul de 5 ani nu apare în textul anexei, iar cel de 2 ani apare doar la art. 39 alin. (1) lit. a), ca durată maximă a menținerii drepturilor personalului aeronautic aflat în recuperarea capacității de muncă, fără nicio legătură cu prescripția drepturilor neachitate."
+  ],
+  "pozitionale": [],
+  "nivel": {
+   "score": 2.04,
+   "confidence": 0.96
+  },
+  "usage": {
+   "a": 2687,
+   "b": 6336
+  }
+ },
+ {
+  "id": "A6-216",
+  "cheie": [
+   "A"
+  ],
+  "tip": "unic",
+  "variante": {
+   "A": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 0.99
+   },
+   "B": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 1.0,
+     "sustine": 0.0
+    },
+    "confidence": 0.99
+   },
+   "C": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 1.0,
+     "sustine": 0.0
+    },
+    "confidence": 1.0
+   },
+   "D": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "nu_spune": 0.06,
+     "contrazice": 0.9,
+     "sustine": 0.04
+    },
+    "confidence": 0.85
+   }
+  },
+  "nouls": {
+   "sinonim": 0.08,
+   "absolut": 0.19,
+   "abrogat": 0.06,
+   "numeste_actul": 0.68,
+   "categorie_ambigua": 0.35,
+   "citat_acopera": 0.96
+  },
+  "afirmatii": {
+   "0": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.98,
+     "nu_spune": 0.0,
+     "contrazice": 0.02
+    },
+    "confidence": 0.97
+   },
+   "1": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.98,
+     "nu_spune": 0.01,
+     "contrazice": 0.01
+    },
+    "confidence": 0.98
+   },
+   "2": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 0.99
+   },
+   "3": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 0.99
+   }
+  },
+  "fraze": [
+   "VI: personalul militar, polițiștii și funcționarii publici cu statut special trimiși în străinătate la cursuri, stagii de practică și specializare, perfecționare sau pentru orice altă activitate în interesul unității trimițătoare, cu excepția celor de la art. 71, beneficiază în țară de solda de funcție/salariul de funcție, solda de grad/salariul gradului profesional, gradații și, după caz, solda de comandă/salariul de comandă, precum și de celelalte drepturi salariale avute.",
+   "Solda de funcție minimă corespunzătoare gradului este regimul personalului pus la dispoziție ca urmare a trimiterii în judecată (art. 60 alin. (1)).",
+   "Textul nu restrânge drepturile la solda de grad și gradații.",
+   "Drepturile prevăzute pentru personalul trimis în misiune de Ministerul Afacerilor Externe se acordă, potrivit art. 74, personalului trimis în misiuni permanente sau temporare în străinătate, nu celui trimis la cursuri sau stagii în interesul unității."
+  ],
+  "pozitionale": [],
+  "nivel": {
+   "score": 3.23,
+   "confidence": 0.36
+  },
+  "usage": {
+   "a": 1998,
+   "b": 5232
+  }
+ },
+ {
+  "id": "A6-217",
+  "cheie": [
+   "A"
+  ],
+  "tip": "unic",
+  "variante": {
+   "A": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   },
+   "B": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "nu_spune": 0.01,
+     "contrazice": 0.98,
+     "sustine": 0.01
+    },
+    "confidence": 0.97
+   },
+   "C": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "nu_spune": 0.02,
+     "contrazice": 0.98,
+     "sustine": 0.0
+    },
+    "confidence": 0.97
+   },
+   "D": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "nu_spune": 0.14,
+     "contrazice": 0.86,
+     "sustine": 0.0
+    },
+    "confidence": 0.78
+   }
+  },
+  "nouls": {
+   "sinonim": 0.06,
+   "absolut": 0.37,
+   "abrogat": 0.05,
+   "numeste_actul": 0.71,
+   "categorie_ambigua": 0.31,
+   "citat_acopera": 0.97
+  },
+  "afirmatii": {
+   "0": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.99
+   },
+   "2": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.01,
+     "sustine": 0.97,
+     "nu_spune": 0.02
+    },
+    "confidence": 0.95
+   },
+   "3": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.99
+   }
+  },
+  "fraze": [
+   "VI: personalul din instituțiile de apărare, ordine publică și securitate națională trimis în misiuni permanente sau temporare în străinătate beneficiază de toate drepturile prevăzute pentru personalul trimis în misiune permanentă sau temporară de către Ministerul Afacerilor Externe, precum și de către celelalte ministere, organe și instituții de specialitate ale administrației publice centrale; potrivit art. 75, dispozițiile legii se completează cu actele normative speciale privind personalul trimis în misiune în străinătate.",
+   "Plata în țară a soldei de funcție, soldei de grad și gradațiilor este regimul personalului trimis la cursuri, stagii sau alte activități în interesul unității trimițătoare (art. 73), nu al celui trimis în misiune.",
+   "Textul art. 74 trimite la drepturile reglementate pentru personalul altor ministere, nu la un ordin al ordonatorului principal de credite.",
+   "Indemnizația de 15-20% din solda de funcție este cea pentru personalul care lucrează cu cifru de stat (art. 18 alin. (1))."
+  ],
+  "pozitionale": [],
+  "nivel": {
+   "score": 2.99,
+   "confidence": 0.16
+  },
+  "usage": {
+   "a": 2040,
+   "b": 4282
+  }
+ },
+ {
+  "id": "A6-218",
+  "cheie": [
+   "A"
+  ],
+  "tip": "unic",
+  "variante": {
+   "A": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.99,
+     "nu_spune": 0.0,
+     "contrazice": 0.01
+    },
+    "confidence": 0.99
+   },
+   "B": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "sustine": 0.0,
+     "nu_spune": 0.27,
+     "contrazice": 0.73
+    },
+    "confidence": 0.59
+   },
+   "C": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "sustine": 0.0,
+     "nu_spune": 0.12,
+     "contrazice": 0.88
+    },
+    "confidence": 0.82
+   },
+   "D": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "sustine": 0.0,
+     "nu_spune": 0.16,
+     "contrazice": 0.84
+    },
+    "confidence": 0.76
+   }
+  },
+  "nouls": {
+   "sinonim": 0.08,
+   "absolut": 0.54,
+   "abrogat": 0.05,
+   "numeste_actul": 0.73,
+   "categorie_ambigua": 0.23,
+   "citat_acopera": 0.97
+  },
+  "afirmatii": {
+   "0": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.99,
+     "contrazice": 0.01,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.98
+   },
+   "1": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.92,
+     "contrazice": 0.02,
+     "nu_spune": 0.06
+    },
+    "confidence": 0.88
+   },
+   "2": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.99,
+     "contrazice": 0.0,
+     "nu_spune": 0.01
+    },
+    "confidence": 0.98
+   },
+   "3": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.97,
+     "contrazice": 0.01,
+     "nu_spune": 0.02
+    },
+    "confidence": 0.96
+   }
+  },
+  "fraze": [
+   "VI: în măsura în care legea nu prevede altfel, dispozițiile sale se completează cu celelalte prevederi din cuprinsul actelor normative speciale referitoare la drepturile și obligațiile ce revin personalului trimis în misiune permanentă sau temporară în străinătate de către ministere și celelalte organe și instituții de specialitate ale administrației publice centrale.",
+   "Legea nr. 80/1995 este invocată în anexă doar punctual (art. 10, pentru cadrele numite în funcții inferioare gradului, și art. 21 alin. (12), pentru identificarea cadrelor trecute în rezervă), nu ca normă de completare pentru misiunile în străinătate.",
+   "Normele metodologice aprobate prin ordin al ordonatorului principal de credite sunt actele emise de instituții în aplicarea legii (art. 90), nu norme speciale de completare.",
+   "Hotărârile Guvernului privind alte drepturi salariale specifice sunt prevăzute la art. 27, ca abilitare distinctă, fără legătură cu completarea dispozițiilor privind misiunile în străinătate."
+  ],
+  "pozitionale": [],
+  "nivel": {
+   "score": 2.5,
+   "confidence": 0.0
+  },
+  "usage": {
+   "a": 2000,
+   "b": 5575
+  }
+ },
+ {
+  "id": "A6-219",
+  "cheie": [
+   "A"
+  ],
+  "tip": "unic",
+  "variante": {
+   "A": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "B": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "sustine": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 1.0
+    },
+    "confidence": 1.0
+   },
+   "C": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "sustine": 0.0,
+     "nu_spune": 0.01,
+     "contrazice": 0.99
+    },
+    "confidence": 0.99
+   },
+   "D": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "sustine": 0.0,
+     "nu_spune": 0.01,
+     "contrazice": 0.99
+    },
+    "confidence": 0.99
+   }
+  },
+  "nouls": {
+   "sinonim": 0.08,
+   "absolut": 0.33,
+   "abrogat": 0.05,
+   "numeste_actul": 0.68,
+   "categorie_ambigua": 0.39,
+   "citat_acopera": 0.96
+  },
+  "afirmatii": {
+   "0": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.02,
+     "nu_spune": 0.0,
+     "sustine": 0.98
+    },
+    "confidence": 0.97
+   },
+   "1": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.01,
+     "nu_spune": 0.0,
+     "sustine": 0.99
+    },
+    "confidence": 0.99
+   },
+   "2": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.01,
+     "nu_spune": 0.1,
+     "sustine": 0.89
+    },
+    "confidence": 0.83
+   },
+   "3": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.01,
+     "nu_spune": 0.01,
+     "sustine": 0.98
+    },
+    "confidence": 0.98
+   },
+   "4": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.01,
+     "nu_spune": 0.0,
+     "sustine": 0.99
+    },
+    "confidence": 0.98
+   }
+  },
+  "fraze": [
+   "Art. 76 alin. (2) din anexa nr.",
+   "VI: personalul civil care desfășoară activități în condiții similare cu cele ale personalului militar, polițiștilor ori funcționarilor publici cu statut special beneficiază de drepturile salariale prevăzute expres pentru personalul civil în prezenta anexă; regula generală de la alin. (1) este că personalul civil beneficiază de drepturile salariale reglementate prin lege, potrivit categoriei de personal și domeniului în care își desfășoară activitatea.",
+   "Textul nu extinde asupra personalului civil toate drepturile personalului militar și nici solda de grad, care este un element specific personalului militar.",
+   "Asimilarea cu ofițerii este prevăzută la art. 24 numai pentru preoții militari, nu pentru personalul civil în general.",
+   "Limitarea la salariul de bază contrazice textul, care recunoaște personalului civil drepturile prevăzute expres pentru el în anexă (de exemplu, sporul pentru cai sau câini de serviciu de la art. 22 sau majorarea de 12,5% pentru structurile centrale de la art. 23)."
+  ],
+  "pozitionale": [],
+  "nivel": {
+   "score": 3.58,
+   "confidence": 0.65
+  },
+  "usage": {
+   "a": 2192,
+   "b": 4535
+  }
+ },
+ {
+  "id": "A6-220",
+  "cheie": [
+   "A"
+  ],
+  "tip": "unic",
+  "variante": {
+   "A": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "B": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.0,
+     "contrazice": 1.0
+    },
+    "confidence": 0.99
+   },
+   "C": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.0,
+     "contrazice": 1.0
+    },
+    "confidence": 0.99
+   },
+   "D": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.0,
+     "contrazice": 1.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "nouls": {
+   "sinonim": 0.06,
+   "absolut": 0.14,
+   "abrogat": 0.05,
+   "numeste_actul": 0.68,
+   "categorie_ambigua": 0.47,
+   "citat_acopera": 0.97
+  },
+  "afirmatii": {
+   "0": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.97,
+     "nu_spune": 0.01,
+     "contrazice": 0.02
+    },
+    "confidence": 0.96
+   },
+   "1": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.97,
+     "nu_spune": 0.0,
+     "contrazice": 0.03
+    },
+    "confidence": 0.96
+   },
+   "2": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.96,
+     "nu_spune": 0.03,
+     "contrazice": 0.01
+    },
+    "confidence": 0.93
+   },
+   "3": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.98,
+     "nu_spune": 0.01,
+     "contrazice": 0.01
+    },
+    "confidence": 0.97
+   },
+   "4": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.98,
+     "nu_spune": 0.01,
+     "contrazice": 0.01
+    },
+    "confidence": 0.97
+   },
+   "5": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "fraze": [
+   "Art. 84 alin. (3) din anexa nr.",
+   "VI: cadrele militare în activitate, polițiștii și funcționarii publici cu statut special care desfășoară activități de control financiar preventiv propriu și, după caz, de audit beneficiază de majorarea soldei de funcție/salariului de funcție cu până la 10%, în condițiile prevăzute prin ordin al ordonatorului principal de credite.",
+   "Majorarea de 12,5% este cea pentru personalul încadrat în structurile centrale ale instituțiilor sau în structuri militare NATO/UE dislocate pe teritoriul României (art. 23).",
+   "Majorarea de 7,5% este cea pentru titlul de specialist de clasă/domeniu funcțional clasa 1 (art. 28 alin. (3)).",
+   "Sporul de până la 5% este cel pentru personalul care are în primire cai sau câini de serviciu (art. 22).",
+   "Capcana este că textul art. 84 prevede un plafon (până la 10%), nu un procent fix."
+  ],
+  "pozitionale": [],
+  "nivel": {
+   "score": 2.36,
+   "confidence": 0.7
+  },
+  "usage": {
+   "a": 2202,
+   "b": 5067
+  }
+ },
+ {
+  "id": "A6-221",
+  "cheie": [
+   "A"
+  ],
+  "tip": "unic",
+  "variante": {
+   "A": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   },
+   "B": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "contrazice": 0.99,
+     "nu_spune": 0.01,
+     "sustine": 0.0
+    },
+    "confidence": 0.99
+   },
+   "C": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "contrazice": 0.97,
+     "nu_spune": 0.03,
+     "sustine": 0.0
+    },
+    "confidence": 0.96
+   },
+   "D": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "contrazice": 1.0,
+     "nu_spune": 0.0,
+     "sustine": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "nouls": {
+   "sinonim": 0.08,
+   "absolut": 0.2,
+   "abrogat": 0.05,
+   "numeste_actul": 0.73,
+   "categorie_ambigua": 0.18,
+   "citat_acopera": 0.96
+  },
+  "afirmatii": {
+   "0": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.97,
+     "nu_spune": 0.01,
+     "contrazice": 0.02
+    },
+    "confidence": 0.96
+   },
+   "1": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.99,
+     "nu_spune": 0.0,
+     "contrazice": 0.01
+    },
+    "confidence": 0.99
+   },
+   "2": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.98,
+     "nu_spune": 0.01,
+     "contrazice": 0.01
+    },
+    "confidence": 0.97
+   },
+   "3": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 0.99
+   },
+   "4": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.97,
+     "nu_spune": 0.02,
+     "contrazice": 0.01
+    },
+    "confidence": 0.96
+   }
+  },
+  "fraze": [
+   "Art. 84 alin. (1) și (2) din anexa nr.",
+   "VI: drepturile prevăzute de lege se acordă în condițiile exercitării, potrivit reglementărilor în vigoare, a controlului financiar preventiv propriu, iar acesta se exercită, prin viză, de persoanele din cadrul structurilor de specialitate, desemnate potrivit reglementărilor în vigoare.",
+   "Ordinul de zi pe unitate este, potrivit art. 86 alin. (8), instrumentul prin care se fac alocarea și scoaterea la și de la drepturile salariale în Ministerul Apărării Naționale și Serviciul de Telecomunicații Speciale, nu forma controlului financiar preventiv.",
+   "Hotărârea Guvernului la propunerea conducătorilor instituțiilor privește stabilirea altor drepturi salariale specifice (art. 27).",
+   "Textul nu rezervă viza ordonatorului principal de credite, ci persoanelor desemnate din structurile de specialitate; ordonatorul principal de credite stabilește, prin ordin, condițiile majorării de până la 10% pentru cei care desfășoară aceste activități (alin. (3))."
+  ],
+  "pozitionale": [],
+  "nivel": {
+   "score": 3.08,
+   "confidence": 0.79
+  },
+  "usage": {
+   "a": 2255,
+   "b": 4916
+  }
+ },
+ {
+  "id": "A6-222",
+  "cheie": [
+   "A"
+  ],
+  "tip": "unic",
+  "variante": {
+   "A": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "B": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.01,
+     "contrazice": 0.99
+    },
+    "confidence": 0.99
+   },
+   "C": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "nu_spune": 0.02,
+     "sustine": 0.0,
+     "contrazice": 0.98
+    },
+    "confidence": 0.97
+   },
+   "D": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "nu_spune": 0.02,
+     "sustine": 0.07,
+     "contrazice": 0.91
+    },
+    "confidence": 0.86
+   }
+  },
+  "nouls": {
+   "sinonim": 0.25,
+   "absolut": 0.21,
+   "abrogat": 0.03,
+   "numeste_actul": 0.68,
+   "categorie_ambigua": 0.39,
+   "citat_acopera": 0.97
+  },
+  "afirmatii": {
+   "0": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.01,
+     "sustine": 0.98,
+     "contrazice": 0.01
+    },
+    "confidence": 0.97
+   },
+   "1": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0
+    },
+    "confidence": 0.99
+   },
+   "2": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.98,
+     "contrazice": 0.02
+    },
+    "confidence": 0.97
+   },
+   "3": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0
+    },
+    "confidence": 0.99
+   }
+  },
+  "fraze": [
+   "Art. 86 alin. (1) din anexa nr.",
+   "VI: cuantumul zilnic/orar al elementelor soldei lunare cuvenite personalului militar se determină prin raportare la numărul zilelor lucrătoare corespunzătoare fiecărei luni a anului/durata normală a timpului de lucru.",
+   "Pentru polițiști și funcționarii publici cu statut special, alin. (2) prevede aceeași raportare la numărul de zile lucrătoare din luna respectivă, cu excepția situațiilor în care drepturile sunt prevăzute a fi acordate pentru zile calendaristice, deci zilele calendaristice nu sunt baza generală de calcul.",
+   "Textul nu folosește o medie anuală a zilelor lucrătoare și nici numărul zilelor efectiv lucrate; absențele nejustificate au un regim distinct la alin. (6), unde nu se acordă solda de funcție și nici alte drepturi salariale."
+  ],
+  "pozitionale": [],
+  "nivel": {
+   "score": 2.18,
+   "confidence": 0.67
+  },
+  "usage": {
+   "a": 2588,
+   "b": 4076
+  }
+ },
+ {
+  "id": "A6-223",
+  "cheie": [
+   "A",
+   "B",
+   "C"
+  ],
+  "tip": "multiplu",
+  "variante": {
+   "A": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "B": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "C": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "D": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.0,
+     "contrazice": 1.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "nouls": {
+   "sinonim": 0.07,
+   "absolut": 0.12,
+   "abrogat": 0.04,
+   "numeste_actul": 0.71,
+   "categorie_ambigua": 0.59,
+   "citat_acopera": 0.94
+  },
+  "afirmatii": {
+   "0": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.99,
+     "contrazice": 0.01
+    },
+    "confidence": 0.99
+   }
+  },
+  "fraze": [
+   "VI: soldele lunare/salariile lunare se plătesc o dată pe lună, în perioada stabilită potrivit reglementărilor în vigoare, pentru luna precedentă (alin. (3)); soldele lunare ale personalului militar și salariile lunare ale polițiștilor și funcționarilor publici cu statut special sunt confidențiale, instituțiile din sistem având obligația de a lua măsurile necesare pentru asigurarea confidențialității (alin. (4)); pe timpul absențelor nejustificate de la unitate/serviciu nu se acordă solda de funcție/salariul de funcție/salariul de bază și nici alte drepturi salariale (alin. (6)).",
+   "Afirmația că soldele nu pot fi urmărite în nicio situație este falsă: potrivit alin. (5), soldele lunare ale personalului militar în activitate nu pot fi urmărite decât în cazurile și în limitele prevăzute de reglementările în vigoare, deci urmărirea este posibilă, dar limitată."
+  ],
+  "pozitionale": [],
+  "nivel": {
+   "score": 2.65,
+   "confidence": 0.0
+  },
+  "usage": {
+   "a": 2626,
+   "b": 3721
+  }
+ },
+ {
+  "id": "A6-224",
+  "cheie": [
+   "A"
+  ],
+  "tip": "unic",
+  "variante": {
+   "A": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "B": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "nu_spune": 0.26,
+     "sustine": 0.01,
+     "contrazice": 0.73
+    },
+    "confidence": 0.6
+   },
+   "C": {
+    "alegere": "nu_spune",
+    "probabilitati": {
+     "nu_spune": 0.7,
+     "sustine": 0.0,
+     "contrazice": 0.3
+    },
+    "confidence": 0.55
+   },
+   "D": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "nu_spune": 0.46,
+     "sustine": 0.01,
+     "contrazice": 0.53
+    },
+    "confidence": 0.31
+   }
+  },
+  "nouls": {
+   "sinonim": 0.07,
+   "absolut": 0.21,
+   "abrogat": 0.04,
+   "numeste_actul": 0.74,
+   "categorie_ambigua": 0.53,
+   "citat_acopera": 0.97
+  },
+  "afirmatii": {
+   "0": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.01,
+     "sustine": 0.97,
+     "contrazice": 0.02
+    },
+    "confidence": 0.96
+   },
+   "1": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.99,
+     "contrazice": 0.01
+    },
+    "confidence": 0.99
+   },
+   "2": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0
+    },
+    "confidence": 0.99
+   },
+   "3": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.23,
+     "sustine": 0.58,
+     "contrazice": 0.19
+    },
+    "confidence": 0.37
+   },
+   "4": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.99,
+     "contrazice": 0.01
+    },
+    "confidence": 0.99
+   }
+  },
+  "fraze": [
+   "Art. 86 alin. (2) din anexa nr.",
+   "VI: cuantumul zilnic/orar al elementelor salariului lunar cuvenit polițiștilor și funcționarilor publici cu statut special din sistemul administrației penitenciare se determină prin raportare la numărul de zile lucrătoare din luna respectivă/durata normală a timpului de lucru, cu excepția situațiilor pentru care drepturile cuvenite sunt prevăzute a fi acordate pentru zile calendaristice.",
+   "Absențele nejustificate nu sunt o excepție de la modul de calcul, ci o situație în care, potrivit alin. (6), nu se acordă salariul de funcție și nici alte drepturi salariale.",
+   "Drepturile polițiștilor puși la dispoziție sunt reglementate la art. 58 și 60 ca nivel al drepturilor, nu ca excepție de la calculul zilnic/orar.",
+   "Sărbătorile legale nu sunt menționate la art. 86 alin. (2); activitatea desfășurată în zilele de sărbători legale dă dreptul la sporul de până la 100% prevăzut la art. 88 alin. (1)."
+  ],
+  "pozitionale": [],
+  "nivel": {
+   "score": 3.71,
+   "confidence": 0.76
+  },
+  "usage": {
+   "a": 2620,
+   "b": 5082
+  }
+ },
+ {
+  "id": "A6-225",
+  "cheie": [
+   "A"
+  ],
+  "tip": "unic",
+  "variante": {
+   "A": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.99,
+     "contrazice": 0.01
+    },
+    "confidence": 0.98
+   },
+   "B": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "nu_spune": 0.01,
+     "sustine": 0.0,
+     "contrazice": 0.99
+    },
+    "confidence": 0.98
+   },
+   "C": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "nu_spune": 0.01,
+     "sustine": 0.01,
+     "contrazice": 0.98
+    },
+    "confidence": 0.98
+   },
+   "D": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.01,
+     "contrazice": 0.99
+    },
+    "confidence": 0.99
+   }
+  },
+  "nouls": {
+   "sinonim": 0.06,
+   "absolut": 0.25,
+   "abrogat": 0.04,
+   "numeste_actul": 0.69,
+   "categorie_ambigua": 0.19,
+   "citat_acopera": 0.97
+  },
+  "afirmatii": {
+   "0": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.01,
+     "sustine": 0.95,
+     "contrazice": 0.04
+    },
+    "confidence": 0.93
+   },
+   "1": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.95,
+     "contrazice": 0.05
+    },
+    "confidence": 0.92
+   },
+   "2": {
+    "alegere": "nu_spune",
+    "probabilitati": {
+     "nu_spune": 0.65,
+     "sustine": 0.04,
+     "contrazice": 0.31
+    },
+    "confidence": 0.47
+   },
+   "3": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.01,
+     "sustine": 0.98,
+     "contrazice": 0.01
+    },
+    "confidence": 0.98
+   },
+   "4": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.01,
+     "sustine": 0.98,
+     "contrazice": 0.01
+    },
+    "confidence": 0.97
+   },
+   "5": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "fraze": [
+   "Art. 88 alin. (1) din anexa nr.",
+   "VI: prin excepție de la art. 21 din lege, pentru activitatea desfășurată de personalul militar, polițiști, funcționari publici cu statut special și personalul civil în zilele de repaus săptămânal, de sărbători legale și în celelalte zile în care nu se lucrează, se acordă un spor de până la 100% din solda de funcție/salariul de funcție/salariul de bază; potrivit alin. (2), dreptul se stabilește proporțional cu timpul efectiv lucrat, iar condițiile de acordare se stabilesc prin ordin al ordonatorului principal de credite.",
+   "Sporul de 75% este cel prevăzut în corpul legii, la art. 21 alin. (2), pentru munca suplimentară prestată peste programul normal de lucru, atunci când compensarea cu ore libere plătite nu este posibilă.",
+   "Compensația de 5-25% din solda de funcție este cea a conducătorilor de autovehicule care lucrează peste program (art. 29 din anexă).",
+   "Majorarea de până la 50% din solda de funcție este cea prevăzută la art. 15 alin. (1) din anexă pentru personalul care execută lucrări de excepție sau misiuni speciale, nu un spor pentru munca în zilele de repaus sau de sărbători legale.",
+   "Potrivit alin. (3), munca astfel plătită nu se compensează și cu timp liber corespunzător."
+  ],
+  "pozitionale": [],
+  "nivel": {
+   "score": 2.85,
+   "confidence": 0.28
+  },
+  "usage": {
+   "a": 1991,
+   "b": 6650
+  }
+ },
+ {
+  "id": "A6-226",
+  "cheie": [
+   "A",
+   "B"
+  ],
+  "tip": "multiplu",
+  "variante": {
+   "A": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "contrazice": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   },
+   "B": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "contrazice": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   },
+   "C": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "sustine": 0.0,
+     "contrazice": 1.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   },
+   "D": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "sustine": 0.0,
+     "contrazice": 1.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "nouls": {
+   "sinonim": 0.07,
+   "absolut": 0.22,
+   "abrogat": 0.05,
+   "numeste_actul": 0.73,
+   "categorie_ambigua": 0.24,
+   "citat_acopera": 0.93
+  },
+  "afirmatii": {
+   "0": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.95,
+     "nu_spune": 0.02,
+     "contrazice": 0.03
+    },
+    "confidence": 0.92
+   },
+   "1": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.99,
+     "nu_spune": 0.0,
+     "contrazice": 0.01
+    },
+    "confidence": 0.97
+   },
+   "2": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.97,
+     "nu_spune": 0.01,
+     "contrazice": 0.02
+    },
+    "confidence": 0.96
+   },
+   "3": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.49,
+     "nu_spune": 0.17,
+     "contrazice": 0.34
+    },
+    "confidence": 0.22
+   }
+  },
+  "fraze": [
+   "Art. 88 alin. (2) din anexa nr.",
+   "VI: dreptul prevăzut la alin. (1) se stabilește proporțional cu timpul efectiv lucrat în zilele respective, se determină pe baza raportului dintre baza de calcul și durata normală a timpului de lucru, iar condițiile de acordare se stabilesc prin ordin al ordonatorului principal de credite.",
+   "Afirmația privind compensarea și cu timp liber este contrară alin. (3), potrivit căruia munca astfel prestată și plătită nu se compensează și cu timp liber corespunzător.",
+   "Cuantumul sporului nu este de 75%, ci de până la 100% din solda de funcție/salariul de funcție/salariul de bază (alin. (1)); procentul de 75% este sporul pentru munca suplimentară prestată peste programul normal de lucru din art. 21 alin. (2) al corpului legii, de la care art. 88 derogă."
+  ],
+  "pozitionale": [],
+  "nivel": {
+   "score": 3.78,
+   "confidence": 0.82
+  },
+  "usage": {
+   "a": 2009,
+   "b": 5177
+  }
+ },
+ {
+  "id": "A6-227",
+  "cheie": [
+   "A"
+  ],
+  "tip": "unic",
+  "variante": {
+   "A": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "B": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.0,
+     "contrazice": 1.0
+    },
+    "confidence": 1.0
+   },
+   "C": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "nu_spune": 0.02,
+     "sustine": 0.0,
+     "contrazice": 0.98
+    },
+    "confidence": 0.97
+   },
+   "D": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "nu_spune": 0.02,
+     "sustine": 0.0,
+     "contrazice": 0.98
+    },
+    "confidence": 0.97
+   }
+  },
+  "nouls": {
+   "sinonim": 0.05,
+   "absolut": 0.43,
+   "abrogat": 0.04,
+   "numeste_actul": 0.74,
+   "categorie_ambigua": 0.09,
+   "citat_acopera": 0.98
+  },
+  "afirmatii": {
+   "0": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.99,
+     "contrazice": 0.01
+    },
+    "confidence": 0.98
+   },
+   "1": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.01,
+     "sustine": 0.98,
+     "contrazice": 0.01
+    },
+    "confidence": 0.98
+   },
+   "2": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.18,
+     "sustine": 0.8099999999999999,
+     "contrazice": 0.01
+    },
+    "confidence": 0.72
+   },
+   "3": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.98,
+     "contrazice": 0.02
+    },
+    "confidence": 0.97
+   },
+   "4": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.01,
+     "sustine": 0.99,
+     "contrazice": 0.0
+    },
+    "confidence": 0.97
+   }
+  },
+  "fraze": [
+   "VI: în aplicarea legii, instituțiile publice de apărare, ordine publică și securitate națională emit norme metodologice, aprobate prin ordin al ordonatorului principal de credite.",
+   "Hotărârea Guvernului este prevăzută la art. 27 doar ca instrument prin care Guvernul poate stabili alte drepturi salariale specifice, la propunerea conducătorilor instituțiilor, nu pentru aprobarea normelor metodologice.",
+   "Textul anexei nu atribuie nicio competență ministrului muncii sau ministrului finanțelor în aprobarea acestor norme.",
+   "Ordinul de zi pe unitate este actul prin care, în Ministerul Apărării Naționale și Serviciul de Telecomunicații Speciale, se fac alocarea și scoaterea la și de la drepturile salariale (art. 86 alin. (8)).",
+   "Numeroase articole ale anexei trimit la aceste norme metodologice, de exemplu art. 58 alin. (1), art. 59 alin. (1) și art. 29."
+  ],
+  "pozitionale": [],
+  "nivel": {
+   "score": 2.96,
+   "confidence": 0.94
+  },
+  "usage": {
+   "a": 1727,
+   "b": 5377
+  }
+ },
+ {
+  "id": "A6-228",
+  "cheie": [
+   "A"
+  ],
+  "tip": "unic",
+  "variante": {
+   "A": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 0.99
+   },
+   "B": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "contrazice": 1.0,
+     "nu_spune": 0.0,
+     "sustine": 0.0
+    },
+    "confidence": 1.0
+   },
+   "C": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "contrazice": 1.0,
+     "nu_spune": 0.0,
+     "sustine": 0.0
+    },
+    "confidence": 1.0
+   },
+   "D": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "contrazice": 0.99,
+     "nu_spune": 0.01,
+     "sustine": 0.0
+    },
+    "confidence": 0.98
+   }
+  },
+  "nouls": {
+   "sinonim": 0.1,
+   "absolut": 0.19,
+   "abrogat": 0.05,
+   "numeste_actul": 0.73,
+   "categorie_ambigua": 0.19,
+   "citat_acopera": 0.98
+  },
+  "afirmatii": {
+   "0": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.97,
+     "nu_spune": 0.0,
+     "contrazice": 0.03
+    },
+    "confidence": 0.96
+   },
+   "1": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "2": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 0.99
+   },
+   "3": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.88,
+     "nu_spune": 0.1,
+     "contrazice": 0.02
+    },
+    "confidence": 0.82
+   }
+  },
+  "fraze": [
+   "VI: în caz de deces al personalului militar, polițiștilor și funcționarilor publici cu statut special, soția sau soțul supraviețuitor ori copiii, iar în lipsa acestora părinții, beneficiază de un ajutor egal cu 12 solde de funcție/salarii de funcție, fără a fi necesară îndeplinirea condițiilor referitoare la trecerea în rezervă sau direct în retragere/încetarea raporturilor de serviciu cu drept la pensie a celor decedați.",
+   "Condiționarea ajutorului de îndeplinirea condițiilor de pensie este exact ceea ce textul exclude expres.",
+   "Nivelul a două solde de funcție este cel al indemnizației de instalare în localități izolate (art. 21 alin. (9)).",
+   "Drepturile bănești pentru întreaga lună a decesului sunt un drept distinct, prevăzut la art. 61, care se plătește soțului supraviețuitor, copiilor sau părinților în plus față de ajutorul de la art. 91."
+  ],
+  "pozitionale": [],
+  "nivel": {
+   "score": 2.59,
+   "confidence": 0.5
+  },
+  "usage": {
+   "a": 2136,
+   "b": 5552
+  }
+ },
+ {
+  "id": "A6-229",
+  "cheie": [
+   "A"
+  ],
+  "tip": "unic",
+  "variante": {
+   "A": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0
+    },
+    "confidence": 0.99
+   },
+   "B": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.0,
+     "contrazice": 1.0
+    },
+    "confidence": 1.0
+   },
+   "C": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.01,
+     "contrazice": 0.99
+    },
+    "confidence": 0.99
+   },
+   "D": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "nu_spune": 0.05,
+     "sustine": 0.0,
+     "contrazice": 0.95
+    },
+    "confidence": 0.92
+   }
+  },
+  "nouls": {
+   "sinonim": 0.1,
+   "absolut": 0.17,
+   "abrogat": 0.08,
+   "numeste_actul": 0.73,
+   "categorie_ambigua": 0.3,
+   "citat_acopera": 0.96
+  },
+  "afirmatii": {
+   "0": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.03,
+     "nu_spune": 0.01,
+     "sustine": 0.96
+    },
+    "confidence": 0.95
+   },
+   "1": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.03,
+     "nu_spune": 0.0,
+     "sustine": 0.97
+    },
+    "confidence": 0.95
+   },
+   "2": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.01,
+     "nu_spune": 0.01,
+     "sustine": 0.98
+    },
+    "confidence": 0.98
+   },
+   "3": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.01,
+     "nu_spune": 0.0,
+     "sustine": 0.99
+    },
+    "confidence": 0.98
+   },
+   "4": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 0.99
+   }
+  },
+  "fraze": [
+   "Art. 92 alin. (1) din anexa nr.",
+   "VI: personalul militar, polițiștii și funcționarii publici cu statut special care dețin grad didactic și își desfășoară activitatea în instituții de învățământ militar sau pentru formarea polițiștilor ori a funcționarilor publici cu statut special, precum și personalul de specialitate medico-sanitar din sistem, indiferent de funcția pe care este încadrat, pot opta, în locul soldei lunare brute/salariului lunar brut, pentru salariul lunar brut stabilit potrivit familiilor ocupaționale Învățământ și Sănătate și asistență socială, la care se adaugă solda de grad/salariul gradului profesional deținut.",
+   "Textul adaugă solda de grad, nu solda de comandă, iar opțiunea este în locul soldei lunare brute, nu prin cumul cu aceasta.",
+   "Solda de funcție minimă corespunzătoare gradului este regimul din art. 60 alin. (1) pentru personalul trimis în judecată, iar 12,5% este majorarea pentru structurile centrale (art. 23).",
+   "Capcana este alin. (2): pensia și alte drepturi specifice se stabilesc în raport cu soldele lunare brute cuvenite în calitate de personal militar, corespunzătoare funcțiilor încadrate, nu în raport cu salariul pentru care s-a optat."
+  ],
+  "pozitionale": [],
+  "nivel": {
+   "score": 3.1,
+   "confidence": 0.25
+  },
+  "usage": {
+   "a": 2272,
+   "b": 4956
+  }
+ },
+ {
+  "id": "A6-230",
+  "cheie": [
+   "A"
+  ],
+  "tip": "unic",
+  "variante": {
+   "A": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   },
+   "B": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "contrazice": 1.0,
+     "sustine": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   },
+   "C": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "contrazice": 0.51,
+     "sustine": 0.0,
+     "nu_spune": 0.49
+    },
+    "confidence": 0.27
+   },
+   "D": {
+    "alegere": "nu_spune",
+    "probabilitati": {
+     "contrazice": 0.45,
+     "sustine": 0.0,
+     "nu_spune": 0.55
+    },
+    "confidence": 0.33
+   }
+  },
+  "nouls": {
+   "sinonim": 0.09,
+   "absolut": 0.54,
+   "abrogat": 0.06,
+   "numeste_actul": 0.7,
+   "categorie_ambigua": 0.18,
+   "citat_acopera": 0.97
+  },
+  "afirmatii": {
+   "0": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.95,
+     "nu_spune": 0.0,
+     "contrazice": 0.05
+    },
+    "confidence": 0.91
+   },
+   "1": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "sustine": 0.34,
+     "nu_spune": 0.27,
+     "contrazice": 0.39
+    },
+    "confidence": 0.07
+   },
+   "2": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.97,
+     "nu_spune": 0.02,
+     "contrazice": 0.01
+    },
+    "confidence": 0.95
+   },
+   "3": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.86,
+     "nu_spune": 0.11,
+     "contrazice": 0.03
+    },
+    "confidence": 0.78
+   }
+  },
+  "fraze": [
+   "VI: drepturile specifice prevăzute la art. 20, 32, 33, 34 și art. 45 alin. (2)-(5) din anexă nu se iau în calcul la determinarea limitei sporurilor, compensațiilor, primelor, premiilor și indemnizațiilor prevăzute la art. 25 alin. (2) din lege.",
+   "Includerea lor în această limită este exact contrariul textului; art. 25 alin. (2) din corpul legii stabilește, pentru instituțiile din sistemul de apărare, ordine publică și securitate națională, plafonul de 30% al sumei sporurilor, compensațiilor, primelor, premiilor și indemnizațiilor, iar art. 93 scoate aceste drepturi specifice din baza de calcul a plafonului.",
+   "Limita de 10% din solda de funcție este cea a majorării pentru controlul financiar preventiv propriu și audit (art. 84 alin. (3)).",
+   "Personalul trimis în misiune în străinătate este vizat de art. 73-75 din anexă, nu de art. 93."
+  ],
+  "pozitionale": [],
+  "nivel": {
+   "score": 3.74,
+   "confidence": 0.78
+  },
+  "usage": {
+   "a": 2033,
+   "b": 5320
+  }
+ }
+]
