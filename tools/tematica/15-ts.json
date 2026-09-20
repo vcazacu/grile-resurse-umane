@@ -1,0 +1,666 @@
+[
+ {
+  "loc": "Termenii din corpul legii (art. 7) / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 7 definește noțiunile care revin în toată legea.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.91,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.08,
+     "contrazice": 0.01
+    },
+    "confidence": 0.88
+   },
+   "1": {
+    "text": "Pentru personalul militar contează mai ales lit. b) și lit. f): solda de funcție este suma de bani la care are dreptul lunar personalul militar, polițiștii și funcționarii publici cu statut special corespunzător funcției în care este încadrat, iar solda lunară cuprinde solda de funcție, solda de grad, gradațiile și, după caz, solda de comandă, indemnizații, compensații, sporuri, prime, premii și celelalte elemente.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.89,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.11
+    },
+    "confidence": 0.85
+   }
+  },
+  "usage": 3479
+ },
+ {
+  "loc": "Termenii din corpul legii (art. 7) / paragraful 2",
+  "afirmatii": {
+   "0": {
+    "text": "Lit. a) definește salariul de bază, care privește personalul civil, iar lit. e) salariul lunar.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.01,
+     "sustine": 0.82,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.17
+    },
+    "confidence": 0.76
+   },
+   "1": {
+    "text": "Distincția dintre solda de funcție și solda lunară este cea care decide multe întrebări: un procent se aplică fie la una, fie la cealaltă, iar distractorii le schimbă între ele.",
+    "alegere": "nu_spune",
+    "probabilitati": {
+     "nu_spune": 0.62,
+     "sustine": 0.37,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.01
+    },
+    "confidence": 0.49
+   }
+  },
+  "usage": 3413
+ },
+ {
+  "loc": "Gradațiile: cinci în corpul legii, șapte în anexa VI (art. 1 / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 10 alin. (2) din corpul legii prevede 5 gradații, corespunzătoare tranșelor de vechime în muncă, dar exclude expres personalul militar, polițiștii și funcționarii publici cu statut special din sistemul administrației penitenciare — pentru aceștia regula este în anexa VI.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 0.99
+   }
+  },
+  "usage": 4659
+ },
+ {
+  "loc": "Gradațiile: cinci în corpul legii, șapte în anexa VI (art. 1 / paragraful 2",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 11 alin. (1) din anexa VI prevede 1–7 gradații, acordate în raport cu timpul servit în calitatea respectivă.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Alin. (2) precizează că soldele de funcție din capitolul I al anexei sunt la gradația 0.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 4956
+ },
+ {
+  "loc": "Gradațiile: cinci în corpul legii, șapte în anexa VI (art. 1 / paragraful 3",
+  "afirmatii": {
+   "0": {
+    "text": "Alin. (3) dă două reguli de calcul ușor de confundat: intervalul dintre data acordării gradului militar și data absolvirii instituției militare de învățământ se ia în calcul la stabilirea gradațiilor, dar perioada modulului instruirii individuale nu se ia în calcul.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.57,
+     "contrazice": 0.42,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.01
+    },
+    "confidence": 0.42
+   }
+  },
+  "usage": 4488
+ },
+ {
+  "loc": "Drepturi din corpul legii: doctorat, control financiar preve / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 14 alin. (1) prevede o indemnizație pentru titlul științific de doctor în cuantum de 50% din nivelul salariului de bază minim brut pe țară garantat în plată, acordată lunar numai dacă persoana își desfășoară activitatea în domeniul pentru care deține titlul și are în fișa postului un set de atribuții obiective și cuantificabile.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Alin. (2) prevede că, în situația cumulului de funcții, indemnizația se acordă, la cerere, numai de către angajatorul unde beneficiarul are funcția de bază declarată.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 0.99
+   }
+  },
+  "usage": 4649
+ },
+ {
+  "loc": "Drepturi din corpul legii: doctorat, control financiar preve / paragraful 2",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 15 acordă o majorare a salariului de bază cu 10% personalului care exercită activitatea de control financiar preventiv, pe perioada de exercitare a acesteia.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 3920
+ },
+ {
+  "loc": "Drepturi din corpul legii: doctorat, control financiar preve / paragraful 3",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 20 alin. (1) prevede sporul pentru munca de noapte: 25% din salariul de bază, solda de funcție ori indemnizația de încadrare, pentru orele lucrate între 22,00 și 6,00, dacă timpul astfel lucrat reprezintă cel puțin 3 ore de noapte din timpul normal de lucru.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.97,
+     "contrazice": 0.03,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 0.96
+   },
+   "1": {
+    "text": "Alin. (2) precizează că sporul de noapte nu se ia în calcul la determinarea limitei sporurilor de la art. 25.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.99,
+     "contrazice": 0.01,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 0.98
+   }
+  },
+  "usage": 4528
+ },
+ {
+  "loc": "Drepturi din corpul legii: doctorat, control financiar preve / paragraful 4",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 21 alin. (2) prevede sporul pentru munca suplimentară prestată peste programul normal de lucru: 75% din salariul de bază, solda de funcție ori indemnizația de încadrare, plătit în luna următoare, dacă nu a fost posibilă compensarea prin ore libere plătite.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.01,
+     "sustine": 0.99,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.98
+   }
+  },
+  "usage": 4085
+ },
+ {
+  "loc": "Drepturi din corpul legii: doctorat, control financiar preve / paragraful 5",
+  "afirmatii": {
+   "0": {
+    "text": "Alin. (4) pune două condiții de fond: plata se poate face numai dacă efectuarea orelor suplimentare a fost dispusă de șeful ierarhic în scris și fără a se depăși 360 de ore anual; peste 180 de ore anual este necesar acordul sindicatelor reprezentative sau al reprezentanților salariaților.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Alin. (6) exclude de la aplicare persoanele salarizate prin plata cu ora, prin cumul de funcții în cadrul aceleiași instituții și pe cele angajate cu timp parțial.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 0.99
+   }
+  },
+  "usage": 4391
+ },
+ {
+  "loc": "Structura soldei în anexa VI (art. 1–3, 5–9) / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 2 din anexa VI definește categoriile de personal: personal militar, polițiști, funcționari publici cu statut special din sistemul administrației penitenciare și personal civil.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Alin. (2) precizează că prin personal militar se înțeleg cadrele militare în activitate, precum și soldații și gradații profesioniști în activitate, iar alin. (5) că personalul civil cuprinde funcționarii publici și personalul contractual.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "sustine": 0.99,
+     "nu_spune": 0.0,
+     "contrazice": 0.01
+    },
+    "confidence": 0.98
+   }
+  },
+  "usage": 4207
+ },
+ {
+  "loc": "Structura soldei în anexa VI (art. 1–3, 5–9) / paragraful 2",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 3 alin. (2) enumeră componentele soldei lunare: solda de funcție, solda de grad, gradațiile și, după caz, solda de comandă, indemnizații, compensații, sporuri, prime, premii și alte drepturi salariale.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 3854
+ },
+ {
+  "loc": "Structura soldei în anexa VI (art. 1–3, 5–9) / paragraful 3",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 5 alin. (1) arată criteriile de diferențiere a soldelor de funcție: nivelul studiilor, pregătirea profesională, atribuțiile funcției, solicitările la efort, complexitatea și gradul de răspundere.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Alin. (4) precizează că solda de funcție se acordă de la data prevăzută în ordinul de numire, iar pentru persoanele chemate sau rechemate în activitate, de la data prezentării la serviciu.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 4354
+ },
+ {
+  "loc": "Structura soldei în anexa VI (art. 1–3, 5–9) / paragraful 4",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 7 alin. (1) leagă solda de grad de gradul militar deținut, ca drept al titularului și recunoaștere în plan social.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.05,
+     "sustine": 0.92,
+     "contrazice": 0.02,
+     "absenta_corecta": 0.01
+    },
+    "confidence": 0.9
+   }
+  },
+  "usage": 3839
+ },
+ {
+  "loc": "Structura soldei în anexa VI (art. 1–3, 5–9) / paragraful 5",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 8 alin. (1) prevede solda de comandă de până la 25% din solda de funcție, pentru cei care îndeplinesc funcții de comandă.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Alin. (3) o leagă de funcție: se acordă de la data numirii în funcțiile cu drept la solda de comandă și încetează la data schimbării din funcție.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 4287
+ },
+ {
+  "loc": "Structura soldei în anexa VI (art. 1–3, 5–9) / paragraful 6",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 9 alin. (1) privește împuternicirea: cei care îndeplinesc prin împuternicire atribuțiile funcțiilor prevăzute cu solda de comandă beneficiază de acest drept, iar alin. (3) precizează că împuterniciții își mențin soldele de funcție avute.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.23,
+     "contrazice": 0.29,
+     "absenta_corecta": 0.02,
+     "sustine": 0.46
+    },
+    "confidence": 0.28
+   }
+  },
+  "usage": 3949
+ },
+ {
+  "loc": "Compensații și sporuri specifice (art. 14, 15, 15^1 din anex / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 14 alin. (1) din anexă prevede o compensație pentru munca cu grad ridicat de risc sau, după caz, în condiții de pericol deosebit, desfășurată în exercitarea atribuțiilor funcționale, stabilite potrivit domeniilor de responsabilitate ale unității.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Alin. (5) lasă stabilirea unităților, a categoriilor de personal și a mărimii compensației în seama ordonatorului principal de credite, prin ordin.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 4307
+ },
+ {
+  "loc": "Compensații și sporuri specifice (art. 14, 15, 15^1 din anex / paragraful 2",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 15 alin. (1) privește lucrările de excepție sau misiunile speciale, apreciate ca atare de conducătorul unității.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.03,
+     "nu_spune": 0.0,
+     "sustine": 0.97,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 0.96
+   },
+   "1": {
+    "text": "Alin. (2) impune două limite cumulate: dreptul poate fi acordat pentru cel mult 5% din numărul total de posturi prevăzute în statele de organizare, în limita a 30% din suma salariilor de bază, a soldelor de funcție, a soldelor de grad, a gradațiilor, a soldelor de comandă și a indemnizațiilor de încadrare, cumulat pe total buget, pentru fiecare ordonator principal de credite.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.02,
+     "nu_spune": 0.0,
+     "sustine": 0.98,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 0.97
+   }
+  },
+  "usage": 4069
+ },
+ {
+  "loc": "Compensații și sporuri specifice (art. 14, 15, 15^1 din anex / paragraful 3",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 15^1 alin. (1) prevede un spor pentru personalul care ocupă o funcție cu acces la informații clasificate, iar alin. (2) arată că mărimea concretă se stabilește în funcție de locul de muncă, de certificatul ori avizul de securitate deținut și de nivelul de secretizare.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 3628
+ },
+ {
+  "loc": "Compensații și sporuri specifice (art. 14, 15, 15^1 din anex / paragraful 4",
+  "afirmatii": {
+   "0": {
+    "text": "Alin. (3) conține regula de necumul care se verifică des: sporul de la alin. (1) și indemnizația prevăzută la art. 18 nu se pot acorda cumulat aceleiași persoane.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.02,
+     "sustine": 0.97,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.01
+    },
+    "confidence": 0.96
+   }
+  },
+  "usage": 3455
+ },
+ {
+  "loc": "capcana 1",
+  "afirmatii": {
+   "0": {
+    "text": "Gradațiile sunt 5 în corpul legii (art. 10 alin. (2)) și 1-7 în anexa VI (art. 11 alin. (1)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Corpul legii exclude expres personalul militar de la regula celor 5 gradații.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 12206
+ },
+ {
+  "loc": "capcana 2",
+  "afirmatii": {
+   "0": {
+    "text": "Solda de funcție și solda lunară nu sunt același lucru: solda lunară le cuprinde pe toate componentele (art. 3 alin. (2) din anexă, art. 7 lit. f) din corp).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Procentele se raportează fie la una, fie la cealaltă.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.75,
+     "nu_spune": 0.22,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.03
+    },
+    "confidence": 0.66
+   }
+  },
+  "usage": 12138
+ },
+ {
+  "loc": "capcana 3",
+  "afirmatii": {
+   "0": {
+    "text": "Indemnizația pentru titlul de doctor este de 50% din salariul de bază minim brut pe țară garantat în plată (art. 14 alin. (1) din corp), nu din salariul propriu, și se acordă numai dacă activitatea se desfășoară în domeniul titlului.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.97,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.03
+    },
+    "confidence": 0.95
+   }
+  },
+  "usage": 11983
+ },
+ {
+  "loc": "capcana 4",
+  "afirmatii": {
+   "0": {
+    "text": "Majorarea pentru control financiar preventiv este de 10% din salariul de bază (art. 15 din corp).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.01,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 0.99
+    },
+    "confidence": 0.99
+   }
+  },
+  "usage": 11530
+ },
+ {
+  "loc": "capcana 5",
+  "afirmatii": {
+   "0": {
+    "text": "Sporul de noapte este de 25% și cere cel puțin 3 ore de noapte din timpul normal de lucru (art. 20 alin. (1) din corp) — aceeași condiție ca la art. 126 din Codul muncii.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.01,
+     "sustine": 0.53,
+     "nu_spune": 0.3,
+     "contrazice": 0.16
+    },
+    "confidence": 0.38
+   }
+  },
+  "usage": 11708
+ },
+ {
+  "loc": "capcana 6",
+  "afirmatii": {
+   "0": {
+    "text": "Sporul pentru munca suplimentară este de 75% (art. 21 alin. (2)), cu plafonul de 360 de ore anual și cu acordul sindicatelor peste 180 de ore anual (alin. (4)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.99,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.01
+    },
+    "confidence": 0.99
+   },
+   "1": {
+    "text": "Dispoziția scrisă a șefului ierarhic este condiție de plată.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 0.99
+   }
+  },
+  "usage": 12048
+ },
+ {
+  "loc": "capcana 7",
+  "afirmatii": {
+   "0": {
+    "text": "Solda de comandă este de până la 25% din solda de funcție (art. 8 alin. (1) din anexă) și încetează la data schimbării din funcție.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 11658
+ },
+ {
+  "loc": "capcana 8",
+  "afirmatii": {
+   "0": {
+    "text": "La art. 15 din anexă limitele sunt două și se aplică împreună: cel mult 5% din numărul total de posturi și cel mult 30% din suma drepturilor enumerate, pe total buget, pentru fiecare ordonator principal de credite.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.99,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.01
+    },
+    "confidence": 0.98
+   }
+  },
+  "usage": 11567
+ },
+ {
+  "loc": "capcana 9",
+  "afirmatii": {
+   "0": {
+    "text": "Sporul pentru accesul la informații clasificate (art. 15^1) și indemnizația de la art. 18 nu se pot cumula la aceeași persoană.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.98,
+     "nu_spune": 0.01,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.01
+    },
+    "confidence": 0.98
+   }
+  },
+  "usage": 11549
+ },
+ {
+  "loc": "capcana 10",
+  "afirmatii": {
+   "0": {
+    "text": "Intervalul dintre acordarea gradului militar și absolvirea instituției militare de învățământ se ia în calcul la gradații, dar perioada modulului instruirii individuale nu (art. 11 alin. (3) din anexă).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 11663
+ }
+]
