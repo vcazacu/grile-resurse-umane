@@ -262,3 +262,26 @@ fiindcă `typesafe-sdk` nu e în Python-ul de sistem.
 Nota care explică scăparea: README-ul descria de la început `valideaza.py` ca verificând
 „fără referiri la poziția variantelor". Verificarea nu exista. Un contract scris în
 documentație, dar neimplementat, nu prinde nimic — acum e implementat și rulează.
+
+---
+
+# Verificarea temelor 2–8 cu o a doua metodă
+
+21.09.2026. Poarta semantică le dăduse zero contraziceri la scriere, dar are limitele din
+secțiunea J a raportului: o afirmație despre un articol absent din temeiuri iese doar
+„neverificabilă". S-au adăugat două verificări independente.
+
+**Sensibilitate pe temele înseși**, nu doar pe tema 1: 10 erori plantate în tema 4 (praguri de
+vârstă, „3 luni", „15 ani") și 4 în tema 7 (limite de vârstă, competențe) — **14 din 14 prinse**,
+toate la p ≥ 0.99, zero alarme false pe frazele neatinse.
+
+**Audit determinist de trasabilitate** (`audit_tematica.py`): fiecare cifră și fiecare trimitere
+la articol dintr-un paragraf trebuie să apară în citatele aceleiași secțiuni — fie ca temei, fie
+ca trimitere pe care legea însăși o face în textul citat. Pe temele 2–8 au rămas 7 trimiteri de
+fond către articole din alte secțiuni sau teme; toate verificate manual în lege, toate corecte
+(ex.: art. 28 chiar nu conține cuvântul „sindical", deci excluderea sindicatelor e într-adevăr
+la art. 29 lit. e)). Toate id-urile de întrebări există în bancă; restricția din bibliografie
+pentru art. 45 (doar lit. a)–f)) e respectată — tema 6 nu citează alin. (2).
+
+Verdict: temele 2–8 sunt corecte prin trei metode independente — 310 afirmații judecate de
+poartă, 14/14 mutante prinse, 7/7 trimiteri de fond confirmate manual.
