@@ -84,3 +84,63 @@ corecte (`corecte: [0, 2, 3]`). Cursantul primește exact informația inversă.
 
 Până la rescrierea lor, verificarea nu a fost legată în `verifica_tot.sh`, ca să nu pice
 build-ul existent.
+
+---
+
+# Rularea pe toată banca (600 de întrebări)
+
+20.09.2026, `check_semantic.py ../intrebari.js`. **600 de întrebări în 68 de secunde,
+5,25 milioane de tokens, 0 cereri picate.** Judecățile brute: `verificari/intrebari-ts.json`.
+
+## Precizia de la calibrare NU s-a generalizat
+
+Cu politica de la calibrare, rularea a dat 27 REVIZUIT. Am verificat în textul legii
+toate cele 3 cazuri cu semnal dublu (cheia contrazisă *și* un distractor susținut) —
+adică exact cazurile care susțineau că răspunsul publicat e greșit:
+
+| Întrebare | ce spunea poarta | ce spune legea |
+|---|---|---|
+| L80-203 | distractorul C susținut (p=0.93), cheia D contrazisă (p=0.08) | art. 35 alin. (3): „termenul de 6 luni este termen de prescripție, iar cel de 2 ani este termen de decădere" — **cheia D e corectă**, C spune invers |
+| L223-113 | cheia C contrazisă (p=0.11), distractorul A apărabil | art. 11 alin. (1): H.G. 1.294/2001 = cadre militare, H.G. 1.822/2004 = polițiști — **cheia C e corectă**, A e inversarea |
+| L80-328 | cheia C nesusținută (p=0.07) | art. 85 lit. h) = „prin demisie", inclusă în lista de excepții din art. 90 alin. (2) — **cheia C e corectă** (art. 85 era în stare) |
+
+**Trei din trei verificate sunt alarme false.** Tiparul e consistent: modelul inversează
+perechile (care termen merge cu care regim, care act pentru care categorie) și nu
+rezolvă trimiterile la litere, chiar cu articolul-țintă în stare.
+
+Cele 72 de întrebări de la calibrare au dat precizie 4/4 pentru că acolo semnalele
+câștigătoare au fost deterministe (referiri poziționale) plus o abrogare — nu judecățile
+pe variante, care n-au contribuit cu niciun adevărat pozitiv nici la calibrare.
+
+## Politica re-etajată după dovezi
+
+Judecățile pe variante și pe frazele explicației au coborât din poartă în **coada de
+revizuire** (INCERT). Rămân utile ca semnal de triaj, dar nu opresc un build și nu
+justifică rescrierea unei chei.
+
+Semnalul `abrogat` nu separă singur abrogarea de modificare (0.78-0.81 pe articole doar
+modificate, 0.84-0.98 pe cele abrogate). Poarta cere acum **și** o notă de abrogare găsită
+determinist în `§NOTA§` (`nota_abrogare`) — codul găsește dovada, modelul o interpretează.
+Cele două întrebări-capcană permise de SPEC §1 (art. 94^1 din L80/1995, art. 3^1 din
+H.G. 1867/2005) sunt pe lista `ABROGARE_ASUMATA`.
+
+Rezultat, **fără inferență nouă** (`--din`): **5 REVIZUIT, 97 INCERT, 498 OK.**
+Cele 5 sunt exact referirile poziționale verificate manual. Detecția de la calibrare
+rămâne intactă (4/4 pe versiunile defecte, 0 pe cele reparate).
+
+## A patra capcană de stare
+
+`_note_articol()` colecta notele peste granița de capitol: „Cap. V a fost abrogat" ajungea
+în notele art. 13 din H.G. 52/2011. Reparat (se oprește și la titlurile `## `). Semnalul a
+rămas totuși 0.78/0.81 după reparație — deci acolo greșea modelul, nu dovada.
+
+## Bilanț onest
+
+Ce merită legat în `verifica_tot.sh`: **verificarea deterministă a referirilor poziționale**
+(gratuită, fără cheie API, 5 defecte reale găsite în banca publicată) și, cu rezerve,
+`abrogat` + notă confirmată.
+
+Ce nu merită încă: judecățile pe variante ca poartă. Pe 600 de întrebări produc alarme
+false cu p≥0.9 pe distincții juridice fine. Ca listă de triaj pentru un om sau pentru un
+verificator adversarial, cele 97 de INCERT rămân utile — dar trebuie citite ca „merită o
+privire", nu ca „e greșit".

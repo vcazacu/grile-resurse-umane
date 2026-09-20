@@ -42,6 +42,15 @@ MAX_INVOCAT = 9000     # articolele numite în explicație sunt DOVADA: aproape 
                        # (la 2500 se tăia art. 20^1 alin. (4) → alarmă falsă cu p=0.95)
 FIRE = 6               # cereri în paralel
 
+# Abrogări asumate: SPEC §1 permite o întrebare-capcană „care articol este abrogat”
+# exact pentru acestea. Semnalul `abrogat` e corect pe ele, dar întrebarea e intenționată.
+_NOTA_ABROGARE = re.compile(r"\babrog", re.I)   # „a fost abrogat”, „se abrogă prevederile...”
+
+ABROGARE_ASUMATA = {
+    ("01_Legea_80-1995_statutul_cadrelor_militare.txt", "94^1"),
+    ("09_HG_1867-2005_compensatia_chirie.txt", "3^1"),
+}
+
 # ---------- Politica: praguri (se pot schimba din linia de comandă) ----------
 PRAGURI = {
     "sustine": 0.60,     # p(sustine) peste care considerăm varianta „susținută de text”
@@ -88,6 +97,10 @@ def _note_articol(fisier, anexa, art):
         m = re.match(r"^Articolul (\d+(?:\^\d+)?)$", l)
         if m:
             in_art = (m.group(1) == art)
+        elif l.startswith("## "):
+            in_art = False          # titlu de capitol/secțiune: notele de după el sunt
+                                    # ale capitolului următor, nu ale articolului („Cap. V
+                                    # a fost abrogat” ajungea în notele art. 13 din HG 52)
         elif in_art and l.startswith("§NOTA§"):
             note.append(l[6:].strip())
     return "\n".join(note)[:MAX_VECINE * 2]
@@ -273,6 +286,12 @@ def judeca(client, q, cache):
     return {
         "id": q.get("id"),
         "cheie": _litere_cheie(q),
+        "temei": [(q.get("sursa") or {}).get("fisier", ""),
+                  eticheta_articol((q.get("sursa") or {}).get("articol", "")) or ""],
+        # semnalul `abrogat` singur nu separă abrogarea de modificare (0.78-0.81 pe articole
+        # doar modificate, 0.85-0.98 pe cele abrogate). Codul găsește nota, modelul o judecă:
+        # poarta cere ambele.
+        "nota_abrogare": bool(_NOTA_ABROGARE.search(note)),
         "tip": q.get("tip"),
         "variante": variante,
         "nouls": {k: rb.nouls[k].noul for k in
@@ -297,24 +316,30 @@ def verdict(j, praguri=None):
     if j.get("eroare"):
         return "REVIZUIT", [j["eroare"]]
     grave, incerte = [], []
+    # Verificat pe toată banca (600 întrebări): judecățile pe variante și pe frazele
+    # explicației produc alarme false cu încredere mare — modelul inversează perechile
+    # (prescripție/decădere la L80-203, care H.G. pentru care categorie la L223-113) și
+    # ratează trimiterile la litere (L80-328, lit. h) „prin demisie”). Toate trei cheile
+    # verificate în lege erau corecte. Rămân ca semnal, dar în coada de revizuire.
+    suspect = []
     for lit, v in sorted((j.get("variante") or {}).items()):
         pr = v["probabilitati"]
         p_sus = pr.get("sustine", 0.0)
         e_cheie = lit in j.get("cheie", [])
         if e_cheie and p_sus < p["sustine"]:
-            grave.append("cheia %s nu e susținută de text (p_sustine=%.2f, alegere=%s)"
-                         % (lit, p_sus, v["alegere"]))
+            suspect.append("cheia %s nu e susținută de text (p_sustine=%.2f, alegere=%s)"
+                           % (lit, p_sus, v["alegere"]))
         if not e_cheie and p_sus >= p["aparabil"]:
-            grave.append("distractorul %s e apărabil ca răspuns corect (p_sustine=%.2f)"
-                         % (lit, p_sus))
+            suspect.append("distractorul %s e apărabil ca răspuns corect (p_sustine=%.2f)"
+                           % (lit, p_sus))
         if v["confidence"] < p["confidence"]:
             incerte.append("varianta %s: încredere mică (%.2f)" % (lit, v["confidence"]))
     for i, a in sorted((j.get("afirmatii") or {}).items()):
         pr = a["probabilitati"]
         fraza = (j.get("fraze") or [""] * 9)[int(i)] if int(i) < len(j.get("fraze") or []) else ""
         if pr.get("contrazice", 0) >= p["contrazice"]:
-            grave.append("explicație, fraza %s contrazisă de text (p=%.2f): „%s”"
-                         % (i, pr["contrazice"], fraza[:90]))
+            suspect.append("explicație, fraza %s contrazisă de text (p=%.2f): „%s”"
+                           % (i, pr["contrazice"], fraza[:90]))
         elif pr.get("nu_spune", 0) >= p["neverificabil"]:
             incerte.append("explicație, fraza %s nu se poate verifica din temeiul citat "
                            "(p=%.2f): „%s”" % (i, pr["nu_spune"], fraza[:90]))
@@ -322,10 +347,15 @@ def verdict(j, praguri=None):
         grave.append("explicația trimite la poziția variantei („%s”) — asambleaza.py "
                      "amestecă variantele" % frag)
     n = j.get("nouls") or {}
-    if n.get("abrogat", 0) >= p["noul"]:
-        grave.append("temeiul pare abrogat (p=%.2f)" % n["abrogat"])
+    if n.get("abrogat", 0) >= p["noul"] and tuple(j.get("temei") or ("", "")) not in ABROGARE_ASUMATA:
+        if j.get("nota_abrogare"):
+            grave.append("temeiul pare abrogat (p=%.2f, confirmat de o notă de abrogare)"
+                         % n["abrogat"])
+        else:
+            suspect.append("temeiul pare abrogat (p=%.2f), dar articolul nu are notă de "
+                           "abrogare — probabil doar modificat" % n["abrogat"])
     if n.get("sinonim", 0) >= p["noul"]:
-        grave.append("distractor cvasi-sinonim cu cheia (p=%.2f)" % n["sinonim"])
+        suspect.append("distractor cvasi-sinonim cu cheia (p=%.2f)" % n["sinonim"])
     if n.get("absolut", 0) >= p["noul"]:
         incerte.append("explicația conține o afirmație absolută nesusținută (p=%.2f)" % n["absolut"])
     if n.get("numeste_actul", 1) <= 1 - p["noul"]:
@@ -335,9 +365,9 @@ def verdict(j, praguri=None):
     if n.get("citat_acopera", 1) <= 1 - p["noul"]:
         incerte.append("citatul nu acoperă norma pe care stă răspunsul (p=%.2f)" % n["citat_acopera"])
     if grave:
-        return "REVIZUIT", grave + incerte
-    if incerte:
-        return "INCERT", incerte
+        return "REVIZUIT", grave + suspect + incerte
+    if suspect or incerte:
+        return "INCERT", suspect + incerte
     return "OK", []
 
 
@@ -400,8 +430,16 @@ def main(argv):
         for f in fisiere:
             lista = incarca_intrebari(f)
             cache = {}
+            def sigur(q):
+                """O cerere picată nu trebuie să arunce tot lotul: devine o judecată
+                cu eroare, pe care verdict() o raportează ca REVIZUIT."""
+                try:
+                    return judeca(client, q, cache)
+                except Exception as exc:                      # noqa: BLE001
+                    return {"id": q.get("id"), "eroare": "%s: %s" % (type(exc).__name__, exc)}
+
             with ThreadPoolExecutor(max_workers=FIRE) as pool:
-                judecati = list(pool.map(lambda q: judeca(client, q, cache), lista))
+                judecati = list(pool.map(sigur, lista))
             iesire = DIR_VERIFICARI / (Path(f).stem + "-ts.json")
             iesire.write_text(json.dumps(judecati, ensure_ascii=False, indent=1), encoding="utf-8")
             rezumat, linii = raport(judecati, praguri)

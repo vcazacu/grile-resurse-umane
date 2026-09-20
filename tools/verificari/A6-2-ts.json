@@ -4,50 +4,55 @@
   "cheie": [
    "A"
   ],
+  "temei": [
+   "06_Legea_153-2017_salarizarea_bugetara.txt",
+   "21"
+  ],
+  "nota_abrogare": false,
   "tip": "unic",
   "variante": {
    "A": {
     "alegere": "sustine",
     "probabilitati": {
-     "sustine": 0.99,
+     "contrazice": 0.01,
      "nu_spune": 0.0,
-     "contrazice": 0.01
+     "sustine": 0.99
     },
     "confidence": 0.99
    },
    "B": {
     "alegere": "contrazice",
     "probabilitati": {
-     "sustine": 0.03,
+     "contrazice": 0.96,
      "nu_spune": 0.01,
-     "contrazice": 0.96
+     "sustine": 0.03
     },
     "confidence": 0.94
    },
    "C": {
     "alegere": "contrazice",
     "probabilitati": {
-     "sustine": 0.02,
-     "nu_spune": 0.02,
-     "contrazice": 0.96
+     "contrazice": 0.97,
+     "nu_spune": 0.01,
+     "sustine": 0.02
     },
-    "confidence": 0.94
+    "confidence": 0.95
    },
    "D": {
     "alegere": "contrazice",
     "probabilitati": {
-     "sustine": 0.0,
-     "nu_spune": 0.01,
-     "contrazice": 0.99
+     "contrazice": 0.98,
+     "nu_spune": 0.02,
+     "sustine": 0.0
     },
-    "confidence": 0.99
+    "confidence": 0.97
    }
   },
   "nouls": {
-   "sinonim": 0.08,
-   "absolut": 0.3,
+   "sinonim": 0.09,
+   "absolut": 0.24,
    "abrogat": 0.05,
-   "numeste_actul": 0.7,
+   "numeste_actul": 0.67,
    "categorie_ambigua": 0.23,
    "citat_acopera": 0.97
   },
@@ -55,45 +60,45 @@
    "0": {
     "alegere": "sustine",
     "probabilitati": {
-     "contrazice": 0.01,
+     "nu_spune": 0.01,
      "sustine": 0.98,
-     "nu_spune": 0.01
+     "contrazice": 0.01
     },
     "confidence": 0.97
    },
    "1": {
     "alegere": "sustine",
     "probabilitati": {
+     "nu_spune": 0.0,
      "sustine": 0.99,
-     "contrazice": 0.01,
-     "nu_spune": 0.0
+     "contrazice": 0.01
     },
     "confidence": 0.98
    },
    "2": {
     "alegere": "sustine",
     "probabilitati": {
-     "sustine": 0.98,
-     "contrazice": 0.01,
-     "nu_spune": 0.01
+     "nu_spune": 0.0,
+     "sustine": 0.99,
+     "contrazice": 0.01
     },
-    "confidence": 0.98
+    "confidence": 0.99
    },
    "3": {
     "alegere": "sustine",
     "probabilitati": {
+     "nu_spune": 0.0,
      "sustine": 0.99,
-     "contrazice": 0.01,
-     "nu_spune": 0.0
+     "contrazice": 0.01
     },
-    "confidence": 0.99
+    "confidence": 0.98
    },
    "4": {
     "alegere": "sustine",
     "probabilitati": {
-     "sustine": 0.99,
-     "contrazice": 0.0,
-     "nu_spune": 0.01
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0
     },
     "confidence": 0.99
    }
@@ -107,7 +112,7 @@
   ],
   "pozitionale": [],
   "nivel": {
-   "score": 2.03,
+   "score": 2.04,
    "confidence": 0.96
   },
   "usage": {
@@ -122,13 +127,18 @@
    "B",
    "C"
   ],
+  "temei": [
+   "06_Legea_153-2017_salarizarea_bugetara.txt",
+   "21"
+  ],
+  "nota_abrogare": false,
   "tip": "multiplu",
   "variante": {
    "A": {
     "alegere": "sustine",
     "probabilitati": {
-     "nu_spune": 0.0,
      "contrazice": 0.07,
+     "nu_spune": 0.0,
      "sustine": 0.93
     },
     "confidence": 0.9
@@ -136,26 +146,26 @@
    "B": {
     "alegere": "sustine",
     "probabilitati": {
+     "contrazice": 0.09,
      "nu_spune": 0.0,
-     "contrazice": 0.12,
-     "sustine": 0.88
+     "sustine": 0.91
     },
-    "confidence": 0.82
+    "confidence": 0.86
    },
    "C": {
     "alegere": "sustine",
     "probabilitati": {
+     "contrazice": 0.02,
      "nu_spune": 0.0,
-     "sustine": 0.99,
-     "contrazice": 0.01
+     "sustine": 0.98
     },
-    "confidence": 0.98
+    "confidence": 0.97
    },
    "D": {
     "alegere": "contrazice",
     "probabilitati": {
-     "nu_spune": 0.11,
      "contrazice": 0.87,
+     "nu_spune": 0.11,
      "sustine": 0.02
     },
     "confidence": 0.8
@@ -165,7 +175,7 @@
    "sinonim": 0.09,
    "absolut": 0.17,
    "abrogat": 0.05,
-   "numeste_actul": 0.69,
+   "numeste_actul": 0.71,
    "categorie_ambigua": 0.36,
    "citat_acopera": 0.95
   },
@@ -173,1171 +183,11 @@
    "0": {
     "alegere": "sustine",
     "probabilitati": {
-     "sustine": 0.89,
      "nu_spune": 0.03,
-     "contrazice": 0.08
+     "sustine": 0.91,
+     "contrazice": 0.06
     },
-    "confidence": 0.84
-   },
-   "1": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "contrazice": 0.01,
-     "sustine": 0.99,
-     "nu_spune": 0.0
-    },
-    "confidence": 0.98
-   },
-   "2": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "sustine": 0.98,
-     "nu_spune": 0.0,
-     "contrazice": 0.02
-    },
-    "confidence": 0.97
-   },
-   "3": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "contrazice": 0.01,
-     "sustine": 0.98,
-     "nu_spune": 0.01
-    },
-    "confidence": 0.97
-   }
-  },
-  "fraze": [
-   "Art. 21 alin. (1) din anexa nr.",
-   "VI enumeră patru drepturi ale personalului mutat sau transferat în interes de serviciu în altă localitate: indemnizația de mutare egală cu solda de funcție/salariul de funcție cuvenit pentru noile funcții (lit. a), indemnizația de 1/4 din solda de funcție/salariul de funcție pentru fiecare membru de familie aflat în întreținere, plătită în luna schimbării domiciliului membrilor de familie (lit. b), rambursarea costului transportului pentru personal, membrii de familie și gospodăria lor (lit. c) și o permisie, respectiv o învoire plătită de 5 zile lucrătoare, acordată la cerere (lit. d).",
-   "Indemnizația de instalare la nivelul a două solde de funcție/salarii de funcție nu este un drept al personalului mutat, ci o posibilitate prevăzută la alin. (9) pentru absolvenții instituțiilor de învățământ numiți în localități izolate sau în zone unde atragerea personalului se face cu greutate.",
-   "Potrivit alin. (4), aceleași drepturi se acordă și persoanelor nou-încadrate sau reintegrate în rândul polițiștilor."
-  ],
-  "pozitionale": [],
-  "nivel": {
-   "score": 2.18,
-   "confidence": 0.77
-  },
-  "usage": {
-   "a": 3467,
-   "b": 5387
-  }
- },
- {
-  "id": "A6-203",
-  "cheie": [
-   "A"
-  ],
-  "tip": "unic",
-  "variante": {
-   "A": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "sustine": 1.0,
-     "contrazice": 0.0,
-     "nu_spune": 0.0
-    },
-    "confidence": 1.0
-   },
-   "B": {
-    "alegere": "contrazice",
-    "probabilitati": {
-     "sustine": 0.0,
-     "contrazice": 0.99,
-     "nu_spune": 0.01
-    },
-    "confidence": 0.98
-   },
-   "C": {
-    "alegere": "contrazice",
-    "probabilitati": {
-     "sustine": 0.0,
-     "contrazice": 1.0,
-     "nu_spune": 0.0
-    },
-    "confidence": 1.0
-   },
-   "D": {
-    "alegere": "contrazice",
-    "probabilitati": {
-     "sustine": 0.0,
-     "contrazice": 1.0,
-     "nu_spune": 0.0
-    },
-    "confidence": 1.0
-   }
-  },
-  "nouls": {
-   "sinonim": 0.05,
-   "absolut": 0.13,
-   "abrogat": 0.05,
-   "numeste_actul": 0.73,
-   "categorie_ambigua": 0.26,
-   "citat_acopera": 0.97
-  },
-  "afirmatii": {
-   "0": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "nu_spune": 0.01,
-     "contrazice": 0.02,
-     "sustine": 0.97
-    },
-    "confidence": 0.96
-   },
-   "1": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "nu_spune": 0.0,
-     "contrazice": 0.01,
-     "sustine": 0.99
-    },
-    "confidence": 0.99
-   },
-   "2": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "nu_spune": 0.0,
-     "contrazice": 0.0,
-     "sustine": 1.0
-    },
-    "confidence": 0.99
-   },
-   "3": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "nu_spune": 0.0,
-     "contrazice": 0.0,
-     "sustine": 1.0
-    },
-    "confidence": 1.0
-   },
-   "4": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "nu_spune": 0.01,
-     "contrazice": 0.02,
-     "sustine": 0.97
-    },
-    "confidence": 0.96
-   }
-  },
-  "fraze": [
-   "Art. 21 alin. (11) din anexa nr.",
-   "VI: personalul militar care a beneficiat de indemnizația de instalare și care își prezintă demisia înainte de împlinirea unui termen de 3 ani de la absolvirea instituțiilor de învățământ, respectiv de la semnarea primului contract, restituie indemnizația proporțional cu perioada rămasă până la expirarea termenului de 3 ani; regula se aplică și personalului care a urmat cursul de formare a cadrelor militare în activitate.",
-   "Același termen de 3 ani este prevăzut la alin. (13) pentru polițiști și funcționarii publici cu statut special din sistemul administrației penitenciare.",
-   "Termenul de 12 luni apare în art. 21 cu alt rol: este perioada în care cadrele trecute în rezervă (alin. (12)) sau familia personalului decedat (alin. (14)) trebuie să își schimbe domiciliul pentru a li se rambursa cheltuielile de transport.",
-   "Termenele de 2 ani și 5 ani nu apar în text."
-  ],
-  "pozitionale": [],
-  "nivel": {
-   "score": 2.04,
-   "confidence": 0.96
-  },
-  "usage": {
-   "a": 3401,
-   "b": 5381
-  }
- },
- {
-  "id": "A6-204",
-  "cheie": [
-   "A"
-  ],
-  "tip": "unic",
-  "variante": {
-   "A": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "nu_spune": 0.0,
-     "sustine": 1.0,
-     "contrazice": 0.0
-    },
-    "confidence": 1.0
-   },
-   "B": {
-    "alegere": "contrazice",
-    "probabilitati": {
-     "nu_spune": 0.0,
-     "sustine": 0.0,
-     "contrazice": 1.0
-    },
-    "confidence": 0.99
-   },
-   "C": {
-    "alegere": "contrazice",
-    "probabilitati": {
-     "nu_spune": 0.0,
-     "sustine": 0.0,
-     "contrazice": 1.0
-    },
-    "confidence": 1.0
-   },
-   "D": {
-    "alegere": "contrazice",
-    "probabilitati": {
-     "nu_spune": 0.01,
-     "sustine": 0.0,
-     "contrazice": 0.99
-    },
-    "confidence": 0.99
-   }
-  },
-  "nouls": {
-   "sinonim": 0.06,
-   "absolut": 0.15,
-   "abrogat": 0.06,
-   "numeste_actul": 0.7,
-   "categorie_ambigua": 0.5,
-   "citat_acopera": 0.97
-  },
-  "afirmatii": {
-   "0": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "nu_spune": 0.01,
-     "sustine": 0.97,
-     "contrazice": 0.02
-    },
-    "confidence": 0.97
-   },
-   "1": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "nu_spune": 0.01,
-     "sustine": 0.95,
-     "contrazice": 0.04
-    },
-    "confidence": 0.92
-   },
-   "2": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "nu_spune": 0.0,
-     "sustine": 1.0,
-     "contrazice": 0.0
-    },
-    "confidence": 0.99
-   },
-   "3": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "nu_spune": 0.01,
-     "sustine": 0.98,
-     "contrazice": 0.01
-    },
-    "confidence": 0.97
-   },
-   "4": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "nu_spune": 0.01,
-     "sustine": 0.98,
-     "contrazice": 0.01
-    },
-    "confidence": 0.97
-   },
-   "5": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "nu_spune": 0.02,
-     "sustine": 0.97,
-     "contrazice": 0.01
-    },
-    "confidence": 0.96
-   }
-  },
-  "fraze": [
-   "Art. 21 alin. (12) din anexa nr.",
-   "VI: cadrele militare trecute în rezervă sau direct în retragere în baza art. 85 alin. (1) lit. a)-f) din Legea nr. 80/1995 beneficiază de rambursarea cheltuielilor de transport dacă își schimbă domiciliul în termen de 12 luni de la data schimbării poziției de activitate.",
-   "Același termen de 12 luni este prevăzut la alin. (14) pentru familia personalului militar decedat, calculat de la data decesului.",
-   "Termenul de 3 ani este cel în care demisia atrage restituirea indemnizației de instalare (alin. (11) și (13)).",
-   "Termenul de 22 de zile lucrătoare este durata maximă a predării funcției la trecerea în rezervă, prevăzută la art. 59 alin. (2) din anexă, și nu are legătură cu rambursarea transportului.",
-   "Termenul de 6 luni nu apare în text."
-  ],
-  "pozitionale": [],
-  "nivel": {
-   "score": 2.17,
-   "confidence": 0.85
-  },
-  "usage": {
-   "a": 3475,
-   "b": 6575
-  }
- },
- {
-  "id": "A6-205",
-  "cheie": [
-   "A"
-  ],
-  "tip": "unic",
-  "variante": {
-   "A": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "nu_spune": 0.0,
-     "sustine": 1.0,
-     "contrazice": 0.0
-    },
-    "confidence": 1.0
-   },
-   "B": {
-    "alegere": "contrazice",
-    "probabilitati": {
-     "nu_spune": 0.02,
-     "sustine": 0.01,
-     "contrazice": 0.97
-    },
-    "confidence": 0.96
-   },
-   "C": {
-    "alegere": "contrazice",
-    "probabilitati": {
-     "nu_spune": 0.0,
-     "sustine": 0.0,
-     "contrazice": 1.0
-    },
-    "confidence": 1.0
-   },
-   "D": {
-    "alegere": "contrazice",
-    "probabilitati": {
-     "nu_spune": 0.0,
-     "sustine": 0.0,
-     "contrazice": 1.0
-    },
-    "confidence": 1.0
-   }
-  },
-  "nouls": {
-   "sinonim": 0.07,
-   "absolut": 0.22,
-   "abrogat": 0.05,
-   "numeste_actul": 0.74,
-   "categorie_ambigua": 0.23,
-   "citat_acopera": 0.97
-  },
-  "afirmatii": {
-   "0": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "nu_spune": 0.01,
-     "contrazice": 0.01,
-     "sustine": 0.98
-    },
-    "confidence": 0.97
-   },
-   "1": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "nu_spune": 0.0,
-     "contrazice": 0.01,
-     "sustine": 0.99
-    },
-    "confidence": 0.98
-   },
-   "2": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "nu_spune": 0.0,
-     "contrazice": 0.0,
-     "sustine": 1.0
-    },
-    "confidence": 0.99
-   },
-   "3": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "nu_spune": 0.01,
-     "contrazice": 0.01,
-     "sustine": 0.98
-    },
-    "confidence": 0.98
-   },
-   "4": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "nu_spune": 0.01,
-     "contrazice": 0.01,
-     "sustine": 0.98
-    },
-    "confidence": 0.98
-   }
-  },
-  "fraze": [
-   "Art. 21 alin. (9) din anexa nr.",
-   "VI: în localitățile izolate sau în zonele unde atragerea personalului se face cu greutate, stabilite prin ordin al ordonatorului principal de credite, indemnizația de instalare prevăzută la alin. (6) poate fi la nivelul a două solde de funcție/salarii de funcție.",
-   "Regula generală de la alin. (6) este o indemnizație de instalare egală cu solda de funcție/salariul de funcție stabilită pentru funcția în care absolventul a fost numit, plus decontarea cheltuielilor de transport.",
-   "Indemnizația de 1/4 din solda de funcție pentru fiecare membru de familie aflat în întreținere este un drept distinct, prevăzut la alin. (1) lit. b) pentru personalul mutat în interes de serviciu, nu o majorare a indemnizației de instalare.",
-   "Ajutorul egal cu 12 solde de funcție este cel acordat familiei în caz de deces (art. 91), iar nivelul a trei solde de funcție nu apare în text."
-  ],
-  "pozitionale": [],
-  "nivel": {
-   "score": 2.5,
-   "confidence": 0.57
-  },
-  "usage": {
-   "a": 3454,
-   "b": 5584
-  }
- },
- {
-  "id": "A6-206",
-  "cheie": [
-   "A"
-  ],
-  "tip": "unic",
-  "variante": {
-   "A": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "sustine": 0.99,
-     "nu_spune": 0.0,
-     "contrazice": 0.01
-    },
-    "confidence": 0.99
-   },
-   "B": {
-    "alegere": "contrazice",
-    "probabilitati": {
-     "sustine": 0.0,
-     "nu_spune": 0.0,
-     "contrazice": 1.0
-    },
-    "confidence": 0.99
-   },
-   "C": {
-    "alegere": "contrazice",
-    "probabilitati": {
-     "sustine": 0.01,
-     "nu_spune": 0.0,
-     "contrazice": 0.99
-    },
-    "confidence": 0.98
-   },
-   "D": {
-    "alegere": "contrazice",
-    "probabilitati": {
-     "sustine": 0.07,
-     "nu_spune": 0.0,
-     "contrazice": 0.93
-    },
-    "confidence": 0.89
-   }
-  },
-  "nouls": {
-   "sinonim": 0.05,
-   "absolut": 0.21,
-   "abrogat": 0.04,
-   "numeste_actul": 0.72,
-   "categorie_ambigua": 0.24,
-   "citat_acopera": 0.97
-  },
-  "afirmatii": {
-   "0": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "contrazice": 0.01,
-     "sustine": 0.99,
-     "nu_spune": 0.0
-    },
-    "confidence": 0.97
-   },
-   "1": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "contrazice": 0.01,
-     "sustine": 0.99,
-     "nu_spune": 0.0
-    },
-    "confidence": 0.98
-   },
-   "2": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "contrazice": 0.0,
-     "sustine": 1.0,
-     "nu_spune": 0.0
-    },
-    "confidence": 0.99
-   },
-   "3": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "contrazice": 0.01,
-     "sustine": 0.99,
-     "nu_spune": 0.0
-    },
-    "confidence": 0.99
-   },
-   "4": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "contrazice": 0.0,
-     "sustine": 0.99,
-     "nu_spune": 0.01
-    },
-    "confidence": 0.99
-   }
-  },
-  "fraze": [
-   "Art. 28 alin. (3) din anexa nr.",
-   "VI: pentru titlurile de specialist de clasă/domeniu funcțional deținute în specialitate, majorarea soldei de funcție/salariului de funcție/salariului de bază este de 2,5%, 5%, respectiv 7,5%, corespunzător clasei a 3-a, clasei a 2-a sau clasei 1.",
-   "Potrivit alin. (2), titlul este ierarhizat pe trei niveluri, în ordinea crescătoare a calificării: clasa a 3-a, clasa a 2-a, clasa 1, astfel că procentul maxim de 7,5% revine clasei 1, iar 2,5% și 5% corespund claselor a 3-a și a 2-a.",
-   "Majorarea de 12,5% este cea acordată personalului încadrat în structurile centrale ale instituțiilor din sistem sau în structuri militare NATO/UE dislocate pe teritoriul României (art. 23).",
-   "Capcana de examen este ordinea claselor: clasa 1 este cea mai înaltă, nu cea mai joasă."
-  ],
-  "pozitionale": [],
-  "nivel": {
-   "score": 2.35,
-   "confidence": 0.7
-  },
-  "usage": {
-   "a": 2207,
-   "b": 4481
-  }
- },
- {
-  "id": "A6-207",
-  "cheie": [
-   "A"
-  ],
-  "tip": "unic",
-  "variante": {
-   "A": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "sustine": 1.0,
-     "contrazice": 0.0,
-     "nu_spune": 0.0
-    },
-    "confidence": 1.0
-   },
-   "B": {
-    "alegere": "contrazice",
-    "probabilitati": {
-     "sustine": 0.0,
-     "contrazice": 1.0,
-     "nu_spune": 0.0
-    },
-    "confidence": 0.99
-   },
-   "C": {
-    "alegere": "contrazice",
-    "probabilitati": {
-     "sustine": 0.02,
-     "contrazice": 0.95,
-     "nu_spune": 0.03
-    },
-    "confidence": 0.93
-   },
-   "D": {
-    "alegere": "contrazice",
-    "probabilitati": {
-     "sustine": 0.01,
-     "contrazice": 0.97,
-     "nu_spune": 0.02
-    },
-    "confidence": 0.96
-   }
-  },
-  "nouls": {
-   "sinonim": 0.08,
-   "absolut": 0.21,
-   "abrogat": 0.04,
-   "numeste_actul": 0.71,
-   "categorie_ambigua": 0.17,
-   "citat_acopera": 0.98
-  },
-  "afirmatii": {
-   "0": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "sustine": 0.99,
-     "contrazice": 0.01,
-     "nu_spune": 0.0
-    },
-    "confidence": 0.99
-   },
-   "1": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "sustine": 1.0,
-     "contrazice": 0.0,
-     "nu_spune": 0.0
-    },
-    "confidence": 1.0
-   },
-   "2": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "contrazice": 0.0,
-     "sustine": 1.0,
-     "nu_spune": 0.0
-    },
-    "confidence": 0.99
-   },
-   "3": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "sustine": 1.0,
-     "contrazice": 0.0,
-     "nu_spune": 0.0
-    },
-    "confidence": 0.99
-   },
-   "4": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "sustine": 1.0,
-     "contrazice": 0.0,
-     "nu_spune": 0.0
-    },
-    "confidence": 1.0
-   }
-  },
-  "fraze": [
-   "Art. 28 alin. (4) din anexa nr.",
-   "VI: specialitățile, condițiile de acordare și de retragere a titlului, retrogradarea dintr-o clasă superioară într-una inferioară, criteriile și standardele de performanță se stabilesc prin ordin al ordonatorului principal de credite; tot prin ordin al ordonatorului principal de credite se stabilesc, potrivit alin. (2), condițiile de obținere/menținere a fiecărei clase.",
-   "Hotărârea Guvernului, la propunerea conducătorilor instituțiilor, este instrumentul prin care se pot stabili alte drepturi salariale specifice (art. 27), nu condițiile titlului de specialist.",
-   "Ordinul de zi pe unitate este actul prin care, în Ministerul Apărării Naționale și Serviciul de Telecomunicații Speciale, se fac alocarea și scoaterea la și de la drepturile salariale (art. 86 alin. (8)).",
-   "Structura financiară centrală asigură îndeplinirea sarcinilor ordonatorului principal de credite în domeniul salarizării (art. 86 alin. (7)), dar textul art. 28 atribuie competența ordinului ordonatorului principal de credite."
-  ],
-  "pozitionale": [],
-  "nivel": {
-   "score": 2.99,
-   "confidence": 0.88
-  },
-  "usage": {
-   "a": 2283,
-   "b": 5293
-  }
- },
- {
-  "id": "A6-208",
-  "cheie": [
-   "A"
-  ],
-  "tip": "unic",
-  "variante": {
-   "A": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "sustine": 1.0,
-     "contrazice": 0.0,
-     "nu_spune": 0.0
-    },
-    "confidence": 1.0
-   },
-   "B": {
-    "alegere": "contrazice",
-    "probabilitati": {
-     "sustine": 0.0,
-     "contrazice": 1.0,
-     "nu_spune": 0.0
-    },
-    "confidence": 0.99
-   },
-   "C": {
-    "alegere": "contrazice",
-    "probabilitati": {
-     "sustine": 0.0,
-     "contrazice": 1.0,
-     "nu_spune": 0.0
-    },
-    "confidence": 1.0
-   },
-   "D": {
-    "alegere": "contrazice",
-    "probabilitati": {
-     "sustine": 0.02,
-     "contrazice": 0.97,
-     "nu_spune": 0.01
-    },
-    "confidence": 0.95
-   }
-  },
-  "nouls": {
-   "sinonim": 0.07,
-   "absolut": 0.14,
-   "abrogat": 0.05,
-   "numeste_actul": 0.72,
-   "categorie_ambigua": 0.28,
-   "citat_acopera": 0.97
-  },
-  "afirmatii": {
-   "0": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "nu_spune": 0.0,
-     "sustine": 1.0,
-     "contrazice": 0.0
-    },
-    "confidence": 0.99
-   },
-   "1": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "nu_spune": 0.02,
-     "sustine": 0.97,
-     "contrazice": 0.01
-    },
-    "confidence": 0.95
-   },
-   "2": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "nu_spune": 0.0,
-     "sustine": 0.99,
-     "contrazice": 0.01
-    },
-    "confidence": 0.98
-   },
-   "3": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "nu_spune": 0.0,
-     "sustine": 1.0,
-     "contrazice": 0.0
-    },
-    "confidence": 1.0
-   }
-  },
-  "fraze": [
-   "VI: conducătorii de autovehicule (inclusiv cei care conduc motociclete cu ataș) din categoriile enumerate, care lucrează peste programul normal de lucru, inclusiv în zilele de repaus săptămânal sau în zilele în care nu se lucrează, și cărora nu li se poate acorda timp liber corespunzător, au dreptul la o compensație de 5-25% din solda de funcție/salariul de funcție/salariul de bază, potrivit normelor metodologice aprobate prin ordin al ordonatorului principal de credite.",
-   "Sporul de până la 5% din solda de funcție este cel acordat personalului care are în primire cai sau câini de serviciu (art. 22).",
-   "Sporul de până la 100% din solda de funcție este cel pentru activitatea desfășurată în zilele de repaus săptămânal, de sărbători legale și în celelalte zile în care nu se lucrează (art. 88 alin. (1)).",
-   "Indemnizația de 15-20% este cea pentru personalul care lucrează cu cifru de stat (art. 18 alin. (1))."
-  ],
-  "pozitionale": [],
-  "nivel": {
-   "score": 2.21,
-   "confidence": 0.82
-  },
-  "usage": {
-   "a": 2460,
-   "b": 4725
-  }
- },
- {
-  "id": "A6-209",
-  "cheie": [
-   "A"
-  ],
-  "tip": "unic",
-  "variante": {
-   "A": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "contrazice": 0.0,
-     "nu_spune": 0.0,
-     "sustine": 1.0
-    },
-    "confidence": 1.0
-   },
-   "B": {
-    "alegere": "contrazice",
-    "probabilitati": {
-     "contrazice": 0.99,
-     "nu_spune": 0.0,
-     "sustine": 0.01
-    },
-    "confidence": 0.99
-   },
-   "C": {
-    "alegere": "contrazice",
-    "probabilitati": {
-     "contrazice": 1.0,
-     "nu_spune": 0.0,
-     "sustine": 0.0
-    },
-    "confidence": 0.99
-   },
-   "D": {
-    "alegere": "contrazice",
-    "probabilitati": {
-     "contrazice": 1.0,
-     "nu_spune": 0.0,
-     "sustine": 0.0
-    },
-    "confidence": 0.99
-   }
-  },
-  "nouls": {
-   "sinonim": 0.06,
-   "absolut": 0.15,
-   "abrogat": 0.05,
-   "numeste_actul": 0.73,
-   "categorie_ambigua": 0.53,
-   "citat_acopera": 0.97
-  },
-  "afirmatii": {
-   "0": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "sustine": 0.99,
-     "nu_spune": 0.0,
-     "contrazice": 0.01
-    },
-    "confidence": 0.98
-   },
-   "1": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "sustine": 0.99,
-     "nu_spune": 0.0,
-     "contrazice": 0.01
-    },
-    "confidence": 0.99
-   },
-   "2": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "sustine": 1.0,
-     "nu_spune": 0.0,
-     "contrazice": 0.0
-    },
-    "confidence": 1.0
-   },
-   "3": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "sustine": 0.99,
-     "nu_spune": 0.0,
-     "contrazice": 0.01
-    },
-    "confidence": 0.98
-   },
-   "4": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "sustine": 0.99,
-     "nu_spune": 0.0,
-     "contrazice": 0.01
-    },
-    "confidence": 0.98
-   }
-  },
-  "fraze": [
-   "Art. 58 alin. (1) din anexa nr.",
-   "VI: cadrele militare în activitate, polițiștii și funcționarii publici cu statut special din sistemul administrației penitenciare puși la dispoziție în situații temeinic justificate beneficiază de solda de funcție avută/salariul de funcție avut, solda de grad/salariul gradului profesional deținut, gradații și de celelalte drepturi salariale avute, cu excepția soldei de comandă/salariului de comandă, în condițiile normelor metodologice aprobate prin ordin al ordonatorului principal de credite.",
-   "Solda de grad, gradațiile și solda de funcție avută sunt expres menținute de text, deci nu pot fi excepția.",
-   "Potrivit alin. (2), același regim se aplică și cadrelor militare puse la dispoziție ca efect al începerii urmăririi penale.",
-   "Capcana de examen este confuzia cu art. 60 alin. (1): în cazul punerii la dispoziție ca urmare a punerii în mișcare a acțiunii penale sau a trimiterii în judecată, personalul primește solda de funcție minimă corespunzătoare gradului deținut, nu solda de funcție avută."
-  ],
-  "pozitionale": [],
-  "nivel": {
-   "score": 3.95,
-   "confidence": 0.95
-  },
-  "usage": {
-   "a": 3050,
-   "b": 5523
-  }
- },
- {
-  "id": "A6-210",
-  "cheie": [
-   "A"
-  ],
-  "tip": "unic",
-  "variante": {
-   "A": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "sustine": 0.99,
-     "nu_spune": 0.0,
-     "contrazice": 0.01
-    },
-    "confidence": 0.99
-   },
-   "B": {
-    "alegere": "contrazice",
-    "probabilitati": {
-     "sustine": 0.03,
-     "nu_spune": 0.0,
-     "contrazice": 0.97
-    },
-    "confidence": 0.95
-   },
-   "C": {
-    "alegere": "contrazice",
-    "probabilitati": {
-     "sustine": 0.03,
-     "nu_spune": 0.02,
-     "contrazice": 0.95
-    },
-    "confidence": 0.93
-   },
-   "D": {
-    "alegere": "contrazice",
-    "probabilitati": {
-     "sustine": 0.0,
-     "nu_spune": 0.01,
-     "contrazice": 0.99
-    },
-    "confidence": 0.99
-   }
-  },
-  "nouls": {
-   "sinonim": 0.08,
-   "absolut": 0.17,
-   "abrogat": 0.05,
-   "numeste_actul": 0.73,
-   "categorie_ambigua": 0.53,
-   "citat_acopera": 0.97
-  },
-  "afirmatii": {
-   "0": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "nu_spune": 0.0,
-     "sustine": 0.99,
-     "contrazice": 0.01
-    },
-    "confidence": 0.99
-   },
-   "1": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "nu_spune": 0.0,
-     "sustine": 0.98,
-     "contrazice": 0.02
-    },
-    "confidence": 0.96
-   },
-   "2": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "nu_spune": 0.0,
-     "sustine": 1.0,
-     "contrazice": 0.0
-    },
-    "confidence": 0.99
-   },
-   "3": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "nu_spune": 0.0,
-     "contrazice": 0.01,
-     "sustine": 0.99
-    },
-    "confidence": 0.99
-   },
-   "4": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "nu_spune": 0.0,
-     "contrazice": 0.0,
-     "sustine": 1.0
-    },
-    "confidence": 0.99
-   },
-   "5": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "nu_spune": 0.0,
-     "sustine": 0.98,
-     "contrazice": 0.02
-    },
-    "confidence": 0.97
-   }
-  },
-  "fraze": [
-   "Art. 59 alin. (4) din anexa nr.",
-   "VI: cadrele militare trecute în rezervă sau direct în retragere din inițiativa lor ori pentru motive imputabile acestora primesc solda de funcție, solda de grad, gradațiile și, după caz, solda de comandă, precum și alte drepturi salariale prevăzute de normele metodologice, numai până la data schimbării poziției de activitate.",
-   "Plata până la sfârșitul lunii în care a avut loc schimbarea poziției de activitate este regula generală de la alin. (1), aplicabilă celorlalte cadre militare trecute în rezervă.",
-   "Plata în continuare până la terminarea predării funcției, fără a depăși 22 de zile lucrătoare, este prevăzută la alin. (2) tot pentru cadrele de la alin. (1), atunci când termenul de predare depășește luna respectivă.",
-   "Plata până la sfârșitul lunii următoare nu apare în text: nici alin. (1), nici alin. (2) nu prelungesc drepturile dincolo de terminarea predării funcției.",
-   "Potrivit alin. (5), regulile de la alin. (1), (3) și (4) se aplică în mod corespunzător polițiștilor și funcționarilor publici cu statut special cărora le încetează raporturile de serviciu."
-  ],
-  "pozitionale": [],
-  "nivel": {
-   "score": 3.42,
-   "confidence": 0.52
-  },
-  "usage": {
-   "a": 2770,
-   "b": 5134
-  }
- },
- {
-  "id": "A6-211",
-  "cheie": [
-   "A"
-  ],
-  "tip": "unic",
-  "variante": {
-   "A": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "nu_spune": 0.0,
-     "contrazice": 0.0,
-     "sustine": 1.0
-    },
-    "confidence": 1.0
-   },
-   "B": {
-    "alegere": "contrazice",
-    "probabilitati": {
-     "nu_spune": 0.0,
-     "contrazice": 1.0,
-     "sustine": 0.0
-    },
-    "confidence": 1.0
-   },
-   "C": {
-    "alegere": "contrazice",
-    "probabilitati": {
-     "nu_spune": 0.0,
-     "contrazice": 1.0,
-     "sustine": 0.0
-    },
-    "confidence": 1.0
-   },
-   "D": {
-    "alegere": "contrazice",
-    "probabilitati": {
-     "nu_spune": 0.0,
-     "contrazice": 1.0,
-     "sustine": 0.0
-    },
-    "confidence": 1.0
-   }
-  },
-  "nouls": {
-   "sinonim": 0.08,
-   "absolut": 0.14,
-   "abrogat": 0.06,
-   "numeste_actul": 0.69,
-   "categorie_ambigua": 0.35,
-   "citat_acopera": 0.97
-  },
-  "afirmatii": {
-   "0": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "sustine": 0.99,
-     "contrazice": 0.01,
-     "nu_spune": 0.0
-    },
-    "confidence": 0.99
-   },
-   "1": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "sustine": 0.99,
-     "contrazice": 0.01,
-     "nu_spune": 0.0
-    },
-    "confidence": 0.99
-   },
-   "2": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "contrazice": 0.03,
-     "sustine": 0.97,
-     "nu_spune": 0.0
-    },
-    "confidence": 0.95
-   },
-   "3": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "sustine": 1.0,
-     "contrazice": 0.0,
-     "nu_spune": 0.0
-    },
-    "confidence": 0.99
-   },
-   "4": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "sustine": 0.97,
-     "contrazice": 0.02,
-     "nu_spune": 0.01
-    },
-    "confidence": 0.97
-   }
-  },
-  "fraze": [
-   "Art. 59 alin. (3) din anexa nr.",
-   "VI: în situațiile prevăzute la alin. (1) și (2), pentru cadrele militare înaintate în grad în activitate și trecute în rezervă cu aceeași dată, drepturile salariale se stabilesc proporțional, în raport cu noul grad.",
-   "Textul nu prevede stabilirea drepturilor în raport cu gradul anterior și nici o amânare a aplicării noului grad până la terminarea predării funcției.",
-   "Drepturile plătite în această perioadă includ, potrivit alin. (1), solda de funcție, solda de grad, gradațiile și, după caz, solda de comandă, deci nu se limitează la solda de funcție.",
-   "Potrivit alin. (5), regula de la alin. (3) se aplică în mod corespunzător și polițiștilor și funcționarilor publici cu statut special din sistemul administrației penitenciare cărora le încetează raporturile de serviciu."
-  ],
-  "pozitionale": [],
-  "nivel": {
-   "score": 2.67,
-   "confidence": 0.26
-  },
-  "usage": {
-   "a": 2745,
-   "b": 4593
-  }
- },
- {
-  "id": "A6-212",
-  "cheie": [
-   "A"
-  ],
-  "tip": "unic",
-  "variante": {
-   "A": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "sustine": 0.99,
-     "contrazice": 0.01,
-     "nu_spune": 0.0
-    },
-    "confidence": 0.98
-   },
-   "B": {
-    "alegere": "contrazice",
-    "probabilitati": {
-     "sustine": 0.01,
-     "contrazice": 0.99,
-     "nu_spune": 0.0
-    },
-    "confidence": 0.99
-   },
-   "C": {
-    "alegere": "contrazice",
-    "probabilitati": {
-     "sustine": 0.0,
-     "contrazice": 1.0,
-     "nu_spune": 0.0
-    },
-    "confidence": 1.0
-   },
-   "D": {
-    "alegere": "contrazice",
-    "probabilitati": {
-     "sustine": 0.0,
-     "contrazice": 1.0,
-     "nu_spune": 0.0
-    },
-    "confidence": 1.0
-   }
-  },
-  "nouls": {
-   "sinonim": 0.13,
-   "absolut": 0.19,
-   "abrogat": 0.08,
-   "numeste_actul": 0.72,
-   "categorie_ambigua": 0.43,
-   "citat_acopera": 0.97
-  },
-  "afirmatii": {
-   "0": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "nu_spune": 0.0,
-     "sustine": 0.98,
-     "contrazice": 0.02
-    },
-    "confidence": 0.97
+    "confidence": 0.87
    },
    "1": {
     "alegere": "sustine",
@@ -1351,11 +201,969 @@
    "2": {
     "alegere": "sustine",
     "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.99,
+     "contrazice": 0.01
+    },
+    "confidence": 0.98
+   },
+   "3": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.99,
+     "contrazice": 0.01
+    },
+    "confidence": 0.99
+   }
+  },
+  "fraze": [
+   "Art. 21 alin. (1) din anexa nr.",
+   "VI enumeră patru drepturi ale personalului mutat sau transferat în interes de serviciu în altă localitate: indemnizația de mutare egală cu solda de funcție/salariul de funcție cuvenit pentru noile funcții (lit. a), indemnizația de 1/4 din solda de funcție/salariul de funcție pentru fiecare membru de familie aflat în întreținere, plătită în luna schimbării domiciliului membrilor de familie (lit. b), rambursarea costului transportului pentru personal, membrii de familie și gospodăria lor (lit. c) și o permisie, respectiv o învoire plătită de 5 zile lucrătoare, acordată la cerere (lit. d).",
+   "Indemnizația de instalare la nivelul a două solde de funcție/salarii de funcție nu este un drept al personalului mutat, ci o posibilitate prevăzută la alin. (9) pentru absolvenții instituțiilor de învățământ numiți în localități izolate sau în zone unde atragerea personalului se face cu greutate.",
+   "Potrivit alin. (4), aceleași drepturi se acordă și persoanelor nou-încadrate sau reintegrate în rândul polițiștilor."
+  ],
+  "pozitionale": [],
+  "nivel": {
+   "score": 2.16,
+   "confidence": 0.78
+  },
+  "usage": {
+   "a": 3467,
+   "b": 5387
+  }
+ },
+ {
+  "id": "A6-203",
+  "cheie": [
+   "A"
+  ],
+  "temei": [
+   "06_Legea_153-2017_salarizarea_bugetara.txt",
+   "21"
+  ],
+  "nota_abrogare": false,
+  "tip": "unic",
+  "variante": {
+   "A": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "B": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "sustine": 0.0,
      "nu_spune": 0.01,
+     "contrazice": 0.99
+    },
+    "confidence": 0.98
+   },
+   "C": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "sustine": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 1.0
+    },
+    "confidence": 1.0
+   },
+   "D": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "sustine": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 1.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "nouls": {
+   "sinonim": 0.05,
+   "absolut": 0.13,
+   "abrogat": 0.05,
+   "numeste_actul": 0.72,
+   "categorie_ambigua": 0.27,
+   "citat_acopera": 0.97
+  },
+  "afirmatii": {
+   "0": {
+    "alegere": "sustine",
+    "probabilitati": {
      "sustine": 0.97,
+     "nu_spune": 0.01,
      "contrazice": 0.02
     },
+    "confidence": 0.96
+   },
+   "1": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.99,
+     "nu_spune": 0.0,
+     "contrazice": 0.01
+    },
+    "confidence": 0.99
+   },
+   "2": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 0.99
+   },
+   "3": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "4": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.91,
+     "nu_spune": 0.02,
+     "contrazice": 0.07
+    },
+    "confidence": 0.86
+   }
+  },
+  "fraze": [
+   "Art. 21 alin. (11) din anexa nr.",
+   "VI: personalul militar care a beneficiat de indemnizația de instalare și care își prezintă demisia înainte de împlinirea unui termen de 3 ani de la absolvirea instituțiilor de învățământ, respectiv de la semnarea primului contract, restituie indemnizația proporțional cu perioada rămasă până la expirarea termenului de 3 ani; regula se aplică și personalului care a urmat cursul de formare a cadrelor militare în activitate.",
+   "Același termen de 3 ani este prevăzut la alin. (13) pentru polițiști și funcționarii publici cu statut special din sistemul administrației penitenciare.",
+   "Termenul de 12 luni apare în art. 21 cu alt rol: este perioada în care cadrele trecute în rezervă (alin. (12)) sau familia personalului decedat (alin. (14)) trebuie să își schimbe domiciliul pentru a li se rambursa cheltuielile de transport.",
+   "Termenele de 2 ani și 5 ani nu apar în text."
+  ],
+  "pozitionale": [],
+  "nivel": {
+   "score": 2.05,
+   "confidence": 0.96
+  },
+  "usage": {
+   "a": 3401,
+   "b": 5381
+  }
+ },
+ {
+  "id": "A6-204",
+  "cheie": [
+   "A"
+  ],
+  "temei": [
+   "06_Legea_153-2017_salarizarea_bugetara.txt",
+   "21"
+  ],
+  "nota_abrogare": false,
+  "tip": "unic",
+  "variante": {
+   "A": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   },
+   "B": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "contrazice": 0.99,
+     "nu_spune": 0.01,
+     "sustine": 0.0
+    },
+    "confidence": 0.99
+   },
+   "C": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "contrazice": 1.0,
+     "nu_spune": 0.0,
+     "sustine": 0.0
+    },
+    "confidence": 1.0
+   },
+   "D": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "contrazice": 0.99,
+     "nu_spune": 0.01,
+     "sustine": 0.0
+    },
+    "confidence": 0.99
+   }
+  },
+  "nouls": {
+   "sinonim": 0.05,
+   "absolut": 0.14,
+   "abrogat": 0.06,
+   "numeste_actul": 0.71,
+   "categorie_ambigua": 0.52,
+   "citat_acopera": 0.97
+  },
+  "afirmatii": {
+   "0": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.01,
+     "contrazice": 0.02,
+     "sustine": 0.97
+    },
+    "confidence": 0.96
+   },
+   "1": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.02,
+     "sustine": 0.98
+    },
+    "confidence": 0.96
+   },
+   "2": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 0.99
+   },
+   "3": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.01,
+     "contrazice": 0.01,
+     "sustine": 0.98
+    },
+    "confidence": 0.97
+   },
+   "4": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.01,
+     "contrazice": 0.01,
+     "sustine": 0.98
+    },
+    "confidence": 0.98
+   },
+   "5": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.02,
+     "contrazice": 0.0,
+     "sustine": 0.98
+    },
+    "confidence": 0.97
+   }
+  },
+  "fraze": [
+   "Art. 21 alin. (12) din anexa nr.",
+   "VI: cadrele militare trecute în rezervă sau direct în retragere în baza art. 85 alin. (1) lit. a)-f) din Legea nr. 80/1995 beneficiază de rambursarea cheltuielilor de transport dacă își schimbă domiciliul în termen de 12 luni de la data schimbării poziției de activitate.",
+   "Același termen de 12 luni este prevăzut la alin. (14) pentru familia personalului militar decedat, calculat de la data decesului.",
+   "Termenul de 3 ani este cel în care demisia atrage restituirea indemnizației de instalare (alin. (11) și (13)).",
+   "Termenul de 22 de zile lucrătoare este durata maximă a predării funcției la trecerea în rezervă, prevăzută la art. 59 alin. (2) din anexă, și nu are legătură cu rambursarea transportului.",
+   "Termenul de 6 luni nu apare în text."
+  ],
+  "pozitionale": [],
+  "nivel": {
+   "score": 2.18,
+   "confidence": 0.85
+  },
+  "usage": {
+   "a": 3475,
+   "b": 6575
+  }
+ },
+ {
+  "id": "A6-205",
+  "cheie": [
+   "A"
+  ],
+  "temei": [
+   "06_Legea_153-2017_salarizarea_bugetara.txt",
+   "21"
+  ],
+  "nota_abrogare": false,
+  "tip": "unic",
+  "variante": {
+   "A": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "B": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "nu_spune": 0.03,
+     "sustine": 0.01,
+     "contrazice": 0.96
+    },
+    "confidence": 0.95
+   },
+   "C": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.0,
+     "contrazice": 1.0
+    },
+    "confidence": 1.0
+   },
+   "D": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.0,
+     "contrazice": 1.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "nouls": {
+   "sinonim": 0.07,
+   "absolut": 0.21,
+   "abrogat": 0.05,
+   "numeste_actul": 0.74,
+   "categorie_ambigua": 0.26,
+   "citat_acopera": 0.97
+  },
+  "afirmatii": {
+   "0": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.98,
+     "nu_spune": 0.01,
+     "contrazice": 0.01
+    },
+    "confidence": 0.97
+   },
+   "1": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.99,
+     "nu_spune": 0.0,
+     "contrazice": 0.01
+    },
+    "confidence": 0.98
+   },
+   "2": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 0.99
+   },
+   "3": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.98,
+     "nu_spune": 0.01,
+     "contrazice": 0.01
+    },
+    "confidence": 0.97
+   },
+   "4": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.98,
+     "nu_spune": 0.01,
+     "contrazice": 0.01
+    },
+    "confidence": 0.98
+   }
+  },
+  "fraze": [
+   "Art. 21 alin. (9) din anexa nr.",
+   "VI: în localitățile izolate sau în zonele unde atragerea personalului se face cu greutate, stabilite prin ordin al ordonatorului principal de credite, indemnizația de instalare prevăzută la alin. (6) poate fi la nivelul a două solde de funcție/salarii de funcție.",
+   "Regula generală de la alin. (6) este o indemnizație de instalare egală cu solda de funcție/salariul de funcție stabilită pentru funcția în care absolventul a fost numit, plus decontarea cheltuielilor de transport.",
+   "Indemnizația de 1/4 din solda de funcție pentru fiecare membru de familie aflat în întreținere este un drept distinct, prevăzut la alin. (1) lit. b) pentru personalul mutat în interes de serviciu, nu o majorare a indemnizației de instalare.",
+   "Ajutorul egal cu 12 solde de funcție este cel acordat familiei în caz de deces (art. 91), iar nivelul a trei solde de funcție nu apare în text."
+  ],
+  "pozitionale": [],
+  "nivel": {
+   "score": 2.62,
+   "confidence": 0.48
+  },
+  "usage": {
+   "a": 3454,
+   "b": 5584
+  }
+ },
+ {
+  "id": "A6-206",
+  "cheie": [
+   "A"
+  ],
+  "temei": [
+   "06_Legea_153-2017_salarizarea_bugetara.txt",
+   "28"
+  ],
+  "nota_abrogare": false,
+  "tip": "unic",
+  "variante": {
+   "A": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.99,
+     "contrazice": 0.01
+    },
+    "confidence": 0.99
+   },
+   "B": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.0,
+     "contrazice": 1.0
+    },
+    "confidence": 0.99
+   },
+   "C": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.01,
+     "contrazice": 0.99
+    },
+    "confidence": 0.99
+   },
+   "D": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.31,
+     "contrazice": 0.6900000000000001
+    },
+    "confidence": 0.53
+   }
+  },
+  "nouls": {
+   "sinonim": 0.06,
+   "absolut": 0.2,
+   "abrogat": 0.04,
+   "numeste_actul": 0.7,
+   "categorie_ambigua": 0.28,
+   "citat_acopera": 0.97
+  },
+  "afirmatii": {
+   "0": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.01,
+     "nu_spune": 0.0,
+     "sustine": 0.99
+    },
+    "confidence": 0.98
+   },
+   "1": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.01,
+     "sustine": 0.99,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.98
+   },
+   "2": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 0.99
+   },
+   "3": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 0.99
+   },
+   "4": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "nu_spune": 0.01,
+     "sustine": 0.99
+    },
+    "confidence": 0.98
+   }
+  },
+  "fraze": [
+   "Art. 28 alin. (3) din anexa nr.",
+   "VI: pentru titlurile de specialist de clasă/domeniu funcțional deținute în specialitate, majorarea soldei de funcție/salariului de funcție/salariului de bază este de 2,5%, 5%, respectiv 7,5%, corespunzător clasei a 3-a, clasei a 2-a sau clasei 1.",
+   "Potrivit alin. (2), titlul este ierarhizat pe trei niveluri, în ordinea crescătoare a calificării: clasa a 3-a, clasa a 2-a, clasa 1, astfel că procentul maxim de 7,5% revine clasei 1, iar 2,5% și 5% corespund claselor a 3-a și a 2-a.",
+   "Majorarea de 12,5% este cea acordată personalului încadrat în structurile centrale ale instituțiilor din sistem sau în structuri militare NATO/UE dislocate pe teritoriul României (art. 23).",
+   "Capcana de examen este ordinea claselor: clasa 1 este cea mai înaltă, nu cea mai joasă."
+  ],
+  "pozitionale": [],
+  "nivel": {
+   "score": 2.34,
+   "confidence": 0.72
+  },
+  "usage": {
+   "a": 2207,
+   "b": 4481
+  }
+ },
+ {
+  "id": "A6-207",
+  "cheie": [
+   "A"
+  ],
+  "temei": [
+   "06_Legea_153-2017_salarizarea_bugetara.txt",
+   "28"
+  ],
+  "nota_abrogare": false,
+  "tip": "unic",
+  "variante": {
+   "A": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   },
+   "B": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 1.0,
+     "sustine": 0.0
+    },
+    "confidence": 0.99
+   },
+   "C": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "nu_spune": 0.03,
+     "contrazice": 0.96,
+     "sustine": 0.01
+    },
     "confidence": 0.94
+   },
+   "D": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "nu_spune": 0.02,
+     "contrazice": 0.97,
+     "sustine": 0.01
+    },
+    "confidence": 0.96
+   }
+  },
+  "nouls": {
+   "sinonim": 0.08,
+   "absolut": 0.21,
+   "abrogat": 0.04,
+   "numeste_actul": 0.73,
+   "categorie_ambigua": 0.17,
+   "citat_acopera": 0.97
+  },
+  "afirmatii": {
+   "0": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.01,
+     "nu_spune": 0.0,
+     "sustine": 0.99
+    },
+    "confidence": 0.99
+   },
+   "1": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   },
+   "2": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 0.99
+   },
+   "3": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 0.99
+   },
+   "4": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "fraze": [
+   "Art. 28 alin. (4) din anexa nr.",
+   "VI: specialitățile, condițiile de acordare și de retragere a titlului, retrogradarea dintr-o clasă superioară într-una inferioară, criteriile și standardele de performanță se stabilesc prin ordin al ordonatorului principal de credite; tot prin ordin al ordonatorului principal de credite se stabilesc, potrivit alin. (2), condițiile de obținere/menținere a fiecărei clase.",
+   "Hotărârea Guvernului, la propunerea conducătorilor instituțiilor, este instrumentul prin care se pot stabili alte drepturi salariale specifice (art. 27), nu condițiile titlului de specialist.",
+   "Ordinul de zi pe unitate este actul prin care, în Ministerul Apărării Naționale și Serviciul de Telecomunicații Speciale, se fac alocarea și scoaterea la și de la drepturile salariale (art. 86 alin. (8)).",
+   "Structura financiară centrală asigură îndeplinirea sarcinilor ordonatorului principal de credite în domeniul salarizării (art. 86 alin. (7)), dar textul art. 28 atribuie competența ordinului ordonatorului principal de credite."
+  ],
+  "pozitionale": [],
+  "nivel": {
+   "score": 3.0,
+   "confidence": 0.87
+  },
+  "usage": {
+   "a": 2283,
+   "b": 5293
+  }
+ },
+ {
+  "id": "A6-208",
+  "cheie": [
+   "A"
+  ],
+  "temei": [
+   "06_Legea_153-2017_salarizarea_bugetara.txt",
+   "29"
+  ],
+  "nota_abrogare": false,
+  "tip": "unic",
+  "variante": {
+   "A": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "B": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.0,
+     "contrazice": 1.0
+    },
+    "confidence": 0.99
+   },
+   "C": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.0,
+     "contrazice": 1.0
+    },
+    "confidence": 1.0
+   },
+   "D": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "nu_spune": 0.01,
+     "sustine": 0.01,
+     "contrazice": 0.98
+    },
+    "confidence": 0.96
+   }
+  },
+  "nouls": {
+   "sinonim": 0.07,
+   "absolut": 0.14,
+   "abrogat": 0.05,
+   "numeste_actul": 0.73,
+   "categorie_ambigua": 0.3,
+   "citat_acopera": 0.96
+  },
+  "afirmatii": {
+   "0": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "contrazice": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.97,
+     "contrazice": 0.01,
+     "nu_spune": 0.02
+    },
+    "confidence": 0.96
+   },
+   "2": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.98,
+     "contrazice": 0.01,
+     "nu_spune": 0.01
+    },
+    "confidence": 0.97
+   },
+   "3": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "contrazice": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "fraze": [
+   "VI: conducătorii de autovehicule (inclusiv cei care conduc motociclete cu ataș) din categoriile enumerate, care lucrează peste programul normal de lucru, inclusiv în zilele de repaus săptămânal sau în zilele în care nu se lucrează, și cărora nu li se poate acorda timp liber corespunzător, au dreptul la o compensație de 5-25% din solda de funcție/salariul de funcție/salariul de bază, potrivit normelor metodologice aprobate prin ordin al ordonatorului principal de credite.",
+   "Sporul de până la 5% din solda de funcție este cel acordat personalului care are în primire cai sau câini de serviciu (art. 22).",
+   "Sporul de până la 100% din solda de funcție este cel pentru activitatea desfășurată în zilele de repaus săptămânal, de sărbători legale și în celelalte zile în care nu se lucrează (art. 88 alin. (1)).",
+   "Indemnizația de 15-20% este cea pentru personalul care lucrează cu cifru de stat (art. 18 alin. (1))."
+  ],
+  "pozitionale": [],
+  "nivel": {
+   "score": 2.17,
+   "confidence": 0.85
+  },
+  "usage": {
+   "a": 2460,
+   "b": 4725
+  }
+ },
+ {
+  "id": "A6-209",
+  "cheie": [
+   "A"
+  ],
+  "temei": [
+   "06_Legea_153-2017_salarizarea_bugetara.txt",
+   "58"
+  ],
+  "nota_abrogare": false,
+  "tip": "unic",
+  "variante": {
+   "A": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "B": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.0,
+     "contrazice": 1.0
+    },
+    "confidence": 0.99
+   },
+   "C": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.0,
+     "contrazice": 1.0
+    },
+    "confidence": 0.99
+   },
+   "D": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.0,
+     "contrazice": 1.0
+    },
+    "confidence": 0.99
+   }
+  },
+  "nouls": {
+   "sinonim": 0.06,
+   "absolut": 0.16,
+   "abrogat": 0.05,
+   "numeste_actul": 0.73,
+   "categorie_ambigua": 0.53,
+   "citat_acopera": 0.97
+  },
+  "afirmatii": {
+   "0": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.01,
+     "sustine": 0.99
+    },
+    "confidence": 0.98
+   },
+   "1": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.01,
+     "sustine": 0.99
+    },
+    "confidence": 0.99
+   },
+   "2": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 0.99
+   },
+   "3": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.01,
+     "sustine": 0.99
+    },
+    "confidence": 0.98
+   },
+   "4": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.01,
+     "sustine": 0.99
+    },
+    "confidence": 0.98
+   }
+  },
+  "fraze": [
+   "Art. 58 alin. (1) din anexa nr.",
+   "VI: cadrele militare în activitate, polițiștii și funcționarii publici cu statut special din sistemul administrației penitenciare puși la dispoziție în situații temeinic justificate beneficiază de solda de funcție avută/salariul de funcție avut, solda de grad/salariul gradului profesional deținut, gradații și de celelalte drepturi salariale avute, cu excepția soldei de comandă/salariului de comandă, în condițiile normelor metodologice aprobate prin ordin al ordonatorului principal de credite.",
+   "Solda de grad, gradațiile și solda de funcție avută sunt expres menținute de text, deci nu pot fi excepția.",
+   "Potrivit alin. (2), același regim se aplică și cadrelor militare puse la dispoziție ca efect al începerii urmăririi penale.",
+   "Capcana de examen este confuzia cu art. 60 alin. (1): în cazul punerii la dispoziție ca urmare a punerii în mișcare a acțiunii penale sau a trimiterii în judecată, personalul primește solda de funcție minimă corespunzătoare gradului deținut, nu solda de funcție avută."
+  ],
+  "pozitionale": [],
+  "nivel": {
+   "score": 3.94,
+   "confidence": 0.95
+  },
+  "usage": {
+   "a": 3050,
+   "b": 5523
+  }
+ },
+ {
+  "id": "A6-210",
+  "cheie": [
+   "A"
+  ],
+  "temei": [
+   "06_Legea_153-2017_salarizarea_bugetara.txt",
+   "59"
+  ],
+  "nota_abrogare": false,
+  "tip": "unic",
+  "variante": {
+   "A": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 0.99
+   },
+   "B": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "sustine": 0.02,
+     "nu_spune": 0.0,
+     "contrazice": 0.98
+    },
+    "confidence": 0.97
+   },
+   "C": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "sustine": 0.05,
+     "nu_spune": 0.01,
+     "contrazice": 0.94
+    },
+    "confidence": 0.91
+   },
+   "D": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "sustine": 0.0,
+     "nu_spune": 0.01,
+     "contrazice": 0.99
+    },
+    "confidence": 0.98
+   }
+  },
+  "nouls": {
+   "sinonim": 0.09,
+   "absolut": 0.18,
+   "abrogat": 0.05,
+   "numeste_actul": 0.71,
+   "categorie_ambigua": 0.54,
+   "citat_acopera": 0.97
+  },
+  "afirmatii": {
+   "0": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.99,
+     "contrazice": 0.01
+    },
+    "confidence": 0.99
+   },
+   "1": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.97,
+     "contrazice": 0.03
+    },
+    "confidence": 0.95
+   },
+   "2": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
    },
    "3": {
     "alegere": "sustine",
@@ -1373,7 +1181,259 @@
      "sustine": 0.99,
      "contrazice": 0.01
     },
+    "confidence": 0.99
+   },
+   "5": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.98,
+     "contrazice": 0.02
+    },
+    "confidence": 0.96
+   }
+  },
+  "fraze": [
+   "Art. 59 alin. (4) din anexa nr.",
+   "VI: cadrele militare trecute în rezervă sau direct în retragere din inițiativa lor ori pentru motive imputabile acestora primesc solda de funcție, solda de grad, gradațiile și, după caz, solda de comandă, precum și alte drepturi salariale prevăzute de normele metodologice, numai până la data schimbării poziției de activitate.",
+   "Plata până la sfârșitul lunii în care a avut loc schimbarea poziției de activitate este regula generală de la alin. (1), aplicabilă celorlalte cadre militare trecute în rezervă.",
+   "Plata în continuare până la terminarea predării funcției, fără a depăși 22 de zile lucrătoare, este prevăzută la alin. (2) tot pentru cadrele de la alin. (1), atunci când termenul de predare depășește luna respectivă.",
+   "Plata până la sfârșitul lunii următoare nu apare în text: nici alin. (1), nici alin. (2) nu prelungesc drepturile dincolo de terminarea predării funcției.",
+   "Potrivit alin. (5), regulile de la alin. (1), (3) și (4) se aplică în mod corespunzător polițiștilor și funcționarilor publici cu statut special cărora le încetează raporturile de serviciu."
+  ],
+  "pozitionale": [],
+  "nivel": {
+   "score": 3.32,
+   "confidence": 0.43
+  },
+  "usage": {
+   "a": 2770,
+   "b": 5134
+  }
+ },
+ {
+  "id": "A6-211",
+  "cheie": [
+   "A"
+  ],
+  "temei": [
+   "06_Legea_153-2017_salarizarea_bugetara.txt",
+   "59"
+  ],
+  "nota_abrogare": false,
+  "tip": "unic",
+  "variante": {
+   "A": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   },
+   "B": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "contrazice": 1.0,
+     "sustine": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   },
+   "C": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "sustine": 0.0,
+     "contrazice": 1.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.99
+   },
+   "D": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "contrazice": 1.0,
+     "sustine": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "nouls": {
+   "sinonim": 0.09,
+   "absolut": 0.14,
+   "abrogat": 0.06,
+   "numeste_actul": 0.7,
+   "categorie_ambigua": 0.35,
+   "citat_acopera": 0.97
+  },
+  "afirmatii": {
+   "0": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.01,
+     "sustine": 0.99,
+     "nu_spune": 0.0
+    },
     "confidence": 0.98
+   },
+   "1": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.01,
+     "nu_spune": 0.0,
+     "sustine": 0.99
+    },
+    "confidence": 0.99
+   },
+   "2": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.03,
+     "nu_spune": 0.0,
+     "sustine": 0.97
+    },
+    "confidence": 0.95
+   },
+   "3": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 0.99
+   },
+   "4": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.03,
+     "nu_spune": 0.01,
+     "sustine": 0.96
+    },
+    "confidence": 0.95
+   }
+  },
+  "fraze": [
+   "Art. 59 alin. (3) din anexa nr.",
+   "VI: în situațiile prevăzute la alin. (1) și (2), pentru cadrele militare înaintate în grad în activitate și trecute în rezervă cu aceeași dată, drepturile salariale se stabilesc proporțional, în raport cu noul grad.",
+   "Textul nu prevede stabilirea drepturilor în raport cu gradul anterior și nici o amânare a aplicării noului grad până la terminarea predării funcției.",
+   "Drepturile plătite în această perioadă includ, potrivit alin. (1), solda de funcție, solda de grad, gradațiile și, după caz, solda de comandă, deci nu se limitează la solda de funcție.",
+   "Potrivit alin. (5), regula de la alin. (3) se aplică în mod corespunzător și polițiștilor și funcționarilor publici cu statut special din sistemul administrației penitenciare cărora le încetează raporturile de serviciu."
+  ],
+  "pozitionale": [],
+  "nivel": {
+   "score": 2.69,
+   "confidence": 0.26
+  },
+  "usage": {
+   "a": 2745,
+   "b": 4593
+  }
+ },
+ {
+  "id": "A6-212",
+  "cheie": [
+   "A"
+  ],
+  "temei": [
+   "06_Legea_153-2017_salarizarea_bugetara.txt",
+   "60"
+  ],
+  "nota_abrogare": false,
+  "tip": "unic",
+  "variante": {
+   "A": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.99,
+     "contrazice": 0.01
+    },
+    "confidence": 0.99
+   },
+   "B": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.01,
+     "contrazice": 0.99
+    },
+    "confidence": 0.99
+   },
+   "C": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.0,
+     "contrazice": 1.0
+    },
+    "confidence": 1.0
+   },
+   "D": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.0,
+     "contrazice": 1.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "nouls": {
+   "sinonim": 0.15,
+   "absolut": 0.19,
+   "abrogat": 0.07,
+   "numeste_actul": 0.74,
+   "categorie_ambigua": 0.4,
+   "citat_acopera": 0.96
+  },
+  "afirmatii": {
+   "0": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.97,
+     "nu_spune": 0.01,
+     "contrazice": 0.02
+    },
+    "confidence": 0.96
+   },
+   "1": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.97,
+     "nu_spune": 0.0,
+     "contrazice": 0.03
+    },
+    "confidence": 0.95
+   },
+   "2": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.97,
+     "nu_spune": 0.01,
+     "contrazice": 0.02
+    },
+    "confidence": 0.95
+   },
+   "3": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "4": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.98,
+     "nu_spune": 0.0,
+     "contrazice": 0.02
+    },
+    "confidence": 0.97
    }
   },
   "fraze": [
@@ -1385,8 +1445,8 @@
   ],
   "pozitionale": [],
   "nivel": {
-   "score": 3.47,
-   "confidence": 0.56
+   "score": 3.41,
+   "confidence": 0.51
   },
   "usage": {
    "a": 2667,
@@ -1399,51 +1459,56 @@
    "A",
    "B"
   ],
+  "temei": [
+   "06_Legea_153-2017_salarizarea_bugetara.txt",
+   "60"
+  ],
+  "nota_abrogare": false,
   "tip": "multiplu",
   "variante": {
    "A": {
     "alegere": "sustine",
     "probabilitati": {
      "sustine": 1.0,
-     "nu_spune": 0.0,
-     "contrazice": 0.0
+     "contrazice": 0.0,
+     "nu_spune": 0.0
     },
     "confidence": 1.0
    },
    "B": {
     "alegere": "sustine",
     "probabilitati": {
-     "sustine": 0.98,
-     "nu_spune": 0.0,
-     "contrazice": 0.02
+     "sustine": 0.96,
+     "contrazice": 0.04,
+     "nu_spune": 0.0
     },
-    "confidence": 0.96
+    "confidence": 0.93
    },
    "C": {
     "alegere": "contrazice",
     "probabilitati": {
+     "contrazice": 0.85,
      "sustine": 0.0,
-     "nu_spune": 0.17,
-     "contrazice": 0.83
+     "nu_spune": 0.15
     },
-    "confidence": 0.75
+    "confidence": 0.78
    },
    "D": {
     "alegere": "contrazice",
     "probabilitati": {
      "sustine": 0.0,
-     "nu_spune": 0.14,
-     "contrazice": 0.86
+     "contrazice": 0.8,
+     "nu_spune": 0.2
     },
-    "confidence": 0.79
+    "confidence": 0.69
    }
   },
   "nouls": {
    "sinonim": 0.07,
    "absolut": 0.16,
-   "abrogat": 0.07,
-   "numeste_actul": 0.74,
-   "categorie_ambigua": 0.23,
+   "abrogat": 0.06,
+   "numeste_actul": 0.73,
+   "categorie_ambigua": 0.22,
    "citat_acopera": 0.97
   },
   "afirmatii": {
@@ -1451,35 +1516,35 @@
     "alegere": "sustine",
     "probabilitati": {
      "nu_spune": 0.01,
-     "contrazice": 0.03,
-     "sustine": 0.96
+     "sustine": 0.97,
+     "contrazice": 0.02
     },
-    "confidence": 0.94
+    "confidence": 0.95
    },
    "1": {
     "alegere": "sustine",
     "probabilitati": {
      "nu_spune": 0.0,
-     "contrazice": 0.01,
-     "sustine": 0.99
+     "sustine": 0.98,
+     "contrazice": 0.02
     },
     "confidence": 0.98
    },
    "2": {
     "alegere": "sustine",
     "probabilitati": {
-     "nu_spune": 0.14,
      "contrazice": 0.01,
-     "sustine": 0.85
+     "sustine": 0.89,
+     "nu_spune": 0.1
     },
-    "confidence": 0.78
+    "confidence": 0.85
    },
    "3": {
     "alegere": "sustine",
     "probabilitati": {
-     "nu_spune": 0.01,
      "contrazice": 0.01,
-     "sustine": 0.98
+     "sustine": 0.98,
+     "nu_spune": 0.01
     },
     "confidence": 0.98
    }
@@ -1492,7 +1557,7 @@
   ],
   "pozitionale": [],
   "nivel": {
-   "score": 2.32,
+   "score": 2.25,
    "confidence": 0.0
   },
   "usage": {
@@ -1505,87 +1570,92 @@
   "cheie": [
    "A"
   ],
+  "temei": [
+   "06_Legea_153-2017_salarizarea_bugetara.txt",
+   "61"
+  ],
+  "nota_abrogare": false,
   "tip": "unic",
   "variante": {
    "A": {
     "alegere": "sustine",
     "probabilitati": {
-     "sustine": 1.0,
+     "contrazice": 0.0,
      "nu_spune": 0.0,
-     "contrazice": 0.0
+     "sustine": 1.0
     },
     "confidence": 1.0
    },
    "B": {
     "alegere": "contrazice",
     "probabilitati": {
-     "sustine": 0.0,
+     "contrazice": 1.0,
      "nu_spune": 0.0,
-     "contrazice": 1.0
+     "sustine": 0.0
     },
     "confidence": 1.0
    },
    "C": {
     "alegere": "contrazice",
     "probabilitati": {
-     "sustine": 0.0,
+     "contrazice": 1.0,
      "nu_spune": 0.0,
-     "contrazice": 1.0
+     "sustine": 0.0
     },
     "confidence": 0.99
    },
    "D": {
     "alegere": "contrazice",
     "probabilitati": {
-     "sustine": 0.0,
+     "contrazice": 0.87,
      "nu_spune": 0.13,
-     "contrazice": 0.87
+     "sustine": 0.0
     },
     "confidence": 0.8
    }
   },
   "nouls": {
    "sinonim": 0.07,
-   "absolut": 0.35,
+   "absolut": 0.32,
    "abrogat": 0.04,
-   "numeste_actul": 0.72,
-   "categorie_ambigua": 0.19,
+   "numeste_actul": 0.75,
+   "categorie_ambigua": 0.18,
    "citat_acopera": 0.97
   },
   "afirmatii": {
    "0": {
     "alegere": "sustine",
     "probabilitati": {
+     "sustine": 0.99,
      "nu_spune": 0.0,
-     "sustine": 0.98,
-     "contrazice": 0.02
+     "contrazice": 0.01
     },
-    "confidence": 0.97
+    "confidence": 0.98
    },
    "1": {
     "alegere": "sustine",
     "probabilitati": {
+     "sustine": 0.99,
      "nu_spune": 0.0,
-     "contrazice": 0.01,
-     "sustine": 0.99
+     "contrazice": 0.01
     },
     "confidence": 0.98
    },
    "2": {
     "alegere": "sustine",
     "probabilitati": {
-     "nu_spune": 0.03,
-     "contrazice": 0.01,
-     "sustine": 0.96
+     "sustine": 0.97,
+     "nu_spune": 0.02,
+     "contrazice": 0.01
     },
-    "confidence": 0.94
+    "confidence": 0.95
    },
    "3": {
     "alegere": "sustine",
     "probabilitati": {
+     "sustine": 0.96,
      "nu_spune": 0.03,
-     "contrazice": 0.01,
-     "sustine": 0.96
+     "contrazice": 0.01
     },
     "confidence": 0.94
    }
@@ -1598,8 +1668,8 @@
   ],
   "pozitionale": [],
   "nivel": {
-   "score": 2.87,
-   "confidence": 0.25
+   "score": 2.98,
+   "confidence": 0.15
   },
   "usage": {
    "a": 2296,
@@ -1611,112 +1681,11 @@
   "cheie": [
    "A"
   ],
-  "tip": "unic",
-  "variante": {
-   "A": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "contrazice": 0.0,
-     "sustine": 1.0,
-     "nu_spune": 0.0
-    },
-    "confidence": 0.99
-   },
-   "B": {
-    "alegere": "contrazice",
-    "probabilitati": {
-     "contrazice": 1.0,
-     "sustine": 0.0,
-     "nu_spune": 0.0
-    },
-    "confidence": 1.0
-   },
-   "C": {
-    "alegere": "contrazice",
-    "probabilitati": {
-     "contrazice": 1.0,
-     "sustine": 0.0,
-     "nu_spune": 0.0
-    },
-    "confidence": 0.99
-   },
-   "D": {
-    "alegere": "contrazice",
-    "probabilitati": {
-     "contrazice": 1.0,
-     "sustine": 0.0,
-     "nu_spune": 0.0
-    },
-    "confidence": 0.99
-   }
-  },
-  "nouls": {
-   "sinonim": 0.05,
-   "absolut": 0.62,
-   "abrogat": 0.06,
-   "numeste_actul": 0.73,
-   "categorie_ambigua": 0.14,
-   "citat_acopera": 0.96
-  },
-  "afirmatii": {
-   "0": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "contrazice": 0.0,
-     "sustine": 1.0,
-     "nu_spune": 0.0
-    },
-    "confidence": 0.99
-   },
-   "1": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "contrazice": 0.0,
-     "sustine": 1.0,
-     "nu_spune": 0.0
-    },
-    "confidence": 0.99
-   },
-   "2": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "contrazice": 0.01,
-     "sustine": 0.99,
-     "nu_spune": 0.0
-    },
-    "confidence": 0.99
-   },
-   "3": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "contrazice": 0.02,
-     "sustine": 0.97,
-     "nu_spune": 0.01
-    },
-    "confidence": 0.96
-   }
-  },
-  "fraze": [
-   "VI: drepturile neachitate personalului militar, polițiștilor, funcționarilor publici cu statut special din sistemul administrației penitenciare și personalului civil, nereclamate în termen de 3 ani de la data când trebuiau plătite, se prescriu.",
-   "Termenul de 3 ani apare în anexă și cu alt rol, la art. 21 alin. (11) și (13), ca perioadă în care demisia atrage restituirea indemnizației de instalare.",
-   "Termenul de 12 luni este cel din art. 21 alin. (12) și (14), pentru schimbarea domiciliului în vederea rambursării cheltuielilor de transport.",
-   "Termenul de 5 ani nu apare în textul anexei, iar cel de 2 ani apare doar la art. 39 alin. (1) lit. a), ca durată maximă a menținerii drepturilor personalului aeronautic aflat în recuperarea capacității de muncă, fără nicio legătură cu prescripția drepturilor neachitate."
+  "temei": [
+   "06_Legea_153-2017_salarizarea_bugetara.txt",
+   "62"
   ],
-  "pozitionale": [],
-  "nivel": {
-   "score": 2.04,
-   "confidence": 0.96
-  },
-  "usage": {
-   "a": 2687,
-   "b": 6336
-  }
- },
- {
-  "id": "A6-216",
-  "cheie": [
-   "A"
-  ],
+  "nota_abrogare": false,
   "tip": "unic",
   "variante": {
    "A": {
@@ -1744,50 +1713,50 @@
      "contrazice": 1.0,
      "sustine": 0.0
     },
-    "confidence": 1.0
+    "confidence": 0.99
    },
    "D": {
     "alegere": "contrazice",
     "probabilitati": {
-     "nu_spune": 0.06,
-     "contrazice": 0.9,
-     "sustine": 0.04
+     "nu_spune": 0.01,
+     "contrazice": 0.99,
+     "sustine": 0.0
     },
-    "confidence": 0.85
+    "confidence": 0.99
    }
   },
   "nouls": {
-   "sinonim": 0.08,
-   "absolut": 0.19,
-   "abrogat": 0.06,
-   "numeste_actul": 0.68,
-   "categorie_ambigua": 0.35,
+   "sinonim": 0.04,
+   "absolut": 0.62,
+   "abrogat": 0.05,
+   "numeste_actul": 0.71,
+   "categorie_ambigua": 0.15,
    "citat_acopera": 0.96
   },
   "afirmatii": {
    "0": {
     "alegere": "sustine",
     "probabilitati": {
-     "sustine": 0.98,
      "nu_spune": 0.0,
-     "contrazice": 0.02
+     "sustine": 1.0,
+     "contrazice": 0.0
     },
-    "confidence": 0.97
+    "confidence": 1.0
    },
    "1": {
     "alegere": "sustine",
     "probabilitati": {
-     "sustine": 0.98,
-     "nu_spune": 0.01,
-     "contrazice": 0.01
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0
     },
-    "confidence": 0.98
+    "confidence": 1.0
    },
    "2": {
     "alegere": "sustine",
     "probabilitati": {
-     "sustine": 1.0,
      "nu_spune": 0.0,
+     "sustine": 1.0,
      "contrazice": 0.0
     },
     "confidence": 0.99
@@ -1795,8 +1764,119 @@
    "3": {
     "alegere": "sustine",
     "probabilitati": {
-     "sustine": 1.0,
+     "nu_spune": 0.01,
+     "sustine": 0.97,
+     "contrazice": 0.02
+    },
+    "confidence": 0.94
+   }
+  },
+  "fraze": [
+   "VI: drepturile neachitate personalului militar, polițiștilor, funcționarilor publici cu statut special din sistemul administrației penitenciare și personalului civil, nereclamate în termen de 3 ani de la data când trebuiau plătite, se prescriu.",
+   "Termenul de 3 ani apare în anexă și cu alt rol, la art. 21 alin. (11) și (13), ca perioadă în care demisia atrage restituirea indemnizației de instalare.",
+   "Termenul de 12 luni este cel din art. 21 alin. (12) și (14), pentru schimbarea domiciliului în vederea rambursării cheltuielilor de transport.",
+   "Termenul de 5 ani nu apare în textul anexei, iar cel de 2 ani apare doar la art. 39 alin. (1) lit. a), ca durată maximă a menținerii drepturilor personalului aeronautic aflat în recuperarea capacității de muncă, fără nicio legătură cu prescripția drepturilor neachitate."
+  ],
+  "pozitionale": [],
+  "nivel": {
+   "score": 2.05,
+   "confidence": 0.95
+  },
+  "usage": {
+   "a": 2687,
+   "b": 6336
+  }
+ },
+ {
+  "id": "A6-216",
+  "cheie": [
+   "A"
+  ],
+  "temei": [
+   "06_Legea_153-2017_salarizarea_bugetara.txt",
+   "73"
+  ],
+  "nota_abrogare": false,
+  "tip": "unic",
+  "variante": {
+   "A": {
+    "alegere": "sustine",
+    "probabilitati": {
      "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 0.99
+   },
+   "B": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 1.0,
+     "sustine": 0.0
+    },
+    "confidence": 1.0
+   },
+   "C": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 1.0,
+     "sustine": 0.0
+    },
+    "confidence": 1.0
+   },
+   "D": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "nu_spune": 0.07,
+     "contrazice": 0.89,
+     "sustine": 0.04
+    },
+    "confidence": 0.83
+   }
+  },
+  "nouls": {
+   "sinonim": 0.08,
+   "absolut": 0.2,
+   "abrogat": 0.06,
+   "numeste_actul": 0.7,
+   "categorie_ambigua": 0.34,
+   "citat_acopera": 0.96
+  },
+  "afirmatii": {
+   "0": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.99,
+     "contrazice": 0.01
+    },
+    "confidence": 0.98
+   },
+   "1": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.01,
+     "sustine": 0.98,
+     "contrazice": 0.01
+    },
+    "confidence": 0.98
+   },
+   "2": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0
+    },
+    "confidence": 0.99
+   },
+   "3": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
      "contrazice": 0.0
     },
     "confidence": 0.99
@@ -1810,8 +1890,8 @@
   ],
   "pozitionale": [],
   "nivel": {
-   "score": 3.23,
-   "confidence": 0.36
+   "score": 3.26,
+   "confidence": 0.39
   },
   "usage": {
    "a": 1998,
@@ -1823,218 +1903,11 @@
   "cheie": [
    "A"
   ],
-  "tip": "unic",
-  "variante": {
-   "A": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "nu_spune": 0.0,
-     "contrazice": 0.0,
-     "sustine": 1.0
-    },
-    "confidence": 1.0
-   },
-   "B": {
-    "alegere": "contrazice",
-    "probabilitati": {
-     "nu_spune": 0.01,
-     "contrazice": 0.98,
-     "sustine": 0.01
-    },
-    "confidence": 0.97
-   },
-   "C": {
-    "alegere": "contrazice",
-    "probabilitati": {
-     "nu_spune": 0.02,
-     "contrazice": 0.98,
-     "sustine": 0.0
-    },
-    "confidence": 0.97
-   },
-   "D": {
-    "alegere": "contrazice",
-    "probabilitati": {
-     "nu_spune": 0.14,
-     "contrazice": 0.86,
-     "sustine": 0.0
-    },
-    "confidence": 0.78
-   }
-  },
-  "nouls": {
-   "sinonim": 0.06,
-   "absolut": 0.37,
-   "abrogat": 0.05,
-   "numeste_actul": 0.71,
-   "categorie_ambigua": 0.31,
-   "citat_acopera": 0.97
-  },
-  "afirmatii": {
-   "0": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "contrazice": 0.0,
-     "sustine": 1.0,
-     "nu_spune": 0.0
-    },
-    "confidence": 1.0
-   },
-   "1": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "contrazice": 0.0,
-     "sustine": 1.0,
-     "nu_spune": 0.0
-    },
-    "confidence": 0.99
-   },
-   "2": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "contrazice": 0.01,
-     "sustine": 0.97,
-     "nu_spune": 0.02
-    },
-    "confidence": 0.95
-   },
-   "3": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "contrazice": 0.0,
-     "sustine": 1.0,
-     "nu_spune": 0.0
-    },
-    "confidence": 0.99
-   }
-  },
-  "fraze": [
-   "VI: personalul din instituțiile de apărare, ordine publică și securitate națională trimis în misiuni permanente sau temporare în străinătate beneficiază de toate drepturile prevăzute pentru personalul trimis în misiune permanentă sau temporară de către Ministerul Afacerilor Externe, precum și de către celelalte ministere, organe și instituții de specialitate ale administrației publice centrale; potrivit art. 75, dispozițiile legii se completează cu actele normative speciale privind personalul trimis în misiune în străinătate.",
-   "Plata în țară a soldei de funcție, soldei de grad și gradațiilor este regimul personalului trimis la cursuri, stagii sau alte activități în interesul unității trimițătoare (art. 73), nu al celui trimis în misiune.",
-   "Textul art. 74 trimite la drepturile reglementate pentru personalul altor ministere, nu la un ordin al ordonatorului principal de credite.",
-   "Indemnizația de 15-20% din solda de funcție este cea pentru personalul care lucrează cu cifru de stat (art. 18 alin. (1))."
+  "temei": [
+   "06_Legea_153-2017_salarizarea_bugetara.txt",
+   "74"
   ],
-  "pozitionale": [],
-  "nivel": {
-   "score": 2.99,
-   "confidence": 0.16
-  },
-  "usage": {
-   "a": 2040,
-   "b": 4282
-  }
- },
- {
-  "id": "A6-218",
-  "cheie": [
-   "A"
-  ],
-  "tip": "unic",
-  "variante": {
-   "A": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "sustine": 0.99,
-     "nu_spune": 0.0,
-     "contrazice": 0.01
-    },
-    "confidence": 0.99
-   },
-   "B": {
-    "alegere": "contrazice",
-    "probabilitati": {
-     "sustine": 0.0,
-     "nu_spune": 0.27,
-     "contrazice": 0.73
-    },
-    "confidence": 0.59
-   },
-   "C": {
-    "alegere": "contrazice",
-    "probabilitati": {
-     "sustine": 0.0,
-     "nu_spune": 0.12,
-     "contrazice": 0.88
-    },
-    "confidence": 0.82
-   },
-   "D": {
-    "alegere": "contrazice",
-    "probabilitati": {
-     "sustine": 0.0,
-     "nu_spune": 0.16,
-     "contrazice": 0.84
-    },
-    "confidence": 0.76
-   }
-  },
-  "nouls": {
-   "sinonim": 0.08,
-   "absolut": 0.54,
-   "abrogat": 0.05,
-   "numeste_actul": 0.73,
-   "categorie_ambigua": 0.23,
-   "citat_acopera": 0.97
-  },
-  "afirmatii": {
-   "0": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "sustine": 0.99,
-     "contrazice": 0.01,
-     "nu_spune": 0.0
-    },
-    "confidence": 0.98
-   },
-   "1": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "sustine": 0.92,
-     "contrazice": 0.02,
-     "nu_spune": 0.06
-    },
-    "confidence": 0.88
-   },
-   "2": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "sustine": 0.99,
-     "contrazice": 0.0,
-     "nu_spune": 0.01
-    },
-    "confidence": 0.98
-   },
-   "3": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "sustine": 0.97,
-     "contrazice": 0.01,
-     "nu_spune": 0.02
-    },
-    "confidence": 0.96
-   }
-  },
-  "fraze": [
-   "VI: în măsura în care legea nu prevede altfel, dispozițiile sale se completează cu celelalte prevederi din cuprinsul actelor normative speciale referitoare la drepturile și obligațiile ce revin personalului trimis în misiune permanentă sau temporară în străinătate de către ministere și celelalte organe și instituții de specialitate ale administrației publice centrale.",
-   "Legea nr. 80/1995 este invocată în anexă doar punctual (art. 10, pentru cadrele numite în funcții inferioare gradului, și art. 21 alin. (12), pentru identificarea cadrelor trecute în rezervă), nu ca normă de completare pentru misiunile în străinătate.",
-   "Normele metodologice aprobate prin ordin al ordonatorului principal de credite sunt actele emise de instituții în aplicarea legii (art. 90), nu norme speciale de completare.",
-   "Hotărârile Guvernului privind alte drepturi salariale specifice sunt prevăzute la art. 27, ca abilitare distinctă, fără legătură cu completarea dispozițiilor privind misiunile în străinătate."
-  ],
-  "pozitionale": [],
-  "nivel": {
-   "score": 2.5,
-   "confidence": 0.0
-  },
-  "usage": {
-   "a": 2000,
-   "b": 5575
-  }
- },
- {
-  "id": "A6-219",
-  "cheie": [
-   "A"
-  ],
+  "nota_abrogare": false,
   "tip": "unic",
   "variante": {
    "A": {
@@ -2049,46 +1922,268 @@
    "B": {
     "alegere": "contrazice",
     "probabilitati": {
+     "sustine": 0.01,
+     "nu_spune": 0.01,
+     "contrazice": 0.98
+    },
+    "confidence": 0.96
+   },
+   "C": {
+    "alegere": "contrazice",
+    "probabilitati": {
      "sustine": 0.0,
+     "nu_spune": 0.02,
+     "contrazice": 0.98
+    },
+    "confidence": 0.96
+   },
+   "D": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "sustine": 0.0,
+     "nu_spune": 0.13,
+     "contrazice": 0.87
+    },
+    "confidence": 0.81
+   }
+  },
+  "nouls": {
+   "sinonim": 0.06,
+   "absolut": 0.34,
+   "abrogat": 0.05,
+   "numeste_actul": 0.71,
+   "categorie_ambigua": 0.3,
+   "citat_acopera": 0.97
+  },
+  "afirmatii": {
+   "0": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "contrazice": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.99
+   },
+   "1": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "contrazice": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   },
+   "2": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.98,
+     "contrazice": 0.01,
+     "nu_spune": 0.01
+    },
+    "confidence": 0.97
+   },
+   "3": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "contrazice": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.99
+   }
+  },
+  "fraze": [
+   "VI: personalul din instituțiile de apărare, ordine publică și securitate națională trimis în misiuni permanente sau temporare în străinătate beneficiază de toate drepturile prevăzute pentru personalul trimis în misiune permanentă sau temporară de către Ministerul Afacerilor Externe, precum și de către celelalte ministere, organe și instituții de specialitate ale administrației publice centrale; potrivit art. 75, dispozițiile legii se completează cu actele normative speciale privind personalul trimis în misiune în străinătate.",
+   "Plata în țară a soldei de funcție, soldei de grad și gradațiilor este regimul personalului trimis la cursuri, stagii sau alte activități în interesul unității trimițătoare (art. 73), nu al celui trimis în misiune.",
+   "Textul art. 74 trimite la drepturile reglementate pentru personalul altor ministere, nu la un ordin al ordonatorului principal de credite.",
+   "Indemnizația de 15-20% din solda de funcție este cea pentru personalul care lucrează cu cifru de stat (art. 18 alin. (1))."
+  ],
+  "pozitionale": [],
+  "nivel": {
+   "score": 3.07,
+   "confidence": 0.22
+  },
+  "usage": {
+   "a": 2040,
+   "b": 4282
+  }
+ },
+ {
+  "id": "A6-218",
+  "cheie": [
+   "A"
+  ],
+  "temei": [
+   "06_Legea_153-2017_salarizarea_bugetara.txt",
+   "75"
+  ],
+  "nota_abrogare": false,
+  "tip": "unic",
+  "variante": {
+   "A": {
+    "alegere": "sustine",
+    "probabilitati": {
      "nu_spune": 0.0,
-     "contrazice": 1.0
+     "contrazice": 0.01,
+     "sustine": 0.99
+    },
+    "confidence": 0.99
+   },
+   "B": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "nu_spune": 0.3,
+     "contrazice": 0.7,
+     "sustine": 0.0
+    },
+    "confidence": 0.55
+   },
+   "C": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "nu_spune": 0.12,
+     "contrazice": 0.88,
+     "sustine": 0.0
+    },
+    "confidence": 0.82
+   },
+   "D": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "nu_spune": 0.17,
+     "contrazice": 0.83,
+     "sustine": 0.0
+    },
+    "confidence": 0.74
+   }
+  },
+  "nouls": {
+   "sinonim": 0.07,
+   "absolut": 0.55,
+   "abrogat": 0.05,
+   "numeste_actul": 0.71,
+   "categorie_ambigua": 0.24,
+   "citat_acopera": 0.97
+  },
+  "afirmatii": {
+   "0": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.99,
+     "nu_spune": 0.0,
+     "contrazice": 0.01
+    },
+    "confidence": 0.99
+   },
+   "1": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.93,
+     "nu_spune": 0.05,
+     "contrazice": 0.02
+    },
+    "confidence": 0.9
+   },
+   "2": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.99,
+     "nu_spune": 0.01,
+     "contrazice": 0.0
+    },
+    "confidence": 0.98
+   },
+   "3": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.98,
+     "nu_spune": 0.01,
+     "contrazice": 0.01
+    },
+    "confidence": 0.97
+   }
+  },
+  "fraze": [
+   "VI: în măsura în care legea nu prevede altfel, dispozițiile sale se completează cu celelalte prevederi din cuprinsul actelor normative speciale referitoare la drepturile și obligațiile ce revin personalului trimis în misiune permanentă sau temporară în străinătate de către ministere și celelalte organe și instituții de specialitate ale administrației publice centrale.",
+   "Legea nr. 80/1995 este invocată în anexă doar punctual (art. 10, pentru cadrele numite în funcții inferioare gradului, și art. 21 alin. (12), pentru identificarea cadrelor trecute în rezervă), nu ca normă de completare pentru misiunile în străinătate.",
+   "Normele metodologice aprobate prin ordin al ordonatorului principal de credite sunt actele emise de instituții în aplicarea legii (art. 90), nu norme speciale de completare.",
+   "Hotărârile Guvernului privind alte drepturi salariale specifice sunt prevăzute la art. 27, ca abilitare distinctă, fără legătură cu completarea dispozițiilor privind misiunile în străinătate."
+  ],
+  "pozitionale": [],
+  "nivel": {
+   "score": 2.47,
+   "confidence": 0.0
+  },
+  "usage": {
+   "a": 2000,
+   "b": 5575
+  }
+ },
+ {
+  "id": "A6-219",
+  "cheie": [
+   "A"
+  ],
+  "temei": [
+   "06_Legea_153-2017_salarizarea_bugetara.txt",
+   "76"
+  ],
+  "nota_abrogare": false,
+  "tip": "unic",
+  "variante": {
+   "A": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   },
+   "B": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 1.0,
+     "sustine": 0.0
     },
     "confidence": 1.0
    },
    "C": {
     "alegere": "contrazice",
     "probabilitati": {
-     "sustine": 0.0,
      "nu_spune": 0.01,
-     "contrazice": 0.99
+     "contrazice": 0.99,
+     "sustine": 0.0
     },
-    "confidence": 0.99
+    "confidence": 0.98
    },
    "D": {
     "alegere": "contrazice",
     "probabilitati": {
-     "sustine": 0.0,
      "nu_spune": 0.01,
-     "contrazice": 0.99
+     "contrazice": 0.99,
+     "sustine": 0.0
     },
     "confidence": 0.99
    }
   },
   "nouls": {
    "sinonim": 0.08,
-   "absolut": 0.33,
-   "abrogat": 0.05,
-   "numeste_actul": 0.68,
-   "categorie_ambigua": 0.39,
-   "citat_acopera": 0.96
+   "absolut": 0.31,
+   "abrogat": 0.06,
+   "numeste_actul": 0.7,
+   "categorie_ambigua": 0.34,
+   "citat_acopera": 0.97
   },
   "afirmatii": {
    "0": {
     "alegere": "sustine",
     "probabilitati": {
-     "contrazice": 0.02,
+     "contrazice": 0.01,
      "nu_spune": 0.0,
-     "sustine": 0.98
+     "sustine": 0.99
     },
     "confidence": 0.97
    },
@@ -2104,18 +2199,18 @@
    "2": {
     "alegere": "sustine",
     "probabilitati": {
-     "contrazice": 0.01,
-     "nu_spune": 0.1,
-     "sustine": 0.89
+     "contrazice": 0.02,
+     "nu_spune": 0.15,
+     "sustine": 0.83
     },
-    "confidence": 0.83
+    "confidence": 0.74
    },
    "3": {
     "alegere": "sustine",
     "probabilitati": {
      "contrazice": 0.01,
-     "nu_spune": 0.01,
-     "sustine": 0.98
+     "nu_spune": 0.0,
+     "sustine": 0.99
     },
     "confidence": 0.98
    },
@@ -2138,8 +2233,8 @@
   ],
   "pozitionale": [],
   "nivel": {
-   "score": 3.58,
-   "confidence": 0.65
+   "score": 3.46,
+   "confidence": 0.55
   },
   "usage": {
    "a": 2192,
@@ -2151,14 +2246,19 @@
   "cheie": [
    "A"
   ],
+  "temei": [
+   "06_Legea_153-2017_salarizarea_bugetara.txt",
+   "84"
+  ],
+  "nota_abrogare": false,
   "tip": "unic",
   "variante": {
    "A": {
     "alegere": "sustine",
     "probabilitati": {
      "nu_spune": 0.0,
-     "sustine": 1.0,
-     "contrazice": 0.0
+     "contrazice": 0.0,
+     "sustine": 1.0
     },
     "confidence": 1.0
    },
@@ -2175,8 +2275,8 @@
     "alegere": "contrazice",
     "probabilitati": {
      "nu_spune": 0.0,
-     "sustine": 0.0,
-     "contrazice": 1.0
+     "contrazice": 1.0,
+     "sustine": 0.0
     },
     "confidence": 0.99
    },
@@ -2184,72 +2284,72 @@
     "alegere": "contrazice",
     "probabilitati": {
      "nu_spune": 0.0,
-     "sustine": 0.0,
-     "contrazice": 1.0
+     "contrazice": 1.0,
+     "sustine": 0.0
     },
     "confidence": 1.0
    }
   },
   "nouls": {
-   "sinonim": 0.06,
-   "absolut": 0.14,
+   "sinonim": 0.07,
+   "absolut": 0.13,
    "abrogat": 0.05,
-   "numeste_actul": 0.68,
-   "categorie_ambigua": 0.47,
+   "numeste_actul": 0.71,
+   "categorie_ambigua": 0.44,
    "citat_acopera": 0.97
   },
   "afirmatii": {
    "0": {
     "alegere": "sustine",
     "probabilitati": {
-     "sustine": 0.97,
      "nu_spune": 0.01,
-     "contrazice": 0.02
+     "contrazice": 0.02,
+     "sustine": 0.97
     },
     "confidence": 0.96
    },
    "1": {
     "alegere": "sustine",
     "probabilitati": {
-     "sustine": 0.97,
      "nu_spune": 0.0,
-     "contrazice": 0.03
+     "contrazice": 0.03,
+     "sustine": 0.97
     },
-    "confidence": 0.96
+    "confidence": 0.95
    },
    "2": {
     "alegere": "sustine",
     "probabilitati": {
-     "sustine": 0.96,
-     "nu_spune": 0.03,
-     "contrazice": 0.01
+     "nu_spune": 0.01,
+     "contrazice": 0.01,
+     "sustine": 0.98
     },
-    "confidence": 0.93
+    "confidence": 0.97
    },
    "3": {
     "alegere": "sustine",
     "probabilitati": {
-     "sustine": 0.98,
      "nu_spune": 0.01,
-     "contrazice": 0.01
+     "contrazice": 0.01,
+     "sustine": 0.98
     },
     "confidence": 0.97
    },
    "4": {
     "alegere": "sustine",
     "probabilitati": {
-     "sustine": 0.98,
      "nu_spune": 0.01,
-     "contrazice": 0.01
+     "contrazice": 0.01,
+     "sustine": 0.98
     },
-    "confidence": 0.97
+    "confidence": 0.96
    },
    "5": {
     "alegere": "sustine",
     "probabilitati": {
-     "sustine": 1.0,
      "nu_spune": 0.0,
-     "contrazice": 0.0
+     "contrazice": 0.0,
+     "sustine": 1.0
     },
     "confidence": 1.0
    }
@@ -2264,8 +2364,8 @@
   ],
   "pozitionale": [],
   "nivel": {
-   "score": 2.36,
-   "confidence": 0.7
+   "score": 2.38,
+   "confidence": 0.68
   },
   "usage": {
    "a": 2202,
@@ -2277,50 +2377,55 @@
   "cheie": [
    "A"
   ],
+  "temei": [
+   "06_Legea_153-2017_salarizarea_bugetara.txt",
+   "84"
+  ],
+  "nota_abrogare": false,
   "tip": "unic",
   "variante": {
    "A": {
     "alegere": "sustine",
     "probabilitati": {
-     "contrazice": 0.0,
+     "sustine": 1.0,
      "nu_spune": 0.0,
-     "sustine": 1.0
+     "contrazice": 0.0
     },
     "confidence": 1.0
    },
    "B": {
     "alegere": "contrazice",
     "probabilitati": {
-     "contrazice": 0.99,
-     "nu_spune": 0.01,
-     "sustine": 0.0
+     "sustine": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 1.0
     },
     "confidence": 0.99
    },
    "C": {
     "alegere": "contrazice",
     "probabilitati": {
-     "contrazice": 0.97,
-     "nu_spune": 0.03,
-     "sustine": 0.0
+     "sustine": 0.0,
+     "nu_spune": 0.04,
+     "contrazice": 0.96
     },
-    "confidence": 0.96
+    "confidence": 0.94
    },
    "D": {
     "alegere": "contrazice",
     "probabilitati": {
-     "contrazice": 1.0,
+     "sustine": 0.0,
      "nu_spune": 0.0,
-     "sustine": 0.0
+     "contrazice": 1.0
     },
     "confidence": 1.0
    }
   },
   "nouls": {
    "sinonim": 0.08,
-   "absolut": 0.2,
+   "absolut": 0.21,
    "abrogat": 0.05,
-   "numeste_actul": 0.73,
+   "numeste_actul": 0.72,
    "categorie_ambigua": 0.18,
    "citat_acopera": 0.96
   },
@@ -2328,11 +2433,11 @@
    "0": {
     "alegere": "sustine",
     "probabilitati": {
-     "sustine": 0.97,
-     "nu_spune": 0.01,
-     "contrazice": 0.02
+     "sustine": 0.99,
+     "nu_spune": 0.0,
+     "contrazice": 0.01
     },
-    "confidence": 0.96
+    "confidence": 0.98
    },
    "1": {
     "alegere": "sustine",
@@ -2347,8 +2452,8 @@
     "alegere": "sustine",
     "probabilitati": {
      "sustine": 0.98,
-     "nu_spune": 0.01,
-     "contrazice": 0.01
+     "nu_spune": 0.0,
+     "contrazice": 0.02
     },
     "confidence": 0.97
    },
@@ -2364,11 +2469,11 @@
    "4": {
     "alegere": "sustine",
     "probabilitati": {
-     "sustine": 0.97,
-     "nu_spune": 0.02,
+     "sustine": 0.98,
+     "nu_spune": 0.01,
      "contrazice": 0.01
     },
-    "confidence": 0.96
+    "confidence": 0.98
    }
   },
   "fraze": [
@@ -2380,8 +2485,8 @@
   ],
   "pozitionale": [],
   "nivel": {
-   "score": 3.08,
-   "confidence": 0.79
+   "score": 3.1,
+   "confidence": 0.78
   },
   "usage": {
    "a": 2255,
@@ -2393,14 +2498,19 @@
   "cheie": [
    "A"
   ],
+  "temei": [
+   "06_Legea_153-2017_salarizarea_bugetara.txt",
+   "86"
+  ],
+  "nota_abrogare": false,
   "tip": "unic",
   "variante": {
    "A": {
     "alegere": "sustine",
     "probabilitati": {
      "nu_spune": 0.0,
-     "sustine": 1.0,
-     "contrazice": 0.0
+     "contrazice": 0.0,
+     "sustine": 1.0
     },
     "confidence": 1.0
    },
@@ -2408,8 +2518,8 @@
     "alegere": "contrazice",
     "probabilitati": {
      "nu_spune": 0.0,
-     "sustine": 0.01,
-     "contrazice": 0.99
+     "contrazice": 0.99,
+     "sustine": 0.01
     },
     "confidence": 0.99
    },
@@ -2417,63 +2527,63 @@
     "alegere": "contrazice",
     "probabilitati": {
      "nu_spune": 0.02,
-     "sustine": 0.0,
-     "contrazice": 0.98
+     "contrazice": 0.98,
+     "sustine": 0.0
     },
-    "confidence": 0.97
+    "confidence": 0.96
    },
    "D": {
     "alegere": "contrazice",
     "probabilitati": {
      "nu_spune": 0.02,
-     "sustine": 0.07,
-     "contrazice": 0.91
+     "contrazice": 0.89,
+     "sustine": 0.09
     },
-    "confidence": 0.86
+    "confidence": 0.84
    }
   },
   "nouls": {
-   "sinonim": 0.25,
-   "absolut": 0.21,
+   "sinonim": 0.21,
+   "absolut": 0.22,
    "abrogat": 0.03,
-   "numeste_actul": 0.68,
-   "categorie_ambigua": 0.39,
+   "numeste_actul": 0.69,
+   "categorie_ambigua": 0.42,
    "citat_acopera": 0.97
   },
   "afirmatii": {
    "0": {
     "alegere": "sustine",
     "probabilitati": {
+     "contrazice": 0.02,
      "nu_spune": 0.01,
-     "sustine": 0.98,
-     "contrazice": 0.01
+     "sustine": 0.97
     },
     "confidence": 0.97
    },
    "1": {
     "alegere": "sustine",
     "probabilitati": {
+     "contrazice": 0.0,
      "nu_spune": 0.0,
-     "sustine": 1.0,
-     "contrazice": 0.0
+     "sustine": 1.0
     },
     "confidence": 0.99
    },
    "2": {
     "alegere": "sustine",
     "probabilitati": {
+     "contrazice": 0.02,
      "nu_spune": 0.0,
-     "sustine": 0.98,
-     "contrazice": 0.02
+     "sustine": 0.98
     },
     "confidence": 0.97
    },
    "3": {
     "alegere": "sustine",
     "probabilitati": {
+     "contrazice": 0.0,
      "nu_spune": 0.0,
-     "sustine": 1.0,
-     "contrazice": 0.0
+     "sustine": 1.0
     },
     "confidence": 0.99
    }
@@ -2501,14 +2611,19 @@
    "B",
    "C"
   ],
+  "temei": [
+   "06_Legea_153-2017_salarizarea_bugetara.txt",
+   "86"
+  ],
+  "nota_abrogare": false,
   "tip": "multiplu",
   "variante": {
    "A": {
     "alegere": "sustine",
     "probabilitati": {
      "nu_spune": 0.0,
-     "sustine": 1.0,
-     "contrazice": 0.0
+     "contrazice": 0.0,
+     "sustine": 1.0
     },
     "confidence": 1.0
    },
@@ -2516,8 +2631,8 @@
     "alegere": "sustine",
     "probabilitati": {
      "nu_spune": 0.0,
-     "sustine": 1.0,
-     "contrazice": 0.0
+     "contrazice": 0.0,
+     "sustine": 1.0
     },
     "confidence": 1.0
    },
@@ -2525,8 +2640,8 @@
     "alegere": "sustine",
     "probabilitati": {
      "nu_spune": 0.0,
-     "sustine": 1.0,
-     "contrazice": 0.0
+     "contrazice": 0.0,
+     "sustine": 1.0
     },
     "confidence": 1.0
    },
@@ -2534,26 +2649,26 @@
     "alegere": "contrazice",
     "probabilitati": {
      "nu_spune": 0.0,
-     "sustine": 0.0,
-     "contrazice": 1.0
+     "contrazice": 1.0,
+     "sustine": 0.0
     },
     "confidence": 1.0
    }
   },
   "nouls": {
-   "sinonim": 0.07,
-   "absolut": 0.12,
-   "abrogat": 0.04,
-   "numeste_actul": 0.71,
-   "categorie_ambigua": 0.59,
-   "citat_acopera": 0.94
+   "sinonim": 0.08,
+   "absolut": 0.11,
+   "abrogat": 0.05,
+   "numeste_actul": 0.73,
+   "categorie_ambigua": 0.57,
+   "citat_acopera": 0.93
   },
   "afirmatii": {
    "0": {
     "alegere": "sustine",
     "probabilitati": {
-     "nu_spune": 0.0,
      "sustine": 1.0,
+     "nu_spune": 0.0,
      "contrazice": 0.0
     },
     "confidence": 1.0
@@ -2561,8 +2676,8 @@
    "1": {
     "alegere": "sustine",
     "probabilitati": {
-     "nu_spune": 0.0,
      "sustine": 0.99,
+     "nu_spune": 0.0,
      "contrazice": 0.01
     },
     "confidence": 0.99
@@ -2574,7 +2689,7 @@
   ],
   "pozitionale": [],
   "nivel": {
-   "score": 2.65,
+   "score": 2.73,
    "confidence": 0.0
   },
   "usage": {
@@ -2587,6 +2702,11 @@
   "cheie": [
    "A"
   ],
+  "temei": [
+   "06_Legea_153-2017_salarizarea_bugetara.txt",
+   "86"
+  ],
+  "nota_abrogare": false,
   "tip": "unic",
   "variante": {
    "A": {
@@ -2601,48 +2721,48 @@
    "B": {
     "alegere": "contrazice",
     "probabilitati": {
-     "nu_spune": 0.26,
+     "nu_spune": 0.28,
      "sustine": 0.01,
-     "contrazice": 0.73
+     "contrazice": 0.71
     },
-    "confidence": 0.6
+    "confidence": 0.57
    },
    "C": {
     "alegere": "nu_spune",
     "probabilitati": {
-     "nu_spune": 0.7,
+     "nu_spune": 0.71,
      "sustine": 0.0,
-     "contrazice": 0.3
+     "contrazice": 0.29
     },
-    "confidence": 0.55
+    "confidence": 0.56
    },
    "D": {
     "alegere": "contrazice",
     "probabilitati": {
-     "nu_spune": 0.46,
+     "nu_spune": 0.44,
      "sustine": 0.01,
-     "contrazice": 0.53
+     "contrazice": 0.55
     },
-    "confidence": 0.31
+    "confidence": 0.34
    }
   },
   "nouls": {
    "sinonim": 0.07,
-   "absolut": 0.21,
-   "abrogat": 0.04,
+   "absolut": 0.22,
+   "abrogat": 0.05,
    "numeste_actul": 0.74,
-   "categorie_ambigua": 0.53,
+   "categorie_ambigua": 0.51,
    "citat_acopera": 0.97
   },
   "afirmatii": {
    "0": {
     "alegere": "sustine",
     "probabilitati": {
-     "nu_spune": 0.01,
-     "sustine": 0.97,
-     "contrazice": 0.02
+     "nu_spune": 0.0,
+     "sustine": 0.99,
+     "contrazice": 0.01
     },
-    "confidence": 0.96
+    "confidence": 0.97
    },
    "1": {
     "alegere": "sustine",
@@ -2665,18 +2785,18 @@
    "3": {
     "alegere": "sustine",
     "probabilitati": {
-     "nu_spune": 0.23,
-     "sustine": 0.58,
-     "contrazice": 0.19
+     "nu_spune": 0.19,
+     "sustine": 0.61,
+     "contrazice": 0.2
     },
-    "confidence": 0.37
+    "confidence": 0.41
    },
    "4": {
     "alegere": "sustine",
     "probabilitati": {
      "nu_spune": 0.0,
-     "sustine": 0.99,
-     "contrazice": 0.01
+     "sustine": 1.0,
+     "contrazice": 0.0
     },
     "confidence": 0.99
    }
@@ -2690,8 +2810,8 @@
   ],
   "pozitionale": [],
   "nivel": {
-   "score": 3.71,
-   "confidence": 0.76
+   "score": 3.73,
+   "confidence": 0.78
   },
   "usage": {
    "a": 2620,
@@ -2703,50 +2823,55 @@
   "cheie": [
    "A"
   ],
+  "temei": [
+   "06_Legea_153-2017_salarizarea_bugetara.txt",
+   "88"
+  ],
+  "nota_abrogare": false,
   "tip": "unic",
   "variante": {
    "A": {
     "alegere": "sustine",
     "probabilitati": {
-     "nu_spune": 0.0,
      "sustine": 0.99,
-     "contrazice": 0.01
+     "contrazice": 0.01,
+     "nu_spune": 0.0
     },
     "confidence": 0.98
    },
    "B": {
     "alegere": "contrazice",
     "probabilitati": {
-     "nu_spune": 0.01,
      "sustine": 0.0,
-     "contrazice": 0.99
+     "contrazice": 0.99,
+     "nu_spune": 0.01
     },
     "confidence": 0.98
    },
    "C": {
     "alegere": "contrazice",
     "probabilitati": {
-     "nu_spune": 0.01,
-     "sustine": 0.01,
-     "contrazice": 0.98
+     "sustine": 0.0,
+     "contrazice": 0.99,
+     "nu_spune": 0.01
     },
     "confidence": 0.98
    },
    "D": {
     "alegere": "contrazice",
     "probabilitati": {
-     "nu_spune": 0.0,
      "sustine": 0.01,
-     "contrazice": 0.99
+     "contrazice": 0.99,
+     "nu_spune": 0.0
     },
     "confidence": 0.99
    }
   },
   "nouls": {
    "sinonim": 0.06,
-   "absolut": 0.25,
+   "absolut": 0.24,
    "abrogat": 0.04,
-   "numeste_actul": 0.69,
+   "numeste_actul": 0.71,
    "categorie_ambigua": 0.19,
    "citat_acopera": 0.97
   },
@@ -2754,56 +2879,56 @@
    "0": {
     "alegere": "sustine",
     "probabilitati": {
+     "contrazice": 0.04,
      "nu_spune": 0.01,
-     "sustine": 0.95,
-     "contrazice": 0.04
+     "sustine": 0.95
     },
     "confidence": 0.93
    },
    "1": {
     "alegere": "sustine",
     "probabilitati": {
+     "contrazice": 0.06,
      "nu_spune": 0.0,
-     "sustine": 0.95,
-     "contrazice": 0.05
+     "sustine": 0.94
     },
-    "confidence": 0.92
+    "confidence": 0.91
    },
    "2": {
     "alegere": "nu_spune",
     "probabilitati": {
-     "nu_spune": 0.65,
-     "sustine": 0.04,
-     "contrazice": 0.31
+     "contrazice": 0.35,
+     "nu_spune": 0.6,
+     "sustine": 0.05
     },
-    "confidence": 0.47
+    "confidence": 0.4
    },
    "3": {
     "alegere": "sustine",
     "probabilitati": {
+     "contrazice": 0.01,
      "nu_spune": 0.01,
-     "sustine": 0.98,
-     "contrazice": 0.01
+     "sustine": 0.98
     },
-    "confidence": 0.98
+    "confidence": 0.97
    },
    "4": {
     "alegere": "sustine",
     "probabilitati": {
+     "contrazice": 0.01,
      "nu_spune": 0.01,
-     "sustine": 0.98,
-     "contrazice": 0.01
+     "sustine": 0.98
     },
-    "confidence": 0.97
+    "confidence": 0.98
    },
    "5": {
     "alegere": "sustine",
     "probabilitati": {
+     "contrazice": 0.0,
      "nu_spune": 0.0,
-     "sustine": 1.0,
-     "contrazice": 0.0
+     "sustine": 1.0
     },
-    "confidence": 1.0
+    "confidence": 0.99
    }
   },
   "fraze": [
@@ -2816,8 +2941,8 @@
   ],
   "pozitionale": [],
   "nivel": {
-   "score": 2.85,
-   "confidence": 0.28
+   "score": 3.02,
+   "confidence": 0.18
   },
   "usage": {
    "a": 1991,
@@ -2830,13 +2955,18 @@
    "A",
    "B"
   ],
+  "temei": [
+   "06_Legea_153-2017_salarizarea_bugetara.txt",
+   "88"
+  ],
+  "nota_abrogare": false,
   "tip": "multiplu",
   "variante": {
    "A": {
     "alegere": "sustine",
     "probabilitati": {
-     "sustine": 1.0,
      "contrazice": 0.0,
+     "sustine": 1.0,
      "nu_spune": 0.0
     },
     "confidence": 1.0
@@ -2853,8 +2983,8 @@
    "C": {
     "alegere": "contrazice",
     "probabilitati": {
-     "sustine": 0.0,
      "contrazice": 1.0,
+     "sustine": 0.0,
      "nu_spune": 0.0
     },
     "confidence": 1.0
@@ -2862,57 +2992,57 @@
    "D": {
     "alegere": "contrazice",
     "probabilitati": {
-     "sustine": 0.0,
      "contrazice": 1.0,
+     "sustine": 0.0,
      "nu_spune": 0.0
     },
     "confidence": 1.0
    }
   },
   "nouls": {
-   "sinonim": 0.07,
-   "absolut": 0.22,
-   "abrogat": 0.05,
+   "sinonim": 0.08,
+   "absolut": 0.21,
+   "abrogat": 0.04,
    "numeste_actul": 0.73,
-   "categorie_ambigua": 0.24,
+   "categorie_ambigua": 0.23,
    "citat_acopera": 0.93
   },
   "afirmatii": {
    "0": {
     "alegere": "sustine",
     "probabilitati": {
+     "contrazice": 0.03,
      "sustine": 0.95,
-     "nu_spune": 0.02,
-     "contrazice": 0.03
+     "nu_spune": 0.02
     },
     "confidence": 0.92
    },
    "1": {
     "alegere": "sustine",
     "probabilitati": {
+     "contrazice": 0.01,
      "sustine": 0.99,
-     "nu_spune": 0.0,
-     "contrazice": 0.01
+     "nu_spune": 0.0
     },
-    "confidence": 0.97
+    "confidence": 0.98
    },
    "2": {
     "alegere": "sustine",
     "probabilitati": {
-     "sustine": 0.97,
-     "nu_spune": 0.01,
-     "contrazice": 0.02
+     "contrazice": 0.01,
+     "sustine": 0.99,
+     "nu_spune": 0.0
     },
-    "confidence": 0.96
+    "confidence": 0.98
    },
    "3": {
     "alegere": "sustine",
     "probabilitati": {
-     "sustine": 0.49,
-     "nu_spune": 0.17,
-     "contrazice": 0.34
+     "contrazice": 0.37,
+     "sustine": 0.45,
+     "nu_spune": 0.18
     },
-    "confidence": 0.22
+    "confidence": 0.19
    }
   },
   "fraze": [
@@ -2923,8 +3053,8 @@
   ],
   "pozitionale": [],
   "nivel": {
-   "score": 3.78,
-   "confidence": 0.82
+   "score": 3.8,
+   "confidence": 0.84
   },
   "usage": {
    "a": 2009,
@@ -2936,6 +3066,11 @@
   "cheie": [
    "A"
   ],
+  "temei": [
+   "06_Legea_153-2017_salarizarea_bugetara.txt",
+   "90"
+  ],
+  "nota_abrogare": false,
   "tip": "unic",
   "variante": {
    "A": {
@@ -2959,45 +3094,45 @@
    "C": {
     "alegere": "contrazice",
     "probabilitati": {
-     "nu_spune": 0.02,
-     "sustine": 0.0,
-     "contrazice": 0.98
+     "nu_spune": 0.01,
+     "contrazice": 0.99,
+     "sustine": 0.0
     },
-    "confidence": 0.97
+    "confidence": 0.98
    },
    "D": {
     "alegere": "contrazice",
     "probabilitati": {
-     "nu_spune": 0.02,
-     "sustine": 0.0,
-     "contrazice": 0.98
+     "nu_spune": 0.01,
+     "contrazice": 0.99,
+     "sustine": 0.0
     },
-    "confidence": 0.97
+    "confidence": 0.98
    }
   },
   "nouls": {
-   "sinonim": 0.05,
-   "absolut": 0.43,
+   "sinonim": 0.06,
+   "absolut": 0.41,
    "abrogat": 0.04,
-   "numeste_actul": 0.74,
-   "categorie_ambigua": 0.09,
+   "numeste_actul": 0.73,
+   "categorie_ambigua": 0.08,
    "citat_acopera": 0.98
   },
   "afirmatii": {
    "0": {
     "alegere": "sustine",
     "probabilitati": {
-     "nu_spune": 0.0,
      "sustine": 0.99,
+     "nu_spune": 0.0,
      "contrazice": 0.01
     },
-    "confidence": 0.98
+    "confidence": 0.99
    },
    "1": {
     "alegere": "sustine",
     "probabilitati": {
-     "nu_spune": 0.01,
      "sustine": 0.98,
+     "nu_spune": 0.01,
      "contrazice": 0.01
     },
     "confidence": 0.98
@@ -3005,29 +3140,29 @@
    "2": {
     "alegere": "sustine",
     "probabilitati": {
-     "nu_spune": 0.18,
-     "sustine": 0.8099999999999999,
+     "sustine": 0.83,
+     "nu_spune": 0.16,
      "contrazice": 0.01
     },
-    "confidence": 0.72
+    "confidence": 0.75
    },
    "3": {
     "alegere": "sustine",
     "probabilitati": {
-     "nu_spune": 0.0,
-     "sustine": 0.98,
-     "contrazice": 0.02
+     "sustine": 0.95,
+     "nu_spune": 0.01,
+     "contrazice": 0.04
     },
-    "confidence": 0.97
+    "confidence": 0.94
    },
    "4": {
     "alegere": "sustine",
     "probabilitati": {
-     "nu_spune": 0.01,
      "sustine": 0.99,
+     "nu_spune": 0.01,
      "contrazice": 0.0
     },
-    "confidence": 0.97
+    "confidence": 0.98
    }
   },
   "fraze": [
@@ -3052,49 +3187,54 @@
   "cheie": [
    "A"
   ],
+  "temei": [
+   "06_Legea_153-2017_salarizarea_bugetara.txt",
+   "91"
+  ],
+  "nota_abrogare": false,
   "tip": "unic",
   "variante": {
    "A": {
     "alegere": "sustine",
     "probabilitati": {
-     "contrazice": 0.0,
+     "sustine": 1.0,
      "nu_spune": 0.0,
-     "sustine": 1.0
+     "contrazice": 0.0
     },
-    "confidence": 0.99
+    "confidence": 1.0
    },
    "B": {
     "alegere": "contrazice",
     "probabilitati": {
-     "contrazice": 1.0,
+     "sustine": 0.0,
      "nu_spune": 0.0,
-     "sustine": 0.0
+     "contrazice": 1.0
     },
     "confidence": 1.0
    },
    "C": {
     "alegere": "contrazice",
     "probabilitati": {
-     "contrazice": 1.0,
+     "sustine": 0.0,
      "nu_spune": 0.0,
-     "sustine": 0.0
+     "contrazice": 1.0
     },
     "confidence": 1.0
    },
    "D": {
     "alegere": "contrazice",
     "probabilitati": {
-     "contrazice": 0.99,
+     "sustine": 0.0,
      "nu_spune": 0.01,
-     "sustine": 0.0
+     "contrazice": 0.99
     },
     "confidence": 0.98
    }
   },
   "nouls": {
-   "sinonim": 0.1,
+   "sinonim": 0.09,
    "absolut": 0.19,
-   "abrogat": 0.05,
+   "abrogat": 0.06,
    "numeste_actul": 0.73,
    "categorie_ambigua": 0.19,
    "citat_acopera": 0.98
@@ -3103,38 +3243,38 @@
    "0": {
     "alegere": "sustine",
     "probabilitati": {
-     "sustine": 0.97,
-     "nu_spune": 0.0,
-     "contrazice": 0.03
+     "contrazice": 0.05,
+     "sustine": 0.95,
+     "nu_spune": 0.0
     },
-    "confidence": 0.96
+    "confidence": 0.92
    },
    "1": {
     "alegere": "sustine",
     "probabilitati": {
+     "contrazice": 0.0,
      "sustine": 1.0,
-     "nu_spune": 0.0,
-     "contrazice": 0.0
+     "nu_spune": 0.0
     },
     "confidence": 1.0
    },
    "2": {
     "alegere": "sustine",
     "probabilitati": {
-     "sustine": 1.0,
-     "nu_spune": 0.0,
-     "contrazice": 0.0
+     "contrazice": 0.01,
+     "sustine": 0.99,
+     "nu_spune": 0.0
     },
     "confidence": 0.99
    },
    "3": {
     "alegere": "sustine",
     "probabilitati": {
+     "contrazice": 0.03,
      "sustine": 0.88,
-     "nu_spune": 0.1,
-     "contrazice": 0.02
+     "nu_spune": 0.09
     },
-    "confidence": 0.82
+    "confidence": 0.83
    }
   },
   "fraze": [
@@ -3145,8 +3285,8 @@
   ],
   "pozitionale": [],
   "nivel": {
-   "score": 2.59,
-   "confidence": 0.5
+   "score": 2.61,
+   "confidence": 0.48
   },
   "usage": {
    "a": 2136,
@@ -3158,6 +3298,11 @@
   "cheie": [
    "A"
   ],
+  "temei": [
+   "06_Legea_153-2017_salarizarea_bugetara.txt",
+   "92"
+  ],
+  "nota_abrogare": false,
   "tip": "unic",
   "variante": {
    "A": {
@@ -3185,69 +3330,69 @@
      "sustine": 0.01,
      "contrazice": 0.99
     },
-    "confidence": 0.99
+    "confidence": 0.98
    },
    "D": {
     "alegere": "contrazice",
     "probabilitati": {
-     "nu_spune": 0.05,
+     "nu_spune": 0.04,
      "sustine": 0.0,
-     "contrazice": 0.95
+     "contrazice": 0.96
     },
-    "confidence": 0.92
+    "confidence": 0.93
    }
   },
   "nouls": {
    "sinonim": 0.1,
-   "absolut": 0.17,
-   "abrogat": 0.08,
-   "numeste_actul": 0.73,
-   "categorie_ambigua": 0.3,
+   "absolut": 0.18,
+   "abrogat": 0.06,
+   "numeste_actul": 0.72,
+   "categorie_ambigua": 0.32,
    "citat_acopera": 0.96
   },
   "afirmatii": {
    "0": {
     "alegere": "sustine",
     "probabilitati": {
-     "contrazice": 0.03,
      "nu_spune": 0.01,
-     "sustine": 0.96
+     "sustine": 0.97,
+     "contrazice": 0.02
     },
     "confidence": 0.95
    },
    "1": {
     "alegere": "sustine",
     "probabilitati": {
-     "contrazice": 0.03,
      "nu_spune": 0.0,
-     "sustine": 0.97
+     "sustine": 0.98,
+     "contrazice": 0.02
     },
-    "confidence": 0.95
+    "confidence": 0.96
    },
    "2": {
     "alegere": "sustine",
     "probabilitati": {
-     "contrazice": 0.01,
      "nu_spune": 0.01,
-     "sustine": 0.98
+     "sustine": 0.98,
+     "contrazice": 0.01
     },
     "confidence": 0.98
    },
    "3": {
     "alegere": "sustine",
     "probabilitati": {
-     "contrazice": 0.01,
-     "nu_spune": 0.0,
-     "sustine": 0.99
+     "nu_spune": 0.01,
+     "sustine": 0.98,
+     "contrazice": 0.01
     },
     "confidence": 0.98
    },
    "4": {
     "alegere": "sustine",
     "probabilitati": {
-     "contrazice": 0.0,
      "nu_spune": 0.0,
-     "sustine": 1.0
+     "sustine": 0.99,
+     "contrazice": 0.01
     },
     "confidence": 0.99
    }
@@ -3274,13 +3419,18 @@
   "cheie": [
    "A"
   ],
+  "temei": [
+   "06_Legea_153-2017_salarizarea_bugetara.txt",
+   "93"
+  ],
+  "nota_abrogare": false,
   "tip": "unic",
   "variante": {
    "A": {
     "alegere": "sustine",
     "probabilitati": {
-     "contrazice": 0.0,
      "sustine": 1.0,
+     "contrazice": 0.0,
      "nu_spune": 0.0
     },
     "confidence": 1.0
@@ -3288,8 +3438,8 @@
    "B": {
     "alegere": "contrazice",
     "probabilitati": {
-     "contrazice": 1.0,
      "sustine": 0.0,
+     "contrazice": 1.0,
      "nu_spune": 0.0
     },
     "confidence": 1.0
@@ -3297,28 +3447,28 @@
    "C": {
     "alegere": "contrazice",
     "probabilitati": {
-     "contrazice": 0.51,
      "sustine": 0.0,
-     "nu_spune": 0.49
+     "contrazice": 0.55,
+     "nu_spune": 0.45
     },
-    "confidence": 0.27
+    "confidence": 0.32
    },
    "D": {
     "alegere": "nu_spune",
     "probabilitati": {
-     "contrazice": 0.45,
      "sustine": 0.0,
-     "nu_spune": 0.55
+     "contrazice": 0.39,
+     "nu_spune": 0.61
     },
-    "confidence": 0.33
+    "confidence": 0.42
    }
   },
   "nouls": {
-   "sinonim": 0.09,
-   "absolut": 0.54,
+   "sinonim": 0.1,
+   "absolut": 0.56,
    "abrogat": 0.06,
-   "numeste_actul": 0.7,
-   "categorie_ambigua": 0.18,
+   "numeste_actul": 0.69,
+   "categorie_ambigua": 0.17,
    "citat_acopera": 0.97
   },
   "afirmatii": {
@@ -3329,16 +3479,16 @@
      "nu_spune": 0.0,
      "contrazice": 0.05
     },
-    "confidence": 0.91
+    "confidence": 0.92
    },
    "1": {
     "alegere": "contrazice",
     "probabilitati": {
-     "sustine": 0.34,
-     "nu_spune": 0.27,
-     "contrazice": 0.39
+     "sustine": 0.32,
+     "nu_spune": 0.24,
+     "contrazice": 0.44
     },
-    "confidence": 0.07
+    "confidence": 0.17
    },
    "2": {
     "alegere": "sustine",
@@ -3352,11 +3502,11 @@
    "3": {
     "alegere": "sustine",
     "probabilitati": {
-     "sustine": 0.86,
-     "nu_spune": 0.11,
-     "contrazice": 0.03
+     "sustine": 0.84,
+     "nu_spune": 0.14,
+     "contrazice": 0.02
     },
-    "confidence": 0.78
+    "confidence": 0.76
    }
   },
   "fraze": [
@@ -3368,7 +3518,7 @@
   "pozitionale": [],
   "nivel": {
    "score": 3.74,
-   "confidence": 0.78
+   "confidence": 0.79
   },
   "usage": {
    "a": 2033,

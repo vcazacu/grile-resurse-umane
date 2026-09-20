@@ -4,16 +4,21 @@
   "cheie": [
    "B"
   ],
+  "temei": [
+   "01_Legea_80-1995_statutul_cadrelor_militare.txt",
+   "1"
+  ],
+  "nota_abrogare": false,
   "tip": "unic",
   "variante": {
    "A": {
     "alegere": "contrazice",
     "probabilitati": {
-     "contrazice": 0.98,
-     "sustine": 0.01,
+     "contrazice": 0.97,
+     "sustine": 0.02,
      "nu_spune": 0.01
     },
-    "confidence": 0.98
+    "confidence": 0.96
    },
    "B": {
     "alegere": "sustine",
@@ -27,27 +32,27 @@
    "C": {
     "alegere": "contrazice",
     "probabilitati": {
-     "nu_spune": 0.19,
+     "contrazice": 0.78,
      "sustine": 0.0,
-     "contrazice": 0.81
+     "nu_spune": 0.22
     },
-    "confidence": 0.71
+    "confidence": 0.66
    },
    "D": {
     "alegere": "contrazice",
     "probabilitati": {
-     "contrazice": 1.0,
+     "contrazice": 0.99,
      "sustine": 0.0,
-     "nu_spune": 0.0
+     "nu_spune": 0.01
     },
     "confidence": 0.99
    }
   },
   "nouls": {
-   "sinonim": 0.12,
-   "absolut": 0.3,
-   "abrogat": 0.09,
-   "numeste_actul": 0.76,
+   "sinonim": 0.11,
+   "absolut": 0.33,
+   "abrogat": 0.1,
+   "numeste_actul": 0.74,
    "categorie_ambigua": 0.21,
    "citat_acopera": 0.97
   },
@@ -55,29 +60,29 @@
    "0": {
     "alegere": "sustine",
     "probabilitati": {
+     "contrazice": 0.0,
      "nu_spune": 0.0,
-     "sustine": 1.0,
-     "contrazice": 0.0
+     "sustine": 1.0
     },
     "confidence": 1.0
    },
    "1": {
     "alegere": "sustine",
     "probabilitati": {
+     "contrazice": 0.04,
      "nu_spune": 0.0,
-     "sustine": 0.99,
-     "contrazice": 0.01
+     "sustine": 0.96
     },
-    "confidence": 0.98
+    "confidence": 0.94
    },
    "2": {
     "alegere": "sustine",
     "probabilitati": {
-     "nu_spune": 0.04,
-     "sustine": 0.96,
-     "contrazice": 0.0
+     "contrazice": 0.0,
+     "nu_spune": 0.06,
+     "sustine": 0.94
     },
-    "confidence": 0.94
+    "confidence": 0.91
    }
   },
   "fraze": [
@@ -87,7 +92,7 @@
   ],
   "pozitionale": [],
   "nivel": {
-   "score": 2.67,
+   "score": 2.71,
    "confidence": 0.0
   },
   "usage": {
@@ -100,31 +105,36 @@
   "cheie": [
    "C"
   ],
+  "temei": [
+   "01_Legea_80-1995_statutul_cadrelor_militare.txt",
+   "2"
+  ],
+  "nota_abrogare": false,
   "tip": "unic",
   "variante": {
    "A": {
     "alegere": "contrazice",
     "probabilitati": {
+     "sustine": 0.0,
      "contrazice": 1.0,
-     "nu_spune": 0.0,
-     "sustine": 0.0
+     "nu_spune": 0.0
     },
     "confidence": 0.99
    },
    "B": {
     "alegere": "contrazice",
     "probabilitati": {
-     "contrazice": 0.99,
-     "nu_spune": 0.0,
-     "sustine": 0.01
+     "sustine": 0.0,
+     "contrazice": 1.0,
+     "nu_spune": 0.0
     },
     "confidence": 0.99
    },
    "C": {
     "alegere": "sustine",
     "probabilitati": {
-     "contrazice": 0.01,
      "sustine": 0.99,
+     "contrazice": 0.01,
      "nu_spune": 0.0
     },
     "confidence": 0.99
@@ -132,18 +142,18 @@
    "D": {
     "alegere": "contrazice",
     "probabilitati": {
+     "sustine": 0.01,
      "contrazice": 0.97,
-     "nu_spune": 0.02,
-     "sustine": 0.01
+     "nu_spune": 0.02
     },
-    "confidence": 0.97
+    "confidence": 0.96
    }
   },
   "nouls": {
    "sinonim": 0.1,
-   "absolut": 0.16,
+   "absolut": 0.14,
    "abrogat": 0.08,
-   "numeste_actul": 0.76,
+   "numeste_actul": 0.77,
    "categorie_ambigua": 0.18,
    "citat_acopera": 0.96
   },
@@ -151,36 +161,36 @@
    "0": {
     "alegere": "sustine",
     "probabilitati": {
+     "nu_spune": 0.0,
      "sustine": 1.0,
-     "contrazice": 0.0,
-     "nu_spune": 0.0
+     "contrazice": 0.0
     },
-    "confidence": 1.0
+    "confidence": 0.99
    },
    "1": {
     "alegere": "sustine",
     "probabilitati": {
+     "nu_spune": 0.0,
      "sustine": 1.0,
-     "contrazice": 0.0,
-     "nu_spune": 0.0
+     "contrazice": 0.0
     },
     "confidence": 1.0
    },
    "2": {
     "alegere": "sustine",
     "probabilitati": {
+     "nu_spune": 0.0,
      "sustine": 0.98,
-     "contrazice": 0.02,
-     "nu_spune": 0.0
+     "contrazice": 0.02
     },
-    "confidence": 0.97
+    "confidence": 0.96
    },
    "3": {
     "alegere": "sustine",
     "probabilitati": {
+     "nu_spune": 0.0,
      "sustine": 0.99,
-     "contrazice": 0.01,
-     "nu_spune": 0.0
+     "contrazice": 0.01
     },
     "confidence": 0.98
    }
@@ -193,8 +203,8 @@
   ],
   "pozitionale": [],
   "nivel": {
-   "score": 2.11,
-   "confidence": 0.07
+   "score": 2.18,
+   "confidence": 0.01
   },
   "usage": {
    "a": 2487,
@@ -206,14 +216,19 @@
   "cheie": [
    "B"
   ],
+  "temei": [
+   "01_Legea_80-1995_statutul_cadrelor_militare.txt",
+   "2"
+  ],
+  "nota_abrogare": false,
   "tip": "unic",
   "variante": {
    "A": {
     "alegere": "contrazice",
     "probabilitati": {
      "nu_spune": 0.0,
-     "contrazice": 0.99,
-     "sustine": 0.01
+     "contrazice": 1.0,
+     "sustine": 0.0
     },
     "confidence": 0.99
    },
@@ -224,7 +239,7 @@
      "contrazice": 0.0,
      "sustine": 1.0
     },
-    "confidence": 1.0
+    "confidence": 0.99
    },
    "C": {
     "alegere": "contrazice",
@@ -249,35 +264,35 @@
    "sinonim": 0.07,
    "absolut": 0.12,
    "abrogat": 0.07,
-   "numeste_actul": 0.75,
-   "categorie_ambigua": 0.16,
+   "numeste_actul": 0.74,
+   "categorie_ambigua": 0.14,
    "citat_acopera": 0.96
   },
   "afirmatii": {
    "0": {
     "alegere": "sustine",
     "probabilitati": {
-     "contrazice": 0.05,
-     "sustine": 0.95,
-     "nu_spune": 0.0
+     "nu_spune": 0.0,
+     "sustine": 0.89,
+     "contrazice": 0.11
     },
-    "confidence": 0.92
+    "confidence": 0.83
    },
    "1": {
     "alegere": "sustine",
     "probabilitati": {
-     "contrazice": 0.0,
+     "nu_spune": 0.0,
      "sustine": 1.0,
-     "nu_spune": 0.0
+     "contrazice": 0.0
     },
-    "confidence": 1.0
+    "confidence": 0.99
    },
    "2": {
     "alegere": "sustine",
     "probabilitati": {
-     "contrazice": 0.02,
+     "nu_spune": 0.0,
      "sustine": 0.98,
-     "nu_spune": 0.0
+     "contrazice": 0.02
     },
     "confidence": 0.97
    }
@@ -290,7 +305,7 @@
   "pozitionale": [],
   "nivel": {
    "score": 1.7,
-   "confidence": 0.71
+   "confidence": 0.7
   },
   "usage": {
    "a": 2471,
@@ -302,32 +317,37 @@
   "cheie": [
    "A"
   ],
+  "temei": [
+   "01_Legea_80-1995_statutul_cadrelor_militare.txt",
+   "2"
+  ],
+  "nota_abrogare": false,
   "tip": "unic",
   "variante": {
    "A": {
     "alegere": "sustine",
     "probabilitati": {
      "contrazice": 0.0,
-     "sustine": 1.0,
-     "nu_spune": 0.0
+     "nu_spune": 0.0,
+     "sustine": 1.0
     },
     "confidence": 1.0
    },
    "B": {
     "alegere": "contrazice",
     "probabilitati": {
-     "sustine": 0.0,
      "contrazice": 1.0,
-     "nu_spune": 0.0
+     "nu_spune": 0.0,
+     "sustine": 0.0
     },
     "confidence": 1.0
    },
    "C": {
     "alegere": "contrazice",
     "probabilitati": {
-     "sustine": 0.0,
      "contrazice": 1.0,
-     "nu_spune": 0.0
+     "nu_spune": 0.0,
+     "sustine": 0.0
     },
     "confidence": 1.0
    },
@@ -335,29 +355,29 @@
     "alegere": "contrazice",
     "probabilitati": {
      "contrazice": 1.0,
-     "sustine": 0.0,
-     "nu_spune": 0.0
+     "nu_spune": 0.0,
+     "sustine": 0.0
     },
     "confidence": 1.0
    }
   },
   "nouls": {
    "sinonim": 0.09,
-   "absolut": 0.27,
+   "absolut": 0.28,
    "abrogat": 0.04,
    "numeste_actul": 0.77,
-   "categorie_ambigua": 0.15,
+   "categorie_ambigua": 0.17,
    "citat_acopera": 0.97
   },
   "afirmatii": {
    "0": {
     "alegere": "sustine",
     "probabilitati": {
-     "sustine": 0.99,
+     "sustine": 1.0,
      "nu_spune": 0.0,
-     "contrazice": 0.01
+     "contrazice": 0.0
     },
-    "confidence": 0.99
+    "confidence": 1.0
    },
    "1": {
     "alegere": "sustine",
@@ -366,7 +386,7 @@
      "nu_spune": 0.0,
      "contrazice": 0.01
     },
-    "confidence": 0.99
+    "confidence": 0.98
    },
    "2": {
     "alegere": "sustine",
@@ -385,8 +405,8 @@
   ],
   "pozitionale": [],
   "nivel": {
-   "score": 3.09,
-   "confidence": 0.9
+   "score": 3.07,
+   "confidence": 0.92
   },
   "usage": {
    "a": 2565,
@@ -398,14 +418,19 @@
   "cheie": [
    "C"
   ],
+  "temei": [
+   "01_Legea_80-1995_statutul_cadrelor_militare.txt",
+   "3"
+  ],
+  "nota_abrogare": false,
   "tip": "unic",
   "variante": {
    "A": {
     "alegere": "contrazice",
     "probabilitati": {
      "contrazice": 1.0,
-     "nu_spune": 0.0,
-     "sustine": 0.0
+     "sustine": 0.0,
+     "nu_spune": 0.0
     },
     "confidence": 1.0
    },
@@ -413,8 +438,8 @@
     "alegere": "contrazice",
     "probabilitati": {
      "contrazice": 1.0,
-     "nu_spune": 0.0,
-     "sustine": 0.0
+     "sustine": 0.0,
+     "nu_spune": 0.0
     },
     "confidence": 0.99
    },
@@ -422,8 +447,8 @@
     "alegere": "sustine",
     "probabilitati": {
      "contrazice": 0.0,
-     "nu_spune": 0.0,
-     "sustine": 1.0
+     "sustine": 1.0,
+     "nu_spune": 0.0
     },
     "confidence": 1.0
    },
@@ -431,17 +456,17 @@
     "alegere": "contrazice",
     "probabilitati": {
      "contrazice": 1.0,
-     "nu_spune": 0.0,
-     "sustine": 0.0
+     "sustine": 0.0,
+     "nu_spune": 0.0
     },
     "confidence": 0.99
    }
   },
   "nouls": {
-   "sinonim": 0.09,
-   "absolut": 0.38,
-   "abrogat": 0.07,
-   "numeste_actul": 0.62,
+   "sinonim": 0.08,
+   "absolut": 0.37,
+   "abrogat": 0.09,
+   "numeste_actul": 0.67,
    "categorie_ambigua": 0.16,
    "citat_acopera": 0.97
   },
@@ -449,8 +474,8 @@
    "0": {
     "alegere": "sustine",
     "probabilitati": {
-     "nu_spune": 0.0,
      "sustine": 1.0,
+     "nu_spune": 0.0,
      "contrazice": 0.0
     },
     "confidence": 1.0
@@ -458,17 +483,17 @@
    "1": {
     "alegere": "sustine",
     "probabilitati": {
-     "nu_spune": 0.0,
      "sustine": 1.0,
+     "nu_spune": 0.0,
      "contrazice": 0.0
     },
-    "confidence": 1.0
+    "confidence": 0.99
    },
    "2": {
     "alegere": "sustine",
     "probabilitati": {
-     "nu_spune": 0.01,
      "sustine": 0.98,
+     "nu_spune": 0.01,
      "contrazice": 0.01
     },
     "confidence": 0.98
@@ -481,8 +506,8 @@
   ],
   "pozitionale": [],
   "nivel": {
-   "score": 2.89,
-   "confidence": 0.07
+   "score": 2.84,
+   "confidence": 0.03
   },
   "usage": {
    "a": 2744,
@@ -494,16 +519,21 @@
   "cheie": [
    "B"
   ],
+  "temei": [
+   "01_Legea_80-1995_statutul_cadrelor_militare.txt",
+   "4"
+  ],
+  "nota_abrogare": false,
   "tip": "unic",
   "variante": {
    "A": {
     "alegere": "contrazice",
     "probabilitati": {
-     "sustine": 0.01,
-     "nu_spune": 0.0,
-     "contrazice": 0.99
+     "sustine": 0.02,
+     "contrazice": 0.98,
+     "nu_spune": 0.0
     },
-    "confidence": 0.98
+    "confidence": 0.97
    },
    "B": {
     "alegere": "sustine",
@@ -518,8 +548,8 @@
     "alegere": "contrazice",
     "probabilitati": {
      "sustine": 0.02,
-     "nu_spune": 0.0,
-     "contrazice": 0.98
+     "contrazice": 0.98,
+     "nu_spune": 0.0
     },
     "confidence": 0.97
    },
@@ -527,56 +557,56 @@
     "alegere": "contrazice",
     "probabilitati": {
      "sustine": 0.01,
-     "nu_spune": 0.01,
-     "contrazice": 0.98
+     "contrazice": 0.98,
+     "nu_spune": 0.01
     },
     "confidence": 0.98
    }
   },
   "nouls": {
-   "sinonim": 0.09,
+   "sinonim": 0.08,
    "absolut": 0.14,
-   "abrogat": 0.05,
-   "numeste_actul": 0.72,
-   "categorie_ambigua": 0.33,
+   "abrogat": 0.04,
+   "numeste_actul": 0.74,
+   "categorie_ambigua": 0.34,
    "citat_acopera": 0.97
   },
   "afirmatii": {
    "0": {
     "alegere": "sustine",
     "probabilitati": {
+     "nu_spune": 0.0,
      "sustine": 1.0,
-     "contrazice": 0.0,
-     "nu_spune": 0.0
+     "contrazice": 0.0
     },
     "confidence": 1.0
    },
    "1": {
     "alegere": "sustine",
     "probabilitati": {
+     "nu_spune": 0.0,
      "sustine": 1.0,
-     "contrazice": 0.0,
-     "nu_spune": 0.0
+     "contrazice": 0.0
     },
     "confidence": 1.0
    },
    "2": {
     "alegere": "sustine",
     "probabilitati": {
-     "contrazice": 0.01,
-     "sustine": 0.99,
-     "nu_spune": 0.0
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0
     },
     "confidence": 0.99
    },
    "3": {
     "alegere": "sustine",
     "probabilitati": {
-     "contrazice": 0.01,
+     "nu_spune": 0.0,
      "sustine": 0.99,
-     "nu_spune": 0.0
+     "contrazice": 0.01
     },
-    "confidence": 0.98
+    "confidence": 0.99
    }
   },
   "fraze": [
@@ -587,8 +617,8 @@
   ],
   "pozitionale": [],
   "nivel": {
-   "score": 1.64,
-   "confidence": 0.46
+   "score": 1.76,
+   "confidence": 0.36
   },
   "usage": {
    "a": 2134,
@@ -600,51 +630,56 @@
   "cheie": [
    "D"
   ],
+  "temei": [
+   "01_Legea_80-1995_statutul_cadrelor_militare.txt",
+   "5"
+  ],
+  "nota_abrogare": false,
   "tip": "unic",
   "variante": {
    "A": {
     "alegere": "contrazice",
     "probabilitati": {
-     "sustine": 0.0,
+     "nu_spune": 0.0,
      "contrazice": 1.0,
-     "nu_spune": 0.0
+     "sustine": 0.0
     },
     "confidence": 1.0
    },
    "B": {
     "alegere": "contrazice",
     "probabilitati": {
+     "nu_spune": 0.01,
      "contrazice": 0.99,
-     "sustine": 0.0,
-     "nu_spune": 0.01
+     "sustine": 0.0
     },
-    "confidence": 0.98
+    "confidence": 0.99
    },
    "C": {
     "alegere": "contrazice",
     "probabilitati": {
-     "contrazice": 0.92,
-     "sustine": 0.0,
-     "nu_spune": 0.08
+     "nu_spune": 0.04,
+     "contrazice": 0.96,
+     "sustine": 0.0
     },
-    "confidence": 0.88
+    "confidence": 0.94
    },
    "D": {
     "alegere": "sustine",
     "probabilitati": {
+     "nu_spune": 0.0,
      "contrazice": 0.0,
-     "sustine": 1.0,
-     "nu_spune": 0.0
+     "sustine": 1.0
     },
     "confidence": 1.0
    }
   },
   "nouls": {
-   "sinonim": 0.07,
-   "absolut": 0.22,
-   "abrogat": 0.04,
-   "numeste_actul": 0.78,
-   "categorie_ambigua": 0.23,
+   "sinonim": 0.08,
+   "absolut": 0.21,
+   "abrogat": 0.03,
+   "numeste_actul": 0.77,
+   "categorie_ambigua": 0.24,
    "citat_acopera": 0.97
   },
   "afirmatii": {
@@ -652,37 +687,37 @@
     "alegere": "sustine",
     "probabilitati": {
      "sustine": 1.0,
-     "nu_spune": 0.0,
-     "contrazice": 0.0
+     "contrazice": 0.0,
+     "nu_spune": 0.0
     },
     "confidence": 1.0
    },
    "1": {
     "alegere": "sustine",
     "probabilitati": {
-     "sustine": 1.0,
-     "nu_spune": 0.0,
-     "contrazice": 0.0
+     "contrazice": 0.01,
+     "sustine": 0.99,
+     "nu_spune": 0.0
     },
     "confidence": 0.99
    },
    "2": {
     "alegere": "sustine",
     "probabilitati": {
+     "contrazice": 0.0,
      "sustine": 1.0,
-     "nu_spune": 0.0,
-     "contrazice": 0.0
+     "nu_spune": 0.0
     },
-    "confidence": 0.99
+    "confidence": 1.0
    },
    "3": {
     "alegere": "sustine",
     "probabilitati": {
-     "sustine": 0.99,
-     "nu_spune": 0.0,
-     "contrazice": 0.01
+     "contrazice": 0.02,
+     "sustine": 0.98,
+     "nu_spune": 0.0
     },
-    "confidence": 0.99
+    "confidence": 0.96
    }
   },
   "fraze": [
@@ -694,7 +729,7 @@
   "pozitionale": [],
   "nivel": {
    "score": 2.94,
-   "confidence": 0.94
+   "confidence": 0.93
   },
   "usage": {
    "a": 2208,
@@ -706,16 +741,21 @@
   "cheie": [
    "A"
   ],
+  "temei": [
+   "01_Legea_80-1995_statutul_cadrelor_militare.txt",
+   "6"
+  ],
+  "nota_abrogare": false,
   "tip": "unic",
   "variante": {
    "A": {
     "alegere": "sustine",
     "probabilitati": {
      "nu_spune": 0.0,
-     "sustine": 0.98,
-     "contrazice": 0.02
+     "sustine": 0.99,
+     "contrazice": 0.01
     },
-    "confidence": 0.97
+    "confidence": 0.98
    },
    "B": {
     "alegere": "contrazice",
@@ -729,9 +769,9 @@
    "C": {
     "alegere": "contrazice",
     "probabilitati": {
-     "nu_spune": 0.01,
+     "nu_spune": 0.0,
      "sustine": 0.0,
-     "contrazice": 0.99
+     "contrazice": 1.0
     },
     "confidence": 0.99
    },
@@ -747,11 +787,11 @@
   },
   "nouls": {
    "sinonim": 0.12,
-   "absolut": 0.15,
+   "absolut": 0.16,
    "abrogat": 0.04,
-   "numeste_actul": 0.73,
+   "numeste_actul": 0.74,
    "categorie_ambigua": 0.49,
-   "citat_acopera": 0.98
+   "citat_acopera": 0.97
   },
   "afirmatii": {
    "0": {
@@ -761,14 +801,14 @@
      "sustine": 1.0,
      "nu_spune": 0.0
     },
-    "confidence": 1.0
+    "confidence": 0.99
    },
    "1": {
     "alegere": "sustine",
     "probabilitati": {
-     "contrazice": 0.0,
+     "nu_spune": 0.0,
      "sustine": 1.0,
-     "nu_spune": 0.0
+     "contrazice": 0.0
     },
     "confidence": 0.99
    },
@@ -784,11 +824,11 @@
    "3": {
     "alegere": "sustine",
     "probabilitati": {
-     "sustine": 0.99,
-     "contrazice": 0.01,
+     "contrazice": 0.02,
+     "sustine": 0.98,
      "nu_spune": 0.0
     },
-    "confidence": 0.98
+    "confidence": 0.97
    }
   },
   "fraze": [
@@ -799,8 +839,8 @@
   ],
   "pozitionale": [],
   "nivel": {
-   "score": 3.38,
-   "confidence": 0.48
+   "score": 3.33,
+   "confidence": 0.44
   },
   "usage": {
    "a": 2045,
@@ -812,13 +852,18 @@
   "cheie": [
    "B"
   ],
+  "temei": [
+   "01_Legea_80-1995_statutul_cadrelor_militare.txt",
+   "7"
+  ],
+  "nota_abrogare": false,
   "tip": "unic",
   "variante": {
    "A": {
     "alegere": "contrazice",
     "probabilitati": {
-     "nu_spune": 0.0,
      "sustine": 0.0,
+     "nu_spune": 0.0,
      "contrazice": 1.0
     },
     "confidence": 1.0
@@ -835,8 +880,8 @@
    "C": {
     "alegere": "contrazice",
     "probabilitati": {
-     "nu_spune": 0.0,
      "sustine": 0.0,
+     "nu_spune": 0.0,
      "contrazice": 1.0
     },
     "confidence": 1.0
@@ -855,9 +900,9 @@
    "sinonim": 0.08,
    "absolut": 0.19,
    "abrogat": 0.09,
-   "numeste_actul": 0.7,
-   "categorie_ambigua": 0.62,
-   "citat_acopera": 0.98
+   "numeste_actul": 0.72,
+   "categorie_ambigua": 0.61,
+   "citat_acopera": 0.97
   },
   "afirmatii": {
    "0": {
@@ -873,16 +918,16 @@
     "alegere": "sustine",
     "probabilitati": {
      "nu_spune": 0.0,
-     "sustine": 0.96,
-     "contrazice": 0.04
+     "sustine": 0.95,
+     "contrazice": 0.05
     },
-    "confidence": 0.94
+    "confidence": 0.92
    },
    "2": {
     "alegere": "sustine",
     "probabilitati": {
-     "nu_spune": 0.0,
-     "sustine": 0.99,
+     "nu_spune": 0.01,
+     "sustine": 0.98,
      "contrazice": 0.01
     },
     "confidence": 0.98
@@ -894,7 +939,7 @@
      "sustine": 0.98,
      "contrazice": 0.02
     },
-    "confidence": 0.96
+    "confidence": 0.97
    }
   },
   "fraze": [
@@ -905,8 +950,8 @@
   ],
   "pozitionale": [],
   "nivel": {
-   "score": 2.1,
-   "confidence": 0.06
+   "score": 2.16,
+   "confidence": 0.02
   },
   "usage": {
    "a": 2640,
@@ -919,41 +964,46 @@
    "A",
    "C"
   ],
+  "temei": [
+   "01_Legea_80-1995_statutul_cadrelor_militare.txt",
+   "8"
+  ],
+  "nota_abrogare": false,
   "tip": "multiplu",
   "variante": {
    "A": {
     "alegere": "sustine",
     "probabilitati": {
-     "contrazice": 0.01,
      "sustine": 0.99,
-     "nu_spune": 0.0
+     "nu_spune": 0.0,
+     "contrazice": 0.01
     },
     "confidence": 0.99
    },
    "B": {
     "alegere": "contrazice",
     "probabilitati": {
-     "contrazice": 1.0,
+     "nu_spune": 0.0,
      "sustine": 0.0,
-     "nu_spune": 0.0
+     "contrazice": 1.0
     },
     "confidence": 1.0
    },
    "C": {
     "alegere": "sustine",
     "probabilitati": {
-     "contrazice": 0.0,
      "sustine": 1.0,
-     "nu_spune": 0.0
+     "nu_spune": 0.0,
+     "contrazice": 0.0
     },
     "confidence": 1.0
    },
    "D": {
     "alegere": "contrazice",
     "probabilitati": {
-     "contrazice": 1.0,
      "sustine": 0.0,
-     "nu_spune": 0.0
+     "nu_spune": 0.0,
+     "contrazice": 1.0
     },
     "confidence": 1.0
    }
@@ -962,8 +1012,8 @@
    "sinonim": 0.06,
    "absolut": 0.2,
    "abrogat": 0.03,
-   "numeste_actul": 0.65,
-   "categorie_ambigua": 0.62,
+   "numeste_actul": 0.67,
+   "categorie_ambigua": 0.64,
    "citat_acopera": 0.95
   },
   "afirmatii": {
@@ -971,8 +1021,8 @@
     "alegere": "sustine",
     "probabilitati": {
      "sustine": 1.0,
-     "contrazice": 0.0,
-     "nu_spune": 0.0
+     "nu_spune": 0.0,
+     "contrazice": 0.0
     },
     "confidence": 1.0
    },
@@ -980,8 +1030,8 @@
     "alegere": "sustine",
     "probabilitati": {
      "sustine": 1.0,
-     "contrazice": 0.0,
-     "nu_spune": 0.0
+     "nu_spune": 0.0,
+     "contrazice": 0.0
     },
     "confidence": 1.0
    },
@@ -989,8 +1039,8 @@
     "alegere": "sustine",
     "probabilitati": {
      "sustine": 1.0,
-     "contrazice": 0.0,
-     "nu_spune": 0.0
+     "nu_spune": 0.0,
+     "contrazice": 0.0
     },
     "confidence": 1.0
    }
@@ -1017,41 +1067,46 @@
    "B",
    "D"
   ],
+  "temei": [
+   "01_Legea_80-1995_statutul_cadrelor_militare.txt",
+   "8"
+  ],
+  "nota_abrogare": false,
   "tip": "multiplu",
   "variante": {
    "A": {
     "alegere": "sustine",
     "probabilitati": {
+     "nu_spune": 0.0,
      "contrazice": 0.0,
-     "sustine": 1.0,
-     "nu_spune": 0.0
+     "sustine": 1.0
     },
     "confidence": 1.0
    },
    "B": {
     "alegere": "sustine",
     "probabilitati": {
+     "nu_spune": 0.0,
      "contrazice": 0.01,
-     "sustine": 0.99,
-     "nu_spune": 0.0
+     "sustine": 0.99
     },
     "confidence": 0.98
    },
    "C": {
     "alegere": "contrazice",
     "probabilitati": {
+     "nu_spune": 0.0,
      "contrazice": 0.99,
-     "sustine": 0.01,
-     "nu_spune": 0.0
+     "sustine": 0.01
     },
     "confidence": 0.99
    },
    "D": {
     "alegere": "sustine",
     "probabilitati": {
+     "nu_spune": 0.0,
      "contrazice": 0.0,
-     "sustine": 1.0,
-     "nu_spune": 0.0
+     "sustine": 1.0
     },
     "confidence": 0.99
    }
@@ -1060,28 +1115,28 @@
    "sinonim": 0.08,
    "absolut": 0.16,
    "abrogat": 0.04,
-   "numeste_actul": 0.75,
-   "categorie_ambigua": 0.44,
-   "citat_acopera": 0.95
+   "numeste_actul": 0.77,
+   "categorie_ambigua": 0.43,
+   "citat_acopera": 0.94
   },
   "afirmatii": {
    "0": {
     "alegere": "sustine",
     "probabilitati": {
-     "contrazice": 0.01,
      "nu_spune": 0.0,
-     "sustine": 0.99
+     "sustine": 0.99,
+     "contrazice": 0.01
     },
     "confidence": 0.98
    },
    "1": {
     "alegere": "sustine",
     "probabilitati": {
-     "contrazice": 0.0,
      "nu_spune": 0.0,
-     "sustine": 1.0
+     "sustine": 1.0,
+     "contrazice": 0.0
     },
-    "confidence": 1.0
+    "confidence": 0.99
    }
   },
   "fraze": [
@@ -1090,7 +1145,7 @@
   ],
   "pozitionale": [],
   "nivel": {
-   "score": 3.76,
+   "score": 3.75,
    "confidence": 0.8
   },
   "usage": {
@@ -1103,13 +1158,18 @@
   "cheie": [
    "B"
   ],
+  "temei": [
+   "01_Legea_80-1995_statutul_cadrelor_militare.txt",
+   "9"
+  ],
+  "nota_abrogare": true,
   "tip": "unic",
   "variante": {
    "A": {
     "alegere": "contrazice",
     "probabilitati": {
-     "nu_spune": 0.0,
      "sustine": 0.01,
+     "nu_spune": 0.0,
      "contrazice": 0.99
     },
     "confidence": 0.98
@@ -1117,17 +1177,17 @@
    "B": {
     "alegere": "sustine",
     "probabilitati": {
-     "nu_spune": 0.0,
      "sustine": 0.96,
+     "nu_spune": 0.0,
      "contrazice": 0.04
     },
-    "confidence": 0.93
+    "confidence": 0.94
    },
    "C": {
     "alegere": "contrazice",
     "probabilitati": {
-     "nu_spune": 0.0,
      "sustine": 0.0,
+     "nu_spune": 0.0,
      "contrazice": 1.0
     },
     "confidence": 0.99
@@ -1135,18 +1195,18 @@
    "D": {
     "alegere": "contrazice",
     "probabilitati": {
-     "nu_spune": 0.0,
      "sustine": 0.01,
+     "nu_spune": 0.0,
      "contrazice": 0.99
     },
     "confidence": 0.98
    }
   },
   "nouls": {
-   "sinonim": 0.08,
-   "absolut": 0.22,
+   "sinonim": 0.07,
+   "absolut": 0.2,
    "abrogat": 0.12,
-   "numeste_actul": 0.75,
+   "numeste_actul": 0.77,
    "categorie_ambigua": 0.64,
    "citat_acopera": 0.96
   },
@@ -1155,26 +1215,26 @@
     "alegere": "sustine",
     "probabilitati": {
      "nu_spune": 0.0,
-     "contrazice": 0.0,
-     "sustine": 1.0
+     "sustine": 1.0,
+     "contrazice": 0.0
     },
     "confidence": 1.0
    },
    "1": {
     "alegere": "sustine",
     "probabilitati": {
-     "nu_spune": 0.0,
-     "contrazice": 0.07,
-     "sustine": 0.93
+     "nu_spune": 0.01,
+     "sustine": 0.84,
+     "contrazice": 0.15
     },
-    "confidence": 0.89
+    "confidence": 0.76
    },
    "2": {
     "alegere": "sustine",
     "probabilitati": {
      "nu_spune": 0.0,
-     "contrazice": 0.0,
-     "sustine": 1.0
+     "sustine": 0.99,
+     "contrazice": 0.01
     },
     "confidence": 0.99
    },
@@ -1182,8 +1242,8 @@
     "alegere": "sustine",
     "probabilitati": {
      "nu_spune": 0.0,
-     "contrazice": 0.01,
-     "sustine": 0.99
+     "sustine": 0.99,
+     "contrazice": 0.01
     },
     "confidence": 0.99
    }
@@ -1196,8 +1256,8 @@
   ],
   "pozitionale": [],
   "nivel": {
-   "score": 2.0,
-   "confidence": 0.16
+   "score": 1.84,
+   "confidence": 0.3
   },
   "usage": {
    "a": 2630,
@@ -1209,6 +1269,11 @@
   "cheie": [
    "D"
   ],
+  "temei": [
+   "01_Legea_80-1995_statutul_cadrelor_militare.txt",
+   "9"
+  ],
+  "nota_abrogare": true,
   "tip": "unic",
   "variante": {
    "A": {
@@ -1227,7 +1292,7 @@
      "nu_spune": 0.01,
      "contrazice": 0.99
     },
-    "confidence": 0.98
+    "confidence": 0.99
    },
    "C": {
     "alegere": "contrazice",
@@ -1250,37 +1315,37 @@
   },
   "nouls": {
    "sinonim": 0.07,
-   "absolut": 0.18,
-   "abrogat": 0.08,
-   "numeste_actul": 0.75,
-   "categorie_ambigua": 0.49,
-   "citat_acopera": 0.97
+   "absolut": 0.17,
+   "abrogat": 0.07,
+   "numeste_actul": 0.74,
+   "categorie_ambigua": 0.45,
+   "citat_acopera": 0.96
   },
   "afirmatii": {
    "0": {
     "alegere": "sustine",
     "probabilitati": {
-     "nu_spune": 0.0,
      "contrazice": 0.0,
-     "sustine": 1.0
+     "sustine": 1.0,
+     "nu_spune": 0.0
     },
     "confidence": 1.0
    },
    "1": {
     "alegere": "sustine",
     "probabilitati": {
-     "nu_spune": 0.0,
-     "contrazice": 0.03,
-     "sustine": 0.97
+     "contrazice": 0.04,
+     "sustine": 0.96,
+     "nu_spune": 0.0
     },
-    "confidence": 0.95
+    "confidence": 0.94
    },
    "2": {
     "alegere": "sustine",
     "probabilitati": {
-     "nu_spune": 0.01,
      "contrazice": 0.0,
-     "sustine": 0.99
+     "sustine": 0.99,
+     "nu_spune": 0.01
     },
     "confidence": 0.99
    }
@@ -1292,8 +1357,8 @@
   ],
   "pozitionale": [],
   "nivel": {
-   "score": 2.77,
-   "confidence": 0.79
+   "score": 2.74,
+   "confidence": 0.77
   },
   "usage": {
    "a": 2651,
@@ -1305,13 +1370,18 @@
   "cheie": [
    "A"
   ],
+  "temei": [
+   "01_Legea_80-1995_statutul_cadrelor_militare.txt",
+   "9^1"
+  ],
+  "nota_abrogare": false,
   "tip": "unic",
   "variante": {
    "A": {
     "alegere": "sustine",
     "probabilitati": {
-     "sustine": 1.0,
      "nu_spune": 0.0,
+     "sustine": 1.0,
      "contrazice": 0.0
     },
     "confidence": 1.0
@@ -1319,36 +1389,36 @@
    "B": {
     "alegere": "contrazice",
     "probabilitati": {
+     "nu_spune": 0.11,
      "sustine": 0.0,
-     "nu_spune": 0.12,
-     "contrazice": 0.88
+     "contrazice": 0.89
     },
-    "confidence": 0.82
+    "confidence": 0.84
    },
    "C": {
     "alegere": "contrazice",
     "probabilitati": {
-     "sustine": 0.0,
      "nu_spune": 0.04,
+     "sustine": 0.0,
      "contrazice": 0.96
     },
-    "confidence": 0.94
+    "confidence": 0.95
    },
    "D": {
     "alegere": "contrazice",
     "probabilitati": {
+     "nu_spune": 0.31,
      "sustine": 0.0,
-     "nu_spune": 0.34,
-     "contrazice": 0.66
+     "contrazice": 0.69
     },
-    "confidence": 0.49
+    "confidence": 0.54
    }
   },
   "nouls": {
-   "sinonim": 0.11,
-   "absolut": 0.31,
+   "sinonim": 0.08,
+   "absolut": 0.32,
    "abrogat": 0.05,
-   "numeste_actul": 0.72,
+   "numeste_actul": 0.74,
    "categorie_ambigua": 0.52,
    "citat_acopera": 0.98
   },
@@ -1356,9 +1426,9 @@
    "0": {
     "alegere": "sustine",
     "probabilitati": {
-     "sustine": 0.99,
+     "sustine": 0.98,
      "nu_spune": 0.01,
-     "contrazice": 0.0
+     "contrazice": 0.01
     },
     "confidence": 0.98
    },
@@ -1383,11 +1453,11 @@
    "3": {
     "alegere": "sustine",
     "probabilitati": {
-     "sustine": 0.56,
-     "nu_spune": 0.28,
-     "contrazice": 0.16
+     "sustine": 0.59,
+     "nu_spune": 0.23,
+     "contrazice": 0.18
     },
-    "confidence": 0.34
+    "confidence": 0.39
    }
   },
   "fraze": [
@@ -1398,8 +1468,8 @@
   ],
   "pozitionale": [],
   "nivel": {
-   "score": 1.73,
-   "confidence": 0.37
+   "score": 1.69,
+   "confidence": 0.41
   },
   "usage": {
    "a": 1829,
@@ -1411,89 +1481,94 @@
   "cheie": [
    "C"
   ],
+  "temei": [
+   "01_Legea_80-1995_statutul_cadrelor_militare.txt",
+   "11"
+  ],
+  "nota_abrogare": true,
   "tip": "unic",
   "variante": {
    "A": {
     "alegere": "contrazice",
     "probabilitati": {
-     "sustine": 0.0,
      "nu_spune": 0.0,
-     "contrazice": 1.0
+     "contrazice": 1.0,
+     "sustine": 0.0
     },
     "confidence": 0.99
    },
    "B": {
     "alegere": "contrazice",
     "probabilitati": {
-     "sustine": 0.01,
      "nu_spune": 0.0,
-     "contrazice": 0.99
+     "contrazice": 0.99,
+     "sustine": 0.01
     },
     "confidence": 0.98
    },
    "C": {
     "alegere": "sustine",
     "probabilitati": {
-     "sustine": 1.0,
      "nu_spune": 0.0,
-     "contrazice": 0.0
+     "contrazice": 0.0,
+     "sustine": 1.0
     },
     "confidence": 1.0
    },
    "D": {
     "alegere": "contrazice",
     "probabilitati": {
-     "sustine": 0.0,
      "nu_spune": 0.0,
-     "contrazice": 1.0
+     "contrazice": 1.0,
+     "sustine": 0.0
     },
     "confidence": 1.0
    }
   },
   "nouls": {
-   "sinonim": 0.05,
+   "sinonim": 0.06,
    "absolut": 0.2,
-   "abrogat": 0.4,
-   "numeste_actul": 0.73,
-   "categorie_ambigua": 0.42,
+   "abrogat": 0.37,
+   "numeste_actul": 0.74,
+   "categorie_ambigua": 0.43,
    "citat_acopera": 0.97
   },
   "afirmatii": {
    "0": {
     "alegere": "sustine",
     "probabilitati": {
+     "sustine": 1.0,
      "nu_spune": 0.0,
-     "contrazice": 0.01,
-     "sustine": 0.99
+     "contrazice": 0.0
     },
     "confidence": 0.99
    },
    "1": {
     "alegere": "sustine",
     "probabilitati": {
-     "nu_spune": 0.0,
-     "sustine": 1.0,
-     "contrazice": 0.0
+     "sustine": 0.98,
+     "nu_spune": 0.01,
+     "contrazice": 0.01
     },
-    "confidence": 0.99
+    "confidence": 0.98
    },
    "2": {
     "alegere": "sustine",
     "probabilitati": {
+     "sustine": 0.98,
      "nu_spune": 0.01,
-     "contrazice": 0.01,
-     "sustine": 0.98
+     "contrazice": 0.01
     },
     "confidence": 0.97
    },
    "3": {
     "alegere": "sustine",
     "probabilitati": {
+     "sustine": 0.93,
      "nu_spune": 0.02,
-     "contrazice": 0.05,
-     "sustine": 0.93
+     "contrazice": 0.05
     },
-    "confidence": 0.89
+    "confidence": 0.9
    }
   },
   "fraze": [
@@ -1504,8 +1579,8 @@
   ],
   "pozitionale": [],
   "nivel": {
-   "score": 2.05,
-   "confidence": 0.95
+   "score": 2.04,
+   "confidence": 0.96
   },
   "usage": {
    "a": 1614,
@@ -1517,59 +1592,64 @@
   "cheie": [
    "D"
   ],
+  "temei": [
+   "01_Legea_80-1995_statutul_cadrelor_militare.txt",
+   "12"
+  ],
+  "nota_abrogare": false,
   "tip": "unic",
   "variante": {
    "A": {
     "alegere": "contrazice",
     "probabilitati": {
-     "nu_spune": 0.0,
+     "sustine": 0.0,
      "contrazice": 1.0,
-     "sustine": 0.0
+     "nu_spune": 0.0
     },
     "confidence": 1.0
    },
    "B": {
     "alegere": "contrazice",
     "probabilitati": {
-     "nu_spune": 0.01,
+     "sustine": 0.01,
      "contrazice": 0.98,
-     "sustine": 0.01
+     "nu_spune": 0.01
     },
     "confidence": 0.97
    },
    "C": {
     "alegere": "contrazice",
     "probabilitati": {
-     "nu_spune": 0.03,
-     "contrazice": 0.97,
-     "sustine": 0.0
+     "sustine": 0.0,
+     "contrazice": 0.98,
+     "nu_spune": 0.02
     },
-    "confidence": 0.96
+    "confidence": 0.97
    },
    "D": {
     "alegere": "sustine",
     "probabilitati": {
-     "nu_spune": 0.0,
      "contrazice": 0.0,
-     "sustine": 1.0
+     "sustine": 1.0,
+     "nu_spune": 0.0
     },
     "confidence": 1.0
    }
   },
   "nouls": {
-   "sinonim": 0.08,
-   "absolut": 0.35,
-   "abrogat": 0.11,
-   "numeste_actul": 0.69,
-   "categorie_ambigua": 0.58,
+   "sinonim": 0.07,
+   "absolut": 0.34,
+   "abrogat": 0.09,
+   "numeste_actul": 0.66,
+   "categorie_ambigua": 0.61,
    "citat_acopera": 0.98
   },
   "afirmatii": {
    "0": {
     "alegere": "sustine",
     "probabilitati": {
-     "sustine": 1.0,
      "nu_spune": 0.0,
+     "sustine": 1.0,
      "contrazice": 0.0
     },
     "confidence": 0.99
@@ -1577,8 +1657,8 @@
    "1": {
     "alegere": "sustine",
     "probabilitati": {
-     "sustine": 0.99,
-     "nu_spune": 0.01,
+     "nu_spune": 0.0,
+     "sustine": 1.0,
      "contrazice": 0.0
     },
     "confidence": 0.99
@@ -1586,8 +1666,8 @@
    "2": {
     "alegere": "sustine",
     "probabilitati": {
-     "sustine": 1.0,
      "nu_spune": 0.0,
+     "sustine": 1.0,
      "contrazice": 0.0
     },
     "confidence": 1.0
@@ -1600,8 +1680,8 @@
   ],
   "pozitionale": [],
   "nivel": {
-   "score": 1.91,
-   "confidence": 0.23
+   "score": 1.88,
+   "confidence": 0.26
   },
   "usage": {
    "a": 1860,
@@ -1613,6 +1693,11 @@
   "cheie": [
    "C"
   ],
+  "temei": [
+   "01_Legea_80-1995_statutul_cadrelor_militare.txt",
+   "13"
+  ],
+  "nota_abrogare": false,
   "tip": "unic",
   "variante": {
    "A": {
@@ -1649,15 +1734,15 @@
      "contrazice": 0.98,
      "nu_spune": 0.02
     },
-    "confidence": 0.97
+    "confidence": 0.96
    }
   },
   "nouls": {
    "sinonim": 0.07,
    "absolut": 0.27,
-   "abrogat": 0.07,
-   "numeste_actul": 0.66,
-   "categorie_ambigua": 0.58,
+   "abrogat": 0.08,
+   "numeste_actul": 0.68,
+   "categorie_ambigua": 0.59,
    "citat_acopera": 0.98
   },
   "afirmatii": {
@@ -1673,17 +1758,17 @@
    "1": {
     "alegere": "sustine",
     "probabilitati": {
-     "sustine": 0.99,
-     "contrazice": 0.01,
-     "nu_spune": 0.0
+     "contrazice": 0.02,
+     "sustine": 0.97,
+     "nu_spune": 0.01
     },
-    "confidence": 0.97
+    "confidence": 0.96
    },
    "2": {
     "alegere": "sustine",
     "probabilitati": {
-     "sustine": 0.99,
      "contrazice": 0.01,
+     "sustine": 0.99,
      "nu_spune": 0.0
     },
     "confidence": 0.98
@@ -1696,7 +1781,7 @@
   ],
   "pozitionale": [],
   "nivel": {
-   "score": 3.07,
+   "score": 3.06,
    "confidence": 0.93
   },
   "usage": {
@@ -1709,22 +1794,27 @@
   "cheie": [
    "B"
   ],
+  "temei": [
+   "01_Legea_80-1995_statutul_cadrelor_militare.txt",
+   "14"
+  ],
+  "nota_abrogare": false,
   "tip": "unic",
   "variante": {
    "A": {
     "alegere": "contrazice",
     "probabilitati": {
-     "sustine": 0.0,
      "nu_spune": 0.0,
-     "contrazice": 1.0
+     "contrazice": 1.0,
+     "sustine": 0.0
     },
     "confidence": 1.0
    },
    "B": {
     "alegere": "sustine",
     "probabilitati": {
-     "sustine": 1.0,
      "nu_spune": 0.0,
+     "sustine": 1.0,
      "contrazice": 0.0
     },
     "confidence": 1.0
@@ -1732,55 +1822,55 @@
    "C": {
     "alegere": "contrazice",
     "probabilitati": {
+     "nu_spune": 0.01,
      "sustine": 0.0,
-     "nu_spune": 0.0,
-     "contrazice": 1.0
+     "contrazice": 0.99
     },
     "confidence": 0.99
    },
    "D": {
     "alegere": "contrazice",
     "probabilitati": {
+     "nu_spune": 0.02,
      "sustine": 0.0,
-     "nu_spune": 0.01,
-     "contrazice": 0.99
+     "contrazice": 0.98
     },
     "confidence": 0.98
    }
   },
   "nouls": {
    "sinonim": 0.06,
-   "absolut": 0.12,
-   "abrogat": 0.09,
-   "numeste_actul": 0.67,
-   "categorie_ambigua": 0.55,
+   "absolut": 0.13,
+   "abrogat": 0.08,
+   "numeste_actul": 0.7,
+   "categorie_ambigua": 0.57,
    "citat_acopera": 0.98
   },
   "afirmatii": {
    "0": {
     "alegere": "sustine",
     "probabilitati": {
-     "sustine": 1.0,
+     "contrazice": 0.0,
      "nu_spune": 0.0,
-     "contrazice": 0.0
+     "sustine": 1.0
     },
     "confidence": 1.0
    },
    "1": {
     "alegere": "sustine",
     "probabilitati": {
-     "sustine": 1.0,
+     "contrazice": 0.0,
      "nu_spune": 0.0,
-     "contrazice": 0.0
+     "sustine": 1.0
     },
-    "confidence": 1.0
+    "confidence": 0.99
    },
    "2": {
     "alegere": "sustine",
     "probabilitati": {
-     "sustine": 1.0,
+     "contrazice": 0.0,
      "nu_spune": 0.0,
-     "contrazice": 0.0
+     "sustine": 1.0
     },
     "confidence": 0.99
    }
@@ -1792,8 +1882,8 @@
   ],
   "pozitionale": [],
   "nivel": {
-   "score": 1.91,
-   "confidence": 0.01
+   "score": 2.01,
+   "confidence": 0.11
   },
   "usage": {
    "a": 2598,
@@ -1805,51 +1895,56 @@
   "cheie": [
    "C"
   ],
+  "temei": [
+   "01_Legea_80-1995_statutul_cadrelor_militare.txt",
+   "14^1"
+  ],
+  "nota_abrogare": false,
   "tip": "unic",
   "variante": {
    "A": {
     "alegere": "contrazice",
     "probabilitati": {
      "sustine": 0.01,
-     "contrazice": 0.99,
-     "nu_spune": 0.0
+     "nu_spune": 0.0,
+     "contrazice": 0.99
     },
-    "confidence": 0.97
+    "confidence": 0.98
    },
    "B": {
     "alegere": "contrazice",
     "probabilitati": {
      "sustine": 0.0,
-     "contrazice": 1.0,
-     "nu_spune": 0.0
+     "nu_spune": 0.0,
+     "contrazice": 1.0
     },
-    "confidence": 1.0
+    "confidence": 0.99
    },
    "C": {
     "alegere": "sustine",
     "probabilitati": {
      "sustine": 1.0,
-     "contrazice": 0.0,
-     "nu_spune": 0.0
+     "nu_spune": 0.0,
+     "contrazice": 0.0
     },
-    "confidence": 1.0
+    "confidence": 0.99
    },
    "D": {
     "alegere": "contrazice",
     "probabilitati": {
      "sustine": 0.0,
-     "contrazice": 1.0,
-     "nu_spune": 0.0
+     "nu_spune": 0.0,
+     "contrazice": 1.0
     },
     "confidence": 1.0
    }
   },
   "nouls": {
-   "sinonim": 0.07,
-   "absolut": 0.15,
+   "sinonim": 0.06,
+   "absolut": 0.16,
    "abrogat": 0.03,
-   "numeste_actul": 0.7,
-   "categorie_ambigua": 0.62,
+   "numeste_actul": 0.73,
+   "categorie_ambigua": 0.63,
    "citat_acopera": 0.96
   },
   "afirmatii": {
@@ -1860,16 +1955,16 @@
      "nu_spune": 0.0,
      "contrazice": 0.01
     },
-    "confidence": 0.99
+    "confidence": 0.98
    },
    "1": {
     "alegere": "sustine",
     "probabilitati": {
-     "sustine": 0.98,
+     "sustine": 0.99,
      "nu_spune": 0.0,
-     "contrazice": 0.02
+     "contrazice": 0.01
     },
-    "confidence": 0.96
+    "confidence": 0.98
    },
    "2": {
     "alegere": "sustine",
@@ -1878,16 +1973,16 @@
      "nu_spune": 0.0,
      "contrazice": 0.0
     },
-    "confidence": 0.99
+    "confidence": 1.0
    },
    "3": {
     "alegere": "sustine",
     "probabilitati": {
-     "sustine": 0.99,
+     "sustine": 0.98,
      "nu_spune": 0.0,
-     "contrazice": 0.01
+     "contrazice": 0.02
     },
-    "confidence": 0.98
+    "confidence": 0.97
    }
   },
   "fraze": [
@@ -1899,7 +1994,7 @@
   "pozitionale": [],
   "nivel": {
    "score": 2.12,
-   "confidence": 0.9
+   "confidence": 0.89
   },
   "usage": {
    "a": 2762,
@@ -1912,78 +2007,83 @@
    "A",
    "B"
   ],
+  "temei": [
+   "01_Legea_80-1995_statutul_cadrelor_militare.txt",
+   "14^1"
+  ],
+  "nota_abrogare": false,
   "tip": "multiplu",
   "variante": {
    "A": {
     "alegere": "sustine",
     "probabilitati": {
-     "contrazice": 0.0,
-     "sustine": 1.0,
-     "nu_spune": 0.0
+     "nu_spune": 0.0,
+     "sustine": 0.99,
+     "contrazice": 0.01
     },
     "confidence": 0.99
    },
    "B": {
     "alegere": "sustine",
     "probabilitati": {
-     "contrazice": 0.0,
+     "nu_spune": 0.0,
      "sustine": 1.0,
-     "nu_spune": 0.0
+     "contrazice": 0.0
     },
     "confidence": 1.0
    },
    "C": {
     "alegere": "contrazice",
     "probabilitati": {
-     "contrazice": 1.0,
+     "nu_spune": 0.0,
      "sustine": 0.0,
-     "nu_spune": 0.0
+     "contrazice": 1.0
     },
     "confidence": 1.0
    },
    "D": {
     "alegere": "contrazice",
     "probabilitati": {
-     "contrazice": 1.0,
+     "nu_spune": 0.0,
      "sustine": 0.0,
-     "nu_spune": 0.0
+     "contrazice": 1.0
     },
     "confidence": 1.0
    }
   },
   "nouls": {
    "sinonim": 0.08,
-   "absolut": 0.1,
+   "absolut": 0.11,
    "abrogat": 0.05,
-   "numeste_actul": 0.7,
-   "categorie_ambigua": 0.54,
-   "citat_acopera": 0.94
+   "numeste_actul": 0.68,
+   "categorie_ambigua": 0.53,
+   "citat_acopera": 0.95
   },
   "afirmatii": {
    "0": {
     "alegere": "sustine",
     "probabilitati": {
-     "nu_spune": 0.0,
      "sustine": 1.0,
-     "contrazice": 0.0
+     "contrazice": 0.0,
+     "nu_spune": 0.0
     },
-    "confidence": 1.0
+    "confidence": 0.99
    },
    "1": {
     "alegere": "sustine",
     "probabilitati": {
-     "nu_spune": 0.0,
      "sustine": 1.0,
-     "contrazice": 0.0
+     "contrazice": 0.0,
+     "nu_spune": 0.0
     },
     "confidence": 1.0
    },
    "2": {
     "alegere": "sustine",
     "probabilitati": {
-     "nu_spune": 0.0,
      "sustine": 1.0,
-     "contrazice": 0.0
+     "contrazice": 0.0,
+     "nu_spune": 0.0
     },
     "confidence": 1.0
    }
@@ -2008,13 +2108,442 @@
   "cheie": [
    "B"
   ],
+  "temei": [
+   "01_Legea_80-1995_statutul_cadrelor_militare.txt",
+   "14^2"
+  ],
+  "nota_abrogare": false,
   "tip": "unic",
   "variante": {
    "A": {
     "alegere": "contrazice",
     "probabilitati": {
+     "contrazice": 0.99,
      "nu_spune": 0.01,
+     "sustine": 0.0
+    },
+    "confidence": 0.98
+   },
+   "B": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   },
+   "C": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "contrazice": 1.0,
+     "nu_spune": 0.0,
+     "sustine": 0.0
+    },
+    "confidence": 1.0
+   },
+   "D": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "contrazice": 0.96,
+     "nu_spune": 0.04,
+     "sustine": 0.0
+    },
+    "confidence": 0.94
+   }
+  },
+  "nouls": {
+   "sinonim": 0.08,
+   "absolut": 0.29,
+   "abrogat": 0.04,
+   "numeste_actul": 0.68,
+   "categorie_ambigua": 0.58,
+   "citat_acopera": 0.97
+  },
+  "afirmatii": {
+   "0": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 0.99
+   },
+   "1": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 0.99
+   },
+   "2": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.95,
+     "nu_spune": 0.04,
+     "contrazice": 0.01
+    },
+    "confidence": 0.93
+   },
+   "3": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.95,
+     "nu_spune": 0.0,
+     "contrazice": 0.05
+    },
+    "confidence": 0.92
+   }
+  },
+  "fraze": [
+   "Art. 14^2 alin. (2): la încetarea concediului fără plată pentru formare profesională, acordat potrivit alin. (1) cadrelor militare confirmate în serviciul medical pe o durată de cel mult 4 ani, instituția reîncadrează cadrul militar din oficiu, pe funcția de pe care a fost suspendat, prin rezervarea acesteia, singura excepție fiind reorganizarea sau restructurarea unității cu desființarea postului.",
+   "Numirea pe o funcție vacantă sau punerea la dispoziție în vederea încadrării este regula generală de la art. 14^1 alin. (9), aplicabilă la încetarea concediilor fără plată obișnuite, nu a celui pentru formare profesională din serviciul medical, unde funcția se rezervă.",
+   "Reîncadrarea prin concurs și trecerea în rezervă nu apar în text.",
+   "Potrivit alin. (3), acestui concediu i se aplică în mod corespunzător art. 14^1 alin. (3), (5), (6) și (8^1), deci durata lui nu se ia în calcul la stabilirea stagiului în grad."
+  ],
+  "pozitionale": [],
+  "nivel": {
+   "score": 3.94,
+   "confidence": 0.95
+  },
+  "usage": {
+   "a": 2797,
+   "b": 5478
+  }
+ },
+ {
+  "id": "L80-122",
+  "cheie": [
+   "D"
+  ],
+  "temei": [
+   "01_Legea_80-1995_statutul_cadrelor_militare.txt",
+   "14^3"
+  ],
+  "nota_abrogare": false,
+  "tip": "unic",
+  "variante": {
+   "A": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "contrazice": 1.0,
      "sustine": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   },
+   "B": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.0,
+     "contrazice": 1.0
+    },
+    "confidence": 1.0
+   },
+   "C": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.0,
+     "contrazice": 1.0
+    },
+    "confidence": 1.0
+   },
+   "D": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "nouls": {
+   "sinonim": 0.09,
+   "absolut": 0.22,
+   "abrogat": 0.04,
+   "numeste_actul": 0.72,
+   "categorie_ambigua": 0.58,
+   "citat_acopera": 0.98
+  },
+  "afirmatii": {
+   "0": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0
+    },
+    "confidence": 0.99
+   },
+   "2": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "3": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.01,
+     "sustine": 0.98,
+     "contrazice": 0.01
+    },
+    "confidence": 0.98
+   }
+  },
+  "fraze": [
+   "Art. 14^3 alin. (1): concediul anual pentru formare profesională este plătit, de până la 15 zile lucrătoare, se aprobă de comandantul unității militare și se acordă în condițiile stabilite prin ordin al ministrului apărării naționale; ministrul stabilește condițiile, dar aprobarea concediului aparține comandantului unității.",
+   "Termenul se socotește în zile lucrătoare, nu calendaristice, iar valorile de 30 și 10 zile nu apar în text.",
+   "Potrivit alin. (2), durata acestui concediu nu poate fi dedusă din durata concediului de odihnă anual și este asimilată unei perioade de muncă efectivă în ceea ce privește drepturile cuvenite personalului militar.",
+   "Acest concediu plătit nu trebuie confundat cu concediul fără plată pentru formare profesională de cel mult 4 ani, rezervat cadrelor confirmate în serviciul medical (art. 14^2 alin. (1))."
+  ],
+  "pozitionale": [],
+  "nivel": {
+   "score": 2.95,
+   "confidence": 0.73
+  },
+  "usage": {
+   "a": 2056,
+   "b": 3948
+  }
+ },
+ {
+  "id": "L80-123",
+  "cheie": [
+   "B"
+  ],
+  "temei": [
+   "01_Legea_80-1995_statutul_cadrelor_militare.txt",
+   "14^4"
+  ],
+  "nota_abrogare": false,
+  "tip": "unic",
+  "variante": {
+   "A": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "contrazice": 1.0,
+     "sustine": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   },
+   "B": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   },
+   "C": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "contrazice": 1.0,
+     "sustine": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.99
+   },
+   "D": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "contrazice": 1.0,
+     "sustine": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "nouls": {
+   "sinonim": 0.08,
+   "absolut": 0.33,
+   "abrogat": 0.05,
+   "numeste_actul": 0.73,
+   "categorie_ambigua": 0.61,
+   "citat_acopera": 0.98
+  },
+  "afirmatii": {
+   "0": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.01,
+     "sustine": 0.99
+    },
+    "confidence": 0.98
+   },
+   "2": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "fraze": [
+   "Art. 14^4 enumeră complet drepturile păstrate pe timpul concediului de odihnă, al concediului paternal, al incapacității temporare de muncă și al permisiei: solda de funcție, solda de grad, gradațiile și, după caz, solda de comandă, indemnizațiile, compensațiile, sporurile, primele, majorările și alte drepturi salariale cu caracter permanent cuvenite pentru perioada respectivă.",
+   "Variantele care exclud sporurile, indemnizațiile, solda de comandă sau primele restrâng nejustificat enumerarea, iar varianta cu suspendarea celorlalte drepturi descrie, de fapt, regimul concediului fără plată, în care cadrele militare nu beneficiază de niciun drept din partea Ministerului Apărării Naționale, cu excepția folosirii locuinței de serviciu (art. 14^1 alin. (5)).",
+   "Textul art. 14^4 vizează expres cadrele militare în activitate din cadrul Ministerului Apărării Naționale."
+  ],
+  "pozitionale": [],
+  "nivel": {
+   "score": 2.0,
+   "confidence": 0.16
+  },
+  "usage": {
+   "a": 2069,
+   "b": 4341
+  }
+ },
+ {
+  "id": "L80-124",
+  "cheie": [
+   "A"
+  ],
+  "temei": [
+   "01_Legea_80-1995_statutul_cadrelor_militare.txt",
+   "15"
+  ],
+  "nota_abrogare": false,
+  "tip": "unic",
+  "variante": {
+   "A": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   },
+   "B": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "contrazice": 1.0,
+     "nu_spune": 0.0,
+     "sustine": 0.0
+    },
+    "confidence": 1.0
+   },
+   "C": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "contrazice": 1.0,
+     "nu_spune": 0.0,
+     "sustine": 0.0
+    },
+    "confidence": 1.0
+   },
+   "D": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "contrazice": 1.0,
+     "nu_spune": 0.0,
+     "sustine": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "nouls": {
+   "sinonim": 0.06,
+   "absolut": 0.42,
+   "abrogat": 0.06,
+   "numeste_actul": 0.75,
+   "categorie_ambigua": 0.43,
+   "citat_acopera": 0.96
+  },
+  "afirmatii": {
+   "0": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 0.99
+   },
+   "1": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.01,
+     "contrazice": 0.02,
+     "sustine": 0.97
+    },
+    "confidence": 0.97
+   },
+   "2": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.01,
+     "contrazice": 0.01,
+     "sustine": 0.98
+    },
+    "confidence": 0.98
+   }
+  },
+  "fraze": [
+   "Art. 15 alin. (3): la stabilirea stagiului în gradul pe care îl au cadrele militare se ia în calcul întreaga durată a concediului prevăzut la alin. (2), adică a concediului și indemnizației pentru îngrijirea copilului bolnav, a concediului de acomodare, a concediului paternal și a concediului și indemnizației pentru creșterea copilului, acordate în condițiile dispozițiilor legale în vigoare.",
+   "Proporția de trei pătrimi se aplică, potrivit art. 14^1 alin. (7), concediului fără plată luat pentru a urma soțul trimis în misiune permanentă în străinătate, iar neluarea în calcul privește concediul fără plată acordat pentru alte cazuri temeinic motivate (art. 14^1 alin. (8^1)); proporția de jumătate nu apare în lege.",
+   "Art. 15 alin. (1) prevede, pentru femeile cadre militare în activitate, dreptul la concediu de maternitate, la pauze pentru alimentarea și îngrijirea copilului și la celelalte drepturi prevăzute de lege pentru femeile salariate din administrația publică."
+  ],
+  "pozitionale": [],
+  "nivel": {
+   "score": 2.32,
+   "confidence": 0.72
+  },
+  "usage": {
+   "a": 1885,
+   "b": 4728
+  }
+ },
+ {
+  "id": "L80-125",
+  "cheie": [
+   "B"
+  ],
+  "temei": [
+   "01_Legea_80-1995_statutul_cadrelor_militare.txt",
+   "17"
+  ],
+  "nota_abrogare": false,
+  "tip": "unic",
+  "variante": {
+   "A": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.01,
      "contrazice": 0.99
     },
     "confidence": 0.98
@@ -2035,41 +2564,41 @@
      "sustine": 0.0,
      "contrazice": 1.0
     },
-    "confidence": 1.0
+    "confidence": 0.99
    },
    "D": {
     "alegere": "contrazice",
     "probabilitati": {
-     "nu_spune": 0.03,
+     "nu_spune": 0.0,
      "sustine": 0.0,
-     "contrazice": 0.97
+     "contrazice": 1.0
     },
-    "confidence": 0.95
+    "confidence": 1.0
    }
   },
   "nouls": {
-   "sinonim": 0.08,
-   "absolut": 0.27,
-   "abrogat": 0.03,
-   "numeste_actul": 0.7,
-   "categorie_ambigua": 0.57,
-   "citat_acopera": 0.97
+   "sinonim": 0.07,
+   "absolut": 0.4,
+   "abrogat": 0.07,
+   "numeste_actul": 0.64,
+   "categorie_ambigua": 0.49,
+   "citat_acopera": 0.98
   },
   "afirmatii": {
    "0": {
     "alegere": "sustine",
     "probabilitati": {
-     "contrazice": 0.01,
      "nu_spune": 0.0,
-     "sustine": 0.99
+     "contrazice": 0.0,
+     "sustine": 1.0
     },
-    "confidence": 0.99
+    "confidence": 1.0
    },
    "1": {
     "alegere": "sustine",
     "probabilitati": {
-     "contrazice": 0.01,
      "nu_spune": 0.0,
+     "contrazice": 0.01,
      "sustine": 0.99
     },
     "confidence": 0.99
@@ -2077,43 +2606,250 @@
    "2": {
     "alegere": "sustine",
     "probabilitati": {
+     "nu_spune": 0.0,
      "contrazice": 0.01,
+     "sustine": 0.99
+    },
+    "confidence": 0.99
+   }
+  },
+  "fraze": [
+   "Art. 17 alin. (1) acordă dreptul la permisii, pentru rezolvarea unor situații personale sau familiale deosebite, cadrelor militare în activitate, precum și celor în rezervă, dar numai pe timpul cât acestea sunt concentrate sau mobilizate în unități militare.",
+   "Varianta „numai cadrelor în activitate” omite cadrele în rezervă concentrate sau mobilizate, iar cea cu cadrele în rezervă necondiționat omite cerința concentrării sau mobilizării; cadrele în retragere nu sunt menționate, ele nemaiputând fi chemate pentru îndeplinirea serviciului militar (art. 4 lit. c)).",
+   "Potrivit alin. (2), durata permisiilor și comandanții care au dreptul să le aprobe se stabilesc prin regulamentele militare, iar art. 18 prevede că timpul acordat pentru permisii nu se scade din durata concediului anual de odihnă sau a concediului de odihnă suplimentar."
+  ],
+  "pozitionale": [],
+  "nivel": {
+   "score": 3.5,
+   "confidence": 0.58
+  },
+  "usage": {
+   "a": 1711,
+   "b": 3303
+  }
+ },
+ {
+  "id": "L80-126",
+  "cheie": [
+   "C"
+  ],
+  "temei": [
+   "01_Legea_80-1995_statutul_cadrelor_militare.txt",
+   "18"
+  ],
+  "nota_abrogare": false,
+  "tip": "unic",
+  "variante": {
+   "A": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "contrazice": 1.0,
+     "sustine": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   },
+   "B": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "contrazice": 1.0,
+     "sustine": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   },
+   "C": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   },
+   "D": {
+    "alegere": "nu_spune",
+    "probabilitati": {
+     "contrazice": 0.32,
+     "sustine": 0.0,
+     "nu_spune": 0.68
+    },
+    "confidence": 0.52
+   }
+  },
+  "nouls": {
+   "sinonim": 0.07,
+   "absolut": 0.34,
+   "abrogat": 0.07,
+   "numeste_actul": 0.7,
+   "categorie_ambigua": 0.41,
+   "citat_acopera": 0.97
+  },
+  "afirmatii": {
+   "0": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "alegere": "sustine",
+    "probabilitati": {
      "nu_spune": 0.02,
+     "contrazice": 0.01,
      "sustine": 0.97
     },
-    "confidence": 0.95
+    "confidence": 0.96
+   },
+   "2": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 0.99
+   }
+  },
+  "fraze": [
+   "Art. 18 prevede expres că timpul acordat pentru permisii, scutiri și concedii medicale nu se scade nici din durata concediului anual de odihnă, nici din cea a concediului de odihnă suplimentar, deci ambele variante cu scădere sunt greșite.",
+   "Compensarea în bani, stabilită prin hotărâre a Guvernului, privește concediul de odihnă neefectuat (art. 14 alin. (2)), nu timpul permisiilor sau al concediilor medicale.",
+   "O regulă asemănătoare există la art. 14^3 alin. (2), potrivit căruia durata concediului pentru formare profesională nu poate fi dedusă din durata concediului de odihnă anual."
+  ],
+  "pozitionale": [],
+  "nivel": {
+   "score": 2.49,
+   "confidence": 0.0
+  },
+  "usage": {
+   "a": 2223,
+   "b": 3616
+  }
+ },
+ {
+  "id": "L80-127",
+  "cheie": [
+   "D"
+  ],
+  "temei": [
+   "01_Legea_80-1995_statutul_cadrelor_militare.txt",
+   "20^1"
+  ],
+  "nota_abrogare": false,
+  "tip": "unic",
+  "variante": {
+   "A": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.01,
+     "contrazice": 0.99
+    },
+    "confidence": 0.98
+   },
+   "B": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.0,
+     "contrazice": 1.0
+    },
+    "confidence": 1.0
+   },
+   "C": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.0,
+     "contrazice": 1.0
+    },
+    "confidence": 0.99
+   },
+   "D": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "nouls": {
+   "sinonim": 0.11,
+   "absolut": 0.39,
+   "abrogat": 0.03,
+   "numeste_actul": 0.75,
+   "categorie_ambigua": 0.44,
+   "citat_acopera": 0.97
+  },
+  "afirmatii": {
+   "0": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "alegere": "nu_spune",
+    "probabilitati": {
+     "nu_spune": 0.62,
+     "contrazice": 0.03,
+     "sustine": 0.35
+    },
+    "confidence": 0.43
+   },
+   "2": {
+    "alegere": "nu_spune",
+    "probabilitati": {
+     "nu_spune": 0.53,
+     "contrazice": 0.02,
+     "sustine": 0.45
+    },
+    "confidence": 0.28
    },
    "3": {
     "alegere": "sustine",
     "probabilitati": {
-     "contrazice": 0.06,
      "nu_spune": 0.0,
-     "sustine": 0.94
+     "contrazice": 0.0,
+     "sustine": 1.0
     },
-    "confidence": 0.91
+    "confidence": 1.0
    }
   },
   "fraze": [
-   "Art. 14^2 alin. (2): la încetarea concediului fără plată pentru formare profesională, acordat potrivit alin. (1) cadrelor militare confirmate în serviciul medical pe o durată de cel mult 4 ani, instituția reîncadrează cadrul militar din oficiu, pe funcția de pe care a fost suspendat, prin rezervarea acesteia, singura excepție fiind reorganizarea sau restructurarea unității cu desființarea postului.",
-   "Numirea pe o funcție vacantă sau punerea la dispoziție în vederea încadrării este regula generală de la art. 14^1 alin. (9), aplicabilă la încetarea concediilor fără plată obișnuite, nu a celui pentru formare profesională din serviciul medical, unde funcția se rezervă.",
-   "Reîncadrarea prin concurs și trecerea în rezervă nu apar în text.",
-   "Potrivit alin. (3), acestui concediu i se aplică în mod corespunzător art. 14^1 alin. (3), (5), (6) și (8^1), deci durata lui nu se ia în calcul la stabilirea stagiului în grad."
+   "Art. 20^1 alin. (1) stabilește plafonul compensației lunare pentru chirie la „până la 50% din solda lunară”, solda lunară fiind, potrivit art. 9 lit. a), compusă din solda de grad, solda de funcție, gradații și indemnizații.",
+   "Varianta „50% din solda de funcție” este capcana clasică: H.G. nr. 1867/2005, care stabilește cuantumul concret potrivit art. 20^1 alin. (3), raportează procentele la solda de funcție, dar întrebarea vizează textul Legii nr. 80/1995, unde baza este solda lunară; procentul de 40% apare tot în hotărârea Guvernului, pentru alte localități decât municipiile, stațiunile și localitățile cu situații deosebite, nu în lege.",
+   "Solda de grad nu este baza de calcul în niciunul dintre cele două acte.",
+   "Potrivit art. 20^1 alin. (3), cuantumul concret al compensației și condițiile de acordare se stabilesc prin hotărâre a Guvernului, la propunerea ministrului apărării naționale."
   ],
   "pozitionale": [],
   "nivel": {
-   "score": 3.93,
-   "confidence": 0.94
+   "score": 2.88,
+   "confidence": 0.25
   },
   "usage": {
-   "a": 2797,
-   "b": 5478
+   "a": 3456,
+   "b": 7087
   }
  },
  {
-  "id": "L80-122",
+  "id": "L80-128",
   "cheie": [
-   "D"
+   "C"
   ],
+  "temei": [
+   "01_Legea_80-1995_statutul_cadrelor_militare.txt",
+   "20^1"
+  ],
+  "nota_abrogare": false,
   "tip": "unic",
   "variante": {
    "A": {
@@ -2135,15 +2871,164 @@
     "confidence": 1.0
    },
    "C": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.97,
+     "nu_spune": 0.0,
+     "contrazice": 0.03
+    },
+    "confidence": 0.95
+   },
+   "D": {
     "alegere": "contrazice",
     "probabilitati": {
-     "sustine": 0.0,
-     "nu_spune": 0.0,
-     "contrazice": 1.0
+     "sustine": 0.03,
+     "nu_spune": 0.05,
+     "contrazice": 0.92
+    },
+    "confidence": 0.88
+   }
+  },
+  "nouls": {
+   "sinonim": 0.11,
+   "absolut": 0.18,
+   "abrogat": 0.04,
+   "numeste_actul": 0.74,
+   "categorie_ambigua": 0.47,
+   "citat_acopera": 0.96
+  },
+  "afirmatii": {
+   "0": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.99,
+     "contrazice": 0.01,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.99
+   },
+   "1": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "contrazice": 0.0,
+     "nu_spune": 0.0
     },
     "confidence": 1.0
    },
+   "2": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.99,
+     "contrazice": 0.01,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.99
+   }
+  },
+  "fraze": [
+   "Art. 20^1 alin. (2) tratează situația cadrelor militare aflate în garnizoana de domiciliu: ele pot beneficia de compensația lunară pentru chirie prevăzută la alin. (1), dar numai în cazuri justificate, pe baza rezultatelor anchetei sociale efectuate de o comisie constituită prin ordin al ministrului apărării naționale și la propunerea comandanților sau a șefilor lor.",
+   "Dreptul nu este exclus, cum susține varianta care rezervă compensația celor mutați în altă garnizoană decât cea de domiciliu, dar nici nu se acordă de drept, cum susține varianta „în aceleași condiții ca cei mutați în altă garnizoană”: acordarea de drept este regimul situației de la alin. (1), în care cadrul militar este mutat în altă garnizoană decât cea de domiciliu.",
+   "Creditul ipotecar/imobiliar sau contractul de vânzare-cumpărare cu plata în rate nu este o condiție a alin. (2), ci ipoteza distinctă de la alin. (2^1), în care cei care îndeplinesc condițiile de la alin. (1) și (2) primesc compensația pentru plata ratei, fără a depăși rata lunară plătită."
+  ],
+  "pozitionale": [],
+  "nivel": {
+   "score": 3.29,
+   "confidence": 0.74
+  },
+  "usage": {
+   "a": 3558,
+   "b": 6612
+  }
+ },
+ {
+  "id": "L80-129",
+  "cheie": [
+   "A",
+   "C",
+   "D"
+  ],
+  "temei": [
+   "01_Legea_80-1995_statutul_cadrelor_militare.txt",
+   "20^1"
+  ],
+  "nota_abrogare": false,
+  "tip": "multiplu",
+  "variante": {
+   "A": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   },
+   "B": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 1.0,
+     "sustine": 0.0
+    },
+    "confidence": 1.0
+   },
+   "C": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.02,
+     "sustine": 0.98
+    },
+    "confidence": 0.97
+   },
    "D": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "nouls": {
+   "sinonim": 0.09,
+   "absolut": 0.13,
+   "abrogat": 0.04,
+   "numeste_actul": 0.67,
+   "categorie_ambigua": 0.47,
+   "citat_acopera": 0.93
+  },
+  "afirmatii": {
+   "0": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "2": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "3": {
     "alegere": "sustine",
     "probabilitati": {
      "sustine": 1.0,
@@ -2153,11 +3038,400 @@
     "confidence": 1.0
    }
   },
+  "fraze": [
+   "Art. 20^1 alin. (2^2) prevede că, în situația creditului ipotecar/imobiliar sau a contractului de vânzare-cumpărare cu plata în rate (alin. (2^1)), compensația se acordă pentru o singură locuință achiziționată pe timpul carierei și că ea nu se poate acorda concomitent pentru situația de la alin. (1) și (2) (chirie) și pentru situația de la alin. (2^1) (rată), cadrul militar trebuind să opteze pentru una dintre ele, deci varianta privind acordarea concomitentă pentru plata chiriei și pentru plata ratei creditului este greșită.",
+   "Alin. (2^4) limitează beneficiul la o singură garnizoană pentru cadrele mutate sau detașate și/sau împuternicite prevăzute la alin. (1).",
+   "Alin. (3) trimite la hotărârea Guvernului, adoptată la propunerea ministrului apărării naționale, pentru cuantumul concret al compensației de la alin. (1), (2) și (2^1) și pentru condițiile de acordare.",
+   "Tot alin. (2^2) precizează că Ministerul Apărării Naționale nu îi asigură cadrului militar care a optat pentru situația de la alin. (2^1) un spațiu de locuit corespunzător în garnizoana unde a achiziționat locuința, pe durata existenței acestei situații."
+  ],
+  "pozitionale": [],
+  "nivel": {
+   "score": 3.49,
+   "confidence": 0.58
+  },
+  "usage": {
+   "a": 3460,
+   "b": 6930
+  }
+ },
+ {
+  "id": "L80-130",
+  "cheie": [
+   "A"
+  ],
+  "temei": [
+   "01_Legea_80-1995_statutul_cadrelor_militare.txt",
+   "20^1"
+  ],
+  "nota_abrogare": false,
+  "tip": "unic",
+  "variante": {
+   "A": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.99,
+     "contrazice": 0.01
+    },
+    "confidence": 0.99
+   },
+   "B": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.0,
+     "contrazice": 1.0
+    },
+    "confidence": 1.0
+   },
+   "C": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.0,
+     "contrazice": 1.0
+    },
+    "confidence": 1.0
+   },
+   "D": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.0,
+     "contrazice": 1.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "nouls": {
+   "sinonim": 0.06,
+   "absolut": 0.12,
+   "abrogat": 0.03,
+   "numeste_actul": 0.75,
+   "categorie_ambigua": 0.33,
+   "citat_acopera": 0.98
+  },
+  "afirmatii": {
+   "0": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0
+    },
+    "confidence": 0.99
+   },
+   "2": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "fraze": [
+   "Art. 20^1 alin. (4) fixează trei elemente: cuantumul (50% din solda lunară a cadrului militar urmat), condiția de încetare (o nouă angajare sau prestarea unei activități autorizate aducătoare de venituri) și limita temporală (nu mai mult de 9 luni de la data mutării cadrului militar).",
+   "Variantele cu 6 luni, 25% sau 12 luni și solda de funcție modifică unul dintre aceste elemente; niciuna dintre aceste valori nu apare la alin. (4), iar baza de calcul este solda lunară, nu solda de funcție.",
+   "Potrivit alin. (5), de aceeași indemnizație beneficiază și soții sau soțiile care, la data mutării, erau înscrise ca șomeri la agențiile pentru ocuparea forței de muncă județene sau a municipiului București, dar numai după expirarea, potrivit legii, a termenului de plată a indemnizației de șomaj."
+  ],
+  "pozitionale": [],
+  "nivel": {
+   "score": 2.36,
+   "confidence": 0.68
+  },
+  "usage": {
+   "a": 3552,
+   "b": 6465
+  }
+ },
+ {
+  "id": "L80-131",
+  "cheie": [
+   "B"
+  ],
+  "temei": [
+   "01_Legea_80-1995_statutul_cadrelor_militare.txt",
+   "21"
+  ],
+  "nota_abrogare": true,
+  "tip": "unic",
+  "variante": {
+   "A": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.0,
+     "contrazice": 1.0
+    },
+    "confidence": 1.0
+   },
+   "B": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.01,
+     "sustine": 0.99
+    },
+    "confidence": 0.98
+   },
+   "C": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.02,
+     "contrazice": 0.98
+    },
+    "confidence": 0.97
+   },
+   "D": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 1.0,
+     "sustine": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
   "nouls": {
    "sinonim": 0.09,
-   "absolut": 0.22,
-   "abrogat": 0.04,
-   "numeste_actul": 0.73,
+   "absolut": 0.2,
+   "abrogat": 0.11,
+   "numeste_actul": 0.72,
+   "categorie_ambigua": 0.48,
+   "citat_acopera": 0.94
+  },
+  "afirmatii": {
+   "0": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.01,
+     "sustine": 0.99
+    },
+    "confidence": 0.99
+   },
+   "1": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   },
+   "2": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 0.99
+   },
+   "3": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 0.99
+   },
+   "4": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.01,
+     "sustine": 0.99
+    },
+    "confidence": 0.98
+   }
+  },
+  "fraze": [
+   "Art. 21 alin. (1) stabilește beneficiarii despăgubirilor: ofițerii, maiștrii militari și subofițerii în activitate și cei în rezervă, dar numai pe timpul cât sunt concentrați sau mobilizați în unitățile militare, pentru invaliditatea sau decesul produse ca urmare a unor acțiuni militare, prin accidente, catastrofe sau alte asemenea evenimente intervenite în timpul și din cauza serviciului militar ori a unor misiuni în cadrul forțelor internaționale.",
+   "Potrivit alin. (2), cuantumul despăgubirilor acordate cadrelor devenite invalide, respectiv urmașilor celor decedate, se stabilește prin hotărâre a Guvernului, nu prin ordin al ministrului apărării naționale.",
+   "Varianta „numai cadrelor în activitate” omite rezerviștii concentrați sau mobilizați, iar cea cu cadrele în retragere adaugă o categorie pe care textul nu o prevede (cadrele în retragere nu mai pot fi chemate pentru îndeplinirea serviciului militar, art. 4 lit. c)).",
+   "Cele două solde lunare neimpozabile reprezintă ajutorul suplimentar acordat de Ministerul Apărării Naționale la decesul unui cadru militar în activitate (art. 23 alin. (3)), nu cuantumul despăgubirilor.",
+   "Atenție: prevederile art. 21 alin. (3) referitoare la pensia pentru invaliditate permanentă sunt semnalate în notele portalului ca abrogate de legislația anterioară de pensii, pensiile militare fiind reglementate în prezent prin Legea nr. 223/2015; în schimb, alin. (4), în vigoare, permite personalului militar încadrat în gradul III de invaliditate sau clasat apt limitat să fie menținut ori rechemat în activitate sau încadrat în funcții civile fără examen sau concurs, la cerere."
+  ],
+  "pozitionale": [],
+  "nivel": {
+   "score": 3.56,
+   "confidence": 0.63
+  },
+  "usage": {
+   "a": 3027,
+   "b": 6342
+  }
+ },
+ {
+  "id": "L80-132",
+  "cheie": [
+   "C"
+  ],
+  "temei": [
+   "01_Legea_80-1995_statutul_cadrelor_militare.txt",
+   "21"
+  ],
+  "nota_abrogare": true,
+  "tip": "unic",
+  "variante": {
+   "A": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "nu_spune": 0.04,
+     "sustine": 0.0,
+     "contrazice": 0.96
+    },
+    "confidence": 0.93
+   },
+   "B": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.0,
+     "contrazice": 1.0
+    },
+    "confidence": 0.99
+   },
+   "C": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0
+    },
+    "confidence": 0.99
+   },
+   "D": {
+    "alegere": "contrazice",
+    "probabilitati": {
+     "nu_spune": 0.01,
+     "sustine": 0.0,
+     "contrazice": 0.99
+    },
+    "confidence": 0.98
+   }
+  },
+  "nouls": {
+   "sinonim": 0.08,
+   "absolut": 0.15,
+   "abrogat": 0.14,
+   "numeste_actul": 0.72,
+   "categorie_ambigua": 0.39,
+   "citat_acopera": 0.98
+  },
+  "afirmatii": {
+   "0": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.01,
+     "sustine": 0.98,
+     "nu_spune": 0.01
+    },
+    "confidence": 0.98
+   },
+   "2": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.99
+   }
+  },
+  "fraze": [
+   "Art. 21 alin. (4) oferă, la cerere, personalului militar încadrat în gradul III de invaliditate sau clasat apt limitat, în timpul ori în legătură cu exercitarea atribuțiilor de serviciu, trei posibilități: menținerea în activitate, rechemarea în activitate în funcții militare sau încadrarea în funcții civile, fără examen sau concurs, în instituțiile din sistemul de apărare, ordine publică și siguranță națională, în condițiile stabilite prin ordin al conducătorului instituției.",
+   "Trecerea obligatorie în rezervă contrazice posibilitatea menținerii în activitate; încadrarea „numai în funcții civile, prin concurs” contrazice atât alternativa funcțiilor militare, cât și scutirea de examen sau concurs; aprobarea Guvernului nu apare în text, competența fiind a conducătorului instituției.",
+   "O măsură asemănătoare, tot fără examen ori concurs, este prevăzută la art. 25 alin. (3) pentru copiii aflați în întreținere și soțul ori soția personalului militar clasat inapt sau apt limitat ori decedat în aceste condiții."
+  ],
+  "pozitionale": [],
+  "nivel": {
+   "score": 3.29,
+   "confidence": 0.65
+  },
+  "usage": {
+   "a": 3011,
+   "b": 5328
+  }
+ },
+ {
+  "id": "L80-133",
+  "cheie": [
+   "A",
+   "C"
+  ],
+  "temei": [
+   "01_Legea_80-1995_statutul_cadrelor_militare.txt",
+   "23"
+  ],
+  "nota_abrogare": false,
+  "tip": "multiplu",
+  "variante": {
+   "A": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   },
+   "B": {
+    "alegere": "nu_spune",
+    "probabilitati": {
+     "contrazice": 0.32,
+     "nu_spune": 0.68,
+     "sustine": 0.0
+    },
+    "confidence": 0.52
+   },
+   "C": {
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   },
+   "D": {
+    "alegere": "nu_spune",
+    "probabilitati": {
+     "contrazice": 0.38,
+     "nu_spune": 0.62,
+     "sustine": 0.0
+    },
+    "confidence": 0.43
+   }
+  },
+  "nouls": {
+   "sinonim": 0.06,
+   "absolut": 0.25,
+   "abrogat": 0.05,
+   "numeste_actul": 0.7,
    "categorie_ambigua": 0.59,
    "citat_acopera": 0.98
   },
@@ -2165,309 +3439,11 @@
    "0": {
     "alegere": "sustine",
     "probabilitati": {
-     "sustine": 1.0,
      "nu_spune": 0.0,
-     "contrazice": 0.0
+     "sustine": 0.97,
+     "contrazice": 0.03
     },
-    "confidence": 1.0
-   },
-   "1": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "sustine": 1.0,
-     "nu_spune": 0.0,
-     "contrazice": 0.0
-    },
-    "confidence": 0.99
-   },
-   "2": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "sustine": 1.0,
-     "nu_spune": 0.0,
-     "contrazice": 0.0
-    },
-    "confidence": 1.0
-   },
-   "3": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "sustine": 0.99,
-     "nu_spune": 0.0,
-     "contrazice": 0.01
-    },
-    "confidence": 0.98
-   }
-  },
-  "fraze": [
-   "Art. 14^3 alin. (1): concediul anual pentru formare profesională este plătit, de până la 15 zile lucrătoare, se aprobă de comandantul unității militare și se acordă în condițiile stabilite prin ordin al ministrului apărării naționale; ministrul stabilește condițiile, dar aprobarea concediului aparține comandantului unității.",
-   "Termenul se socotește în zile lucrătoare, nu calendaristice, iar valorile de 30 și 10 zile nu apar în text.",
-   "Potrivit alin. (2), durata acestui concediu nu poate fi dedusă din durata concediului de odihnă anual și este asimilată unei perioade de muncă efectivă în ceea ce privește drepturile cuvenite personalului militar.",
-   "Acest concediu plătit nu trebuie confundat cu concediul fără plată pentru formare profesională de cel mult 4 ani, rezervat cadrelor confirmate în serviciul medical (art. 14^2 alin. (1))."
-  ],
-  "pozitionale": [],
-  "nivel": {
-   "score": 2.94,
-   "confidence": 0.73
-  },
-  "usage": {
-   "a": 2056,
-   "b": 3948
-  }
- },
- {
-  "id": "L80-123",
-  "cheie": [
-   "B"
-  ],
-  "tip": "unic",
-  "variante": {
-   "A": {
-    "alegere": "contrazice",
-    "probabilitati": {
-     "nu_spune": 0.0,
-     "contrazice": 1.0,
-     "sustine": 0.0
-    },
-    "confidence": 1.0
-   },
-   "B": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "nu_spune": 0.0,
-     "contrazice": 0.0,
-     "sustine": 1.0
-    },
-    "confidence": 1.0
-   },
-   "C": {
-    "alegere": "contrazice",
-    "probabilitati": {
-     "nu_spune": 0.0,
-     "contrazice": 1.0,
-     "sustine": 0.0
-    },
-    "confidence": 0.99
-   },
-   "D": {
-    "alegere": "contrazice",
-    "probabilitati": {
-     "nu_spune": 0.0,
-     "contrazice": 1.0,
-     "sustine": 0.0
-    },
-    "confidence": 1.0
-   }
-  },
-  "nouls": {
-   "sinonim": 0.08,
-   "absolut": 0.32,
-   "abrogat": 0.04,
-   "numeste_actul": 0.75,
-   "categorie_ambigua": 0.61,
-   "citat_acopera": 0.98
-  },
-  "afirmatii": {
-   "0": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "sustine": 1.0,
-     "nu_spune": 0.0,
-     "contrazice": 0.0
-    },
-    "confidence": 1.0
-   },
-   "1": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "sustine": 0.99,
-     "nu_spune": 0.0,
-     "contrazice": 0.01
-    },
-    "confidence": 0.98
-   },
-   "2": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "sustine": 1.0,
-     "nu_spune": 0.0,
-     "contrazice": 0.0
-    },
-    "confidence": 1.0
-   }
-  },
-  "fraze": [
-   "Art. 14^4 enumeră complet drepturile păstrate pe timpul concediului de odihnă, al concediului paternal, al incapacității temporare de muncă și al permisiei: solda de funcție, solda de grad, gradațiile și, după caz, solda de comandă, indemnizațiile, compensațiile, sporurile, primele, majorările și alte drepturi salariale cu caracter permanent cuvenite pentru perioada respectivă.",
-   "Variantele care exclud sporurile, indemnizațiile, solda de comandă sau primele restrâng nejustificat enumerarea, iar varianta cu suspendarea celorlalte drepturi descrie, de fapt, regimul concediului fără plată, în care cadrele militare nu beneficiază de niciun drept din partea Ministerului Apărării Naționale, cu excepția folosirii locuinței de serviciu (art. 14^1 alin. (5)).",
-   "Textul art. 14^4 vizează expres cadrele militare în activitate din cadrul Ministerului Apărării Naționale."
-  ],
-  "pozitionale": [],
-  "nivel": {
-   "score": 2.03,
-   "confidence": 0.13
-  },
-  "usage": {
-   "a": 2069,
-   "b": 4341
-  }
- },
- {
-  "id": "L80-124",
-  "cheie": [
-   "A"
-  ],
-  "tip": "unic",
-  "variante": {
-   "A": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "sustine": 1.0,
-     "contrazice": 0.0,
-     "nu_spune": 0.0
-    },
-    "confidence": 1.0
-   },
-   "B": {
-    "alegere": "contrazice",
-    "probabilitati": {
-     "contrazice": 1.0,
-     "sustine": 0.0,
-     "nu_spune": 0.0
-    },
-    "confidence": 1.0
-   },
-   "C": {
-    "alegere": "contrazice",
-    "probabilitati": {
-     "contrazice": 1.0,
-     "sustine": 0.0,
-     "nu_spune": 0.0
-    },
-    "confidence": 1.0
-   },
-   "D": {
-    "alegere": "contrazice",
-    "probabilitati": {
-     "contrazice": 1.0,
-     "sustine": 0.0,
-     "nu_spune": 0.0
-    },
-    "confidence": 1.0
-   }
-  },
-  "nouls": {
-   "sinonim": 0.06,
-   "absolut": 0.45,
-   "abrogat": 0.06,
-   "numeste_actul": 0.74,
-   "categorie_ambigua": 0.49,
-   "citat_acopera": 0.96
-  },
-  "afirmatii": {
-   "0": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "nu_spune": 0.0,
-     "contrazice": 0.0,
-     "sustine": 1.0
-    },
-    "confidence": 0.99
-   },
-   "1": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "nu_spune": 0.01,
-     "contrazice": 0.01,
-     "sustine": 0.98
-    },
-    "confidence": 0.97
-   },
-   "2": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "nu_spune": 0.0,
-     "contrazice": 0.01,
-     "sustine": 0.99
-    },
-    "confidence": 0.98
-   }
-  },
-  "fraze": [
-   "Art. 15 alin. (3): la stabilirea stagiului în gradul pe care îl au cadrele militare se ia în calcul întreaga durată a concediului prevăzut la alin. (2), adică a concediului și indemnizației pentru îngrijirea copilului bolnav, a concediului de acomodare, a concediului paternal și a concediului și indemnizației pentru creșterea copilului, acordate în condițiile dispozițiilor legale în vigoare.",
-   "Proporția de trei pătrimi se aplică, potrivit art. 14^1 alin. (7), concediului fără plată luat pentru a urma soțul trimis în misiune permanentă în străinătate, iar neluarea în calcul privește concediul fără plată acordat pentru alte cazuri temeinic motivate (art. 14^1 alin. (8^1)); proporția de jumătate nu apare în lege.",
-   "Art. 15 alin. (1) prevede, pentru femeile cadre militare în activitate, dreptul la concediu de maternitate, la pauze pentru alimentarea și îngrijirea copilului și la celelalte drepturi prevăzute de lege pentru femeile salariate din administrația publică."
-  ],
-  "pozitionale": [],
-  "nivel": {
-   "score": 2.35,
-   "confidence": 0.69
-  },
-  "usage": {
-   "a": 1885,
-   "b": 4728
-  }
- },
- {
-  "id": "L80-125",
-  "cheie": [
-   "B"
-  ],
-  "tip": "unic",
-  "variante": {
-   "A": {
-    "alegere": "contrazice",
-    "probabilitati": {
-     "contrazice": 0.99,
-     "nu_spune": 0.0,
-     "sustine": 0.01
-    },
-    "confidence": 0.99
-   },
-   "B": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "contrazice": 0.0,
-     "nu_spune": 0.0,
-     "sustine": 1.0
-    },
-    "confidence": 1.0
-   },
-   "C": {
-    "alegere": "contrazice",
-    "probabilitati": {
-     "contrazice": 1.0,
-     "nu_spune": 0.0,
-     "sustine": 0.0
-    },
-    "confidence": 0.99
-   },
-   "D": {
-    "alegere": "contrazice",
-    "probabilitati": {
-     "contrazice": 1.0,
-     "nu_spune": 0.0,
-     "sustine": 0.0
-    },
-    "confidence": 1.0
-   }
-  },
-  "nouls": {
-   "sinonim": 0.08,
-   "absolut": 0.35,
-   "abrogat": 0.09,
-   "numeste_actul": 0.64,
-   "categorie_ambigua": 0.48,
-   "citat_acopera": 0.98
-  },
-  "afirmatii": {
-   "0": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "nu_spune": 0.0,
-     "sustine": 1.0,
-     "contrazice": 0.0
-    },
-    "confidence": 1.0
+    "confidence": 0.95
    },
    "1": {
     "alegere": "sustine",
@@ -2489,824 +3465,13 @@
    }
   },
   "fraze": [
-   "Art. 17 alin. (1) acordă dreptul la permisii, pentru rezolvarea unor situații personale sau familiale deosebite, cadrelor militare în activitate, precum și celor în rezervă, dar numai pe timpul cât acestea sunt concentrate sau mobilizate în unități militare.",
-   "Varianta „numai cadrelor în activitate” omite cadrele în rezervă concentrate sau mobilizate, iar cea cu cadrele în rezervă necondiționat omite cerința concentrării sau mobilizării; cadrele în retragere nu sunt menționate, ele nemaiputând fi chemate pentru îndeplinirea serviciului militar (art. 4 lit. c)).",
-   "Potrivit alin. (2), durata permisiilor și comandanții care au dreptul să le aprobe se stabilesc prin regulamentele militare, iar art. 18 prevede că timpul acordat pentru permisii nu se scade din durata concediului anual de odihnă sau a concediului de odihnă suplimentar."
-  ],
-  "pozitionale": [],
-  "nivel": {
-   "score": 3.41,
-   "confidence": 0.51
-  },
-  "usage": {
-   "a": 1711,
-   "b": 3303
-  }
- },
- {
-  "id": "L80-126",
-  "cheie": [
-   "C"
-  ],
-  "tip": "unic",
-  "variante": {
-   "A": {
-    "alegere": "contrazice",
-    "probabilitati": {
-     "sustine": 0.0,
-     "nu_spune": 0.0,
-     "contrazice": 1.0
-    },
-    "confidence": 1.0
-   },
-   "B": {
-    "alegere": "contrazice",
-    "probabilitati": {
-     "sustine": 0.0,
-     "nu_spune": 0.0,
-     "contrazice": 1.0
-    },
-    "confidence": 1.0
-   },
-   "C": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "sustine": 1.0,
-     "nu_spune": 0.0,
-     "contrazice": 0.0
-    },
-    "confidence": 1.0
-   },
-   "D": {
-    "alegere": "nu_spune",
-    "probabilitati": {
-     "sustine": 0.0,
-     "nu_spune": 0.6,
-     "contrazice": 0.4
-    },
-    "confidence": 0.39
-   }
-  },
-  "nouls": {
-   "sinonim": 0.08,
-   "absolut": 0.31,
-   "abrogat": 0.06,
-   "numeste_actul": 0.69,
-   "categorie_ambigua": 0.45,
-   "citat_acopera": 0.97
-  },
-  "afirmatii": {
-   "0": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "sustine": 1.0,
-     "nu_spune": 0.0,
-     "contrazice": 0.0
-    },
-    "confidence": 1.0
-   },
-   "1": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "sustine": 0.96,
-     "nu_spune": 0.03,
-     "contrazice": 0.01
-    },
-    "confidence": 0.95
-   },
-   "2": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "sustine": 0.99,
-     "nu_spune": 0.01,
-     "contrazice": 0.0
-    },
-    "confidence": 0.99
-   }
-  },
-  "fraze": [
-   "Art. 18 prevede expres că timpul acordat pentru permisii, scutiri și concedii medicale nu se scade nici din durata concediului anual de odihnă, nici din cea a concediului de odihnă suplimentar, deci ambele variante cu scădere sunt greșite.",
-   "Compensarea în bani, stabilită prin hotărâre a Guvernului, privește concediul de odihnă neefectuat (art. 14 alin. (2)), nu timpul permisiilor sau al concediilor medicale.",
-   "O regulă asemănătoare există la art. 14^3 alin. (2), potrivit căruia durata concediului pentru formare profesională nu poate fi dedusă din durata concediului de odihnă anual."
-  ],
-  "pozitionale": [],
-  "nivel": {
-   "score": 2.53,
-   "confidence": 0.0
-  },
-  "usage": {
-   "a": 2223,
-   "b": 3616
-  }
- },
- {
-  "id": "L80-127",
-  "cheie": [
-   "D"
-  ],
-  "tip": "unic",
-  "variante": {
-   "A": {
-    "alegere": "contrazice",
-    "probabilitati": {
-     "contrazice": 0.99,
-     "nu_spune": 0.0,
-     "sustine": 0.01
-    },
-    "confidence": 0.97
-   },
-   "B": {
-    "alegere": "contrazice",
-    "probabilitati": {
-     "contrazice": 1.0,
-     "nu_spune": 0.0,
-     "sustine": 0.0
-    },
-    "confidence": 1.0
-   },
-   "C": {
-    "alegere": "contrazice",
-    "probabilitati": {
-     "contrazice": 1.0,
-     "nu_spune": 0.0,
-     "sustine": 0.0
-    },
-    "confidence": 0.99
-   },
-   "D": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "contrazice": 0.0,
-     "nu_spune": 0.0,
-     "sustine": 1.0
-    },
-    "confidence": 1.0
-   }
-  },
-  "nouls": {
-   "sinonim": 0.11,
-   "absolut": 0.38,
-   "abrogat": 0.03,
-   "numeste_actul": 0.75,
-   "categorie_ambigua": 0.45,
-   "citat_acopera": 0.97
-  },
-  "afirmatii": {
-   "0": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "nu_spune": 0.0,
-     "contrazice": 0.0,
-     "sustine": 1.0
-    },
-    "confidence": 1.0
-   },
-   "1": {
-    "alegere": "nu_spune",
-    "probabilitati": {
-     "nu_spune": 0.63,
-     "contrazice": 0.03,
-     "sustine": 0.34
-    },
-    "confidence": 0.45
-   },
-   "2": {
-    "alegere": "nu_spune",
-    "probabilitati": {
-     "nu_spune": 0.57,
-     "contrazice": 0.03,
-     "sustine": 0.4
-    },
-    "confidence": 0.37
-   },
-   "3": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "nu_spune": 0.0,
-     "contrazice": 0.0,
-     "sustine": 1.0
-    },
-    "confidence": 1.0
-   }
-  },
-  "fraze": [
-   "Art. 20^1 alin. (1) stabilește plafonul compensației lunare pentru chirie la „până la 50% din solda lunară”, solda lunară fiind, potrivit art. 9 lit. a), compusă din solda de grad, solda de funcție, gradații și indemnizații.",
-   "Varianta „50% din solda de funcție” este capcana clasică: H.G. nr. 1867/2005, care stabilește cuantumul concret potrivit art. 20^1 alin. (3), raportează procentele la solda de funcție, dar întrebarea vizează textul Legii nr. 80/1995, unde baza este solda lunară; procentul de 40% apare tot în hotărârea Guvernului, pentru alte localități decât municipiile, stațiunile și localitățile cu situații deosebite, nu în lege.",
-   "Solda de grad nu este baza de calcul în niciunul dintre cele două acte.",
-   "Potrivit art. 20^1 alin. (3), cuantumul concret al compensației și condițiile de acordare se stabilesc prin hotărâre a Guvernului, la propunerea ministrului apărării naționale."
-  ],
-  "pozitionale": [],
-  "nivel": {
-   "score": 2.9,
-   "confidence": 0.25
-  },
-  "usage": {
-   "a": 3456,
-   "b": 7087
-  }
- },
- {
-  "id": "L80-128",
-  "cheie": [
-   "C"
-  ],
-  "tip": "unic",
-  "variante": {
-   "A": {
-    "alegere": "contrazice",
-    "probabilitati": {
-     "sustine": 0.0,
-     "nu_spune": 0.0,
-     "contrazice": 1.0
-    },
-    "confidence": 1.0
-   },
-   "B": {
-    "alegere": "contrazice",
-    "probabilitati": {
-     "sustine": 0.0,
-     "nu_spune": 0.0,
-     "contrazice": 1.0
-    },
-    "confidence": 1.0
-   },
-   "C": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "sustine": 0.95,
-     "nu_spune": 0.0,
-     "contrazice": 0.05
-    },
-    "confidence": 0.92
-   },
-   "D": {
-    "alegere": "contrazice",
-    "probabilitati": {
-     "sustine": 0.03,
-     "nu_spune": 0.07,
-     "contrazice": 0.9
-    },
-    "confidence": 0.86
-   }
-  },
-  "nouls": {
-   "sinonim": 0.11,
-   "absolut": 0.17,
-   "abrogat": 0.04,
-   "numeste_actul": 0.74,
-   "categorie_ambigua": 0.46,
-   "citat_acopera": 0.96
-  },
-  "afirmatii": {
-   "0": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "nu_spune": 0.0,
-     "sustine": 0.99,
-     "contrazice": 0.01
-    },
-    "confidence": 0.99
-   },
-   "1": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "nu_spune": 0.0,
-     "sustine": 1.0,
-     "contrazice": 0.0
-    },
-    "confidence": 1.0
-   },
-   "2": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "nu_spune": 0.0,
-     "sustine": 0.99,
-     "contrazice": 0.01
-    },
-    "confidence": 0.99
-   }
-  },
-  "fraze": [
-   "Art. 20^1 alin. (2) tratează situația cadrelor militare aflate în garnizoana de domiciliu: ele pot beneficia de compensația lunară pentru chirie prevăzută la alin. (1), dar numai în cazuri justificate, pe baza rezultatelor anchetei sociale efectuate de o comisie constituită prin ordin al ministrului apărării naționale și la propunerea comandanților sau a șefilor lor.",
-   "Dreptul nu este exclus, cum susține varianta care rezervă compensația celor mutați în altă garnizoană decât cea de domiciliu, dar nici nu se acordă de drept, cum susține varianta „în aceleași condiții ca cei mutați în altă garnizoană”: acordarea de drept este regimul situației de la alin. (1), în care cadrul militar este mutat în altă garnizoană decât cea de domiciliu.",
-   "Creditul ipotecar/imobiliar sau contractul de vânzare-cumpărare cu plata în rate nu este o condiție a alin. (2), ci ipoteza distinctă de la alin. (2^1), în care cei care îndeplinesc condițiile de la alin. (1) și (2) primesc compensația pentru plata ratei, fără a depăși rata lunară plătită."
-  ],
-  "pozitionale": [],
-  "nivel": {
-   "score": 3.31,
-   "confidence": 0.73
-  },
-  "usage": {
-   "a": 3558,
-   "b": 6612
-  }
- },
- {
-  "id": "L80-129",
-  "cheie": [
-   "A",
-   "C",
-   "D"
-  ],
-  "tip": "multiplu",
-  "variante": {
-   "A": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "contrazice": 0.0,
-     "nu_spune": 0.0,
-     "sustine": 1.0
-    },
-    "confidence": 1.0
-   },
-   "B": {
-    "alegere": "contrazice",
-    "probabilitati": {
-     "contrazice": 1.0,
-     "nu_spune": 0.0,
-     "sustine": 0.0
-    },
-    "confidence": 1.0
-   },
-   "C": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "contrazice": 0.01,
-     "nu_spune": 0.0,
-     "sustine": 0.99
-    },
-    "confidence": 0.98
-   },
-   "D": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "contrazice": 0.0,
-     "nu_spune": 0.0,
-     "sustine": 1.0
-    },
-    "confidence": 1.0
-   }
-  },
-  "nouls": {
-   "sinonim": 0.11,
-   "absolut": 0.13,
-   "abrogat": 0.04,
-   "numeste_actul": 0.69,
-   "categorie_ambigua": 0.45,
-   "citat_acopera": 0.94
-  },
-  "afirmatii": {
-   "0": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "nu_spune": 0.0,
-     "contrazice": 0.0,
-     "sustine": 1.0
-    },
-    "confidence": 1.0
-   },
-   "1": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "nu_spune": 0.0,
-     "contrazice": 0.0,
-     "sustine": 1.0
-    },
-    "confidence": 1.0
-   },
-   "2": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "nu_spune": 0.0,
-     "contrazice": 0.0,
-     "sustine": 1.0
-    },
-    "confidence": 1.0
-   },
-   "3": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "nu_spune": 0.0,
-     "contrazice": 0.0,
-     "sustine": 1.0
-    },
-    "confidence": 1.0
-   }
-  },
-  "fraze": [
-   "Art. 20^1 alin. (2^2) prevede că, în situația creditului ipotecar/imobiliar sau a contractului de vânzare-cumpărare cu plata în rate (alin. (2^1)), compensația se acordă pentru o singură locuință achiziționată pe timpul carierei și că ea nu se poate acorda concomitent pentru situația de la alin. (1) și (2) (chirie) și pentru situația de la alin. (2^1) (rată), cadrul militar trebuind să opteze pentru una dintre ele, deci varianta privind acordarea concomitentă pentru plata chiriei și pentru plata ratei creditului este greșită.",
-   "Alin. (2^4) limitează beneficiul la o singură garnizoană pentru cadrele mutate sau detașate și/sau împuternicite prevăzute la alin. (1).",
-   "Alin. (3) trimite la hotărârea Guvernului, adoptată la propunerea ministrului apărării naționale, pentru cuantumul concret al compensației de la alin. (1), (2) și (2^1) și pentru condițiile de acordare.",
-   "Tot alin. (2^2) precizează că Ministerul Apărării Naționale nu îi asigură cadrului militar care a optat pentru situația de la alin. (2^1) un spațiu de locuit corespunzător în garnizoana unde a achiziționat locuința, pe durata existenței acestei situații."
-  ],
-  "pozitionale": [],
-  "nivel": {
-   "score": 3.5,
-   "confidence": 0.58
-  },
-  "usage": {
-   "a": 3460,
-   "b": 6930
-  }
- },
- {
-  "id": "L80-130",
-  "cheie": [
-   "A"
-  ],
-  "tip": "unic",
-  "variante": {
-   "A": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "sustine": 1.0,
-     "nu_spune": 0.0,
-     "contrazice": 0.0
-    },
-    "confidence": 0.99
-   },
-   "B": {
-    "alegere": "contrazice",
-    "probabilitati": {
-     "sustine": 0.0,
-     "nu_spune": 0.0,
-     "contrazice": 1.0
-    },
-    "confidence": 1.0
-   },
-   "C": {
-    "alegere": "contrazice",
-    "probabilitati": {
-     "sustine": 0.0,
-     "nu_spune": 0.0,
-     "contrazice": 1.0
-    },
-    "confidence": 1.0
-   },
-   "D": {
-    "alegere": "contrazice",
-    "probabilitati": {
-     "sustine": 0.0,
-     "nu_spune": 0.0,
-     "contrazice": 1.0
-    },
-    "confidence": 1.0
-   }
-  },
-  "nouls": {
-   "sinonim": 0.07,
-   "absolut": 0.11,
-   "abrogat": 0.04,
-   "numeste_actul": 0.74,
-   "categorie_ambigua": 0.33,
-   "citat_acopera": 0.98
-  },
-  "afirmatii": {
-   "0": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "sustine": 1.0,
-     "nu_spune": 0.0,
-     "contrazice": 0.0
-    },
-    "confidence": 1.0
-   },
-   "1": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "sustine": 1.0,
-     "nu_spune": 0.0,
-     "contrazice": 0.0
-    },
-    "confidence": 0.99
-   },
-   "2": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "sustine": 1.0,
-     "nu_spune": 0.0,
-     "contrazice": 0.0
-    },
-    "confidence": 1.0
-   }
-  },
-  "fraze": [
-   "Art. 20^1 alin. (4) fixează trei elemente: cuantumul (50% din solda lunară a cadrului militar urmat), condiția de încetare (o nouă angajare sau prestarea unei activități autorizate aducătoare de venituri) și limita temporală (nu mai mult de 9 luni de la data mutării cadrului militar).",
-   "Variantele cu 6 luni, 25% sau 12 luni și solda de funcție modifică unul dintre aceste elemente; niciuna dintre aceste valori nu apare la alin. (4), iar baza de calcul este solda lunară, nu solda de funcție.",
-   "Potrivit alin. (5), de aceeași indemnizație beneficiază și soții sau soțiile care, la data mutării, erau înscrise ca șomeri la agențiile pentru ocuparea forței de muncă județene sau a municipiului București, dar numai după expirarea, potrivit legii, a termenului de plată a indemnizației de șomaj."
-  ],
-  "pozitionale": [],
-  "nivel": {
-   "score": 2.38,
-   "confidence": 0.67
-  },
-  "usage": {
-   "a": 3552,
-   "b": 6465
-  }
- },
- {
-  "id": "L80-131",
-  "cheie": [
-   "B"
-  ],
-  "tip": "unic",
-  "variante": {
-   "A": {
-    "alegere": "contrazice",
-    "probabilitati": {
-     "nu_spune": 0.0,
-     "sustine": 0.0,
-     "contrazice": 1.0
-    },
-    "confidence": 1.0
-   },
-   "B": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "nu_spune": 0.0,
-     "sustine": 0.99,
-     "contrazice": 0.01
-    },
-    "confidence": 0.99
-   },
-   "C": {
-    "alegere": "contrazice",
-    "probabilitati": {
-     "nu_spune": 0.0,
-     "sustine": 0.02,
-     "contrazice": 0.98
-    },
-    "confidence": 0.97
-   },
-   "D": {
-    "alegere": "contrazice",
-    "probabilitati": {
-     "nu_spune": 0.0,
-     "sustine": 0.0,
-     "contrazice": 1.0
-    },
-    "confidence": 1.0
-   }
-  },
-  "nouls": {
-   "sinonim": 0.09,
-   "absolut": 0.2,
-   "abrogat": 0.1,
-   "numeste_actul": 0.66,
-   "categorie_ambigua": 0.47,
-   "citat_acopera": 0.93
-  },
-  "afirmatii": {
-   "0": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "sustine": 1.0,
-     "nu_spune": 0.0,
-     "contrazice": 0.0
-    },
-    "confidence": 0.99
-   },
-   "1": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "sustine": 1.0,
-     "nu_spune": 0.0,
-     "contrazice": 0.0
-    },
-    "confidence": 1.0
-   },
-   "2": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "sustine": 1.0,
-     "nu_spune": 0.0,
-     "contrazice": 0.0
-    },
-    "confidence": 0.99
-   },
-   "3": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "sustine": 1.0,
-     "nu_spune": 0.0,
-     "contrazice": 0.0
-    },
-    "confidence": 0.99
-   },
-   "4": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "sustine": 0.99,
-     "nu_spune": 0.0,
-     "contrazice": 0.01
-    },
-    "confidence": 0.98
-   }
-  },
-  "fraze": [
-   "Art. 21 alin. (1) stabilește beneficiarii despăgubirilor: ofițerii, maiștrii militari și subofițerii în activitate și cei în rezervă, dar numai pe timpul cât sunt concentrați sau mobilizați în unitățile militare, pentru invaliditatea sau decesul produse ca urmare a unor acțiuni militare, prin accidente, catastrofe sau alte asemenea evenimente intervenite în timpul și din cauza serviciului militar ori a unor misiuni în cadrul forțelor internaționale.",
-   "Potrivit alin. (2), cuantumul despăgubirilor acordate cadrelor devenite invalide, respectiv urmașilor celor decedate, se stabilește prin hotărâre a Guvernului, nu prin ordin al ministrului apărării naționale.",
-   "Varianta „numai cadrelor în activitate” omite rezerviștii concentrați sau mobilizați, iar cea cu cadrele în retragere adaugă o categorie pe care textul nu o prevede (cadrele în retragere nu mai pot fi chemate pentru îndeplinirea serviciului militar, art. 4 lit. c)).",
-   "Cele două solde lunare neimpozabile reprezintă ajutorul suplimentar acordat de Ministerul Apărării Naționale la decesul unui cadru militar în activitate (art. 23 alin. (3)), nu cuantumul despăgubirilor.",
-   "Atenție: prevederile art. 21 alin. (3) referitoare la pensia pentru invaliditate permanentă sunt semnalate în notele portalului ca abrogate de legislația anterioară de pensii, pensiile militare fiind reglementate în prezent prin Legea nr. 223/2015; în schimb, alin. (4), în vigoare, permite personalului militar încadrat în gradul III de invaliditate sau clasat apt limitat să fie menținut ori rechemat în activitate sau încadrat în funcții civile fără examen sau concurs, la cerere."
-  ],
-  "pozitionale": [],
-  "nivel": {
-   "score": 3.58,
-   "confidence": 0.65
-  },
-  "usage": {
-   "a": 3027,
-   "b": 6342
-  }
- },
- {
-  "id": "L80-132",
-  "cheie": [
-   "C"
-  ],
-  "tip": "unic",
-  "variante": {
-   "A": {
-    "alegere": "contrazice",
-    "probabilitati": {
-     "nu_spune": 0.03,
-     "contrazice": 0.97,
-     "sustine": 0.0
-    },
-    "confidence": 0.95
-   },
-   "B": {
-    "alegere": "contrazice",
-    "probabilitati": {
-     "nu_spune": 0.01,
-     "contrazice": 0.99,
-     "sustine": 0.0
-    },
-    "confidence": 0.99
-   },
-   "C": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "nu_spune": 0.0,
-     "contrazice": 0.0,
-     "sustine": 1.0
-    },
-    "confidence": 1.0
-   },
-   "D": {
-    "alegere": "contrazice",
-    "probabilitati": {
-     "nu_spune": 0.01,
-     "contrazice": 0.99,
-     "sustine": 0.0
-    },
-    "confidence": 0.98
-   }
-  },
-  "nouls": {
-   "sinonim": 0.08,
-   "absolut": 0.17,
-   "abrogat": 0.13,
-   "numeste_actul": 0.7,
-   "categorie_ambigua": 0.42,
-   "citat_acopera": 0.98
-  },
-  "afirmatii": {
-   "0": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "nu_spune": 0.0,
-     "sustine": 1.0,
-     "contrazice": 0.0
-    },
-    "confidence": 1.0
-   },
-   "1": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "contrazice": 0.01,
-     "sustine": 0.99,
-     "nu_spune": 0.0
-    },
-    "confidence": 0.99
-   },
-   "2": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "contrazice": 0.0,
-     "sustine": 1.0,
-     "nu_spune": 0.0
-    },
-    "confidence": 0.99
-   }
-  },
-  "fraze": [
-   "Art. 21 alin. (4) oferă, la cerere, personalului militar încadrat în gradul III de invaliditate sau clasat apt limitat, în timpul ori în legătură cu exercitarea atribuțiilor de serviciu, trei posibilități: menținerea în activitate, rechemarea în activitate în funcții militare sau încadrarea în funcții civile, fără examen sau concurs, în instituțiile din sistemul de apărare, ordine publică și siguranță națională, în condițiile stabilite prin ordin al conducătorului instituției.",
-   "Trecerea obligatorie în rezervă contrazice posibilitatea menținerii în activitate; încadrarea „numai în funcții civile, prin concurs” contrazice atât alternativa funcțiilor militare, cât și scutirea de examen sau concurs; aprobarea Guvernului nu apare în text, competența fiind a conducătorului instituției.",
-   "O măsură asemănătoare, tot fără examen ori concurs, este prevăzută la art. 25 alin. (3) pentru copiii aflați în întreținere și soțul ori soția personalului militar clasat inapt sau apt limitat ori decedat în aceste condiții."
-  ],
-  "pozitionale": [],
-  "nivel": {
-   "score": 3.28,
-   "confidence": 0.68
-  },
-  "usage": {
-   "a": 3011,
-   "b": 5328
-  }
- },
- {
-  "id": "L80-133",
-  "cheie": [
-   "A",
-   "C"
-  ],
-  "tip": "multiplu",
-  "variante": {
-   "A": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "sustine": 1.0,
-     "nu_spune": 0.0,
-     "contrazice": 0.0
-    },
-    "confidence": 1.0
-   },
-   "B": {
-    "alegere": "nu_spune",
-    "probabilitati": {
-     "sustine": 0.01,
-     "nu_spune": 0.67,
-     "contrazice": 0.32
-    },
-    "confidence": 0.51
-   },
-   "C": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "sustine": 1.0,
-     "nu_spune": 0.0,
-     "contrazice": 0.0
-    },
-    "confidence": 1.0
-   },
-   "D": {
-    "alegere": "nu_spune",
-    "probabilitati": {
-     "nu_spune": 0.62,
-     "sustine": 0.0,
-     "contrazice": 0.38
-    },
-    "confidence": 0.42
-   }
-  },
-  "nouls": {
-   "sinonim": 0.08,
-   "absolut": 0.24,
-   "abrogat": 0.04,
-   "numeste_actul": 0.67,
-   "categorie_ambigua": 0.6,
-   "citat_acopera": 0.97
-  },
-  "afirmatii": {
-   "0": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "sustine": 0.97,
-     "nu_spune": 0.0,
-     "contrazice": 0.03
-    },
-    "confidence": 0.96
-   },
-   "1": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "sustine": 0.99,
-     "nu_spune": 0.0,
-     "contrazice": 0.01
-    },
-    "confidence": 0.98
-   },
-   "2": {
-    "alegere": "sustine",
-    "probabilitati": {
-     "sustine": 1.0,
-     "nu_spune": 0.0,
-     "contrazice": 0.0
-    },
-    "confidence": 0.99
-   }
-  },
-  "fraze": [
    "Art. 23 alin. (1) enumeră două drepturi gratuite ale membrilor familiilor cadrelor militare în activitate: asistența medicală și medicamentele, în rețeaua sanitară a Ministerului Apărării Naționale sau în alte rețele sanitare, cu decontarea cheltuielilor de către minister (lit. a)), și transportul, atunci când cadrul militar este mutat în interes de serviciu dintr-o garnizoană în alta (lit. b)).",
    "Locuința de serviciu, echipamentul și hrana gratuite sunt drepturi ale cadrelor militare în activitate înseși, prevăzute la art. 9 lit. b), nu ale membrilor familiilor lor.",
    "Potrivit alin. (2), membrii familiilor beneficiază și de pensie de urmaș și de alte drepturi conform prevederilor legale, iar alin. (3) prevede, la decesul unui cadru militar în activitate, ajutorul suplimentar de două solde lunare neimpozabile."
   ],
   "pozitionale": [],
   "nivel": {
-   "score": 2.31,
+   "score": 2.5,
    "confidence": 0.0
   },
   "usage": {
@@ -3319,41 +3484,46 @@
   "cheie": [
    "B"
   ],
+  "temei": [
+   "01_Legea_80-1995_statutul_cadrelor_militare.txt",
+   "23"
+  ],
+  "nota_abrogare": false,
   "tip": "unic",
   "variante": {
    "A": {
     "alegere": "contrazice",
     "probabilitati": {
-     "contrazice": 1.0,
+     "sustine": 0.0,
      "nu_spune": 0.0,
-     "sustine": 0.0
+     "contrazice": 1.0
     },
     "confidence": 1.0
    },
    "B": {
     "alegere": "sustine",
     "probabilitati": {
-     "contrazice": 0.0,
+     "sustine": 1.0,
      "nu_spune": 0.0,
-     "sustine": 1.0
+     "contrazice": 0.0
     },
     "confidence": 1.0
    },
    "C": {
     "alegere": "contrazice",
     "probabilitati": {
-     "contrazice": 1.0,
+     "sustine": 0.0,
      "nu_spune": 0.0,
-     "sustine": 0.0
+     "contrazice": 1.0
     },
     "confidence": 1.0
    },
    "D": {
     "alegere": "contrazice",
     "probabilitati": {
-     "contrazice": 0.99,
+     "sustine": 0.0,
      "nu_spune": 0.01,
-     "sustine": 0.0
+     "contrazice": 0.99
     },
     "confidence": 0.99
    }
@@ -3362,8 +3532,8 @@
    "sinonim": 0.06,
    "absolut": 0.24,
    "abrogat": 0.05,
-   "numeste_actul": 0.74,
-   "categorie_ambigua": 0.61,
+   "numeste_actul": 0.72,
+   "categorie_ambigua": 0.6,
    "citat_acopera": 0.98
   },
   "afirmatii": {
@@ -3371,8 +3541,8 @@
     "alegere": "sustine",
     "probabilitati": {
      "contrazice": 0.0,
-     "nu_spune": 0.0,
-     "sustine": 1.0
+     "sustine": 1.0,
+     "nu_spune": 0.0
     },
     "confidence": 1.0
    },
@@ -3383,7 +3553,7 @@
      "nu_spune": 0.0,
      "sustine": 0.99
     },
-    "confidence": 0.99
+    "confidence": 0.98
    },
    "2": {
     "alegere": "sustine",
@@ -3415,13 +3585,18 @@
   "cheie": [
    "A"
   ],
+  "temei": [
+   "01_Legea_80-1995_statutul_cadrelor_militare.txt",
+   "26"
+  ],
+  "nota_abrogare": false,
   "tip": "unic",
   "variante": {
    "A": {
     "alegere": "sustine",
     "probabilitati": {
-     "contrazice": 0.0,
      "nu_spune": 0.0,
+     "contrazice": 0.0,
      "sustine": 1.0
     },
     "confidence": 1.0
@@ -3429,45 +3604,45 @@
    "B": {
     "alegere": "contrazice",
     "probabilitati": {
-     "contrazice": 0.82,
-     "nu_spune": 0.18,
+     "nu_spune": 0.15,
+     "contrazice": 0.85,
      "sustine": 0.0
     },
-    "confidence": 0.72
+    "confidence": 0.77
    },
    "C": {
     "alegere": "contrazice",
     "probabilitati": {
-     "contrazice": 0.75,
-     "nu_spune": 0.23,
+     "nu_spune": 0.2,
+     "contrazice": 0.78,
      "sustine": 0.02
     },
-    "confidence": 0.62
+    "confidence": 0.66
    },
    "D": {
     "alegere": "nu_spune",
     "probabilitati": {
-     "contrazice": 0.1,
-     "nu_spune": 0.9,
+     "nu_spune": 0.92,
+     "contrazice": 0.08,
      "sustine": 0.0
     },
-    "confidence": 0.85
+    "confidence": 0.87
    }
   },
   "nouls": {
-   "sinonim": 0.07,
+   "sinonim": 0.06,
    "absolut": 0.23,
-   "abrogat": 0.08,
-   "numeste_actul": 0.71,
-   "categorie_ambigua": 0.62,
+   "abrogat": 0.09,
+   "numeste_actul": 0.68,
+   "categorie_ambigua": 0.63,
    "citat_acopera": 0.96
   },
   "afirmatii": {
    "0": {
     "alegere": "sustine",
     "probabilitati": {
-     "nu_spune": 0.0,
      "sustine": 1.0,
+     "nu_spune": 0.0,
      "contrazice": 0.0
     },
     "confidence": 1.0
@@ -3475,17 +3650,17 @@
    "1": {
     "alegere": "sustine",
     "probabilitati": {
-     "nu_spune": 0.0,
      "sustine": 1.0,
+     "nu_spune": 0.0,
      "contrazice": 0.0
     },
-    "confidence": 0.99
+    "confidence": 1.0
    },
    "2": {
     "alegere": "sustine",
     "probabilitati": {
-     "nu_spune": 0.0,
      "sustine": 1.0,
+     "nu_spune": 0.0,
      "contrazice": 0.0
     },
     "confidence": 1.0
@@ -3493,20 +3668,20 @@
    "3": {
     "alegere": "sustine",
     "probabilitati": {
-     "nu_spune": 0.0,
      "sustine": 0.99,
+     "nu_spune": 0.0,
      "contrazice": 0.01
     },
-    "confidence": 0.97
+    "confidence": 0.98
    },
    "4": {
     "alegere": "sustine",
     "probabilitati": {
-     "nu_spune": 0.0,
      "sustine": 0.99,
+     "nu_spune": 0.0,
      "contrazice": 0.01
     },
-    "confidence": 0.98
+    "confidence": 0.99
    }
   },
   "fraze": [
@@ -3518,8 +3693,8 @@
   ],
   "pozitionale": [],
   "nivel": {
-   "score": 3.56,
-   "confidence": 0.63
+   "score": 3.69,
+   "confidence": 0.74
   },
   "usage": {
    "a": 2541,
@@ -3531,14 +3706,19 @@
   "cheie": [
    "A"
   ],
+  "temei": [
+   "01_Legea_80-1995_statutul_cadrelor_militare.txt",
+   "28"
+  ],
+  "nota_abrogare": false,
   "tip": "unic",
   "variante": {
    "A": {
     "alegere": "sustine",
     "probabilitati": {
      "sustine": 1.0,
-     "nu_spune": 0.0,
-     "contrazice": 0.0
+     "contrazice": 0.0,
+     "nu_spune": 0.0
     },
     "confidence": 1.0
    },
@@ -3546,8 +3726,8 @@
     "alegere": "contrazice",
     "probabilitati": {
      "sustine": 0.0,
-     "nu_spune": 0.0,
-     "contrazice": 1.0
+     "contrazice": 1.0,
+     "nu_spune": 0.0
     },
     "confidence": 1.0
    },
@@ -3555,8 +3735,8 @@
     "alegere": "contrazice",
     "probabilitati": {
      "sustine": 0.0,
-     "nu_spune": 0.0,
-     "contrazice": 1.0
+     "contrazice": 1.0,
+     "nu_spune": 0.0
     },
     "confidence": 1.0
    },
@@ -3564,45 +3744,45 @@
     "alegere": "contrazice",
     "probabilitati": {
      "sustine": 0.0,
-     "nu_spune": 0.0,
-     "contrazice": 1.0
+     "contrazice": 1.0,
+     "nu_spune": 0.0
     },
     "confidence": 1.0
    }
   },
   "nouls": {
-   "sinonim": 0.07,
-   "absolut": 0.37,
+   "sinonim": 0.06,
+   "absolut": 0.34,
    "abrogat": 0.05,
-   "numeste_actul": 0.73,
-   "categorie_ambigua": 0.64,
+   "numeste_actul": 0.7,
+   "categorie_ambigua": 0.66,
    "citat_acopera": 0.97
   },
   "afirmatii": {
    "0": {
     "alegere": "sustine",
     "probabilitati": {
-     "sustine": 0.98,
-     "nu_spune": 0.0,
-     "contrazice": 0.02
+     "contrazice": 0.03,
+     "sustine": 0.97,
+     "nu_spune": 0.0
     },
-    "confidence": 0.97
+    "confidence": 0.96
    },
    "1": {
     "alegere": "sustine",
     "probabilitati": {
+     "contrazice": 0.0,
      "sustine": 1.0,
-     "nu_spune": 0.0,
-     "contrazice": 0.0
+     "nu_spune": 0.0
     },
-    "confidence": 0.99
+    "confidence": 1.0
    },
    "2": {
     "alegere": "sustine",
     "probabilitati": {
+     "contrazice": 0.0,
      "sustine": 1.0,
-     "nu_spune": 0.0,
-     "contrazice": 0.0
+     "nu_spune": 0.0
     },
     "confidence": 0.99
    }
@@ -3614,8 +3794,8 @@
   ],
   "pozitionale": [],
   "nivel": {
-   "score": 1.96,
-   "confidence": 0.2
+   "score": 1.94,
+   "confidence": 0.21
   },
   "usage": {
    "a": 2365,
@@ -3629,6 +3809,11 @@
    "C",
    "D"
   ],
+  "temei": [
+   "01_Legea_80-1995_statutul_cadrelor_militare.txt",
+   "29"
+  ],
+  "nota_abrogare": true,
   "tip": "multiplu",
   "variante": {
    "A": {
@@ -3670,9 +3855,9 @@
   },
   "nouls": {
    "sinonim": 0.07,
-   "absolut": 0.1,
+   "absolut": 0.11,
    "abrogat": 0.05,
-   "numeste_actul": 0.72,
+   "numeste_actul": 0.69,
    "categorie_ambigua": 0.69,
    "citat_acopera": 0.94
   },
@@ -3680,29 +3865,29 @@
    "0": {
     "alegere": "sustine",
     "probabilitati": {
+     "sustine": 1.0,
      "contrazice": 0.0,
-     "nu_spune": 0.0,
-     "sustine": 1.0
+     "nu_spune": 0.0
     },
-    "confidence": 1.0
+    "confidence": 0.99
    },
    "1": {
     "alegere": "sustine",
     "probabilitati": {
+     "sustine": 1.0,
      "contrazice": 0.0,
-     "nu_spune": 0.0,
-     "sustine": 1.0
+     "nu_spune": 0.0
     },
     "confidence": 1.0
    },
    "2": {
     "alegere": "sustine",
     "probabilitati": {
-     "contrazice": 0.03,
-     "nu_spune": 0.01,
-     "sustine": 0.96
+     "sustine": 0.98,
+     "contrazice": 0.02,
+     "nu_spune": 0.0
     },
-    "confidence": 0.95
+    "confidence": 0.97
    }
   },
   "fraze": [
@@ -3712,8 +3897,8 @@
   ],
   "pozitionale": [],
   "nivel": {
-   "score": 3.88,
-   "confidence": 0.9
+   "score": 3.86,
+   "confidence": 0.88
   },
   "usage": {
    "a": 2434,
@@ -3725,14 +3910,19 @@
   "cheie": [
    "D"
   ],
+  "temei": [
+   "01_Legea_80-1995_statutul_cadrelor_militare.txt",
+   "29"
+  ],
+  "nota_abrogare": true,
   "tip": "unic",
   "variante": {
    "A": {
     "alegere": "contrazice",
     "probabilitati": {
+     "contrazice": 1.0,
      "sustine": 0.0,
-     "nu_spune": 0.0,
-     "contrazice": 1.0
+     "nu_spune": 0.0
     },
     "confidence": 0.99
    },
@@ -3740,72 +3930,72 @@
     "alegere": "contrazice",
     "probabilitati": {
      "sustine": 0.0,
-     "nu_spune": 0.0,
-     "contrazice": 1.0
+     "contrazice": 1.0,
+     "nu_spune": 0.0
     },
     "confidence": 1.0
    },
    "C": {
     "alegere": "contrazice",
     "probabilitati": {
+     "contrazice": 0.98,
      "sustine": 0.01,
-     "nu_spune": 0.01,
-     "contrazice": 0.98
+     "nu_spune": 0.01
     },
     "confidence": 0.98
    },
    "D": {
     "alegere": "sustine",
     "probabilitati": {
+     "contrazice": 0.0,
      "sustine": 1.0,
-     "nu_spune": 0.0,
-     "contrazice": 0.0
+     "nu_spune": 0.0
     },
     "confidence": 1.0
    }
   },
   "nouls": {
    "sinonim": 0.09,
-   "absolut": 0.18,
-   "abrogat": 0.05,
-   "numeste_actul": 0.71,
-   "categorie_ambigua": 0.65,
+   "absolut": 0.19,
+   "abrogat": 0.04,
+   "numeste_actul": 0.69,
+   "categorie_ambigua": 0.66,
    "citat_acopera": 0.97
   },
   "afirmatii": {
    "0": {
     "alegere": "sustine",
     "probabilitati": {
-     "sustine": 0.98,
-     "nu_spune": 0.0,
-     "contrazice": 0.02
+     "contrazice": 0.01,
+     "sustine": 0.99,
+     "nu_spune": 0.0
     },
-    "confidence": 0.98
+    "confidence": 0.99
    },
    "1": {
     "alegere": "sustine",
     "probabilitati": {
+     "contrazice": 0.0,
      "sustine": 1.0,
-     "nu_spune": 0.0,
-     "contrazice": 0.0
+     "nu_spune": 0.0
     },
     "confidence": 0.99
    },
    "2": {
     "alegere": "sustine",
     "probabilitati": {
+     "contrazice": 0.0,
      "sustine": 1.0,
-     "nu_spune": 0.0,
-     "contrazice": 0.0
+     "nu_spune": 0.0
     },
     "confidence": 0.99
    },
    "3": {
     "alegere": "sustine",
     "probabilitati": {
-     "sustine": 1.0,
-     "nu_spune": 0.0,
-     "contrazice": 0.0
+     "contrazice": 0.01,
+     "sustine": 0.99,
+     "nu_spune": 0.0
     },
     "confidence": 0.99
    }
@@ -3819,7 +4009,7 @@
   "pozitionale": [],
   "nivel": {
    "score": 3.63,
-   "confidence": 0.69
+   "confidence": 0.7
   },
   "usage": {
    "a": 2369,
@@ -3831,40 +4021,45 @@
   "cheie": [
    "C"
   ],
+  "temei": [
+   "01_Legea_80-1995_statutul_cadrelor_militare.txt",
+   "30"
+  ],
+  "nota_abrogare": false,
   "tip": "unic",
   "variante": {
    "A": {
     "alegere": "contrazice",
     "probabilitati": {
-     "nu_spune": 0.04,
      "sustine": 0.0,
-     "contrazice": 0.96
+     "contrazice": 0.96,
+     "nu_spune": 0.04
     },
-    "confidence": 0.94
+    "confidence": 0.93
    },
    "B": {
     "alegere": "contrazice",
     "probabilitati": {
-     "nu_spune": 0.11,
-     "contrazice": 0.89,
-     "sustine": 0.0
+     "sustine": 0.0,
+     "nu_spune": 0.08,
+     "contrazice": 0.92
     },
-    "confidence": 0.83
+    "confidence": 0.88
    },
    "C": {
     "alegere": "sustine",
     "probabilitati": {
+     "sustine": 1.0,
      "nu_spune": 0.0,
-     "contrazice": 0.0,
-     "sustine": 1.0
+     "contrazice": 0.0
     },
     "confidence": 1.0
    },
    "D": {
     "alegere": "contrazice",
     "probabilitati": {
-     "nu_spune": 0.0,
      "sustine": 0.0,
+     "nu_spune": 0.0,
      "contrazice": 1.0
     },
     "confidence": 0.99
@@ -3872,10 +4067,10 @@
   },
   "nouls": {
    "sinonim": 0.06,
-   "absolut": 0.28,
+   "absolut": 0.3,
    "abrogat": 0.06,
-   "numeste_actul": 0.7,
-   "categorie_ambigua": 0.65,
+   "numeste_actul": 0.71,
+   "categorie_ambigua": 0.67,
    "citat_acopera": 0.97
   },
   "afirmatii": {
@@ -3895,7 +4090,7 @@
      "nu_spune": 0.0,
      "contrazice": 0.13
     },
-    "confidence": 0.81
+    "confidence": 0.8
    },
    "2": {
     "alegere": "sustine",
@@ -3914,8 +4109,8 @@
   ],
   "pozitionale": [],
   "nivel": {
-   "score": 3.55,
-   "confidence": 0.62
+   "score": 3.58,
+   "confidence": 0.65
   },
   "usage": {
    "a": 2424,
@@ -3927,89 +4122,94 @@
   "cheie": [
    "B"
   ],
+  "temei": [
+   "01_Legea_80-1995_statutul_cadrelor_militare.txt",
+   "33"
+  ],
+  "nota_abrogare": false,
   "tip": "unic",
   "variante": {
    "A": {
     "alegere": "contrazice",
     "probabilitati": {
-     "contrazice": 0.83,
-     "nu_spune": 0.16,
-     "sustine": 0.01
+     "sustine": 0.0,
+     "nu_spune": 0.14,
+     "contrazice": 0.86
     },
-    "confidence": 0.75
+    "confidence": 0.78
    },
    "B": {
     "alegere": "sustine",
     "probabilitati": {
-     "contrazice": 0.0,
+     "sustine": 1.0,
      "nu_spune": 0.0,
-     "sustine": 1.0
+     "contrazice": 0.0
     },
     "confidence": 1.0
    },
    "C": {
     "alegere": "nu_spune",
     "probabilitati": {
-     "contrazice": 0.17,
-     "nu_spune": 0.75,
-     "sustine": 0.08
+     "sustine": 0.06,
+     "nu_spune": 0.76,
+     "contrazice": 0.18
     },
-    "confidence": 0.63
+    "confidence": 0.64
    },
    "D": {
     "alegere": "nu_spune",
     "probabilitati": {
-     "contrazice": 0.22,
-     "nu_spune": 0.76,
-     "sustine": 0.02
+     "sustine": 0.03,
+     "nu_spune": 0.72,
+     "contrazice": 0.25
     },
-    "confidence": 0.64
+    "confidence": 0.58
    }
   },
   "nouls": {
-   "sinonim": 0.09,
+   "sinonim": 0.08,
    "absolut": 0.27,
    "abrogat": 0.05,
-   "numeste_actul": 0.69,
-   "categorie_ambigua": 0.41,
+   "numeste_actul": 0.7,
+   "categorie_ambigua": 0.39,
    "citat_acopera": 0.95
   },
   "afirmatii": {
    "0": {
     "alegere": "sustine",
     "probabilitati": {
-     "contrazice": 0.04,
      "nu_spune": 0.0,
-     "sustine": 0.96
+     "sustine": 0.94,
+     "contrazice": 0.06
     },
-    "confidence": 0.94
+    "confidence": 0.9
    },
    "1": {
     "alegere": "sustine",
     "probabilitati": {
-     "contrazice": 0.0,
      "nu_spune": 0.0,
-     "sustine": 1.0
+     "sustine": 1.0,
+     "contrazice": 0.0
     },
-    "confidence": 0.99
+    "confidence": 1.0
    },
    "2": {
     "alegere": "sustine",
     "probabilitati": {
-     "contrazice": 0.02,
-     "nu_spune": 0.09,
-     "sustine": 0.89
+     "nu_spune": 0.06,
+     "sustine": 0.92,
+     "contrazice": 0.02
     },
-    "confidence": 0.84
+    "confidence": 0.88
    },
    "3": {
     "alegere": "sustine",
     "probabilitati": {
-     "contrazice": 0.0,
      "nu_spune": 0.0,
-     "sustine": 1.0
+     "sustine": 1.0,
+     "contrazice": 0.0
     },
-    "confidence": 0.99
+    "confidence": 1.0
    }
   },
   "fraze": [
@@ -4020,7 +4220,7 @@
   ],
   "pozitionale": [],
   "nivel": {
-   "score": 2.5,
+   "score": 2.49,
    "confidence": 0.0
   },
   "usage": {
@@ -4033,6 +4233,11 @@
   "cheie": [
    "B"
   ],
+  "temei": [
+   "01_Legea_80-1995_statutul_cadrelor_militare.txt",
+   "34"
+  ],
+  "nota_abrogare": false,
   "tip": "unic",
   "variante": {
    "A": {
@@ -4042,7 +4247,7 @@
      "nu_spune": 0.0,
      "contrazice": 1.0
     },
-    "confidence": 0.99
+    "confidence": 1.0
    },
    "B": {
     "alegere": "sustine",
@@ -4051,7 +4256,7 @@
      "nu_spune": 0.0,
      "contrazice": 0.0
     },
-    "confidence": 1.0
+    "confidence": 0.99
    },
    "C": {
     "alegere": "contrazice",
@@ -4066,54 +4271,54 @@
     "alegere": "contrazice",
     "probabilitati": {
      "sustine": 0.0,
-     "nu_spune": 0.03,
-     "contrazice": 0.97
+     "nu_spune": 0.02,
+     "contrazice": 0.98
     },
-    "confidence": 0.94
+    "confidence": 0.96
    }
   },
   "nouls": {
    "sinonim": 0.09,
-   "absolut": 0.2,
+   "absolut": 0.22,
    "abrogat": 0.07,
    "numeste_actul": 0.74,
-   "categorie_ambigua": 0.32,
+   "categorie_ambigua": 0.35,
    "citat_acopera": 0.97
   },
   "afirmatii": {
    "0": {
     "alegere": "sustine",
     "probabilitati": {
-     "contrazice": 0.01,
      "nu_spune": 0.0,
-     "sustine": 0.99
+     "sustine": 1.0,
+     "contrazice": 0.0
     },
     "confidence": 0.99
    },
    "1": {
     "alegere": "sustine",
     "probabilitati": {
-     "contrazice": 0.03,
      "nu_spune": 0.01,
-     "sustine": 0.96
+     "sustine": 0.97,
+     "contrazice": 0.02
     },
-    "confidence": 0.95
+    "confidence": 0.97
    },
    "2": {
     "alegere": "sustine",
     "probabilitati": {
-     "contrazice": 0.01,
      "nu_spune": 0.0,
-     "sustine": 0.99
+     "sustine": 0.99,
+     "contrazice": 0.01
     },
-    "confidence": 0.98
+    "confidence": 0.99
    },
    "3": {
     "alegere": "sustine",
     "probabilitati": {
-     "contrazice": 0.02,
      "nu_spune": 0.01,
-     "sustine": 0.97
+     "sustine": 0.98,
+     "contrazice": 0.01
     },
     "confidence": 0.96
    }
@@ -4126,8 +4331,8 @@
   ],
   "pozitionale": [],
   "nivel": {
-   "score": 3.07,
-   "confidence": 0.22
+   "score": 3.0,
+   "confidence": 0.17
   },
   "usage": {
    "a": 1989,
@@ -4139,50 +4344,55 @@
   "cheie": [
    "A"
   ],
+  "temei": [
+   "01_Legea_80-1995_statutul_cadrelor_militare.txt",
+   "34^1"
+  ],
+  "nota_abrogare": false,
   "tip": "unic",
   "variante": {
    "A": {
     "alegere": "sustine",
     "probabilitati": {
-     "contrazice": 0.0,
+     "nu_spune": 0.0,
      "sustine": 1.0,
-     "nu_spune": 0.0
+     "contrazice": 0.0
     },
     "confidence": 1.0
    },
    "B": {
     "alegere": "contrazice",
     "probabilitati": {
-     "contrazice": 1.0,
+     "nu_spune": 0.0,
      "sustine": 0.0,
-     "nu_spune": 0.0
+     "contrazice": 1.0
     },
     "confidence": 1.0
    },
    "C": {
     "alegere": "contrazice",
     "probabilitati": {
-     "contrazice": 1.0,
+     "nu_spune": 0.0,
      "sustine": 0.0,
-     "nu_spune": 0.0
+     "contrazice": 1.0
     },
     "confidence": 1.0
    },
    "D": {
     "alegere": "contrazice",
     "probabilitati": {
-     "contrazice": 1.0,
+     "nu_spune": 0.0,
      "sustine": 0.0,
-     "nu_spune": 0.0
+     "contrazice": 1.0
     },
-    "confidence": 1.0
+    "confidence": 0.99
    }
   },
   "nouls": {
    "sinonim": 0.07,
-   "absolut": 0.3,
-   "abrogat": 0.05,
-   "numeste_actul": 0.67,
+   "absolut": 0.32,
+   "abrogat": 0.04,
+   "numeste_actul": 0.68,
    "categorie_ambigua": 0.42,
    "citat_acopera": 0.98
   },
@@ -4190,9 +4400,9 @@
    "0": {
     "alegere": "sustine",
     "probabilitati": {
-     "sustine": 1.0,
-     "nu_spune": 0.0,
-     "contrazice": 0.0
+     "contrazice": 0.01,
+     "sustine": 0.99,
+     "nu_spune": 0.0
     },
     "confidence": 0.99
    },
@@ -4200,17 +4410,17 @@
     "alegere": "sustine",
     "probabilitati": {
      "sustine": 0.98,
-     "nu_spune": 0.0,
-     "contrazice": 0.02
+     "contrazice": 0.02,
+     "nu_spune": 0.0
     },
     "confidence": 0.97
    },
    "2": {
     "alegere": "sustine",
     "probabilitati": {
+     "contrazice": 0.0,
      "sustine": 1.0,
-     "nu_spune": 0.0,
-     "contrazice": 0.0
+     "nu_spune": 0.0
     },
     "confidence": 1.0
    }
@@ -4222,7 +4432,7 @@
   ],
   "pozitionale": [],
   "nivel": {
-   "score": 2.48,
+   "score": 2.74,
    "confidence": 0.0
   },
   "usage": {
