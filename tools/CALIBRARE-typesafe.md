@@ -285,3 +285,33 @@ pentru art. 45 (doar lit. a)–f)) e respectată — tema 6 nu citează alin. (2
 
 Verdict: temele 2–8 sunt corecte prin trei metode independente — 310 afirmații judecate de
 poartă, 14/14 mutante prinse, 7/7 trimiteri de fond confirmate manual.
+
+---
+
+# Verificarea temelor 9–18 cu aceeași a doua metodă
+
+21.09.2026. `audit_tematica.py` rulat pe temele 9–18 a ridicat 44 de semnale (cifre sau
+articole netrasabile în citatele secțiunii), grupate în ~30 de afirmații distincte. Toate au
+fost verificate manual în textul de lege, cu articolele extrase prin `articole_din_text()`,
+și **toate sunt corecte**. Verdictele poarții (re-aplicate din `NN-ts.json`, fără inferență nouă):
+09 = 101/0, 10 = 30/0, 11 = 73/0, 12 = 30/0, 13 = 72/0 (1 neverificabil), 14 = 57/0
+(1 neverificabil), 15 = 44/0, 16 = 42/0, 17 = 28/0, 18 = 35/0 — 512 afirmații, zero contrazise.
+
+Tiparul semnalelor: paragrafe care citează un alineat vecin celui din temei (art. 44 alin. (1)
+lângă alin. (2), art. 18 lângă art. 16–17 și 20, art. 125 alin. (1) când temeiul e articolul
+întreg) sau trimiteri către alt act (art. 35 din Legea 80/1995 din tema 12; art. 9 din Legea
+223/2015 din tema 14; art. 20^1 alin. 1, 2 și 2^1 din tema 18). Exact clasa pe care poarta
+n-o vede.
+
+Cele două „neverificabile" ale poarții sunt ambele confirmate manual: art. 21 alin. (1) din
+Legea 223/2015 chiar leagă reducerea vârstei de condițiile de muncă (tema 13); art. 32 din
+aceeași lege chiar cere pierderea „total sau cel puțin jumătate din capacitatea de muncă"
+(afirmația comparativă din tema 14 — limita J.4, verificabilă numai manual).
+
+Alarmele false ale auditului însuși: „22,00-6,00" (cratima blochează captura cifrelor, deși
+citatul le conține) și numere de alineat fără marcaj în paragraf. Nu s-au reparat: sunt ieftine
+de verificat și lărgirea regex-ului ar ascunde cazuri reale.
+
+Verdict: toate cele 18 teme au trecut acum prin ambele metode — 1 465 de afirmații judecate
+de poartă, zero contrazise; 51 de trimiteri de fond neacoperite de temeiuri, 51 confirmate
+manual în lege.
