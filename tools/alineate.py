@@ -14,6 +14,10 @@ from normalizare import DIR_LEGISLATIE
 _ALIN = re.compile(r"^\((\d+(?:\^\d+)?)\)\s*")
 _LIT = re.compile(r"^([a-zșț](?:\^\d+)?)\)\s*")
 _LINIUTA = re.compile(r"^[-–]\s+")
+# „A. Subofițeri:", „B. Maiștri militari:", „A^1. Maiștri militari:" — paragrafe majuscule
+# care grupează litere. Fără ele, literele a)-e) ale grupului B le suprascriu pe ale lui A
+# (art. 2 alin. (2) din Legea 80/1995 ajungea o listă amestecată).
+_GRUP = re.compile(r"^([A-ZȘȚ](?:\^\d+)?)\.\s+(.*)$")
 
 # „art. 85 alin. 1 lit. g), h) și n)" / „art. 15 alin. (1) lit. c^1)" / „art. 7 alin. (2)"
 _TRIMITERE = re.compile(
@@ -30,7 +34,7 @@ def descompune(linii):
     Articolele fără alineate numerotate intră sub cheia „text unic"; literele care
     apar înaintea oricărui alineat se atașează tot acolo. Liniuțele se lipesc de
     litera sau alineatul curent — sunt continuări, nu unități de sine stătătoare."""
-    out, alin_curent, lit_curenta = {}, None, None
+    out, alin_curent, lit_curenta, grup = {}, None, None, ""
 
     def pune(cheie):
         out.setdefault(cheie, {"text": "", "litere": {}})
@@ -42,15 +46,21 @@ def descompune(linii):
             continue
         m = _ALIN.match(l)
         if m:
-            alin_curent, lit_curenta = "alin. (%s)" % m.group(1), None
+            alin_curent, lit_curenta, grup = "alin. (%s)" % m.group(1), None, ""
             pune(alin_curent)["text"] = l[m.end():].strip()
             continue
         if alin_curent is None:
             alin_curent = "text unic"
             pune(alin_curent)
+        m = _GRUP.match(l)
+        if m:
+            grup, lit_curenta = m.group(1) + ". ", None
+            tinta = pune(alin_curent)
+            tinta["text"] = (tinta["text"] + " " + l).strip()
+            continue
         m = _LIT.match(l)
         if m and not _LINIUTA.match(l):
-            lit_curenta = "%s)" % m.group(1)
+            lit_curenta = "%s%s)" % (grup, m.group(1))
             pune(alin_curent)["litere"][lit_curenta] = l[m.end():].strip()
             continue
         tinta = pune(alin_curent)

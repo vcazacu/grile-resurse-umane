@@ -1,0 +1,1401 @@
+[
+ {
+  "loc": "Cadrele militare, corpurile și situațiile în care se pot afl / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Potrivit art. 1 alin. (1), cadrele militare sunt cetățenii români cărora li s-a acordat grad de ofițer, maistru militar sau subofițer, în raport cu pregătirea lor militară și de specialitate, în condițiile prevăzute de lege; criteriul este acordarea gradului, nu ocuparea unei funcții.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.01,
+     "nu_spune": 0.0,
+     "sustine": 0.97,
+     "absenta_corecta": 0.02
+    },
+    "confidence": 0.97
+   },
+   "1": {
+    "text": "Alin. (2) adaugă că ele sunt în serviciul națiunii.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 7157
+ },
+ {
+  "loc": "Cadrele militare, corpurile și situațiile în care se pot afl / paragraful 2",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 2 alin. (1) organizează cadrele militare, potrivit gradelor, în trei corpuri: corpul subofițerilor, corpul maiștrilor militari și corpul ofițerilor.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Maiștrii militari formează un corp distinct de subofițeri, cu propriile grade și propriile stagii (art. 94 lit.",
+    "alegere": "contrazice",
+    "probabilitati": {
+     "contrazice": 0.36,
+     "nu_spune": 0.26,
+     "absenta_corecta": 0.01,
+     "sustine": 0.37
+    },
+    "confidence": 0.15
+   }
+  },
+  "usage": 7096
+ },
+ {
+  "loc": "Cadrele militare, corpurile și situațiile în care se pot afl / paragraful 3",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 3 definește natura gradului: este un drept al titularului și recunoașterea în plan social a calității de cadru militar; gradul de ofițer, maistru militar și subofițer nu se poate pierde decât în cazurile și în condițiile prevăzute de lege.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Gradul nu se pierde prin trecerea în rezervă sau în retragere, acestea fiind doar situații ale cadrelor militare (art. 4).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.08,
+     "absenta_corecta": 0.09,
+     "contrazice": 0.01,
+     "sustine": 0.82
+    },
+    "confidence": 0.76
+   }
+  },
+  "usage": 7058
+ },
+ {
+  "loc": "Cadrele militare, corpurile și situațiile în care se pot afl / paragraful 4",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 4 alin. (1) prevede trei situații: în activitate (când ocupă o funcție militară; calitatea se menține și pe timpul cât sunt eliberate din funcții pentru forme de pregătire, suspendate sau puse la dispoziție), în rezervă (nu ocupă o funcție militară, dar pot fi chemate ca rezerviști concentrați sau mobilizați) și în retragere (nu mai pot fi chemate pentru serviciul militar).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Teza finală a lit. a) adaugă o condiție de examen: pot fi ofițeri, maiștri militari sau subofițeri în activitate numai persoanele care au cetățenie română și domiciliul în țară.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.03,
+     "nu_spune": 0.01,
+     "sustine": 0.7,
+     "contrazice": 0.26
+    },
+    "confidence": 0.6
+   },
+   "2": {
+    "text": "Distincția activitate/rezervă contează direct la stagii: art. 94 se aplică celor în activitate, art. 97 celor în rezervă.",
+    "alegere": "nu_spune",
+    "probabilitati": {
+     "absenta_corecta": 0.03,
+     "nu_spune": 0.87,
+     "sustine": 0.06,
+     "contrazice": 0.04
+    },
+    "confidence": 0.83
+   }
+  },
+  "usage": 7887
+ },
+ {
+  "loc": "Cadrele militare, corpurile și situațiile în care se pot afl / paragraful 5",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 5 alin. (1) califică ofițerii, maiștrii militari și subofițerii în activitate drept militari profesioniști, iar profesia de cadru militar este menită să asigure funcționarea, perfecționarea și conducerea organismului militar în timp de pace și de război.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Art. 5 alin. (2) prevede că accesul în profesie și evoluția pe treptele ierarhiei militare au la bază principiile și normele din lege, iar pentru cadrele Ministerului Apărării Naționale se elaborează Ghidul carierei militare, aprobat prin hotărâre a Guvernului; potrivit art. 109 alin. (3), art. 5 alin. 2 se aplică în exclusivitate cadrelor din structurile Ministerului Apărării Naționale.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.01,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "sustine": 0.99
+    },
+    "confidence": 0.99
+   },
+   "2": {
+    "text": "Art. 5 alin. (3) prevede, pentru structurile militare ale Ministerului Afacerilor Interne, ghiduri ale carierei specifice fiecărei arme, aprobate tot prin hotărâre a Guvernului.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 8021
+ },
+ {
+  "loc": "Lista generală a gradelor, în ordine ierarhică (art. 2 alin. / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 2 alin. (2) conține lista generală a gradelor, în ordinea lor ierarhică, pe corpuri.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.01,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 0.99
+    },
+    "confidence": 0.99
+   },
+   "1": {
+    "text": "Subofițeri: a) sergent major; b) plutonier; c) plutonier major; d) plutonier adjutant; e) plutonier adjutant șef.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.04,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 0.96
+    },
+    "confidence": 0.94
+   },
+   "2": {
+    "text": "Cel mai înalt grad de subofițer din această listă este plutonier adjutant șef, iar cel mai mic este sergent major (nu există „sergent” în această listă).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.09,
+     "absenta_corecta": 0.31,
+     "nu_spune": 0.0,
+     "sustine": 0.6
+    },
+    "confidence": 0.46
+   }
+  },
+  "usage": 6300
+ },
+ {
+  "loc": "Lista generală a gradelor, în ordine ierarhică (art. 2 alin. / paragraful 2",
+  "afirmatii": {
+   "0": {
+    "text": "Maiștri militari: a) maistru militar clasa a IV-a; b) maistru militar clasa a III-a; c) maistru militar clasa a II-a; d) maistru militar clasa a I; e) maistru militar principal.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "sustine": 0.99,
+     "contrazice": 0.01
+    },
+    "confidence": 0.99
+   },
+   "1": {
+    "text": "Lista generală începe de la clasa a IV-a; clasa a V-a apare numai în lista de la alin. (2^1).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.95,
+     "absenta_corecta": 0.03,
+     "contrazice": 0.02
+    },
+    "confidence": 0.93
+   }
+  },
+  "usage": 5894
+ },
+ {
+  "loc": "Lista generală a gradelor, în ordine ierarhică (art. 2 alin. / paragraful 3",
+  "afirmatii": {
+   "0": {
+    "text": "Ofițeri: a) ofițeri cu grade inferioare: sublocotenent, respectiv aspirant pentru cei din marina militară; locotenent; căpitan; b) ofițeri cu grade superioare: maior, respectiv locotenent-comandor pentru cei din aviația și marina militară; locotenent-colonel, respectiv căpitan-comandor pentru cei din aviația și marina militară; colonel, respectiv comandor pentru cei din aviația și marina militară; c) generali și amirali, prevăzuți la alin. 2^1 paragraful B lit. c).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "sustine": 0.99,
+     "nu_spune": 0.0,
+     "contrazice": 0.01
+    },
+    "confidence": 0.99
+   },
+   "1": {
+    "text": "Pentru generali și amirali, lit. c) nu conține o listă proprie, ci trimite la lista de la alin. (2^1) — deci gradele de general/amiral cu 1–4 stele sunt aceleași pentru toți.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.09,
+     "sustine": 0.53,
+     "nu_spune": 0.01,
+     "contrazice": 0.37
+    },
+    "confidence": 0.38
+   }
+  },
+  "usage": 6021
+ },
+ {
+  "loc": "Lista generală a gradelor, în ordine ierarhică (art. 2 alin. / paragraful 4",
+  "afirmatii": {
+   "0": {
+    "text": "Această listă generală este cea care se aplică în afara Ministerului Apărării Naționale: art. 109 alin. (13) prevede expres că dispozițiile art. 2 alin. 2 nu se aplică cadrelor militare din structurile Ministerului Apărării Naționale, iar art. 109 alin. (1) extinde legea, „în mod corespunzător”, la ofițerii, maiștrii militari și subofițerii Ministerului de Interne și Ministerului Justiției, precum și la serviciile de stat specializate în domeniul apărării și siguranței naționale care au în structurile proprii personal militar.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.04,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 0.96
+    },
+    "confidence": 0.94
+   }
+  },
+  "usage": 5730
+ },
+ {
+  "loc": "Gradele în Ministerul Apărării Naționale, generalii și amira / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 2 alin. (2^1) conține lista gradelor, în ordine ierarhică, în Ministerul Apărării Naționale.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Subofițeri: a) sergent; b) sergent-major; c) plutonier; d) plutonier-major; e) plutonier adjutant; f) plutonier adjutant principal.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.98,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.02
+    },
+    "confidence": 0.98
+   },
+   "2": {
+    "text": "Față de lista generală, apare gradul de sergent la bază, iar gradul cel mai înalt se numește plutonier adjutant principal (nu „șef”).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.99,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.01
+    },
+    "confidence": 0.98
+   }
+  },
+  "usage": 7147
+ },
+ {
+  "loc": "Gradele în Ministerul Apărării Naționale, generalii și amira / paragraful 2",
+  "afirmatii": {
+   "0": {
+    "text": "Maiștri militari: a) maistru militar clasa a V-a; b) maistru militar clasa a IV-a; c) maistru militar clasa a III-a; d) maistru militar clasa a II-a; e) maistru militar clasa I; f) maistru militar principal.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.97,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.03
+    },
+    "confidence": 0.95
+   },
+   "1": {
+    "text": "Față de lista generală, apare clasa a V-a la bază: lista Ministerului Apărării Naționale are șase trepte (a)–f)), lista generală de la alin. (2) are cinci (a)–e)); ambele se termină cu maistru militar principal.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.99,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.01
+    },
+    "confidence": 0.98
+   }
+  },
+  "usage": 6788
+ },
+ {
+  "loc": "Gradele în Ministerul Apărării Naționale, generalii și amira / paragraful 3",
+  "afirmatii": {
+   "0": {
+    "text": "Ofițeri: a) ofițeri cu grade inferioare: sublocotenent, respectiv aspirant, pentru cei din arma marină; locotenent; căpitan; b) ofițeri cu grade superioare: maior, respectiv locotenent-comandor, pentru cei din arma aviație și arma marină; locotenent-colonel, respectiv căpitan-comandor, pentru cei din arma aviație și arma marină; colonel, respectiv comandor, pentru cei din arma aviație și arma marină; c) generali și amirali: general de brigadă — cu o stea (respectiv general de flotilă aeriană — cu o stea, pentru aviație, și contraamiral de flotilă — cu o stea, pentru marină); general-maior — cu două stele (respectiv contra-amiral); general-locotenent — cu trei stele (respectiv vice-amiral); general — cu patru stele (respectiv amiral).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.02,
+     "nu_spune": 0.0,
+     "sustine": 0.98,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 0.97
+   },
+   "1": {
+    "text": "Numărul de stele este un element de examen: general-maior are două stele, general-locotenent trei.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "nu_spune": 0.05,
+     "sustine": 0.95,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 0.92
+   }
+  },
+  "usage": 6921
+ },
+ {
+  "loc": "Gradele în Ministerul Apărării Naționale, generalii și amira / paragraful 4",
+  "afirmatii": {
+   "0": {
+    "text": "Relația dintre cele două liste rezultă din art. 109 alin. (3): dispozițiile art. 2 alin. 2^1 lit.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.01,
+     "sustine": 0.99
+    },
+    "confidence": 0.98
+   },
+   "1": {
+    "text": "B lit. a) și b) — și, odată cu ele, art. 50 alin. 5, privind acordarea gradului de maistru militar clasa a V-a — se aplică în exclusivitate cadrelor militare din structurile Ministerului Apărării Naționale.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.01,
+     "sustine": 0.99
+    },
+    "confidence": 0.99
+   },
+   "2": {
+    "text": "Prin urmare, în Ministerul Apărării Naționale se folosesc gradele de la alin. (2^1); în celelalte instituții se folosește lista generală de la alin. (2), care pentru generali și amirali trimite la alin. (2^1) lit.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.01,
+     "absenta_corecta": 0.01,
+     "sustine": 0.9,
+     "contrazice": 0.08
+    },
+    "confidence": 0.87
+   },
+   "3": {
+    "text": "B lit. c) — singura parte a listei Ministerului Apărării Naționale care nu este rezervată acestuia.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.01,
+     "contrazice": 0.03,
+     "sustine": 0.96
+    },
+    "confidence": 0.95
+   }
+  },
+  "usage": 7875
+ },
+ {
+  "loc": "Gradele în Ministerul Apărării Naționale, generalii și amira / paragraful 5",
+  "afirmatii": {
+   "0": {
+    "text": "Peste toate aceste grade, art. 2 alin. (3) prevede gradul de mareșal, cel mai înalt grad militar: îl poate acorda numai Președintele României, numai pentru merite militare excepționale, numai în timp de război și numai generalilor/amiralilor cu patru stele.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.99,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.01
+    },
+    "confidence": 0.98
+   },
+   "1": {
+    "text": "Cele patru condiții sunt cumulative.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.95,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.04,
+     "contrazice": 0.01
+    },
+    "confidence": 0.94
+   }
+  },
+  "usage": 6810
+ },
+ {
+  "loc": "Gradele în Ministerul Apărării Naționale, generalii și amira / paragraful 6",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 6 alin. (2) leagă gradele de general/amiral (cele de la art. 2 alin. 2 paragraful C lit. c) și alin. 2^1 paragraful B lit. c)) de rangul de demnitar al statului român, în exercitarea funcțiilor prevăzute cu grad de general/similar, fără drepturi suplimentare conferite de această calitate.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Art. 6 alin. (1) prevede, pentru toate cadrele militare, exercițiul autorității publice și protecția potrivit legii penale în exercitarea atribuțiilor.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "sustine": 0.77,
+     "contrazice": 0.23
+    },
+    "confidence": 0.69
+   }
+  },
+  "usage": 7014
+ },
+ {
+  "loc": "Cine acordă gradele și înaintează în grad (art. 45 alin. (1) / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 45 alin. (1) repartizează competența după grad, situație (activitate/rezervă) și timp (pace/război).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Lit. a): gradele de general și amiral, în activitate și în rezervă, în timp de pace și de război — prin decret al Președintelui României, la propunerea ministrului apărării naționale, după consultarea colegiului ministerului.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "2": {
+    "text": "Lit. b): gradele de ofițeri în activitate (mai puțin generali/amirali), în timp de pace — prin ordin al ministrului apărării naționale.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "3": {
+    "text": "Lit. c): gradele de ofițeri în rezervă (mai puțin generali/amirali), în timp de pace — prin ordin al șefului Statului Major General.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 6261
+ },
+ {
+  "loc": "Cine acordă gradele și înaintează în grad (art. 45 alin. (1) / paragraful 2",
+  "afirmatii": {
+   "0": {
+    "text": "Lit. d): în timp de război, acordarea gradului de sublocotenent și înaintarea în gradele de locotenent și căpitan, în activitate sau în rezervă, se fac de comandanții stabiliți de șeful Marelui Cartier General, iar în gradele de ofițeri cu grade superioare — de șeful Marelui Cartier General.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 0.99
+   },
+   "1": {
+    "text": "Lit. e): gradele de maiștri militari și subofițeri în activitate, în timp de pace și de război — prin ordin al ministrului apărării naționale sau al comandanților stabiliți de acesta.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   },
+   "2": {
+    "text": "Lit. f): gradele de maiștri militari și subofițeri în rezervă, în timp de pace și de război — prin ordin al comandanților stabiliți de ministrul apărării naționale.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 5484
+ },
+ {
+  "loc": "Cine acordă gradele și înaintează în grad (art. 45 alin. (1) / paragraful 3",
+  "afirmatii": {
+   "0": {
+    "text": "Pentru serviciile de stat specializate (art. 109 alin. (1)), art. 109 alin. (2) prevede că competențele ministrului apărării naționale sunt îndeplinite de conducătorii ministerelor și serviciilor respective, cele ale șefului Statului Major General de înlocuitorii de drept ai acestora, iar cele ale colegiului ministerului de consiliul director.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "contrazice": 0.01,
+     "nu_spune": 0.0,
+     "sustine": 0.99
+    },
+    "confidence": 0.98
+   },
+   "1": {
+    "text": "Numai lit. a)–f) ale art. 45 alin. (1) sunt în tematică; alin. (2), privind Ministerul Afacerilor Interne, nu este cerut.",
+    "alegere": "nu_spune",
+    "probabilitati": {
+     "absenta_corecta": 0.1,
+     "contrazice": 0.29,
+     "nu_spune": 0.34,
+     "sustine": 0.27
+    },
+    "confidence": 0.12
+   }
+  },
+  "usage": 5686
+ },
+ {
+  "loc": "Stagiile minime în grad în timp de pace, pentru cadrele în a / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 94 stabilește, în timp de pace, stagiul minim în grad pentru înaintarea în gradul următor a ofițerilor, maiștrilor militari și subofițerilor în activitate.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.99
+   },
+   "1": {
+    "text": "Stagiul se leagă de gradul deținut (cât trebuie stat în acel grad), nu de gradul în care se înaintează.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.9,
+     "contrazice": 0.03,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.07
+    },
+    "confidence": 0.86
+   }
+  },
+  "usage": 2861
+ },
+ {
+  "loc": "Stagiile minime în grad în timp de pace, pentru cadrele în a / paragraful 2",
+  "afirmatii": {
+   "0": {
+    "text": "Pentru ofițeri: a) sublocotenent și aspirant — 3 ani; b) locotenent — 5 ani; c) căpitan — 5 ani; d) maior și locotenent-comandor — 5 ani; e) locotenent-colonel și căpitan-comandor — 5 ani.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.99,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.01
+    },
+    "confidence": 0.99
+   },
+   "1": {
+    "text": "Singurul stagiu de ofițer diferit de 5 ani este cel al primului grad (3 ani).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.01,
+     "sustine": 0.96,
+     "nu_spune": 0.0,
+     "contrazice": 0.03
+    },
+    "confidence": 0.95
+   },
+   "2": {
+    "text": "A, pentru gradele de colonel, comandor și superioare acestora nu se stabilesc stagii în grad.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.03,
+     "sustine": 0.91,
+     "nu_spune": 0.0,
+     "contrazice": 0.06
+    },
+    "confidence": 0.88
+   }
+  },
+  "usage": 3283
+ },
+ {
+  "loc": "Stagiile minime în grad în timp de pace, pentru cadrele în a / paragraful 3",
+  "afirmatii": {
+   "0": {
+    "text": "Pentru maiștri militari: a) maistru militar clasa a V-a — 2 ani (în text apare scris „2ani”); b) maistru militar clasa a IV-a — 4 ani; c) maistru militar clasa a III-a — 5 ani; d) maistru militar clasa a II-a — 7 ani; e) maistru militar clasa I — 6 ani.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.99,
+     "contrazice": 0.01,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.98
+   },
+   "1": {
+    "text": "Stagiul nu crește monoton: clasa a II-a are 7 ani, iar clasa I, superioară, are 6 ani.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.99,
+     "contrazice": 0.01,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.98
+   },
+   "2": {
+    "text": "Pentru maistru militar principal, ultimul grad al corpului, nu este prevăzut stagiu.",
+    "alegere": "absenta_corecta",
+    "probabilitati": {
+     "sustine": 0.03,
+     "contrazice": 0.27,
+     "absenta_corecta": 0.6,
+     "nu_spune": 0.1
+    },
+    "confidence": 0.47
+   }
+  },
+  "usage": 3304
+ },
+ {
+  "loc": "Stagiile minime în grad în timp de pace, pentru cadrele în a / paragraful 4",
+  "afirmatii": {
+   "0": {
+    "text": "Pentru subofițeri: a) sergent — 3 ani; b) sergent-major — 4 ani; c) plutonier — 5 ani; d) plutonier-major — 7 ani; e) plutonier adjutant — 6 ani.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.99,
+     "contrazice": 0.01,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.99
+   },
+   "1": {
+    "text": "Aceeași structură ca la maiștri: plutonierul-major are 7 ani, mai mult decât plutonierul adjutant (6 ani).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.96,
+     "nu_spune": 0.01,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.03
+    },
+    "confidence": 0.94
+   },
+   "2": {
+    "text": "Pentru ultimul grad de subofițer (plutonier adjutant șef, respectiv plutonier adjutant principal) nu este prevăzut stagiu.",
+    "alegere": "nu_spune",
+    "probabilitati": {
+     "sustine": 0.03,
+     "nu_spune": 0.4,
+     "absenta_corecta": 0.31,
+     "contrazice": 0.26
+    },
+    "confidence": 0.18
+   }
+  },
+  "usage": 3285
+ },
+ {
+  "loc": "Stagiile minime în grad în timp de pace, pentru cadrele în a / paragraful 5",
+  "afirmatii": {
+   "0": {
+    "text": "B și C ale art. 94 sunt formulate pe gradele din lista Ministerului Apărării Naționale (clasa a V-a, sergent); pentru instituțiile care folosesc lista generală de la art. 2 alin. (2), primele grade sunt maistru militar clasa a IV-a (4 ani) și sergent major (4 ani).",
+    "alegere": "contrazice",
+    "probabilitati": {
+     "nu_spune": 0.17,
+     "contrazice": 0.52,
+     "absenta_corecta": 0.01,
+     "sustine": 0.3
+    },
+    "confidence": 0.36
+   },
+   "1": {
+    "text": "Art. 94^1 este abrogat, deci nu există un text cu stagii speciale la acel număr.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.03,
+     "sustine": 0.97
+    },
+    "confidence": 0.95
+   }
+  },
+  "usage": 3222
+ },
+ {
+  "loc": "Ce nu intră și ce intră în calculul stagiului în grad (art.  / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 95: la calculul stagiului minim în grad nu se ia în considerare timpul în care cadrele militare în activitate din Ministerul Apărării Naționale au absentat de la program din cauza incapacității temporare de muncă, dacă absențele însumează 365 de zile pe parcursul a 2 ani calendaristici consecutivi.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Pragul este unul singur (365 de zile / 2 ani consecutivi), iar textul vizează expres Ministerul Apărării Naționale.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "contrazice": 0.01,
+     "nu_spune": 0.0,
+     "sustine": 0.99
+    },
+    "confidence": 0.98
+   }
+  },
+  "usage": 7101
+ },
+ {
+  "loc": "Ce nu intră și ce intră în calculul stagiului în grad (art.  / paragraful 2",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 109 alin. (16) prevede că dispozițiile art. 95 nu se aplică ofițerilor, maiștrilor militari și subofițerilor din Serviciul Român de Informații, Serviciul de Informații Externe, Serviciul de Telecomunicații Speciale și Serviciul de Protecție și Pază.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Pentru cadrele Serviciului de Informații Externe, așadar, regula de excludere de la art. 95 nu operează: în lipsa ei, legea nu prevede scăderea din stagiu a absențelor pentru incapacitate temporară de muncă (consecință, nu text expres).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.44,
+     "absenta_corecta": 0.42,
+     "nu_spune": 0.02,
+     "contrazice": 0.12
+    },
+    "confidence": 0.24
+   }
+  },
+  "usage": 7263
+ },
+ {
+  "loc": "Ce nu intră și ce intră în calculul stagiului în grad (art.  / paragraful 3",
+  "afirmatii": {
+   "0": {
+    "text": "Concediile fără plată (art. 14^1) se tratează diferit: pentru urmarea soțului/soției trimis în misiune permanentă în străinătate (alin. 1 lit. a)) se ia în calcul trei pătrimi din durata concediului (alin. (7)); pentru ocuparea temporară de posturi în organizații internaționale (alin. 1 lit. b)) se ia în calcul întreaga durată (alin. (8)); pentru „alte cazuri, temeinic motivate” (alin. 2) durata nu se ia în calcul (alin. (8^1)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 6742
+ },
+ {
+  "loc": "Ce nu intră și ce intră în calculul stagiului în grad (art.  / paragraful 4",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 15 alin. (3): la stabilirea stagiului în grad se ia în calcul întreaga durată a concediilor de la alin. (2) — concediul pentru îngrijirea copilului bolnav, concediul de acomodare, concediul paternal și concediul pentru creșterea copilului.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 6727
+ },
+ {
+  "loc": "Ce nu intră și ce intră în calculul stagiului în grad (art.  / paragraful 5",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 50 leagă gradele de maistru militar de cele de subofițer.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Alin. (2): la trecerea în corpul maiștrilor militari, gradele se acordă în raport cu gradul de subofițer deținut — plutonierilor, maistru militar clasa a III-a; plutonierilor majori, clasa a II-a; plutonierilor adjutanți, clasa I; plutonierilor adjutanți șefi, maistru militar principal.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "2": {
+    "text": "Alin. (3): pentru clasa I și pentru maistru militar principal este necesară și promovarea examenului pentru maistru militar clasa I; cei care nu îl promovează pot primi clasa a II-a sau pot rămâne cu gradul de subofițer avut.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "3": {
+    "text": "Alin. (4): acestor maiștri, la înaintarea în gradul următor, li se ia în considerare stagiul avut în ultimul grad de subofițer.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "4": {
+    "text": "Alin. (5): în Ministerul Apărării Naționale, celor de la art. 38 lit. a) și d)–h) și art. 39 lit. b) și c) li se acordă gradul de maistru militar clasa a V-a — grad care, potrivit art. 109 alin. (3), există numai acolo.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.02,
+     "sustine": 0.81,
+     "nu_spune": 0.04,
+     "contrazice": 0.13
+    },
+    "confidence": 0.75
+   }
+  },
+  "usage": 8676
+ },
+ {
+  "loc": "Rezerviștii, înaintarea înainte de termen și articolele veci / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 97 teza întâi: în timp de pace, stagiul minim în grad pentru ofițerii, maiștrii militari și subofițerii în rezervă este mai mare cu un an decât cel prevăzut la art. 94 (de exemplu, un locotenent în rezervă are 6 ani, nu 5), iar în timp de război este cel de la art. 94 — majorarea cu un an dispare. (Art. 98, în afara bibliografiei, reduce în plus la jumătate stagiul celor în activitate și al rezerviștilor mobilizați în unități militare, în timp de război.)",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.01,
+     "sustine": 0.93,
+     "nu_spune": 0.02,
+     "contrazice": 0.04
+    },
+    "confidence": 0.91
+   }
+  },
+  "usage": 3196
+ },
+ {
+  "loc": "Rezerviștii, înaintarea înainte de termen și articolele veci / paragraful 2",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 97 teza a doua: la chemarea sau rechemarea în activitate, pentru stabilirea stagiului în gradul pe care îl au, li se iau în calcul trei pătrimi din stagiul în gradul avut ca rezervist.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.99,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.01
+    },
+    "confidence": 0.99
+   },
+   "1": {
+    "text": "Cele două reguli din art. 97 nu se confundă: „+1 an” privește stagiul cerut rezervistului; „trei pătrimi” privește echivalarea stagiului din rezervă la revenirea în activitate.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.97,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.03,
+     "contrazice": 0.0
+    },
+    "confidence": 0.95
+   }
+  },
+  "usage": 3525
+ },
+ {
+  "loc": "Rezerviștii, înaintarea înainte de termen și articolele veci / paragraful 3",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 63 alin. (1) permite înaintarea în gradul următor și înaintea expirării stagiului minim, pentru cei în activitate care se disting prin modul de îndeplinire a atribuțiilor, pregătire profesională și comportare demnă, dacă au împlinit cel puțin jumătate din stagiul respectiv.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Art. 63 alin. (2) exclude de la această înaintare: a) sublocotenenții și aspiranții; b) cei condamnați penal sau sancționați, de la ultima înaintare în grad, ca urmare a hotărârii consiliilor de onoare.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 3856
+ },
+ {
+  "loc": "Rezerviștii, înaintarea înainte de termen și articolele veci / paragraful 4",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 96 (vecin, dar în afara listei de articole din bibliografie) reduce stagiul minim cu un an pentru cadrele în activitate care, pe întreaga durată a stagiului, îndeplinesc funcții de personal navigant din aviație, parașutiști, personal ambarcat pe submarine, vedete torpiloare sau nave similare, precum și pentru scafandri.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.02,
+     "sustine": 0.82,
+     "absenta_corecta": 0.06,
+     "contrazice": 0.1
+    },
+    "confidence": 0.76
+   },
+   "1": {
+    "text": "Este singura reducere „cu un an” din secțiune și nu trebuie confundată cu majorarea „cu un an” de la art. 97.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.09,
+     "sustine": 0.72,
+     "absenta_corecta": 0.12,
+     "contrazice": 0.07
+    },
+    "confidence": 0.62
+   }
+  },
+  "usage": 3548
+ },
+ {
+  "loc": "Rezerviștii, înaintarea înainte de termen și articolele veci / paragraful 5",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 98 (vecin, în afara listei de articole din bibliografie, dar necesar pentru a citi corect „în timp de război” din art. 97): în timp de război, stagiul minim în grad se reduce la jumătate pentru cei în activitate și pentru rezerviștii mobilizați în unități militare, iar timpul cât sunt încadrați în unități în zona acțiunilor militare se socotește dublu la calculul stagiului.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.97,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.02,
+     "contrazice": 0.01
+    },
+    "confidence": 0.96
+   },
+   "1": {
+    "text": "Art. 97 vorbește despre toți rezerviștii (valorile întregi de la art. 94), art. 98 numai despre cei mobilizați (jumătate).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.77,
+     "absenta_corecta": 0.01,
+     "nu_spune": 0.02,
+     "contrazice": 0.2
+    },
+    "confidence": 0.7
+   }
+  },
+  "usage": 3581
+ },
+ {
+  "loc": "capcana 1",
+  "afirmatii": {
+   "0": {
+    "text": "Două liste de grade în art. 2: alin. (2) este lista generală (subofițerii încep cu sergent major și se termină cu plutonier adjutant șef; maiștrii încep cu clasa a IV-a), alin. (2^1) este lista Ministerului Apărării Naționale (încep cu sergent, respectiv clasa a V-a; ultimul subofițer este plutonier adjutant principal).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "sustine": 0.99,
+     "nu_spune": 0.0,
+     "contrazice": 0.01
+    },
+    "confidence": 0.98
+   },
+   "1": {
+    "text": "Întrebarea spune de obicei la care alineat se referă — citește-o până la capăt.",
+    "alegere": "nu_spune",
+    "probabilitati": {
+     "sustine": 0.01,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.99,
+     "contrazice": 0.0
+    },
+    "confidence": 0.99
+   }
+  },
+  "usage": 15560
+ },
+ {
+  "loc": "capcana 2",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 109 alin. (1): legea se aplică „în mod corespunzător” și cadrelor Ministerului de Interne și Ministerului Justiției, nu numai serviciilor de stat specializate; art. 4 alin. (1) lit. a) teza finală cere, pentru cadrele în activitate, cetățenie română și domiciliul în țară (nu doar cetățenia, ca la art. 1).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.02,
+     "nu_spune": 0.0,
+     "sustine": 0.98,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 0.96
+   }
+  },
+  "usage": 15161
+ },
+ {
+  "loc": "capcana 3",
+  "afirmatii": {
+   "0": {
+    "text": "Ghidul carierei militare (art. 5 alin. (2), aprobat prin hotărâre a Guvernului) este rezervat MApN prin art. 109 alin. (3); pentru MAI, art. 5 alin. (3) prevede ghiduri ale carierei pe arme, tot prin hotărâre a Guvernului.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.02,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 0.98
+    },
+    "confidence": 0.97
+   },
+   "1": {
+    "text": "Legea nu prevede un asemenea ghid pentru SIE.",
+    "alegere": "absenta_corecta",
+    "probabilitati": {
+     "contrazice": 0.01,
+     "absenta_corecta": 0.78,
+     "nu_spune": 0.1,
+     "sustine": 0.11
+    },
+    "confidence": 0.7
+   }
+  },
+  "usage": 15519
+ },
+ {
+  "loc": "capcana 4",
+  "afirmatii": {
+   "0": {
+    "text": "Generalii și amiralii au o singură listă, cea de la alin. (2^1) lit.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.82,
+     "absenta_corecta": 0.01,
+     "nu_spune": 0.01,
+     "contrazice": 0.16
+    },
+    "confidence": 0.76
+   },
+   "1": {
+    "text": "B lit. c), la care trimite și alin. (2) lit.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.9400000000000001,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.06
+    },
+    "confidence": 0.9
+   },
+   "2": {
+    "text": "C lit. c): general de brigadă 1 stea, general-maior 2 stele, general-locotenent 3 stele, general 4 stele (cu echivalentele contraamiral de flotilă, contra-amiral, vice-amiral, amiral).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.98,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.02
+    },
+    "confidence": 0.97
+   }
+  },
+  "usage": 15905
+ },
+ {
+  "loc": "capcana 5",
+  "afirmatii": {
+   "0": {
+    "text": "Mareșalul (art. 2 alin. (3)) se acordă numai de Președintele României, numai în timp de război, numai generalilor/amiralilor cu patru stele; distractorii clasici schimbă organul (Guvern, Parlament), timpul (pace) sau beneficiarul (general-locotenent).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.99
+   }
+  },
+  "usage": 15128
+ },
+ {
+  "loc": "capcana 6",
+  "afirmatii": {
+   "0": {
+    "text": "A: singurul stagiu de ofițer diferit de 5 ani este cel de sublocotenent/aspirant (3 ani); pentru colonel, comandor și gradele superioare nu se stabilesc stagii.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.01,
+     "nu_spune": 0.0,
+     "sustine": 0.94,
+     "contrazice": 0.05
+    },
+    "confidence": 0.93
+   }
+  },
+  "usage": 15098
+ },
+ {
+  "loc": "capcana 7",
+  "afirmatii": {
+   "0": {
+    "text": "Stagiile nu cresc monoton cu gradul: plutonier-major 7 ani > plutonier adjutant 6 ani; maistru militar clasa a II-a 7 ani > clasa I 6 ani.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.01,
+     "absenta_corecta": 0.0,
+     "sustine": 0.99,
+     "contrazice": 0.0
+    },
+    "confidence": 0.98
+   },
+   "1": {
+    "text": "Distractorii sunt de regulă stagiile gradelor vecine.",
+    "alegere": "nu_spune",
+    "probabilitati": {
+     "nu_spune": 0.84,
+     "absenta_corecta": 0.0,
+     "sustine": 0.15,
+     "contrazice": 0.01
+    },
+    "confidence": 0.78
+   }
+  },
+  "usage": 15485
+ },
+ {
+  "loc": "capcana 8",
+  "afirmatii": {
+   "0": {
+    "text": "În textul consolidat, la art. 94 lit.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.37,
+     "sustine": 0.48,
+     "contrazice": 0.09,
+     "absenta_corecta": 0.06
+    },
+    "confidence": 0.31
+   },
+   "1": {
+    "text": "B lit. a) apare „2ani” lipit (maistru militar clasa a V-a); valoarea este 2 ani, iar clasa a V-a există numai în lista Ministerului Apărării Naționale (art. 2 alin. (2^1) lit.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.98,
+     "nu_spune": 0.0,
+     "contrazice": 0.02,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 0.97
+   },
+   "2": {
+    "text": "A^1 și art. 50 alin. (5), ambele rezervate MApN prin art. 109 alin. (3)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.97,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.01,
+     "contrazice": 0.02
+    },
+    "confidence": 0.96
+   }
+  },
+  "usage": 15910
+ },
+ {
+  "loc": "capcana 9",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 95 dă un singur prag: 365 de zile pe parcursul a 2 ani calendaristici consecutivi (nu 180 de zile, nu un an, nu 3 ani) și vizează expres Ministerul Apărării Naționale; art. 109 alin. (16) exclude de la art. 95 cadrele din S.R.I., S.I.E., S.T.S. și S.P.P.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.01,
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 0.99
+    },
+    "confidence": 0.99
+   }
+  },
+  "usage": 15152
+ },
+ {
+  "loc": "capcana 10",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 97 conține două reguli distincte: rezerviștii au, în timp de pace, stagiul de la art. 94 plus un an, iar în timp de război exact stagiul de la art. 94 (dispare majorarea — nu „egal cu cei în activitate”, pentru că art. 98 reduce la jumătate stagiul celor în activitate și al rezerviștilor mobilizați); la chemarea/rechemarea în activitate li se echivalează trei pătrimi din stagiul avut ca rezerviști.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "contrazice": 0.02,
+     "nu_spune": 0.0,
+     "sustine": 0.98
+    },
+    "confidence": 0.96
+   }
+  },
+  "usage": 15189
+ },
+ {
+  "loc": "capcana 11",
+  "afirmatii": {
+   "0": {
+    "text": "„Cu un an” apare în două sensuri: majorare pentru rezerviști (art. 97) și reducere pentru personal navigant, parașutiști, ambarcat pe submarine, scafandri (art. 96, articol vecin, în afara listei din bibliografie).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.08,
+     "nu_spune": 0.02,
+     "contrazice": 0.14,
+     "sustine": 0.76
+    },
+    "confidence": 0.68
+   }
+  },
+  "usage": 15119
+ },
+ {
+  "loc": "capcana 12",
+  "afirmatii": {
+   "0": {
+    "text": "Concediile și stagiul: concediul pentru creșterea copilului, paternal, de acomodare, pentru copil bolnav — se ia integral (art. 15 alin. (3)); concediul fără plată pentru urmarea soțului în misiune — trei pătrimi (art. 14^1 alin. (7)); pentru posturi în organizații internaționale — integral (alin. (8)); pentru alte cazuri temeinic motivate — deloc (alin. (8^1)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.01,
+     "sustine": 0.99,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.99
+   }
+  },
+  "usage": 15166
+ },
+ {
+  "loc": "capcana 13",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 94^1 este abrogat (textul conține doar „Abrogat.”); art. 92–93^1 (limitele de vârstă din Secțiunea 1 a Capitolului VIII) sunt abrogate.",
+    "alegere": "nu_spune",
+    "probabilitati": {
+     "nu_spune": 0.44,
+     "contrazice": 0.24,
+     "sustine": 0.28,
+     "absenta_corecta": 0.04
+    },
+    "confidence": 0.25
+   },
+   "1": {
+    "text": "Nu atribui conținut acestor numere.",
+    "alegere": "nu_spune",
+    "probabilitati": {
+     "nu_spune": 0.79,
+     "contrazice": 0.02,
+     "sustine": 0.03,
+     "absenta_corecta": 0.16
+    },
+    "confidence": 0.72
+   }
+  },
+  "usage": 15493
+ },
+ {
+  "loc": "capcana 14",
+  "afirmatii": {
+   "0": {
+    "text": "La art. 45 sunt în tematică numai lit. a)–f) ale alin. (1); alin. (2) (Ministerul Afacerilor Interne) nu se cere.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.04,
+     "absenta_corecta": 0.29,
+     "sustine": 0.42,
+     "contrazice": 0.25
+    },
+    "confidence": 0.22
+   },
+   "1": {
+    "text": "Art. 96 (reducere cu un an) și art. 98 (jumătate în timp de război, dublu în zona acțiunilor militare) nu sunt în lista de articole din bibliografie, deși sunt în aceeași secțiune cu art. 94–97 — se cunosc doar ca context.",
+    "alegere": "contrazice",
+    "probabilitati": {
+     "nu_spune": 0.04,
+     "absenta_corecta": 0.18,
+     "sustine": 0.16,
+     "contrazice": 0.62
+    },
+    "confidence": 0.48
+   }
+  },
+  "usage": 15549
+ },
+ {
+  "loc": "capcana 15",
+  "afirmatii": {
+   "0": {
+    "text": "Înaintarea înainte de termen (art. 63) cere cel puțin jumătate din stagiu și nu se aplică sublocotenenților/aspiranților, celor condamnați penal și celor sancționați de consiliile de onoare de la ultima înaintare; locotenenții și căpitanii nu sunt excluși.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.99,
+     "nu_spune": 0.0,
+     "contrazice": 0.01,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 0.99
+   }
+  },
+  "usage": 15129
+ }
+]
