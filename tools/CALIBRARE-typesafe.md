@@ -198,3 +198,43 @@ dar au produs 13 alarme false pe banca întreagă — aceeași acoperire, preciz
 **Atenție:** `verificari/intrebari-ts.json` este de dinaintea acestei schimbări; cifrele din
 secțiunea anterioară (5 REVIZUIT / 97 INCERT) reflectă designul vechi. O rerulare a băncii
 costă ~6 milioane de tokens.
+
+---
+
+# Rularea pe toată banca, cu starea la nivel de alineat
+
+20.09.2026. **600 de întrebări în 69 de secunde, 6,33 milioane de tokens, 0 cereri picate.**
+1.850 de trimiteri rezolvate până la alineat sau literă.
+
+## Verificarea independentă a cheilor
+
+| | |
+|---|---|
+| întrebări cu răspuns unic | 505 |
+| acord între judecata comparativă și cheia declarată | **505** |
+| dezacorduri | **0** |
+
+Pe setul de control, aceeași judecată prinde 24 din 24 de chei mutate deliberat, cu
+încredere medie 0.99. Cele două cifre împreună spun că **nicio cheie `unic` din banca
+publicată nu iese greșită la o verificare independentă**. Nu e o dovadă de corectitudine —
+e o verificare care, pe acest corpus, separă curat în ambele direcții.
+
+## Verdicte
+
+**5 REVIZUIT · 90 INCERT · 505 OK**
+
+Cele 5 REVIZUIT sunt aceleași referiri poziționale verificate manual (L360-102, L360-113,
+L360-132, L223-C01, CM-310) — singurele defecte reale confirmate în banca publicată.
+
+Coada de revizuire (90) e dominată de încredere scăzută pe câte o variantă (72) și de
+fraze din explicație care nu se pot verifica din temeiul citat (28) — în mare parte
+explicații corecte care trimit la alte legi, în afara corpusului.
+
+## Regula de compunere adăugată la final
+
+Când judecata comparativă confirmă cheia cu încredere ≥ 0.80, suspiciunile per-variantă
+despre aceeași cheie se suprimă: se știe că se înșală exact în aceste cazuri. Semnalele
+per-variantă au scăzut de la 11 la 6 în coadă (cele rămase sunt pe întrebări `multiplu`,
+unde nu există judecată comparativă), iar L80-203 și L223-113 nu mai poartă acuzația falsă.
+Detecția pe mutante rămâne 23/24 — la chei greșite comparativul **nu** confirmă, deci
+suprimarea nu se aplică.

@@ -376,14 +376,21 @@ def verdict(j, praguri=None):
     # ratează trimiterile la litere (L80-328, lit. h) „prin demisie”). Toate trei cheile
     # verificate în lege erau corecte. Rămân ca semnal, dar în coada de revizuire.
     suspect = []
+    # Când judecata comparativă confirmă cheia cu încredere mare, suspiciunile
+    # per-variantă nu mai adaugă informație — se știe că se înșală exact în cazurile
+    # astea (L80-203, L223-113). Rămân doar semnalele de încredere scăzută.
+    cv0 = j.get("care_varianta")
+    cheia_confirmata = bool(cv0 and j.get("cheie")
+                            and cv0["alegere"] in j["cheie"]
+                            and cv0["confidence"] >= p["comparativ"])
     for lit, v in sorted((j.get("variante") or {}).items()):
         pr = v["probabilitati"]
         p_sus = pr.get("sustine", 0.0)
         e_cheie = lit in j.get("cheie", [])
-        if e_cheie and p_sus < p["sustine"]:
+        if e_cheie and p_sus < p["sustine"] and not cheia_confirmata:
             suspect.append("cheia %s nu e susținută de text (p_sustine=%.2f, alegere=%s)"
                            % (lit, p_sus, v["alegere"]))
-        if not e_cheie and p_sus >= p["aparabil"]:
+        if not e_cheie and p_sus >= p["aparabil"] and not cheia_confirmata:
             suspect.append("distractorul %s e apărabil ca răspuns corect (p_sustine=%.2f)"
                            % (lit, p_sus))
         if v["confidence"] < p["confidence"]:
