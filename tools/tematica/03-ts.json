@@ -1,0 +1,397 @@
+[
+ {
+  "loc": "Drepturile a căror exercitare este interzisă (art. 28) / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 28 enumeră trei drepturi a căror exercitare este interzisă cadrelor militare în activitate: apartenența la partide, formațiuni sau organizații politice și propaganda în favoarea acestora ori a unui candidat independent (lit. a)); candidatura pentru a fi alese în administrația publică locală, în Parlamentul României și în Parlamentul European, precum și în funcția de Președinte al României (lit. b)); declararea sau participarea la grevă (lit. c)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 2176
+ },
+ {
+  "loc": "Drepturile a căror exercitare este interzisă (art. 28) / paragraful 2",
+  "afirmatii": {
+   "0": {
+    "text": "Lit. a) nu se limitează la calitatea de membru: textul interzice și desfășurarea de propagandă prin orice mijloace sau alte activități în favoarea partidelor ori a unui candidat independent pentru funcții publice.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 2097
+ },
+ {
+  "loc": "Drepturile a căror exercitare este interzisă (art. 28) / paragraful 3",
+  "afirmatii": {
+   "0": {
+    "text": "Lit. b) enumeră patru niveluri de candidatură — administrația publică locală, Parlamentul României, Parlamentul European și funcția de Președinte al României.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 2090
+ },
+ {
+  "loc": "Drepturile a căror exercitare este restrânsă (art. 29) / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 29 folosește o altă tehnică: nu interzice drepturi în bloc, ci le restrânge exercitarea, literă cu literă.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.01,
+     "sustine": 0.99,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.98
+   },
+   "1": {
+    "text": "Nu este permisă exprimarea în public a opiniilor politice (lit. a)), nici exprimarea în public a unor opinii contrare intereselor României și forțelor armate (lit. b)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 2815
+ },
+ {
+  "loc": "Drepturile a căror exercitare este restrânsă (art. 29) / paragraful 2",
+  "afirmatii": {
+   "0": {
+    "text": "Lit. c) interzice prezentarea în public de informații cu caracter militar, dar cu o excepție expresă: cadrele care au atribuții în acest sens, potrivit normelor stabilite prin ordin al ministrului apărării naționale.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 2412
+ },
+ {
+  "loc": "Drepturile a căror exercitare este restrânsă (art. 29) / paragraful 3",
+  "afirmatii": {
+   "0": {
+    "text": "Lit. d) este formulată ca libertate, nu ca interdicție: aderarea la culte religioase este liberă, mai puțin la cele care, potrivit legii, contravin normelor de păstrare a ordinii publice, precum și la cele care încalcă bunele moravuri sau afectează exercitarea profesiei.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.99,
+     "nu_spune": 0.0,
+     "contrazice": 0.01,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 0.98
+   }
+  },
+  "usage": 2436
+ },
+ {
+  "loc": "Drepturile a căror exercitare este restrânsă (art. 29) / paragraful 4",
+  "afirmatii": {
+   "0": {
+    "text": "Lit. e) permite constituirea în forme de asociere cu caracter profesional, tehnico-științific, cultural, sportiv-recreativ sau caritabil, în condițiile stabilite prin regulamentele militare, cu excepția celor sindicale ori care contravin comenzii unice, ordinii și disciplinei specifice instituției armatei.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Asocierea sindicală este deci exclusă aici, nu la art. 28.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.03,
+     "sustine": 0.77,
+     "nu_spune": 0.11,
+     "absenta_corecta": 0.09
+    },
+    "confidence": 0.7
+   }
+  },
+  "usage": 2832
+ },
+ {
+  "loc": "Drepturile a căror exercitare este restrânsă (art. 29) / paragraful 5",
+  "afirmatii": {
+   "0": {
+    "text": "Lit. g) interzice participarea la mitinguri, demonstrații, procesiuni sau întruniri cu caracter politic ori sindical, cu excepția activităților la care se participă în misiune.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Lit. h) prevede că deplasarea în străinătate se face în condițiile stabilite prin ordin al ministrului apărării naționale, iar lit. i) că pe timpul stării de urgență, de asediu, de mobilizare și pe timp de război se suspendă primirea în audiență și soluționarea petițiilor.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 2873
+ },
+ {
+  "loc": "Drepturile a căror exercitare este restrânsă (art. 29) / paragraful 6",
+  "afirmatii": {
+   "0": {
+    "text": "Lit. f) este abrogată — conținutul ei nu se mai învață.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.01,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.01,
+     "sustine": 0.98
+    },
+    "confidence": 0.97
+   }
+  },
+  "usage": 2368
+ },
+ {
+  "loc": "Obligația de comportament și interdicțiile privind funcțiile / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 30 alin. (1) instituie o obligație generală de comportament: ofițerii, maiștrii militari și subofițerii în activitate au obligația de a nu efectua activități care contravin demnității, prestigiului și normelor de comportare ce decurg din calitatea lor de cadre militare.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 2441
+ },
+ {
+  "loc": "Obligația de comportament și interdicțiile privind funcțiile / paragraful 2",
+  "afirmatii": {
+   "0": {
+    "text": "Alin. (2) lit. a) interzice îndeplinirea altor funcții decât cele în care sunt încadrate, cu excepția cumulului prevăzut de lege, în condițiile stabilite prin ordin al ministrului apărării naționale.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 2330
+ },
+ {
+  "loc": "Obligația de comportament și interdicțiile privind funcțiile / paragraful 3",
+  "afirmatii": {
+   "0": {
+    "text": "Lit. b) interzice calitatea de asociat unic și participarea directă la administrarea sau conducerea unor organizații ori societăți comerciale.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Excepția este strict delimitată: cei numiți în consiliile de administrație ale regiilor autonome și societăților comerciale din subordinea, coordonarea sau sub autoritatea Ministerului Apărării Naționale și ale filialelor acestora, din cadrul industriei de apărare sau în legătură cu aceasta.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "sustine": 0.99,
+     "nu_spune": 0.0,
+     "contrazice": 0.01
+    },
+    "confidence": 0.99
+   }
+  },
+  "usage": 2774
+ },
+ {
+  "loc": "capcana 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 28 = interdicții (trei drepturi), art. 29 = restrângeri (litere cu excepții).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.01,
+     "nu_spune": 0.0,
+     "sustine": 0.99,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 0.99
+   },
+   "1": {
+    "text": "Distractorul tipic mută greva sau candidatura la art. 29, ori aderarea la culte la art. 28.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.04,
+     "nu_spune": 0.35,
+     "sustine": 0.56,
+     "absenta_corecta": 0.05
+    },
+    "confidence": 0.42
+   }
+  },
+  "usage": 3691
+ },
+ {
+  "loc": "capcana 2",
+  "afirmatii": {
+   "0": {
+    "text": "Aderarea la culte religioase (art. 29 lit. d)) este liberă ca regulă; restrângerea privește doar cultele care contravin ordinii publice, încalcă bunele moravuri sau afectează exercitarea profesiei.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 3400
+ },
+ {
+  "loc": "capcana 3",
+  "afirmatii": {
+   "0": {
+    "text": "Asocierea profesională, tehnico-științifică, culturală, sportiv-recreativă sau caritabilă este permisă (art. 29 lit. e)); excluse sunt formele sindicale și cele care contravin comenzii unice, ordinii și disciplinei.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 3423
+ },
+ {
+  "loc": "capcana 4",
+  "afirmatii": {
+   "0": {
+    "text": "Participarea la mitinguri și întruniri politice ori sindicale este interzisă cu o excepție expresă: activitățile la care se participă în misiune (art. 29 lit. g)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 3369
+ },
+ {
+  "loc": "capcana 5",
+  "afirmatii": {
+   "0": {
+    "text": "Prezentarea în public de informații cu caracter militar nu este interzisă absolut: fac excepție cadrele cu atribuții în acest sens, potrivit ordinului ministrului apărării naționale (art. 29 lit. c)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 3390
+ },
+ {
+  "loc": "capcana 6",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 29 lit. f) este abrogată; o variantă care îi atribuie un conținut este greșită.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.02,
+     "nu_spune": 0.0,
+     "sustine": 0.98,
+     "contrazice": 0.0
+    },
+    "confidence": 0.97
+   }
+  },
+  "usage": 3300
+ },
+ {
+  "loc": "capcana 7",
+  "afirmatii": {
+   "0": {
+    "text": "La art. 30 alin. (2) lit. b) interdicția vizează calitatea de asociat unic și participarea directă la administrare sau conducere; excepția privește numirile în consiliile de administrație ale entităților din subordinea, coordonarea sau autoritatea Ministerului Apărării Naționale și filialele lor, din industria de apărare sau în legătură cu aceasta.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 3501
+ },
+ {
+  "loc": "capcana 8",
+  "afirmatii": {
+   "0": {
+    "text": "Suspendarea primirii în audiență și a soluționării petițiilor operează pe timpul stării de urgență, de asediu, de mobilizare și pe timp de război (art. 29 lit. i)) — patru situații, nu doar starea de război.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 3395
+ }
+]
