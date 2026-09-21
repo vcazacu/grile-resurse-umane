@@ -10,6 +10,9 @@ Scrie și lista fișierelor în sw.js între marcajele /* TEMATICA-START */ … 
 import json, os, re, sys, html, glob
 from normalizare import normalizeaza, fragmente_citat, linii_zona
 from bibliografie import tematica as bib_tematica
+from legislatie_build import ACTE, ancora
+
+SLUG_ACT = {fisier: slug for fisier, slug, _, _ in ACTE}
 
 DIR = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(DIR, "..", "tematica")
@@ -59,7 +62,7 @@ def sablon(titlu, corp, subtitlu="", adancime=1):
 <link rel="icon" href="../icon-192.png"><link rel="stylesheet" href="{css}"><style>{CSS}</style>
 <title>{html.escape(titlu)} — Grile Resurse Umane</title></head>
 <body><div class="container"><header><h1>🪖 Grile — Resurse Umane</h1><div class="subtitle">{html.escape(subtitlu)}</div>
-<nav class="tem-nav"><a href="../index.html">← Teste</a><a href="index.html">Tematica</a></nav></header>
+<nav class="tem-nav"><a href="../index.html">← Teste</a><a href="index.html">Tematica</a><a href="../legislatie/index.html">Legislația</a></nav></header>
 <main>{corp}</main>
 <footer>Surse: formele consolidate la zi de pe legislatie.just.ro; citatele sunt verificate automat contra textului.</footer>
 </div></body></html>"""
@@ -83,10 +86,18 @@ def in_tematica(t):
     tt = bib_tematica().get(k)
     return bool(tt) and m.group(1) in tt[2]
 
+def link_lege(t):
+    """Adresa articolului în paginile de legislație (legislatie/<slug>.html#art-N), sau "" dacă nu se poate."""
+    m = re.search(r"art\.\s*(\d+(?:\^\d+)?)", t["articol"])
+    slug = SLUG_ACT.get(t["fisier"])
+    return "../legislatie/%s.html#%s" % (slug, ancora(m.group(1), t.get("anexa", ""))) if m and slug else ""
+
 def temei_html(t):
+    art = html.escape(t["articol"]); adresa = link_lege(t)
+    if adresa: art = '<a href="%s" style="color:inherit">%s</a>' % (adresa, art)
     return ('<div class="legal-card"><div class="act">%s</div><span class="articol">%s</span>'
             '<blockquote>„%s”</blockquote><div class="fisier">Sursă: %s</div></div>'
-            % (html.escape(t["act"]), html.escape(t["articol"]), html.escape(t["citat"]), html.escape(t["fisier"])))
+            % (html.escape(t["act"]), art, html.escape(t["citat"]), html.escape(t["fisier"])))
 
 def pagina(d, slug):
     corp = ['<div class="hero"><h2>%d. %s</h2></div>' % (d["nr"], html.escape(d["titlu"]))]

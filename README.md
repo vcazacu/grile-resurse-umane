@@ -83,6 +83,25 @@ Temele fără fișier de conținut apar în index ca „în pregătire". Fiecare
 înainte de publicare, și printr-o verificare adversarială independentă a sensului
 (nu doar a citatelor).
 
+## Legislația — textele de lege, de citit
+
+Secțiunea **Legislația** (`legislatie/index.html`, link în antet lângă Tematica) redă cele
+9 acte normative în text integral consolidat, formatat pentru citit pe telefon: cuprins pe
+capitole, câte un bloc pe articol (cu ancoră `#art-N`, `#art-9-1` pentru art. 9^1), alineate,
+litere și liniuțe indentate, titlurile marginale ale articolelor, iar notele portalului
+(modificări, abrogări, decizii) strânse sub fiecare articol. Implicit se văd doar articolele
+cerute în bibliografie (marcate „bibliografie", cu restricția afișată acolo unde există);
+comutatorul „Arată toată legea" descoperă restul, iar un salt la un articol ascuns îl
+activează singur. Cardurile „Temei legal" din tematica trimit la articolul din lege.
+
+`tools/legislatie_build.py` parsează `../legislatie/*.txt` (care **nu se modifică** — sunt
+sursa de adevăr pentru toate uneltele) pe marcajele existente (`## `, `Articolul N`, `(n)`,
+`x)`, `§NOTA§`, `§ANEXA§`), generează paginile și indexul, actualizează lista din `sw.js`
+și se oprește cu eroare dacă vreun articol cerut în bibliografie n-are ancoră. La Legea
+153/2017 se redă doar Anexa nr. VI (celelalte anexe sunt grile de salarizare). Limitare
+cunoscută: tabelele din Legea 360/2023 (art. 48, 51) sunt sparte pe rânduri în sursă și apar
+ca bloc monospațiat, nu ca tabel.
+
 ## Fișiere
 
 - `index.html` — pagina aplicației (deschide-o pe aceasta)
@@ -91,6 +110,7 @@ Temele fără fișier de conținut apar în index ca „în pregătire". Fiecare
 - `intrebari.js` — **banca de întrebări** (generată, nu se editează manual)
 - `sw.js` — service worker (offline + versiunea cache-ului)
 - `tools/tematica_build.py`, `tools/tematica/` — construirea paginilor de tematică
+- `tools/legislatie_build.py`, `legislatie/` — paginile de citit ale legislației
 - `tools/` — lanțul de generare și verificare:
   - `descarca.py` — descarcă formele consolidate de pe legislatie.just.ro în `../legislatie/`
   - `bibliografie.py` — tematica oficială → articole cerute (`BIB`, `RESTRICTII`)

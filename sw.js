@@ -1,6 +1,6 @@
 /* Service worker — face aplicația disponibilă offline după prima deschidere.
    La fiecare modificare a întrebărilor, schimbă VERSIUNE ca să se reîmprospăteze cache-ul. */
-const VERSIUNE = "grile-ru-v18";
+const VERSIUNE = "grile-ru-v19";
 const FISIERE = [
   "./",
   "./index.html",
@@ -32,6 +32,18 @@ const FISIERE = [
   "./tematica/17-stimulentul-de-insertie.html",
   "./tematica/18-compensatia-lunara-pentru-chirie.html",
   /* TEMATICA-END */
+  /* LEGISLATIE-START */
+  "./legislatie/index.html",
+  "./legislatie/01-legea-80-1995-statutul-cadrelor-militare.html",
+  "./legislatie/02-legea-1-1998-organizarea-sie.html",
+  "./legislatie/03-legea-53-2003-codul-muncii.html",
+  "./legislatie/04-legea-223-2015-pensiile-militare.html",
+  "./legislatie/05-legea-360-2023-sistemul-public-de-pensii.html",
+  "./legislatie/06-legea-153-2017-salarizarea-bugetara.html",
+  "./legislatie/07-oug-111-2010-concediul-crestere-copil.html",
+  "./legislatie/08-norme-hg-52-2011-aplicare-oug-111-2010.html",
+  "./legislatie/09-hg-1867-2005-compensatia-chirie.html",
+  /* LEGISLATIE-END */
 ];
 
 self.addEventListener("install", function (e) {

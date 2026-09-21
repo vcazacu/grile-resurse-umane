@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ro"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light dark"><meta name="theme-color" content="#09090b">
+<link rel="icon" href="../icon-192.png"><link rel="stylesheet" href="../style.css"><style>
+.tem-nav { display:flex; gap:0.75rem; flex-wrap:wrap; font-size:0.85rem; margin:0.25rem 0 0.75rem; }
+.tem-nav a { color: var(--info); text-decoration:none; } .tem-nav a:hover { text-decoration:underline; }
+.tem-list { list-style:none; padding:0; margin:0; display:grid; gap:0.5rem; }
+.tem-list li { border:1px solid var(--border); border-radius:0.6rem; padding:0.7rem 0.9rem; display:flex; gap:0.6rem; align-items:baseline; }
+.tem-list .nr { font-weight:700; color: var(--muted-foreground); min-width:1.6rem; }
+.tem-list a { color: var(--foreground); text-decoration:none; font-weight:600; } .tem-list a:hover { text-decoration:underline; }
+.tem-list small { display:block; font-weight:400; color: var(--muted-foreground); font-size:0.8rem; margin-top:0.15rem; }
+.leg-meta { color: var(--muted-foreground); font-size:0.85rem; margin:0.3rem 0 0; }
+.leg-preambul p { color: var(--muted-foreground); font-size:0.9rem; margin:0.2rem 0; }
+.leg-bar { position:sticky; top:0; z-index:5; background: var(--background); border-bottom:1px solid var(--border);
+  padding:0.5rem 0; margin:0 0 0.5rem; display:flex; gap:0.9rem; align-items:center; flex-wrap:wrap; font-size:0.9rem; }
+.leg-bar label { display:flex; gap:0.4rem; align-items:center; cursor:pointer; }
+.leg-bar form { display:flex; gap:0.3rem; align-items:center; margin-left:auto; }
+.leg-bar input[type=text] { width:4.5rem; padding:0.25rem 0.4rem; border:1px solid var(--border); border-radius:0.4rem; background: var(--card); color: var(--foreground); }
+.leg-bar button { padding:0.25rem 0.6rem; border:1px solid var(--border); border-radius:0.4rem; background: var(--card); color: var(--foreground); cursor:pointer; }
+.leg-cuprins ul { list-style:none; padding:0; margin:0; } .leg-cuprins li { margin:0.2rem 0; line-height:1.4; font-size:0.9rem; }
+.leg-cuprins li.n1 { font-weight:700; margin-top:0.5rem; } .leg-cuprins li.n3, .leg-cuprins li.n4 { padding-left:1.2rem; font-size:0.85rem; }
+.leg-cuprins a { color: var(--foreground); text-decoration:none; } .leg-cuprins a:hover { text-decoration:underline; }
+.leg-cuprins .cnt { color: var(--muted-foreground); font-size:0.8rem; margin-left:0.3rem; }
+.leg-sect h3 { margin:1.4rem 0 0.4rem; font-size:1.05rem; letter-spacing:-0.01em; }
+.leg-sect h3 small { display:block; font-weight:500; color: var(--muted-foreground); font-size:0.82rem; }
+.leg-sect.n1 h3 { font-size:1.15rem; border-bottom:2px solid var(--border); padding-bottom:0.3rem; }
+.leg-sect.n3 h3, .leg-sect.n4 h3 { font-size:0.95rem; margin-top:1rem; }
+.leg-art { padding:0.7rem 0; border-top:1px solid var(--border); scroll-margin-top:3.2rem; }
+.leg-art h4 { margin:0 0 0.3rem; font-size:1rem; display:flex; gap:0.5rem; align-items:center; flex-wrap:wrap; }
+.leg-art h4 .restr { font-weight:500; color: var(--muted-foreground); font-size:0.8rem; }
+.leg-titlu { font-weight:600; color: var(--muted-foreground); font-size:0.9rem; margin:0 0 0.35rem; }
+.leg-art p { margin:0.3rem 0; line-height:1.55; }
+.leg-art p.alin .nr { font-weight:700; color: var(--muted-foreground); margin-right:0.35rem; }
+.leg-art p.lit { padding-left:1.5rem; } .leg-art p.lit .nr { font-weight:600; margin-right:0.3rem; }
+.leg-art p.liniuta { padding-left:2.6rem; } .leg-art p.liniuta::before { content:"– "; color: var(--muted-foreground); }
+.leg-art .grup { padding-left:0.7rem; font-weight:600; margin:0.4rem 0 0.1rem; }
+.leg-art.abrogat p, .leg-art.abrogat .leg-titlu { color: var(--muted-foreground); }
+.leg-tabel { font-family: ui-monospace, Menlo, Consolas, monospace; font-size:0.78rem; background: var(--muted); border-radius:0.5rem;
+  padding:0.5rem 0.7rem; margin:0.4rem 0; line-height:1.5; white-space:pre-wrap; overflow-wrap:anywhere; }
+.leg-tabel .t { font-weight:700; display:block; margin-bottom:0.2rem; }
+.leg-note { margin-top:0.4rem; } .leg-note summary { font-size:0.8rem; color: var(--muted-foreground); cursor:pointer; list-style:none; }
+.leg-note summary::before { content:"▸ "; } .leg-note[open] summary::before { content:"▾ "; }
+.leg-note p { font-size:0.82rem; color: var(--muted-foreground); line-height:1.45; margin:0.25rem 0 0.25rem 0.9rem; }
+.leg-nota-libera { font-size:0.82rem; color: var(--muted-foreground); margin:0.3rem 0; }
+.leg-anexa > h3 { margin:1.6rem 0 0.4rem; font-size:1.15rem; border-bottom:2px solid var(--border); padding-bottom:0.3rem; }
+.badge.bib { background: var(--success-bg); color: var(--success); border-color: var(--success-border); }
+.badge.abrogat { background: var(--muted); color: var(--muted-foreground); border-color: var(--border); }
+.doar-bib .leg-art:not(.bib), .doar-bib .leg-sect:not(.are-bib), .doar-bib .leg-anexa:not(.are-bib),
+.doar-bib .leg-cuprins li:not(.are-bib), .doar-bib .leg-text, .doar-bib .leg-nota-libera { display:none; }
+.leg-omis { color: var(--muted-foreground); font-size:0.85rem; font-style:italic; margin:1rem 0; }
+</style>
+<title>Legislația din bibliografie — Grile Resurse Umane</title></head>
+<body><div class="container"><header><h1>🪖 Grile — Resurse Umane</h1><div class="subtitle">Legislația din bibliografie — text integral, consolidat</div>
+<nav class="tem-nav"><a href="../index.html">← Teste</a><a href="../tematica/index.html">Tematica</a><a href="index.html">Legislația</a></nav></header>
+<main><div class="hero"><h2>Legislația din bibliografie</h2><p>Cele nouă acte normative, în text integral consolidat. Implicit se văd doar articolele cerute în bibliografie (marcate <span class="badge bib">bibliografie</span>); comutatorul „Arată toată legea” descoperă și restul.</p></div><div class="card"><ul class="tem-list"><li><span class="nr">1.</span><a href="01-legea-80-1995-statutul-cadrelor-militare.html">Legea nr. 80/1995 privind statutul cadrelor militare<small>74 articole cerute din 147 · consolidarea din 28.03.2024</small></a></li><li><span class="nr">2.</span><a href="02-legea-1-1998-organizarea-sie.html">Legea nr. 1/1998 privind organizarea și funcționarea Serviciului de Informații Externe<small>13 articole cerute din 23 · consolidarea din 22.04.2017</small></a></li><li><span class="nr">3.</span><a href="03-legea-53-2003-codul-muncii.html">Legea nr. 53/2003 – Codul muncii<small>100 articole cerute din 297 · consolidarea din 27.04.2026</small></a></li><li><span class="nr">4.</span><a href="04-legea-223-2015-pensiile-militare.html">Legea nr. 223/2015 privind pensiile militare de stat<small>44 articole cerute din 128 · consolidarea din 01.01.2024</small></a></li><li><span class="nr">5.</span><a href="05-legea-360-2023-sistemul-public-de-pensii.html">Legea nr. 360/2023 privind sistemul public de pensii<small>39 articole cerute din 176 · consolidarea din 28.07.2025</small></a></li><li><span class="nr">6.</span><a href="06-legea-153-2017-salarizarea-bugetara.html">Legea-cadru nr. 153/2017 privind salarizarea personalului plătit din fonduri publice<small>40 articole cerute din 140 · consolidarea din 01.01.2026</small></a></li><li><span class="nr">7.</span><a href="07-oug-111-2010-concediul-crestere-copil.html">O.U.G. nr. 111/2010 privind concediul și indemnizația lunară pentru creșterea copiilor<small>24 articole cerute din 43 · consolidarea din 19.09.2023</small></a></li><li><span class="nr">8.</span><a href="08-norme-hg-52-2011-aplicare-oug-111-2010.html">Normele metodologice de aplicare a O.U.G. nr. 111/2010 (H.G. nr. 52/2011)<small>18 articole cerute din 49 · consolidarea din 19.09.2023</small></a></li><li><span class="nr">9.</span><a href="09-hg-1867-2005-compensatia-chirie.html">H.G. nr. 1867/2005 privind compensația lunară pentru chirie a cadrelor militare<small>18 articole cerute din 22 · consolidarea din 06.05.2020</small></a></li></ul></div></main>
+<footer>Textele sunt formele consolidate la zi de pe legislatie.just.ro, redate fără modificări; notele portalului sunt strânse sub fiecare articol.</footer>
+<script>
+(function(){
+  var K='leg-toata', cb=document.getElementById('leg-tot'); if(!cb) return;
+  function aplica(){ document.body.classList.toggle('doar-bib', !cb.checked);
+    try{ localStorage.setItem(K, cb.checked?'1':'0'); }catch(e){} }
+  try{ cb.checked = localStorage.getItem(K)==='1'; }catch(e){}
+  cb.addEventListener('change', aplica); aplica();
+  function tinta(){ var h=location.hash; if(!h) return; var el=document.getElementById(h.slice(1)); if(!el) return;
+    var a=el.closest('.leg-art'); if(!cb.checked && ((a && !a.classList.contains('bib')) || el.closest('.leg-sect:not(.are-bib), .leg-anexa:not(.are-bib)'))){ cb.checked=true; aplica(); }
+    el.scrollIntoView(); }
+  window.addEventListener('hashchange', tinta); tinta();
+  var f=document.getElementById('leg-sari'); if(f) f.addEventListener('submit', function(e){ e.preventDefault();
+    var v=f.querySelector('input').value.trim().replace(/\s+/g,'').replace('^','-'); if(!v) return;
+    var id='art-'+v; if(!document.getElementById(id)){ f.querySelector('input').setCustomValidity('Nu există art. '+v); f.reportValidity();
+      setTimeout(function(){ f.querySelector('input').setCustomValidity(''); },1500); return; }
+    location.hash='#'+id; });
+})();
+</script></div></body></html>
