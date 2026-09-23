@@ -94,6 +94,17 @@ cerute în bibliografie (marcate „bibliografie", cu restricția afișată acol
 comutatorul „Arată toată legea" descoperă restul, iar un salt la un articol ascuns îl
 activează singur. Cardurile „Temei legal" din tematica trimit la articolul din lege.
 
+**Trimiterile din text sunt apăsabile.** „prevăzute la art. 36 alin. 1 lit. a)", „potrivit
+alin. 1 și 2", „celor prevăzute la lit. a) și b)", intervalele („lit. b)-f)") și grupurile
+(„alin. 2^1 paragraful B lit. c)") sunt recunoscute la construire de `tools/trimiteri.py`
+(gramatică deterministă, testată în `tools/test_trimiteri.py`); fiecare element trimite la
+propriul nivel — articolul, alineatul, litera. La apăsare, sub paragraf se deschide un chenar
+cu textul țintei, copiat din aceeași pagină (merge offline, paginile nu cresc), cu „mergi la
+text" și „×"; a doua apăsare îl închide, iar trimiterile din chenar sunt la rândul lor
+apăsabile. Rămân text simplu: trimiterile către alt act („… din Legea nr. 384/2006"), către
+anexe, către ținte inexistente și literele ambigue (aceeași literă în două grupuri fără
+grupul numit). Build-ul raportează pe act câte trimiteri a legat / a lăsat / sunt către alt act.
+
 `tools/legislatie_build.py` parsează `../legislatie/*.txt` (care **nu se modifică** — sunt
 sursa de adevăr pentru toate uneltele) pe marcajele existente (`## `, `Articolul N`, `(n)`,
 `x)`, `§NOTA§`, `§ANEXA§`), generează paginile și indexul, actualizează lista din `sw.js`

@@ -17,6 +17,7 @@ comutator descoperă toată legea. Scrie și lista fișierelor în sw.js între 
 """
 import html, os, re, sys
 from bibliografie import BIB, RESTRICTII, tematica as bib_tematica
+from trimiteri import marcheaza
 
 DIR = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(DIR, "..", "legislatie")
@@ -181,6 +182,18 @@ CSS = """
 .doar-bib .leg-art:not(.bib), .doar-bib .leg-sect:not(.are-bib), .doar-bib .leg-anexa:not(.are-bib),
 .doar-bib .leg-cuprins li:not(.are-bib), .doar-bib .leg-text, .doar-bib .leg-nota-libera { display:none; }
 .leg-omis { color: var(--muted-foreground); font-size:0.85rem; font-style:italic; margin:1rem 0; }
+a.trm { color: var(--info); text-decoration:none; border-bottom:1px dotted var(--info-border); cursor:pointer; }
+a.trm:hover, a.trm.deschis { background: var(--info-bg); }
+.trm-box { border-left:3px solid var(--info-border); background: var(--info-bg); border-radius:0 0.5rem 0.5rem 0;
+  padding:0.45rem 0.7rem 0.5rem; margin:0.35rem 0 0.55rem; font-size:0.9rem; }
+.trm-box .trm-h { display:flex; gap:0.6rem; align-items:center; font-size:0.8rem; color: var(--muted-foreground); margin:0.35rem 0 0.15rem; }
+.trm-box .trm-h:first-child { margin-top:0; }
+.trm-box .trm-h b { color: var(--info); font-weight:700; }
+.trm-box .trm-h a { color: var(--info); margin-left:auto; text-decoration:none; white-space:nowrap; }
+.trm-box .trm-h button { background:none; border:0; color: var(--muted-foreground); font-size:1.1rem; line-height:1; cursor:pointer; padding:0 0.2rem; }
+.trm-box p { margin:0.2rem 0; } .trm-box p.lit { padding-left:1.2rem; } .trm-box .grup { padding-left:0.4rem; }
+.trm-box .trm-box { background: var(--card); }
+.leg-art p[id], .leg-art .grup[id] { scroll-margin-top:3.2rem; }
 """
 
 JS = """
@@ -199,6 +212,34 @@ JS = """
     var id='art-'+v; if(!document.getElementById(id)){ f.querySelector('input').setCustomValidity('Nu există art. '+v); f.reportValidity();
       setTimeout(function(){ f.querySelector('input').setCustomValidity(''); },1500); return; }
     location.hash='#'+id; });
+
+  /* Trimiteri: la apăsare, sub paragraf se deschide un chenar cu textul țintei, copiat din pagină. */
+  function urmatoarele(el, oprire, accepta){ var out=[el], s=el.nextElementSibling;
+    while(s && !oprire(s)){ if(accepta(s)) out.push(s); s=s.nextElementSibling; } return out; }
+  function extrage(el){
+    if(el.classList.contains('leg-art')) return Array.prototype.filter.call(el.children, function(c){ return c.tagName!=='H4' && !c.classList.contains('leg-note'); });
+    if(el.classList.contains('alin')) return urmatoarele(el, function(s){ return s.classList.contains('alin') || s.tagName==='DETAILS'; }, function(s){ return s.tagName==='P' || s.classList.contains('grup'); });
+    if(el.classList.contains('grup')) return urmatoarele(el, function(s){ return s.classList.contains('alin') || s.classList.contains('grup') || s.tagName==='DETAILS'; }, function(s){ return s.tagName==='P'; });
+    return urmatoarele(el, function(s){ return !s.classList.contains('liniuta') && !s.classList.contains('trm-box'); }, function(s){ return s.classList.contains('liniuta'); });
+  }
+  function curata(n){ var c=n.cloneNode(true); if(c.removeAttribute) c.removeAttribute('id');
+    c.querySelectorAll('[id]').forEach(function(x){ x.removeAttribute('id'); });
+    c.querySelectorAll('.trm-box').forEach(function(x){ x.remove(); }); return c; }
+  document.addEventListener('click', function(ev){
+    var a=ev.target.closest('a.trm'); if(!a) return; ev.preventDefault();
+    var bloc=a.closest('p, .grup, .leg-titlu'); if(!bloc) return;
+    var existent=bloc.nextElementSibling;
+    if(existent && existent.classList.contains('trm-box') && existent.dataset.de===a.dataset.t){ existent.remove(); a.classList.remove('deschis'); return; }
+    var box=document.createElement('div'); box.className='trm-box'; box.dataset.de=a.dataset.t;
+    var ids=a.dataset.t.split(' '), et=a.dataset.e.split('|');
+    ids.forEach(function(id, i){ var el=document.getElementById(id); if(!el) return;
+      var h=document.createElement('div'); h.className='trm-h';
+      h.innerHTML='<b></b><a href="#'+id+'">mergi la text ↗</a>'+(i===0?'<button type="button" aria-label="Închide">×</button>':'');
+      h.querySelector('b').textContent=et[i]||id; box.appendChild(h);
+      extrage(el).forEach(function(n){ box.appendChild(curata(n)); }); });
+    box.addEventListener('click', function(e){ if(e.target.tagName==='BUTTON'){ box.remove(); a.classList.remove('deschis'); } });
+    bloc.insertAdjacentElement('afterend', box); a.classList.add('deschis');
+  });
 })();
 """
 
@@ -218,13 +259,74 @@ def ancora(nr, anexa=""):
     a = "art-" + nr.replace("^", "-")
     return ("anexa-%s-" % re.sub(r"[^A-Za-z0-9]+", "-", anexa).strip("-").lower() + a) if anexa else a
 
-def _p(cls, text, nr=None):
+def _ph(cls, inner, nr=None, idd=None):
+    """Paragraf cu conținut deja redat în HTML (textul trece prin txt()/marcheaza)."""
     n = '<span class="nr">%s</span>' % html.escape(nr) if nr else ""
-    return '<p class="%s">%s%s</p>' % (cls, n, html.escape(text))
+    return '<p class="%s"%s>%s%s</p>' % (cls, ' id="%s"' % idd if idd else "", n, inner)
 
-def art_html(art, anexa, cerute, restrictii):
+def indexeaza(blocuri, anexa):
+    """Id-urile alineatelor, grupurilor și literelor fiecărui articol din zonă, pentru ancore și
+    pentru rezolvarea trimiterilor. d["ids"][k] = id-ul elementului k din continut (sau None)."""
+    idx = {}
+    for b in blocuri:
+        if b["tip"] != "art": continue
+        e = ancora(b["nr"], anexa)
+        d = {"id": e, "alin": {}, "lit": {}, "grup": {}, "ids": []}
+        alin = grup = None
+        for tip, v in b["continut"]:
+            idd = None
+            if tip == "alin":
+                alin, grup = v[0], None
+                idd = "%s-al-%s" % (e, alin.replace("^", "-"))
+                d["alin"][alin] = {"id": idd, "lit": {}, "grup": {}}
+            elif tip == "grup":
+                grup = _GRUP.match(v).group(1)
+                tinta = d["alin"][alin] if alin else d
+                idd = "%s-g%s" % (tinta["id"], grup.replace("^", "-"))
+                tinta["grup"].setdefault(grup, {"id": idd, "lit": {}})
+            elif tip == "lit":
+                tinta = d["alin"][alin] if alin else d
+                baza = tinta["grup"][grup] if grup else tinta
+                idd = "%s-lit-%s" % (baza["id"], v[0].replace("^", "-"))
+                if idd in d["ids"]: idd += "-%d" % (d["ids"].count(idd) + 1)   # literă repetată fără grup
+                if grup: baza["lit"][v[0]] = idd
+                tinta["lit"].setdefault(v[0], []).append(idd)
+            d["ids"].append(idd)
+        idx[b["nr"]] = d
+    return idx
+
+def rezolvator(idx):
+    """rez(fel, art, alin, lit, grup) → (id, etichetă) sau None, pentru trimiteri.marcheaza."""
+    def rez(fel, art, alin, lit, grup):
+        d = idx.get(art)
+        if not d: return None
+        et = "art. %s" % art
+        if fel == "art": return d["id"], et
+        if alin is not None:
+            al = d["alin"].get(alin)
+            if not al: return None
+            et += " alin. (%s)" % alin
+            if fel == "alin": return al["id"], et
+            tinta = al
+        else:
+            if fel == "alin": return None
+            tinta = d
+        if grup:
+            g = tinta["grup"].get(grup)
+            lid = g["lit"].get(lit) if g else None
+            return (lid, "%s %s. lit. %s)" % (et, grup, lit)) if lid else None
+        ids = tinta["lit"].get(lit, [])
+        return (ids[0], "%s lit. %s)" % (et, lit)) if len(ids) == 1 else None    # ambiguu (mai multe grupuri) → nelegat
+    return rez
+
+def art_html(art, anexa, cerute, restrictii, idx=None, stat=None):
     nr, e = art["nr"], ancora(art["nr"], anexa)
     in_bib = nr in cerute
+    d = (idx or {}).get(nr, {"ids": [None] * len(art["continut"])})
+    rez = rezolvator(idx) if idx else None
+    alin = grup = None
+    def txt(s):
+        return marcheaza(s, (nr, alin, grup), rez, stat) if rez else html.escape(s)
     prim = art["continut"][0] if art["continut"] else None
     prim_text = (prim[1] if prim[0] == "text" else (prim[1][1] if prim[0] in ("alin", "lit") else "")) if prim else ""
     abrogat = not art["continut"] or bool(_ABROGAT.match(prim_text)) or (prim and prim[0] == "alin" and prim[1][0] == "1" and _ABROGAT.match(prim[1][1]) and len(art["continut"]) == 1)
@@ -236,21 +338,27 @@ def art_html(art, anexa, cerute, restrictii):
     if r and in_bib: h.append('<span class="restr">în bibliografie %s</span>' % html.escape(r))
     h.append("</h4>")
     if art["titlu"]: h.append('<div class="leg-titlu">%s</div>' % html.escape(art["titlu"]))
-    for tip, v in art["continut"]:
-        if tip == "alin": h.append(_p("alin", v[1], "(%s)" % v[0]))
-        elif tip == "lit": h.append(_p("lit", v[1], "%s)" % v[0]))
-        elif tip == "grup": h.append('<div class="grup">%s</div>' % html.escape(v))
-        elif tip == "liniuta": h.append(_p("liniuta", v))
+    for k, (tip, v) in enumerate(art["continut"]):
+        idd = d["ids"][k] if k < len(d["ids"]) else None
+        if tip == "alin":
+            alin, grup = v[0], None
+            h.append(_ph("alin", txt(v[1]), "(%s)" % v[0], idd))
+        elif tip == "lit": h.append(_ph("lit", txt(v[1]), "%s)" % v[0], idd))
+        elif tip == "grup":
+            grup = _GRUP.match(v).group(1)
+            h.append('<div class="grup"%s>%s</div>' % (' id="%s"' % idd if idd else "", txt(v)))
+        elif tip == "liniuta": h.append(_ph("liniuta", txt(v)))
         elif tip == "tabel": h.append('<div class="leg-tabel"><span class="t">%s</span>%s</div>' % (html.escape(v[0]), html.escape(" ".join(v[1:]))))
-        else: h.append(_p("text", v))
+        else: h.append(_ph("text", txt(v)))
     if art["note"]:
         h.append('<details class="leg-note"><summary>Note (%d)</summary>%s</details>'
                  % (len(art["note"]), "".join("<p>%s</p>" % html.escape(n) for n in art["note"])))
     h.append("</article>")
     return "".join(h), in_bib
 
-def blocuri_html(blocuri, anexa, cerute, restrictii):
+def blocuri_html(blocuri, anexa, cerute, restrictii, stat=None):
     """Redă o listă de blocuri; secțiunile se închid la următoarea secțiune de nivel ≤."""
+    idx = indexeaza(blocuri, anexa)
     # 1) ce secțiune conține articole din bibliografie (până la următoarea de nivel ≤)
     are_bib = []
     for i, b in enumerate(blocuri):
@@ -274,7 +382,7 @@ def blocuri_html(blocuri, anexa, cerute, restrictii):
             deschise.append(b["nivel"])
             cuprins.append((b["nivel"], sid, b["eticheta"], b["titlu"], ok))
         elif b["tip"] == "art":
-            h, in_bib = art_html(b, anexa, cerute, restrictii)
+            h, in_bib = art_html(b, anexa, cerute, restrictii, idx, stat)
             out.append(h); n_art += 1; n_bib += in_bib
         elif b["tip"] == "nota":
             out.append('<p class="leg-nota-libera">%s</p>' % html.escape(b["text"]))
@@ -294,13 +402,14 @@ def pagina(fisier, slug, denumire, anexe_redate, bib):
     doc = parseaza(os.path.join(LEG, fisier), anexe_redate)
     cerute_corp = set(bib.get(fisier, ("", "", [], [], [], {}))[2])
     restr_corp = {a: r for (f, a), r in RESTRICTII.items() if f == fisier}
-    corp_html, cuprins, n_art, n_bib = blocuri_html(doc["corp"], "", cerute_corp, restr_corp)
+    stat = {}
+    corp_html, cuprins, n_art, n_bib = blocuri_html(doc["corp"], "", cerute_corp, restr_corp, stat)
     anexe_html = []
     for ax in doc["anexe"]:
         cheie = fisier + "#" + ax["nume"]
         cerute = set(bib[cheie][2]) if cheie in bib else set()
         restr = {a: r for (f, a), r in RESTRICTII.items() if f == cheie}
-        h, cup, na, nb = blocuri_html(ax["blocuri"], ax["nume"], cerute, restr)
+        h, cup, na, nb = blocuri_html(ax["blocuri"], ax["nume"], cerute, restr, stat)
         n_art += na; n_bib += nb
         aid = "anexa-" + re.sub(r"[^A-Za-z0-9]+", "-", ax["nume"]).strip("-").lower()
         anexe_html.append('<section class="leg-anexa%s" id="%s"><h3>%s%s</h3>%s</section>'
@@ -326,7 +435,7 @@ def pagina(fisier, slug, denumire, anexe_redate, bib):
     if anexe_redate is not None:
         corp.append('<p class="leg-omis">Celelalte anexe ale actului (grile de salarizare) nu sunt în bibliografie și nu sunt redate aici.</p>')
     corp.append('<div class="actions"><a class="btn btn-outline" href="index.html">Toate actele</a><a class="btn btn-primary" href="../index.html">Înapoi la teste</a></div>')
-    return sablon(denumire, "".join(corp), "Legislația din bibliografie — text integral, consolidat"), doc, n_art, n_bib
+    return sablon(denumire, "".join(corp), "Legislația din bibliografie — text integral, consolidat"), doc, n_art, n_bib, stat
 
 def index_html(rows):
     li = "".join('<li><span class="nr">%d.</span><a href="%s.html">%s<small>%s</small></a></li>'
@@ -342,7 +451,7 @@ def main():
     bib = bib_tematica()
     rows, fisiere, erori = [], ["./legislatie/index.html"], 0
     for fisier, slug, denumire, anexe_redate in ACTE:
-        pag, doc, n_art, n_bib = pagina(fisier, slug, denumire, anexe_redate, bib)
+        pag, doc, n_art, n_bib, stat = pagina(fisier, slug, denumire, anexe_redate, bib)
         # asertări: fiecare articol cerut are ancoră; numărul de articole din corp = cel văzut de bibliografie.py
         for cheie, (f, anexa, cerute, _l, _a, arts) in bib.items():
             if f != fisier: continue
@@ -358,7 +467,8 @@ def main():
         fisiere.append("./legislatie/" + nume)
         consolidare = re.search(r"consolidarea din [\d.]+", doc["sursa"])
         rows.append((slug, denumire, "%d articole cerute din %d · %s" % (n_bib, n_art, consolidare.group(0) if consolidare else "")))
-        print("%-58s %4d articole, %3d în bibliografie, %6d KB → legislatie/%s" % (fisier, n_art, n_bib, len(pag) // 1024, nume))
+        print("%-48s %4d art., %3d în bibl., trimiteri: %4d legate, %3d nelegate, %3d alt act, %5d KB → %s"
+              % (fisier[:48], n_art, n_bib, stat.get("legate", 0), stat.get("nelegate", 0), stat.get("extern", 0), len(pag) // 1024, nume))
     open(os.path.join(OUT, "index.html"), "w", encoding="utf-8").write(index_html(rows))
     sw = os.path.join(DIR, "..", "sw.js"); s = open(sw, encoding="utf-8").read()
     bloc = "/* LEGISLATIE-START */\n" + "".join('  "%s",\n' % f for f in fisiere) + "  /* LEGISLATIE-END */"
