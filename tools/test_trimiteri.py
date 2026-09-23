@@ -12,8 +12,15 @@ def rez(fel, art, alin, lit, grup):
     if lit: idd += "-lit-" + lit.replace("^", "-")
     return idd, "et"
 
+def rez_extern(fraza):
+    """Rezolvator de test pentru alt act: doar Legea 80/1995 e „a noastră” (pagina 01.html)."""
+    if not fraza.startswith("Legea nr. 80/1995"): return None
+    def r(fel, art, alin, lit, grup):
+        t = rez(fel, art, alin, lit, grup); return (t[0], "L80, " + t[1]) if t else None
+    return r, "01.html"
+
 def linkuri(html):
-    return re.findall(r'<a class="trm" href="#([^"]+)"[^>]*>([^<]*)</a>', html)
+    return [(h.lstrip("#"), t) for h, t in re.findall(r'<a class="trm" href="([^"]+)"[^>]*>([^<]*)</a>', html)]
 
 CAZURI = [
  # text, context (art, alin, grup), linkuri așteptate [(id, text)]
@@ -44,9 +51,21 @@ CAZURI = [
  ("potrivit art. 67 și alin. 2", ("50", "1", None), [("art-67", "art. 67"), ("art-50-al-2", "alin. 2")]),
 ]
 
+CAZURI += [
+ # etapa 2: alt act cunoscut → link către pagina lui; act necunoscut → text simplu; fără „art." → text simplu
+ ("potrivit art. 20^1 alin. 1 din Legea nr. 80/1995 privind statutul", ("50", "1", None),
+  [("01.html#art-20-1", "art. 20^1"), ("01.html#art-20-1-al-1", "alin. 1")]),
+ ("art. 20^1 și art. 21 din Legea nr. 80/1995, cu modificările", ("50", "1", None),
+  [("01.html#art-20-1", "art. 20^1"), ("01.html#art-21", "art. 21")]),
+ ("prevăzute la alin. (2) din Legea nr. 80/1995", ("50", "1", None), []),
+ ("art. 5 din Legea nr. 227/2015 și alin. 2", ("50", "1", None), [("art-50-al-2", "alin. 2")]),  # rezolvatorul revine la actul curent
+ ("art. 12 alin. (5) din Legea nr. 80/1995 și alin. 3", ("50", "1", None),      # după un act cunoscut, la fel
+  [("01.html#art-12", "art. 12"), ("01.html#art-12-al-5", "alin. (5)"), ("art-50-al-3", "alin. 3")]),
+]
+
 ok = 0
 for text, ctx, astept in CAZURI:
-    h = marcheaza(text, ctx, rez)
+    h = marcheaza(text, ctx, rez, None, rez_extern)
     got = linkuri(h)
     if got == astept and "<b>" not in h: ok += 1
     else: print("EȘEC:", text, "\n   așteptat:", astept, "\n   obținut: ", got, "\n   html:", h)
@@ -55,5 +74,9 @@ h = marcheaza("lit. b)-f)", ("50", "1", None), rez)
 t = re.search(r'data-t="([^"]+)"', h).group(1).split()
 if t == ["art-50-al-1-lit-%s" % c for c in "bcdef"]: ok += 1
 else: print("EȘEC interval:", t)
-print("%d/%d teste trec" % (ok, len(CAZURI) + 1))
-sys.exit(0 if ok == len(CAZURI) + 1 else 1)
+# alt act: data-t poartă pagina, eticheta poartă actul
+h = marcheaza("art. 21 din Legea nr. 80/1995", ("50", "1", None), rez, None, rez_extern)
+if 'data-t="01.html#art-21"' in h and 'data-e="L80, et"' in h: ok += 1
+else: print("EȘEC alt act:", h)
+print("%d/%d teste trec" % (ok, len(CAZURI) + 2))
+sys.exit(0 if ok == len(CAZURI) + 2 else 1)

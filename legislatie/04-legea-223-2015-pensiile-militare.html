@@ -92,9 +92,18 @@ a.trm:hover, a.trm.deschis { background: var(--info-bg); }
     if(el.classList.contains('grup')) return urmatoarele(el, function(s){ return s.classList.contains('alin') || s.classList.contains('grup') || s.tagName==='DETAILS'; }, function(s){ return s.tagName==='P'; });
     return urmatoarele(el, function(s){ return !s.classList.contains('liniuta') && !s.classList.contains('trm-box'); }, function(s){ return s.classList.contains('liniuta'); });
   }
-  function curata(n){ var c=n.cloneNode(true); if(c.removeAttribute) c.removeAttribute('id');
+  function curata(n, pag){ var c=n.cloneNode(true); if(c.removeAttribute) c.removeAttribute('id');
     c.querySelectorAll('[id]').forEach(function(x){ x.removeAttribute('id'); });
-    c.querySelectorAll('.trm-box').forEach(function(x){ x.remove(); }); return c; }
+    c.querySelectorAll('.trm-box').forEach(function(x){ x.remove(); });
+    if(pag) c.querySelectorAll('a.trm').forEach(function(x){   /* textul vine din altă pagină: trimiterile lui interne rămân ale acelei pagini */
+      x.dataset.t=x.dataset.t.split(' ').map(function(t){ return t.indexOf('#')<0 ? pag+'#'+t : t; }).join(' ');
+      if(x.getAttribute('href').charAt(0)==='#') x.setAttribute('href', pag+x.getAttribute('href')); });
+    return c; }
+  /* Ținta poate fi în altă pagină („07-….html#art-8”): pagina se ia cu fetch (e în cache-ul offline) și se parsează o singură dată. */
+  var docs={};
+  function iaDoc(pag, cb){ if(!pag) return cb(document); if(docs[pag]) return cb(docs[pag]);
+    fetch(pag).then(function(r){ return r.text(); }).then(function(t){ docs[pag]=new DOMParser().parseFromString(t,'text/html'); cb(docs[pag]); })
+      .catch(function(){ cb(null); }); }
   document.addEventListener('click', function(ev){
     var a=ev.target.closest('a.trm'); if(!a) return; ev.preventDefault();
     var bloc=a.closest('p, .grup, .leg-titlu'); if(!bloc) return;
@@ -102,11 +111,14 @@ a.trm:hover, a.trm.deschis { background: var(--info-bg); }
     if(existent && existent.classList.contains('trm-box') && existent.dataset.de===a.dataset.t){ existent.remove(); a.classList.remove('deschis'); return; }
     var box=document.createElement('div'); box.className='trm-box'; box.dataset.de=a.dataset.t;
     var ids=a.dataset.t.split(' '), et=a.dataset.e.split('|');
-    ids.forEach(function(id, i){ var el=document.getElementById(id); if(!el) return;
+    ids.forEach(function(ref, i){ var p=ref.split('#'), pag=p.length>1?p[0]:'', id=p[p.length-1];
+      var cont=document.createElement('div'); box.appendChild(cont);
       var h=document.createElement('div'); h.className='trm-h';
-      h.innerHTML='<b></b><a href="#'+id+'">mergi la text ↗</a>'+(i===0?'<button type="button" aria-label="Închide">×</button>':'');
-      h.querySelector('b').textContent=et[i]||id; box.appendChild(h);
-      extrage(el).forEach(function(n){ box.appendChild(curata(n)); }); });
+      h.innerHTML='<b></b><a href="'+pag+'#'+id+'">mergi la text ↗</a>'+(i===0?'<button type="button" aria-label="Închide">×</button>':'');
+      h.querySelector('b').textContent=et[i]||id; cont.appendChild(h);
+      iaDoc(pag, function(doc){ var el=doc && doc.getElementById(id);
+        if(!el){ var e=document.createElement('p'); e.textContent=doc?'Textul nu a fost găsit.':'Pagina actului nu a putut fi încărcată.'; cont.appendChild(e); return; }
+        extrage(el).forEach(function(n){ cont.appendChild(curata(n, pag)); }); }); });
     box.addEventListener('click', function(e){ if(e.target.tagName==='BUTTON'){ box.remove(); a.classList.remove('deschis'); } });
     bloc.insertAdjacentElement('afterend', box); a.classList.add('deschis');
   });

@@ -29,19 +29,20 @@ _TOKEN = re.compile(
     r"|" + _G % "grupB" + r"?\s*\blit\.\s*(?P<lit2>" + _LLIST + r")", re.I)
 _ITEM_A = re.compile(r"(\(?" + NR + r"\)?)(?:" + _RNG + r"(\(?" + NR + r"\)?))?")
 _ITEM_L = re.compile(r"(" + LT + r")\)(?:" + _RNG + r"(" + LT + r")\))?")
-_EXTERN = re.compile(r"^\s*,?\s*(?:din|al|ale|a|la|potrivit)\s+(?:Legea|Legii|Ordonan|O\.\s*U\.\s*G|Hotărâr|H\.\s*G|"
-                     r"Codul|Codului|Constituț|Regulament|Decret|Statut|Normel|anexa|anexei|Anexa|Tratat)", re.I)
-_LIT_PREFIX = re.compile(r"\blit\.\s*$", re.I)
+_EXTERN = re.compile(r"^\s*,?\s*(?:din|al|ale|a|la|potrivit)\s+(?P<act>(?:Legea|Legii|Ordonan|O\.\s*U\.\s*G|Hotărâr|H\.\s*G|"
+                     r"Codul|Codului|Constituț|Regulament|Decret|Statut|Normel|anexa|anexei|Anexa|Tratat))", re.I)
 
 def _extern_dupa(text, poz):
-    """E tokenul urmat de „din Legea…"? Sare peste o listă „…, art. 70 și art. 103" ca să vadă
-    ce vine după ultimul element — altfel primele articole din listă s-ar lega în actul curent."""
+    """Dacă tokenul e urmat de „din Legea…", întoarce fraza care numește actul (≤ 90 de caractere),
+    altfel None. Sare peste o listă „…, art. 70 și art. 103" ca să vadă ce vine după ultimul
+    element — altfel primele articole din listă s-ar lega în actul curent."""
     while True:
-        if _EXTERN.match(text[poz:poz + 60]): return True
+        m = _EXTERN.match(text[poz:poz + 60])
+        if m: return text[poz + m.start("act"):poz + m.start("act") + 90]
         m2 = re.match(r"\s*(?:,|și|sau|ori)\s*", text[poz:])
-        if not m2: return False
+        if not m2: return None
         m3 = _TOKEN.match(text, poz + m2.end())
-        if not m3 or not m3.group("art"): return False
+        if not m3 or not m3.group("art"): return None
         poz = m3.end()
 
 def _curat(x):
@@ -59,19 +60,29 @@ def _interval(a, b, litere):
     ia, ib = int(a), int(b)
     return [str(x) for x in range(ia, ib + 1)] if ia < ib and ib - ia <= 30 else [a, b]
 
-def _link(text, tinte):
-    ids = " ".join(i for i, _ in tinte); et = "|".join(e for _, e in tinte)
-    return '<a class="trm" href="#%s" data-t="%s" data-e="%s">%s</a>' % (tinte[0][0], ids, html.escape(et, quote=True), html.escape(text))
+def _link(text, tinte, pagina=""):
+    pre = pagina + "#" if pagina else ""
+    ids = " ".join(pre + i for i, _ in tinte); et = "|".join(e for _, e in tinte)
+    return '<a class="trm" href="%s#%s" data-t="%s" data-e="%s">%s</a>' % (pagina, tinte[0][0], ids, html.escape(et, quote=True), html.escape(text))
 
-def marcheaza(text, ctx, rez, stat=None):
+def marcheaza(text, ctx, rez, stat=None, rez_extern=None):
+    """rez_extern(fraza) — opțional — întoarce (rezolvator, pagina) pentru un act numit după
+    trimitere („Legea nr. 80/1995 …"), sau None; pagina="" înseamnă aceeași pagină (altă zonă)."""
     ctx_art, ctx_alin, ctx_grup = ctx
-    out, poz = [], 0
+    rez_local, out, poz = rez, [], 0
     for m in _TOKEN.finditer(text):
         s = m.group(0)
         out.append(html.escape(text[poz:m.start()])); poz = m.end()
-        if _extern_dupa(text, m.end()):
-            if stat is not None: stat["extern"] = stat.get("extern", 0) + 1
-            out.append(html.escape(s)); continue
+        rez_cur, pagina = rez_local, ""       # fiecare token pornește de la actul curent
+        fraza = _extern_dupa(text, m.end())
+        if fraza is not None:
+            ext = rez_extern(fraza) if (rez_extern and m.group("art")) else None
+            if not ext:
+                if stat is not None: stat["extern"] = stat.get("extern", 0) + 1
+                out.append(html.escape(s)); continue
+            rez_cur, pagina = ext
+            if stat is not None: stat["extern_legate"] = stat.get("extern_legate", 0) + 1
+        rez = rez_cur                   # pentru restul tokenului; se reface la următorul token
         art = m.group("artnr") or ctx_art
         grup = m.group("grupA") or m.group("grupB")
         piese = []                      # (start, end, text, tinte|None)
@@ -114,7 +125,7 @@ def marcheaza(text, ctx, rez, stat=None):
         for st, en, tx, tinte in sorted(piese):
             out.append(html.escape(s[cur:st]))
             if tinte:
-                out.append(_link(tx, tinte))
+                out.append(_link(tx, tinte, pagina))
                 if stat is not None: stat["legate"] = stat.get("legate", 0) + 1
             else:
                 out.append(html.escape(tx))
