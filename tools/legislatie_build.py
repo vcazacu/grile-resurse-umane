@@ -102,6 +102,7 @@ _TITLU_SECT = re.compile(r"^## (Titlul|Capitolul|Sec[țţ]iunea|§\d+\.)\s*(.*)$
 _NIVEL = {"Titlul": 1, "Capitolul": 2, "Secțiunea": 3, "Secţiunea": 3}
 _TABEL = re.compile(r"^Tabelul nr\.\s*\d+")
 _ABROGAT = re.compile(r"^\s*(\(\d+\)\s*)?Abrogat")
+_RIGLA = re.compile(r"^[─-╿_\-—\s]{5,}$")   # rigle și chenare desenate (─ ┌ ┴ ┘ …), fără text
 
 def _structurala(l):
     return bool(_ART.match(l) or _ALIN.match(l) or _LIT.match(l) or _GRUP.match(l)
@@ -113,6 +114,9 @@ def parseaza(cale, anexe_redate=None):
          | {"tip":"text", text}."""
     linii = [l.rstrip() for l in open(cale, encoding="utf-8").read().split("\n")]
     linii = [l[:-2] if l.endswith(" +") else l for l in linii]       # artefact al portalului
+    # riglele orizontale ale tabelelor („──────”, anexa VI la Legea 153) sunt un singur „cuvânt”
+    # de 70+ caractere fără punct de rupere: lățesc pagina peste ecran și tableta o micșorează
+    linii = ["" if _RIGLA.match(l) else l for l in linii]
     doc = {"sursa": "", "titlu": [], "meta": {}, "corp": [], "anexe": []}
     blocuri, art, in_preambul, anexa_activa = doc["corp"], None, True, True
     i = 0
@@ -230,6 +234,7 @@ CSS = """
 .doar-bib .leg-art:not(.bib), .doar-bib .leg-sect:not(.are-bib), .doar-bib .leg-anexa:not(.are-bib),
 .doar-bib .leg-cuprins li:not(.are-bib), .doar-bib .leg-text, .doar-bib .leg-nota-libera { display:none; }
 .leg-omis { color: var(--muted-foreground); font-size:0.85rem; font-style:italic; margin:1rem 0; }
+main { overflow-wrap: anywhere; }   /* nimic din text nu are voie să lățească pagina peste ecran */
 a.trm { color: var(--info); text-decoration:none; border-bottom:1px dotted var(--info-border); cursor:pointer; }
 a.trm:hover, a.trm.deschis { background: var(--info-bg); }
 .trm-box { border-left:3px solid var(--info-border); background: var(--info-bg); border-radius:0 0.5rem 0.5rem 0;
