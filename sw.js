@@ -1,6 +1,6 @@
 /* Service worker — face aplicația disponibilă offline după prima deschidere.
    La fiecare modificare a întrebărilor, schimbă VERSIUNE ca să se reîmprospăteze cache-ul. */
-const VERSIUNE = "grile-ru-v22";
+const VERSIUNE = "grile-ru-v23";
 const FISIERE = [
   "./",
   "./index.html",
@@ -76,7 +76,8 @@ self.addEventListener("fetch", function (e) {
         caches.open(VERSIUNE).then(function (c) { c.put(e.request, copie); });
         return net;
       }).catch(function () {
-        return caches.match("./index.html");
+        // offline: paginile cad pe index.html; restul (ex. fonturile încă necache-uite) eșuează curat
+        return e.request.mode === "navigate" ? caches.match("./index.html") : Response.error();
       });
     })
   );

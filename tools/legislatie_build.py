@@ -16,6 +16,7 @@ comutator descoperă toată legea. Scrie și lista fișierelor în sw.js între 
 /* LEGISLATIE-START */ … /* LEGISLATIE-END */.
 """
 import html, os, re, sys
+import carcasa
 from bibliografie import BIB, RESTRICTII, tematica as bib_tematica
 from trimiteri import marcheaza
 
@@ -187,67 +188,6 @@ def parseaza(cale, anexe_redate=None):
 
 # ---------------------------------------------------------------- HTML
 
-CSS = """
-.tem-nav { display:flex; gap:0.75rem; flex-wrap:wrap; font-size:0.85rem; margin:0.25rem 0 0.75rem; }
-.tem-nav a { color: var(--info); text-decoration:none; } .tem-nav a:hover { text-decoration:underline; }
-.tem-list { list-style:none; padding:0; margin:0; display:grid; gap:0.5rem; }
-.tem-list li { border:1px solid var(--border); border-radius:0.6rem; padding:0.7rem 0.9rem; display:flex; gap:0.6rem; align-items:baseline; }
-.tem-list .nr { font-weight:700; color: var(--muted-foreground); min-width:1.6rem; }
-.tem-list a { color: var(--foreground); text-decoration:none; font-weight:600; } .tem-list a:hover { text-decoration:underline; }
-.tem-list small { display:block; font-weight:400; color: var(--muted-foreground); font-size:0.8rem; margin-top:0.15rem; }
-.leg-meta { color: var(--muted-foreground); font-size:0.85rem; margin:0.3rem 0 0; }
-.leg-preambul p { color: var(--muted-foreground); font-size:0.9rem; margin:0.2rem 0; }
-.leg-bar { position:sticky; top:0; z-index:5; background: var(--background); border-bottom:1px solid var(--border);
-  padding:0.5rem 0; margin:0 0 0.5rem; display:flex; gap:0.9rem; align-items:center; flex-wrap:wrap; font-size:0.9rem; }
-.leg-bar label { display:flex; gap:0.4rem; align-items:center; cursor:pointer; }
-.leg-bar form { display:flex; gap:0.3rem; align-items:center; margin-left:auto; }
-.leg-bar input[type=text] { width:4.5rem; padding:0.25rem 0.4rem; border:1px solid var(--border); border-radius:0.4rem; background: var(--card); color: var(--foreground); }
-.leg-bar button { padding:0.25rem 0.6rem; border:1px solid var(--border); border-radius:0.4rem; background: var(--card); color: var(--foreground); cursor:pointer; }
-.leg-cuprins ul { list-style:none; padding:0; margin:0; } .leg-cuprins li { margin:0.2rem 0; line-height:1.4; font-size:0.9rem; }
-.leg-cuprins li.n1 { font-weight:700; margin-top:0.5rem; } .leg-cuprins li.n3, .leg-cuprins li.n4 { padding-left:1.2rem; font-size:0.85rem; }
-.leg-cuprins a { color: var(--foreground); text-decoration:none; } .leg-cuprins a:hover { text-decoration:underline; }
-.leg-cuprins .cnt { color: var(--muted-foreground); font-size:0.8rem; margin-left:0.3rem; }
-.leg-sect h3 { margin:1.4rem 0 0.4rem; font-size:1.05rem; letter-spacing:-0.01em; }
-.leg-sect h3 small { display:block; font-weight:500; color: var(--muted-foreground); font-size:0.82rem; }
-.leg-sect.n1 h3 { font-size:1.15rem; border-bottom:2px solid var(--border); padding-bottom:0.3rem; }
-.leg-sect.n3 h3, .leg-sect.n4 h3 { font-size:0.95rem; margin-top:1rem; }
-.leg-art { padding:0.7rem 0; border-top:1px solid var(--border); scroll-margin-top:3.2rem; }
-.leg-art h4 { margin:0 0 0.3rem; font-size:1rem; display:flex; gap:0.5rem; align-items:center; flex-wrap:wrap; }
-.leg-art h4 .restr { font-weight:500; color: var(--muted-foreground); font-size:0.8rem; }
-.leg-titlu { font-weight:600; color: var(--muted-foreground); font-size:0.9rem; margin:0 0 0.35rem; }
-.leg-art p { margin:0.3rem 0; line-height:1.55; }
-.leg-art p.alin .nr { font-weight:700; color: var(--muted-foreground); margin-right:0.35rem; }
-.leg-art p.lit { padding-left:1.5rem; } .leg-art p.lit .nr { font-weight:600; margin-right:0.3rem; }
-.leg-art p.liniuta { padding-left:2.6rem; } .leg-art p.liniuta::before { content:"– "; color: var(--muted-foreground); }
-.leg-art .grup { padding-left:0.7rem; font-weight:600; margin:0.4rem 0 0.1rem; }
-.leg-art.abrogat p, .leg-art.abrogat .leg-titlu { color: var(--muted-foreground); }
-.leg-tabel { font-family: ui-monospace, Menlo, Consolas, monospace; font-size:0.78rem; background: var(--muted); border-radius:0.5rem;
-  padding:0.5rem 0.7rem; margin:0.4rem 0; line-height:1.5; white-space:pre-wrap; overflow-wrap:anywhere; }
-.leg-tabel .t { font-weight:700; display:block; margin-bottom:0.2rem; }
-.leg-note { margin-top:0.4rem; } .leg-note summary { font-size:0.8rem; color: var(--muted-foreground); cursor:pointer; list-style:none; }
-.leg-note summary::before { content:"▸ "; } .leg-note[open] summary::before { content:"▾ "; }
-.leg-note p { font-size:0.82rem; color: var(--muted-foreground); line-height:1.45; margin:0.25rem 0 0.25rem 0.9rem; }
-.leg-nota-libera { font-size:0.82rem; color: var(--muted-foreground); margin:0.3rem 0; }
-.leg-anexa > h3 { margin:1.6rem 0 0.4rem; font-size:1.15rem; border-bottom:2px solid var(--border); padding-bottom:0.3rem; }
-.badge.bib { background: var(--success-bg); color: var(--success); border-color: var(--success-border); }
-.badge.abrogat { background: var(--muted); color: var(--muted-foreground); border-color: var(--border); }
-.doar-bib .leg-art:not(.bib), .doar-bib .leg-sect:not(.are-bib), .doar-bib .leg-anexa:not(.are-bib),
-.doar-bib .leg-cuprins li:not(.are-bib), .doar-bib .leg-text, .doar-bib .leg-nota-libera { display:none; }
-.leg-omis { color: var(--muted-foreground); font-size:0.85rem; font-style:italic; margin:1rem 0; }
-main { overflow-wrap: anywhere; }   /* nimic din text nu are voie să lățească pagina peste ecran */
-a.trm { color: var(--info); text-decoration:none; border-bottom:1px dotted var(--info-border); cursor:pointer; }
-a.trm:hover, a.trm.deschis { background: var(--info-bg); }
-.trm-box { border-left:3px solid var(--info-border); background: var(--info-bg); border-radius:0 0.5rem 0.5rem 0;
-  padding:0.45rem 0.7rem 0.5rem; margin:0.35rem 0 0.55rem; font-size:0.9rem; }
-.trm-box .trm-h { display:flex; gap:0.6rem; align-items:center; font-size:0.8rem; color: var(--muted-foreground); margin:0.35rem 0 0.15rem; }
-.trm-box .trm-h:first-child { margin-top:0; }
-.trm-box .trm-h b { color: var(--info); font-weight:700; }
-.trm-box .trm-h a { color: var(--info); margin-left:auto; text-decoration:none; white-space:nowrap; }
-.trm-box .trm-h button { background:none; border:0; color: var(--muted-foreground); font-size:1.1rem; line-height:1; cursor:pointer; padding:0 0.2rem; }
-.trm-box p { margin:0.2rem 0; } .trm-box p.lit { padding-left:1.2rem; } .trm-box .grup { padding-left:0.4rem; }
-.trm-box .trm-box { background: var(--card); }
-.leg-art p[id], .leg-art .grup[id] { scroll-margin-top:3.2rem; }
-"""
 
 JS = """
 (function(){
@@ -308,17 +248,8 @@ JS = """
 })();
 """
 
-def sablon(titlu, corp, subtitlu=""):
-    return f"""<!DOCTYPE html>
-<html lang="ro"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="color-scheme" content="light dark"><meta name="theme-color" content="#09090b">
-<link rel="icon" href="../icon-192.png"><link rel="stylesheet" href="../style.css"><style>{CSS}</style>
-<title>{html.escape(titlu)} — Grile Resurse Umane</title></head>
-<body><div class="container"><header><h1>🪖 Grile — Resurse Umane</h1><div class="subtitle">{html.escape(subtitlu)}</div>
-<nav class="tem-nav"><a href="../index.html">← Teste</a><a href="../tematica/index.html">Tematica</a><a href="index.html">Legislația</a></nav></header>
-<main>{corp}</main>
-<footer>Textele sunt formele consolidate la zi de pe legislatie.just.ro, redate fără modificări; notele portalului sunt strânse sub fiecare articol.</footer>
-<script>{JS}</script></div></body></html>"""
+SUBSOL = ("Textele sunt formele consolidate la zi de pe legislatie.just.ro, redate fără modificări; "
+          "notele portalului sunt strânse sub fiecare articol.")
 
 def ancora(nr, anexa=""):
     a = "art-" + nr.replace("^", "-")
@@ -461,7 +392,7 @@ def cuprins_html(intrari):
     for nivel, sid, eticheta, titlu, ok in intrari:
         li.append('<li class="n%d%s"><a href="#%s">%s%s</a></li>'
                   % (nivel, " are-bib" if ok else "", sid, html.escape(eticheta), (" — " + html.escape(titlu)) if titlu else ""))
-    return '<details class="accordion leg-cuprins" open><summary><span>Cuprins</span></summary><div class="accordion-body"><ul>%s</ul></div></details>' % "".join(li)
+    return '<details class="accordion leg-cuprins"><summary><span>Cuprins</span><svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg></summary><div class="accordion-body"><ul>%s</ul></div></details>' % "".join(li)
 
 def pagina(fisier, slug, denumire, anexe_redate, bib, doc=None):
     doc = doc or parseaza(os.path.join(LEG, fisier), anexe_redate)
@@ -479,17 +410,18 @@ def pagina(fisier, slug, denumire, anexe_redate, bib, doc=None):
         aid = "anexa-" + re.sub(r"[^A-Za-z0-9]+", "-", ax["nume"]).strip("-").lower()
         anexe_html.append('<section class="leg-anexa%s" id="%s"><h3>%s%s</h3>%s</section>'
                           % (" are-bib" if nb else "", aid, html.escape(ax["nume"]),
-                             "<small style='display:block;font-weight:500;color:var(--muted-foreground);font-size:0.82rem'>%s</small>" % html.escape(ax["titlu"]) if ax["titlu"] else "", h))
+                             "<small>%s</small>" % html.escape(ax["titlu"]) if ax["titlu"] else "", h))
         cuprins.append((1, aid, ax["nume"], ax["titlu"], bool(nb)))
         cuprins.extend((min(nivel + 1, 4), sid, et, ti, ok) for nivel, sid, et, ti, ok in cup)
     consolidare = re.search(r"consolidarea din [\d.]+", doc["sursa"])
     url = doc["sursa"].split("|")[0].strip()
-    meta = " · ".join(x for x in [consolidare.group(0) if consolidare else "", "%d articole, %d cerute în bibliografie" % (n_art, n_bib)] if x)
-    corp = ['<div class="hero"><h2>%s</h2><p class="leg-meta">%s</p>%s</div>'
-            % (html.escape(denumire), html.escape(meta),
-               '<p class="leg-meta">Sursă: <a href="https://%s" style="color:var(--info)">%s</a></p>' % (html.escape(url), html.escape(url)) if url else "")]
-    corp.append('<div class="leg-bar"><label><input type="checkbox" id="leg-tot"> Arată toată legea</label>'
-                '<form id="leg-sari"><span>Art.</span><input type="text" inputmode="numeric" placeholder="nr." aria-label="numărul articolului"><button type="submit">Sari</button></form></div>')
+    meta = html.escape(" · ".join(x for x in [consolidare.group(0) if consolidare else "", "%d articole, %d cerute în bibliografie" % (n_art, n_bib)] if x))
+    if url: meta += ' · <a href="https://%s">sursa pe portal</a>' % html.escape(url)
+    poz = next((i for i, a in enumerate(ACTE) if a[0] == fisier), 0) + 1
+    corp = [carcasa.cap("Actul %d din %d" % (poz, len(ACTE)), denumire, ("index.html", "Toate actele"), meta)]
+    corp.append('<div class="leg-bar"><label class="leg-comutator"><input type="checkbox" id="leg-tot" role="switch"> Arată toată legea</label>'
+                '<form id="leg-sari" class="leg-sari"><label for="leg-sari-nr">Sari la art.</label><input id="leg-sari-nr" type="text" '
+                'inputmode="numeric" placeholder="nr." aria-label="numărul articolului"><button type="submit">Sari</button></form></div>')
     if doc["titlu"] or doc["meta"]:
         corp.append('<div class="card leg-preambul">%s%s</div>'
                     % ("".join("<p>%s</p>" % html.escape(t) for t in doc["titlu"]),
@@ -499,17 +431,19 @@ def pagina(fisier, slug, denumire, anexe_redate, bib, doc=None):
     corp.extend(anexe_html)
     if anexe_redate is not None:
         corp.append('<p class="leg-omis">Celelalte anexe ale actului (grile de salarizare) nu sunt în bibliografie și nu sunt redate aici.</p>')
-    corp.append('<div class="actions"><a class="btn btn-outline" href="index.html">Toate actele</a><a class="btn btn-primary" href="../index.html">Înapoi la teste</a></div>')
-    return sablon(denumire, "".join(corp), "Legislația din bibliografie — text integral, consolidat"), doc, n_art, n_bib, stat
+    corp.append('<div class="actions"><a class="btn btn-outline" href="index.html">Toate actele</a><a class="btn btn-outline" href="../index.html">Înapoi la teste</a></div>')
+    return carcasa.pagina(denumire, "".join(corp), "legislatie", subsol=SUBSOL, script=JS, cls="pagina-lege"), doc, n_art, n_bib, stat
 
 def index_html(rows):
-    li = "".join('<li><span class="nr">%d.</span><a href="%s.html">%s<small>%s</small></a></li>'
-                 % (i + 1, slug, html.escape(den), html.escape(sub)) for i, (slug, den, sub) in enumerate(rows))
-    corp = ('<div class="hero"><h2>Legislația din bibliografie</h2><p>Cele nouă acte normative, în text integral consolidat. '
-            'Implicit se văd doar articolele cerute în bibliografie (marcate <span class="badge bib">bibliografie</span>); '
-            'comutatorul „Arată toată legea” descoperă și restul.</p></div>'
-            '<div class="card"><ul class="tem-list">%s</ul></div>' % li)
-    return sablon("Legislația din bibliografie", corp, "Legislația din bibliografie — text integral, consolidat")
+    li = "".join('<li><a class="rand-lista" href="%s.html"><span class="nr">%02d</span><span class="text"><span class="titlu">%s</span>'
+                 '<span class="det">%s</span></span>%s</a></li>'
+                 % (slug, i + 1, html.escape(den), html.escape(sub), carcasa.icon("dreapta", 18)) for i, (slug, den, sub) in enumerate(rows))
+    corp = (carcasa.cap("%d acte · text integral consolidat" % len(ACTE), "Legislația din bibliografie",
+                        meta='Actele normative din bibliografie, în text integral consolidat. Implicit se văd doar articolele '
+                             'cerute în bibliografie (marcate <span class="badge bib">bibliografie</span>); comutatorul „Arată toată legea” '
+                             'descoperă și restul.')
+            + '<ul class="lista">%s</ul>' % li)
+    return carcasa.pagina("Legislația din bibliografie", corp, "legislatie", pe_index=True, subsol=SUBSOL)
 
 def main():
     os.makedirs(OUT, exist_ok=True)

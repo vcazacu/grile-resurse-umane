@@ -11,6 +11,8 @@ import json, os, re, sys, html, glob
 from normalizare import normalizeaza, fragmente_citat, linii_zona
 from bibliografie import tematica as bib_tematica
 from legislatie_build import ACTE, ancora
+import carcasa
+from urllib.parse import quote
 
 SLUG_ACT = {fisier: slug for fisier, slug, _, _ in ACTE}
 
@@ -39,33 +41,19 @@ TEME = [
  (18, "compensatia-lunara-pentru-chirie", "Acordarea compensației lunare pentru chirie cadrelor militare în activitate"),
 ]
 
-CSS = """
-.tem-nav { display:flex; gap:0.75rem; flex-wrap:wrap; font-size:0.85rem; margin:0.25rem 0 0.75rem; }
-.tem-nav a { color: var(--info); text-decoration:none; } .tem-nav a:hover { text-decoration:underline; }
-.tem-list { list-style:none; padding:0; margin:0; display:grid; gap:0.5rem; }
-.tem-list li { border:1px solid var(--border); border-radius:0.6rem; padding:0.7rem 0.9rem; display:flex; gap:0.6rem; align-items:baseline; }
-.tem-list .nr { font-weight:700; color: var(--muted-foreground); min-width:1.6rem; }
-.tem-list a { color: var(--foreground); text-decoration:none; font-weight:600; } .tem-list a:hover { text-decoration:underline; }
-.tem-list .soon { color: var(--muted-foreground); }
-.tem-sec { margin: 1rem 0; } .tem-sec h3 { font-size:1.02rem; margin:0 0 0.5rem; letter-spacing:-0.01em; }
-.tem-sec p { line-height:1.55; margin:0 0 0.6rem; }
-.tem-rezumat { font-size:0.95rem; line-height:1.55; border-left:3px solid var(--info); padding-left:0.8rem; margin:0.5rem 0 1rem; }
-.tem-capcane li { margin:0.35rem 0; line-height:1.5; }
-.legal-card + .legal-card { margin-top:0.6rem; }
-"""
+SCURT = {"01": "Legea 80/1995", "02": "Legea 1/1998", "03": "Codul muncii", "04": "Legea 223/2015",
+         "05": "Legea 360/2023", "06": "Legea 153/2017", "07": "O.U.G. 111/2010", "08": "Normele H.G. 52/2011",
+         "09": "H.G. 1867/2005"}
+SUBSOL = "Surse: formele consolidate la zi de pe legislatie.just.ro; citatele sunt verificate automat contra textului."
 
-def sablon(titlu, corp, subtitlu="", adancime=1):
-    css = "../style.css"
-    return f"""<!DOCTYPE html>
-<html lang="ro"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="color-scheme" content="light dark"><meta name="theme-color" content="#09090b">
-<link rel="icon" href="../icon-192.png"><link rel="stylesheet" href="{css}"><style>{CSS}</style>
-<title>{html.escape(titlu)} — Grile Resurse Umane</title></head>
-<body><div class="container"><header><h1>🪖 Grile — Resurse Umane</h1><div class="subtitle">{html.escape(subtitlu)}</div>
-<nav class="tem-nav"><a href="../index.html">← Teste</a><a href="index.html">Tematica</a><a href="../legislatie/index.html">Legislația</a></nav></header>
-<main>{corp}</main>
-<footer>Surse: formele consolidate la zi de pe legislatie.just.ro; citatele sunt verificate automat contra textului.</footer>
-</div></body></html>"""
+def nr_cu(n, cuvant):
+    """„3 întrebări”, „20 de întrebări”, „110 întrebări”: de la 20 în sus (fără 101–119, 201–219 …) se pune „de”."""
+    return "%d %s%s" % (n, "de " if n % 100 == 0 and n or n % 100 >= 20 else "", cuvant)
+
+def ids_din_banca():
+    """Id-urile întrebărilor din ../intrebari.js: butonul de exersare trimite doar întrebări care există."""
+    cale = os.path.join(DIR, "..", "intrebari.js")
+    return set(re.findall(r'"id":\s*"([^"]+)"', open(cale, encoding="utf-8").read())) if os.path.exists(cale) else set()
 
 def verifica_temei(t):
     """Întoarce (ok, mesaj). Citatul trebuie găsit verbatim (normalizat) în zona declarată."""
@@ -94,43 +82,95 @@ def link_lege(t):
 
 def temei_html(t):
     art = html.escape(t["articol"]); adresa = link_lege(t)
-    if adresa: art = '<a href="%s" style="color:inherit">%s</a>' % (adresa, art)
+    link = '<div class="fisier"><a href="%s">Deschide în lege</a></div>' % adresa if adresa else ""
     return ('<div class="legal-card"><div class="act">%s</div><span class="articol">%s</span>'
-            '<blockquote>„%s”</blockquote><div class="fisier">Sursă: %s</div></div>'
-            % (html.escape(t["act"]), art, html.escape(t["citat"]), html.escape(t["fisier"])))
+            '<blockquote>„%s”</blockquote>%s</div>'
+            % (html.escape(t["act"]), art, html.escape(t["citat"]), link))
 
-def pagina(d, slug):
-    corp = ['<div class="hero"><h2>%d. %s</h2></div>' % (d["nr"], html.escape(d["titlu"]))]
-    corp.append('<div class="card"><div class="explic-section-title">Pe scurt</div><div class="tem-rezumat">%s</div>' % html.escape(d["rezumat"]))
+def referinte(temei):
+    """Rezumatul din titlul unui temei restrâns: „art. 2 · art. 3 alin. (1)”, cu actul în față
+    doar când secțiunea citează din mai multe acte (sau din anexă)."""
+    def act(t): return SCURT.get(t["fisier"][:2], "") + (" anexa VI" if t.get("anexa") else "")
+    acte = {act(t) for t in temei}
+    parti = []
+    for t in temei:   # două citate din același articol apar o singură dată
+        x = (act(t) + ", " if len(acte) > 1 else "") + t["articol"]
+        if x not in parti: parti.append(x)
+    return " · ".join(html.escape(x) for x in parti)
+
+def consolidari_html(d):
+    """„Forma consolidată folosită: <act> — <data>” pentru fiecare fișier din temeiurile temei."""
+    fis = []
+    for sct in d["sectiuni"]:
+        for t in sct.get("temei", []):
+            if t["fisier"] not in fis: fis.append(t["fisier"])
+    rand = []
+    for f in fis:
+        antet = open(os.path.join(LEG, f), encoding="utf-8").readline()
+        m = re.search(r"consolidarea din ([\d.]+)", antet)
+        den = next((dn for ff, _, dn, _ in ACTE if ff == f), f)
+        rand.append("%s — %s" % (den, m.group(1) if m else "?"))
+    return '<p class="nota-mica">Forma consolidată folosită: %s.</p>' % html.escape("; ".join(rand)) if rand else ""
+
+def pagina(d, slug, vecini=(None, None), in_banca=frozenset()):
+    nr = d["nr"]
+    corp = [carcasa.cap("Tema %d din %d" % (nr, len(TEME)), d["titlu"], ("index.html", "Toate temele"))]
+    corp.append('<section class="pe-scurt"><span class="eyebrow">Pe scurt</span><p>%s</p></section>' % html.escape(d["rezumat"]))
     for s in d["sectiuni"]:
-        corp.append('<section class="tem-sec"><h3>%s</h3>' % html.escape(s["titlu"]))
+        corp.append('<section class="tem-sec"><h2>%s</h2>' % html.escape(s["titlu"]))
         for p in s["paragrafe"]: corp.append("<p>%s</p>" % html.escape(p))
         if s.get("temei"):
-            corp.append('<details class="accordion" open><summary><span>Temei legal (%d)</span></summary><div class="accordion-body">' % len(s["temei"]))
+            corp.append('<details class="temei"><summary><span class="eyebrow">Temei legal</span>'
+                        '<span class="refs">%s</span><svg class="chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" '
+                        'stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">'
+                        '<polyline points="6 9 12 15 18 9"></polyline></svg></summary><div class="temei-corp">' % referinte(s["temei"]))
             corp += [temei_html(t) for t in s["temei"]]
             corp.append("</div></details>")
         corp.append("</section>")
     if d.get("capcane"):
-        corp.append('<div class="explic-section-title">Capcane de examen</div><ul class="tem-capcane">' + "".join("<li>%s</li>" % html.escape(c) for c in d["capcane"]) + "</ul>")
-    if d.get("intrebari"):
-        corp.append('<p class="fisier" style="color:var(--muted-foreground);font-size:0.8rem">Întrebări din bancă pe această temă: %s</p>' % html.escape(", ".join(d["intrebari"])))
-    corp.append("</div>")
-    corp.append('<div class="actions"><a class="btn btn-outline" href="index.html">Toate temele</a><a class="btn btn-primary" href="../index.html">Înapoi la teste</a></div>')
-    return sablon("%d. %s" % (d["nr"], d["titlu"]), "\n".join(corp), "Tematica — sinteză cu temei legal")
+        corp.append('<section class="capcane"><h2>Capcane de examen</h2><ul>%s</ul></section>'
+                    % "".join("<li>%s</li>" % html.escape(c) for c in d["capcane"]))
+    ids = [i for i in d.get("intrebari", []) if i in in_banca]
+    if ids:
+        n = min(len(ids), 20)
+        href = "../index.html?titlu=%s&intrebari=%s" % (quote("Tema %d" % nr), quote(",".join(ids), safe=","))
+        corp.append('<section class="exersare"><div><h2>Exersează tema</h2><p>%s, întâi cele greșite și cele nedate încă.</p></div>'
+                    '<a class="btn btn-primary" href="%s">Începe · %s</a></section>'
+                    % ("Toate cele %s ale băncii pe această temă" % nr_cu(len(ids), "întrebări") if n == len(ids)
+                       else "%s alese din cele %s ale băncii pe această temă" % (nr_cu(n, "întrebări"), nr_cu(len(ids), "întrebări")),
+                       href, nr_cu(n, "întrebări")))
+    corp.append(consolidari_html(d))
+    prec, urm = vecini
+    if prec or urm:
+        def v(t, cls, eticheta):
+            if not t: return '<span></span>'
+            return ('<a class="%s" href="%02d-%s.html"><span class="eyebrow">%s</span><span>%s</span></a>'
+                    % (cls, t[0], t[1], eticheta, html.escape(t[2])))
+        corp.append('<nav class="vecini" aria-label="Teme vecine">%s%s</nav>'
+                    % (v(prec, "prec", "← Tema %d" % prec[0] if prec else ""), v(urm, "urm", "Tema %d →" % urm[0] if urm else "")))
+    return carcasa.pagina("%d. %s" % (nr, d["titlu"]), "\n".join(corp), "tematica", subsol=SUBSOL, cls="pagina-tema")
 
-def index_html(gata):
+def index_html(gata, nr_intrebari=None):
+    nr_intrebari = nr_intrebari or {}
     li = []
     for nr, slug, titlu in TEME:
-        if nr in gata: li.append('<li><span class="nr">%d.</span><a href="%02d-%s.html">%s</a></li>' % (nr, nr, slug, html.escape(titlu)))
-        else: li.append('<li><span class="nr">%d.</span><span class="soon">%s <em>(în pregătire)</em></span></li>' % (nr, html.escape(titlu)))
-    corp = ('<div class="hero"><h2>Tematica examenului</h2><p>Câte o sinteză pe temă, în același stil ca explicațiile din teste: '
-            'reguli, termene, excepții și capcane, fiecare cu temeiul legal citat verbatim din forma consolidată la zi.</p></div>'
-            '<div class="card"><ul class="tem-list">%s</ul></div>' % "".join(li))
-    return sablon("Tematica", corp, "Sinteze pe teme, cu temei legal")
+        n = nr_intrebari.get(nr)
+        det = '<span class="det">%s în bancă</span>' % nr_cu(n, "întrebări") if n else ""
+        if nr in gata:
+            li.append('<li><a class="rand-lista" href="%02d-%s.html"><span class="nr">%02d</span><span class="text"><span class="titlu">%s</span>%s</span>%s</a></li>'
+                      % (nr, slug, nr, html.escape(titlu), det, carcasa.icon("dreapta", 18)))
+        else:
+            li.append('<li><span class="rand-lista"><span class="nr">%02d</span><span class="text"><span class="titlu">%s</span>'
+                      '<span class="det">în pregătire</span></span></span></li>' % (nr, html.escape(titlu)))
+    corp = (carcasa.cap(nr_cu(len(TEME), "teme"), "Tematica examenului",
+                        meta="Câte o sinteză pe temă, în același stil ca explicațiile din teste: reguli, termene, excepții și capcane, "
+                             "fiecare cu temeiul legal citat verbatim din forma consolidată la zi.")
+            + '<ul class="lista">%s</ul>' % "".join(li))
+    return carcasa.pagina("Tematica", corp, "tematica", pe_index=True, subsol=SUBSOL)
 
 def main():
     os.makedirs(OUT, exist_ok=True)
-    gata, erori, fisiere = set(), 0, ["./tematica/index.html"]
+    gata, erori, fisiere, pagini = set(), 0, ["./tematica/index.html"], []
     for cale in sorted(glob.glob(os.path.join(DIR, "tematica", "[0-9][0-9].json"))):
         d = json.load(open(cale, encoding="utf-8"))
         nr = d["nr"]; slug = next(s for n, s, _ in TEME if n == nr)
@@ -142,10 +182,15 @@ def main():
                 else: erori += 1; print("  EROARE tema %d, secțiunea „%s”, %s: %s" % (nr, s["titlu"], t["articol"], msg))
                 if in_tematica(t) is False: print("  ATENȚIE tema %d: %s din %s nu e în bibliografie (doar context)" % (nr, t["articol"], t["fisier"]))
         nume = "%02d-%s.html" % (nr, slug)
-        open(os.path.join(OUT, nume), "w", encoding="utf-8").write(pagina(d, slug))
-        gata.add(nr); fisiere.append("./tematica/" + nume)
+        pagini.append((nume, d, slug)); gata.add(nr); fisiere.append("./tematica/" + nume)
         print("tema %d: %d secțiuni, %d/%d citate confirmate → tematica/%s" % (nr, len(d["sectiuni"]), n_ok, n_tot, nume))
-    open(os.path.join(OUT, "index.html"), "w", encoding="utf-8").write(index_html(gata))
+    banca = ids_din_banca()
+    for k, (nume, d, slug) in enumerate(pagini):
+        prec = next((t for t in TEME if t[0] == pagini[k - 1][1]["nr"]), None) if k > 0 else None
+        urm = next((t for t in TEME if t[0] == pagini[k + 1][1]["nr"]), None) if k + 1 < len(pagini) else None
+        open(os.path.join(OUT, nume), "w", encoding="utf-8").write(pagina(d, slug, (prec, urm), banca))
+    nr_intrebari = {d["nr"]: len([i for i in d.get("intrebari", []) if i in banca]) for _, d, _ in pagini}
+    open(os.path.join(OUT, "index.html"), "w", encoding="utf-8").write(index_html(gata, nr_intrebari))
     sw = os.path.join(DIR, "..", "sw.js"); s = open(sw, encoding="utf-8").read()
     bloc = "/* TEMATICA-START */\n" + "".join('  "%s",\n' % f for f in fisiere) + "  /* TEMATICA-END */"
     s2 = re.sub(r"/\* TEMATICA-START \*/.*?/\* TEMATICA-END \*/", bloc, s, flags=re.S)

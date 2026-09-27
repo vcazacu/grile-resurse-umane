@@ -6,7 +6,17 @@ legislatie.just.ro (nu din PDF-uri).
 
 Bateria are **30 de teste a câte 20 de întrebări** (600 în total, dintre care
 maximum 4 cu răspunsuri multiple pe test). Scorul cel mai bun al fiecărui test
-se salvează local în browser (localStorage) și apare pe grila de teste.
+se salvează local în browser (localStorage, cheia `grile-ru-scoruri`) și apare pe grila de teste.
+Tot local se mai păstrează testul început și neterminat (`grile-ru-in-lucru-v1`, reluat din cardul
+„Continuă”), ultimul rezultat la fiecare întrebare (`grile-ru-istoric-v1`, din care ies procentele pe
+acte de la „De recapitulat”) și întrebările puse deoparte (`grile-ru-marcate-v1`). Toate se păstrează
+pe id-ul întrebării, așa că supraviețuiesc regenerării lui `intrebari.js`.
+
+În timpul unui test: <kbd>1</kbd>–<kbd>4</kbd> (sau A–D) alegi varianta, <kbd>Enter</kbd> verifici și
+apoi treci mai departe. Pe ecrane late (≥ 1024 px), după verificare, articolul întreg din lege apare
+în dreapta, cu alineatul citat evidențiat (și în anexa VI a Legii 153/2017); pe telefon, sub butonul
+„Arată tot articolul”. Articolul se citește din `legislatie/*.html`, deci doar prin adresa publicată
+(http), nu la deschiderea din fișier.
 
 Tematica oficială a examenului are 18 teme, acoperite din 9 acte normative
 (Legea 80/1995, Legea 1/1998, Codul muncii, Legea 223/2015, Legea 360/2023,
@@ -70,10 +80,13 @@ problemele exacte, iar testul nu pornește până nu sunt corectate.
 
 ## Tematica — sinteze pe teme
 
-Pe lângă teste, aplicația are o secțiune **Tematica** (`tematica/index.html`, link în
-antet): câte o pagină de sinteză pentru fiecare dintre cele 18 teme din tematica
+Pe lângă teste, aplicația are o secțiune **Tematica** (`tematica/index.html`, din
+navigația aplicației): câte o pagină de sinteză pentru fiecare dintre cele 18 teme din tematica
 oficială, în același stil ca explicațiile din teste — reguli, termene, excepții și
-capcane, fiecare cu temeiul legal citat verbatim din forma consolidată la zi.
+capcane, fiecare cu temeiul legal citat verbatim din forma consolidată la zi. Fiecare pagină are
+butonul **Exersează tema**, care deschide aplicația cu până la 20 dintre întrebările legate de temă
+(`index.html?titlu=…&intrebari=ID,…`), întâi cele greșite și cele nedate; un astfel de set nu
+înlocuiește un test întreg lăsat la jumătate.
 
 Conținutul unei teme stă în `tools/tematica/NN.json` (rezumat, secțiuni cu paragrafe
 și temeiuri `{act, articol, citat, fisier}`, capcane, id-urile întrebărilor legate).
@@ -85,7 +98,7 @@ Temele fără fișier de conținut apar în index ca „în pregătire". Fiecare
 
 ## Legislația — textele de lege, de citit
 
-Secțiunea **Legislația** (`legislatie/index.html`, link în antet lângă Tematica) redă cele
+Secțiunea **Legislația** (`legislatie/index.html`, din navigația aplicației) redă cele
 9 acte normative în text integral consolidat, formatat pentru citit pe telefon: cuprins pe
 capitole, câte un bloc pe articol (cu ancoră `#art-N`, `#art-9-1` pentru art. 9^1), alineate,
 litere și liniuțe indentate, titlurile marginale ale articolelor, iar notele portalului
@@ -127,6 +140,8 @@ ca bloc monospațiat, nu ca tabel.
 - `sw.js` — service worker (offline + versiunea cache-ului)
 - `tools/tematica_build.py`, `tools/tematica/` — construirea paginilor de tematică
 - `tools/legislatie_build.py`, `legislatie/` — paginile de citit ale legislației
+- `tools/carcasa.py` — antetul, navigația și subsolul comune paginilor generate; navigația repetă pe cea din
+  `index.html`, iar toate stilurile (și ale paginilor generate) sunt în `style.css`
 - `tools/` — lanțul de generare și verificare:
   - `descarca.py` — descarcă formele consolidate de pe legislatie.just.ro în `../legislatie/`
   - `bibliografie.py` — tematica oficială → articole cerute (`BIB`, `RESTRICTII`)
