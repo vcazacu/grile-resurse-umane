@@ -245,6 +245,30 @@ a fi avut nevoie de ea, nu după.
 | O cerere picată arunca tot lotul din `ThreadPoolExecutor.map` | fiecare întrebare e învelită în try/except; eroarea devine o judecată cu `eroare`, raportată ca REVIZUIT |
 | `verifica_tot.sh --semantic` rula cu `python3` de sistem, fără SDK | scriptul alege `./.venv-ts/bin/python` dacă există |
 
+### F1. Linkurile spre alt act din panoul „Temei legal” — **reparat** (28.09.2026, preluat de la aplicația de achiziții)
+
+Panoul copiază articolul întreg din pagina de legislație, dar rescria doar trimiterile interne (`#art-5`); cele
+spre alt act (ex. din Normele H.G. 52/2011 spre `07-oug-111-2010-….html#art-2`) porneau de la rădăcina
+aplicației, fără `legislatie/`, și dădeau 404. `tools/linkuri_panou.js`, rulat în browser pe toate cele 600 de
+întrebări, a găsit **74 de linkuri rupte** (din 4616 văzute). Acum linkurile se rezolvă față de pagina legii:
+0 rupte. Paginile statice erau corecte; `tools/test_linkuri.py` le verifică acum în `verifica_tot.sh`.
+
+La portare, `linkuri_panou.js` recunoștea mesajele panoului după text și a luat drept eroare articolul 85 din
+Legea 80/1995, care conține el însuși „nu s-a putut” — 4 panouri ar fi rămas neverificate. Acum mesajul se
+recunoaște după elementul aplicației (`p.stare`), iar un text neîncărcat e raportat ca eroare.
+
+### F2. Versiunea nouă se aplica abia la a doua deschidere — **reparat** (28.09.2026)
+
+`sw.js` servește din cache înaintea rețelei, deci prima deschidere după o publicare rula încă fișierele vechi.
+`actualizare.js` (în `<head>` la toate paginile) reîncarcă pagina când noul service worker o preia; cu o
+întrebare pe ecran arată bara „Reîncarcă”, cu × pentru închidere. Semnalul „controllerchange” se poate pierde
+dacă noul service worker se activează înainte ca pagina să ajungă la script — s-a văzut o dată din două
+încercări, local, unde instalarea e instantanee —, așa că `sw.js` trimite la activare și un mesaj
+„versiune-noua”, pe care browserul îl păstrează până se încarcă pagina. Verificat în browser: 3 publicări
+simulate la rând, de fiecare dată o singură deschidere a ajuns la codul nou; doar mesajul, fără
+„controllerchange”, reîncarcă și el pagina; cu o întrebare deschisă apare o singură bară, iar × o închide
+fără reîncărcare. `verifica_sw.py` cere ca fiecare pagină să încarce `actualizare.js`.
+
 ---
 
 ## G. Verificarea paginilor de sinteză („Tematica")

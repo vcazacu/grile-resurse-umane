@@ -45,7 +45,7 @@ def pagina(titlu, corp, activ, pe_index=False, subsol="", script="", cls=""):
 <html lang="ro"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="color-scheme" content="light dark">
 <meta name="theme-color" content="#F2F4F7" media="(prefers-color-scheme: light)"><meta name="theme-color" content="#0E1320" media="(prefers-color-scheme: dark)">
-<link rel="icon" href="../icon-192.png"><link rel="stylesheet" href="../style.css">
+<link rel="icon" href="../icon-192.png"><link rel="stylesheet" href="../style.css"><script src="../actualizare.js"></script>
 <title>{html.escape(titlu)} — Grile Resurse Umane</title></head>
 <body><div class="shell">{nav(activ, pe_index)}
 <main class="continut lectura{' ' + cls if cls else ''}">{corp}

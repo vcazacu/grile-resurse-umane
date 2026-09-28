@@ -1,11 +1,12 @@
 /* Service worker — face aplicația disponibilă offline după prima deschidere.
    La fiecare modificare a întrebărilor, schimbă VERSIUNE ca să se reîmprospăteze cache-ul. */
-const VERSIUNE = "grile-ru-v23";
+const VERSIUNE = "grile-ru-v24";
 const FISIERE = [
   "./",
   "./index.html",
   "./style.css",
   "./app.js",
+  "./actualizare.js",
   "./intrebari.js",
   "./manifest.json",
   "./icon-192.png",
@@ -62,6 +63,12 @@ self.addEventListener("activate", function (e) {
                                .map(function (k) { return caches.delete(k); }));
       })
       .then(function () { return self.clients.claim(); })
+      // Anunță paginile deschise (actualizare.js): mesajul așteaptă până li se încarcă scripturile,
+      // deci nu se pierde ca „controllerchange”, care poate veni înainte ca pagina să-l asculte.
+      .then(function () { return self.clients.matchAll({ type: "window", includeUncontrolled: true }); })
+      .then(function (pagini) {
+        pagini.forEach(function (p) { p.postMessage({ tip: "versiune-noua", versiune: VERSIUNE }); });
+      })
   );
 });
 

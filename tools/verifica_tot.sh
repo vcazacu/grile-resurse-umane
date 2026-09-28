@@ -22,6 +22,8 @@ echo "== 4. referiri poziționale ==";     python3 check_semantic.py --doar-pozi
 if [ ${#FISIERE[@]} -eq 1 ] && [ "${FISIERE[0]}" = "../intrebari.js" ]; then
   echo "== 5. distribuție pe teste =="; python3 asambleaza.py --raport-din ../intrebari.js || ok=1
 fi
+echo "== 7. cache offline ==";             python3 verifica_sw.py                    || ok=1
+echo "== 8. linkuri în pagini ==";        python3 test_linkuri.py | tail -3; [ ${PIPESTATUS[0]} -eq 0 ] || ok=1
 if [ $SEMANTIC -eq 1 ]; then
   echo "== 6. poartă semantică (TypeSafe) =="
   "$PY_TS" check_semantic.py "${FISIERE[@]}" || ok=1

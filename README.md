@@ -137,7 +137,10 @@ ca bloc monospațiat, nu ca tabel.
 - `app.js` — logica quiz-ului (nu trebuie atinsă când adaugi întrebări)
 - `style.css` — stilurile (design inspirat din shadcn/ui, temă light/dark automată)
 - `intrebari.js` — **banca de întrebări** (generată, nu se editează manual)
-- `sw.js` — service worker (offline + versiunea cache-ului)
+- `sw.js` — service worker (offline + versiunea cache-ului); la activare anunță paginile deschise
+- `actualizare.js` — încărcat în `<head>` de toate paginile: când noul service worker preia pagina, o
+  reîncarcă (sau, cu o întrebare pe ecran, arată bara „Reîncarcă”, care se poate închide cu ×); la
+  revenirea în aplicație cere verificarea versiunii
 - `tools/tematica_build.py`, `tools/tematica/` — construirea paginilor de tematică
 - `tools/legislatie_build.py`, `legislatie/` — paginile de citit ale legislației
 - `tools/carcasa.py` — antetul, navigația și subsolul comune paginilor generate; navigația repetă pe cea din
@@ -153,6 +156,10 @@ ca bloc monospațiat, nu ca tabel.
   - `check_citat.py` — citatul din `sursa.citat` apare verbatim în sursă (după normalizare)
   - `check_articol.py` — articolul declarat = locul real al citatului + în tematică + restricții pe alineate
   - `acoperire.py` — fiecare articol cerut de bibliografie are cel puțin o întrebare
+  - `verifica_sw.py` — lista cache-ului offline = fișierele reale, iar fiecare pagină încarcă `actualizare.js`
+  - `test_linkuri.py` — linkurile tuturor paginilor statice duc la fișiere și ancore existente
+  - `sweep.js`, `linkuri_panou.js` — verificări în browser (se lipesc în pagină, la `index.html` servit prin
+    http): toate testele cu cheile corecte (scor 100%); linkurile din panoul „Temei legal” (lățime ≥ 1024 px)
   - `verifica_tot.sh` — rulează toate verificările de mai sus într-un singur pas;
     cu `--semantic` adaugă poarta semantică de mai jos (cere `TYPESAFE_API_KEY`)
   - `check_semantic.py`, `alineate.py` — poarta semantică (TypeSafe): verifică
@@ -183,7 +190,8 @@ La orice modificare a întrebărilor din `tools/nou/*.json`:
 
 Fără al treilea pas, dispozitivele care au deja aplicația salvată rămân cu
 versiunea veche în memorie, pentru că service worker-ul servește din cache
-înaintea rețelei.
+înaintea rețelei. Cu el, prima deschidere după publicare pornește tot din cache-ul
+vechi, iar după câteva secunde `actualizare.js` trece pagina pe versiunea nouă.
 
 Apoi:
 

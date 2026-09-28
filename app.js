@@ -292,8 +292,11 @@
       if (!art) { cutie.innerHTML = '<p class="stare">Articolul nu apare separat în pagina legii; folosește linkul de mai sus.</p>'; return; }
       var copie = document.importNode(art, true);
       copie.removeAttribute("id");
-      Array.prototype.forEach.call(copie.querySelectorAll("a[href^='#']"), function (l) {
-        l.setAttribute("href", "legislatie/" + a.pagina + l.getAttribute("href"));
+      // Linkurile din articol sunt relative la pagina legii (#art-5, 07-oug-….html#art-2,
+      // ../tematica/…); în panou ar porni de la rădăcina aplicației, deci le rezolvăm față de pagina legii.
+      var bazaLege = new URL("legislatie/" + a.pagina, location.href);
+      Array.prototype.forEach.call(copie.querySelectorAll("a[href]"), function (l) {
+        l.setAttribute("href", new URL(l.getAttribute("href"), bazaLege).href);
       });
       var tinta = null;
       anc.tinte.some(function (t) { tinta = copie.querySelector('[id="' + t + '"]'); return !!tinta; });
