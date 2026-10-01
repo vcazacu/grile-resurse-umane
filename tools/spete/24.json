@@ -6,7 +6,8 @@
  "fapte": [
   "Căpitanul Ilinca, cadru militar în activitate, se află în concediu pentru creșterea primului copil, născut la 1 mai 2025, cu o indemnizație lunară de 3.400 lei.",
   "La 1 martie 2026 naște al doilea copil, pentru care îndeplinește de asemenea condițiile de acordare.",
-  "Soțul ei, tot cadru militar, îndeplinește și el cerințele de acordare a concediului."
+  "Soțul ei, tot cadru militar, îndeplinește și el cerințele de acordare a concediului.",
+  "Valoarea minimă a indemnizației lunare (2,5 ori valoarea indicatorului social de referință) este, la acea dată, sub 1.700 lei."
  ],
  "intrebare": "Ce se întâmplă cu concediul și cu indemnizația Ilincăi după nașterea celui de-al doilea copil? Primește două indemnizații?",
  "cifre_derivate": {"1.700": "50% din indemnizația de 3.400 lei", "5.100": "3.400 lei plus majorarea de 1.700 lei", "2027": "primul copil, născut la 1 mai 2025, împlinește 2 ani la 1 mai 2027", "2028": "al doilea copil, născut la 1 martie 2026, împlinește 2 ani la 1 martie 2028"},
@@ -25,7 +26,7 @@
   {
    "titlu": "Majorarea pe perioada suprapunerii",
    "paragrafe": [
-    "Art. 9 alin. (4) prevede că, pe perioada suprapunerii, cuantumul indemnizației de la art. 2 alin. (2) se majorează cu 50% din indemnizația cuvenită, pentru fiecare dintre copii, începând cu cel de-al doilea, iar majorarea nu poate fi mai mică decât valoarea minimă a indemnizației de la art. 2 alin. (2). Pentru Ilinca, majorarea este de 1.700 lei (50% din 3.400 lei), deci 5.100 lei pe lună cât timp cele două situații se suprapun — de la 1 martie 2026 până la 1 mai 2027, când primul copil împlinește 2 ani; după aceea rămâne indemnizația de 3.400 lei până la 1 martie 2028."
+    "Art. 9 alin. (4) prevede că, pe perioada suprapunerii, cuantumul indemnizației de la art. 2 alin. (2) se majorează cu 50% din indemnizația cuvenită, pentru fiecare dintre copii, începând cu cel de-al doilea, iar majorarea nu poate fi mai mică decât valoarea minimă a indemnizației de la art. 2 alin. (2). Pentru Ilinca, majorarea este de 1.700 lei (50% din 3.400 lei); cum valoarea minimă a indemnizației este sub 1.700 lei, pragul de jos nu intervine, deci primește 5.100 lei pe lună cât timp cele două situații se suprapun — de la 1 martie 2026 până la 1 mai 2027, când primul copil împlinește 2 ani; după aceea rămâne indemnizația de 3.400 lei până la 1 martie 2028."
    ],
    "temei": [
     {"act": "O.U.G. nr. 111/2010 privind concediul și indemnizația lunară pentru creșterea copiilor", "articol": "art. 9 alin. (4)", "citat": "Pe perioada suprapunerii situațiilor prevăzute la alin. (2), cuantumul indemnizației lunare prevăzut la art. 2 alin. (2) se majorează cu 50% din indemnizația cuvenită, pentru fiecare dintre copii, începând cu cel de-al doilea. Majorarea astfel calculată nu poate fi mai mică decât valoarea minimă a indemnizației pentru creșterea copilului prevăzută la art. 2 alin. (2).", "fisier": "07_OUG_111-2010_concediul_crestere_copil.txt"},
