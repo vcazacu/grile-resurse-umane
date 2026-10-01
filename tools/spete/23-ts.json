@@ -1,0 +1,193 @@
+[
+ {
+  "loc": "Generalul: decret prezidențial / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 45 alin. (1) lit. a) prevede că gradele de general și amiral, în activitate și în rezervă, în timp de pace și în timp de război, se acordă prin decret al Președintelui României, la propunerea ministrului apărării naționale, după consultarea colegiului ministerului.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Pentru Albu, lanțul este: consultarea colegiului, propunerea ministrului, decretul Președintelui.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "contrazice": 0.03,
+     "nu_spune": 0.01,
+     "sustine": 0.96
+    },
+    "confidence": 0.95
+   }
+  },
+  "usage": 3520
+ },
+ {
+  "loc": "Ofițerul în activitate și ofițerul în rezervă / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Lit. b) prevede că gradele de ofițeri în activitate, cu excepția celor de la lit. a), se acordă în timp de pace prin ordin al ministrului apărării naționale, iar lit. c) că gradele de ofițeri în rezervă, cu aceeași excepție, se acordă în timp de pace prin ordin al șefului Statului Major General.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 0.99
+   },
+   "1": {
+    "text": "Căpitanul lui Barbu vine deci prin ordin al ministrului, iar gradul de locotenent al rezervistului Cosma prin ordin al șefului Statului Major General.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.91,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.09
+    },
+    "confidence": 0.88
+   }
+  },
+  "usage": 3476
+ },
+ {
+  "loc": "Subofițerul în activitate / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Lit. e) prevede că gradele de maiștri militari și subofițeri în activitate, în timp de pace și în timp de război, se acordă prin ordin al ministrului apărării naționale sau al comandanților stabiliți de acesta; lit. f) trimite, pentru maiștrii militari și subofițerii în rezervă, la ordinul comandanților stabiliți de ministru.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 0.99
+   },
+   "1": {
+    "text": "Gradul de sergent-major al lui Dinu vine prin ordin al ministrului sau al unui comandant stabilit de el.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 3481
+ },
+ {
+  "loc": "Ce se schimbă în timp de război / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Lit. d) mută competențele în timp de război: acordarea gradului de sublocotenent și înaintarea în gradele de locotenent și căpitan, în activitate sau în rezervă, se fac de comandanții stabiliți de șeful Marelui Cartier General, iar înaintarea în gradele de ofițeri cu grade superioare de șeful Marelui Cartier General.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 0.99
+   },
+   "1": {
+    "text": "Generalii rămân, și în timp de război, la decretul Președintelui (lit. a)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 3449
+ },
+ {
+  "loc": "capcana 1",
+  "afirmatii": {
+   "0": {
+    "text": "Ofițerii în activitate și cei în rezervă au semnatari diferiți în timp de pace: ministrul (lit. b)), respectiv șeful Statului Major General (lit. c)); generalii și amiralii merg întotdeauna la Președinte, în pace și în război, în activitate și în rezervă (lit. a)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "sustine": 0.9400000000000001,
+     "contrazice": 0.06,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.91
+   }
+  },
+  "usage": 3348
+ },
+ {
+  "loc": "capcana 2",
+  "afirmatii": {
+   "0": {
+    "text": "Pentru subofițeri și maiștri militari contează tot activ/rezervă: în activitate — ministrul sau comandanții stabiliți de el (lit. e)); în rezervă — comandanții stabiliți de ministru (lit. f)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 0.99
+   }
+  },
+  "usage": 3321
+ },
+ {
+  "loc": "capcana 3",
+  "afirmatii": {
+   "0": {
+    "text": "În timp de război, gradele de ofițeri inferiori se acordă de comandanții stabiliți de șeful Marelui Cartier General, iar cele superioare de șeful Marelui Cartier General (lit. d)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "sustine": 0.98,
+     "contrazice": 0.02,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.97
+   },
+   "1": {
+    "text": "Bibliografia cere din art. 45 doar lit. a)–f).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.07,
+     "sustine": 0.68,
+     "contrazice": 0.13,
+     "nu_spune": 0.12
+    },
+    "confidence": 0.56
+   }
+  },
+  "usage": 3786
+ },
+ {
+  "loc": "verdict",
+  "afirmatii": {
+   "0": {
+    "text": "Albu — general de brigadă prin decret al Președintelui României, la propunerea ministrului apărării naționale, după consultarea colegiului ministerului (lit. a)); Barbu — căpitan prin ordin al ministrului apărării naționale (lit. b)); Cosma — locotenent în rezervă prin ordin al șefului Statului Major General (lit. c)); Dinu — sergent-major prin ordin al ministrului sau al comandanților stabiliți de acesta (lit. e)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "sustine": 0.98,
+     "contrazice": 0.02,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.98
+   }
+  },
+  "usage": 3383
+ }
+]

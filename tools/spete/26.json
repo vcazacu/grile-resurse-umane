@@ -1,0 +1,57 @@
+{
+ "nr": 26,
+ "nivel": "medie",
+ "titlu": "Pensia anticipată cu doi ani înainte și reducerea care nu se cumulează",
+ "teme": [14],
+ "fapte": [
+  "Domnul Vasile, salariat civil, are 63 de ani în 2026; vârsta standard de pensionare care i se aplică, potrivit eșalonării din anexa nr. 5, este de 65 de ani.",
+  "Are un stagiu de cotizare contributiv de 37 de ani, iar stagiul complet de cotizare contributiv care i se aplică este de 35 de ani.",
+  "Cere pensie anticipată. Pentru că a lucrat o vreme în condiții deosebite, ar avea dreptul și la o reducere a vârstei standard de un an, pe care ar vrea să o adauge la anticipare."
+ ],
+ "intrebare": "Îndeplinește Vasile condițiile pensiei anticipate? Poate cumula anticiparea cu reducerea pentru condiții deosebite? Ce se întâmplă cu pensia la 65 de ani?",
+ "cifre_derivate": {"2": "65 de ani minus 63 de ani; 37 de ani minus 35 de ani"},
+ "sectiuni": [
+  {
+   "titlu": "Condițiile pensiei anticipate",
+   "paragrafe": [
+    "Art. 58 alin. (1) prevede că pensia anticipată se cuvine cu cel mult 5 ani înaintea împlinirii vârstei standard de pensionare persoanelor care au realizat stagiul complet de cotizare contributiv prevăzut în anexa nr. 5, precum și celor care l-au depășit cu până la 5 ani. Vasile cere pensia cu 2 ani înainte de vârsta standard (63 față de 65) și are 37 de ani de stagiu, adică stagiul complet de 35 de ani depășit cu 2 ani: ambele condiții sunt îndeplinite."
+   ],
+   "temei": [
+    {"act": "Legea nr. 360/2023 privind sistemul public de pensii", "articol": "art. 58 alin. (1)", "citat": "Pensia anticipată se cuvine cu cel mult 5 ani înaintea împlinirii vârstei standard de pensionare persoanelor care au realizat stagiul complet de cotizare contributiv, prevăzut în anexa nr. 5, precum și celor care au depășit stagiul complet de cotizare contributiv cu până la 5 ani.", "fisier": "05_Legea_360-2023_sistemul_public_de_pensii.txt"}
+   ]
+  },
+  {
+   "titlu": "Cuantumul este diminuat",
+   "paragrafe": [
+    "Art. 58 alin. (3) prevede că cuantumul pensiei anticipate se stabilește prin diminuarea cuantumului pensiei pentru limită de vârstă, în raport cu stagiul de cotizare realizat peste stagiul complet și cu numărul de luni cu care s-a redus vârsta standard, conform tabelului nr. 4. Pensia anticipată a lui Vasile va fi deci mai mică decât pensia pentru limită de vârstă, cu un procent pe fiecare lună de anticipare care depinde de cât a depășit stagiul complet."
+   ],
+   "temei": [
+    {"act": "Legea nr. 360/2023 privind sistemul public de pensii", "articol": "art. 58 alin. (3)", "citat": "Cuantumul pensiei anticipate se stabilește prin diminuarea cuantumului pensiei pentru limită de vârstă, în raport cu stagiul de cotizare realizat peste stagiul complet de cotizare contributiv prevăzut în anexa nr. 5 și cu numărul de luni cu care s-a redus vârsta standard de pensionare, conform tabelului nr. 4.", "fisier": "05_Legea_360-2023_sistemul_public_de_pensii.txt"}
+   ]
+  },
+  {
+   "titlu": "Fără cumul cu alte reduceri",
+   "paragrafe": [
+    "Art. 59 prevede că, la acordarea pensiei anticipate, reducerea vârstei standard de la art. 58 alin. (1) nu poate fi cumulată cu nicio altă reducere reglementată de lege sau de alte acte normative. Vasile nu poate adăuga la anticipare reducerea de un an pentru condiții deosebite: alege fie pensia anticipată, fie pensia pentru limită de vârstă cu vârsta redusă."
+   ],
+   "temei": [
+    {"act": "Legea nr. 360/2023 privind sistemul public de pensii", "articol": "art. 59", "citat": "La acordarea pensiei anticipate, reducerea vârstei standard de pensionare prevăzute la art. 58 alin. (1) nu poate fi cumulată cu nicio altă reducere reglementată de prezenta lege sau de alte acte normative.", "fisier": "05_Legea_360-2023_sistemul_public_de_pensii.txt"}
+   ]
+  },
+  {
+   "titlu": "Transformarea la vârsta standard",
+   "paragrafe": [
+    "Art. 60 alin. (1) prevede că, la data îndeplinirii condițiilor pentru pensia pentru limită de vârstă, pensia anticipată se transformă din oficiu în pensie pentru limită de vârstă și se recalculează prin eliminarea diminuării și, după caz, prin valorificarea stagiilor realizate în perioada de suspendare a plății. La 65 de ani, diminuarea dispare fără ca Vasile să depună o nouă cerere."
+   ],
+   "temei": [
+    {"act": "Legea nr. 360/2023 privind sistemul public de pensii", "articol": "art. 60 alin. (1)", "citat": "La data îndeplinirii condițiilor pentru acordarea pensiei pentru limită de vârstă, pensia anticipată se transformă, din oficiu, în pensie pentru limită de vârstă și se recalculează prin eliminarea diminuării și, după caz, prin valorificarea eventualelor stagii de cotizare realizate în perioada de suspendare a plății pensiei anticipate, precum și adăugarea perioadelor prevăzute la art. 58 alin. (2).", "fisier": "05_Legea_360-2023_sistemul_public_de_pensii.txt"}
+   ]
+  }
+ ],
+ "verdict": "Da: anticiparea de 2 ani este în limita celor 5, iar stagiul de 37 de ani depășește stagiul complet de 35 cu 2 ani, în limita celor 5 (art. 58 alin. (1)); cuantumul este diminuat după tabelul nr. 4 (alin. (3)). Reducerea pentru condiții deosebite nu se cumulează cu anticiparea (art. 59). La 65 de ani pensia se transformă din oficiu în pensie pentru limită de vârstă, fără diminuare (art. 60 alin. (1)).",
+ "capcane": [
+  "Pensia anticipată din sistemul public cere stagiul complet realizat (sau depășit cu până la 5 ani) și cel mult 5 ani de anticipare — spre deosebire de pensia anticipată parțială din sistemul militar, care are praguri proprii de vechime și nu are condiție de vârstă.",
+  "Diminuarea pensiei anticipate se face pe lună de anticipare, cu un procent care scade pe măsură ce stagiul depășește stagiul complet (tabelul nr. 4 de la art. 58 alin. (3)).",
+  "Anticiparea nu se cumulează cu nicio altă reducere a vârstei standard (art. 59); transformarea în pensie pentru limită de vârstă se face din oficiu, cu eliminarea diminuării (art. 60 alin. (1))."
+ ]
+}

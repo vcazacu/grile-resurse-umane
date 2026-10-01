@@ -1,0 +1,58 @@
+{
+ "nr": 27,
+ "nivel": "medie",
+ "titlu": "Căpitanul plecat la cerere, cu 12 ani de serviciu",
+ "teme": [13],
+ "fapte": [
+  "Căpitanul Roman trece în rezervă la cerere, la 40 de ani, cu 12 ani vechime în serviciu, din care 2 ani lucrați în condiții speciale stabilite potrivit Hotărârii Guvernului nr. 1.294/2001.",
+  "La data trecerii în rezervă nu îndeplinește condițiile niciunei pensii de serviciu de la art. 16, 17 sau 18."
+ ],
+ "intrebare": "Mai are Roman vreo pensie din sistemul militar? Când și pe ce vechime?",
+ "cifre_derivate": {"1": "sporul pentru 2 ani în condiții speciale: 2 ani × 6 luni = 1 an", "13": "12 ani vechime în serviciu plus sporul de 1 an"},
+ "sectiuni": [
+  {
+   "titlu": "Pensia de serviciu amânată până la vârsta standard",
+   "paragrafe": [
+    "Art. 19 prevede că militarii care la data trecerii în rezervă nu îndeplinesc condițiile de acordare a unei pensii de serviciu, dar au o vechime în serviciu de cel puțin 10 ani, beneficiază de pensie de serviciu la împlinirea vârstei standard de pensionare pentru limită de vârstă, pentru numărul anilor de vechime în serviciu stabiliți în condițiile art. 3 lit. e), la care se adaugă sporurile acordate conform art. 24. Roman are 12 ani vechime în serviciu, peste pragul de 10, deci dreptul lui se deschide la vârsta standard."
+   ],
+   "temei": [
+    {"act": "Legea nr. 223/2015 privind pensiile militare de stat", "articol": "art. 19", "citat": "Militarii, polițiștii și funcționarii publici cu statut special, care la data trecerii în rezervă ori a încetării raporturilor de serviciu nu îndeplinesc condițiile de acordare a unei pensii de serviciu, dar au o vechime în serviciu de cel puțin 10 ani, beneficiază de pensie de serviciu la împlinirea vârstei standard de pensionare pentru limită de vârstă prevăzută de prezenta lege, pentru numărul anilor de vechime în serviciu, stabiliți în condițiile art. 3 lit. e), la care se adaugă sporurile acordate conform art. 24.", "fisier": "04_Legea_223-2015_pensiile_militare.txt"}
+   ]
+  },
+  {
+   "titlu": "Vechimea pe care se calculează",
+   "paragrafe": [
+    "Art. 24 lit. b) socotește, pentru fiecare an lucrat efectiv în condiții speciale, 1 an și 6 luni; cei 2 ani ai lui Roman aduc un spor de 1 an. Pensia de la art. 19 se va calcula deci pe 13 ani: 12 ani vechime în serviciu plus sporul de 1 an. Anii pe care îi va lucra în civilie după trecerea în rezervă nu intră în această vechime."
+   ],
+   "temei": [
+    {"act": "Legea nr. 223/2015 privind pensiile militare de stat", "articol": "art. 24", "citat": "La stabilirea pensiei se ia în calcul, pentru fiecare an lucrat efectiv, în condițiile stabilite de Hotărârea Guvernului nr. 1.294/2001, cu modificările ulterioare, și de Hotărârea Guvernului nr. 1.822/2004, cu modificările ulterioare, astfel: a) 1 an și 3 luni, în cazul celor care și-au desfășurat activitatea în condiții deosebite; b) 1 an și 6 luni, în cazul celor care și-au desfășurat activitatea în condiții speciale;", "fisier": "04_Legea_223-2015_pensiile_militare.txt"}
+   ]
+  },
+  {
+   "titlu": "Cuantumul: proporțional",
+   "paragrafe": [
+    "Art. 29 alin. (3) prevede că cuantumul pensiilor stabilite în baza art. 19 și 26 se determină proporțional cu numărul anilor de vechime în serviciu, la care se adaugă sporurile de la art. 24, în raport cu vechimea prevăzută la alin. (2). Pensia lui Roman nu este cea de 65% din baza de calcul de la alin. (1), ci o parte proporțională, corespunzătoare celor 13 ani."
+   ],
+   "temei": [
+    {"act": "Legea nr. 223/2015 privind pensiile militare de stat", "articol": "art. 29 alin. (3)", "citat": "Cuantumul pensiilor militare de stat stabilite în baza prevederilor art. 19 și 26 se determină proporțional cu numărul anilor de vechime în serviciu, la care se adaugă sporurile prevăzute la art. 24, în raport cu vechimea prevăzută la alin. (2).", "fisier": "04_Legea_223-2015_pensiile_militare.txt"},
+    {"act": "Legea nr. 223/2015 privind pensiile militare de stat", "articol": "art. 29 alin. (1) lit. a)", "citat": "a) militarii, polițiștii și funcționarii publici cu statut special, cu vechime cumulată conform art. 3 lit. f) de cel puțin 25 de ani, beneficiază, la împlinirea vârstei prevăzute de lege, de pensie de serviciu, în cuantum de 65% din baza de calcul prevăzută la art. 28;", "fisier": "04_Legea_223-2015_pensiile_militare.txt"},
+    {"act": "Legea nr. 223/2015 privind pensiile militare de stat", "articol": "art. 29 alin. (2)", "citat": "De pensie de serviciu beneficiază și militarii, polițiștii și funcționarii publici cu statut special, în condițiile legii, cu o vechime cumulată de până la 25 de ani, cuantumul pensiei fiind diminuat cu 1% din baza de calcul prevăzută la art. 28 pentru fiecare an care lipsește din această vechime.", "fisier": "04_Legea_223-2015_pensiile_militare.txt"}
+   ]
+  },
+  {
+   "titlu": "Raportul cu sistemul public",
+   "paragrafe": [
+    "Art. 26 alin. (1) prevede că, pentru cei care la trecerea în rezervă nu îndeplinesc condițiile unei pensii, deschiderea dreptului se face mai întâi de sistemul în care îndeplinesc condițiile cumulative, cu excepția situațiilor prevăzute la art. 19. Roman, având cel puțin 10 ani vechime în serviciu, este în situația de la art. 19, deci pensia lui militară se deschide în sistemul militar, la vârsta standard, independent de ce va realiza în sistemul public."
+   ],
+   "temei": [
+    {"act": "Legea nr. 223/2015 privind pensiile militare de stat", "articol": "art. 26 alin. (1)", "citat": "Pentru militarii, polițiștii și funcționarii publici cu statut special care la data trecerii în rezervă sau a încetării raporturilor de serviciu nu îndeplinesc condițiile de acordare a unei pensii prevăzute la art. 14 lit. a) și b), deschiderea dreptului la pensie se efectuează mai întâi de către sistemul în care îndeplinește condițiile cumulative de pensionare, cu excepția situațiilor prevăzute la art. 19.", "fisier": "04_Legea_223-2015_pensiile_militare.txt"}
+   ]
+  }
+ ],
+ "verdict": "Da. Cu cel puțin 10 ani vechime în serviciu, Roman primește pensie de serviciu la împlinirea vârstei standard de pensionare (art. 19), calculată pe 13 ani — 12 ani vechime în serviciu plus sporul de 1 an pentru cei 2 ani în condiții speciale (art. 24) —, proporțional, potrivit art. 29 alin. (3). Fiind în situația art. 19, nu i se aplică regula deschiderii dreptului mai întâi în celălalt sistem (art. 26 alin. (1)).",
+ "capcane": [
+  "Pragul pentru art. 19 este vechimea în serviciu de cel puțin 10 ani; sub 10 ani, cel plecat fără condiții intră sub art. 26 (deschiderea dreptului întâi în sistemul în care îndeplinește condițiile).",
+  "Pensia de la art. 19 se deschide la vârsta standard de pensionare, nu la data trecerii în rezervă, și numai pe vechimea în serviciu plus sporurile de timp — nu pe vechimea în muncă din civilie.",
+  "Cuantumul pensiilor de la art. 19 și 26 se determină proporțional (art. 29 alin. (3)), nu cu procentul de 65% de la alin. (1)."
+ ]
+}

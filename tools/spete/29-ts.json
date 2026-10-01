@@ -1,0 +1,204 @@
+[
+ {
+  "loc": "De ce nu se aplică art. 19 / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 19 dă pensie de serviciu la vârsta standard celor care la trecerea în rezervă nu îndeplinesc condițiile unei pensii, dar au o vechime în serviciu de cel puțin 10 ani.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.01,
+     "sustine": 0.99,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 0.99
+   },
+   "1": {
+    "text": "Dobre are doar 8 ani vechime în serviciu, sub acest prag, deci nu este în situația art. 19; cazul lui intră sub art. 26.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.31,
+     "contrazice": 0.05,
+     "sustine": 0.49,
+     "absenta_corecta": 0.15
+    },
+    "confidence": 0.32
+   }
+  },
+  "usage": 2899
+ },
+ {
+  "loc": "Deschiderea dreptului: întâi sistemul în care îndeplinește c / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 26 alin. (1) prevede că, pentru cei care la trecerea în rezervă nu îndeplinesc condițiile unei pensii prevăzute la art. 14 lit. a) și b), deschiderea dreptului la pensie se efectuează mai întâi de sistemul în care îndeplinesc condițiile cumulative de pensionare, cu excepția situațiilor de la art. 19.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 0.99
+   },
+   "1": {
+    "text": "În sistemul public, art. 47 din Legea nr. 360/2023 cere vârsta standard de 65 de ani și stagiul minim de cotizare contributiv de 15 ani; la 65 de ani, cu 27 de ani de stagiu, Dobre le îndeplinește, deci dreptul i se deschide mai întâi în sistemul public.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.06,
+     "nu_spune": 0.01,
+     "sustine": 0.93,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 0.91
+   }
+  },
+  "usage": 4534
+ },
+ {
+  "loc": "Recunoașterea reciprocă a perioadelor / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 26 alin. (2) prevede că între sistemul pensiilor militare de stat și sistemul public de pensii se recunosc reciproc stagiile de cotizare, respectiv vechimea în muncă sau vechimea în serviciu, în vederea deschiderii dreptului la pensie în condițiile alin. (1).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 0.99
+   },
+   "1": {
+    "text": "Cei 8 ani de serviciu militar sunt deci recunoscuți de sistemul public pentru verificarea condițiilor de deschidere a dreptului, iar cei 27 de ani de muncă sunt recunoscuți de sistemul militar în același scop.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.03,
+     "contrazice": 0.09,
+     "sustine": 0.88
+    },
+    "confidence": 0.83
+   }
+  },
+  "usage": 3209
+ },
+ {
+  "loc": "Ce plătește sistemul militar și fără dublă socotire / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 26 alin. (3) prevede că, în situația de la alin. (1), pensia militară de stat se stabilește doar pentru perioadele de vechime în serviciu, la care se adaugă sporurile acordate conform art. 24; cuantumul se determină proporțional, potrivit art. 29 alin. (3).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.96,
+     "contrazice": 0.04,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 0.94
+   },
+   "1": {
+    "text": "Dobre primește deci din sistemul militar o pensie pentru cei 8 ani de serviciu, fără spor, pentru că a lucrat în condiții normale.",
+    "alegere": "contrazice",
+    "probabilitati": {
+     "nu_spune": 0.04,
+     "contrazice": 0.66,
+     "sustine": 0.25,
+     "absenta_corecta": 0.05
+    },
+    "confidence": 0.55
+   },
+   "2": {
+    "text": "Art. 25 alin. (2) închide cercul: vechimea valorificată pentru pensia militară nu se poate valorifica și în sistemul public — cei 8 ani sunt plătiți o singură dată, de sistemul militar, iar cei 27 de ani de sistemul public.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.04,
+     "sustine": 0.96,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 0.94
+   }
+  },
+  "usage": 4760
+ },
+ {
+  "loc": "capcana 1",
+  "afirmatii": {
+   "0": {
+    "text": "Linia de 10 ani vechime în serviciu desparte art. 19 (pensie de serviciu la vârsta standard, în sistemul militar) de art. 26 (deschiderea dreptului întâi în sistemul în care sunt îndeplinite condițiile cumulative).",
+    "alegere": "contrazice",
+    "probabilitati": {
+     "absenta_corecta": 0.01,
+     "sustine": 0.46,
+     "contrazice": 0.51,
+     "nu_spune": 0.02
+    },
+    "confidence": 0.34
+   }
+  },
+  "usage": 5171
+ },
+ {
+  "loc": "capcana 2",
+  "afirmatii": {
+   "0": {
+    "text": "Recunoașterea reciprocă de la art. 26 alin. (2) servește la deschiderea dreptului, nu la plată: fiecare sistem plătește pentru perioadele lui, iar art. 25 alin. (2) interzice valorificarea acelorași ani în ambele sisteme.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.99,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.01,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.99
+   }
+  },
+  "usage": 5380
+ },
+ {
+  "loc": "capcana 3",
+  "afirmatii": {
+   "0": {
+    "text": "În sistemul militar, pensia celui aflat sub art. 26 se calculează doar pe vechimea în serviciu plus sporurile de timp, proporțional (art. 29 alin. (3)) — nu pe vechimea cumulată și nu cu 65% din baza de calcul.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.05,
+     "absenta_corecta": 0.01,
+     "nu_spune": 0.0,
+     "sustine": 0.94
+    },
+    "confidence": 0.93
+   }
+  },
+  "usage": 5276
+ },
+ {
+  "loc": "verdict",
+  "afirmatii": {
+   "0": {
+    "text": "Cu 8 ani vechime în serviciu, sub pragul de 10 ani de la art. 19, Dobre intră sub art. 26: dreptul la pensie i se deschide mai întâi în sistemul public, unde la 65 de ani îndeplinește vârsta standard și stagiul minim de 15 ani (art. 47 din Legea nr. 360/2023), perioadele fiind recunoscute reciproc (art. 26 alin. (2)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.92,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.08,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.89
+   },
+   "1": {
+    "text": "Sistemul militar îi plătește o pensie doar pentru cei 8 ani de serviciu, proporțional (art. 26 alin. (3), art. 29 alin. (3)), iar acești ani nu se mai valorifică și în sistemul public (art. 25 alin. (2)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.94,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.06,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.92
+   }
+  },
+  "usage": 6068
+ }
+]

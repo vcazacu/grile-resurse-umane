@@ -1,0 +1,187 @@
+[
+ {
+  "loc": "Un drept pentru fiecare naștere, dar o singură indemnizație / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 9 alin. (1) prevede că concediul și indemnizația de la art. 2 alin. (1), precum și stimulentul de inserție, se cuvin pentru fiecare dintre nașteri.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.01,
+     "nu_spune": 0.0,
+     "sustine": 0.99,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 0.99
+   },
+   "1": {
+    "text": "Când situațiile se suprapun, alin. (2) prelungește corespunzător durata concediului, iar alin. (3) spune că se acordă o singură indemnizație.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.04,
+     "nu_spune": 0.0,
+     "sustine": 0.96,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 0.95
+   },
+   "2": {
+    "text": "Ilinca nu primește deci două indemnizații: are un singur concediu, prelungit, și o singură indemnizație.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.47,
+     "nu_spune": 0.0,
+     "sustine": 0.52,
+     "absenta_corecta": 0.01
+    },
+    "confidence": 0.35
+   }
+  },
+  "usage": 4604
+ },
+ {
+  "loc": "Majorarea pe perioada suprapunerii / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 9 alin. (4) prevede că, pe perioada suprapunerii, cuantumul indemnizației de la art. 2 alin. (2) se majorează cu 50% din indemnizația cuvenită, pentru fiecare dintre copii, începând cu cel de-al doilea, iar majorarea nu poate fi mai mică decât valoarea minimă a indemnizației de la art. 2 alin. (2).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.01,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "sustine": 0.99
+    },
+    "confidence": 0.99
+   },
+   "1": {
+    "text": "Pentru Ilinca, majorarea este de 1.700 lei (50% din 3.400 lei), deci 5.100 lei pe lună cât timp cele două situații se suprapun — de la 1 martie 2026 până la 1 mai 2027, când primul copil împlinește 2 ani; după aceea rămâne indemnizația de 3.400 lei până la 1 martie 2028.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.21,
+     "nu_spune": 0.06,
+     "absenta_corecta": 0.0,
+     "sustine": 0.73
+    },
+    "confidence": 0.63
+   }
+  },
+  "usage": 7160
+ },
+ {
+  "loc": "Lunile celuilalt părinte / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 11 alin. (1) lit. a) prevede că, dacă ambii părinți îndeplinesc cerințele, concediul se acordă astfel încât cel puțin 2 luni să fie efectuate de părintele care nu a solicitat inițial dreptul, iar lit. b) adaugă că, dacă acel părinte nu le solicită, celălalt nu poate beneficia de concediu în locul lui.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 0.99
+   },
+   "1": {
+    "text": "Soțul Ilincăi, care îndeplinește cerințele, are deci cel puțin 2 luni de concediu ale lui; dacă nu le ia, Ilinca nu le poate lua în locul lui.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "contrazice": 0.02,
+     "nu_spune": 0.01,
+     "sustine": 0.97
+    },
+    "confidence": 0.96
+   }
+  },
+  "usage": 3418
+ },
+ {
+  "loc": "capcana 1",
+  "afirmatii": {
+   "0": {
+    "text": "La suprapunerea a două nașteri nu se dau două indemnizații, ci una singură, majorată cu 50% din indemnizația cuvenită pentru fiecare copil începând cu al doilea, doar pe perioada suprapunerii (art. 9 alin. (3)–(4)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.99,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.01
+    },
+    "confidence": 0.99
+   }
+  },
+  "usage": 7842
+ },
+ {
+  "loc": "capcana 2",
+  "afirmatii": {
+   "0": {
+    "text": "Majorarea nu poate fi mai mică decât minimul indemnizației (art. 9 alin. (4) teza a doua) — plafonul de jos se aplică majorării, nu doar indemnizației.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 7898
+ },
+ {
+  "loc": "capcana 3",
+  "afirmatii": {
+   "0": {
+    "text": "Lunile celuilalt părinte: cel puțin 2, netransferabile; dacă acesta nu le solicită, celălalt părinte nu le poate lua în locul lui (art. 11 alin. (1) lit. b)), dar poate opta pentru concediu fără plată ori pentru realizarea de venituri (alin. (2)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.01,
+     "sustine": 0.99
+    },
+    "confidence": 0.99
+   }
+  },
+  "usage": 7906
+ },
+ {
+  "loc": "verdict",
+  "afirmatii": {
+   "0": {
+    "text": "Ilinca nu primește două indemnizații.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.98,
+     "absenta_corecta": 0.02,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 0.97
+   },
+   "1": {
+    "text": "Concediul i se prelungește corespunzător (art. 9 alin. (2)) și primește o singură indemnizație (alin. (3)), majorată cu 50% pentru al doilea copil cât timp situațiile se suprapun: 3.400 lei plus 1.700 lei, adică 5.100 lei pe lună, de la 1 martie 2026 până la 1 mai 2027; apoi 3.400 lei până la 1 martie 2028.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.01,
+     "sustine": 0.84,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.15
+    },
+    "confidence": 0.78
+   },
+   "2": {
+    "text": "Cel puțin 2 luni de concediu sunt ale soțului (art. 11 alin. (1)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.01,
+     "sustine": 0.94,
+     "contrazice": 0.05
+    },
+    "confidence": 0.92
+   }
+  },
+  "usage": 9090
+ }
+]

@@ -1,0 +1,50 @@
+{
+ "nr": 22,
+ "nivel": "medie",
+ "titlu": "Orele suplimentare „care se pierd”",
+ "teme": [11],
+ "fapte": [
+  "Domnul Sava, personal civil contractual cu program normal de 40 de ore pe săptămână, a lucrat în săptămâna 2–6 martie 2026, la cererea comandantului și cu acordul lui, 7 ore peste program.",
+  "În cele 90 de zile care au urmat, unitatea nu i-a acordat nicio oră liberă plătită și nu i-a plătit nimic în plus.",
+  "Comandantul îi spune că orele „se pierd” dacă nu au fost compensate în 90 de zile."
+ ],
+ "intrebare": "Au fost legale orele suplimentare? Cum trebuiau compensate și ce se întâmplă dacă termenul de 90 de zile a trecut?",
+ "cifre_derivate": {"47": "40 de ore de program plus 7 ore suplimentare", "4": "4 iunie 2026 = 90 de zile calendaristice de la 6 martie 2026"},
+ "sectiuni": [
+  {
+   "titlu": "Ce este munca suplimentară și cu ce acord se face",
+   "paragrafe": [
+    "Art. 120 alin. (1) definește munca suplimentară ca munca prestată în afara duratei normale a timpului de muncă săptămânal, iar alin. (2) prevede că ea nu poate fi efectuată fără acordul salariatului, cu excepția cazului de forță majoră sau a lucrărilor urgente pentru prevenirea ori înlăturarea consecințelor unui accident. Art. 114 alin. (1) pune și limita: durata maximă legală a timpului de muncă nu poate depăși 48 de ore pe săptămână, inclusiv orele suplimentare. Sava a lucrat cu acordul lui, 47 de ore în acea săptămână, sub plafonul de 48."
+   ],
+   "temei": [
+    {"act": "Legea nr. 53/2003 – Codul muncii", "articol": "art. 120", "citat": "Munca prestată în afara duratei normale a timpului de muncă săptămânal, prevăzută la art. 112, este considerată muncă suplimentară. (2) Munca suplimentară nu poate fi efectuată fără acordul salariatului, cu excepția cazului de forță majoră sau pentru lucrări urgente destinate prevenirii producerii unor accidente ori înlăturării consecințelor unui accident.", "fisier": "03_Legea_53-2003_Codul_muncii.txt"},
+    {"act": "Legea nr. 53/2003 – Codul muncii", "articol": "art. 114 alin. (1)", "citat": "Durata maximă legală a timpului de muncă nu poate depăși 48 de ore pe săptămână, inclusiv orele suplimentare.", "fisier": "03_Legea_53-2003_Codul_muncii.txt"}
+   ]
+  },
+  {
+   "titlu": "Compensarea cu ore libere plătite",
+   "paragrafe": [
+    "Art. 122 alin. (1) prevede că munca suplimentară se compensează prin ore libere plătite în următoarele 90 de zile calendaristice după efectuarea acesteia, iar alin. (2) adaugă că, în aceste condiții, salariatul beneficiază de salariul corespunzător pentru orele prestate peste program. Pentru orele din 2–6 martie 2026, cele 90 de zile curgeau până la 4 iunie 2026; unitatea trebuia să îi dea lui Sava 7 ore libere plătite în acest interval."
+   ],
+   "temei": [
+    {"act": "Legea nr. 53/2003 – Codul muncii", "articol": "art. 122 alin. (1)", "citat": "Munca suplimentară se compensează prin ore libere plătite în următoarele 90 de zile calendaristice după efectuarea acesteia.", "fisier": "03_Legea_53-2003_Codul_muncii.txt"},
+    {"act": "Legea nr. 53/2003 – Codul muncii", "articol": "art. 122 alin. (2)", "citat": "În aceste condiții salariatul beneficiază de salariul corespunzător pentru orele prestate peste programul normal de lucru.", "fisier": "03_Legea_53-2003_Codul_muncii.txt"}
+   ]
+  },
+  {
+   "titlu": "Dacă nu s-au dat ore libere: sporul",
+   "paragrafe": [
+    "Art. 123 alin. (1) arată că, dacă compensarea prin ore libere plătite nu este posibilă în termenul de la art. 122 alin. (1), în luna următoare munca suplimentară se plătește prin adăugarea unui spor la salariu corespunzător duratei ei; alin. (2) stabilește că sporul se negociază prin contractul colectiv sau individual și nu poate fi mai mic de 75% din salariul de bază. Orele lui Sava nu se pierd: după 4 iunie 2026, unitatea îi datorează, în luna următoare, plata celor 7 ore cu spor de cel puțin 75%."
+   ],
+   "temei": [
+    {"act": "Legea nr. 53/2003 – Codul muncii", "articol": "art. 123", "citat": "În cazul în care compensarea prin ore libere plătite nu este posibilă în termenul prevăzut de art. 122 alin. (1) în luna următoare, munca suplimentară va fi plătită salariatului prin adăugarea unui spor la salariu corespunzător duratei acesteia. (2) Sporul pentru munca suplimentară, acordat în condițiile prevăzute la alin. (1), se stabilește prin negociere, în cadrul contractului colectiv de muncă sau, după caz, al contractului individual de muncă, și nu poate fi mai mic de 75% din salariul de bază.", "fisier": "03_Legea_53-2003_Codul_muncii.txt"}
+   ]
+  }
+ ],
+ "verdict": "Orele au fost legale: cu acordul salariatului și sub plafonul de 48 de ore pe săptămână. Trebuiau compensate cu ore libere plătite în 90 de zile calendaristice, adică până la 4 iunie 2026 (art. 122 alin. (1)); cum nu s-au acordat, nu „se pierd”: în luna următoare unitatea le plătește cu un spor de cel puțin 75% din salariul de bază (art. 123).",
+ "capcane": [
+  "Ordinea legală este: întâi ore libere plătite în 90 de zile, abia apoi sporul, și numai dacă orele libere nu au fost posibile în termen (art. 122–123). Sporul nu este o opțiune liberă a angajatorului de la început.",
+  "Sporul minim pentru munca suplimentară este 75% din salariul de bază (art. 123 alin. (2)); salariații cu repaus săptămânal acordat cumulat după cel mult 14 zile de activitate continuă primesc dublul compensațiilor (art. 137 alin. (5)).",
+  "Munca suplimentară cere acordul salariatului, cu excepția forței majore și a lucrărilor urgente (art. 120 alin. (2)); peste limita de 48 de ore pe săptămână este interzisă, cu aceleași excepții (art. 121 alin. (2))."
+ ]
+}

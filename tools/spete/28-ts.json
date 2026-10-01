@@ -1,0 +1,259 @@
+[
+ {
+  "loc": "Abaterea și sancțiunea cea mai gravă / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 247 alin. (2) definește abaterea disciplinară ca o faptă în legătură cu munca, acțiune sau inacțiune săvârșită cu vinovăție, prin care salariatul a încălcat normele legale, regulamentul intern, contractul individual sau colectiv ori dispozițiile legale ale conducătorilor ierarhici.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Absența nemotivată este o asemenea faptă.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.01,
+     "absenta_corecta": 0.07,
+     "nu_spune": 0.38,
+     "sustine": 0.54
+    },
+    "confidence": 0.39
+   },
+   "2": {
+    "text": "Art. 248 alin. (1) lit. e) include între sancțiuni desfacerea disciplinară a contractului, iar art. 61 lit. a) permite concedierea pentru o abatere gravă sau abateri repetate, ca sancțiune disciplinară.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.01,
+     "nu_spune": 0.0,
+     "sustine": 0.99,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 0.99
+   },
+   "3": {
+    "text": "Pe fond, deci, sancțiunea era posibilă.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.06,
+     "sustine": 0.82,
+     "absenta_corecta": 0.01,
+     "nu_spune": 0.11
+    },
+    "confidence": 0.76
+   }
+  },
+  "usage": 4992
+ },
+ {
+  "loc": "Cercetarea disciplinară prealabilă este obligatorie / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 63 alin. (1) prevede că concedierea pentru abatere gravă sau abateri repetate poate fi dispusă numai după îndeplinirea de către angajator a cercetării disciplinare prealabile și în termenele stabilite de cod, iar art. 62 alin. (2) spune că, pentru motivul de la art. 61 lit. a), decizia de concediere se emite numai cu respectarea dispozițiilor art. 247–252.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "sustine": 0.98,
+     "contrazice": 0.02,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.97
+   },
+   "1": {
+    "text": "Comandantul a sărit peste cercetare: decizia a fost emisă cu încălcarea unei condiții de procedură fără de care concedierea disciplinară nu poate fi dispusă.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.01,
+     "sustine": 0.97,
+     "contrazice": 0.01,
+     "nu_spune": 0.01
+    },
+    "confidence": 0.96
+   }
+  },
+  "usage": 3757
+ },
+ {
+  "loc": "Conținutul deciziei, sub sancțiunea nulității absolute / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 252 alin. (2) cere ca decizia de sancționare să cuprindă obligatoriu, sub sancțiunea nulității absolute, descrierea faptei, prevederile încălcate, motivele pentru care au fost înlăturate apărările salariatului din cercetare ori motivele pentru care cercetarea nu a fost efectuată, temeiul de drept, termenul de contestare și instanța competentă; art. 62 alin. (3) cere, tot sub nulitate absolută, motivarea în fapt și în drept și precizările privind termenul și instanța de contestare.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.99
+   },
+   "1": {
+    "text": "Decizia lui Zamfir conține o singură mențiune sumară: îi lipsesc descrierea faptei, prevederile încălcate, mențiunea despre cercetare, termenul și instanța — este lovită de nulitate absolută.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.77,
+     "absenta_corecta": 0.16,
+     "nu_spune": 0.05,
+     "contrazice": 0.02
+    },
+    "confidence": 0.69
+   }
+  },
+  "usage": 4497
+ },
+ {
+  "loc": "Termenele: emitere, comunicare, contestare / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 252 alin. (1) cere ca decizia să fie emisă în termen de 30 de zile calendaristice de la luarea la cunoștință despre abatere, dar nu mai târziu de 6 luni de la săvârșirea faptei; comandantul a aflat la 23 ianuarie 2026 și a emis decizia la 25 ianuarie 2026, deci în termen.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 0.99
+   },
+   "1": {
+    "text": "Alin. (3) cere comunicarea în cel mult 5 zile calendaristice de la emitere, respectată prin comunicarea din 26 ianuarie 2026.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.01,
+     "sustine": 0.99
+    },
+    "confidence": 0.98
+   },
+   "2": {
+    "text": "Alin. (5) dă salariatului 30 de zile calendaristice de la comunicare pentru contestație: termenul se împlinea la 25 februarie 2026, iar contestația din 20 februarie 2026 este în termen.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.01,
+     "contrazice": 0.06,
+     "sustine": 0.93
+    },
+    "confidence": 0.91
+   },
+   "3": {
+    "text": "Termenele au fost respectate, dar ele nu salvează o decizie nulă.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.08,
+     "nu_spune": 0.2,
+     "contrazice": 0.01,
+     "sustine": 0.71
+    },
+    "confidence": 0.61
+   }
+  },
+  "usage": 4522
+ },
+ {
+  "loc": "capcana 1",
+  "afirmatii": {
+   "0": {
+    "text": "Concedierea disciplinară are două condiții de procedură distincte: cercetarea prealabilă (art. 63 alin. (1)) și conținutul deciziei (art. 252 alin. (2), art. 62 alin. (3)); lipsa oricăreia atrage nulitatea absolută, chiar dacă fapta e reală și gravă.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.07,
+     "sustine": 0.93
+    },
+    "confidence": 0.89
+   }
+  },
+  "usage": 5763
+ },
+ {
+  "loc": "capcana 2",
+  "afirmatii": {
+   "0": {
+    "text": "Termenele de la art. 252: emiterea în 30 de zile de la luarea la cunoștință, dar nu mai târziu de 6 luni de la faptă; comunicarea în 5 zile de la emitere; contestația în 30 de zile de la comunicare.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 0.99
+   },
+   "1": {
+    "text": "În statutul militar (art. 35 din Legea nr. 80/1995) termenele sunt altele: 6 luni de la constatare și 2 ani de la săvârșire.",
+    "alegere": "nu_spune",
+    "probabilitati": {
+     "sustine": 0.07,
+     "nu_spune": 0.77,
+     "absenta_corecta": 0.02,
+     "contrazice": 0.14
+    },
+    "confidence": 0.7
+   }
+  },
+  "usage": 5895
+ },
+ {
+  "loc": "capcana 3",
+  "afirmatii": {
+   "0": {
+    "text": "Sancțiunea se radiază de drept în 12 luni de la aplicare, dacă nu intervine o nouă sancțiune (art. 248 alin. (3)); gravitatea se apreciază după criteriile de la art. 250, între care sancțiunile anterioare.",
+    "alegere": "nu_spune",
+    "probabilitati": {
+     "contrazice": 0.22,
+     "absenta_corecta": 0.03,
+     "sustine": 0.36,
+     "nu_spune": 0.39
+    },
+    "confidence": 0.19
+   }
+  },
+  "usage": 5496
+ },
+ {
+  "loc": "verdict",
+  "afirmatii": {
+   "0": {
+    "text": "Absența nemotivată este abatere disciplinară și putea duce, pe fond, la desfacerea disciplinară a contractului (art. 247, 248, 61 lit. a)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.01,
+     "absenta_corecta": 0.01,
+     "nu_spune": 0.16,
+     "sustine": 0.82
+    },
+    "confidence": 0.76
+   },
+   "1": {
+    "text": "Decizia este însă lovită de nulitate absolută: a fost emisă fără cercetarea disciplinară prealabilă obligatorie (art. 63 alin. (1), art. 62 alin. (2)) și nu cuprinde mențiunile obligatorii de la art. 252 alin. (2) și art. 62 alin. (3).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.02,
+     "absenta_corecta": 0.07,
+     "nu_spune": 0.0,
+     "sustine": 0.91
+    },
+    "confidence": 0.88
+   },
+   "2": {
+    "text": "Termenele de emitere și comunicare au fost respectate, iar contestația din 20 februarie 2026 este în termenul de 30 de zile de la comunicare (art. 252 alin. (1), (3), (5)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.05,
+     "absenta_corecta": 0.01,
+     "nu_spune": 0.03,
+     "sustine": 0.91
+    },
+    "confidence": 0.89
+   }
+  },
+  "usage": 7018
+ }
+]

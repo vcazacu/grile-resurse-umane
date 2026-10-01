@@ -1,0 +1,57 @@
+{
+ "nr": 23,
+ "nivel": "medie",
+ "titlu": "Patru înaintări în grad, patru semnături diferite",
+ "teme": [6],
+ "fapte": [
+  "În Ministerul Apărării Naționale, în timp de pace, sunt propuse patru înaintări în grad: colonelul Albu, în activitate, pentru gradul de general de brigadă; locotenentul Barbu, în activitate, pentru căpitan; sublocotenentul în rezervă Cosma, pentru locotenent; sergentul Dinu, în activitate, pentru sergent-major.",
+  "Toți îndeplinesc condițiile de stagiu și de studii."
+ ],
+ "intrebare": "Prin ce act și de către cine se acordă fiecare dintre cele patru grade?",
+ "sectiuni": [
+  {
+   "titlu": "Generalul: decret prezidențial",
+   "paragrafe": [
+    "Art. 45 alin. (1) lit. a) prevede că gradele de general și amiral, în activitate și în rezervă, în timp de pace și în timp de război, se acordă prin decret al Președintelui României, la propunerea ministrului apărării naționale, după consultarea colegiului ministerului. Pentru Albu, lanțul este: consultarea colegiului, propunerea ministrului, decretul Președintelui."
+   ],
+   "temei": [
+    {"act": "Legea nr. 80/1995 privind statutul cadrelor militare", "articol": "art. 45 alin. (1) lit. a)", "citat": "Acordarea gradelor și înaintarea în gradele următoare se fac după cum urmează: a) gradele de general și amiral în activitate și în rezervă, în timp de pace și în timp de război, prin decret al Președintelui României, la propunerea ministrului apărării naționale, după consultarea colegiului ministerului;", "fisier": "01_Legea_80-1995_statutul_cadrelor_militare.txt"}
+   ]
+  },
+  {
+   "titlu": "Ofițerul în activitate și ofițerul în rezervă",
+   "paragrafe": [
+    "Lit. b) prevede că gradele de ofițeri în activitate, cu excepția celor de la lit. a), se acordă în timp de pace prin ordin al ministrului apărării naționale, iar lit. c) că gradele de ofițeri în rezervă, cu aceeași excepție, se acordă în timp de pace prin ordin al șefului Statului Major General. Căpitanul lui Barbu vine deci prin ordin al ministrului, iar gradul de locotenent al rezervistului Cosma prin ordin al șefului Statului Major General."
+   ],
+   "temei": [
+    {"act": "Legea nr. 80/1995 privind statutul cadrelor militare", "articol": "art. 45 alin. (1) lit. b)", "citat": "b) gradele de ofițeri în activitate, cu excepția celor prevăzute la lit. a), în timp de pace, prin ordin al ministrului apărării naționale;", "fisier": "01_Legea_80-1995_statutul_cadrelor_militare.txt"},
+    {"act": "Legea nr. 80/1995 privind statutul cadrelor militare", "articol": "art. 45 alin. (1) lit. c)", "citat": "c) gradele de ofițeri în rezervă, cu excepția celor prevăzute la lit. a), în timp de pace, prin ordin al șefului Statului Major General;", "fisier": "01_Legea_80-1995_statutul_cadrelor_militare.txt"}
+   ]
+  },
+  {
+   "titlu": "Subofițerul în activitate",
+   "paragrafe": [
+    "Lit. e) prevede că gradele de maiștri militari și subofițeri în activitate, în timp de pace și în timp de război, se acordă prin ordin al ministrului apărării naționale sau al comandanților stabiliți de acesta; lit. f) trimite, pentru maiștrii militari și subofițerii în rezervă, la ordinul comandanților stabiliți de ministru. Gradul de sergent-major al lui Dinu vine prin ordin al ministrului sau al unui comandant stabilit de el."
+   ],
+   "temei": [
+    {"act": "Legea nr. 80/1995 privind statutul cadrelor militare", "articol": "art. 45 alin. (1) lit. e)", "citat": "e) gradele de maiștri militari și subofițeri în activitate, în timp de pace și în timp de război, prin ordin al ministrului apărării naționale sau al comandanților stabiliți de acesta;", "fisier": "01_Legea_80-1995_statutul_cadrelor_militare.txt"},
+    {"act": "Legea nr. 80/1995 privind statutul cadrelor militare", "articol": "art. 45 alin. (1) lit. f)", "citat": "f) gradele de maiștri militari și subofițeri în rezervă, în timp de pace și în timp de război, prin ordin al comandanților stabiliți de ministrul apărării naționale.", "fisier": "01_Legea_80-1995_statutul_cadrelor_militare.txt"}
+   ]
+  },
+  {
+   "titlu": "Ce se schimbă în timp de război",
+   "paragrafe": [
+    "Lit. d) mută competențele în timp de război: acordarea gradului de sublocotenent și înaintarea în gradele de locotenent și căpitan, în activitate sau în rezervă, se fac de comandanții stabiliți de șeful Marelui Cartier General, iar înaintarea în gradele de ofițeri cu grade superioare de șeful Marelui Cartier General. Generalii rămân, și în timp de război, la decretul Președintelui (lit. a))."
+   ],
+   "temei": [
+    {"act": "Legea nr. 80/1995 privind statutul cadrelor militare", "articol": "art. 45 alin. (1) lit. d)", "citat": "d) în timp de război, acordarea gradului de sublocotenent și înaintarea în gradele de locotenent și căpitan în activitate sau în rezervă se fac de către comandanții stabiliți de șeful Marelui Cartier General, iar în cele de ofițeri cu grade superioare, de șeful Marelui Cartier General;", "fisier": "01_Legea_80-1995_statutul_cadrelor_militare.txt"}
+   ]
+  }
+ ],
+ "verdict": "Albu — general de brigadă prin decret al Președintelui României, la propunerea ministrului apărării naționale, după consultarea colegiului ministerului (lit. a)); Barbu — căpitan prin ordin al ministrului apărării naționale (lit. b)); Cosma — locotenent în rezervă prin ordin al șefului Statului Major General (lit. c)); Dinu — sergent-major prin ordin al ministrului sau al comandanților stabiliți de acesta (lit. e)).",
+ "capcane": [
+  "Ofițerii în activitate și cei în rezervă au semnatari diferiți în timp de pace: ministrul (lit. b)), respectiv șeful Statului Major General (lit. c)); generalii și amiralii merg întotdeauna la Președinte, în pace și în război, în activitate și în rezervă (lit. a)).",
+  "Pentru subofițeri și maiștri militari contează tot activ/rezervă: în activitate — ministrul sau comandanții stabiliți de el (lit. e)); în rezervă — comandanții stabiliți de ministru (lit. f)).",
+  "În timp de război, gradele de ofițeri inferiori se acordă de comandanții stabiliți de șeful Marelui Cartier General, iar cele superioare de șeful Marelui Cartier General (lit. d)). Bibliografia cere din art. 45 doar lit. a)–f)."
+ ]
+}

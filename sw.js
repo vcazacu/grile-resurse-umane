@@ -67,6 +67,16 @@ const FISIERE = [
   "./spete/18-pensia-pentru-limita-de-varsta-cu-13-ani-de-stagiu.html",
   "./spete/19-mama-care-se-intoarce-la-serviciu-la-5-luni-ale-copilului.html",
   "./spete/20-chiria-platita-parintilor-si-cei-doi-soti-militari.html",
+  "./spete/21-al-patrulea-contract-pe-durata-determinata.html",
+  "./spete/22-orele-suplimentare-care-se-pierd.html",
+  "./spete/23-patru-inaintari-in-grad-patru-semnaturi-diferite.html",
+  "./spete/24-al-doilea-copil-nascut-in-timpul-concediului-pentru-primul.html",
+  "./spete/25-rata-creditului-intr-o-comuna-si-compensatia-de-40.html",
+  "./spete/26-pensia-anticipata-cu-doi-ani-inainte-si-reducerea-care-nu.html",
+  "./spete/27-capitanul-plecat-la-cerere-cu-12-ani-de-serviciu.html",
+  "./spete/28-concedierea-disciplinara-fara-cercetare-prealabila.html",
+  "./spete/29-locotenentul-plecat-la-32-de-ani-si-pensia-din-doua-sisteme.html",
+  "./spete/30-chiria-in-concediul-de-crestere-a-copilului-si-revenirea-la.html",
   /* SPETE-END */
 ];
 

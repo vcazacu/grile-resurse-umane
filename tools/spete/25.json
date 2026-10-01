@@ -1,0 +1,52 @@
+{
+ "nr": 25,
+ "nivel": "medie",
+ "titlu": "Rata creditului într-o comună și compensația de 40%",
+ "teme": [18],
+ "fapte": [
+  "Maiorul Pavel, cadru militar în activitate în Ministerul Apărării Naționale, este mutat în interesul serviciului într-o unitate dintr-o comună — nu municipiu, nu stațiune turistică ori balneară, nu localitate cu situații deosebite —, altă localitate decât cea de domiciliu.",
+  "Nici el, nici soția nu dețin locuință acolo, iar unitatea nu îi asigură spațiu de locuit. Solda de funcție aflată în plată este de 5.000 lei.",
+  "În loc să închirieze, contractează un credit ipotecar pentru achiziționarea unui apartament în acea comună, cu o rată lunară de 1.800 lei, și cere compensația lunară pentru chirie pentru plata ratei."
+ ],
+ "intrebare": "Are Pavel dreptul la compensație pentru rata creditului? În ce cuantum? Ce reguli speciale se aplică variantei cu credit?",
+ "cifre_derivate": {"2.000": "40% din solda de funcție de 5.000 lei"},
+ "sectiuni": [
+  {
+   "titlu": "Compensația pentru rata creditului de achiziție",
+   "paragrafe": [
+    "Art. 20^1 alin. (2^1) din Legea nr. 80/1995 prevede că cadrele militare care îndeplinesc condițiile de acordare a compensației potrivit alin. 1 și 2 și care contractează un credit ipotecar/imobiliar destinat achiziționării unei locuințe beneficiază de compensația lunară pentru chirie, pe o perioadă ce nu poate depăși durata creditului, pentru plata ratei sau a unei fracțiuni din rată; compensația se acordă în cuantumul de la alin. 1, dar nu poate depăși rata lunară plătită. Pavel îndeplinește condițiile de la alin. 1 și creditul lui este pentru achiziționare, deci are dreptul."
+   ],
+   "temei": [
+    {"act": "Legea nr. 80/1995 privind statutul cadrelor militare", "articol": "art. 20^1 alin. (2^1)", "citat": "Cadrele militare care îndeplinesc condițiile de acordare a compensației lunare pentru chirie potrivit alin. 1 și 2 și care contractează un credit ipotecar/imobiliar destinat achiziționării unei locuințe sau încheie un contract de vânzare-cumpărare cu plata în rate a unei locuințe beneficiază de compensația lunară pentru chirie, pe o perioadă ce nu poate depăși durata de derulare a creditului sau contractului de vânzare-cumpărare cu plata în rate, respectiv pentru plata ratei sau a unei fracțiuni din rata aferentă creditului sau contractului de vânzare-cumpărare cu plata în rate. În această situație, compensația lunară pentru chirie se acordă în cuantumul prevăzut la alin. 1, dar nu poate depăși rata lunară plătită pentru creditul ipotecar/imobiliar sau pentru contractul de vânzare-cumpărare cu plata în rate.", "fisier": "01_Legea_80-1995_statutul_cadrelor_militare.txt"},
+    {"act": "Legea nr. 80/1995 privind statutul cadrelor militare", "articol": "art. 20^1 alin. (1)", "citat": "Cadrele militare în activitate numite în prima funcție/mutate în interesul serviciului, detașate și/sau împuternicite într-o altă garnizoană decât cea în care își au domiciliul și care nu dețin locuință proprietate personală în acea garnizoană, nici ei și nici soțiile sau soții acestora, în situația în care nu li se poate asigura spațiu de locuit corespunzător, au dreptul la o compensație lunară pentru chirie de până la 50% din solda lunară.", "fisier": "01_Legea_80-1995_statutul_cadrelor_militare.txt"}
+   ]
+  },
+  {
+   "titlu": "Procentul: 50% sau 40%",
+   "paragrafe": [
+    "Art. 1 alin. (1) din HG nr. 1867/2005 calculează compensația în raport cu solda de funcție aflată în plată: 50% dacă locuința închiriată ori achiziționată se află în municipii, stațiuni turistice ori balneare sau localități cu situații deosebite (lit. a)), 40% dacă se află în alte localități (lit. b)), în ambele cazuri nu mai mult decât chiria sau rata lunară. Apartamentul lui Pavel este într-o comună obișnuită, deci procentul este 40%: 40% din 5.000 lei înseamnă 2.000 lei, dar rata este de 1.800 lei, așa că compensația este de 1.800 lei pe lună."
+   ],
+   "temei": [
+    {"act": "H.G. nr. 1867/2005 privind compensația lunară pentru chirie", "articol": "art. 1 alin. (1) lit. b)", "citat": "b) 40% din solda de funcție aflată în plată, dacă locuința închiriată/achiziționată se află în alte localități decât cele prevăzute la lit. a), dar nu mai mult decât chiria prevăzută în contractul de închiriere, rata lunară prevăzută în contractul de credit ipotecar/imobiliar destinat achiziționării unei locuințe sau rata lunară prevăzută în contractul de vânzare-cumpărare cu plata în rate a unei locuințe, după caz.", "fisier": "09_HG_1867-2005_compensatia_chirie.txt"},
+    {"act": "H.G. nr. 1867/2005 privind compensația lunară pentru chirie", "articol": "art. 1 alin. (1) lit. a)", "citat": "a) 50% din solda de funcție aflată în plată, dacă locuința închiriată/achiziționată se află în municipii, stațiuni turistice ori balneare sau în localități cu situații deosebite, dar nu mai mult decât chiria prevăzută în contractul de închiriere, rata lunară prevăzută în contractul de credit ipotecar/imobiliar destinat achiziționării unei locuințe sau rata lunară prevăzută în contractul de vânzare-cumpărare cu plata în rate a unei locuințe, după caz;", "fisier": "09_HG_1867-2005_compensatia_chirie.txt"}
+   ]
+  },
+  {
+   "titlu": "Regulile speciale ale variantei cu credit",
+   "paragrafe": [
+    "Art. 20^1 alin. (2^2) prevede că, în situația creditului, compensația se acordă pentru o singură locuință achiziționată pe timpul carierei și nu se poate acorda concomitent pentru chirie și pentru rată, cadrul militar optând pentru una dintre situații. Art. 10 alin. (3) din HG nr. 1867/2005 cere ca ordinul de alocare la plată să specifice dacă compensația se utilizează pentru plata chiriei sau a unei rate ori fracțiuni din rată, iar art. 9 alin. (4) arată că, la un credit în valută, conversia în lei se face la cursul BNR valabil pentru prima zi bancară din luna pentru care se face plata."
+   ],
+   "temei": [
+    {"act": "Legea nr. 80/1995 privind statutul cadrelor militare", "articol": "art. 20^1 alin. (2^2)", "citat": "În situația prevăzută la alin. 2^1, compensația lunară pentru chirie se acordă pentru o singură locuință achiziționată pe timpul carierei. Compensația lunară pentru chirie nu se poate acorda concomitent pentru situația prevăzută la alin. 1 și 2 și pentru situația prevăzută la alin. 2^1, caz în care cadrul militar optează pentru una dintre aceste situații.", "fisier": "01_Legea_80-1995_statutul_cadrelor_militare.txt"},
+    {"act": "H.G. nr. 1867/2005 privind compensația lunară pentru chirie", "articol": "art. 10 alin. (3)", "citat": "În ordinul de zi pe unitate/ordinul de alocare la plata pentru compensația lunară pentru chirie se va specifica dacă această compensație se utilizează pentru plata chiriei sau a unei rate sau a unei fracțiuni din rata aferentă unui contract de credit ipotecar/imobiliar sau unui contract de vânzare-cumpărare cu plata în rate, după caz.", "fisier": "09_HG_1867-2005_compensatia_chirie.txt"},
+    {"act": "H.G. nr. 1867/2005 privind compensația lunară pentru chirie", "articol": "art. 9 alin. (4)", "citat": "În situația în care compensația lunară pentru chirie se utilizează pentru plata unei rate sau a unei fracțiuni din rata aferentă unui contract de credit ipotecar/imobiliar sau unui contract de vânzare-cumpărare cu plata în rate încheiat în valută, conversia în lei se face la cursul de schimb comunicat de Banca Națională a României, valabil pentru prima zi bancară din luna pentru care se face plata.", "fisier": "09_HG_1867-2005_compensatia_chirie.txt"}
+   ]
+  }
+ ],
+ "verdict": "Da: creditul este pentru achiziționarea unei locuințe, iar Pavel îndeplinește condițiile de la art. 20^1 alin. (1), deci primește compensația pentru rată (alin. (2^1)). Într-o comună obișnuită procentul este 40% din solda de funcție (HG nr. 1867/2005, art. 1 alin. (1) lit. b)): 2.000 lei, plafonat la rata de 1.800 lei — deci 1.800 lei pe lună, cât durează creditul, pentru o singură locuință pe carieră și fără cumul cu chiria (alin. (2^2)).",
+ "capcane": [
+  "Procentul depinde de localitatea locuinței, nu de garnizoana unității: 50% în municipii, stațiuni turistice ori balneare și localități cu situații deosebite, 40% în orice altă localitate — și întotdeauna plafonat la chirie sau rată.",
+  "Varianta cu credit are reguli proprii: durata nu poate depăși derularea creditului, o singură locuință pe carieră, fără cumul cu chiria, iar creditul trebuie să fie pentru achiziționare (nu pentru construire — Decizia HP nr. 40/2025).",
+  "La creditele în valută, conversia se face la cursul BNR din prima zi bancară a lunii de plată (HG nr. 1867/2005, art. 9 alin. (4)), iar ordinul de alocare la plată precizează destinația compensației (art. 10 alin. (3))."
+ ]
+}

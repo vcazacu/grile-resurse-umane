@@ -1,0 +1,204 @@
+[
+ {
+  "loc": "Pensia de serviciu amânată până la vârsta standard / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 19 prevede că militarii care la data trecerii în rezervă nu îndeplinesc condițiile de acordare a unei pensii de serviciu, dar au o vechime în serviciu de cel puțin 10 ani, beneficiază de pensie de serviciu la împlinirea vârstei standard de pensionare pentru limită de vârstă, pentru numărul anilor de vechime în serviciu stabiliți în condițiile art. 3 lit. e), la care se adaugă sporurile acordate conform art. 24.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Roman are 12 ani vechime în serviciu, peste pragul de 10, deci dreptul lui se deschide la vârsta standard.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 0.99
+   }
+  },
+  "usage": 3303
+ },
+ {
+  "loc": "Vechimea pe care se calculează / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 24 lit. b) socotește, pentru fiecare an lucrat efectiv în condiții speciale, 1 an și 6 luni; cei 2 ani ai lui Roman aduc un spor de 1 an.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 0.9400000000000001,
+     "contrazice": 0.06
+    },
+    "confidence": 0.91
+   },
+   "1": {
+    "text": "Pensia de la art. 19 se va calcula deci pe 13 ani: 12 ani vechime în serviciu plus sporul de 1 an.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.01,
+     "nu_spune": 0.39,
+     "sustine": 0.54,
+     "contrazice": 0.06
+    },
+    "confidence": 0.38
+   },
+   "2": {
+    "text": "Anii pe care îi va lucra în civilie după trecerea în rezervă nu intră în această vechime.",
+    "alegere": "nu_spune",
+    "probabilitati": {
+     "nu_spune": 0.5,
+     "absenta_corecta": 0.31,
+     "sustine": 0.18,
+     "contrazice": 0.01
+    },
+    "confidence": 0.33
+   }
+  },
+  "usage": 3336
+ },
+ {
+  "loc": "Cuantumul: proporțional / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 29 alin. (3) prevede că cuantumul pensiilor stabilite în baza art. 19 și 26 se determină proporțional cu numărul anilor de vechime în serviciu, la care se adaugă sporurile de la art. 24, în raport cu vechimea prevăzută la alin. (2).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.01,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 0.99
+    },
+    "confidence": 0.99
+   },
+   "1": {
+    "text": "Pensia lui Roman nu este cea de 65% din baza de calcul de la alin. (1), ci o parte proporțională, corespunzătoare celor 13 ani.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.41,
+     "absenta_corecta": 0.02,
+     "sustine": 0.54,
+     "nu_spune": 0.03
+    },
+    "confidence": 0.39
+   }
+  },
+  "usage": 3414
+ },
+ {
+  "loc": "Raportul cu sistemul public / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 26 alin. (1) prevede că, pentru cei care la trecerea în rezervă nu îndeplinesc condițiile unei pensii, deschiderea dreptului se face mai întâi de sistemul în care îndeplinesc condițiile cumulative, cu excepția situațiilor prevăzute la art. 19.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Roman, având cel puțin 10 ani vechime în serviciu, este în situația de la art. 19, deci pensia lui militară se deschide în sistemul militar, la vârsta standard, independent de ce va realiza în sistemul public.",
+    "alegere": "nu_spune",
+    "probabilitati": {
+     "sustine": 0.08,
+     "contrazice": 0.26,
+     "nu_spune": 0.66,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 0.54
+   }
+  },
+  "usage": 3240
+ },
+ {
+  "loc": "capcana 1",
+  "afirmatii": {
+   "0": {
+    "text": "Pragul pentru art. 19 este vechimea în serviciu de cel puțin 10 ani; sub 10 ani, cel plecat fără condiții intră sub art. 26 (deschiderea dreptului întâi în sistemul în care îndeplinește condițiile).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.03,
+     "absenta_corecta": 0.01,
+     "sustine": 0.96
+    },
+    "confidence": 0.95
+   }
+  },
+  "usage": 4498
+ },
+ {
+  "loc": "capcana 2",
+  "afirmatii": {
+   "0": {
+    "text": "Pensia de la art. 19 se deschide la vârsta standard de pensionare, nu la data trecerii în rezervă, și numai pe vechimea în serviciu plus sporurile de timp — nu pe vechimea în muncă din civilie.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.91,
+     "contrazice": 0.02,
+     "absenta_corecta": 0.07
+    },
+    "confidence": 0.87
+   }
+  },
+  "usage": 4489
+ },
+ {
+  "loc": "capcana 3",
+  "afirmatii": {
+   "0": {
+    "text": "Cuantumul pensiilor de la art. 19 și 26 se determină proporțional (art. 29 alin. (3)), nu cu procentul de 65% de la alin. (1).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.01,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "sustine": 0.99
+    },
+    "confidence": 0.98
+   }
+  },
+  "usage": 4583
+ },
+ {
+  "loc": "verdict",
+  "afirmatii": {
+   "0": {
+    "text": "Cu cel puțin 10 ani vechime în serviciu, Roman primește pensie de serviciu la împlinirea vârstei standard de pensionare (art. 19), calculată pe 13 ani — 12 ani vechime în serviciu plus sporul de 1 an pentru cei 2 ani în condiții speciale (art. 24) —, proporțional, potrivit art. 29 alin. (3).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "sustine": 0.68,
+     "contrazice": 0.31,
+     "nu_spune": 0.01
+    },
+    "confidence": 0.57
+   },
+   "1": {
+    "text": "Fiind în situația art. 19, nu i se aplică regula deschiderii dreptului mai întâi în celălalt sistem (art. 26 alin. (1)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.01,
+     "sustine": 0.99,
+     "contrazice": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.98
+   }
+  },
+  "usage": 5288
+ }
+]

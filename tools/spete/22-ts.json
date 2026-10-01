@@ -1,0 +1,187 @@
+[
+ {
+  "loc": "Ce este munca suplimentară și cu ce acord se face / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 120 alin. (1) definește munca suplimentară ca munca prestată în afara duratei normale a timpului de muncă săptămânal, iar alin. (2) prevede că ea nu poate fi efectuată fără acordul salariatului, cu excepția cazului de forță majoră sau a lucrărilor urgente pentru prevenirea ori înlăturarea consecințelor unui accident.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Art. 114 alin. (1) pune și limita: durata maximă legală a timpului de muncă nu poate depăși 48 de ore pe săptămână, inclusiv orele suplimentare.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "2": {
+    "text": "Sava a lucrat cu acordul lui, 47 de ore în acea săptămână, sub plafonul de 48.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.82,
+     "absenta_corecta": 0.01,
+     "nu_spune": 0.14,
+     "contrazice": 0.03
+    },
+    "confidence": 0.75
+   }
+  },
+  "usage": 4003
+ },
+ {
+  "loc": "Compensarea cu ore libere plătite / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 122 alin. (1) prevede că munca suplimentară se compensează prin ore libere plătite în următoarele 90 de zile calendaristice după efectuarea acesteia, iar alin. (2) adaugă că, în aceste condiții, salariatul beneficiază de salariul corespunzător pentru orele prestate peste program.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Pentru orele din 2–6 martie 2026, cele 90 de zile curgeau până la 4 iunie 2026; unitatea trebuia să îi dea lui Sava 7 ore libere plătite în acest interval.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.8,
+     "contrazice": 0.12,
+     "nu_spune": 0.07,
+     "absenta_corecta": 0.01
+    },
+    "confidence": 0.74
+   }
+  },
+  "usage": 2884
+ },
+ {
+  "loc": "Dacă nu s-au dat ore libere: sporul / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 123 alin. (1) arată că, dacă compensarea prin ore libere plătite nu este posibilă în termenul de la art. 122 alin. (1), în luna următoare munca suplimentară se plătește prin adăugarea unui spor la salariu corespunzător duratei ei; alin. (2) stabilește că sporul se negociază prin contractul colectiv sau individual și nu poate fi mai mic de 75% din salariul de bază.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.15,
+     "nu_spune": 0.0,
+     "sustine": 0.85,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 0.8
+   },
+   "1": {
+    "text": "Orele lui Sava nu se pierd: după 4 iunie 2026, unitatea îi datorează, în luna următoare, plata celor 7 ore cu spor de cel puțin 75%.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.31,
+     "sustine": 0.67,
+     "nu_spune": 0.02,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 0.56
+   }
+  },
+  "usage": 3101
+ },
+ {
+  "loc": "capcana 1",
+  "afirmatii": {
+   "0": {
+    "text": "Ordinea legală este: întâi ore libere plătite în 90 de zile, abia apoi sporul, și numai dacă orele libere nu au fost posibile în termen (art. 122–123).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "sustine": 0.97,
+     "contrazice": 0.03,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.95
+   },
+   "1": {
+    "text": "Sporul nu este o opțiune liberă a angajatorului de la început.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.99,
+     "absenta_corecta": 0.01,
+     "contrazice": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.99
+   }
+  },
+  "usage": 4014
+ },
+ {
+  "loc": "capcana 2",
+  "afirmatii": {
+   "0": {
+    "text": "Sporul minim pentru munca suplimentară este 75% din salariul de bază (art. 123 alin. (2)); salariații cu repaus săptămânal acordat cumulat după cel mult 14 zile de activitate continuă primesc dublul compensațiilor (art. 137 alin. (5)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.24,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.12,
+     "sustine": 0.64
+    },
+    "confidence": 0.52
+   }
+  },
+  "usage": 3753
+ },
+ {
+  "loc": "capcana 3",
+  "afirmatii": {
+   "0": {
+    "text": "Munca suplimentară cere acordul salariatului, cu excepția forței majore și a lucrărilor urgente (art. 120 alin. (2)); peste limita de 48 de ore pe săptămână este interzisă, cu aceleași excepții (art. 121 alin. (2)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.01,
+     "nu_spune": 0.04,
+     "contrazice": 0.12,
+     "sustine": 0.83
+    },
+    "confidence": 0.78
+   }
+  },
+  "usage": 3762
+ },
+ {
+  "loc": "verdict",
+  "afirmatii": {
+   "0": {
+    "text": "Orele au fost legale: cu acordul salariatului și sub plafonul de 48 de ore pe săptămână.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "sustine": 0.96,
+     "nu_spune": 0.02,
+     "contrazice": 0.02
+    },
+    "confidence": 0.95
+   },
+   "1": {
+    "text": "Trebuiau compensate cu ore libere plătite în 90 de zile calendaristice, adică până la 4 iunie 2026 (art. 122 alin. (1)); cum nu s-au acordat, nu „se pierd”: în luna următoare unitatea le plătește cu un spor de cel puțin 75% din salariul de bază (art. 123).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "sustine": 0.76,
+     "nu_spune": 0.0,
+     "contrazice": 0.24
+    },
+    "confidence": 0.67
+   }
+  },
+  "usage": 4071
+ }
+]

@@ -1,0 +1,204 @@
+[
+ {
+  "loc": "Condițiile pensiei anticipate / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 58 alin. (1) prevede că pensia anticipată se cuvine cu cel mult 5 ani înaintea împlinirii vârstei standard de pensionare persoanelor care au realizat stagiul complet de cotizare contributiv prevăzut în anexa nr. 5, precum și celor care l-au depășit cu până la 5 ani.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Vasile cere pensia cu 2 ani înainte de vârsta standard (63 față de 65) și are 37 de ani de stagiu, adică stagiul complet de 35 de ani depășit cu 2 ani: ambele condiții sunt îndeplinite.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.08,
+     "absenta_corecta": 0.0,
+     "sustine": 0.89,
+     "contrazice": 0.03
+    },
+    "confidence": 0.85
+   }
+  },
+  "usage": 3431
+ },
+ {
+  "loc": "Cuantumul este diminuat / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 58 alin. (3) prevede că cuantumul pensiei anticipate se stabilește prin diminuarea cuantumului pensiei pentru limită de vârstă, în raport cu stagiul de cotizare realizat peste stagiul complet și cu numărul de luni cu care s-a redus vârsta standard, conform tabelului nr. 4.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "contrazice": 0.01,
+     "sustine": 0.99,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.98
+   },
+   "1": {
+    "text": "Pensia anticipată a lui Vasile va fi deci mai mică decât pensia pentru limită de vârstă, cu un procent pe fiecare lună de anticipare care depinde de cât a depășit stagiul complet.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "contrazice": 0.01,
+     "sustine": 0.98,
+     "nu_spune": 0.01
+    },
+    "confidence": 0.97
+   }
+  },
+  "usage": 3540
+ },
+ {
+  "loc": "Fără cumul cu alte reduceri / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 59 prevede că, la acordarea pensiei anticipate, reducerea vârstei standard de la art. 58 alin. (1) nu poate fi cumulată cu nicio altă reducere reglementată de lege sau de alte acte normative.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 0.99
+   },
+   "1": {
+    "text": "Vasile nu poate adăuga la anticipare reducerea de un an pentru condiții deosebite: alege fie pensia anticipată, fie pensia pentru limită de vârstă cu vârsta redusă.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.8,
+     "contrazice": 0.15,
+     "nu_spune": 0.04,
+     "absenta_corecta": 0.01
+    },
+    "confidence": 0.74
+   }
+  },
+  "usage": 2811
+ },
+ {
+  "loc": "Transformarea la vârsta standard / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 60 alin. (1) prevede că, la data îndeplinirii condițiilor pentru pensia pentru limită de vârstă, pensia anticipată se transformă din oficiu în pensie pentru limită de vârstă și se recalculează prin eliminarea diminuării și, după caz, prin valorificarea stagiilor realizate în perioada de suspendare a plății.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "La 65 de ani, diminuarea dispare fără ca Vasile să depună o nouă cerere.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.02,
+     "contrazice": 0.01,
+     "sustine": 0.97
+    },
+    "confidence": 0.95
+   }
+  },
+  "usage": 3359
+ },
+ {
+  "loc": "capcana 1",
+  "afirmatii": {
+   "0": {
+    "text": "Pensia anticipată din sistemul public cere stagiul complet realizat (sau depășit cu până la 5 ani) și cel mult 5 ani de anticipare — spre deosebire de pensia anticipată parțială din sistemul militar, care are praguri proprii de vechime și nu are condiție de vârstă.",
+    "alegere": "nu_spune",
+    "probabilitati": {
+     "sustine": 0.26,
+     "contrazice": 0.09,
+     "nu_spune": 0.61,
+     "absenta_corecta": 0.04
+    },
+    "confidence": 0.48
+   }
+  },
+  "usage": 3819
+ },
+ {
+  "loc": "capcana 2",
+  "afirmatii": {
+   "0": {
+    "text": "Diminuarea pensiei anticipate se face pe lună de anticipare, cu un procent care scade pe măsură ce stagiul depășește stagiul complet (tabelul nr. 4 de la art. 58 alin. (3)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.1,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "sustine": 0.9
+    },
+    "confidence": 0.87
+   }
+  },
+  "usage": 4021
+ },
+ {
+  "loc": "capcana 3",
+  "afirmatii": {
+   "0": {
+    "text": "Anticiparea nu se cumulează cu nicio altă reducere a vârstei standard (art. 59); transformarea în pensie pentru limită de vârstă se face din oficiu, cu eliminarea diminuării (art. 60 alin. (1)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 3948
+ },
+ {
+  "loc": "verdict",
+  "afirmatii": {
+   "0": {
+    "text": "Da: anticiparea de 2 ani este în limita celor 5, iar stagiul de 37 de ani depășește stagiul complet de 35 cu 2 ani, în limita celor 5 (art. 58 alin. (1)); cuantumul este diminuat după tabelul nr. 4 (alin. (3)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.02,
+     "sustine": 0.94,
+     "nu_spune": 0.04,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 0.92
+   },
+   "1": {
+    "text": "Reducerea pentru condiții deosebite nu se cumulează cu anticiparea (art. 59).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.01,
+     "sustine": 0.98,
+     "nu_spune": 0.01,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 0.97
+   },
+   "2": {
+    "text": "La 65 de ani pensia se transformă din oficiu în pensie pentru limită de vârstă, fără diminuare (art. 60 alin. (1)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 0.99
+   }
+  },
+  "usage": 4921
+ }
+]

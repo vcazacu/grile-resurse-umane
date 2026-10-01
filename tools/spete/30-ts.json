@@ -1,0 +1,215 @@
+[
+ {
+  "loc": "Compensația înainte de concediu / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 20^1 alin. (1) din Legea nr. 80/1995 dă dreptul la compensație cadrului militar mutat în interesul serviciului într-o altă garnizoană decât cea de domiciliu, fără locuință proprietate personală acolo și fără spațiu de locuit asigurat — situația lui Marcu.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Art. 1 alin. (1) lit. a) din HG nr. 1867/2005 dă, în municipii, 50% din solda de funcție aflată în plată, dar nu mai mult decât chiria: 50% din 4.800 lei înseamnă 2.400 lei, iar chiria este de 2.000 lei, deci compensația este de 2.000 lei pe lună.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.98,
+     "contrazice": 0.02,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.97
+   }
+  },
+  "usage": 5623
+ },
+ {
+  "loc": "Compensația se plătește și în concediul de creștere a copilu / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 12 alin. (1) lit. f) din HG nr. 1867/2005 prevede că compensația se plătește în continuare cadrelor militare aflate în concediu pentru creșterea copilului în vârstă de până la 2 ani (3 ani la copilul cu handicap), iar alin. (3) stabilește că, pentru această situație, baza de calcul o reprezintă solda de funcție aflată în plată avută în luna anterioară intrării în concediu.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.99,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.01
+    },
+    "confidence": 0.98
+   },
+   "1": {
+    "text": "Marcu păstrează deci compensația în concediu, calculată la solda de 4.800 lei din luna anterioară: tot 2.000 lei, plafonul chiriei.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.64,
+     "absenta_corecta": 0.01,
+     "contrazice": 0.15,
+     "nu_spune": 0.2
+    },
+    "confidence": 0.52
+   }
+  },
+  "usage": 3908
+ },
+ {
+  "loc": "Revenirea la serviciu: indemnizația se suspendă, vine stimul / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 16 alin. (2) lit. i) din OUG nr. 111/2010 suspendă dreptul la indemnizație începând cu ziua următoare celei în care beneficiarul realizează venituri supuse impozitului, iar copilul nu a împlinit 2 ani.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.93,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.07
+    },
+    "confidence": 0.9
+   },
+   "1": {
+    "text": "În schimb, art. 7 alin. (1) lit. a) dă stimulentul de inserție de 1.500 lei celor care obțin venituri înainte de 6 luni ai copilului, până la 2 ani ai acestuia, iar alin. (4) confirmă că indemnizația nu se cumulează cu stimulentul.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.99,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.01
+    },
+    "confidence": 0.98
+   },
+   "2": {
+    "text": "Revenind la 4 luni ai copilului, Marcu pierde indemnizația și primește stimulentul de 1.500 lei pe lună.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.8,
+     "nu_spune": 0.01,
+     "absenta_corecta": 0.01,
+     "contrazice": 0.18
+    },
+    "confidence": 0.74
+   }
+  },
+  "usage": 6399
+ },
+ {
+  "loc": "Compensația după revenire / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "După revenire, Marcu nu mai este în situația de la art. 12 alin. (1) lit. f), ci în regimul obișnuit: compensația se calculează, potrivit art. 1 alin. (1) din HG nr. 1867/2005, în raport cu solda de funcție aflată în plată corespunzătoare lunii pentru care se cuvine dreptul, cât timp durează condițiile de la art. 20^1 alin. (1).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.62,
+     "nu_spune": 0.2,
+     "absenta_corecta": 0.04,
+     "contrazice": 0.14
+    },
+    "confidence": 0.49
+   },
+   "1": {
+    "text": "Cu aceeași soldă și aceeași chirie, rămâne la 2.000 lei pe lună.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.46,
+     "nu_spune": 0.09,
+     "contrazice": 0.44,
+     "absenta_corecta": 0.01
+    },
+    "confidence": 0.29
+   }
+  },
+  "usage": 4050
+ },
+ {
+  "loc": "capcana 1",
+  "afirmatii": {
+   "0": {
+    "text": "Concediul de creștere a copilului nu întrerupe compensația de chirie (HG nr. 1867/2005, art. 12 alin. (1) lit. f)), dar îi schimbă baza: solda de funcție din luna anterioară intrării în concediu (alin. (3)), nu solda curentă.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 8911
+ },
+ {
+  "loc": "capcana 2",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 12 alin. (1) enumeră și alte situații în care compensația se plătește în continuare — misiuni temporare în străinătate, studii de până la 2 ani, punerea la dispoziție, detașarea în altă localitate fără opțiune pentru compensație acolo —, unele condiționate de păstrarea locuinței închiriate (alin. (2)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 9198
+ },
+ {
+  "loc": "capcana 3",
+  "afirmatii": {
+   "0": {
+    "text": "Revenirea cu venituri înainte de 2 ani ai copilului suspendă indemnizația (OUG nr. 111/2010, art. 16 alin. (2) lit. i)); stimulentul de inserție este de 1.500 lei dacă veniturile încep înainte de 6 luni ai copilului și nu se cumulează cu indemnizația (art. 7 alin. (1) lit. a) și alin. (4)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "sustine": 0.98,
+     "contrazice": 0.02,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.96
+   }
+  },
+  "usage": 8971
+ },
+ {
+  "loc": "verdict",
+  "afirmatii": {
+   "0": {
+    "text": "Înainte de concediu, Marcu primește 2.000 lei pe lună (50% din 4.800 lei ar fi 2.400 lei, dar nu mai mult decât chiria).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.16,
+     "nu_spune": 0.0,
+     "sustine": 0.84,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 0.78
+   },
+   "1": {
+    "text": "În concediul de creștere a copilului compensația se plătește în continuare (HG nr. 1867/2005, art. 12 alin. (1) lit. f)), pe baza soldei de funcție din luna anterioară intrării în concediu (alin. (3)): tot 2.000 lei.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.08,
+     "nu_spune": 0.0,
+     "sustine": 0.92,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 0.89
+   },
+   "2": {
+    "text": "La revenirea la 4 luni ai copilului, indemnizația se suspendă (OUG nr. 111/2010, art. 16 alin. (2) lit. i)), primește stimulentul de inserție de 1.500 lei până la 2 ani ai copilului (art. 7 alin. (1) lit. a)), iar compensația de chirie continuă în regimul obișnuit, pe solda în plată.",
+    "alegere": "contrazice",
+    "probabilitati": {
+     "contrazice": 0.64,
+     "nu_spune": 0.01,
+     "sustine": 0.34,
+     "absenta_corecta": 0.01
+    },
+    "confidence": 0.53
+   }
+  },
+  "usage": 10141
+ }
+]

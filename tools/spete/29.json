@@ -1,0 +1,60 @@
+{
+ "nr": 29,
+ "nivel": "complexa",
+ "titlu": "Locotenentul plecat la 32 de ani și pensia din două sisteme",
+ "teme": [13, 14],
+ "fapte": [
+  "Locotenentul Dobre trece în rezervă la cerere la 32 de ani, în 2026, cu 8 ani vechime în serviciu (ofițer în activitate din 2018), toți în condiții normale de muncă.",
+  "La data trecerii în rezervă nu îndeplinește condițiile niciunei pensii de serviciu.",
+  "Lucrează apoi în civilie, cu contract de muncă, 27 de ani; la 65 de ani, în 2059, are un stagiu de cotizare contributiv de 27 de ani în sistemul public, iar vârsta standard de pensionare și stagiul minim din sistemul public sunt de 65 de ani, respectiv 15 ani."
+ ],
+ "intrebare": "În ce sistem își deschide Dobre dreptul la pensie? Ce primește din sistemul militar pentru cei 8 ani și cum se evită ca aceiași ani să fie socotiți de două ori?",
+ "sectiuni": [
+  {
+   "titlu": "De ce nu se aplică art. 19",
+   "paragrafe": [
+    "Art. 19 dă pensie de serviciu la vârsta standard celor care la trecerea în rezervă nu îndeplinesc condițiile unei pensii, dar au o vechime în serviciu de cel puțin 10 ani. Dobre are doar 8 ani vechime în serviciu, sub acest prag, deci nu este în situația art. 19; cazul lui intră sub art. 26."
+   ],
+   "temei": [
+    {"act": "Legea nr. 223/2015 privind pensiile militare de stat", "articol": "art. 19", "citat": "Militarii, polițiștii și funcționarii publici cu statut special, care la data trecerii în rezervă ori a încetării raporturilor de serviciu nu îndeplinesc condițiile de acordare a unei pensii de serviciu, dar au o vechime în serviciu de cel puțin 10 ani, beneficiază de pensie de serviciu la împlinirea vârstei standard de pensionare pentru limită de vârstă prevăzută de prezenta lege", "fisier": "04_Legea_223-2015_pensiile_militare.txt"}
+   ]
+  },
+  {
+   "titlu": "Deschiderea dreptului: întâi sistemul în care îndeplinește condițiile",
+   "paragrafe": [
+    "Art. 26 alin. (1) prevede că, pentru cei care la trecerea în rezervă nu îndeplinesc condițiile unei pensii prevăzute la art. 14 lit. a) și b), deschiderea dreptului la pensie se efectuează mai întâi de sistemul în care îndeplinesc condițiile cumulative de pensionare, cu excepția situațiilor de la art. 19. În sistemul public, art. 47 din Legea nr. 360/2023 cere vârsta standard de 65 de ani și stagiul minim de cotizare contributiv de 15 ani; la 65 de ani, cu 27 de ani de stagiu, Dobre le îndeplinește, deci dreptul i se deschide mai întâi în sistemul public."
+   ],
+   "temei": [
+    {"act": "Legea nr. 223/2015 privind pensiile militare de stat", "articol": "art. 26 alin. (1)", "citat": "Pentru militarii, polițiștii și funcționarii publici cu statut special care la data trecerii în rezervă sau a încetării raporturilor de serviciu nu îndeplinesc condițiile de acordare a unei pensii prevăzute la art. 14 lit. a) și b), deschiderea dreptului la pensie se efectuează mai întâi de către sistemul în care îndeplinește condițiile cumulative de pensionare, cu excepția situațiilor prevăzute la art. 19.", "fisier": "04_Legea_223-2015_pensiile_militare.txt"},
+    {"act": "Legea nr. 360/2023 privind sistemul public de pensii", "articol": "art. 47 alin. (1)", "citat": "Vârsta standard de pensionare este de 65 de ani atât pentru bărbați, cât și pentru femei.", "fisier": "05_Legea_360-2023_sistemul_public_de_pensii.txt"},
+    {"act": "Legea nr. 360/2023 privind sistemul public de pensii", "articol": "art. 47 alin. (2)", "citat": "Stagiul minim de cotizare contributiv este de 15 ani, atât pentru femei, cât și pentru bărbați.", "fisier": "05_Legea_360-2023_sistemul_public_de_pensii.txt"}
+   ]
+  },
+  {
+   "titlu": "Recunoașterea reciprocă a perioadelor",
+   "paragrafe": [
+    "Art. 26 alin. (2) prevede că între sistemul pensiilor militare de stat și sistemul public de pensii se recunosc reciproc stagiile de cotizare, respectiv vechimea în muncă sau vechimea în serviciu, în vederea deschiderii dreptului la pensie în condițiile alin. (1). Cei 8 ani de serviciu militar sunt deci recunoscuți de sistemul public pentru verificarea condițiilor de deschidere a dreptului, iar cei 27 de ani de muncă sunt recunoscuți de sistemul militar în același scop."
+   ],
+   "temei": [
+    {"act": "Legea nr. 223/2015 privind pensiile militare de stat", "articol": "art. 26 alin. (2)", "citat": "Între sistemul pensiilor militare de stat și sistemul public de pensii, precum și sistemele proprii de asigurări sociale neintegrate acestuia se recunosc reciproc stagiile de cotizare, respectiv vechimea în muncă sau vechimea în serviciu, în vederea deschiderii dreptului la pensie în condițiile alin. (1).", "fisier": "04_Legea_223-2015_pensiile_militare.txt"}
+   ]
+  },
+  {
+   "titlu": "Ce plătește sistemul militar și fără dublă socotire",
+   "paragrafe": [
+    "Art. 26 alin. (3) prevede că, în situația de la alin. (1), pensia militară de stat se stabilește doar pentru perioadele de vechime în serviciu, la care se adaugă sporurile acordate conform art. 24; cuantumul se determină proporțional, potrivit art. 29 alin. (3). Dobre primește deci din sistemul militar o pensie pentru cei 8 ani de serviciu, fără spor, pentru că a lucrat în condiții normale. Art. 25 alin. (2) închide cercul: vechimea valorificată pentru pensia militară nu se poate valorifica și în sistemul public — cei 8 ani sunt plătiți o singură dată, de sistemul militar, iar cei 27 de ani de sistemul public."
+   ],
+   "temei": [
+    {"act": "Legea nr. 223/2015 privind pensiile militare de stat", "articol": "art. 26 alin. (3)", "citat": "În situația prevăzută la alin. (1), pensia militară de stat se stabilește doar pentru perioadele de vechime în serviciu, la care se adaugă sporurile acordate conform art. 24", "fisier": "04_Legea_223-2015_pensiile_militare.txt"},
+    {"act": "Legea nr. 223/2015 privind pensiile militare de stat", "articol": "art. 29 alin. (3)", "citat": "Cuantumul pensiilor militare de stat stabilite în baza prevederilor art. 19 și 26 se determină proporțional cu numărul anilor de vechime în serviciu, la care se adaugă sporurile prevăzute la art. 24, în raport cu vechimea prevăzută la alin. (2).", "fisier": "04_Legea_223-2015_pensiile_militare.txt"},
+    {"act": "Legea nr. 223/2015 privind pensiile militare de stat", "articol": "art. 25 alin. (2)", "citat": "Vechimea valorificată pentru stabilirea pensiei militare de stat conform alin. (1) nu se poate valorifica și în sistemul public de pensii sau în sistemele proprii de asigurări sociale neintegrate acestuia, în condițiile protocoalelor încheiate între entitățile implicate.", "fisier": "04_Legea_223-2015_pensiile_militare.txt"}
+   ]
+  }
+ ],
+ "verdict": "Cu 8 ani vechime în serviciu, sub pragul de 10 ani de la art. 19, Dobre intră sub art. 26: dreptul la pensie i se deschide mai întâi în sistemul public, unde la 65 de ani îndeplinește vârsta standard și stagiul minim de 15 ani (art. 47 din Legea nr. 360/2023), perioadele fiind recunoscute reciproc (art. 26 alin. (2)). Sistemul militar îi plătește o pensie doar pentru cei 8 ani de serviciu, proporțional (art. 26 alin. (3), art. 29 alin. (3)), iar acești ani nu se mai valorifică și în sistemul public (art. 25 alin. (2)).",
+ "capcane": [
+  "Linia de 10 ani vechime în serviciu desparte art. 19 (pensie de serviciu la vârsta standard, în sistemul militar) de art. 26 (deschiderea dreptului întâi în sistemul în care sunt îndeplinite condițiile cumulative).",
+  "Recunoașterea reciprocă de la art. 26 alin. (2) servește la deschiderea dreptului, nu la plată: fiecare sistem plătește pentru perioadele lui, iar art. 25 alin. (2) interzice valorificarea acelorași ani în ambele sisteme.",
+  "În sistemul militar, pensia celui aflat sub art. 26 se calculează doar pe vechimea în serviciu plus sporurile de timp, proporțional (art. 29 alin. (3)) — nu pe vechimea cumulată și nu cu 65% din baza de calcul."
+ ]
+}

@@ -1,0 +1,50 @@
+{
+ "nr": 21,
+ "nivel": "medie",
+ "titlu": "Al patrulea contract pe durată determinată",
+ "teme": [10],
+ "fapte": [
+  "Doamna Radu, personal civil contractual, a lucrat la aceeași unitate militară cu trei contracte individuale de muncă pe durată determinată, încheiate în scris, fiecare de 12 luni: 1 ianuarie 2023 – 31 decembrie 2023, 1 februarie 2024 – 31 ianuarie 2025 și 1 martie 2025 – 28 februarie 2026.",
+  "Fiecare contract nou a fost încheiat la o lună după încetarea celui anterior.",
+  "La 1 aprilie 2026 unitatea îi propune un al patrulea contract pe durată determinată, tot de 12 luni, pe aceeași funcție."
+ ],
+ "intrebare": "Au fost legale cele trei contracte? Poate unitatea să încheie cu Radu al patrulea contract pe durată determinată?",
+ "cifre_derivate": {"3": "al treilea contract, respectiv cele trei contracte"},
+ "sectiuni": [
+  {
+   "titlu": "Durata determinată este excepția",
+   "paragrafe": [
+    "Art. 82 alin. (1) permite angajatorilor, prin derogare de la regula prevăzută la art. 12 alin. (1), să angajeze personal cu contract individual de muncă pe durată determinată numai în cazurile și în condițiile codului, iar alin. (2) cere forma scrisă, cu precizarea expresă a duratei. Contractele lui Radu au fost încheiate în scris și cu durata precizată, deci respectă forma."
+   ],
+   "temei": [
+    {"act": "Legea nr. 53/2003 – Codul muncii", "articol": "art. 82 alin. (1)", "citat": "Prin derogare de la regula prevăzută la art. 12 alin. (1), angajatorii au posibilitatea de a angaja, în cazurile și în condițiile prezentului cod, personal salariat cu contract individual de muncă pe durată determinată.", "fisier": "03_Legea_53-2003_Codul_muncii.txt"},
+    {"act": "Legea nr. 53/2003 – Codul muncii", "articol": "art. 82 alin. (2)", "citat": "Contractul individual de muncă pe durată determinată se poate încheia numai în formă scrisă, cu precizarea expresă a duratei pentru care se încheie.", "fisier": "03_Legea_53-2003_Codul_muncii.txt"}
+   ]
+  },
+  {
+   "titlu": "Contractele succesive și durata lor",
+   "paragrafe": [
+    "Art. 82 alin. (5) definește contractele succesive: cele încheiate în termen de 3 luni de la încetarea unui contract pe durată determinată sunt considerate succesive și nu pot avea o durată mai mare de 12 luni fiecare. Contractele lui Radu au fost încheiate la o lună după încetarea celui anterior, deci sunt succesive, și fiecare a avut exact 12 luni, deci au respectat limita. Art. 84 alin. (1) adaugă plafonul general: un contract pe durată determinată nu poate fi încheiat pe o perioadă mai mare de 36 de luni."
+   ],
+   "temei": [
+    {"act": "Legea nr. 53/2003 – Codul muncii", "articol": "art. 82 alin. (5)", "citat": "Contractele individuale de muncă pe durată determinată încheiate în termen de 3 luni de la încetarea unui contract de muncă pe durată determinată sunt considerate contracte succesive și nu pot avea o durată mai mare de 12 luni fiecare.", "fisier": "03_Legea_53-2003_Codul_muncii.txt"},
+    {"act": "Legea nr. 53/2003 – Codul muncii", "articol": "art. 84 alin. (1)", "citat": "Contractul individual de muncă pe durată determinată nu poate fi încheiat pe o perioadă mai mare de 36 de luni.", "fisier": "03_Legea_53-2003_Codul_muncii.txt"}
+   ]
+  },
+  {
+   "titlu": "Cel mult trei contracte succesive",
+   "paragrafe": [
+    "Art. 82 alin. (4) prevede că între aceleași părți se pot încheia succesiv cel mult 3 contracte individuale de muncă pe durată determinată. Radu și unitatea au epuizat acest număr; un al patrulea contract încheiat la 1 aprilie 2026, la o lună de la încetarea celui de-al treilea, ar fi tot succesiv și nu mai poate fi pe durată determinată. Unitatea o poate angaja numai pe durată nedeterminată."
+   ],
+   "temei": [
+    {"act": "Legea nr. 53/2003 – Codul muncii", "articol": "art. 82 alin. (4)", "citat": "Între aceleași părți se pot încheia succesiv cel mult 3 contracte individuale de muncă pe durată determinată.", "fisier": "03_Legea_53-2003_Codul_muncii.txt"}
+   ]
+  }
+ ],
+ "verdict": "Cele trei contracte au fost legale: scrise, cu durata precizată, succesive și de cel mult 12 luni fiecare (art. 82 alin. (2) și (5)). Al patrulea contract pe durată determinată nu mai poate fi încheiat: între aceleași părți se pot încheia succesiv cel mult 3 (art. 82 alin. (4)); Radu poate fi angajată numai pe durată nedeterminată.",
+ "capcane": [
+  "Două limite diferite: cel mult 3 contracte succesive între aceleași părți (art. 82 alin. (4)) și cel mult 12 luni pentru fiecare contract succesiv (alin. (5)); plafonul de 36 de luni de la art. 84 alin. (1) privește durata unui contract.",
+  "„Succesiv” are definiție legală: contractul încheiat în termen de 3 luni de la încetarea celui anterior. Un contract încheiat după mai mult de 3 luni nu este succesiv.",
+  "Prelungirea unui contract pe durată determinată după expirarea termenului inițial este posibilă, cu acordul scris al părților, pentru perioada realizării unui proiect, program sau unei lucrări (art. 82 alin. (3))."
+ ]
+}
