@@ -26,11 +26,13 @@ NIVELURI = [("simpla", "simplă", "Un articol, o condiție"), ("medie", "medie",
 NIVEL_NUME = {k: v for k, v, _ in NIVELURI}
 
 _NUM = re.compile(r"(?<![\w^/–-])(\d+(?:[.,]\d+)?)(?![\w^/–-])")      # nu prinde 40/2025, 20^1, 2^1
-_REF = re.compile(r"(?:art\.|alin\.|lit\.|pct\.|nr\.|anexa|anexele|capitol)\s*(?:\(|nr\.\s*)?$", re.I)
+# trimiterile la articole/alineate/litere, inclusiv listele „alin. (3) și (4)”, „art. 16, 18”, „HP nr. 40/2025”
+_REF = re.compile(r"(?:art\.|alin\.|lit\.|pct\.|nr\.|anexa|anexele|capitolul)\s*\(?[\d^a-z]+\)?"
+                  r"(?:\s*(?:,|și|sau|ori|-|–)\s*(?:art\.|alin\.|lit\.|pct\.)?\s*\(?[\d^a-z]+\)?)*", re.I)
 
 def _numere(text):
-    """Cifrele din text care nu sunt numere de articol/alineat/literă/act („art. 94”, „HP nr. 40/2025”)."""
-    return [m.group(1) for m in _NUM.finditer(text) if not _REF.search(text[max(0, m.start() - 12):m.start()])]
+    """Cifrele din text care nu sunt numere de articol/alineat/literă/act („art. 94”, „alin. (3) și (4)”)."""
+    return [m.group(1) for m in _NUM.finditer(_REF.sub(" ", text))]
 
 def note_articol(fisier, art):
     """Notele portalului (§NOTA§) din interiorul articolului dat, în corpul legii."""
@@ -67,7 +69,7 @@ def calculeaza(c):
     rows += [("spor de timp, art. 24: %s" % ", ".join("%s ani în condiții %s" % (f(v), k) for k, v in cond.items()), f(spor))]
     rows += [("vechime în serviciu (art. 3 lit. e))", f(serviciu)), ("vechime cumulată (art. 3 lit. f))", f(cumulata)),
              ("vechime efectivă (art. 3 lit. g))", f(efectiva)), ("procent din baza de calcul (art. 29, 30)", f(procent) + "%")]
-    return rows, {f(serviciu), f(munca), f(spor), f(cumulata), f(efectiva), f(procent)}
+    return rows, {f(x) for x in (serviciu, munca, spor, cumulata, efectiva, procent) if x}   # 0 (fără civilie) nu trebuie să apară în text
 
 JS = """
 (function(){

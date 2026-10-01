@@ -1,0 +1,48 @@
+{
+ "nr": 6,
+ "nivel": "simpla",
+ "titlu": "Doi subofițeri în ture de noapte și sporul de 25%",
+ "teme": [15],
+ "fapte": [
+  "Sergentul-major Pop și plutonierul Radu lucrează în ture, potrivit programului normal de lucru al unității.",
+  "Pop are tura între orele 18,00 și 24,00, deci lucrează 2 ore în intervalul 22,00–6,00.",
+  "Radu are tura între orele 22,00 și 6,00, deci lucrează 8 ore în intervalul 22,00–6,00.",
+  "Amândoi cer sporul pentru munca prestată în timpul nopții."
+ ],
+ "intrebare": "Cine dintre cei doi primește sporul pentru munca de noapte și pentru câte ore?",
+ "sectiuni": [
+  {
+   "titlu": "Ce spune legea despre sporul de noapte",
+   "paragrafe": [
+    "Art. 20 alin. (1) din Legea-cadru nr. 153/2017 dă personalului care, potrivit programului normal de lucru, își desfășoară activitatea între orele 22,00 și 6,00 un spor de 25% din solda de funcție, pentru orele lucrate în acest interval, cu o condiție: timpul astfel lucrat să reprezinte cel puțin 3 ore de noapte din timpul normal de lucru."
+   ],
+   "temei": [
+    {"act": "Legea-cadru nr. 153/2017 privind salarizarea personalului plătit din fonduri publice", "articol": "art. 20 alin. (1)", "citat": "Personalul care, potrivit programului normal de lucru, își desfășoară activitatea între orele 22,00 și 6,00 beneficiază, pentru orele lucrate în acest interval, de un spor pentru munca prestată în timpul nopții de 25% din salariul de bază, solda de funcție/salariul de funcție, indemnizația de încadrare, dacă timpul astfel lucrat reprezintă cel puțin 3 ore de noapte din timpul normal de lucru.", "fisier": "06_Legea_153-2017_salarizarea_bugetara.txt"}
+   ]
+  },
+  {
+   "titlu": "Aplicarea la cei doi",
+   "paragrafe": [
+    "Pop lucrează doar 2 ore în intervalul 22,00–6,00, sub pragul de cel puțin 3 ore de noapte, deci nu primește sporul pentru nicio oră. Radu lucrează 8 ore în interval, peste prag, deci primește sporul de 25% din solda de funcție pentru cele 8 ore lucrate noaptea, nu pentru întreaga lună de activitate."
+   ],
+   "temei": [
+    {"act": "Legea-cadru nr. 153/2017 privind salarizarea personalului plătit din fonduri publice", "articol": "art. 20 alin. (1)", "citat": "pentru orele lucrate în acest interval, de un spor pentru munca prestată în timpul nopții de 25% din salariul de bază, solda de funcție/salariul de funcție, indemnizația de încadrare, dacă timpul astfel lucrat reprezintă cel puțin 3 ore de noapte din timpul normal de lucru.", "fisier": "06_Legea_153-2017_salarizarea_bugetara.txt"}
+   ]
+  },
+  {
+   "titlu": "Sporul de noapte și limita sporurilor",
+   "paragrafe": [
+    "Art. 20 alin. (2) precizează că sporul de noapte nu se ia în calcul la determinarea limitei sporurilor, compensațiilor, primelor, premiilor și indemnizațiilor prevăzute la art. 25; sporul lui Radu nu consumă, așadar, din acea limită."
+   ],
+   "temei": [
+    {"act": "Legea-cadru nr. 153/2017 privind salarizarea personalului plătit din fonduri publice", "articol": "art. 20 alin. (2)", "citat": "Sporul de noapte nu se ia în calcul la determinarea limitei sporurilor, compensațiilor, primelor, premiilor și indemnizațiilor prevăzute la art. 25.", "fisier": "06_Legea_153-2017_salarizarea_bugetara.txt"}
+   ]
+  }
+ ],
+ "verdict": "Numai Radu: are 8 ore în intervalul 22,00–6,00, peste pragul de cel puțin 3 ore de noapte, și primește 25% din solda de funcție pentru orele lucrate în interval. Pop, cu 2 ore în interval, nu îndeplinește condiția și nu primește sporul.",
+ "capcane": [
+  "Condiția este „cel puțin 3 ore de noapte din timpul normal de lucru”, nu orice oră lucrată după 22,00; iar sporul se plătește doar pentru orele din interval, nu pentru toată tura.",
+  "Intervalul de noapte din Legea-cadru nr. 153/2017 este 22,00–6,00; procentul este 25% și se aplică la solda de funcție (la militari), respectiv la salariul de bază sau la indemnizația de încadrare.",
+  "Sporul de noapte nu intră în limita sporurilor de la art. 25 (art. 20 alin. (2)) — o grilă poate întreba exact asta."
+ ]
+}

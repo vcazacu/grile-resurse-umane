@@ -1,0 +1,50 @@
+{
+ "nr": 4,
+ "nivel": "simpla",
+ "titlu": "Mustrarea scrisă aplicată la opt luni după constatare",
+ "teme": [5],
+ "fapte": [
+  "Locotenentul Marin a săvârșit o abatere disciplinară la 10 ianuarie 2026.",
+  "Comandantul unității a constatat abaterea la 1 februarie 2026.",
+  "În tot acest timp Marin a fost prezent la program: nu a fost sesizat niciun organ de urmărire penală, nu a avut raporturile de serviciu suspendate și nu a fost în concedii, permisii, misiuni ori alte absențe motivate.",
+  "La 15 octombrie 2026 comandantul îi aplică sancțiunea mustrării scrise."
+ ],
+ "intrebare": "Mai putea fi aplicată sancțiunea la 15 octombrie 2026?",
+ "cifre_derivate": {"1 august 2026": "1 februarie 2026 plus 6 luni", "8": "de la 1 februarie la 15 octombrie 2026 sunt peste 8 luni", "2028": "10 ianuarie 2026 plus 2 ani = 10 ianuarie 2028"},
+ "sectiuni": [
+  {
+   "titlu": "Cele două termene",
+   "paragrafe": [
+    "Art. 35 alin. (3) stabilește că sancțiunile disciplinare se aplică în termen de cel mult 6 luni de la data constatării, dar nu mai târziu de 2 ani de la data săvârșirii faptei; termenul de 6 luni este termen de prescripție, iar cel de 2 ani este termen de decădere. Pentru Marin, termenul de 6 luni a început la 1 februarie 2026, data constatării, și s-a împlinit la 1 august 2026; termenul de 2 ani curge de la 10 ianuarie 2026 și s-ar împlini abia la 10 ianuarie 2028."
+   ],
+   "temei": [
+    {"act": "Legea nr. 80/1995 privind statutul cadrelor militare", "articol": "art. 35 alin. (3)", "citat": "Sancțiunile disciplinare se aplică în termen de cel mult 6 luni de la data constatării, dar nu mai târziu de 2 ani de la data săvârșirii faptei; termenul de 6 luni este termen de prescripție, iar cel de 2 ani este termen de decădere.", "fisier": "01_Legea_80-1995_statutul_cadrelor_militare.txt"}
+   ]
+  },
+  {
+   "titlu": "A fost suspendat termenul de 6 luni?",
+   "paragrafe": [
+    "Art. 35 alin. (4) suspendă de drept termenul de 6 luni în trei situații: sesizarea organelor de urmărire penală pentru fapta respectivă, până la soluționarea definitivă a cauzei; suspendarea raporturilor de serviciu, până la reluarea activității; durata concediilor, permisiilor, învoirilor, misiunilor, stării de captivitate ori a altor absențe motivate. Niciuna nu s-a produs în cazul lui Marin, deci termenul a curs neîntrerupt."
+   ],
+   "temei": [
+    {"act": "Legea nr. 80/1995 privind statutul cadrelor militare", "articol": "art. 35 alin. (4)", "citat": "Termenul de 6 luni prevăzut la alin. 3 se suspendă, de drept, pe perioada și în situațiile următoare: a) de la data sesizării, în condițiile legii, a organelor de urmărire penală și până la data soluționării definitive a cauzei, dacă pentru fapta care constituie abatere disciplinară s-a dispus sesizarea organelor de urmărire penală; b) de la data suspendării raporturilor de serviciu și până la data reluării activității; c) pe durata concediilor, permisiilor, învoirilor, misiunilor, stării de captivitate ori în alte situații de absență motivată, în condițiile legii.", "fisier": "01_Legea_80-1995_statutul_cadrelor_militare.txt"}
+   ]
+  },
+  {
+   "titlu": "Aplicarea la 15 octombrie 2026",
+   "paragrafe": [
+    "Între 1 februarie și 15 octombrie 2026 au trecut peste 8 luni, deci termenul de prescripție de 6 luni era împlinit de la 1 august 2026. Faptul că termenul de decădere de 2 ani nu expirase nu ajută: cele două termene se aplică împreună, iar depășirea oricăruia împiedică sancționarea. Mustrarea scrisă este, de altfel, una dintre sancțiunile de la art. 35 alin. (1), dar nu mai putea fi aplicată."
+   ],
+   "temei": [
+    {"act": "Legea nr. 80/1995 privind statutul cadrelor militare", "articol": "art. 35 alin. (1)", "citat": "Cadrelor militare li se pot aplica următoarele sancțiuni disciplinare: a) avertisment; b) mustrare scrisă;", "fisier": "01_Legea_80-1995_statutul_cadrelor_militare.txt"},
+    {"act": "Legea nr. 80/1995 privind statutul cadrelor militare", "articol": "art. 35 alin. (3)", "citat": "termenul de 6 luni este termen de prescripție, iar cel de 2 ani este termen de decădere.", "fisier": "01_Legea_80-1995_statutul_cadrelor_militare.txt"}
+   ]
+  }
+ ],
+ "verdict": "Nu. Termenul de prescripție de 6 luni de la constatare (art. 35 alin. (3)) s-a împlinit la 1 august 2026 și nu a fost suspendat în niciuna dintre situațiile de la alin. (4); la 15 octombrie 2026 sancțiunea nu mai putea fi aplicată, chiar dacă termenul de decădere de 2 ani de la săvârșire nu expirase.",
+ "capcane": [
+  "Termenul de 6 luni curge de la data constatării, nu de la data săvârșirii faptei; cel de 2 ani curge de la săvârșire. Grilele le inversează des.",
+  "Cele două termene au naturi diferite: 6 luni — prescripție (se suspendă în situațiile de la alin. (4)); 2 ani — decădere. Singura excepție de la cei 2 ani este cea de la alin. (5): organele de urmărire penală sesizate decid că fapta nu e infracțiune și comunică decizia după expirarea termenului, caz în care sancțiunea se aplică în cel mult 6 luni de la comunicare (alin. (6)).",
+  "Pentru aceeași abatere se poate aplica o singură sancțiune disciplinară (art. 35 alin. (2))."
+ ]
+}

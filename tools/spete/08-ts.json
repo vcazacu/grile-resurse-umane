@@ -1,0 +1,243 @@
+[
+ {
+  "loc": "Cele trei pensii de serviciu / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 15 arată că pensia de serviciu poate fi pentru limită de vârstă, anticipată sau anticipată parțială.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Pensia pentru limită de vârstă cere, potrivit art. 16 alin. (1) lit. a), împlinirea vârstei standard de pensionare, pe care Stoica, la 48 de ani, nu o are; rămân de verificat celelalte două.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.03,
+     "sustine": 0.92,
+     "absenta_corecta": 0.02,
+     "contrazice": 0.03
+    },
+    "confidence": 0.9
+   }
+  },
+  "usage": 3089
+ },
+ {
+  "loc": "Pensia anticipată: vârsta standard minus 5 ani / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 17 alin. (1) dă pensie de serviciu anticipată celor care îndeplinesc cumulativ vechimea de la art. 16 alin. (1) lit. b), au împlinit vârsta standard de pensionare diminuată cu 5 ani și se află într-una dintre situațiile enumerate, între care trecerea în rezervă ca urmare a reorganizării unor unități și a reducerii unor funcții (lit. a)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Stoica are situația și vechimea, dar vârsta standard de 60 de ani diminuată cu 5 ani înseamnă 55 de ani, iar el are 48: pensia anticipată este exclusă.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.09,
+     "sustine": 0.68,
+     "contrazice": 0.11,
+     "absenta_corecta": 0.12
+    },
+    "confidence": 0.57
+   }
+  },
+  "usage": 3625
+ },
+ {
+  "loc": "Pensia anticipată parțială: fără condiție de vârstă / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 18 alin. (1) dă pensie de serviciu anticipată parțială celor în activitate care au o vechime efectivă de minimum 20 de ani, dintre care cel puțin 10 ani vechime în serviciu, și se află într-una dintre aceleași situații, între care reorganizarea și reducerea funcțiilor (lit. a)); nu există condiție de vârstă.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.15,
+     "contrazice": 0.01,
+     "sustine": 0.84
+    },
+    "confidence": 0.79
+   },
+   "1": {
+    "text": "Stoica are 25 de ani vechime în serviciu, deci și o vechime efectivă de 25 de ani, și este trecut în rezervă prin reorganizare: îndeplinește condițiile pensiei anticipate parțiale.",
+    "alegere": "contrazice",
+    "probabilitati": {
+     "nu_spune": 0.02,
+     "absenta_corecta": 0.01,
+     "contrazice": 0.54,
+     "sustine": 0.43
+    },
+    "confidence": 0.39
+   }
+  },
+  "usage": 5139
+ },
+ {
+  "loc": "Pe ce vechime și cu ce procent se calculează / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 18 alin. (2) prevede că cuantumul pensiei anticipate parțiale se calculează pentru numărul anilor de vechime în serviciu stabiliți în condițiile art. 3 lit. e), la care se adaugă sporurile acordate conform art. 24.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Pentru cei 8 ani în condiții speciale, art. 24 lit. b) socotește 1 an și 6 luni pentru fiecare an lucrat efectiv, deci un spor de 4 ani; vechimea de calcul este de 25 plus 4, adică 29 de ani.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.96,
+     "contrazice": 0.04,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 0.94
+   },
+   "2": {
+    "text": "Art. 29 alin. (1) dă 65% din baza de calcul la o vechime cumulată de cel puțin 25 de ani și câte 1% pentru fiecare an în plus: cu 29 de ani, pensia este de 69% din baza de calcul.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.97,
+     "contrazice": 0.03,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 0.95
+   }
+  },
+  "usage": 5535
+ },
+ {
+  "loc": "Ce se întâmplă la vârsta standard / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 18 alin. (3) prevede că, la împlinirea vârstei standard de pensionare, pensia de serviciu anticipată parțială devine pensie de serviciu pentru limită de vârstă, iar cuantumul pensiei militare se recalculează prin raportare la vechimea cumulată calculată la data trecerii în rezervă.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.99,
+     "contrazice": 0.01,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 0.99
+   },
+   "1": {
+    "text": "La 60 de ani, pensia lui Stoica se transformă de drept, pe baza vechimii de la 1 iulie 2026, nu a unei vechimi noi.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.1,
+     "contrazice": 0.17,
+     "sustine": 0.73,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 0.63
+   }
+  },
+  "usage": 3375
+ },
+ {
+  "loc": "capcana 1",
+  "afirmatii": {
+   "0": {
+    "text": "Anticipată și anticipată parțială nu diferă doar prin nume: anticipata (art. 17) cere vechimea de la art. 16 alin. (1) lit. b) și vârsta standard minus 5 ani; anticipata parțială (art. 18) cere 20 de ani vechime efectivă, din care 10 în serviciu, și nu are condiție de vârstă.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.01,
+     "sustine": 0.99,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.99
+   },
+   "1": {
+    "text": "Situațiile (reorganizare, inapt sau apt limitat) sunt aceleași la amândouă.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.01,
+     "sustine": 0.99,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.99
+   }
+  },
+  "usage": 7612
+ },
+ {
+  "loc": "capcana 2",
+  "afirmatii": {
+   "0": {
+    "text": "La anticipata parțială, cuantumul se calculează pe vechimea în serviciu plus sporurile de la art. 24 (art. 18 alin. (2)); vechimea în muncă din civilie, dacă ar fi existat, nu ar fi intrat în acest calcul.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.82,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.18,
+     "contrazice": 0.0
+    },
+    "confidence": 0.75
+   }
+  },
+  "usage": 7210
+ },
+ {
+  "loc": "capcana 3",
+  "afirmatii": {
+   "0": {
+    "text": "Diminuarea vârstei standard cu 5 ani de la art. 17 nu se cumulează cu nicio altă reducere (art. 17 alin. (2)), iar transformarea de la art. 18 alin. (3) se face pe vechimea cumulată de la data trecerii în rezervă, nu pe una recalculată la împlinirea vârstei.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.94,
+     "nu_spune": 0.0,
+     "contrazice": 0.05,
+     "absenta_corecta": 0.01
+    },
+    "confidence": 0.93
+   }
+  },
+  "usage": 7330
+ },
+ {
+  "loc": "verdict",
+  "afirmatii": {
+   "0": {
+    "text": "Pensie de serviciu anticipată parțială (art. 18): are vechimea efectivă de 25 de ani, din care tot 25 vechime în serviciu, și este trecut în rezervă prin reorganizare; pensia anticipată (art. 17) e exclusă, fiindcă la 48 de ani nu a împlinit vârsta standard de 60 de ani diminuată cu 5 ani.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.17,
+     "sustine": 0.8,
+     "nu_spune": 0.01,
+     "absenta_corecta": 0.02
+    },
+    "confidence": 0.73
+   },
+   "1": {
+    "text": "Cuantumul se calculează pe 29 de ani (25 de ani vechime în serviciu plus sporul de 4 ani pentru cei 8 ani în condiții speciale), adică 69% din baza de calcul; la 60 de ani devine pensie pentru limită de vârstă, recalculată pe vechimea cumulată de la data trecerii în rezervă.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.34,
+     "sustine": 0.65,
+     "nu_spune": 0.01,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 0.52
+   }
+  },
+  "usage": 7683
+ }
+]

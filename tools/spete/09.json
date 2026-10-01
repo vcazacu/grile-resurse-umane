@@ -1,0 +1,61 @@
+{
+ "nr": 9,
+ "nivel": "complexa",
+ "titlu": "Recalcularea indemnizației de creștere a copilului după ce copilul a împlinit 2 ani",
+ "teme": [16],
+ "fapte": [
+  "Sublocotenentul Ana Dinu, cadru militar în activitate, a născut la 10 martie 2023 și a obținut concediul și indemnizația lunară pentru creșterea copilului, stabilită prin decizie la 85% din media veniturilor nete realizate în cele 12 luni anterioare nașterii, pe baza soldelor din martie 2022 – februarie 2023.",
+  "Copilul a împlinit 2 ani la 10 martie 2025.",
+  "În ianuarie 2026, printr-o hotărâre judecătorească definitivă, Dinu a obținut diferențe de solde impozabile pentru perioada iunie 2022 – februarie 2023, adică pentru lunile care au stat la baza indemnizației.",
+  "Dinu cere agenției teritoriale recalcularea indemnizației pe baza hotărârii. Agenția refuză: art. 3 alin. (7) ar permite cererea numai până la împlinirea de către copil a vârstei de 2 ani."
+ ],
+ "intrebare": "Poate Dinu obține recalcularea indemnizației, deși copilul a împlinit 2 ani? De când se acordă noul cuantum și cu ce limită?",
+ "sectiuni": [
+  {
+   "titlu": "Dreptul și cuantumul indemnizației",
+   "paragrafe": [
+    "Art. 2 alin. (1) dă concediul pentru creșterea copilului în vârstă de până la 2 ani și o indemnizație lunară persoanelor care, în ultimii 2 ani anteriori nașterii, au realizat timp de cel puțin 12 luni venituri supuse impozitului, între care veniturile din salarii și asimilate salariilor. Alin. (2) fixează cuantumul la 85% din media veniturilor nete realizate în ultimele 12 luni din ultimii 2 ani anteriori nașterii, cu un minim de 2,5 ori valoarea indicatorului social de referință și un maxim de 8.500 lei."
+   ],
+   "temei": [
+    {"act": "O.U.G. nr. 111/2010 privind concediul și indemnizația lunară pentru creșterea copiilor", "articol": "art. 2 alin. (1)", "citat": "Persoanele care, în ultimii 2 ani anteriori datei nașterii copilului, au realizat timp de cel puțin 12 luni venituri din salarii și asimilate salariilor, venituri din activități independente, venituri din drepturi de proprietate intelectuală, venituri din activități agricole, silvicultură și piscicultură, supuse impozitului pe venit potrivit prevederilor Legii nr. 227/2015 privind Codul fiscal, cu modificările și completările ulterioare, denumite în continuare venituri supuse impozitului, beneficiază de concediu pentru creșterea copilului în vârstă de până la 2 ani, respectiv 3 ani, în cazul copilului cu handicap, precum și de o indemnizație lunară.", "fisier": "07_OUG_111-2010_concediul_crestere_copil.txt"},
+    {"act": "O.U.G. nr. 111/2010 privind concediul și indemnizația lunară pentru creșterea copiilor", "articol": "art. 2 alin. (2)", "citat": "Cuantumul indemnizației lunare prevăzute la alin. (1) este de 85% din media veniturilor nete realizate în ultimele 12 luni din ultimii 2 ani anteriori datei nașterii copilului. Cuantumul minim al indemnizației lunare nu poate fi mai mic decât suma rezultată din aplicarea unui coeficient de multiplicare de 2,5 la valoarea indicatorului social de referință, iar cuantumul maxim al acesteia nu poate depăși valoarea de 8.500 lei.", "fisier": "07_OUG_111-2010_concediul_crestere_copil.txt"}
+   ]
+  },
+  {
+   "titlu": "Ce intră în baza de calcul",
+   "paragrafe": [
+    "Art. 13 alin. (3) prevede că la stabilirea bazei de calcul se iau în considerare toate veniturile supuse impozitului realizate de persoana îndreptățită, iar alin. (4) determină baza ca suma totală a veniturilor realizate în ultimele 12 luni anterioare nașterii, împărțită la 12. Diferențele de solde acordate lui Dinu prin hotărâre sunt venituri impozabile aferente chiar lunilor iunie 2022 – februarie 2023, deci, dacă ar fi fost plătite la timp, ar fi intrat în bază și ar fi dat o indemnizație mai mare."
+   ],
+   "temei": [
+    {"act": "O.U.G. nr. 111/2010 privind concediul și indemnizația lunară pentru creșterea copiilor", "articol": "art. 13 alin. (3)", "citat": "La stabilirea bazei de calcul al indemnizației pentru creșterea copilului se iau în considerare toate veniturile supuse impozitului realizate de persoana îndreptățită, precum și veniturile aferente perioadelor asimilate prevăzute la art. 2 alin. (5) și (6).", "fisier": "07_OUG_111-2010_concediul_crestere_copil.txt"},
+    {"act": "O.U.G. nr. 111/2010 privind concediul și indemnizația lunară pentru creșterea copiilor", "articol": "art. 13 alin. (4)", "citat": "Baza de calcul al indemnizației pentru creșterea copilului stabilită potrivit alin. (3) se determină ca suma totală a veniturilor realizate în ultimele 12 luni anterioare nașterii copilului împărțită la 12.", "fisier": "07_OUG_111-2010_concediul_crestere_copil.txt"}
+   ]
+  },
+  {
+   "titlu": "Regula recalculării și limita invocată de agenție",
+   "paragrafe": [
+    "Art. 3 alin. (7) permite beneficiarului, pe toată perioada până la împlinirea de către copil a vârstei de 2 ani, să ceară recalcularea cuantumului pe baza unor hotărâri judecătorești definitive, adeverințe sau alte acte doveditoare privind rectificarea veniturilor care au stat la baza dreptului; noul cuantum se acordă de la data prevăzută în hotărârea judecătorească definitivă sau, după caz, de la data prezentării documentelor. Normele metodologice, la art. 22 alin. (4), trimit pentru veniturile din salarii la aceste condiții și arată că recalcularea se face la solicitarea persoanei îndreptățite. Pe litera alin. (7), agenția are un argument: copilul avea deja 2 ani când hotărârea a fost pronunțată."
+   ],
+   "temei": [
+    {"act": "O.U.G. nr. 111/2010 privind concediul și indemnizația lunară pentru creșterea copiilor", "articol": "art. 3 alin. (7)", "citat": "Pe toată perioada până la împlinirea de către copil a vârstei de 2 ani, respectiv de 3 ani, în cazul copilului cu handicap, beneficiarul poate solicita recalcularea cuantumului indemnizației pe baza unor hotărâri judecătorești definitive, adeverințe sau alte acte doveditoare privind rectificarea veniturilor prevăzute la alin. (1) care au stat la baza acordării dreptului, eliberate de plătitorii de venituri sau de organele competente. Noul cuantum se acordă de la data prevăzută în hotărârea judecătorească definitivă sau, după caz, de la data prezentării documentelor de rectificare a veniturilor.", "fisier": "07_OUG_111-2010_concediul_crestere_copil.txt"},
+    {"act": "Normele metodologice de aplicare a O.U.G. nr. 111/2010 (H.G. nr. 52/2011)", "articol": "art. 22 alin. (4)", "citat": "În situația veniturilor din salarii și asimilate acestora, recalcularea cuantumului indemnizației lunare pentru creșterea copilului se realizează în condițiile art. 3 alin. (7) din ordonanța de urgență, precum și în situațiile prevăzute la art. 16 alin. (4) din ordonanța de urgență. Recalcularea se face, după caz, la solicitarea persoanei îndreptățite, respectiv din oficiu", "fisier": "08_Norme_HG_52-2011_aplicare_OUG_111-2010.txt"}
+   ]
+  },
+  {
+   "titlu": "Decizia ÎCCJ: recalcularea și după 2 ani",
+   "paragrafe": [
+    "Prin Decizia HP nr. 66/2025, Înalta Curte de Casație și Justiție a stabilit că recalcularea cuantumului indemnizației se realizează, cu respectarea limitei maxime prevăzute de lege, la cererea persoanei îndreptățite, chiar după împlinirea de către copil a vârstei de 2 ani, dacă ulterior, în baza unor hotărâri judecătorești definitive, s-au acordat diferențe de drepturi salariale impozabile corespunzătoare perioadei de contributivitate cerute de art. 2 alin. (1). Situația lui Dinu este exact aceasta: diferențele privesc lunile din baza de calcul, iar hotărârea a venit după ce copilul a împlinit 2 ani. Refuzul agenției este contrar deciziei; noul cuantum se acordă de la data prevăzută în hotărârea judecătorească, potrivit art. 3 alin. (7), și nu poate depăși maximul de 8.500 lei de la art. 2 alin. (2)."
+   ],
+   "temei": [
+    {"act": "Î.C.C.J. – Decizia HP nr. 66/2025, M. Of. nr. 352 din 22 aprilie 2025 (notă la art. 2)", "articol": "art. 2", "tip": "decizie", "citat": "Recalcularea cuantumului indemnizației lunare pentru creșterea copilului se realizează, cu respectarea limitei maxime prevăzute de lege, la cererea persoanei îndreptățite, chiar după împlinirea de către copil a vârstei de 2 ani, respectiv 3 ani în cazul copilului cu handicap, dacă ulterior, în baza unor hotărâri judecătorești definitive, s-au acordat diferențe de drepturi salariale sau asimilate acestora, impozabile, drepturi corespunzătoare perioadei de contributivitate impuse de art. 2 alin. (1) din Ordonanța de urgență a Guvernului nr. 111/2010.", "fisier": "07_OUG_111-2010_concediul_crestere_copil.txt"},
+    {"act": "O.U.G. nr. 111/2010 privind concediul și indemnizația lunară pentru creșterea copiilor", "articol": "art. 3 alin. (7)", "citat": "Noul cuantum se acordă de la data prevăzută în hotărârea judecătorească definitivă sau, după caz, de la data prezentării documentelor de rectificare a veniturilor.", "fisier": "07_OUG_111-2010_concediul_crestere_copil.txt"}
+   ]
+  }
+ ],
+ "verdict": "Da. Potrivit Deciziei HP nr. 66/2025, recalcularea se face la cerere chiar după ce copilul a împlinit 2 ani, atunci când diferențele salariale impozabile au fost acordate ulterior prin hotărâre judecătorească definitivă pentru lunile din perioada de contributivitate — cazul lui Dinu. Noul cuantum, calculat cu diferențele de solde în bază (art. 13 alin. (3) și (4)), se acordă de la data prevăzută în hotărâre (art. 3 alin. (7)) și nu poate depăși maximul de 8.500 lei (art. 2 alin. (2)).",
+ "capcane": [
+  "Indemnizația este 85% din media veniturilor nete, nu brute, din ultimele 12 luni din ultimii 2 ani anteriori nașterii; are un minim (2,5 ori indicatorul social de referință) și un maxim (8.500 lei), iar recalcularea respectă același maxim.",
+  "Art. 3 alin. (7) (salarii: hotărâri, adeverințe, acte de rectificare, la cerere, de la data din hotărâre) și alin. (8) (activități independente: venituri efectiv realizate) sunt două recalculări diferite, cu reguli diferite.",
+  "Pe litera art. 3 alin. (7), cererea de recalculare se face până la împlinirea vârstei de 2 ani; Decizia HP nr. 66/2025 a tranșat că, pentru diferențele salariale acordate ulterior prin hotărâri definitive, recalcularea se face și după această vârstă."
+ ]
+}

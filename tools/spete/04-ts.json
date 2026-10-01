@@ -1,0 +1,176 @@
+[
+ {
+  "loc": "Cele două termene / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 35 alin. (3) stabilește că sancțiunile disciplinare se aplică în termen de cel mult 6 luni de la data constatării, dar nu mai târziu de 2 ani de la data săvârșirii faptei; termenul de 6 luni este termen de prescripție, iar cel de 2 ani este termen de decădere.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "contrazice": 0.01,
+     "nu_spune": 0.0,
+     "sustine": 0.99
+    },
+    "confidence": 0.99
+   },
+   "1": {
+    "text": "Pentru Marin, termenul de 6 luni a început la 1 februarie 2026, data constatării, și s-a împlinit la 1 august 2026; termenul de 2 ani curge de la 10 ianuarie 2026 și s-ar împlini abia la 10 ianuarie 2028.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.01,
+     "contrazice": 0.02,
+     "nu_spune": 0.02,
+     "sustine": 0.95
+    },
+    "confidence": 0.94
+   }
+  },
+  "usage": 3462
+ },
+ {
+  "loc": "A fost suspendat termenul de 6 luni? / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 35 alin. (4) suspendă de drept termenul de 6 luni în trei situații: sesizarea organelor de urmărire penală pentru fapta respectivă, până la soluționarea definitivă a cauzei; suspendarea raporturilor de serviciu, până la reluarea activității; durata concediilor, permisiilor, învoirilor, misiunilor, stării de captivitate ori a altor absențe motivate.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 0.99
+   },
+   "1": {
+    "text": "Niciuna nu s-a produs în cazul lui Marin, deci termenul a curs neîntrerupt.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.02,
+     "nu_spune": 0.14,
+     "sustine": 0.58,
+     "absenta_corecta": 0.26
+    },
+    "confidence": 0.45
+   }
+  },
+  "usage": 3653
+ },
+ {
+  "loc": "Aplicarea la 15 octombrie 2026 / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Între 1 februarie și 15 octombrie 2026 au trecut peste 8 luni, deci termenul de prescripție de 6 luni era împlinit de la 1 august 2026.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.02,
+     "nu_spune": 0.07,
+     "contrazice": 0.02,
+     "sustine": 0.89
+    },
+    "confidence": 0.87
+   },
+   "1": {
+    "text": "Faptul că termenul de decădere de 2 ani nu expirase nu ajută: cele două termene se aplică împreună, iar depășirea oricăruia împiedică sancționarea.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.02,
+     "nu_spune": 0.01,
+     "contrazice": 0.01,
+     "sustine": 0.96
+    },
+    "confidence": 0.95
+   },
+   "2": {
+    "text": "Mustrarea scrisă este, de altfel, una dintre sancțiunile de la art. 35 alin. (1), dar nu mai putea fi aplicată.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.97,
+     "absenta_corecta": 0.01,
+     "contrazice": 0.01,
+     "nu_spune": 0.01
+    },
+    "confidence": 0.95
+   }
+  },
+  "usage": 3964
+ },
+ {
+  "loc": "capcana 1",
+  "afirmatii": {
+   "0": {
+    "text": "Termenul de 6 luni curge de la data constatării, nu de la data săvârșirii faptei; cel de 2 ani curge de la săvârșire.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.99
+   }
+  },
+  "usage": 2983
+ },
+ {
+  "loc": "capcana 2",
+  "afirmatii": {
+   "0": {
+    "text": "Cele două termene au naturi diferite: 6 luni — prescripție (se suspendă în situațiile de la alin. (4)); 2 ani — decădere.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 0.99
+   },
+   "1": {
+    "text": "Singura excepție de la cei 2 ani este cea de la alin. (5): organele de urmărire penală sesizate decid că fapta nu e infracțiune și comunică decizia după expirarea termenului, caz în care sancțiunea se aplică în cel mult 6 luni de la comunicare (alin. (6)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.95,
+     "nu_spune": 0.0,
+     "contrazice": 0.02,
+     "absenta_corecta": 0.03
+    },
+    "confidence": 0.94
+   }
+  },
+  "usage": 3510
+ },
+ {
+  "loc": "capcana 3",
+  "afirmatii": {
+   "0": {
+    "text": "Pentru aceeași abatere se poate aplica o singură sancțiune disciplinară (art. 35 alin. (2)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.01,
+     "contrazice": 0.01,
+     "sustine": 0.98,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 0.98
+   }
+  },
+  "usage": 3007
+ },
+ {
+  "loc": "verdict",
+  "afirmatii": {
+   "0": {
+    "text": "Termenul de prescripție de 6 luni de la constatare (art. 35 alin. (3)) s-a împlinit la 1 august 2026 și nu a fost suspendat în niciuna dintre situațiile de la alin. (4); la 15 octombrie 2026 sancțiunea nu mai putea fi aplicată, chiar dacă termenul de decădere de 2 ani de la săvârșire nu expirase.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.01,
+     "contrazice": 0.03,
+     "sustine": 0.95,
+     "nu_spune": 0.01
+    },
+    "confidence": 0.93
+   }
+  },
+  "usage": 3141
+ }
+]

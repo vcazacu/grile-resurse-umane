@@ -1,0 +1,176 @@
+[
+ {
+  "loc": "Ce este delegarea și cine o dispune / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 43 din Codul muncii definește delegarea ca exercitarea temporară, din dispoziția angajatorului, de către salariat, a unor lucrări sau sarcini corespunzătoare atribuțiilor de serviciu în afara locului său de muncă.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Art. 42 alin. (1) permite angajatorului să modifice unilateral locul muncii prin delegare, iar alin. (2) îi păstrează salariatului funcția și toate celelalte drepturi din contract.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "contrazice": 0.01,
+     "nu_spune": 0.0,
+     "sustine": 0.99
+    },
+    "confidence": 0.98
+   },
+   "2": {
+    "text": "Delegarea inițială a lui Ilie, dispusă de angajator pentru lucrări corespunzătoare atribuțiilor ei, este deci legală și nu are nevoie de acordul ei.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.05,
+     "contrazice": 0.07,
+     "nu_spune": 0.05,
+     "sustine": 0.83
+    },
+    "confidence": 0.77
+   }
+  },
+  "usage": 3522
+ },
+ {
+  "loc": "Durata și prelungirea / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 44 alin. (1) limitează delegarea la cel mult 60 de zile calendaristice în 12 luni și permite prelungirea pentru perioade succesive de maximum 60 de zile calendaristice numai cu acordul salariatului; același alineat spune că refuzul salariatului de prelungire a delegării nu poate constitui motiv pentru sancționarea sa disciplinară.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 0.99
+   },
+   "1": {
+    "text": "Prelungirea dispusă fără acordul lui Ilie încalcă această regulă, iar refuzul ei nu poate fi abatere disciplinară.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.98,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.01,
+     "contrazice": 0.01
+    },
+    "confidence": 0.98
+   }
+  },
+  "usage": 2972
+ },
+ {
+  "loc": "Drepturile pe durata delegării / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 44 alin. (2) dă salariatului delegat dreptul la plata cheltuielilor de transport și cazare, precum și la o indemnizație de delegare, în condițiile prevăzute de lege sau de contractul colectiv de muncă aplicabil.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Pentru cele 60 de zile lucrate la Sibiu, Ilie are aceste drepturi pe lângă salariul ei.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.03,
+     "contrazice": 0.04,
+     "sustine": 0.93
+    },
+    "confidence": 0.91
+   }
+  },
+  "usage": 2875
+ },
+ {
+  "loc": "capcana 1",
+  "afirmatii": {
+   "0": {
+    "text": "Delegarea este unilaterală doar pentru primele 60 de zile calendaristice în 12 luni; fiecare prelungire, de cel mult 60 de zile, cere acordul salariatului (art. 44 alin. (1)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.01,
+     "absenta_corecta": 0.0,
+     "sustine": 0.99,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.99
+   }
+  },
+  "usage": 2921
+ },
+ {
+  "loc": "capcana 2",
+  "afirmatii": {
+   "0": {
+    "text": "Delegarea nu se confundă cu detașarea (art. 45): detașarea schimbă temporar locul muncii la un alt angajator, poate fi dispusă pe cel mult un an (art. 46 alin. (1)) și are reguli proprii de prelungire.",
+    "alegere": "nu_spune",
+    "probabilitati": {
+     "sustine": 0.37,
+     "nu_spune": 0.45,
+     "absenta_corecta": 0.06,
+     "contrazice": 0.12
+    },
+    "confidence": 0.26
+   }
+  },
+  "usage": 2857
+ },
+ {
+  "loc": "capcana 3",
+  "afirmatii": {
+   "0": {
+    "text": "Pe durata delegării salariatul își păstrează funcția și toate drepturile din contract (art. 42 alin. (2)) și primește, în plus, transportul, cazarea și indemnizația de delegare (art. 44 alin. (2)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.99
+   }
+  },
+  "usage": 2968
+ },
+ {
+  "loc": "verdict",
+  "afirmatii": {
+   "0": {
+    "text": "Delegarea inițială de 60 de zile a fost legală: angajatorul o dispune unilateral (art. 42 alin. (1), art. 43).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Prelungirea cu încă 60 de zile cerea acordul lui Ilie (art. 44 alin. (1)), deci dispusă fără acord nu produce efecte, iar refuzul ei nu poate fi motiv de sancționare disciplinară, cum spune expres același alineat.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 3484
+ }
+]

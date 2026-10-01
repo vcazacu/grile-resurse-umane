@@ -149,10 +149,13 @@ cu `calcul`, vechimile și procentul se calculează în cod (art. 3, 24, 29, 30 
 rezulte din calcul; în toate spețele, orice cifră din rezolvare și din verdict trebuie să vină
 din fapte, dintr-un citat, din calcul sau să fie declarată în `cifre_derivate` cu derivarea ei.
 Poarta semantică le verifică cu `check_tematica.py spete/NN.json` (primește și situația de
-fapt, ca să judece aplicarea legii la fapte, și judecă și verdictul). Calibrare pe primele trei
-spețe: 45 de afirmații susținute, 0 contrazise; din 3 erori plantate, poarta a prins 2 la
-p = 1,00 — pe a treia, un procent greșit (72% în loc de 68%), a prins-o verificarea din cod.
-Aritmetica e treaba codului, nu a modelului; verifica_tot.sh rulează spete_build.py la pasul 9.
+fapt, ca să judece aplicarea legii la fapte, și judecă și verdictul). Cele 10 spețe (4 simple,
+4 medii, 2 complexe — cele complexe pe hotărârile prealabile HP nr. 40/2025 și HP nr. 66/2025):
+137 de afirmații susținute, 0 contrazise. Calibrare pe primele trei: din 3 erori plantate,
+poarta a prins 2 la p = 1,00 — pe a treia, un procent greșit (72% în loc de 68%), a prins-o
+verificarea din cod. Aritmetica e treaba codului, nu a modelului; verifica_tot.sh rulează
+spete_build.py la pasul 9. Speța 9 citează, drept context, și art. 22 alin. (4) din Norme,
+care nu e în bibliografie — build-ul o semnalează ca atare.
 
 ## Fișiere
 

@@ -1,0 +1,215 @@
+[
+ {
+  "loc": "Dreptul și cuantumul indemnizației / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 2 alin. (1) dă concediul pentru creșterea copilului în vârstă de până la 2 ani și o indemnizație lunară persoanelor care, în ultimii 2 ani anteriori nașterii, au realizat timp de cel puțin 12 luni venituri supuse impozitului, între care veniturile din salarii și asimilate salariilor.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.99
+   },
+   "1": {
+    "text": "Alin. (2) fixează cuantumul la 85% din media veniturilor nete realizate în ultimele 12 luni din ultimii 2 ani anteriori nașterii, cu un minim de 2,5 ori valoarea indicatorului social de referință și un maxim de 8.500 lei.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.99,
+     "nu_spune": 0.0,
+     "contrazice": 0.01,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 0.99
+   }
+  },
+  "usage": 6467
+ },
+ {
+  "loc": "Ce intră în baza de calcul / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 13 alin. (3) prevede că la stabilirea bazei de calcul se iau în considerare toate veniturile supuse impozitului realizate de persoana îndreptățită, iar alin. (4) determină baza ca suma totală a veniturilor realizate în ultimele 12 luni anterioare nașterii, împărțită la 12.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 0.99
+   },
+   "1": {
+    "text": "Diferențele de solde acordate lui Dinu prin hotărâre sunt venituri impozabile aferente chiar lunilor iunie 2022 – februarie 2023, deci, dacă ar fi fost plătite la timp, ar fi intrat în bază și ar fi dat o indemnizație mai mare.",
+    "alegere": "nu_spune",
+    "probabilitati": {
+     "sustine": 0.46,
+     "nu_spune": 0.5,
+     "absenta_corecta": 0.01,
+     "contrazice": 0.03
+    },
+    "confidence": 0.33
+   }
+  },
+  "usage": 4552
+ },
+ {
+  "loc": "Regula recalculării și limita invocată de agenție / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 3 alin. (7) permite beneficiarului, pe toată perioada până la împlinirea de către copil a vârstei de 2 ani, să ceară recalcularea cuantumului pe baza unor hotărâri judecătorești definitive, adeverințe sau alte acte doveditoare privind rectificarea veniturilor care au stat la baza dreptului; noul cuantum se acordă de la data prevăzută în hotărârea judecătorească definitivă sau, după caz, de la data prezentării documentelor.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 0.99
+   },
+   "1": {
+    "text": "Normele metodologice, la art. 22 alin. (4), trimit pentru veniturile din salarii la aceste condiții și arată că recalcularea se face la solicitarea persoanei îndreptățite.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.91,
+     "nu_spune": 0.01,
+     "contrazice": 0.08,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 0.88
+   },
+   "2": {
+    "text": "Pe litera alin. (7), agenția are un argument: copilul avea deja 2 ani când hotărârea a fost pronunțată.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.83,
+     "nu_spune": 0.03,
+     "contrazice": 0.11,
+     "absenta_corecta": 0.03
+    },
+    "confidence": 0.78
+   }
+  },
+  "usage": 6195
+ },
+ {
+  "loc": "Decizia ÎCCJ: recalcularea și după 2 ani / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Prin Decizia HP nr. 66/2025, Înalta Curte de Casație și Justiție a stabilit că recalcularea cuantumului indemnizației se realizează, cu respectarea limitei maxime prevăzute de lege, la cererea persoanei îndreptățite, chiar după împlinirea de către copil a vârstei de 2 ani, dacă ulterior, în baza unor hotărâri judecătorești definitive, s-au acordat diferențe de drepturi salariale impozabile corespunzătoare perioadei de contributivitate cerute de art. 2 alin. (1).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.03,
+     "absenta_corecta": 0.0,
+     "sustine": 0.97
+    },
+    "confidence": 0.95
+   },
+   "1": {
+    "text": "Situația lui Dinu este exact aceasta: diferențele privesc lunile din baza de calcul, iar hotărârea a venit după ce copilul a împlinit 2 ani.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.1,
+     "contrazice": 0.03,
+     "absenta_corecta": 0.01,
+     "sustine": 0.86
+    },
+    "confidence": 0.82
+   },
+   "2": {
+    "text": "Refuzul agenției este contrar deciziei; noul cuantum se acordă de la data prevăzută în hotărârea judecătorească, potrivit art. 3 alin. (7), și nu poate depăși maximul de 8.500 lei de la art. 2 alin. (2).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.01,
+     "contrazice": 0.1,
+     "absenta_corecta": 0.01,
+     "sustine": 0.88
+    },
+    "confidence": 0.86
+   }
+  },
+  "usage": 8948
+ },
+ {
+  "loc": "capcana 1",
+  "afirmatii": {
+   "0": {
+    "text": "Indemnizația este 85% din media veniturilor nete, nu brute, din ultimele 12 luni din ultimii 2 ani anteriori nașterii; are un minim (2,5 ori indicatorul social de referință) și un maxim (8.500 lei), iar recalcularea respectă același maxim.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "sustine": 0.98,
+     "contrazice": 0.02
+    },
+    "confidence": 0.97
+   }
+  },
+  "usage": 10670
+ },
+ {
+  "loc": "capcana 2",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 3 alin. (7) (salarii: hotărâri, adeverințe, acte de rectificare, la cerere, de la data din hotărâre) și alin. (8) (activități independente: venituri efectiv realizate) sunt două recalculări diferite, cu reguli diferite.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "sustine": 0.99,
+     "contrazice": 0.01
+    },
+    "confidence": 0.98
+   }
+  },
+  "usage": 10666
+ },
+ {
+  "loc": "capcana 3",
+  "afirmatii": {
+   "0": {
+    "text": "Pe litera art. 3 alin. (7), cererea de recalculare se face până la împlinirea vârstei de 2 ani; Decizia HP nr. 66/2025 a tranșat că, pentru diferențele salariale acordate ulterior prin hotărâri definitive, recalcularea se face și după această vârstă.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.86,
+     "nu_spune": 0.01,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.13
+    },
+    "confidence": 0.82
+   }
+  },
+  "usage": 10671
+ },
+ {
+  "loc": "verdict",
+  "afirmatii": {
+   "0": {
+    "text": "Potrivit Deciziei HP nr. 66/2025, recalcularea se face la cerere chiar după ce copilul a împlinit 2 ani, atunci când diferențele salariale impozabile au fost acordate ulterior prin hotărâre judecătorească definitivă pentru lunile din perioada de contributivitate — cazul lui Dinu.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.02,
+     "sustine": 0.98
+    },
+    "confidence": 0.97
+   },
+   "1": {
+    "text": "Noul cuantum, calculat cu diferențele de solde în bază (art. 13 alin. (3) și (4)), se acordă de la data prevăzută în hotărâre (art. 3 alin. (7)) și nu poate depăși maximul de 8.500 lei (art. 2 alin. (2)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 0.98,
+     "contrazice": 0.02
+    },
+    "confidence": 0.96
+   }
+  },
+  "usage": 11560
+ }
+]

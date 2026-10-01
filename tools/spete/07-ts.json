@@ -1,0 +1,215 @@
+[
+ {
+  "loc": "Dreptul la concediu fără plată / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 14^1 alin. (1) lit. a) dă cadrelor militare în activitate, în timp de pace, dreptul la concediu fără plată pe o durată de cel mult 4 ani, când solicită să își urmeze soțul sau soția trimis în străinătate de Ministerul Afacerilor Externe pentru o misiune permanentă de peste 6 luni la misiunile diplomatice.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.98,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.02
+    },
+    "confidence": 0.97
+   },
+   "1": {
+    "text": "Enache este exact în această situație, iar concediul se aprobă de ministrul apărării naționale sau de comandanții stabiliți de acesta (alin. (3)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.97,
+     "nu_spune": 0.02,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.01
+    },
+    "confidence": 0.96
+   }
+  },
+  "usage": 4004
+ },
+ {
+  "loc": "Ce pierde pe durata concediului / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 14^1 alin. (5) prevede că în perioada concediului fără plată cadrele militare sunt suspendate din funcție și nu beneficiază de niciun drept din partea Ministerului Apărării Naționale, cu excepția folosirii locuinței de serviciu, dacă dispun de ea.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Alin. (6) adaugă că perioada nu constituie vechime în serviciu pentru stabilirea pensiei, nici vechime în activitate pentru Semnul onorific În Serviciul Patriei ori pentru gradația următoare.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   },
+   "2": {
+    "text": "Cei 2 ani ai lui Enache nu vor conta, deci, la pensie.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.02,
+     "contrazice": 0.04,
+     "sustine": 0.94
+    },
+    "confidence": 0.92
+   }
+  },
+  "usage": 4301
+ },
+ {
+  "loc": "Cât din concediu contează la stagiul în grad / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 14^1 alin. (7) prevede că, în situația de la alin. (1) lit. a), la stabilirea stagiului în gradul deținut se ia în calcul o perioadă egală cu trei pătrimi din durata concediului fără plată.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Trei pătrimi din 2 ani înseamnă 1 an și 6 luni luate în calcul; restul de 6 luni din concediu nu contează la stagiu.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "sustine": 0.99,
+     "nu_spune": 0.0,
+     "contrazice": 0.01
+    },
+    "confidence": 0.98
+   }
+  },
+  "usage": 3667
+ },
+ {
+  "loc": "Stagiul minim pentru maior / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 94 cere pentru căpitan un stagiu minim în grad de 5 ani.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "De la 1 septembrie 2022 la 1 septembrie 2027 Enache are 5 ani calendaristici, din care cei 2 ani de concediu contează doar ca 1 an și 6 luni: stagiul luat în calcul este de 4 ani și 6 luni, sub pragul de 5 ani.",
+    "alegere": "nu_spune",
+    "probabilitati": {
+     "nu_spune": 0.82,
+     "contrazice": 0.13,
+     "sustine": 0.04,
+     "absenta_corecta": 0.01
+    },
+    "confidence": 0.75
+   },
+   "2": {
+    "text": "Îl va îndeplini după încă 6 luni, la 1 martie 2028.",
+    "alegere": "nu_spune",
+    "probabilitati": {
+     "nu_spune": 0.72,
+     "contrazice": 0.1,
+     "sustine": 0.17,
+     "absenta_corecta": 0.01
+    },
+    "confidence": 0.62
+   }
+  },
+  "usage": 3408
+ },
+ {
+  "loc": "capcana 1",
+  "afirmatii": {
+   "0": {
+    "text": "Cât contează concediul fără plată la stagiul în grad depinde de temeiul lui: trei pătrimi pentru urmarea soțului trimis în străinătate (alin. (1) lit. a), alin. (7)); întreaga durată pentru posturile temporare în organizații internaționale (alin. (1) lit. b), alin. (8)); nimic pentru „alte cazuri temeinic motivate” (alin. (2), alin. (8^1)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.99,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.01
+    },
+    "confidence": 0.99
+   }
+  },
+  "usage": 4022
+ },
+ {
+  "loc": "capcana 2",
+  "afirmatii": {
+   "0": {
+    "text": "Duratele: cel mult 4 ani pentru situațiile de la alin. (1), cel mult un an pentru alte cazuri (alin. (2)), iar ministrul poate prelungi cu cel mult un an (alin. (4)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 0.99
+   }
+  },
+  "usage": 3950
+ },
+ {
+  "loc": "capcana 3",
+  "afirmatii": {
+   "0": {
+    "text": "Concediul fără plată nu este vechime în serviciu pentru pensie (alin. (6)), dar poate fi, în parte sau în întregime, stagiu în grad — două socoteli diferite.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 3949
+ },
+ {
+  "loc": "verdict",
+  "afirmatii": {
+   "0": {
+    "text": "Pe durata concediului Enache este suspendat din funcție, fără drepturi de la minister (în afara locuinței de serviciu), iar cei 2 ani nu sunt vechime în serviciu pentru pensie.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 0.99
+   },
+   "1": {
+    "text": "La stagiul în grad contează însă trei pătrimi din concediu, adică 1 an și 6 luni: la 1 septembrie 2027 are 4 ani și 6 luni de stagiu luat în calcul, sub cei 5 ani ceruți de art. 94 pentru căpitan, și va îndeplini stagiul la 1 martie 2028.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.17,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "sustine": 0.83
+    },
+    "confidence": 0.76
+   }
+  },
+  "usage": 4496
+ }
+]

@@ -1,0 +1,60 @@
+{
+ "nr": 7,
+ "nivel": "medie",
+ "titlu": "Căpitanul care își urmează soția la ambasadă",
+ "teme": [6, 2],
+ "fapte": [
+  "Căpitanul Enache, cadru militar în activitate în Ministerul Apărării Naționale, a primit gradul de căpitan la 1 septembrie 2022.",
+  "Soția lui este trimisă de Ministerul Afacerilor Externe într-o misiune permanentă la o ambasadă, pentru 2 ani.",
+  "Enache obține un concediu fără plată pentru a o urma, de la 1 ianuarie 2024 până la 31 decembrie 2025 (2 ani), aprobat de ministrul apărării naționale.",
+  "La 1 septembrie 2027 cere înaintarea în gradul de maior."
+ ],
+ "intrebare": "Ce drepturi are Enache pe durata concediului fără plată și îndeplinește el, la 1 septembrie 2027, stagiul minim în grad pentru maior?",
+ "cifre_derivate": {"1 an și 6 luni": "trei pătrimi din 2 ani", "4 ani și 6 luni": "5 ani calendaristici minus 2 ani de concediu plus 1 an și 6 luni luate în calcul", "2028": "1 septembrie 2027 plus 6 luni = 1 martie 2028"},
+ "sectiuni": [
+  {
+   "titlu": "Dreptul la concediu fără plată",
+   "paragrafe": [
+    "Art. 14^1 alin. (1) lit. a) dă cadrelor militare în activitate, în timp de pace, dreptul la concediu fără plată pe o durată de cel mult 4 ani, când solicită să își urmeze soțul sau soția trimis în străinătate de Ministerul Afacerilor Externe pentru o misiune permanentă de peste 6 luni la misiunile diplomatice. Enache este exact în această situație, iar concediul se aprobă de ministrul apărării naționale sau de comandanții stabiliți de acesta (alin. (3))."
+   ],
+   "temei": [
+    {"act": "Legea nr. 80/1995 privind statutul cadrelor militare", "articol": "art. 14^1 alin. (1) lit. a)", "citat": "În timp de pace, cadrele militare în activitate au dreptul la concedii fără plată, pe o durată de cel mult 4 ani, în următoarele situații: a) solicită să își urmeze soția sau soțul trimis în străinătate de către Ministerul Afacerilor Externe, de alte ministere, autorități administrative autonome, organe ori alte instituții de specialitate ale administrației publice centrale, pentru îndeplinirea unei misiuni permanente în străinătate la misiunile diplomatice, la oficiile consulare sau la alte reprezentanțe naționale, structuri și comandamente din cadrul organizațiilor internaționale din care România face parte, pentru o perioadă mai mare de 6 luni;", "fisier": "01_Legea_80-1995_statutul_cadrelor_militare.txt"},
+    {"act": "Legea nr. 80/1995 privind statutul cadrelor militare", "articol": "art. 14^1 alin. (3)", "citat": "Concediile fără plată prevăzute la alin. 1 și 2 se aprobă de către ministrul apărării naționale sau de către comandanții stabiliți de acesta.", "fisier": "01_Legea_80-1995_statutul_cadrelor_militare.txt"}
+   ]
+  },
+  {
+   "titlu": "Ce pierde pe durata concediului",
+   "paragrafe": [
+    "Art. 14^1 alin. (5) prevede că în perioada concediului fără plată cadrele militare sunt suspendate din funcție și nu beneficiază de niciun drept din partea Ministerului Apărării Naționale, cu excepția folosirii locuinței de serviciu, dacă dispun de ea. Alin. (6) adaugă că perioada nu constituie vechime în serviciu pentru stabilirea pensiei, nici vechime în activitate pentru Semnul onorific În Serviciul Patriei ori pentru gradația următoare. Cei 2 ani ai lui Enache nu vor conta, deci, la pensie."
+   ],
+   "temei": [
+    {"act": "Legea nr. 80/1995 privind statutul cadrelor militare", "articol": "art. 14^1 alin. (5)", "citat": "În perioada concediului fără plată, acordat potrivit prevederilor alin. 1 sau 2, cadrele militare sunt suspendate din funcție și nu beneficiază de niciun drept din partea Ministerului Apărării Naționale, cu excepția celui privind folosirea locuinței de serviciu, în cazul când se dispune de aceasta.", "fisier": "01_Legea_80-1995_statutul_cadrelor_militare.txt"},
+    {"act": "Legea nr. 80/1995 privind statutul cadrelor militare", "articol": "art. 14^1 alin. (6)", "citat": "Perioada concediului fără plată nu constituie vechime în serviciu pentru stabilirea pensiei, vechime în activitate pentru acordarea Semnului onorific În Serviciul Patriei și/sau pentru acordarea gradației următoare în condițiile legii.", "fisier": "01_Legea_80-1995_statutul_cadrelor_militare.txt"}
+   ]
+  },
+  {
+   "titlu": "Cât din concediu contează la stagiul în grad",
+   "paragrafe": [
+    "Art. 14^1 alin. (7) prevede că, în situația de la alin. (1) lit. a), la stabilirea stagiului în gradul deținut se ia în calcul o perioadă egală cu trei pătrimi din durata concediului fără plată. Trei pătrimi din 2 ani înseamnă 1 an și 6 luni luate în calcul; restul de 6 luni din concediu nu contează la stagiu."
+   ],
+   "temei": [
+    {"act": "Legea nr. 80/1995 privind statutul cadrelor militare", "articol": "art. 14^1 alin. (7)", "citat": "În situația prevăzută la alin. 1 lit. a), la stabilirea stagiului în gradul pe care îl au cadrele militare se ia în calcul o perioadă egală cu trei pătrimi din durata concediului fără plată.", "fisier": "01_Legea_80-1995_statutul_cadrelor_militare.txt"}
+   ]
+  },
+  {
+   "titlu": "Stagiul minim pentru maior",
+   "paragrafe": [
+    "Art. 94 cere pentru căpitan un stagiu minim în grad de 5 ani. De la 1 septembrie 2022 la 1 septembrie 2027 Enache are 5 ani calendaristici, din care cei 2 ani de concediu contează doar ca 1 an și 6 luni: stagiul luat în calcul este de 4 ani și 6 luni, sub pragul de 5 ani. Îl va îndeplini după încă 6 luni, la 1 martie 2028."
+   ],
+   "temei": [
+    {"act": "Legea nr. 80/1995 privind statutul cadrelor militare", "articol": "art. 94 lit. A c)", "citat": "A. Pentru ofițeri: a) sublocotenent și aspirant 3 ani b) locotenent 5 ani c) căpitan 5 ani", "fisier": "01_Legea_80-1995_statutul_cadrelor_militare.txt"}
+   ]
+  }
+ ],
+ "verdict": "Pe durata concediului Enache este suspendat din funcție, fără drepturi de la minister (în afara locuinței de serviciu), iar cei 2 ani nu sunt vechime în serviciu pentru pensie. La stagiul în grad contează însă trei pătrimi din concediu, adică 1 an și 6 luni: la 1 septembrie 2027 are 4 ani și 6 luni de stagiu luat în calcul, sub cei 5 ani ceruți de art. 94 pentru căpitan, și va îndeplini stagiul la 1 martie 2028.",
+ "capcane": [
+  "Cât contează concediul fără plată la stagiul în grad depinde de temeiul lui: trei pătrimi pentru urmarea soțului trimis în străinătate (alin. (1) lit. a), alin. (7)); întreaga durată pentru posturile temporare în organizații internaționale (alin. (1) lit. b), alin. (8)); nimic pentru „alte cazuri temeinic motivate” (alin. (2), alin. (8^1)).",
+  "Duratele: cel mult 4 ani pentru situațiile de la alin. (1), cel mult un an pentru alte cazuri (alin. (2)), iar ministrul poate prelungi cu cel mult un an (alin. (4)).",
+  "Concediul fără plată nu este vechime în serviciu pentru pensie (alin. (6)), dar poate fi, în parte sau în întregime, stagiu în grad — două socoteli diferite."
+ ]
+}

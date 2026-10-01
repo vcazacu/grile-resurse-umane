@@ -1,0 +1,143 @@
+[
+ {
+  "loc": "Ce spune legea despre sporul de noapte / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 20 alin. (1) din Legea-cadru nr. 153/2017 dă personalului care, potrivit programului normal de lucru, își desfășoară activitatea între orele 22,00 și 6,00 un spor de 25% din solda de funcție, pentru orele lucrate în acest interval, cu o condiție: timpul astfel lucrat să reprezinte cel puțin 3 ore de noapte din timpul normal de lucru.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.17,
+     "sustine": 0.82,
+     "nu_spune": 0.01,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 0.77
+   }
+  },
+  "usage": 2601
+ },
+ {
+  "loc": "Aplicarea la cei doi / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Pop lucrează doar 2 ore în intervalul 22,00–6,00, sub pragul de cel puțin 3 ore de noapte, deci nu primește sporul pentru nicio oră.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.03,
+     "sustine": 0.93,
+     "nu_spune": 0.0,
+     "contrazice": 0.04
+    },
+    "confidence": 0.91
+   },
+   "1": {
+    "text": "Radu lucrează 8 ore în interval, peste prag, deci primește sporul de 25% din solda de funcție pentru cele 8 ore lucrate noaptea, nu pentru întreaga lună de activitate.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "sustine": 0.96,
+     "nu_spune": 0.0,
+     "contrazice": 0.04
+    },
+    "confidence": 0.95
+   }
+  },
+  "usage": 2836
+ },
+ {
+  "loc": "Sporul de noapte și limita sporurilor / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 20 alin. (2) precizează că sporul de noapte nu se ia în calcul la determinarea limitei sporurilor, compensațiilor, primelor, premiilor și indemnizațiilor prevăzute la art. 25; sporul lui Radu nu consumă, așadar, din acea limită.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.97,
+     "contrazice": 0.01,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.02
+    },
+    "confidence": 0.95
+   }
+  },
+  "usage": 2389
+ },
+ {
+  "loc": "capcana 1",
+  "afirmatii": {
+   "0": {
+    "text": "Condiția este „cel puțin 3 ore de noapte din timpul normal de lucru”, nu orice oră lucrată după 22,00; iar sporul se plătește doar pentru orele din interval, nu pentru toată tura.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 2396
+ },
+ {
+  "loc": "capcana 2",
+  "afirmatii": {
+   "0": {
+    "text": "Intervalul de noapte din Legea-cadru nr. 153/2017 este 22,00–6,00; procentul este 25% și se aplică la solda de funcție (la militari), respectiv la salariul de bază sau la indemnizația de încadrare.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.04,
+     "contrazice": 0.13,
+     "sustine": 0.83,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 0.78
+   }
+  },
+  "usage": 2418
+ },
+ {
+  "loc": "capcana 3",
+  "afirmatii": {
+   "0": {
+    "text": "Sporul de noapte nu intră în limita sporurilor de la art. 25 (art. 20 alin. (2)) — o grilă poate întreba exact asta.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.01,
+     "sustine": 0.98,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.01
+    },
+    "confidence": 0.97
+   }
+  },
+  "usage": 2443
+ },
+ {
+  "loc": "verdict",
+  "afirmatii": {
+   "0": {
+    "text": "Numai Radu: are 8 ore în intervalul 22,00–6,00, peste pragul de cel puțin 3 ore de noapte, și primește 25% din solda de funcție pentru orele lucrate în interval.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "contrazice": 0.08,
+     "sustine": 0.92,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.89
+   },
+   "1": {
+    "text": "Pop, cu 2 ore în interval, nu îndeplinește condiția și nu primește sporul.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.07,
+     "contrazice": 0.0,
+     "sustine": 0.93,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.9
+   }
+  },
+  "usage": 2868
+ }
+]

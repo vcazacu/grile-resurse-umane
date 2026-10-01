@@ -1,0 +1,76 @@
+{
+ "nr": 8,
+ "nivel": "medie",
+ "titlu": "Maiorul trecut în rezervă prin reorganizare la 48 de ani",
+ "teme": [13, 7],
+ "fapte": [
+  "Maiorul Stoica are 48 de ani. Este ofițer în activitate din 2001, cu 25 de ani vechime în serviciu la 1 iulie 2026, din care 8 ani lucrați în condiții speciale, stabilite potrivit Hotărârii Guvernului nr. 1.294/2001. Nu a lucrat niciodată în civilie.",
+  "La 1 iulie 2026 este trecut în rezervă ca urmare a reorganizării unității și a reducerii funcției sale din statul de organizare.",
+  "Vârsta standard de pensionare care i se aplică, potrivit eșalonării din anexa nr. 1, este de 60 de ani."
+ ],
+ "intrebare": "Ce fel de pensie de serviciu poate obține Stoica la trecerea în rezervă, pe ce vechime și cu ce procent se calculează, și ce se întâmplă cu ea la împlinirea vârstei standard?",
+ "calcul": {
+  "serviciu": {"ofițer în activitate": 25},
+  "munca": {},
+  "conditii": {"speciale": 8}
+ },
+ "cifre_derivate": {"55": "vârsta standard de 60 de ani diminuată cu 5 ani"},
+ "sectiuni": [
+  {
+   "titlu": "Cele trei pensii de serviciu",
+   "paragrafe": [
+    "Art. 15 arată că pensia de serviciu poate fi pentru limită de vârstă, anticipată sau anticipată parțială. Pensia pentru limită de vârstă cere, potrivit art. 16 alin. (1) lit. a), împlinirea vârstei standard de pensionare, pe care Stoica, la 48 de ani, nu o are; rămân de verificat celelalte două."
+   ],
+   "temei": [
+    {"act": "Legea nr. 223/2015 privind pensiile militare de stat", "articol": "art. 15", "citat": "Pensia de serviciu poate fi: a) pentru limită de vârstă; b) anticipată; c) anticipată parțială.", "fisier": "04_Legea_223-2015_pensiile_militare.txt"},
+    {"act": "Legea nr. 223/2015 privind pensiile militare de stat", "articol": "art. 16 alin. (1)", "citat": "Au dreptul la pensie de serviciu pentru limită de vârstă militarii, polițiștii și funcționarii publici cu statut special, în activitate, care îndeplinesc cumulativ următoarele condiții: a) au împlinit vârsta standard de pensionare pentru limită de vârstă;", "fisier": "04_Legea_223-2015_pensiile_militare.txt"}
+   ]
+  },
+  {
+   "titlu": "Pensia anticipată: vârsta standard minus 5 ani",
+   "paragrafe": [
+    "Art. 17 alin. (1) dă pensie de serviciu anticipată celor care îndeplinesc cumulativ vechimea de la art. 16 alin. (1) lit. b), au împlinit vârsta standard de pensionare diminuată cu 5 ani și se află într-una dintre situațiile enumerate, între care trecerea în rezervă ca urmare a reorganizării unor unități și a reducerii unor funcții (lit. a)). Stoica are situația și vechimea, dar vârsta standard de 60 de ani diminuată cu 5 ani înseamnă 55 de ani, iar el are 48: pensia anticipată este exclusă."
+   ],
+   "temei": [
+    {"act": "Legea nr. 223/2015 privind pensiile militare de stat", "articol": "art. 17 alin. (1)", "citat": "Au dreptul la pensie de serviciu anticipată militarii, polițiștii și funcționarii publici cu statut special, în activitate, care îndeplinesc cumulativ condițiile de vechime prevăzute la art. 16 alin. (1) lit. b), au împlinit vârsta standard de pensionare pentru limită de vârstă diminuată cu 5 ani și se află în una dintre următoarele situații: a) sunt trecuți în rezervă ori au încetat raporturile de serviciu ca urmare a reorganizării unor unități și a reducerii unor funcții din statele de organizare, precum și pentru alte motive sau nevoi ale instituțiilor din domeniul apărării naționale, ordinii publice și securității naționale;", "fisier": "04_Legea_223-2015_pensiile_militare.txt"}
+   ]
+  },
+  {
+   "titlu": "Pensia anticipată parțială: fără condiție de vârstă",
+   "paragrafe": [
+    "Art. 18 alin. (1) dă pensie de serviciu anticipată parțială celor în activitate care au o vechime efectivă de minimum 20 de ani, dintre care cel puțin 10 ani vechime în serviciu, și se află într-una dintre aceleași situații, între care reorganizarea și reducerea funcțiilor (lit. a)); nu există condiție de vârstă. Stoica are 25 de ani vechime în serviciu, deci și o vechime efectivă de 25 de ani, și este trecut în rezervă prin reorganizare: îndeplinește condițiile pensiei anticipate parțiale."
+   ],
+   "temei": [
+    {"act": "Legea nr. 223/2015 privind pensiile militare de stat", "articol": "art. 18 alin. (1)", "citat": "Au dreptul la pensie de serviciu anticipată parțială militarii, polițiștii și funcționarii publici cu statut special, în activitate, care au o vechime efectivă de minimum 20 de ani, dintre care cel puțin 10 ani vechime în serviciu, și care se află în una dintre următoarele situații: a) sunt trecuți în rezervă ori au încetat raporturile de serviciu, ca urmare a reorganizării unor unități și a reducerii unor funcții din statele de organizare, precum și pentru alte motive sau nevoi ale instituțiilor din domeniul apărării naționale, ordinii publice și securității naționale;", "fisier": "04_Legea_223-2015_pensiile_militare.txt"},
+    {"act": "Legea nr. 223/2015 privind pensiile militare de stat", "articol": "art. 3 lit. g)", "citat": "g) vechime efectivă - vechimea prevăzută la lit. f), care nu cuprinde sporurile acordate pentru activitatea desfășurată în condiții deosebite, speciale sau alte condiții de muncă, respectiv grupa I și/sau a II-a de muncă;", "fisier": "04_Legea_223-2015_pensiile_militare.txt"}
+   ]
+  },
+  {
+   "titlu": "Pe ce vechime și cu ce procent se calculează",
+   "paragrafe": [
+    "Art. 18 alin. (2) prevede că cuantumul pensiei anticipate parțiale se calculează pentru numărul anilor de vechime în serviciu stabiliți în condițiile art. 3 lit. e), la care se adaugă sporurile acordate conform art. 24. Pentru cei 8 ani în condiții speciale, art. 24 lit. b) socotește 1 an și 6 luni pentru fiecare an lucrat efectiv, deci un spor de 4 ani; vechimea de calcul este de 25 plus 4, adică 29 de ani. Art. 29 alin. (1) dă 65% din baza de calcul la o vechime cumulată de cel puțin 25 de ani și câte 1% pentru fiecare an în plus: cu 29 de ani, pensia este de 69% din baza de calcul."
+   ],
+   "arata_calcul": true,
+   "temei": [
+    {"act": "Legea nr. 223/2015 privind pensiile militare de stat", "articol": "art. 18 alin. (2)", "citat": "Cuantumul pensiei anticipate parțiale pentru militarii, polițiștii și funcționarii publici cu statut special în activitate prevăzuți la alin. (1) se calculează pentru numărul anilor de vechime în serviciu stabiliți în condițiile art. 3 lit. e), la care se adaugă sporurile acordate conform art. 24.", "fisier": "04_Legea_223-2015_pensiile_militare.txt"},
+    {"act": "Legea nr. 223/2015 privind pensiile militare de stat", "articol": "art. 24", "citat": "La stabilirea pensiei se ia în calcul, pentru fiecare an lucrat efectiv, în condițiile stabilite de Hotărârea Guvernului nr. 1.294/2001, cu modificările ulterioare, și de Hotărârea Guvernului nr. 1.822/2004, cu modificările ulterioare, astfel: a) 1 an și 3 luni, în cazul celor care și-au desfășurat activitatea în condiții deosebite; b) 1 an și 6 luni, în cazul celor care și-au desfășurat activitatea în condiții speciale;", "fisier": "04_Legea_223-2015_pensiile_militare.txt"},
+    {"act": "Legea nr. 223/2015 privind pensiile militare de stat", "articol": "art. 29 alin. (1)", "citat": "Cuantumul pensiei de serviciu se determină în procente din baza de calcul, astfel: a) militarii, polițiștii și funcționarii publici cu statut special, cu vechime cumulată conform art. 3 lit. f) de cel puțin 25 de ani, beneficiază, la împlinirea vârstei prevăzute de lege, de pensie de serviciu, în cuantum de 65% din baza de calcul prevăzută la art. 28; b) pentru fiecare an care depășește vechimea prevăzută la lit. a), la cuantumul pensiei se adaugă câte 1% din baza de calcul prevăzută la art. 28.", "fisier": "04_Legea_223-2015_pensiile_militare.txt"}
+   ]
+  },
+  {
+   "titlu": "Ce se întâmplă la vârsta standard",
+   "paragrafe": [
+    "Art. 18 alin. (3) prevede că, la împlinirea vârstei standard de pensionare, pensia de serviciu anticipată parțială devine pensie de serviciu pentru limită de vârstă, iar cuantumul pensiei militare se recalculează prin raportare la vechimea cumulată calculată la data trecerii în rezervă. La 60 de ani, pensia lui Stoica se transformă de drept, pe baza vechimii de la 1 iulie 2026, nu a unei vechimi noi."
+   ],
+   "temei": [
+    {"act": "Legea nr. 223/2015 privind pensiile militare de stat", "articol": "art. 18 alin. (3)", "citat": "La împlinirea vârstei standard de pensionare, prevăzută de prezenta lege, pensia de serviciu anticipată parțială devine pensie de serviciu pentru limită de vârstă, iar cuantumul pensiei militare se recalculează prin raportare la vechimea cumulată calculată la data trecerii în rezervă ori a încetării raporturilor de serviciu.", "fisier": "04_Legea_223-2015_pensiile_militare.txt"}
+   ]
+  }
+ ],
+ "verdict": "Pensie de serviciu anticipată parțială (art. 18): are vechimea efectivă de 25 de ani, din care tot 25 vechime în serviciu, și este trecut în rezervă prin reorganizare; pensia anticipată (art. 17) e exclusă, fiindcă la 48 de ani nu a împlinit vârsta standard de 60 de ani diminuată cu 5 ani. Cuantumul se calculează pe 29 de ani (25 de ani vechime în serviciu plus sporul de 4 ani pentru cei 8 ani în condiții speciale), adică 69% din baza de calcul; la 60 de ani devine pensie pentru limită de vârstă, recalculată pe vechimea cumulată de la data trecerii în rezervă.",
+ "capcane": [
+  "Anticipată și anticipată parțială nu diferă doar prin nume: anticipata (art. 17) cere vechimea de la art. 16 alin. (1) lit. b) și vârsta standard minus 5 ani; anticipata parțială (art. 18) cere 20 de ani vechime efectivă, din care 10 în serviciu, și nu are condiție de vârstă. Situațiile (reorganizare, inapt sau apt limitat) sunt aceleași la amândouă.",
+  "La anticipata parțială, cuantumul se calculează pe vechimea în serviciu plus sporurile de la art. 24 (art. 18 alin. (2)); vechimea în muncă din civilie, dacă ar fi existat, nu ar fi intrat în acest calcul.",
+  "Diminuarea vârstei standard cu 5 ani de la art. 17 nu se cumulează cu nicio altă reducere (art. 17 alin. (2)), iar transformarea de la art. 18 alin. (3) se face pe vechimea cumulată de la data trecerii în rezervă, nu pe una recalculată la împlinirea vârstei."
+ ]
+}

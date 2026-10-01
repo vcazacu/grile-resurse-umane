@@ -1,0 +1,51 @@
+{
+ "nr": 5,
+ "nivel": "medie",
+ "titlu": "Văduva cu 12 ani de căsătorie și pensia de urmaș",
+ "teme": [13],
+ "fapte": [
+  "Maiorul în rezervă Georgescu, pensionar militar, a decedat la 1 iulie 2026, din cauze fără legătură cu serviciul militar.",
+  "Soția lui, Elena, are 66 de ani. S-au căsătorit la 1 martie 2014, deci căsătoria a durat 12 ani și 4 luni.",
+  "Elena nu lucrează și nu realizează venituri dintr-o activitate profesională; nu este încadrată în grad de invaliditate.",
+  "Vârsta standard de pensionare pentru limită de vârstă, prevăzută la art. 16 alin. (2), este de 65 de ani."
+ ],
+ "intrebare": "Are Elena dreptul la pensie de urmaș pe tot timpul vieții și în ce cuantum față de pensia care i s-ar fi cuvenit la o căsătorie de 15 ani?",
+ "cifre_derivate": {"2": "15 ani minus 12 ani și 4 luni = 2 ani și 8 luni", "8": "idem", "32": "2 ani și 8 luni = 32 de luni", "16": "32 de luni × 0,5% = 16%; la fel, 2 ani × 6,0% + 8 luni × 0,5% = 12% + 4% = 16%", "12": "2 ani × 6,0% = 12%", "4": "8 luni × 0,5% = 4%"},
+ "sectiuni": [
+  {
+   "titlu": "Condițiile pentru pensia de urmaș pe tot timpul vieții",
+   "paragrafe": [
+    "Art. 49 alin. (1) dă soțului supraviețuitor dreptul la pensie de urmaș pe tot timpul vieții dacă, cumulativ, a împlinit vârsta prevăzută la art. 16 alin. (2), durata căsătoriei a fost de cel puțin 15 ani și nu realizează venituri lunare dintr-o activitate profesională pentru care asigurarea este obligatorie ori acestea sunt sub 35% din câștigul salarial mediu brut. Elena are 66 de ani, deci peste cei 65 de ani de la art. 16 alin. (2), și nu realizează venituri; dar căsătoria a durat 12 ani și 4 luni, sub pragul de 15 ani."
+   ],
+   "temei": [
+    {"act": "Legea nr. 223/2015 privind pensiile militare de stat", "articol": "art. 49 alin. (1)", "citat": "Soțul supraviețuitor are dreptul la pensie de urmaș pe tot timpul vieții, la împlinirea vârstei prevăzute la art. 16 alin. (2), dacă durata căsătoriei cu persoana decedată a fost de cel puțin 15 ani și nu realizează venituri lunare provenite dintr-o activitate profesională pentru care asigurarea este obligatorie sau acestea sunt mai mici de 35% din câștigul salarial mediu brut utilizat la fundamentarea bugetului asigurărilor sociale de stat.", "fisier": "04_Legea_223-2015_pensiile_militare.txt"},
+    {"act": "Legea nr. 223/2015 privind pensiile militare de stat", "articol": "art. 16 alin. (2)", "citat": "Vârsta standard de pensionare pentru limită de vârstă, prevăzută la alin. (1) lit. a), este de 65 de ani.", "fisier": "04_Legea_223-2015_pensiile_militare.txt"}
+   ]
+  },
+  {
+   "titlu": "Căsătoria între 10 și 15 ani: diminuarea",
+   "paragrafe": [
+    "Art. 49 alin. (2) acoperă exact situația ei: dacă durata căsătoriei a fost mai mică de 15 ani, dar de cel puțin 10 ani, cuantumul pensiei de urmaș se diminuează cu 0,5% pentru fiecare lună, respectiv 6,0% pentru fiecare an de căsătorie în minus. Față de 15 ani lipsesc 2 ani și 8 luni, adică 32 de luni; diminuarea este de 32 ori 0,5%, adică 16% din cuantumul pensiei de urmaș. Același rezultat iese pe ani și luni: 2 ani ori 6,0% dau 12%, iar 8 luni ori 0,5% dau 4%."
+   ],
+   "temei": [
+    {"act": "Legea nr. 223/2015 privind pensiile militare de stat", "articol": "art. 49 alin. (2)", "citat": "În cazul în care durata căsătoriei a fost mai mică de 15 ani, dar de cel puțin 10 ani, cuantumul pensiei de urmaș cuvenite soțului supraviețuitor se diminuează cu 0,5% pentru fiecare lună, respectiv 6,0% pentru fiecare an de căsătorie în minus.", "fisier": "04_Legea_223-2015_pensiile_militare.txt"}
+   ]
+  },
+  {
+   "titlu": "Excepțiile de la art. 50 nu se aplică",
+   "paragrafe": [
+    "Art. 50 alin. (1) dă dreptul la pensie de urmaș indiferent de vârstă soțului supraviețuitor invalid de gradul I sau II, la o căsătorie de cel puțin un an, iar alin. (2) înlătură condițiile de vârstă și de durată a căsătoriei dacă decesul s-a produs ca urmare a unui accident de muncă sau a unei boli contractate în timpul și din cauza serviciului militar. Elena nu este invalidă, iar decesul nu are legătură cu serviciul, deci rămâne la regula de la art. 49."
+   ],
+   "temei": [
+    {"act": "Legea nr. 223/2015 privind pensiile militare de stat", "articol": "art. 50 alin. (1)", "citat": "Soțul supraviețuitor are dreptul la pensie de urmaș, indiferent de vârstă, pe perioada în care este invalid de gradul I sau II, dacă durata căsătoriei a fost de cel puțin un an.", "fisier": "04_Legea_223-2015_pensiile_militare.txt"},
+    {"act": "Legea nr. 223/2015 privind pensiile militare de stat", "articol": "art. 50 alin. (2)", "citat": "Soțul supraviețuitor are dreptul la pensie de urmaș, indiferent de vârsta și de durata căsătoriei, dacă decesul soțului susținător s-a produs ca urmare a unui accident de muncă sau a unei boli contractate în timpul și din cauza îndeplinirii serviciului militar/serviciului, asimilată unei boli profesionale", "fisier": "04_Legea_223-2015_pensiile_militare.txt"}
+   ]
+  }
+ ],
+ "verdict": "Da. Elena îndeplinește condițiile de vârstă și de venituri de la art. 49 alin. (1), iar căsătoria de 12 ani și 4 luni cade în intervalul de la alin. (2): pensia de urmaș pe tot timpul vieții i se cuvine, diminuată cu 16% (32 de luni lipsă ori 0,5%) față de cuantumul cuvenit la o căsătorie de cel puțin 15 ani.",
+ "capcane": [
+  "Condiția de venit de la art. 49 alin. (1) se omite ușor: dreptul pe tot timpul vieții cere cumulativ vârsta, 15 ani de căsătorie și lipsa veniturilor dintr-o activitate profesională (ori venituri sub 35% din câștigul salarial mediu brut).",
+  "Diminuarea de la alin. (2) se aplică numai între 10 și 15 ani de căsătorie; sub 10 ani nu există pensie de urmaș pe tot timpul vieții pe acest temei. Cele două cote spun același lucru: 0,5% pe lună înseamnă 6,0% pe an.",
+  "Art. 50 schimbă regulile doar pentru soțul invalid de gradul I sau II (un an de căsătorie, fără condiție de vârstă) și pentru decesul cauzat de accident de muncă ori de boală contractată din cauza serviciului (fără condiții de vârstă și durată)."
+ ]
+}

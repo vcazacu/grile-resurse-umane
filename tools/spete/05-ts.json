@@ -1,0 +1,176 @@
+[
+ {
+  "loc": "Condițiile pentru pensia de urmaș pe tot timpul vieții / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 49 alin. (1) dă soțului supraviețuitor dreptul la pensie de urmaș pe tot timpul vieții dacă, cumulativ, a împlinit vârsta prevăzută la art. 16 alin. (2), durata căsătoriei a fost de cel puțin 15 ani și nu realizează venituri lunare dintr-o activitate profesională pentru care asigurarea este obligatorie ori acestea sunt sub 35% din câștigul salarial mediu brut.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.99,
+     "contrazice": 0.01,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 0.99
+   },
+   "1": {
+    "text": "Elena are 66 de ani, deci peste cei 65 de ani de la art. 16 alin. (2), și nu realizează venituri; dar căsătoria a durat 12 ani și 4 luni, sub pragul de 15 ani.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.89,
+     "contrazice": 0.04,
+     "nu_spune": 0.02,
+     "absenta_corecta": 0.05
+    },
+    "confidence": 0.86
+   }
+  },
+  "usage": 3683
+ },
+ {
+  "loc": "Căsătoria între 10 și 15 ani: diminuarea / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 49 alin. (2) acoperă exact situația ei: dacă durata căsătoriei a fost mai mică de 15 ani, dar de cel puțin 10 ani, cuantumul pensiei de urmaș se diminuează cu 0,5% pentru fiecare lună, respectiv 6,0% pentru fiecare an de căsătorie în minus.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.01,
+     "nu_spune": 0.0,
+     "sustine": 0.99,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 0.99
+   },
+   "1": {
+    "text": "Față de 15 ani lipsesc 2 ani și 8 luni, adică 32 de luni; diminuarea este de 32 ori 0,5%, adică 16% din cuantumul pensiei de urmaș.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.01,
+     "nu_spune": 0.01,
+     "sustine": 0.98,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 0.97
+   },
+   "2": {
+    "text": "Același rezultat iese pe ani și luni: 2 ani ori 6,0% dau 12%, iar 8 luni ori 0,5% dau 4%.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 0.99
+   }
+  },
+  "usage": 3582
+ },
+ {
+  "loc": "Excepțiile de la art. 50 nu se aplică / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 50 alin. (1) dă dreptul la pensie de urmaș indiferent de vârstă soțului supraviețuitor invalid de gradul I sau II, la o căsătorie de cel puțin un an, iar alin. (2) înlătură condițiile de vârstă și de durată a căsătoriei dacă decesul s-a produs ca urmare a unui accident de muncă sau a unei boli contractate în timpul și din cauza serviciului militar.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "contrazice": 0.04,
+     "sustine": 0.96,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.94
+   },
+   "1": {
+    "text": "Elena nu este invalidă, iar decesul nu are legătură cu serviciul, deci rămâne la regula de la art. 49.",
+    "alegere": "nu_spune",
+    "probabilitati": {
+     "absenta_corecta": 0.13,
+     "contrazice": 0.14,
+     "sustine": 0.26,
+     "nu_spune": 0.47
+    },
+    "confidence": 0.3
+   }
+  },
+  "usage": 3141
+ },
+ {
+  "loc": "capcana 1",
+  "afirmatii": {
+   "0": {
+    "text": "Condiția de venit de la art. 49 alin. (1) se omite ușor: dreptul pe tot timpul vieții cere cumulativ vârsta, 15 ani de căsătorie și lipsa veniturilor dintr-o activitate profesională (ori venituri sub 35% din câștigul salarial mediu brut).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.03,
+     "absenta_corecta": 0.01,
+     "sustine": 0.9,
+     "nu_spune": 0.06
+    },
+    "confidence": 0.87
+   }
+  },
+  "usage": 3656
+ },
+ {
+  "loc": "capcana 2",
+  "afirmatii": {
+   "0": {
+    "text": "Diminuarea de la alin. (2) se aplică numai între 10 și 15 ani de căsătorie; sub 10 ani nu există pensie de urmaș pe tot timpul vieții pe acest temei.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.02,
+     "contrazice": 0.18,
+     "sustine": 0.66,
+     "absenta_corecta": 0.14
+    },
+    "confidence": 0.56
+   },
+   "1": {
+    "text": "Cele două cote spun același lucru: 0,5% pe lună înseamnă 6,0% pe an.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.01,
+     "contrazice": 0.02,
+     "sustine": 0.96,
+     "absenta_corecta": 0.01
+    },
+    "confidence": 0.96
+   }
+  },
+  "usage": 3933
+ },
+ {
+  "loc": "capcana 3",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 50 schimbă regulile doar pentru soțul invalid de gradul I sau II (un an de căsătorie, fără condiție de vârstă) și pentru decesul cauzat de accident de muncă ori de boală contractată din cauza serviciului (fără condiții de vârstă și durată).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.01,
+     "contrazice": 0.04,
+     "sustine": 0.95
+    },
+    "confidence": 0.93
+   }
+  },
+  "usage": 3489
+ },
+ {
+  "loc": "verdict",
+  "afirmatii": {
+   "0": {
+    "text": "Elena îndeplinește condițiile de vârstă și de venituri de la art. 49 alin. (1), iar căsătoria de 12 ani și 4 luni cade în intervalul de la alin. (2): pensia de urmaș pe tot timpul vieții i se cuvine, diminuată cu 16% (32 de luni lipsă ori 0,5%) față de cuantumul cuvenit la o căsătorie de cel puțin 15 ani.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.21,
+     "sustine": 0.79
+    },
+    "confidence": 0.72
+   }
+  },
+  "usage": 3688
+ }
+]

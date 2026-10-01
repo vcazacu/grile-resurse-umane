@@ -50,6 +50,13 @@ const FISIERE = [
   "./spete/01-plutonierul-major-care-cere-inaintarea-in-grad.html",
   "./spete/02-trei-feluri-de-vechime-pentru-acelasi-capitan.html",
   "./spete/03-compensatia-de-chirie-casa-construita-cu-credit-si-decizia.html",
+  "./spete/04-mustrarea-scrisa-aplicata-la-opt-luni-dupa-constatare.html",
+  "./spete/05-vaduva-cu-12-ani-de-casatorie-si-pensia-de-urmas.html",
+  "./spete/06-doi-subofiteri-in-ture-de-noapte-si-sporul-de-25.html",
+  "./spete/07-capitanul-care-isi-urmeaza-sotia-la-ambasada.html",
+  "./spete/08-maiorul-trecut-in-rezerva-prin-reorganizare-la-48-de-ani.html",
+  "./spete/09-recalcularea-indemnizatiei-de-crestere-a-copilului-dupa-ce.html",
+  "./spete/10-referenta-civila-delegata-inca-60-de-zile-fara-sa-fie.html",
   /* SPETE-END */
 ];
 
