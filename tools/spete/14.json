@@ -1,0 +1,49 @@
+{
+ "nr": 14,
+ "nivel": "simpla",
+ "titlu": "Perioada de probă de 120 de zile pentru un referent",
+ "teme": [9],
+ "fapte": [
+  "Doamna Toma este angajată ca referent (funcție de execuție), personal civil contractual, într-o unitate militară, cu contract individual de muncă încheiat la 1 februarie 2026.",
+  "În contract, angajatorul a trecut o perioadă de probă de 120 de zile calendaristice.",
+  "Cu 8 luni înainte, în iunie 2025, Toma lucrase la aceeași unitate, pe aceeași funcție de referent, cu aceleași atribuții, cu un contract pe durată determinată care a încetat în august 2025; atunci trecuse deja o perioadă de probă."
+ ],
+ "intrebare": "Este legală perioada de probă de 120 de zile? Și putea angajatorul să stabilească o nouă perioadă de probă?",
+ "sectiuni": [
+  {
+   "titlu": "Durata maximă a perioadei de probă",
+   "paragrafe": [
+    "Art. 31 alin. (1) permite, pentru verificarea aptitudinilor salariatului, o perioadă de probă de cel mult 90 de zile calendaristice pentru funcțiile de execuție și de cel mult 120 de zile calendaristice pentru funcțiile de conducere. Referentul este funcție de execuție, deci perioada de probă nu putea depăși 90 de zile; cele 120 de zile sunt rezervate funcțiilor de conducere."
+   ],
+   "temei": [
+    {"act": "Legea nr. 53/2003 – Codul muncii", "articol": "art. 31 alin. (1)", "citat": "Pentru verificarea aptitudinilor salariatului, la încheierea contractului individual de muncă se poate stabili o perioadă de probă de cel mult 90 de zile calendaristice pentru funcțiile de execuție și de cel mult 120 de zile calendaristice pentru funcțiile de conducere.", "fisier": "03_Legea_53-2003_Codul_muncii.txt"}
+   ]
+  },
+  {
+   "titlu": "O nouă perioadă de probă la aceeași funcție",
+   "paragrafe": [
+    "Art. 32 alin. (1) prevede că pe durata executării unui contract individual de muncă nu poate fi stabilită decât o singură perioadă de probă, iar alin. (2^1) interzice stabilirea unei noi perioade de probă în cazul în care, în termen de 12 luni, între aceleași părți se încheie un nou contract individual de muncă pentru aceeași funcție și cu aceleași atribuții. Contractul anterior al lui Toma a încetat în august 2025, iar cel nou s-a încheiat la 1 februarie 2026, la mai puțin de 12 luni, pentru aceeași funcție de referent și cu aceleași atribuții: angajatorul nu putea stabili nicio perioadă de probă."
+   ],
+   "temei": [
+    {"act": "Legea nr. 53/2003 – Codul muncii", "articol": "art. 32 alin. (1)", "citat": "Pe durata executării unui contract individual de muncă nu poate fi stabilită decât o singură perioadă de probă.", "fisier": "03_Legea_53-2003_Codul_muncii.txt"},
+    {"act": "Legea nr. 53/2003 – Codul muncii", "articol": "art. 32 alin. (2^1)", "citat": "Este interzisă stabilirea unei noi perioade de probă în cazul în care, în termen de 12 luni, între aceleași părți se încheie un nou contract individual de muncă pentru aceeași funcție și cu aceleași atribuții", "fisier": "03_Legea_53-2003_Codul_muncii.txt"}
+   ]
+  },
+  {
+   "titlu": "Drepturile pe durata probei",
+   "paragrafe": [
+    "Chiar și acolo unde o perioadă de probă este legală, art. 31 alin. (4) dă salariatului, pe durata ei, toate drepturile și obligațiile prevăzute în legislația muncii, în contractul colectiv aplicabil, în regulamentul intern și în contractul individual de muncă, iar art. 32 alin. (3) o socotește vechime în muncă. Perioada de probă nu este o perioadă fără drepturi."
+   ],
+   "temei": [
+    {"act": "Legea nr. 53/2003 – Codul muncii", "articol": "art. 31 alin. (4)", "citat": "Pe durata perioadei de probă salariatul beneficiază de toate drepturile și are toate obligațiile prevăzute în legislația muncii, în contractul colectiv de muncă aplicabil, în regulamentul intern, precum și în contractul individual de muncă.", "fisier": "03_Legea_53-2003_Codul_muncii.txt"},
+    {"act": "Legea nr. 53/2003 – Codul muncii", "articol": "art. 32 alin. (3)", "citat": "Perioada de probă constituie vechime în muncă.", "fisier": "03_Legea_53-2003_Codul_muncii.txt"}
+   ]
+  }
+ ],
+ "verdict": "Perioada de probă este nelegală pe două temeiuri: pentru o funcție de execuție maximul este de 90 de zile calendaristice, nu 120 (art. 31 alin. (1)); și, oricum, între aceleași părți, pentru aceeași funcție cu aceleași atribuții, la mai puțin de 12 luni de la contractul anterior, nu se mai poate stabili nicio perioadă de probă (art. 32 alin. (2^1)).",
+ "capcane": [
+  "Cele două plafoane: 90 de zile calendaristice pentru execuție, 120 pentru conducere; pentru persoanele cu handicap, perioada de probă este de maximum 30 de zile calendaristice și este singura modalitate de verificare (art. 31 alin. (2)).",
+  "O singură perioadă de probă pe contract (art. 32 alin. (1)); o nouă probă este posibilă doar la o nouă funcție sau profesie ori la un loc de muncă cu condiții grele, vătămătoare sau periculoase (alin. (2)) — și niciodată la recontractarea aceleiași funcții în 12 luni (alin. (2^1)).",
+  "Pe durata sau la sfârșitul probei, contractul poate înceta printr-o simplă notificare scrisă, fără preaviz și fără motivare, din inițiativa oricărei părți (art. 31 alin. (3))."
+ ]
+}

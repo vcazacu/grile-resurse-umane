@@ -1,0 +1,159 @@
+[
+ {
+  "loc": "Vârsta standard și cele două stagii / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 47 alin. (1) stabilește vârsta standard de pensionare la 65 de ani atât pentru bărbați, cât și pentru femei, atinsă prin eșalonarea din anexa nr. 5.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Alin. (2) fixează stagiul minim de cotizare contributiv la 15 ani, iar alin. (3) stagiul complet de cotizare contributiv la 35 de ani, pentru femei și bărbați deopotrivă.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   },
+   "2": {
+    "text": "Matei are vârsta, dar stagiul ei de 13 ani este sub stagiul minim de 15 ani.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.01,
+     "absenta_corecta": 0.01,
+     "sustine": 0.98
+    },
+    "confidence": 0.98
+   }
+  },
+  "usage": 4123
+ },
+ {
+  "loc": "Ce poate conta în stagiul minim / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 47 alin. (4) adaugă că la calculul stagiului minim de cotizare contributiv și al stagiului complet se ia în considerare și perioada prevăzută la art. 14 alin. (1) lit. e).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0,
+     "sustine": 1.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Matei nu are perioade asimilate, deci stagiul ei rămâne de 13 ani și cererea a fost corect respinsă; dreptul s-ar deschide la împlinirea stagiului minim de 15 ani.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.09,
+     "absenta_corecta": 0.07,
+     "sustine": 0.83,
+     "nu_spune": 0.01
+    },
+    "confidence": 0.76
+   }
+  },
+  "usage": 3551
+ },
+ {
+  "loc": "capcana 1",
+  "afirmatii": {
+   "0": {
+    "text": "Trei cifre la art. 47, toate identice pentru femei și bărbați: vârsta standard 65 de ani, stagiul minim 15 ani, stagiul complet 35 de ani.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "sustine": 0.97,
+     "contrazice": 0.02,
+     "nu_spune": 0.01
+    },
+    "confidence": 0.97
+   },
+   "1": {
+    "text": "Grilele le amestecă sau le dau diferențiate pe sexe.",
+    "alegere": "contrazice",
+    "probabilitati": {
+     "absenta_corecta": 0.15,
+     "sustine": 0.08,
+     "contrazice": 0.57,
+     "nu_spune": 0.2
+    },
+    "confidence": 0.43
+   }
+  },
+  "usage": 3655
+ },
+ {
+  "loc": "capcana 2",
+  "afirmatii": {
+   "0": {
+    "text": "Vârsta și stagiul complet se ating prin eșalonarea din anexa nr. 5 (art. 47 alin. (1) și (3)); stagiul minim de 15 ani nu are eșalonare în textul alin. (2).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.42,
+     "contrazice": 0.01,
+     "nu_spune": 0.0,
+     "sustine": 0.57
+    },
+    "confidence": 0.43
+   }
+  },
+  "usage": 3381
+ },
+ {
+  "loc": "capcana 3",
+  "afirmatii": {
+   "0": {
+    "text": "În sistemul militar, art. 16 din Legea nr. 223/2015 cere altceva: vechime efectivă de cel puțin 25 de ani, din care cel puțin 15 ani vechime în serviciu — a nu se confunda cu stagiul minim de 15 ani din sistemul public.",
+    "alegere": "nu_spune",
+    "probabilitati": {
+     "absenta_corecta": 0.02,
+     "sustine": 0.07,
+     "contrazice": 0.12,
+     "nu_spune": 0.79
+    },
+    "confidence": 0.72
+   }
+  },
+  "usage": 3223
+ },
+ {
+  "loc": "verdict",
+  "afirmatii": {
+   "0": {
+    "text": "Da, respingerea este corectă: pensia pentru limită de vârstă cere, pe lângă vârsta standard de 65 de ani, stagiul minim de cotizare contributiv de 15 ani (art. 47 alin. (2)); cu 13 ani, Matei nu îl are.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "sustine": 0.98,
+     "contrazice": 0.02,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.97
+   },
+   "1": {
+    "text": "Stagiul complet, de 35 de ani, este alt prag, pentru calculul pensiei, nu pentru deschiderea dreptului.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.05,
+     "sustine": 0.7,
+     "contrazice": 0.01,
+     "nu_spune": 0.24
+    },
+    "confidence": 0.59
+   }
+  },
+  "usage": 3738
+ }
+]

@@ -1,0 +1,176 @@
+[
+ {
+  "loc": "Cauzele invalidității / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 32 dă dreptul la pensie de invaliditate militarilor care și-au pierdut total sau cel puțin jumătate din capacitatea de muncă din două categorii de cauze: accidente de muncă ori boli contractate în timpul și din cauza serviciului, tuberculoza, neoplaziile, schizofrenia și SIDA (lit. a)), respectiv accidente sau boli care nu au legătură cu îndeplinirea serviciului militar (lit. b)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.01,
+     "sustine": 0.99,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 0.98
+   },
+   "1": {
+    "text": "Accidentul de circulație din concediu intră la lit. b), iar pierderea a jumătate din capacitatea de muncă atinge pragul cerut.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.08,
+     "contrazice": 0.05,
+     "sustine": 0.87,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 0.83
+   }
+  },
+  "usage": 2868
+ },
+ {
+  "loc": "Condiția specială pentru cauzele fără legătură cu serviciul / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 38 adaugă, pentru cei care și-au pierdut capacitatea de muncă din cauza unor accidente sau boli fără legătură cu serviciul, o condiție: beneficiază de pensia de invaliditate dacă au realizat, în condițiile legii, vechime în serviciu.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Oprea are 6 ani vechime în serviciu, deci condiția este îndeplinită.",
+    "alegere": "nu_spune",
+    "probabilitati": {
+     "absenta_corecta": 0.01,
+     "sustine": 0.37,
+     "contrazice": 0.03,
+     "nu_spune": 0.59
+    },
+    "confidence": 0.46
+   }
+  },
+  "usage": 2723
+ },
+ {
+  "loc": "Gradul de invaliditate / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 34 determină pensia de invaliditate în raport cu gradul de pierdere a capacității de muncă: gradul I — pierderea totală a capacității de muncă și a capacității de autoîngrijire, cu nevoie de îngrijire sau supraveghere permanentă; gradul II — pierderea totală a capacității de muncă, cu posibilitatea de autoîngrijire; gradul III — pierderea a cel puțin jumătate din capacitatea de muncă, persoana putând presta, după trecerea în rezervă, o activitate de cel mult jumătate din timpul normal de muncă.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 0.99
+   },
+   "1": {
+    "text": "Situația lui Oprea corespunde gradului III.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "sustine": 0.99,
+     "nu_spune": 0.01,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 0.98
+   }
+  },
+  "usage": 3120
+ },
+ {
+  "loc": "capcana 1",
+  "afirmatii": {
+   "0": {
+    "text": "Pragul pentru pensia de invaliditate este pierderea totală sau a cel puțin jumătate din capacitatea de muncă (art. 32); sub jumătate nu există pensie de invaliditate.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.02,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.04,
+     "sustine": 0.94
+    },
+    "confidence": 0.92
+   }
+  },
+  "usage": 3062
+ },
+ {
+  "loc": "capcana 2",
+  "afirmatii": {
+   "0": {
+    "text": "Pentru cauzele fără legătură cu serviciul (art. 32 lit. b)), art. 38 cere vechime în serviciu; pentru cauzele de la lit. a) nu există această condiție, iar de pensie beneficiază, în condițiile lit. a), și elevii și studenții instituțiilor de învățământ militar, cu excepția celor din liceu (art. 33 alin. (1)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.01,
+     "nu_spune": 0.07,
+     "contrazice": 0.05,
+     "sustine": 0.87
+    },
+    "confidence": 0.82
+   }
+  },
+  "usage": 3335
+ },
+ {
+  "loc": "capcana 3",
+  "afirmatii": {
+   "0": {
+    "text": "Gradele I și II înseamnă amândouă pierderea totală a capacității de muncă; le deosebește capacitatea de autoîngrijire.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Gradul III înseamnă pierderea a cel puțin jumătate, cu posibilitatea unei activități de cel mult jumătate din timpul normal de muncă (art. 34).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 3549
+ },
+ {
+  "loc": "verdict",
+  "afirmatii": {
+   "0": {
+    "text": "Accidentul fără legătură cu serviciul este cauza de la art. 32 lit. b), pierderea a jumătate din capacitatea de muncă atinge pragul, iar Oprea are vechime în serviciu, cum cere art. 38 pentru aceste cauze.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.98,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.01,
+     "contrazice": 0.01
+    },
+    "confidence": 0.97
+   },
+   "1": {
+    "text": "Se încadrează în gradul III de invaliditate (art. 34 lit. c)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 0.99
+   }
+  },
+  "usage": 3697
+ }
+]

@@ -1,0 +1,40 @@
+{
+ "nr": 18,
+ "nivel": "simpla",
+ "titlu": "Pensia pentru limită de vârstă cu 13 ani de stagiu",
+ "teme": [14],
+ "fapte": [
+  "Doamna Matei, fostă salariată civilă, a împlinit 65 de ani în aprilie 2026, vârsta standard de pensionare în sistemul public de pensii.",
+  "Are un stagiu de cotizare contributiv de 13 ani; nu are perioade asimilate.",
+  "Depune cerere de pensie pentru limită de vârstă la casa teritorială de pensii, iar cererea este respinsă."
+ ],
+ "intrebare": "A fost corect respinsă cererea? Ce stagiu de cotizare cere legea pentru pensia pentru limită de vârstă?",
+ "sectiuni": [
+  {
+   "titlu": "Vârsta standard și cele două stagii",
+   "paragrafe": [
+    "Art. 47 alin. (1) stabilește vârsta standard de pensionare la 65 de ani atât pentru bărbați, cât și pentru femei, atinsă prin eșalonarea din anexa nr. 5. Alin. (2) fixează stagiul minim de cotizare contributiv la 15 ani, iar alin. (3) stagiul complet de cotizare contributiv la 35 de ani, pentru femei și bărbați deopotrivă. Matei are vârsta, dar stagiul ei de 13 ani este sub stagiul minim de 15 ani."
+   ],
+   "temei": [
+    {"act": "Legea nr. 360/2023 privind sistemul public de pensii", "articol": "art. 47 alin. (1)", "citat": "Vârsta standard de pensionare este de 65 de ani atât pentru bărbați, cât și pentru femei. Atingerea acestei vârste se realizează prin creșterea vârstelor standard de pensionare, conform eșalonării prevăzute în anexa nr. 5.", "fisier": "05_Legea_360-2023_sistemul_public_de_pensii.txt"},
+    {"act": "Legea nr. 360/2023 privind sistemul public de pensii", "articol": "art. 47 alin. (2)", "citat": "Stagiul minim de cotizare contributiv este de 15 ani, atât pentru femei, cât și pentru bărbați.", "fisier": "05_Legea_360-2023_sistemul_public_de_pensii.txt"},
+    {"act": "Legea nr. 360/2023 privind sistemul public de pensii", "articol": "art. 47 alin. (3)", "citat": "Stagiul complet de cotizare contributiv este de 35 de ani, atât pentru femei, cât și pentru bărbați. Atingerea acestui stagiu se realizează prin creșterea stagiului complet de cotizare, conform eșalonării prevăzute în anexa nr. 5.", "fisier": "05_Legea_360-2023_sistemul_public_de_pensii.txt"}
+   ]
+  },
+  {
+   "titlu": "Ce poate conta în stagiul minim",
+   "paragrafe": [
+    "Art. 47 alin. (4) adaugă că la calculul stagiului minim de cotizare contributiv și al stagiului complet se ia în considerare și perioada prevăzută la art. 14 alin. (1) lit. e). Matei nu are perioade asimilate, deci stagiul ei rămâne de 13 ani și cererea a fost corect respinsă; dreptul s-ar deschide la împlinirea stagiului minim de 15 ani."
+   ],
+   "temei": [
+    {"act": "Legea nr. 360/2023 privind sistemul public de pensii", "articol": "art. 47 alin. (4)", "citat": "La calculul stagiului minim de cotizare contributiv și al stagiului complet de cotizare contributiv se ia în considerare și perioada prevăzută la art. 14 alin. (1) lit. e).", "fisier": "05_Legea_360-2023_sistemul_public_de_pensii.txt"}
+   ]
+  }
+ ],
+ "verdict": "Da, respingerea este corectă: pensia pentru limită de vârstă cere, pe lângă vârsta standard de 65 de ani, stagiul minim de cotizare contributiv de 15 ani (art. 47 alin. (2)); cu 13 ani, Matei nu îl are. Stagiul complet, de 35 de ani, este alt prag, pentru calculul pensiei, nu pentru deschiderea dreptului.",
+ "capcane": [
+  "Trei cifre la art. 47, toate identice pentru femei și bărbați: vârsta standard 65 de ani, stagiul minim 15 ani, stagiul complet 35 de ani. Grilele le amestecă sau le dau diferențiate pe sexe.",
+  "Vârsta și stagiul complet se ating prin eșalonarea din anexa nr. 5 (art. 47 alin. (1) și (3)); stagiul minim de 15 ani nu are eșalonare în textul alin. (2).",
+  "În sistemul militar, art. 16 din Legea nr. 223/2015 cere altceva: vechime efectivă de cel puțin 25 de ani, din care cel puțin 15 ani vechime în serviciu — a nu se confunda cu stagiul minim de 15 ani din sistemul public."
+ ]
+}

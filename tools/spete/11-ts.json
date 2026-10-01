@@ -1,0 +1,165 @@
+[
+ {
+  "loc": "Stagiul minim pentru ofițerii în activitate / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 94 stabilește stagiul minim în grad, în timp de pace, pentru înaintarea în gradul următor a ofițerilor în activitate: pentru locotenent, 5 ani.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.01,
+     "sustine": 0.99
+    },
+    "confidence": 0.99
+   },
+   "1": {
+    "text": "Dacă Vlad ar fi fost în activitate, cei 5 ani împliniți la 1 iunie 2026 ar fi fost suficienți.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.01,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.02,
+     "sustine": 0.97
+    },
+    "confidence": 0.96
+   }
+  },
+  "usage": 2887
+ },
+ {
+  "loc": "Rezerviștii au un an în plus / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 97 prevede că, în timp de pace, stagiul minim în grad pentru ofițerii, maiștrii militari și subofițerii în rezervă este mai mare cu un an decât cel prevăzut la art. 94, iar în timp de război este cel de la articolul respectiv.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0,
+     "sustine": 1.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Pentru Vlad, rezervist, stagiul minim pentru căpitan este deci de 6 ani, pe care îi va împlini la 1 iunie 2027; la 1 iunie 2026 nu îl are.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.03,
+     "absenta_corecta": 0.0,
+     "sustine": 0.6,
+     "nu_spune": 0.37
+    },
+    "confidence": 0.45
+   }
+  },
+  "usage": 2714
+ },
+ {
+  "loc": "Dacă ar fi rechemat în activitate / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Tot art. 97 arată că, la chemarea sau rechemarea în activitate, pentru stabilirea stagiului în gradul deținut se iau în calcul trei pătrimi din stagiul în gradul avut ca rezervist.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 0.99
+   },
+   "1": {
+    "text": "Stagiul din rezervă nu se pierde, dar nici nu se ia întreg: din cei 5 ani ai lui Vlad s-ar socoti trei pătrimi.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.01,
+     "nu_spune": 0.0,
+     "sustine": 0.99,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 0.99
+   }
+  },
+  "usage": 2658
+ },
+ {
+  "loc": "capcana 1",
+  "afirmatii": {
+   "0": {
+    "text": "Stagiul minim al rezerviștilor este cu un an mai mare decât al celor în activitate numai în timp de pace; în timp de război este același (art. 97).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 2598
+ },
+ {
+  "loc": "capcana 2",
+  "afirmatii": {
+   "0": {
+    "text": "La rechemarea în activitate, stagiul din rezervă contează în proporție de trei pătrimi, nu integral și nici deloc.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 2587
+ },
+ {
+  "loc": "capcana 3",
+  "afirmatii": {
+   "0": {
+    "text": "Cifrele de bază rămân cele de la art. 94: locotenent 5 ani, căpitan 5 ani, sublocotenent 3 ani — art. 97 le adaugă un an, nu le înlocuiește.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.99,
+     "contrazice": 0.01,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 0.98
+   }
+  },
+  "usage": 2610
+ },
+ {
+  "loc": "verdict",
+  "afirmatii": {
+   "0": {
+    "text": "Ca rezervist, Vlad are nevoie de 6 ani în grad (5 ani de la art. 94 plus un an, art. 97), pe care îi împlinește abia la 1 iunie 2027.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.06,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "sustine": 0.9400000000000001
+    },
+    "confidence": 0.91
+   },
+   "1": {
+    "text": "Dacă ar fi rechemat în activitate, din stagiul său de rezervist s-ar lua în calcul trei pătrimi.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 3082
+ }
+]

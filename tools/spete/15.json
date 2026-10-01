@@ -1,0 +1,52 @@
+{
+ "nr": 15,
+ "nivel": "simpla",
+ "titlu": "Demisia pe care angajatorul refuză să o înregistreze",
+ "teme": [9],
+ "fapte": [
+  "Domnul Preda, magaziner (funcție de execuție), personal civil contractual, are în contractul individual de muncă un termen de preaviz la demisie de 30 de zile lucrătoare.",
+  "La 2 martie 2026 depune o demisie scrisă; șeful compartimentului refuză să o înregistreze și îi spune că „nu se acceptă” și că trebuie să explice de ce pleacă.",
+  "Preda vrea să știe de când încetează contractul."
+ ],
+ "intrebare": "Poate angajatorul să refuze demisia sau să ceară motivarea ei? Cât durează preavizul lui Preda și când încetează contractul?",
+ "cifre_derivate": {"20": "plafonul de 20 de zile lucrătoare pentru funcțiile de execuție înlocuiește cele 30 de zile din contract"},
+ "sectiuni": [
+  {
+   "titlu": "Demisia este un act unilateral",
+   "paragrafe": [
+    "Art. 81 alin. (1) definește demisia ca actul unilateral de voință al salariatului care, printr-o notificare scrisă, comunică angajatorului încetarea contractului individual de muncă, după împlinirea unui termen de preaviz. Alin. (2) obligă angajatorul să înregistreze demisia, iar refuzul de a o înregistra dă salariatului dreptul de a face dovada ei prin orice mijloace de probă; alin. (3) dă salariatului dreptul de a nu motiva demisia. Șeful nu are ce „accepta” sau refuza, iar Preda nu datorează nicio explicație."
+   ],
+   "temei": [
+    {"act": "Legea nr. 53/2003 – Codul muncii", "articol": "art. 81 alin. (1)", "citat": "Prin demisie se înțelege actul unilateral de voință a salariatului care, printr-o notificare scrisă, comunică angajatorului încetarea contractului individual de muncă, după împlinirea unui termen de preaviz.", "fisier": "03_Legea_53-2003_Codul_muncii.txt"},
+    {"act": "Legea nr. 53/2003 – Codul muncii", "articol": "art. 81 alin. (2)", "citat": "Angajatorul este obligat să înregistreze demisia salariatului. Refuzul angajatorului de a înregistra demisia dă dreptul salariatului de a face dovada acesteia prin orice mijloace de probă.", "fisier": "03_Legea_53-2003_Codul_muncii.txt"},
+    {"act": "Legea nr. 53/2003 – Codul muncii", "articol": "art. 81 alin. (3)", "citat": "Salariatul are dreptul de a nu motiva demisia.", "fisier": "03_Legea_53-2003_Codul_muncii.txt"}
+   ]
+  },
+  {
+   "titlu": "Cât poate fi preavizul",
+   "paragrafe": [
+    "Art. 81 alin. (4) prevede că termenul de preaviz este cel convenit de părți în contract sau cel din contractele colective aplicabile și nu poate fi mai mare de 20 de zile lucrătoare pentru salariații cu funcții de execuție, respectiv de 45 de zile lucrătoare pentru cei cu funcții de conducere. Clauza de 30 de zile lucrătoare din contractul lui Preda depășește plafonul legal pentru o funcție de execuție; preavizul lui nu poate fi mai mare de 20 de zile lucrătoare."
+   ],
+   "temei": [
+    {"act": "Legea nr. 53/2003 – Codul muncii", "articol": "art. 81 alin. (4)", "citat": "Termenul de preaviz este cel convenit de părți în contractul individual de muncă sau, după caz, cel prevăzut în contractele colective de muncă aplicabile și nu poate fi mai mare de 20 de zile lucrătoare pentru salariații cu funcții de execuție, respectiv mai mare de 45 de zile lucrătoare pentru salariații care ocupă funcții de conducere.", "fisier": "03_Legea_53-2003_Codul_muncii.txt"}
+   ]
+  },
+  {
+   "titlu": "Când încetează contractul",
+   "paragrafe": [
+    "Potrivit art. 81 alin. (7), contractul încetează la data expirării termenului de preaviz sau la data renunțării totale ori parțiale de către angajator la termenul respectiv; pe durata preavizului contractul continuă să își producă toate efectele (alin. (5)). Alin. (8) adaugă că salariatul poate demisiona fără preaviz dacă angajatorul nu își îndeplinește obligațiile asumate prin contract. Pentru Preda, contractul încetează la expirarea celor 20 de zile lucrătoare de preaviz, socotite de la demisia din 2 martie 2026, sau mai devreme, dacă angajatorul renunță la preaviz."
+   ],
+   "temei": [
+    {"act": "Legea nr. 53/2003 – Codul muncii", "articol": "art. 81 alin. (5)", "citat": "Pe durata preavizului contractul individual de muncă continuă să își producă toate efectele.", "fisier": "03_Legea_53-2003_Codul_muncii.txt"},
+    {"act": "Legea nr. 53/2003 – Codul muncii", "articol": "art. 81 alin. (7)", "citat": "Contractul individual de muncă încetează la data expirării termenului de preaviz sau la data renunțării totale ori parțiale de către angajator la termenul respectiv.", "fisier": "03_Legea_53-2003_Codul_muncii.txt"},
+    {"act": "Legea nr. 53/2003 – Codul muncii", "articol": "art. 81 alin. (8)", "citat": "Salariatul poate demisiona fără preaviz dacă angajatorul nu își îndeplinește obligațiile asumate prin contractul individual de muncă.", "fisier": "03_Legea_53-2003_Codul_muncii.txt"}
+   ]
+  }
+ ],
+ "verdict": "Angajatorul nu poate refuza demisia și nici cere motivarea ei: este obligat să o înregistreze, iar dacă refuză, Preda o dovedește prin orice mijloc de probă (art. 81 alin. (2)–(3)). Preavizul nu poate depăși 20 de zile lucrătoare pentru o funcție de execuție, oricât ar scrie contractul (alin. (4)); contractul încetează la expirarea lor sau mai devreme, dacă angajatorul renunță la preaviz (alin. (7)).",
+ "capcane": [
+  "Preavizul la demisie are plafoane, nu cuantumuri fixe: cel mult 20 de zile lucrătoare la execuție, cel mult 45 la conducere; o clauză mai mare este redusă la plafon.",
+  "Dacă în perioada de preaviz contractul este suspendat, termenul de preaviz se suspendă corespunzător (art. 81 alin. (6)).",
+  "Demisia fără preaviz există într-un singur caz: angajatorul nu își îndeplinește obligațiile din contract (art. 81 alin. (8))."
+ ]
+}

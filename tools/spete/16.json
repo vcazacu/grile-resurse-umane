@@ -1,0 +1,49 @@
+{
+ "nr": 16,
+ "nivel": "simpla",
+ "titlu": "Concediul de odihnă neefectuat, cerut în bani",
+ "teme": [11],
+ "fapte": [
+  "Doamna Lupu, personal civil contractual într-o unitate militară, are în contract 21 de zile lucrătoare de concediu de odihnă pe an.",
+  "În 2025, din cauza volumului de lucru, a efectuat doar 9 zile; i-au rămas 12 zile neefectuate.",
+  "În ianuarie 2026 cere unității să îi plătească în bani cele 12 zile. Contractul ei de muncă este în vigoare și nu are de gând să plece."
+ ],
+ "intrebare": "Poate primi Lupu în bani zilele de concediu neefectuate? Ce trebuie să facă angajatorul cu ele?",
+ "sectiuni": [
+  {
+   "titlu": "Un drept garantat, care nu se poate ceda",
+   "paragrafe": [
+    "Art. 144 garantează tuturor salariaților dreptul la concediu de odihnă anual plătit și prevede că acest drept nu poate forma obiectul vreunei cesiuni, renunțări sau limitări; art. 145 alin. (1) fixează durata minimă la 20 de zile lucrătoare. Cele 21 de zile ale lui Lupu respectă minimul, iar zilele neefectuate nu se pierd prin renunțare."
+   ],
+   "temei": [
+    {"act": "Legea nr. 53/2003 – Codul muncii", "articol": "art. 144", "citat": "Dreptul la concediu de odihnă anual plătit este garantat tuturor salariaților. (2) Dreptul la concediu de odihnă anual nu poate forma obiectul vreunei cesiuni, renunțări sau limitări.", "fisier": "03_Legea_53-2003_Codul_muncii.txt"},
+    {"act": "Legea nr. 53/2003 – Codul muncii", "articol": "art. 145 alin. (1)", "citat": "Durata minimă a concediului de odihnă anual este de 20 de zile lucrătoare.", "fisier": "03_Legea_53-2003_Codul_muncii.txt"}
+   ]
+  },
+  {
+   "titlu": "Ce se întâmplă cu zilele neefectuate",
+   "paragrafe": [
+    "Art. 146 alin. (1) cere ca de regulă concediul să se efectueze în fiecare an, iar alin. (2) arată soluția pentru cazul în care salariatul, din motive justificate, nu l-a putut efectua integral: cu acordul persoanei în cauză, angajatorul este obligat să acorde concediul neefectuat într-o perioadă de 18 luni începând cu anul următor celui în care s-a născut dreptul. Cele 12 zile din 2025 trebuie acordate, în natură, în intervalul de 18 luni care începe cu anul 2026."
+   ],
+   "temei": [
+    {"act": "Legea nr. 53/2003 – Codul muncii", "articol": "art. 146 alin. (1)", "citat": "Concediul de odihnă se efectuează în fiecare an.", "fisier": "03_Legea_53-2003_Codul_muncii.txt"},
+    {"act": "Legea nr. 53/2003 – Codul muncii", "articol": "art. 146 alin. (2)", "citat": "În cazul în care salariatul, din motive justificate, nu poate efectua, integral sau parțial, concediul de odihnă anual la care avea dreptul în anul calendaristic respectiv, cu acordul persoanei în cauză, angajatorul este obligat să acorde concediul de odihnă neefectuat într-o perioadă de 18 luni începând cu anul următor celui în care s-a născut dreptul la concediul de odihnă anual.", "fisier": "03_Legea_53-2003_Codul_muncii.txt"}
+   ]
+  },
+  {
+   "titlu": "Compensarea în bani",
+   "paragrafe": [
+    "Art. 146 alin. (3) este categoric: compensarea în bani a concediului de odihnă neefectuat este permisă numai în cazul încetării contractului individual de muncă. Cât timp contractul lui Lupu este în vigoare, cererea de plată în bani nu poate fi admisă; banii ar veni în discuție doar la încetarea contractului."
+   ],
+   "temei": [
+    {"act": "Legea nr. 53/2003 – Codul muncii", "articol": "art. 146 alin. (3)", "citat": "Compensarea în bani a concediului de odihnă neefectuat este permisă numai în cazul încetării contractului individual de muncă.", "fisier": "03_Legea_53-2003_Codul_muncii.txt"}
+   ]
+  }
+ ],
+ "verdict": "Nu. Cât timp contractul este în vigoare, concediul neefectuat nu se poate plăti în bani (art. 146 alin. (3)); angajatorul este obligat să îi acorde cele 12 zile în natură, cu acordul ei, în 18 luni începând cu anul 2026 (art. 146 alin. (2)). Compensarea în bani apare numai la încetarea contractului.",
+ "capcane": [
+  "Compensarea în bani a concediului neefectuat — numai la încetarea contractului; în rest, zilele se acordă în natură, în 18 luni de la anul următor.",
+  "Minimul legal este 20 de zile lucrătoare (art. 145 alin. (1)); sărbătorile legale și zilele libere plătite nu intră în durata concediului (alin. (3)), iar incapacitatea temporară de muncă survenită în timpul concediului îl întrerupe (alin. (5)).",
+  "Salariatul aflat în concediu medical un an întreg păstrează dreptul la concediul de odihnă, pe care angajatorul îl acordă în 18 luni începând cu anul următor (art. 145 alin. (6))."
+ ]
+}

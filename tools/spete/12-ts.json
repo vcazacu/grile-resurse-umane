@@ -1,0 +1,165 @@
+[
+ {
+  "loc": "Vârsta standard este o situație de trecere în rezervă / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 85 alin. (1) enumeră situațiile în care ofițerii, maiștrii militari și subofițerii în activitate pot fi trecuți în rezervă sau direct în retragere; prima dintre ele, la lit. a), este împlinirea vârstei standard de pensionare pentru limită de vârstă.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "La 1 septembrie 2026, Nistor se află în această situație.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.01,
+     "nu_spune": 0.26,
+     "sustine": 0.72,
+     "absenta_corecta": 0.01
+    },
+    "confidence": 0.64
+   }
+  },
+  "usage": 4719
+ },
+ {
+  "loc": "Limita de vârstă în grad / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 86 alin. (1) leagă limitele de vârstă în grad până la care cadrele militare pot fi menținute în activitate de vârstele standard de pensionare pentru limită de vârstă prevăzute de legislația pensiilor pentru instituțiile din domeniul apărării, ordinii publice și siguranței naționale.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.01,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "sustine": 0.99
+    },
+    "confidence": 0.98
+   },
+   "1": {
+    "text": "Regula este, așadar, că la vârsta standard activitatea se încheie.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.13,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "sustine": 0.87
+    },
+    "confidence": 0.83
+   }
+  },
+  "usage": 3884
+ },
+ {
+  "loc": "Menținerea în activitate după vârsta standard / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 86 alin. (3) deschide excepția: în raport cu nevoile de încadrare, cadrele militare pot fi menținute în activitate după împlinirea vârstei standard de pensionare până la vârsta de 60 de ani, cu aprobarea anuală a conducătorului instituției.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.99,
+     "contrazice": 0.01,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 0.99
+   },
+   "1": {
+    "text": "Menținerea nu este un drept al lui Nistor, ci o aprobare a conducătorului instituției, dată an de an și numai până la 60 de ani.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.1,
+     "sustine": 0.89,
+     "absenta_corecta": 0.01
+    },
+    "confidence": 0.85
+   }
+  },
+  "usage": 3816
+ },
+ {
+  "loc": "capcana 1",
+  "afirmatii": {
+   "0": {
+    "text": "Menținerea după vârsta standard (art. 86 alin. (3)) se aprobă anual, de conducătorul instituției, și are plafonul de 60 de ani; nu este un drept al cadrului militar.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.03,
+     "sustine": 0.97
+    },
+    "confidence": 0.95
+   }
+  },
+  "usage": 5212
+ },
+ {
+  "loc": "capcana 2",
+  "afirmatii": {
+   "0": {
+    "text": "Generalii și amiralii au limite proprii de vârstă în grad (art. 86 alin. (2): 56, 57, 58, 59 de ani, după numărul de stele), aplicabile exclusiv Ministerului Apărării Naționale (alin. (2^2)); în celelalte instituții sunt menținuți după vârsta standard până la 60 de ani (alin. (2^3)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "sustine": 0.99,
+     "contrazice": 0.01
+    },
+    "confidence": 0.99
+   }
+  },
+  "usage": 5404
+ },
+ {
+  "loc": "capcana 3",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 85 alin. (1) are și lit. a^1): împlinirea vârstei care dă dreptul la pensie de serviciu cu reducerea vârstei standard — altă situație decât lit. a).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 5558
+ },
+ {
+  "loc": "verdict",
+  "afirmatii": {
+   "0": {
+    "text": "Da, împlinirea vârstei standard este situația de la art. 85 alin. (1) lit. a), iar limita de vârstă în grad coincide cu ea (art. 86 alin. (1)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.95,
+     "contrazice": 0.05,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 0.93
+   },
+   "1": {
+    "text": "Nistor poate fi totuși menținut în activitate, în raport cu nevoile de încadrare, până la 60 de ani, numai cu aprobarea anuală a conducătorului instituției (art. 86 alin. (3)) — nu la cererea lui și nu automat.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.89,
+     "contrazice": 0.1,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.01
+    },
+    "confidence": 0.84
+   }
+  },
+  "usage": 5894
+ }
+]

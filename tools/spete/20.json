@@ -1,0 +1,49 @@
+{
+ "nr": 20,
+ "nivel": "simpla",
+ "titlu": "Chiria plătită părinților și cei doi soți militari",
+ "teme": [18],
+ "fapte": [
+  "Locotenentul Cristea, cadru militar în activitate, este mutat în interesul serviciului în altă garnizoană decât cea de domiciliu, nu are locuință acolo și nu i se asigură spațiu de locuit.",
+  "Închiriază, cu contract scris, un apartament de la părinții săi, care locuiesc în acea garnizoană, și cere compensația lunară pentru chirie.",
+  "Soția lui, tot cadru militar în activitate, mutată în aceeași garnizoană, îndeplinește și ea condițiile și cere o compensație separată; cei doi locuiesc împreună."
+ ],
+ "intrebare": "Primește Cristea compensația pentru chiria plătită părinților? Pot primi soții două compensații?",
+ "sectiuni": [
+  {
+   "titlu": "Contractul de închiriere cu părinții",
+   "paragrafe": [
+    "Art. 2 din HG nr. 1867/2005 cere cadrului militar mutat în altă garnizoană decât cea de domiciliu să îndeplinească cumulativ mai multe condiții; la lit. e) cere prezentarea unui contract de închiriere a unui spațiu de locuit încheiat în nume propriu sau în numele soțului, și spune expres că nu se acordă compensația în situația în care contractul de închiriere a fost încheiat cu copiii sau părinții cadrului militar ori ai soțului. Contractul lui Cristea cu părinții lui cade exact sub această excludere."
+   ],
+   "temei": [
+    {"act": "H.G. nr. 1867/2005 privind compensația lunară pentru chirie", "articol": "art. 2 lit. e)", "citat": "e) prezintă un contract de închiriere a unui spațiu de locuit încheiat în nume propriu sau în numele soțului/soției, altul decât cel prevăzut la lit. d). Nu se acordă compensația lunară pentru chirie în situația în care contractul de închiriere a fost încheiat cu copiii/părinții cadrului militar în activitate ori ai soțului/soției acesteia/acestuia;", "fisier": "09_HG_1867-2005_compensatia_chirie.txt"}
+   ]
+  },
+  {
+   "titlu": "Celelalte condiții cumulative",
+   "paragrafe": [
+    "Tot art. 2 cere, între altele, ca nici cadrul militar, nici soțul să nu dețină locuință proprietate personală în garnizoană (lit. b)), ca Ministerul Apărării să nu îi asigure spațiu de locuit corespunzător (lit. c)) și ca locuința închiriată să îi permită îndeplinirea atribuțiilor de serviciu, apreciere făcută de comisia de la art. 1 alin. (4) (lit. f)). Cristea le-ar îndeplini pe acestea, dar condițiile sunt cumulative, iar cea de la lit. e) lipsește."
+   ],
+   "temei": [
+    {"act": "H.G. nr. 1867/2005 privind compensația lunară pentru chirie", "articol": "art. 2", "citat": "beneficiază de compensația lunară pentru chirie dacă îndeplinește cumulativ următoarele condiții:", "fisier": "09_HG_1867-2005_compensatia_chirie.txt"},
+    {"act": "H.G. nr. 1867/2005 privind compensația lunară pentru chirie", "articol": "art. 2 lit. b)", "citat": "b) cadrul militar în activitate ori soția/soțul acestuia nu deține o locuință proprietate personală în garnizoana/localitatea în care a fost numit în prima funcție, a fost mutat în interesul serviciului, a fost detașat și/sau împuternicit;", "fisier": "09_HG_1867-2005_compensatia_chirie.txt"},
+    {"act": "H.G. nr. 1867/2005 privind compensația lunară pentru chirie", "articol": "art. 2 lit. f)", "citat": "f) locuința închiriată să fie astfel situată încât să îi permită îndeplinirea atribuțiilor de serviciu. Aprecierea îndeplinirii acestei condiții se face de către comisia prevăzută la art. 1 alin. (4), iar pentru comandant aprecierea se face de către comisia stabilită la eșalonul imediat superior.", "fisier": "09_HG_1867-2005_compensatia_chirie.txt"}
+   ]
+  },
+  {
+   "titlu": "Soții, amândoi cadre militare",
+   "paragrafe": [
+    "Art. 5 prevede că, în situația în care atât soțul, cât și soția sunt cadre militare în activitate cu drept la compensație și locuiesc împreună, se acordă o singură compensație lunară pentru chirie, potrivit opțiunii lor. Chiar dacă ar fi închiriat de la un terț, cei doi soți ar fi primit o singură compensație, nu două."
+   ],
+   "temei": [
+    {"act": "H.G. nr. 1867/2005 privind compensația lunară pentru chirie", "articol": "art. 5", "citat": "În situația în care atât soțul, cât și soția sunt cadre militare în activitate, având dreptul la compensația lunară pentru chirie potrivit prezentei hotărâri, și locuiesc împreună, se acordă o singură compensație lunară pentru chirie, potrivit opțiunii acestora.", "fisier": "09_HG_1867-2005_compensatia_chirie.txt"}
+   ]
+  }
+ ],
+ "verdict": "Nu și nu. Contractul de închiriere încheiat cu părinții cadrului militar exclude compensația (art. 2 lit. e) din HG nr. 1867/2005), iar condițiile art. 2 sunt cumulative. Iar doi soți cadre militare care locuiesc împreună primesc, oricum, o singură compensație, potrivit opțiunii lor (art. 5).",
+ "capcane": [
+  "Excluderea de la art. 2 lit. e) privește contractele încheiate cu copiii sau părinții cadrului militar ori ai soțului/soției — nu cu orice rudă.",
+  "Condițiile de la art. 2 sunt cumulative: lipsa oricăreia înlătură dreptul; printre ele, și nefolosirea navetei (lit. a)), cu excepția navetei la și de la locuința închiriată.",
+  "Doi soți militari cu drept la compensație, care locuiesc împreună, primesc una singură, la alegerea lor (art. 5); dacă soțul lucrează în altă instituție publică, nu trebuie să primească de acolo spațiu de locuit sau compensație/decontarea chiriei în aceeași garnizoană (art. 2 lit. b^1))."
+ ]
+}

@@ -1,0 +1,165 @@
+[
+ {
+  "loc": "Un drept garantat, care nu se poate ceda / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 144 garantează tuturor salariaților dreptul la concediu de odihnă anual plătit și prevede că acest drept nu poate forma obiectul vreunei cesiuni, renunțări sau limitări; art. 145 alin. (1) fixează durata minimă la 20 de zile lucrătoare.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Cele 21 de zile ale lui Lupu respectă minimul, iar zilele neefectuate nu se pierd prin renunțare.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.13,
+     "absenta_corecta": 0.02,
+     "contrazice": 0.05,
+     "sustine": 0.8
+    },
+    "confidence": 0.73
+   }
+  },
+  "usage": 3385
+ },
+ {
+  "loc": "Ce se întâmplă cu zilele neefectuate / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 146 alin. (1) cere ca de regulă concediul să se efectueze în fiecare an, iar alin. (2) arată soluția pentru cazul în care salariatul, din motive justificate, nu l-a putut efectua integral: cu acordul persoanei în cauză, angajatorul este obligat să acorde concediul neefectuat într-o perioadă de 18 luni începând cu anul următor celui în care s-a născut dreptul.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.99,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.01
+    },
+    "confidence": 0.99
+   },
+   "1": {
+    "text": "Cele 12 zile din 2025 trebuie acordate, în natură, în intervalul de 18 luni care începe cu anul 2026.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.93,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.01,
+     "contrazice": 0.06
+    },
+    "confidence": 0.9
+   }
+  },
+  "usage": 2986
+ },
+ {
+  "loc": "Compensarea în bani / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 146 alin. (3) este categoric: compensarea în bani a concediului de odihnă neefectuat este permisă numai în cazul încetării contractului individual de muncă.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Cât timp contractul lui Lupu este în vigoare, cererea de plată în bani nu poate fi admisă; banii ar veni în discuție doar la încetarea contractului.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 2808
+ },
+ {
+  "loc": "capcana 1",
+  "afirmatii": {
+   "0": {
+    "text": "Compensarea în bani a concediului neefectuat — numai la încetarea contractului; în rest, zilele se acordă în natură, în 18 luni de la anul următor.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 3266
+ },
+ {
+  "loc": "capcana 2",
+  "afirmatii": {
+   "0": {
+    "text": "Minimul legal este 20 de zile lucrătoare (art. 145 alin. (1)); sărbătorile legale și zilele libere plătite nu intră în durata concediului (alin. (3)), iar incapacitatea temporară de muncă survenită în timpul concediului îl întrerupe (alin. (5)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.01,
+     "nu_spune": 0.0,
+     "sustine": 0.99,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 0.99
+   }
+  },
+  "usage": 3350
+ },
+ {
+  "loc": "capcana 3",
+  "afirmatii": {
+   "0": {
+    "text": "Salariatul aflat în concediu medical un an întreg păstrează dreptul la concediul de odihnă, pe care angajatorul îl acordă în 18 luni începând cu anul următor (art. 145 alin. (6)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 3416
+ },
+ {
+  "loc": "verdict",
+  "afirmatii": {
+   "0": {
+    "text": "Cât timp contractul este în vigoare, concediul neefectuat nu se poate plăti în bani (art. 146 alin. (3)); angajatorul este obligat să îi acorde cele 12 zile în natură, cu acordul ei, în 18 luni începând cu anul 2026 (art. 146 alin. (2)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 0.93,
+     "contrazice": 0.07,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 0.9
+   },
+   "1": {
+    "text": "Compensarea în bani apare numai la încetarea contractului.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 3965
+ }
+]

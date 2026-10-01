@@ -1,0 +1,47 @@
+{
+ "nr": 13,
+ "nivel": "simpla",
+ "titlu": "Cine aprobă structura SIE și cine numește adjuncții directorului",
+ "teme": [8],
+ "fapte": [
+  "Directorul Serviciului de Informații Externe pregătește o nouă structură organizatorică a serviciului și propune numirea a doi adjuncți.",
+  "Un consilier îi spune că structura se aprobă prin ordin al directorului, iar adjuncții se numesc prin decizie a prim-ministrului."
+ ],
+ "intrebare": "Cine aprobă structura organizatorică a SIE și cine numește adjuncții directorului?",
+ "sectiuni": [
+  {
+   "titlu": "Structura, efectivele și regulamentul",
+   "paragrafe": [
+    "Art. 5 alin. (2) din Legea nr. 1/1998 prevede că structura organizatorică, efectivele în timp de pace și la mobilizare, regulamentul de funcționare și atribuțiile Serviciului de Informații Externe se aprobă de Consiliul Suprem de Apărare a Țării. Directorul le poate pregăti, dar nu le aprobă el."
+   ],
+   "temei": [
+    {"act": "Legea nr. 1/1998 privind organizarea și funcționarea Serviciului de Informații Externe", "articol": "art. 5 alin. (2)", "citat": "Structura organizatorică, efectivele în timp de pace şi la mobilizare, regulamentul de funcţionare şi atribuţiile Serviciului de Informaţii Externe se aproba de Consiliul Suprem de Apărare a Tarii.", "fisier": "02_Legea_1-1998_organizarea_SIE.txt"}
+   ]
+  },
+  {
+   "titlu": "Adjuncții directorului",
+   "paragrafe": [
+    "Art. 8 alin. (2) prevede că adjuncții directorului Serviciului de Informații Externe au rang de secretar de stat și sunt numiți de Consiliul Suprem de Apărare a Țării, la propunerea directorului. Propunerea vine deci de la director, numirea de la CSAT, nu de la prim-ministru."
+   ],
+   "temei": [
+    {"act": "Legea nr. 1/1998 privind organizarea și funcționarea Serviciului de Informații Externe", "articol": "art. 8 alin. (2)", "citat": "Adjunctii directorului Serviciului de Informaţii Externe au rang de secretar de stat şi sunt numiţi de Consiliul Suprem de Apărare a Tarii la propunerea directorului Serviciului de Informaţii Externe.", "fisier": "02_Legea_1-1998_organizarea_SIE.txt"}
+   ]
+  },
+  {
+   "titlu": "Ce aprobă totuși directorul",
+   "paragrafe": [
+    "Art. 8 alin. (1) și (3) arată ce ține de director: în cadrul serviciului funcționează Consiliul director, organ consultativ compus din adjuncții directorului și șefii unor unități, ale cărui lucrări le conduce directorul, iar componența, regulamentul de organizare și funcționare și atribuțiile Consiliului director se aprobă de directorul Serviciului de Informații Externe. Consilierul a amestecat competența directorului asupra Consiliului director cu cea a CSAT asupra structurii serviciului."
+   ],
+   "temei": [
+    {"act": "Legea nr. 1/1998 privind organizarea și funcționarea Serviciului de Informații Externe", "articol": "art. 8 alin. (1)", "citat": "În cadrul Serviciului de Informaţii Externe funcţionează Consiliul director, organ consultativ, compus din adjunctii directorului şi şefii unor unităţi din structura Serviciului de Informaţii Externe.", "fisier": "02_Legea_1-1998_organizarea_SIE.txt"},
+    {"act": "Legea nr. 1/1998 privind organizarea și funcționarea Serviciului de Informații Externe", "articol": "art. 8 alin. (3)", "citat": "Componenta, regulamentul de organizare şi funcţionare, precum şi atribuţiile Consiliului director se aproba de directorul Serviciului de Informaţii Externe.", "fisier": "02_Legea_1-1998_organizarea_SIE.txt"}
+   ]
+  }
+ ],
+ "verdict": "Consilierul greșește de două ori: structura organizatorică, efectivele, regulamentul de funcționare și atribuțiile SIE se aprobă de Consiliul Suprem de Apărare a Țării (art. 5 alin. (2)), iar adjuncții directorului, cu rang de secretar de stat, sunt numiți tot de CSAT, la propunerea directorului (art. 8 alin. (2)). Directorul aprobă componența, regulamentul și atribuțiile Consiliului director (art. 8 alin. (3)).",
+ "capcane": [
+  "Două niveluri de competență: CSAT aprobă structura serviciului și numește adjuncții; directorul aprobă doar ce ține de Consiliul director (organ consultativ).",
+  "Adjuncții au rang de secretar de stat și sunt numiți la propunerea directorului — grilele schimbă fie organul care numește, fie cine propune.",
+  "Consiliul director este organ consultativ, compus din adjuncții directorului și șefii unor unități; în lipsa directorului, lucrările le conduce unul dintre adjuncți, desemnat de director (art. 8 alin. (1))."
+ ]
+}

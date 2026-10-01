@@ -1,0 +1,47 @@
+{
+ "nr": 12,
+ "nivel": "simpla",
+ "titlu": "Colonelul care împlinește vârsta standard și vrea să mai rămână",
+ "teme": [7],
+ "fapte": [
+  "Colonelul Nistor, cadru militar în activitate într-un serviciu de informații, împlinește vârsta standard de pensionare pentru limită de vârstă la 1 septembrie 2026.",
+  "Comandantul îi spune că la acea dată va fi trecut în rezervă.",
+  "Nistor ar vrea să rămână în activitate încă 2 ani, pentru că unitatea are nevoie de el."
+ ],
+ "intrebare": "Poate fi Nistor trecut în rezervă la împlinirea vârstei standard? Și există vreo cale să fie menținut în activitate?",
+ "sectiuni": [
+  {
+   "titlu": "Vârsta standard este o situație de trecere în rezervă",
+   "paragrafe": [
+    "Art. 85 alin. (1) enumeră situațiile în care ofițerii, maiștrii militari și subofițerii în activitate pot fi trecuți în rezervă sau direct în retragere; prima dintre ele, la lit. a), este împlinirea vârstei standard de pensionare pentru limită de vârstă. La 1 septembrie 2026, Nistor se află în această situație."
+   ],
+   "temei": [
+    {"act": "Legea nr. 80/1995 privind statutul cadrelor militare", "articol": "art. 85 alin. (1) lit. a)", "citat": "Ofițerii, maiștrii militari și subofițerii în activitate pot fi trecuți în rezervă sau direct în retragere, după caz, în următoarele situații: a) la împlinirea vârstei standard de pensionare pentru limită de vârstă;", "fisier": "01_Legea_80-1995_statutul_cadrelor_militare.txt"}
+   ]
+  },
+  {
+   "titlu": "Limita de vârstă în grad",
+   "paragrafe": [
+    "Art. 86 alin. (1) leagă limitele de vârstă în grad până la care cadrele militare pot fi menținute în activitate de vârstele standard de pensionare pentru limită de vârstă prevăzute de legislația pensiilor pentru instituțiile din domeniul apărării, ordinii publice și siguranței naționale. Regula este, așadar, că la vârsta standard activitatea se încheie."
+   ],
+   "temei": [
+    {"act": "Legea nr. 80/1995 privind statutul cadrelor militare", "articol": "art. 86 alin. (1)", "citat": "Limitele de vârstă în grad până la care cadrele militare pot fi menținute în activitate sunt vârstele standard de pensionare pentru limită de vârstă prevăzute de legislația asigurărilor sociale și pensiilor care reglementează sistemul public de pensii pentru instituțiile din domeniul apărării naționale, ordinii publice și siguranței naționale.", "fisier": "01_Legea_80-1995_statutul_cadrelor_militare.txt"}
+   ]
+  },
+  {
+   "titlu": "Menținerea în activitate după vârsta standard",
+   "paragrafe": [
+    "Art. 86 alin. (3) deschide excepția: în raport cu nevoile de încadrare, cadrele militare pot fi menținute în activitate după împlinirea vârstei standard de pensionare până la vârsta de 60 de ani, cu aprobarea anuală a conducătorului instituției. Menținerea nu este un drept al lui Nistor, ci o aprobare a conducătorului instituției, dată an de an și numai până la 60 de ani."
+   ],
+   "temei": [
+    {"act": "Legea nr. 80/1995 privind statutul cadrelor militare", "articol": "art. 86 alin. (3)", "citat": "În raport cu nevoile de încadrare, cadrele militare pot fi menținute în activitate după împlinirea vârstei standard de pensionare până la vârsta de 60 de ani, cu aprobarea anuală a conducătorului instituției.", "fisier": "01_Legea_80-1995_statutul_cadrelor_militare.txt"}
+   ]
+  }
+ ],
+ "verdict": "Da, împlinirea vârstei standard este situația de la art. 85 alin. (1) lit. a), iar limita de vârstă în grad coincide cu ea (art. 86 alin. (1)). Nistor poate fi totuși menținut în activitate, în raport cu nevoile de încadrare, până la 60 de ani, numai cu aprobarea anuală a conducătorului instituției (art. 86 alin. (3)) — nu la cererea lui și nu automat.",
+ "capcane": [
+  "Menținerea după vârsta standard (art. 86 alin. (3)) se aprobă anual, de conducătorul instituției, și are plafonul de 60 de ani; nu este un drept al cadrului militar.",
+  "Generalii și amiralii au limite proprii de vârstă în grad (art. 86 alin. (2): 56, 57, 58, 59 de ani, după numărul de stele), aplicabile exclusiv Ministerului Apărării Naționale (alin. (2^2)); în celelalte instituții sunt menținuți după vârsta standard până la 60 de ani (alin. (2^3)).",
+  "Art. 85 alin. (1) are și lit. a^1): împlinirea vârstei care dă dreptul la pensie de serviciu cu reducerea vârstei standard — altă situație decât lit. a)."
+ ]
+}

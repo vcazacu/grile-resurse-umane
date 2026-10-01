@@ -1,0 +1,165 @@
+[
+ {
+  "loc": "Contractul de închiriere cu părinții / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 2 din HG nr. 1867/2005 cere cadrului militar mutat în altă garnizoană decât cea de domiciliu să îndeplinească cumulativ mai multe condiții; la lit. e) cere prezentarea unui contract de închiriere a unui spațiu de locuit încheiat în nume propriu sau în numele soțului, și spune expres că nu se acordă compensația în situația în care contractul de închiriere a fost încheiat cu copiii sau părinții cadrului militar ori ai soțului.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 0.99
+   },
+   "1": {
+    "text": "Contractul lui Cristea cu părinții lui cade exact sub această excludere.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 0.99
+   }
+  },
+  "usage": 3434
+ },
+ {
+  "loc": "Celelalte condiții cumulative / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Tot art. 2 cere, între altele, ca nici cadrul militar, nici soțul să nu dețină locuință proprietate personală în garnizoană (lit. b)), ca Ministerul Apărării să nu îi asigure spațiu de locuit corespunzător (lit. c)) și ca locuința închiriată să îi permită îndeplinirea atribuțiilor de serviciu, apreciere făcută de comisia de la art. 1 alin. (4) (lit. f)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.02,
+     "sustine": 0.98
+    },
+    "confidence": 0.97
+   },
+   "1": {
+    "text": "Cristea le-ar îndeplini pe acestea, dar condițiile sunt cumulative, iar cea de la lit. e) lipsește.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.02,
+     "absenta_corecta": 0.13,
+     "contrazice": 0.18,
+     "sustine": 0.67
+    },
+    "confidence": 0.58
+   }
+  },
+  "usage": 3635
+ },
+ {
+  "loc": "Soții, amândoi cadre militare / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 5 prevede că, în situația în care atât soțul, cât și soția sunt cadre militare în activitate cu drept la compensație și locuiesc împreună, se acordă o singură compensație lunară pentru chirie, potrivit opțiunii lor.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "sustine": 1.0,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Chiar dacă ar fi închiriat de la un terț, cei doi soți ar fi primit o singură compensație, nu două.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.11,
+     "sustine": 0.84,
+     "contrazice": 0.04,
+     "absenta_corecta": 0.01
+    },
+    "confidence": 0.79
+   }
+  },
+  "usage": 2749
+ },
+ {
+  "loc": "capcana 1",
+  "afirmatii": {
+   "0": {
+    "text": "Excluderea de la art. 2 lit. e) privește contractele încheiate cu copiii sau părinții cadrului militar ori ai soțului/soției — nu cu orice rudă.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "absenta_corecta": 0.17,
+     "nu_spune": 0.0,
+     "sustine": 0.83
+    },
+    "confidence": 0.77
+   }
+  },
+  "usage": 3540
+ },
+ {
+  "loc": "capcana 2",
+  "afirmatii": {
+   "0": {
+    "text": "Condițiile de la art. 2 sunt cumulative: lipsa oricăreia înlătură dreptul; printre ele, și nefolosirea navetei (lit. a)), cu excepția navetei la și de la locuința închiriată.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.99
+   }
+  },
+  "usage": 3427
+ },
+ {
+  "loc": "capcana 3",
+  "afirmatii": {
+   "0": {
+    "text": "Doi soți militari cu drept la compensație, care locuiesc împreună, primesc una singură, la alegerea lor (art. 5); dacă soțul lucrează în altă instituție publică, nu trebuie să primească de acolo spațiu de locuit sau compensație/decontarea chiriei în aceeași garnizoană (art. 2 lit. b^1)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.99,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.01
+    },
+    "confidence": 0.98
+   }
+  },
+  "usage": 3574
+ },
+ {
+  "loc": "verdict",
+  "afirmatii": {
+   "0": {
+    "text": "Contractul de închiriere încheiat cu părinții cadrului militar exclude compensația (art. 2 lit. e) din HG nr. 1867/2005), iar condițiile art. 2 sunt cumulative.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Iar doi soți cadre militare care locuiesc împreună primesc, oricum, o singură compensație, potrivit opțiunii lor (art. 5).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.99,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.01
+    },
+    "confidence": 0.99
+   }
+  },
+  "usage": 4041
+ }
+]

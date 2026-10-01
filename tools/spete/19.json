@@ -1,0 +1,48 @@
+{
+ "nr": 19,
+ "nivel": "simpla",
+ "titlu": "Mama care se întoarce la serviciu la 5 luni ale copilului și stimulentul de inserție",
+ "teme": [17],
+ "fapte": [
+  "Plutonierul Ene, cadru militar în activitate, a născut la 1 ianuarie 2026 și beneficiază de concediul și indemnizația pentru creșterea copilului.",
+  "La 1 iunie 2026, când copilul are 5 luni, se întoarce la serviciu și realizează din nou solde, venituri supuse impozitului.",
+  "Întreabă dacă poate păstra indemnizația și dacă primește ceva în plus pentru că a revenit devreme."
+ ],
+ "intrebare": "Ce primește Ene după revenirea la serviciu, în ce cuantum și până când? Poate păstra și indemnizația?",
+ "cifre_derivate": {"2028": "copilul născut la 1 ianuarie 2026 împlinește 2 ani la 1 ianuarie 2028"},
+ "sectiuni": [
+  {
+   "titlu": "Stimulentul de inserție și cele două cuantumuri",
+   "paragrafe": [
+    "Art. 7 alin. (1) dă persoanelor care, în perioada în care sunt îndreptățite la concediul pentru creșterea copilului, obțin venituri supuse impozitului un stimulent de inserție: 1.500 lei dacă obțin venituri înainte de împlinirea de către copil a vârstei de 6 luni, cuantum acordat până la împlinirea vârstei de 2 ani (lit. a)); 650 lei dacă obțin venituri după împlinirea vârstei de 6 luni (lit. b)). Ene revine când copilul are 5 luni, deci înainte de 6 luni: stimulentul ei este de 1.500 lei pe lună, până la 1 ianuarie 2028, când copilul împlinește 2 ani."
+   ],
+   "temei": [
+    {"act": "O.U.G. nr. 111/2010 privind concediul și indemnizația lunară pentru creșterea copiilor", "articol": "art. 7 alin. (1)", "citat": "Persoanele care, în perioada în care sunt îndreptățite să beneficieze de concediul pentru creșterea copilului, prevăzut la art. 2 alin. (1), obțin venituri supuse impozitului potrivit art. 3 alin. (1) au dreptul la un stimulent de inserție, după cum urmează: a) în cuantum de 1.500 lei, dacă persoanele îndreptățite obțin venituri înainte de împlinirea de către copil a vârstei de 6 luni, respectiv 1 an în cazul copilului cu dizabilități. Cuantumul de 1.500 lei se acordă până la împlinirea de către copil a vârstei de 2 ani, respectiv 3 ani în cazul copilului cu dizabilități; b) în cuantum de 650 lei dacă persoanele îndreptățite obțin venituri după împlinirea de către copil a vârstei de 6 luni, respectiv 1 an în cazul copilului cu dizabilități.", "fisier": "07_OUG_111-2010_concediul_crestere_copil.txt"}
+   ]
+  },
+  {
+   "titlu": "Indemnizația și stimulentul nu se cumulează",
+   "paragrafe": [
+    "Art. 7 alin. (4) prevede că, în cazul persoanelor care beneficiază de indemnizația lunară de la art. 2 alin. (1) și solicită stimulentul de inserție, plata indemnizației se suspendă; indemnizația nu se cumulează cu stimulentul. Ene nu poate păstra indemnizația: alege stimulentul, iar plata indemnizației se suspendă."
+   ],
+   "temei": [
+    {"act": "O.U.G. nr. 111/2010 privind concediul și indemnizația lunară pentru creșterea copiilor", "articol": "art. 7 alin. (4)", "citat": "În cazul persoanelor care beneficiază de indemnizația lunară prevăzută la art. 2 alin. (1) și solicită dreptul la stimulent de inserție, plata acestei indemnizații se suspendă. Indemnizația lunară prevăzută la art. 2 alin. (1) nu se cumulează cu stimulentul de inserție.", "fisier": "07_OUG_111-2010_concediul_crestere_copil.txt"}
+   ]
+  },
+  {
+   "titlu": "După 2 ani ai copilului",
+   "paragrafe": [
+    "Art. 7 alin. (2) prevede că persoanele care au finalizat concediul și obțin venituri supuse impozitului beneficiază de stimulentul în cuantumul de la alin. (1) lit. b) după împlinirea de către copil a vârstei de 2 ani, până la împlinirea vârstei de 3 ani, inclusiv persoanele de la alin. (1). După 1 ianuarie 2028, Ene trece deci de la 1.500 lei la 650 lei pe lună, până când copilul împlinește 3 ani."
+   ],
+   "temei": [
+    {"act": "O.U.G. nr. 111/2010 privind concediul și indemnizația lunară pentru creșterea copiilor", "articol": "art. 7 alin. (2)", "citat": "Persoanele care au finalizat concediul pentru creșterea copiilor și obțin venituri supuse impozitului potrivit art. 3 alin. (1) beneficiază de stimulentul de inserție în cuantumul prevăzut la alin. (1) lit. b) după împlinirea de către copil a vârstei de 2 ani, respectiv 3 ani în cazul copilului cu dizabilități până la împlinirea de către copil a vârstei de 3 ani, respectiv 4 ani în cazul copilului cu dizabilități. Acest stimulent de inserție se acordă inclusiv persoanelor prevăzute la alin. (1).", "fisier": "07_OUG_111-2010_concediul_crestere_copil.txt"}
+   ]
+  }
+ ],
+ "verdict": "Ene primește stimulentul de inserție de 1.500 lei pe lună, pentru că a obținut venituri înainte ca copilul să împlinească 6 luni, până la 1 ianuarie 2028 (2 ani ai copilului), apoi 650 lei pe lună până la 3 ani (art. 7 alin. (1) lit. a) și alin. (2)). Indemnizația nu o poate păstra: plata ei se suspendă, cele două nu se cumulează (art. 7 alin. (4)).",
+ "capcane": [
+  "Cuantumul stimulentului depinde de momentul revenirii: 1.500 lei dacă veniturile încep înainte de 6 luni ai copilului (1 an la copilul cu dizabilități), 650 lei dacă încep după; cuantumul de 1.500 lei durează până la 2 ani ai copilului, nu până la 3.",
+  "Indemnizația pentru creșterea copilului și stimulentul de inserție nu se cumulează niciodată (art. 7 alin. (4)).",
+  "Între 2 și 3 ani ai copilului (3 și 4 la copilul cu dizabilități), stimulentul este cel de 650 lei, inclusiv pentru cei care luaseră 1.500 lei (art. 7 alin. (2))."
+ ]
+}

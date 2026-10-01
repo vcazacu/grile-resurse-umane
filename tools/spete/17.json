@@ -1,0 +1,46 @@
+{
+ "nr": 17,
+ "nivel": "simpla",
+ "titlu": "Sergentul accidentat în concediu și pensia de invaliditate",
+ "teme": [13],
+ "fapte": [
+  "Sergentul Oprea, cadru militar în activitate cu 6 ani vechime în serviciu, suferă în concediul de odihnă un accident de circulație fără nicio legătură cu serviciul militar.",
+  "Comisia de expertiză medico-militară constată că și-a pierdut jumătate din capacitatea de muncă, dar că se poate autoîngriji și ar putea presta, după trecerea în rezervă, o activitate de cel mult jumătate din timpul normal de muncă."
+ ],
+ "intrebare": "Are Oprea dreptul la pensie de invaliditate, deși accidentul nu are legătură cu serviciul? În ce grad de invaliditate se încadrează?",
+ "sectiuni": [
+  {
+   "titlu": "Cauzele invalidității",
+   "paragrafe": [
+    "Art. 32 dă dreptul la pensie de invaliditate militarilor care și-au pierdut total sau cel puțin jumătate din capacitatea de muncă din două categorii de cauze: accidente de muncă ori boli contractate în timpul și din cauza serviciului, tuberculoza, neoplaziile, schizofrenia și SIDA (lit. a)), respectiv accidente sau boli care nu au legătură cu îndeplinirea serviciului militar (lit. b)). Accidentul de circulație din concediu intră la lit. b), iar pierderea a jumătate din capacitatea de muncă atinge pragul cerut."
+   ],
+   "temei": [
+    {"act": "Legea nr. 223/2015 privind pensiile militare de stat", "articol": "art. 32", "citat": "Au dreptul la pensie de invaliditate militarii, polițiștii și funcționarii publici cu statut special care și-au pierdut total sau cel puțin jumătate din capacitatea de muncă din cauza: a) producerii unor accidente de muncă sau a unei boli contractate în timpul și din cauza îndeplinirii serviciului militar/serviciului, tuberculozei, neoplaziilor, schizofreniei și SIDA; b) accidentelor sau bolilor care nu au legătură cu îndeplinirea serviciului militar/serviciului.", "fisier": "04_Legea_223-2015_pensiile_militare.txt"}
+   ]
+  },
+  {
+   "titlu": "Condiția specială pentru cauzele fără legătură cu serviciul",
+   "paragrafe": [
+    "Art. 38 adaugă, pentru cei care și-au pierdut capacitatea de muncă din cauza unor accidente sau boli fără legătură cu serviciul, o condiție: beneficiază de pensia de invaliditate dacă au realizat, în condițiile legii, vechime în serviciu. Oprea are 6 ani vechime în serviciu, deci condiția este îndeplinită."
+   ],
+   "temei": [
+    {"act": "Legea nr. 223/2015 privind pensiile militare de stat", "articol": "art. 38", "citat": "Militarii, polițiștii și funcționarii publici cu statut special, care și-au pierdut capacitatea de muncă din cauza unor accidente sau a unor boli care nu au legătură cu îndeplinirea serviciului militar/serviciului, beneficiază de pensia de invaliditate dacă au realizat, în condițiile legii, vechime în serviciu.", "fisier": "04_Legea_223-2015_pensiile_militare.txt"}
+   ]
+  },
+  {
+   "titlu": "Gradul de invaliditate",
+   "paragrafe": [
+    "Art. 34 determină pensia de invaliditate în raport cu gradul de pierdere a capacității de muncă: gradul I — pierderea totală a capacității de muncă și a capacității de autoîngrijire, cu nevoie de îngrijire sau supraveghere permanentă; gradul II — pierderea totală a capacității de muncă, cu posibilitatea de autoîngrijire; gradul III — pierderea a cel puțin jumătate din capacitatea de muncă, persoana putând presta, după trecerea în rezervă, o activitate de cel mult jumătate din timpul normal de muncă. Situația lui Oprea corespunde gradului III."
+   ],
+   "temei": [
+    {"act": "Legea nr. 223/2015 privind pensiile militare de stat", "articol": "art. 34", "citat": "Pensia de invaliditate se determină în raport cu gradul de pierdere a capacității de muncă, astfel: a) invaliditatea de gradul I, caracterizată prin pierderea totală a capacității de muncă și a capacității de autoîngrijire, necesitând îngrijire sau supraveghere permanentă din partea altei persoane; b) invaliditatea de gradul II, caracterizată prin pierderea totală a capacității de muncă, cu posibilitatea invalidului de a se autoîngriji fără ajutorul altei persoane; c) invaliditatea de gradul III, caracterizată prin pierderea a cel puțin jumătate din capacitatea de muncă, persoana putând să presteze o activitate profesională după trecerea sa în rezervă/încetarea raporturilor de serviciu, corespunzătoare a cel mult jumătate din timpul normal de muncă.", "fisier": "04_Legea_223-2015_pensiile_militare.txt"}
+   ]
+  }
+ ],
+ "verdict": "Da. Accidentul fără legătură cu serviciul este cauza de la art. 32 lit. b), pierderea a jumătate din capacitatea de muncă atinge pragul, iar Oprea are vechime în serviciu, cum cere art. 38 pentru aceste cauze. Se încadrează în gradul III de invaliditate (art. 34 lit. c)).",
+ "capcane": [
+  "Pragul pentru pensia de invaliditate este pierderea totală sau a cel puțin jumătate din capacitatea de muncă (art. 32); sub jumătate nu există pensie de invaliditate.",
+  "Pentru cauzele fără legătură cu serviciul (art. 32 lit. b)), art. 38 cere vechime în serviciu; pentru cauzele de la lit. a) nu există această condiție, iar de pensie beneficiază, în condițiile lit. a), și elevii și studenții instituțiilor de învățământ militar, cu excepția celor din liceu (art. 33 alin. (1)).",
+  "Gradele I și II înseamnă amândouă pierderea totală a capacității de muncă; le deosebește capacitatea de autoîngrijire. Gradul III înseamnă pierderea a cel puțin jumătate, cu posibilitatea unei activități de cel mult jumătate din timpul normal de muncă (art. 34)."
+ ]
+}

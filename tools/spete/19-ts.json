@@ -1,0 +1,165 @@
+[
+ {
+  "loc": "Stimulentul de inserție și cele două cuantumuri / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 7 alin. (1) dă persoanelor care, în perioada în care sunt îndreptățite la concediul pentru creșterea copilului, obțin venituri supuse impozitului un stimulent de inserție: 1.500 lei dacă obțin venituri înainte de împlinirea de către copil a vârstei de 6 luni, cuantum acordat până la împlinirea vârstei de 2 ani (lit. a)); 650 lei dacă obțin venituri după împlinirea vârstei de 6 luni (lit. b)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.99,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.01,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.99
+   },
+   "1": {
+    "text": "Ene revine când copilul are 5 luni, deci înainte de 6 luni: stimulentul ei este de 1.500 lei pe lună, până la 1 ianuarie 2028, când copilul împlinește 2 ani.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.73,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.25,
+     "nu_spune": 0.02
+    },
+    "confidence": 0.63
+   }
+  },
+  "usage": 4580
+ },
+ {
+  "loc": "Indemnizația și stimulentul nu se cumulează / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 7 alin. (4) prevede că, în cazul persoanelor care beneficiază de indemnizația lunară de la art. 2 alin. (1) și solicită stimulentul de inserție, plata indemnizației se suspendă; indemnizația nu se cumulează cu stimulentul.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.0,
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Ene nu poate păstra indemnizația: alege stimulentul, iar plata indemnizației se suspendă.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.97,
+     "nu_spune": 0.0,
+     "contrazice": 0.03,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 0.95
+   }
+  },
+  "usage": 3968
+ },
+ {
+  "loc": "După 2 ani ai copilului / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 7 alin. (2) prevede că persoanele care au finalizat concediul și obțin venituri supuse impozitului beneficiază de stimulentul în cuantumul de la alin. (1) lit. b) după împlinirea de către copil a vârstei de 2 ani, până la împlinirea vârstei de 3 ani, inclusiv persoanele de la alin. (1).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.99,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.01,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.98
+   },
+   "1": {
+    "text": "După 1 ianuarie 2028, Ene trece deci de la 1.500 lei la 650 lei pe lună, până când copilul împlinește 3 ani.",
+    "alegere": "contrazice",
+    "probabilitati": {
+     "sustine": 0.21,
+     "absenta_corecta": 0.01,
+     "contrazice": 0.6,
+     "nu_spune": 0.18
+    },
+    "confidence": 0.48
+   }
+  },
+  "usage": 4073
+ },
+ {
+  "loc": "capcana 1",
+  "afirmatii": {
+   "0": {
+    "text": "Cuantumul stimulentului depinde de momentul revenirii: 1.500 lei dacă veniturile încep înainte de 6 luni ai copilului (1 an la copilul cu dizabilități), 650 lei dacă încep după; cuantumul de 1.500 lei durează până la 2 ani ai copilului, nu până la 3.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.88,
+     "nu_spune": 0.0,
+     "contrazice": 0.12,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 0.84
+   }
+  },
+  "usage": 4008
+ },
+ {
+  "loc": "capcana 2",
+  "afirmatii": {
+   "0": {
+    "text": "Indemnizația pentru creșterea copilului și stimulentul de inserție nu se cumulează niciodată (art. 7 alin. (4)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.29,
+     "absenta_corecta": 0.01,
+     "sustine": 0.7,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.6
+   }
+  },
+  "usage": 4073
+ },
+ {
+  "loc": "capcana 3",
+  "afirmatii": {
+   "0": {
+    "text": "Între 2 și 3 ani ai copilului (3 și 4 la copilul cu dizabilități), stimulentul este cel de 650 lei, inclusiv pentru cei care luaseră 1.500 lei (art. 7 alin. (2)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.03,
+     "sustine": 0.97
+    },
+    "confidence": 0.95
+   }
+  },
+  "usage": 4171
+ },
+ {
+  "loc": "verdict",
+  "afirmatii": {
+   "0": {
+    "text": "Ene primește stimulentul de inserție de 1.500 lei pe lună, pentru că a obținut venituri înainte ca copilul să împlinească 6 luni, până la 1 ianuarie 2028 (2 ani ai copilului), apoi 650 lei pe lună până la 3 ani (art. 7 alin. (1) lit. a) și alin. (2)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.81,
+     "nu_spune": 0.0,
+     "contrazice": 0.19,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 0.74
+   },
+   "1": {
+    "text": "Indemnizația nu o poate păstra: plata ei se suspendă, cele două nu se cumulează (art. 7 alin. (4)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 0.99
+   }
+  },
+  "usage": 4753
+ }
+]

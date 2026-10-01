@@ -1,0 +1,48 @@
+{
+ "nr": 11,
+ "nivel": "simpla",
+ "titlu": "Locotenentul în rezervă care cere gradul de căpitan după 5 ani",
+ "teme": [6],
+ "fapte": [
+  "Locotenentul în rezervă Vlad a primit gradul de locotenent la 1 iunie 2021 și a rămas de atunci în rezervă.",
+  "La 1 iunie 2026, după 5 ani în grad, cere înaintarea în gradul de căpitan.",
+  "Suntem în timp de pace."
+ ],
+ "intrebare": "Îndeplinește Vlad stagiul minim în grad pentru căpitan, ca rezervist? Și ce s-ar întâmpla cu stagiul lui dacă ar fi rechemat în activitate?",
+ "cifre_derivate": {"6": "stagiul de 5 ani de la art. 94 plus un an pentru rezerviști (art. 97)", "2027": "1 iunie 2021 plus 6 ani"},
+ "sectiuni": [
+  {
+   "titlu": "Stagiul minim pentru ofițerii în activitate",
+   "paragrafe": [
+    "Art. 94 stabilește stagiul minim în grad, în timp de pace, pentru înaintarea în gradul următor a ofițerilor în activitate: pentru locotenent, 5 ani. Dacă Vlad ar fi fost în activitate, cei 5 ani împliniți la 1 iunie 2026 ar fi fost suficienți."
+   ],
+   "temei": [
+    {"act": "Legea nr. 80/1995 privind statutul cadrelor militare", "articol": "art. 94 lit. A b)", "citat": "În timp de pace, stagiul minim în grad pentru înaintarea în gradul următor a ofițerilor, maiștrilor militari și subofițerilor în activitate se stabilește astfel: A. Pentru ofițeri: a) sublocotenent și aspirant 3 ani b) locotenent 5 ani", "fisier": "01_Legea_80-1995_statutul_cadrelor_militare.txt"}
+   ]
+  },
+  {
+   "titlu": "Rezerviștii au un an în plus",
+   "paragrafe": [
+    "Art. 97 prevede că, în timp de pace, stagiul minim în grad pentru ofițerii, maiștrii militari și subofițerii în rezervă este mai mare cu un an decât cel prevăzut la art. 94, iar în timp de război este cel de la articolul respectiv. Pentru Vlad, rezervist, stagiul minim pentru căpitan este deci de 6 ani, pe care îi va împlini la 1 iunie 2027; la 1 iunie 2026 nu îl are."
+   ],
+   "temei": [
+    {"act": "Legea nr. 80/1995 privind statutul cadrelor militare", "articol": "art. 97", "citat": "În timp de pace, stagiul minim în grad pentru ofițerii, maiștrii militari și subofițerii în rezervă este mai mare cu un an decât cel prevăzut la art. 94, iar în timp de război este cel de la articolul respectiv.", "fisier": "01_Legea_80-1995_statutul_cadrelor_militare.txt"}
+   ]
+  },
+  {
+   "titlu": "Dacă ar fi rechemat în activitate",
+   "paragrafe": [
+    "Tot art. 97 arată că, la chemarea sau rechemarea în activitate, pentru stabilirea stagiului în gradul deținut se iau în calcul trei pătrimi din stagiul în gradul avut ca rezervist. Stagiul din rezervă nu se pierde, dar nici nu se ia întreg: din cei 5 ani ai lui Vlad s-ar socoti trei pătrimi."
+   ],
+   "temei": [
+    {"act": "Legea nr. 80/1995 privind statutul cadrelor militare", "articol": "art. 97", "citat": "La chemarea sau rechemarea în activitate, pentru stabilirea stagiului în gradul pe care îl au, li se iau în calcul trei pătrimi din stagiul în gradul pe care îl au ca rezerviști.", "fisier": "01_Legea_80-1995_statutul_cadrelor_militare.txt"}
+   ]
+  }
+ ],
+ "verdict": "Nu. Ca rezervist, Vlad are nevoie de 6 ani în grad (5 ani de la art. 94 plus un an, art. 97), pe care îi împlinește abia la 1 iunie 2027. Dacă ar fi rechemat în activitate, din stagiul său de rezervist s-ar lua în calcul trei pătrimi.",
+ "capcane": [
+  "Stagiul minim al rezerviștilor este cu un an mai mare decât al celor în activitate numai în timp de pace; în timp de război este același (art. 97).",
+  "La rechemarea în activitate, stagiul din rezervă contează în proporție de trei pătrimi, nu integral și nici deloc.",
+  "Cifrele de bază rămân cele de la art. 94: locotenent 5 ani, căpitan 5 ani, sublocotenent 3 ani — art. 97 le adaugă un an, nu le înlocuiește."
+ ]
+}

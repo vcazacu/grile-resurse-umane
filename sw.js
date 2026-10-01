@@ -57,6 +57,16 @@ const FISIERE = [
   "./spete/08-maiorul-trecut-in-rezerva-prin-reorganizare-la-48-de-ani.html",
   "./spete/09-recalcularea-indemnizatiei-de-crestere-a-copilului-dupa-ce.html",
   "./spete/10-referenta-civila-delegata-inca-60-de-zile-fara-sa-fie.html",
+  "./spete/11-locotenentul-in-rezerva-care-cere-gradul-de-capitan-dupa-5.html",
+  "./spete/12-colonelul-care-implineste-varsta-standard-si-vrea-sa-mai.html",
+  "./spete/13-cine-aproba-structura-sie-si-cine-numeste-adjunctii.html",
+  "./spete/14-perioada-de-proba-de-120-de-zile-pentru-un-referent.html",
+  "./spete/15-demisia-pe-care-angajatorul-refuza-sa-o-inregistreze.html",
+  "./spete/16-concediul-de-odihna-neefectuat-cerut-in-bani.html",
+  "./spete/17-sergentul-accidentat-in-concediu-si-pensia-de-invaliditate.html",
+  "./spete/18-pensia-pentru-limita-de-varsta-cu-13-ani-de-stagiu.html",
+  "./spete/19-mama-care-se-intoarce-la-serviciu-la-5-luni-ale-copilului.html",
+  "./spete/20-chiria-platita-parintilor-si-cei-doi-soti-militari.html",
   /* SPETE-END */
 ];
 

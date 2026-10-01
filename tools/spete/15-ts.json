@@ -1,0 +1,187 @@
+[
+ {
+  "loc": "Demisia este un act unilateral / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 81 alin. (1) definește demisia ca actul unilateral de voință al salariatului care, printr-o notificare scrisă, comunică angajatorului încetarea contractului individual de muncă, după împlinirea unui termen de preaviz.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   },
+   "1": {
+    "text": "Alin. (2) obligă angajatorul să înregistreze demisia, iar refuzul de a o înregistra dă salariatului dreptul de a face dovada ei prin orice mijloace de probă; alin. (3) dă salariatului dreptul de a nu motiva demisia.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 1.0
+   },
+   "2": {
+    "text": "Șeful nu are ce „accepta” sau refuza, iar Preda nu datorează nicio explicație.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.91,
+     "nu_spune": 0.02,
+     "contrazice": 0.03,
+     "absenta_corecta": 0.04
+    },
+    "confidence": 0.87
+   }
+  },
+  "usage": 3785
+ },
+ {
+  "loc": "Cât poate fi preavizul / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Art. 81 alin. (4) prevede că termenul de preaviz este cel convenit de părți în contract sau cel din contractele colective aplicabile și nu poate fi mai mare de 20 de zile lucrătoare pentru salariații cu funcții de execuție, respectiv de 45 de zile lucrătoare pentru cei cu funcții de conducere.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.01,
+     "sustine": 0.99,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 0.98
+   },
+   "1": {
+    "text": "Clauza de 30 de zile lucrătoare din contractul lui Preda depășește plafonul legal pentru o funcție de execuție; preavizul lui nu poate fi mai mare de 20 de zile lucrătoare.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.01,
+     "sustine": 0.99,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 0.98
+   }
+  },
+  "usage": 3323
+ },
+ {
+  "loc": "Când încetează contractul / paragraful 1",
+  "afirmatii": {
+   "0": {
+    "text": "Potrivit art. 81 alin. (7), contractul încetează la data expirării termenului de preaviz sau la data renunțării totale ori parțiale de către angajator la termenul respectiv; pe durata preavizului contractul continuă să își producă toate efectele (alin. (5)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.99,
+     "contrazice": 0.01,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 0.99
+   },
+   "1": {
+    "text": "Alin. (8) adaugă că salariatul poate demisiona fără preaviz dacă angajatorul nu își îndeplinește obligațiile asumate prin contract.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "contrazice": 0.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0
+    },
+    "confidence": 1.0
+   },
+   "2": {
+    "text": "Pentru Preda, contractul încetează la expirarea celor 20 de zile lucrătoare de preaviz, socotite de la demisia din 2 martie 2026, sau mai devreme, dacă angajatorul renunță la preaviz.",
+    "alegere": "contrazice",
+    "probabilitati": {
+     "sustine": 0.31,
+     "contrazice": 0.68,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.01
+    },
+    "confidence": 0.58
+   }
+  },
+  "usage": 3788
+ },
+ {
+  "loc": "capcana 1",
+  "afirmatii": {
+   "0": {
+    "text": "Preavizul la demisie are plafoane, nu cuantumuri fixe: cel mult 20 de zile lucrătoare la execuție, cel mult 45 la conducere; o clauză mai mare este redusă la plafon.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.96,
+     "nu_spune": 0.01,
+     "contrazice": 0.03,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 0.95
+   }
+  },
+  "usage": 2986
+ },
+ {
+  "loc": "capcana 2",
+  "afirmatii": {
+   "0": {
+    "text": "Dacă în perioada de preaviz contractul este suspendat, termenul de preaviz se suspendă corespunzător (art. 81 alin. (6)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0,
+     "sustine": 1.0
+    },
+    "confidence": 1.0
+   }
+  },
+  "usage": 3025
+ },
+ {
+  "loc": "capcana 3",
+  "afirmatii": {
+   "0": {
+    "text": "Demisia fără preaviz există într-un singur caz: angajatorul nu își îndeplinește obligațiile din contract (art. 81 alin. (8)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "absenta_corecta": 0.03,
+     "nu_spune": 0.01,
+     "contrazice": 0.22,
+     "sustine": 0.74
+    },
+    "confidence": 0.66
+   }
+  },
+  "usage": 3036
+ },
+ {
+  "loc": "verdict",
+  "afirmatii": {
+   "0": {
+    "text": "Angajatorul nu poate refuza demisia și nici cere motivarea ei: este obligat să o înregistreze, iar dacă refuză, Preda o dovedește prin orice mijloc de probă (art. 81 alin. (2)–(3)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 1.0,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.0
+    },
+    "confidence": 0.99
+   },
+   "1": {
+    "text": "Preavizul nu poate depăși 20 de zile lucrătoare pentru o funcție de execuție, oricât ar scrie contractul (alin. (4)); contractul încetează la expirarea lor sau mai devreme, dacă angajatorul renunță la preaviz (alin. (7)).",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.97,
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "contrazice": 0.03
+    },
+    "confidence": 0.96
+   }
+  },
+  "usage": 3587
+ }
+]
