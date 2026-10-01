@@ -146,11 +146,13 @@ cu ieșire 1 la eșec: fiecare citat e găsit verbatim în lege; dispozitivul un
 (temei cu `tip: "decizie"`) e găsit în notele portalului de la articolul respectiv; pentru spețele
 cu `calcul`, vechimile și procentul se calculează în cod (art. 3, 24, 29, 30 din Legea 223/2015)
 și fiecare valoare trebuie să apară în rezolvare, iar orice procent din rezolvare trebuie să
-rezulte din calcul. Poarta semantică le verifică cu `check_tematica.py spete/NN.json` (primește
-și situația de fapt, ca să judece aplicarea legii la fapte). Calibrare pe primele trei spețe: 37
-de afirmații susținute, 0 contrazise; din 3 erori plantate, poarta a prins 2 la p = 1,00 — pe a
-treia, un procent greșit (72% în loc de 68%), a prins-o verificarea din cod. Aritmetica e treaba
-codului, nu a modelului.
+rezulte din calcul; în toate spețele, orice cifră din rezolvare și din verdict trebuie să vină
+din fapte, dintr-un citat, din calcul sau să fie declarată în `cifre_derivate` cu derivarea ei.
+Poarta semantică le verifică cu `check_tematica.py spete/NN.json` (primește și situația de
+fapt, ca să judece aplicarea legii la fapte, și judecă și verdictul). Calibrare pe primele trei
+spețe: 45 de afirmații susținute, 0 contrazise; din 3 erori plantate, poarta a prins 2 la
+p = 1,00 — pe a treia, un procent greșit (72% în loc de 68%), a prins-o verificarea din cod.
+Aritmetica e treaba codului, nu a modelului; verifica_tot.sh rulează spete_build.py la pasul 9.
 
 ## Fișiere
 

@@ -6,23 +6,23 @@
     "text": "Art. 3 lit. e) definește vechimea în serviciu ca perioada în care persoana s-a aflat în una dintre situațiile enumerate acolo, între care calitatea de cadru militar în activitate (pct. 1) și cea de student al unei instituții militare de învățământ pentru formarea cadrelor militare, cu excepția învățământului liceal (pct. 3).",
     "alegere": "sustine",
     "probabilitati": {
+     "nu_spune": 0.0,
      "absenta_corecta": 0.0,
      "contrazice": 0.0,
-     "sustine": 1.0,
-     "nu_spune": 0.0
+     "sustine": 1.0
     },
-    "confidence": 1.0
+    "confidence": 0.99
    },
    "1": {
     "text": "Cei 4 ani de academie și cei 18 ani de ofițer în activitate dau o vechime în serviciu de 22 de ani; cei 3 ani lucrați în civilie nu intră aici, pentru că nu sunt niciuna dintre situațiile de la lit. e), ci vechime în muncă.",
     "alegere": "sustine",
     "probabilitati": {
      "nu_spune": 0.04,
-     "contrazice": 0.03,
-     "sustine": 0.74,
-     "absenta_corecta": 0.19
+     "absenta_corecta": 0.18,
+     "sustine": 0.76,
+     "contrazice": 0.02
     },
-    "confidence": 0.66
+    "confidence": 0.67
    }
   },
   "usage": 4684
@@ -35,19 +35,19 @@
     "alegere": "sustine",
     "probabilitati": {
      "absenta_corecta": 0.0,
-     "contrazice": 0.05,
-     "sustine": 0.95,
-     "nu_spune": 0.0
+     "nu_spune": 0.0,
+     "contrazice": 0.06,
+     "sustine": 0.94
     },
-    "confidence": 0.93
+    "confidence": 0.92
    },
    "1": {
     "text": "Art. 23 alin. (1) adaugă sporul la vechimea în serviciu luată în considerare la stabilirea pensiei, iar alin. (2) precizează că vechimea în serviciu pentru deschiderea dreptului la pensie nu cuprinde acest spor.",
     "alegere": "sustine",
     "probabilitati": {
      "absenta_corecta": 0.0,
-     "contrazice": 0.0,
      "nu_spune": 0.0,
+     "contrazice": 0.0,
      "sustine": 1.0
     },
     "confidence": 0.99
@@ -63,22 +63,22 @@
     "alegere": "sustine",
     "probabilitati": {
      "absenta_corecta": 0.01,
-     "sustine": 0.48,
-     "contrazice": 0.34,
-     "nu_spune": 0.17
+     "contrazice": 0.33,
+     "nu_spune": 0.14,
+     "sustine": 0.52
     },
-    "confidence": 0.32
+    "confidence": 0.38
    },
    "1": {
     "text": "Art. 3 lit. g) definește vechimea efectivă ca vechimea de la lit. f) fără sporurile acordate pentru condiții deosebite, speciale sau alte condiții de muncă: 28 de ani minus 3 ani înseamnă o vechime efectivă de 25 de ani.",
     "alegere": "sustine",
     "probabilitati": {
      "absenta_corecta": 0.0,
-     "sustine": 0.77,
-     "contrazice": 0.18,
-     "nu_spune": 0.05
+     "contrazice": 0.21,
+     "nu_spune": 0.04,
+     "sustine": 0.75
     },
-    "confidence": 0.69
+    "confidence": 0.65
    }
   },
   "usage": 4421
@@ -90,10 +90,10 @@
     "text": "Art. 16 alin. (1) cere, cumulativ, împlinirea vârstei standard de pensionare (lit. a)) și o vechime efectivă de cel puțin 25 de ani, din care cel puțin 15 ani vechime în serviciu (lit. b)).",
     "alegere": "sustine",
     "probabilitati": {
-     "sustine": 1.0,
-     "nu_spune": 0.0,
      "contrazice": 0.0,
-     "absenta_corecta": 0.0
+     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
+     "sustine": 1.0
     },
     "confidence": 1.0
    },
@@ -101,12 +101,12 @@
     "text": "Popescu are exact 25 de ani vechime efectivă și 22 de ani vechime în serviciu, deci condiția de vechime de la lit. b) este îndeplinită; la 47 de ani nu a împlinit însă vârsta standard de pensionare, așa că pensia de serviciu pentru limită de vârstă nu se poate deschide încă.",
     "alegere": "sustine",
     "probabilitati": {
-     "contrazice": 0.18,
-     "nu_spune": 0.11,
-     "sustine": 0.69,
-     "absenta_corecta": 0.02
+     "contrazice": 0.16,
+     "absenta_corecta": 0.01,
+     "nu_spune": 0.09,
+     "sustine": 0.74
     },
-    "confidence": 0.58
+    "confidence": 0.65
    }
   },
   "usage": 3234
@@ -118,9 +118,9 @@
     "text": "Art. 29 alin. (1) lit. a) dă, la o vechime cumulată de cel puțin 25 de ani, o pensie de serviciu de 65% din baza de calcul prevăzută la art. 28, iar lit. b) adaugă câte 1% din baza de calcul pentru fiecare an care depășește această vechime.",
     "alegere": "sustine",
     "probabilitati": {
-     "absenta_corecta": 0.0,
-     "nu_spune": 0.0,
      "contrazice": 0.0,
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
      "sustine": 1.0
     },
     "confidence": 1.0
@@ -129,21 +129,21 @@
     "text": "Cu 28 de ani vechime cumulată, procentul este 65% plus 3%, adică 68% din baza de calcul, sub plafonul de 85% stabilit de art. 30.",
     "alegere": "sustine",
     "probabilitati": {
-     "absenta_corecta": 0.0,
-     "nu_spune": 0.01,
      "contrazice": 0.02,
-     "sustine": 0.97
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "sustine": 0.98
     },
-    "confidence": 0.96
+    "confidence": 0.97
    },
    "2": {
     "text": "Baza de calcul este, potrivit art. 28 alin. (1), media soldelor lunare brute realizate la funcția de bază, deci solda de comandă contează acolo, ca bani, nu ca vechime.",
     "alegere": "sustine",
     "probabilitati": {
-     "absenta_corecta": 0.03,
+     "sustine": 0.87,
      "nu_spune": 0.07,
-     "contrazice": 0.05,
-     "sustine": 0.85
+     "absenta_corecta": 0.02,
+     "contrazice": 0.04
     },
     "confidence": 0.81
    }
@@ -158,11 +158,11 @@
     "alegere": "sustine",
     "probabilitati": {
      "nu_spune": 0.02,
-     "sustine": 0.66,
      "absenta_corecta": 0.3,
-     "contrazice": 0.02
+     "contrazice": 0.02,
+     "sustine": 0.66
     },
-    "confidence": 0.55
+    "confidence": 0.56
    }
   },
   "usage": 8981
@@ -174,23 +174,23 @@
     "text": "Sporul de 3 ani nu ajută la condiția de 25 de ani de la art. 16: vechimea efectivă de la art. 3 lit. g) este fără sporuri, iar art. 23 alin. (2) spune același lucru pentru deschiderea dreptului.",
     "alegere": "sustine",
     "probabilitati": {
-     "contrazice": 0.04,
-     "sustine": 0.95,
+     "contrazice": 0.03,
      "nu_spune": 0.0,
+     "sustine": 0.96,
      "absenta_corecta": 0.01
     },
-    "confidence": 0.93
+    "confidence": 0.94
    },
    "1": {
     "text": "Sporul contează doar la cuantum, prin vechimea cumulată de la art. 29.",
     "alegere": "sustine",
     "probabilitati": {
-     "contrazice": 0.2,
-     "sustine": 0.79,
+     "contrazice": 0.12,
      "nu_spune": 0.0,
+     "sustine": 0.87,
      "absenta_corecta": 0.01
     },
-    "confidence": 0.71
+    "confidence": 0.83
    }
   },
   "usage": 9697
@@ -202,14 +202,42 @@
     "text": "La examen, „spor” înseamnă aici timp (1 an și 3 luni, 1 an și 6 luni, 2 ani pentru fiecare an lucrat efectiv, art. 24); solda de comandă nu este un spor de vechime, ci intră în baza de calcul de la art. 28.",
     "alegere": "sustine",
     "probabilitati": {
-     "nu_spune": 0.09,
-     "sustine": 0.76,
-     "contrazice": 0.02,
-     "absenta_corecta": 0.13
+     "sustine": 0.74,
+     "nu_spune": 0.11,
+     "contrazice": 0.03,
+     "absenta_corecta": 0.12
     },
-    "confidence": 0.68
+    "confidence": 0.65
    }
   },
   "usage": 9004
+ },
+ {
+  "loc": "verdict",
+  "afirmatii": {
+   "0": {
+    "text": "Vechime în serviciu 22 de ani, vechime cumulată 28 de ani, vechime efectivă 25 de ani.",
+    "alegere": "contrazice",
+    "probabilitati": {
+     "sustine": 0.26,
+     "contrazice": 0.68,
+     "nu_spune": 0.05,
+     "absenta_corecta": 0.0
+    },
+    "confidence": 0.57
+   },
+   "1": {
+    "text": "Condiția de vechime de la art. 16 alin. (1) lit. b) este îndeplinită; pensia de serviciu pentru limită de vârstă se deschide însă numai la împlinirea vârstei standard, iar cu aceste vechimi ar fi de 68% din baza de calcul.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.63,
+     "contrazice": 0.35,
+     "nu_spune": 0.01,
+     "absenta_corecta": 0.01
+    },
+    "confidence": 0.51
+   }
+  },
+  "usage": 9553
  }
 ]

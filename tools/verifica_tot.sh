@@ -24,6 +24,7 @@ if [ ${#FISIERE[@]} -eq 1 ] && [ "${FISIERE[0]}" = "../intrebari.js" ]; then
 fi
 echo "== 7. cache offline ==";             python3 verifica_sw.py                    || ok=1
 echo "== 8. linkuri în pagini ==";        python3 test_linkuri.py | tail -3; [ ${PIPESTATUS[0]} -eq 0 ] || ok=1
+echo "== 9. spețe: citate, decizii, cifre =="; python3 spete_build.py | tail -1; [ ${PIPESTATUS[0]} -eq 0 ] || ok=1
 if [ $SEMANTIC -eq 1 ]; then
   echo "== 6. poartă semantică (TypeSafe) =="
   "$PY_TS" check_semantic.py "${FISIERE[@]}" || ok=1

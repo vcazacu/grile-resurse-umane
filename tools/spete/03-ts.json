@@ -6,8 +6,8 @@
     "text": "Art. 20^1 alin. (1) din Legea nr. 80/1995 dă dreptul la o compensație lunară pentru chirie de până la 50% din solda lunară cadrelor militare în activitate mutate în interesul serviciului într-o altă garnizoană decât cea în care își au domiciliul, care nu dețin locuință proprietate personală în acea garnizoană, nici ele, nici soțiile sau soții lor, și cărora nu li se poate asigura spațiu de locuit corespunzător.",
     "alegere": "sustine",
     "probabilitati": {
-     "nu_spune": 0.0,
      "contrazice": 0.0,
+     "nu_spune": 0.0,
      "sustine": 1.0,
      "absenta_corecta": 0.0
     },
@@ -17,8 +17,8 @@
     "text": "Dumitrescu este mutat în interesul serviciului din Craiova în Constanța, nu are locuință acolo și nici unitatea nu îi poate da una, deci îndeplinește toate condițiile.",
     "alegere": "sustine",
     "probabilitati": {
-     "nu_spune": 0.03,
      "contrazice": 0.01,
+     "nu_spune": 0.03,
      "sustine": 0.96,
      "absenta_corecta": 0.0
     },
@@ -34,12 +34,12 @@
     "text": "Art. 1 alin. (1) din Hotărârea Guvernului nr. 1867/2005 calculează compensația în raport cu solda de funcție aflată în plată: 50% dacă locuința închiriată se află în municipii (lit. a)), dar nu mai mult decât chiria prevăzută în contractul de închiriere. 50% din solda de funcție de 6.000 lei înseamnă 3.000 lei, însă chiria este de 2.400 lei, deci compensația lunară pentru chirie este de 2.400 lei.",
     "alegere": "sustine",
     "probabilitati": {
-     "sustine": 0.97,
-     "contrazice": 0.03,
      "nu_spune": 0.0,
-     "absenta_corecta": 0.0
+     "absenta_corecta": 0.0,
+     "contrazice": 0.02,
+     "sustine": 0.98
     },
-    "confidence": 0.95
+    "confidence": 0.96
    }
   },
   "usage": 3692
@@ -51,10 +51,10 @@
     "text": "Art. 20^1 alin. (2^1) extinde compensația la cadrele militare care contractează un credit ipotecar/imobiliar destinat achiziționării unei locuințe sau încheie un contract de vânzare-cumpărare cu plata în rate a unei locuințe.",
     "alegere": "sustine",
     "probabilitati": {
-     "absenta_corecta": 0.0,
+     "nu_spune": 0.0,
      "contrazice": 0.01,
-     "sustine": 0.99,
-     "nu_spune": 0.0
+     "absenta_corecta": 0.0,
+     "sustine": 0.99
     },
     "confidence": 0.99
    },
@@ -62,10 +62,10 @@
     "text": "Prin Decizia HP nr. 40/2025, Înalta Curte de Casație și Justiție a stabilit că dreptul la compensația lunară pentru chirie nu poate fi recunoscut cadrelor militare care au încheiat contracte de credit ipotecar în vederea construirii unei locuințe.",
     "alegere": "sustine",
     "probabilitati": {
+     "nu_spune": 0.0,
+     "contrazice": 0.01,
      "absenta_corecta": 0.0,
-     "contrazice": 0.02,
-     "sustine": 0.98,
-     "nu_spune": 0.0
+     "sustine": 0.99
     },
     "confidence": 0.97
    },
@@ -73,12 +73,12 @@
     "text": "Creditul lui Dumitrescu este pentru construire, nu pentru achiziționare, deci rata lui nu poate fi acoperită din compensație.",
     "alegere": "sustine",
     "probabilitati": {
-     "absenta_corecta": 0.12,
+     "nu_spune": 0.0,
      "contrazice": 0.01,
-     "sustine": 0.87,
-     "nu_spune": 0.0
+     "absenta_corecta": 0.13,
+     "sustine": 0.86
     },
-    "confidence": 0.84
+    "confidence": 0.82
    }
   },
   "usage": 5318
@@ -90,9 +90,9 @@
     "text": "Art. 20^1 alin. (2^2) interzice acordarea concomitentă a compensației pentru situația de la alin. 1 și 2 (chirie) și pentru situația de la alin. 2^1 (credit sau rate): cadrul militar optează pentru una dintre ele, iar compensația pentru credit se acordă pentru o singură locuință achiziționată pe timpul carierei.",
     "alegere": "sustine",
     "probabilitati": {
+     "sustine": 1.0,
      "nu_spune": 0.0,
      "contrazice": 0.0,
-     "sustine": 1.0,
      "absenta_corecta": 0.0
     },
     "confidence": 1.0
@@ -101,10 +101,10 @@
     "text": "Chiar dacă Dumitrescu ar fi cumpărat locuința, nu ar fi putut primi și chiria, și rata, ci ar fi ales una; iar pentru rată, alin. (2^1) prevede că se acordă cuantumul de la alin. 1, dar nu mai mult decât rata lunară plătită.",
     "alegere": "sustine",
     "probabilitati": {
-     "absenta_corecta": 0.0,
-     "contrazice": 0.01,
      "sustine": 0.99,
-     "nu_spune": 0.0
+     "nu_spune": 0.0,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.01
     },
     "confidence": 0.99
    },
@@ -112,15 +112,26 @@
     "text": "În plus, alin. (2^4) prevede că cei mutați pot beneficia de compensație într-o singură garnizoană.",
     "alegere": "sustine",
     "probabilitati": {
+     "sustine": 0.99,
      "nu_spune": 0.0,
      "contrazice": 0.01,
-     "sustine": 0.99,
      "absenta_corecta": 0.0
     },
     "confidence": 0.98
+   },
+   "3": {
+    "text": "Mai este un efect al construirii: alin. (1) cere ca el și soția să nu dețină locuință proprietate personală în garnizoana Constanța, deci din momentul în care casa este gata și devine proprietatea lui, condiția nu mai este îndeplinită și compensația pentru chirie încetează.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "sustine": 0.9,
+     "nu_spune": 0.03,
+     "absenta_corecta": 0.01,
+     "contrazice": 0.06
+    },
+    "confidence": 0.86
    }
   },
-  "usage": 5249
+  "usage": 5786
  },
  {
   "loc": "capcana 1",
@@ -129,12 +140,12 @@
     "text": "Procentul de 50% din HG nr. 1867/2005 se aplică la solda de funcție aflată în plată, nu la întreaga soldă lunară, și este plafonat la chiria din contract, respectiv la rata lunară plătită.",
     "alegere": "sustine",
     "probabilitati": {
-     "contrazice": 0.04,
-     "nu_spune": 0.0,
      "absenta_corecta": 0.0,
-     "sustine": 0.96
+     "sustine": 0.97,
+     "contrazice": 0.03,
+     "nu_spune": 0.0
     },
-    "confidence": 0.94
+    "confidence": 0.95
    }
   },
   "usage": 6032
@@ -146,12 +157,12 @@
     "text": "Achiziționare nu înseamnă construire: art. 20^1 alin. (2^1) vorbește de credit destinat achiziționării unei locuințe, iar Decizia HP nr. 40/2025 a Înaltei Curți a tranșat că pentru creditele de construire dreptul nu poate fi recunoscut.",
     "alegere": "sustine",
     "probabilitati": {
+     "sustine": 0.84,
      "nu_spune": 0.01,
-     "contrazice": 0.04,
-     "sustine": 0.87,
-     "absenta_corecta": 0.08
+     "contrazice": 0.05,
+     "absenta_corecta": 0.1
     },
-    "confidence": 0.82
+    "confidence": 0.79
    }
   },
   "usage": 6040
@@ -163,14 +174,53 @@
     "text": "Compensația pentru credit se acordă pentru o singură locuință achiziționată pe timpul carierei și nu se cumulează cu cea pentru chirie (art. 20^1 alin. (2^2)); cei mutați o pot primi într-o singură garnizoană (alin. (2^4)).",
     "alegere": "sustine",
     "probabilitati": {
-     "sustine": 0.91,
+     "contrazice": 0.08,
      "nu_spune": 0.0,
-     "absenta_corecta": 0.0,
-     "contrazice": 0.09
+     "sustine": 0.92,
+     "absenta_corecta": 0.0
     },
     "confidence": 0.88
    }
   },
   "usage": 6255
+ },
+ {
+  "loc": "verdict",
+  "afirmatii": {
+   "0": {
+    "text": "Dumitrescu primește 2.400 lei pe lună compensație pentru chirie (50% din solda de funcție ar fi 3.000 lei, dar nu mai mult decât chiria), însă numai cât timp îndeplinește condițiile de la art. 20^1 alin. (1): din momentul în care casa construită în Constanța devine locuința lui proprietate personală în acea garnizoană, condiția nu mai este îndeplinită și compensația pentru chirie încetează.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.06,
+     "nu_spune": 0.01,
+     "sustine": 0.92,
+     "absenta_corecta": 0.01
+    },
+    "confidence": 0.9
+   },
+   "1": {
+    "text": "Pentru rata creditului de construire nu primește nimic: alin. (2^1) vizează achiziționarea unei locuințe, iar Decizia HP nr. 40/2025 exclude creditele pentru construire.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.02,
+     "nu_spune": 0.0,
+     "sustine": 0.78,
+     "absenta_corecta": 0.2
+    },
+    "confidence": 0.71
+   },
+   "2": {
+    "text": "Cumulul este oricum exclus de alin. (2^2): dacă ar fi cumpărat, ar fi trebuit să opteze între chirie și rată.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "contrazice": 0.05,
+     "nu_spune": 0.01,
+     "sustine": 0.91,
+     "absenta_corecta": 0.03
+    },
+    "confidence": 0.88
+   }
+  },
+  "usage": 7079
  }
 ]

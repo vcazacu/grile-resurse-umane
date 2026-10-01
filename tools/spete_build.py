@@ -25,6 +25,13 @@ NIVELURI = [("simpla", "simplă", "Un articol, o condiție"), ("medie", "medie",
             ("complexa", "complexă", "Mai multe acte și o excepție")]
 NIVEL_NUME = {k: v for k, v, _ in NIVELURI}
 
+_NUM = re.compile(r"(?<![\w^/–-])(\d+(?:[.,]\d+)?)(?![\w^/–-])")      # nu prinde 40/2025, 20^1, 2^1
+_REF = re.compile(r"(?:art\.|alin\.|lit\.|pct\.|nr\.|anexa|anexele|capitol)\s*(?:\(|nr\.\s*)?$", re.I)
+
+def _numere(text):
+    """Cifrele din text care nu sunt numere de articol/alineat/literă/act („art. 94”, „HP nr. 40/2025”)."""
+    return [m.group(1) for m in _NUM.finditer(text) if not _REF.search(text[max(0, m.start() - 12):m.start()])]
+
 def note_articol(fisier, art):
     """Notele portalului (§NOTA§) din interiorul articolului dat, în corpul legii."""
     note, in_art = [], False
@@ -168,6 +175,14 @@ def main():
             for m in re.finditer(r"(?<![\d,.])(\d+(?:,\d+)?)%", text):
                 if m.group(1) not in permise:
                     erori += 1; print("  EROARE speța %d: procentul %s%% din rezolvare nu rezultă din calcul" % (d["nr"], m.group(1)))
+        # orice cifră din rezolvare trebuie să vină din fapte, dintr-un citat, din calcul sau să fie
+        # declarată în `cifre_derivate` (cu derivarea ei) — poarta semantică nu face aritmetică
+        text = " ".join(p for s in d["sectiuni"] for p in s["paragrafe"]) + " " + d["verdict"]
+        surse = " ".join(d["fapte"]) + " " + " ".join(t["citat"] for s in d["sectiuni"] for t in s.get("temei", []))
+        permise = set(_numere(surse)) | set(d.get("cifre_derivate", {}))
+        if d.get("calcul"): permise |= calculeaza(d["calcul"])[1]
+        for n in sorted(set(_numere(text)) - permise):
+            erori += 1; print("  EROARE speța %d: cifra %s din rezolvare nu vine din fapte, citate, calcul sau cifre_derivate" % (d["nr"], n))
         prec = (lista[i - 1][0], lista[i - 1][1]["titlu"]) if i > 0 else None
         urm = (lista[i + 1][0], lista[i + 1][1]["titlu"]) if i + 1 < len(lista) else None
         open(os.path.join(OUT, slug + ".html"), "w", encoding="utf-8").write(pagina(d, slug, (prec, urm)))

@@ -131,6 +131,8 @@ def _bucati(tema_json):
     toate = [t for s in (tema_json.get("sectiuni") or []) for t in (s.get("temei") or [])]
     for ic, cap in enumerate(tema_json.get("capcane") or []):
         out.append(("capcana %d" % (ic + 1), toate, {str(i): f for i, f in enumerate(fraze(cap))}))
+    if tema_json.get("verdict"):     # spețe: propoziția în care cititorul are cea mai mare încredere
+        out.append(("verdict", toate, {str(i): f for i, f in enumerate(fraze(tema_json["verdict"]))}))
     return out
 
 

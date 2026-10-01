@@ -6,10 +6,10 @@
     "text": "Art. 94 stabilește stagiul minim în grad, în timp de pace, pentru înaintarea în gradul următor a ofițerilor, maiștrilor militari și subofițerilor în activitate; pentru subofițeri, la gradul de plutonier-major stagiul minim este de 7 ani.",
     "alegere": "sustine",
     "probabilitati": {
-     "contrazice": 0.01,
      "nu_spune": 0.0,
-     "absenta_corecta": 0.0,
-     "sustine": 0.99
+     "contrazice": 0.01,
+     "sustine": 0.99,
+     "absenta_corecta": 0.0
     },
     "confidence": 0.99
    },
@@ -17,12 +17,12 @@
     "text": "Socotit calendaristic, de la 1 iulie 2019 la 1 iulie 2026 Ionescu are exact 7 ani în grad.",
     "alegere": "nu_spune",
     "probabilitati": {
-     "absenta_corecta": 0.01,
-     "nu_spune": 0.58,
-     "sustine": 0.33,
-     "contrazice": 0.08
+     "sustine": 0.28,
+     "nu_spune": 0.65,
+     "contrazice": 0.05,
+     "absenta_corecta": 0.02
     },
-    "confidence": 0.43
+    "confidence": 0.54
    }
   },
   "usage": 3006
@@ -34,8 +34,8 @@
     "text": "Art. 95 prevede că la calculul stagiului minim în grad nu se ia în considerare timpul în care cadrele militare în activitate din Ministerul Apărării Naționale au absentat de la program datorită incapacității temporare de muncă, dacă absențele însumează 365 de zile pe parcursul a 2 ani calendaristici consecutivi.",
     "alegere": "sustine",
     "probabilitati": {
-     "nu_spune": 0.0,
      "contrazice": 0.0,
+     "nu_spune": 0.0,
      "sustine": 1.0,
      "absenta_corecta": 0.0
     },
@@ -45,12 +45,12 @@
     "text": "Cele 380 de zile de absență din 2024 și 2025 depășesc pragul de 365 de zile în 2 ani calendaristici consecutivi, deci întreaga perioadă de 380 de zile nu se ia în considerare la calculul stagiului.",
     "alegere": "sustine",
     "probabilitati": {
-     "absenta_corecta": 0.0,
-     "contrazice": 0.06,
-     "sustine": 0.9299999999999999,
-     "nu_spune": 0.01
+     "contrazice": 0.07,
+     "nu_spune": 0.01,
+     "sustine": 0.92,
+     "absenta_corecta": 0.0
     },
-    "confidence": 0.91
+    "confidence": 0.9
    }
   },
   "usage": 2802
@@ -62,26 +62,26 @@
     "text": "Din cei 7 ani calendaristici în grad se scad cele 380 de zile de absență, adică un an și aproximativ două săptămâni.",
     "alegere": "nu_spune",
     "probabilitati": {
-     "contrazice": 0.14,
-     "sustine": 0.02,
-     "nu_spune": 0.81,
-     "absenta_corecta": 0.03
+     "sustine": 0.03,
+     "contrazice": 0.15,
+     "nu_spune": 0.8,
+     "absenta_corecta": 0.02
     },
     "confidence": 0.74
    },
    "1": {
-    "text": "Stagiul în grad care se ia în considerare este de circa 5 ani și 11 luni, sub pragul de 7 ani cerut de art. 94 pentru plutonier-major.",
+    "text": "Stagiul în grad care se ia în considerare este de 5 ani, 11 luni și circa două săptămâni, adică sub 6 ani, deci sub pragul de 7 ani cerut de art. 94 pentru plutonier-major.",
     "alegere": "nu_spune",
     "probabilitati": {
-     "contrazice": 0.14,
-     "sustine": 0.31,
-     "nu_spune": 0.48,
-     "absenta_corecta": 0.07
+     "sustine": 0.38,
+     "contrazice": 0.12,
+     "nu_spune": 0.41,
+     "absenta_corecta": 0.09
     },
-    "confidence": 0.3
+    "confidence": 0.22
    }
   },
-  "usage": 2858
+  "usage": 2876
  },
  {
   "loc": "capcana 1",
@@ -90,12 +90,12 @@
     "text": "Pragul de la art. 95 se judecă pe absențele însumate pe parcursul a 2 ani calendaristici consecutivi, nu pe fiecare an în parte: cu 300 de zile în loc de 380, nimic nu s-ar fi scăzut și Ionescu ar fi avut stagiul complet la 1 iulie 2026.",
     "alegere": "sustine",
     "probabilitati": {
-     "sustine": 0.78,
-     "absenta_corecta": 0.01,
-     "contrazice": 0.21,
+     "absenta_corecta": 0.0,
+     "contrazice": 0.1,
+     "sustine": 0.9,
      "nu_spune": 0.0
     },
-    "confidence": 0.71
+    "confidence": 0.85
    }
   },
   "usage": 2693
@@ -107,10 +107,10 @@
     "text": "Stagiile minime de la art. 94 nu cresc uniform cu gradul: la subofițeri, plutonier 5 ani, plutonier-major 7 ani, plutonier adjutant 6 ani.",
     "alegere": "sustine",
     "probabilitati": {
-     "absenta_corecta": 0.0,
-     "nu_spune": 0.0,
      "contrazice": 0.01,
-     "sustine": 0.99
+     "nu_spune": 0.0,
+     "sustine": 0.99,
+     "absenta_corecta": 0.0
     },
     "confidence": 0.98
    },
@@ -118,12 +118,12 @@
     "text": "Întrebarea de examen cere cifra gradului deținut, nu a gradului în care se înaintează.",
     "alegere": "nu_spune",
     "probabilitati": {
-     "absenta_corecta": 0.01,
-     "nu_spune": 0.73,
-     "contrazice": 0.22,
-     "sustine": 0.04
+     "contrazice": 0.19,
+     "nu_spune": 0.75,
+     "sustine": 0.05,
+     "absenta_corecta": 0.01
     },
-    "confidence": 0.65
+    "confidence": 0.67
    }
   },
   "usage": 3124
@@ -135,14 +135,42 @@
     "text": "Regula din art. 95 vorbește expres despre cadrele militare în activitate din Ministerul Apărării Naționale.",
     "alegere": "sustine",
     "probabilitati": {
-     "absenta_corecta": 0.0,
-     "nu_spune": 0.0,
      "sustine": 1.0,
-     "contrazice": 0.0
+     "absenta_corecta": 0.0,
+     "contrazice": 0.0,
+     "nu_spune": 0.0
     },
     "confidence": 1.0
    }
   },
   "usage": 2636
+ },
+ {
+  "loc": "verdict",
+  "afirmatii": {
+   "0": {
+    "text": "La 1 iulie 2026 Ionescu nu îndeplinește stagiul minim în grad, pentru că cele 380 de zile de incapacitate temporară de muncă din 2 ani calendaristici consecutivi depășesc pragul de 365 de zile și se scad din stagiu.",
+    "alegere": "sustine",
+    "probabilitati": {
+     "nu_spune": 0.01,
+     "sustine": 0.63,
+     "contrazice": 0.34,
+     "absenta_corecta": 0.02
+    },
+    "confidence": 0.51
+   },
+   "1": {
+    "text": "Îl va îndeplini după încă 380 de zile, adică în jurul datei de 16 iulie 2027, dacă nu mai are absențe de acest fel.",
+    "alegere": "contrazice",
+    "probabilitati": {
+     "nu_spune": 0.11,
+     "sustine": 0.35,
+     "contrazice": 0.53,
+     "absenta_corecta": 0.01
+    },
+    "confidence": 0.38
+   }
+  },
+  "usage": 3173
  }
 ]

@@ -32,13 +32,14 @@
   {
    "titlu": "Socoteala",
    "paragrafe": [
-    "Din cei 7 ani calendaristici în grad se scad cele 380 de zile de absență, adică un an și aproximativ două săptămâni. Stagiul în grad care se ia în considerare este de circa 5 ani și 11 luni, sub pragul de 7 ani cerut de art. 94 pentru plutonier-major."
+    "Din cei 7 ani calendaristici în grad se scad cele 380 de zile de absență, adică un an și aproximativ două săptămâni. Stagiul în grad care se ia în considerare este de 5 ani, 11 luni și circa două săptămâni, adică sub 6 ani, deci sub pragul de 7 ani cerut de art. 94 pentru plutonier-major."
    ],
    "temei": [
     {"act": "Legea nr. 80/1995 privind statutul cadrelor militare", "articol": "art. 94 lit. C d)", "citat": "d) plutonier-major 7 ani;", "fisier": "01_Legea_80-1995_statutul_cadrelor_militare.txt"}
    ]
   }
  ],
+ "cifre_derivate": {"5": "7 ani minus 380 de zile = 5 ani, 11 luni și circa două săptămâni", "11": "idem", "6": "sub 6 ani", "16": "1 iulie 2026 plus 380 de zile = 16 iulie 2027", "2027": "idem"},
  "verdict": "Nu. La 1 iulie 2026 Ionescu nu îndeplinește stagiul minim în grad, pentru că cele 380 de zile de incapacitate temporară de muncă din 2 ani calendaristici consecutivi depășesc pragul de 365 de zile și se scad din stagiu. Îl va îndeplini după încă 380 de zile, adică în jurul datei de 16 iulie 2027, dacă nu mai are absențe de acest fel.",
  "capcane": [
   "Pragul de la art. 95 se judecă pe absențele însumate pe parcursul a 2 ani calendaristici consecutivi, nu pe fiecare an în parte: cu 300 de zile în loc de 380, nimic nu s-ar fi scăzut și Ionescu ar fi avut stagiul complet la 1 iulie 2026.",
