@@ -1,6 +1,6 @@
 /* Service worker — face aplicația disponibilă offline după prima deschidere.
    La fiecare modificare a întrebărilor, schimbă VERSIUNE ca să se reîmprospăteze cache-ul. */
-const VERSIUNE = "grile-ru-v25";
+const VERSIUNE = "grile-ru-v26";
 const FISIERE = [
   "./",
   "./index.html",
@@ -45,6 +45,12 @@ const FISIERE = [
   "./legislatie/08-norme-hg-52-2011-aplicare-oug-111-2010.html",
   "./legislatie/09-hg-1867-2005-compensatia-chirie.html",
   /* LEGISLATIE-END */
+  /* SPETE-START */
+  "./spete/index.html",
+  "./spete/01-plutonierul-major-care-cere-inaintarea-in-grad.html",
+  "./spete/02-trei-feluri-de-vechime-pentru-acelasi-capitan.html",
+  "./spete/03-compensatia-de-chirie-casa-construita-cu-credit-si-decizia.html",
+  /* SPETE-END */
 ];
 
 self.addEventListener("install", function (e) {

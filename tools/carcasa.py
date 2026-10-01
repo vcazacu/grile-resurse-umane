@@ -10,6 +10,8 @@ ICON = {
                 '<path d="M20 5.5A1.5 1.5 0 0 0 18.5 4H13v16h5.5a1.5 1.5 0 0 0 1.5-1.5z"></path>',
     "legislatie": '<line x1="12" y1="3" x2="12" y2="21"></line><line x1="5" y1="7" x2="19" y2="7"></line>'
                   '<path d="M5 7l-3 7a3 3 0 0 0 6 0z"></path><path d="M19 7l-3 7a3 3 0 0 0 6 0z"></path><line x1="8" y1="21" x2="16" y2="21"></line>',
+    "spete": '<path d="M6 3h8l5 5v13a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1z"></path><polyline points="14 3 14 8 19 8"></polyline>'
+             '<polyline points="8.5 14.5 10.5 16.5 15.5 11.5"></polyline>',
     "stanga": '<polyline points="15 6 9 12 15 18"></polyline>',
     "dreapta": '<polyline points="9 6 15 12 9 18"></polyline>',
     "sageata": '<line x1="5" y1="12" x2="19" y2="12"></line><polyline points="13 6 19 12 13 18"></polyline>',
@@ -20,7 +22,7 @@ def icon(nume, marime=20):
             'stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">%s</svg>' % (marime, marime, ICON[nume]))
 
 SECTIUNI = [("teste", "../index.html", "Teste"), ("tematica", "../tematica/index.html", "Tematica"),
-            ("legislatie", "../legislatie/index.html", "Legislația")]
+            ("legislatie", "../legislatie/index.html", "Legislația"), ("spete", "../spete/index.html", "Spețe")]
 
 def nav(activ, pe_index):
     """activ: secțiunea curentă; pe_index: pagina e chiar indexul secțiunii (aria-current="page")."""

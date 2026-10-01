@@ -1,0 +1,60 @@
+{
+ "nr": 3,
+ "nivel": "complexa",
+ "titlu": "Compensația de chirie, casa construită cu credit și decizia ÎCCJ",
+ "teme": [18, 2],
+ "fapte": [
+  "Maiorul Dumitrescu, cadru militar în activitate în Ministerul Apărării Naționale, are domiciliul în Craiova. În martie 2026 este mutat în interesul serviciului la o unitate din garnizoana Constanța, municipiu.",
+  "Nici el, nici soția lui nu dețin locuință proprietate personală în Constanța, iar unitatea nu îi poate asigura spațiu de locuit corespunzător.",
+  "Solda de funcție aflată în plată este de 6.000 lei. Închiriază în Constanța un apartament cu 2.400 lei pe lună.",
+  "În septembrie 2026 contractează un credit ipotecar pentru construirea unei case în Constanța, cu o rată lunară de 2.800 lei, și cere ca, în locul chiriei, compensația să acopere rata creditului."
+ ],
+ "intrebare": "Are Dumitrescu dreptul la compensația lunară pentru chirie și în ce cuantum? Poate primi compensația pentru rata creditului de construire? Și ar putea să le primească pe amândouă?",
+ "sectiuni": [
+  {
+   "titlu": "Dreptul la compensație",
+   "paragrafe": [
+    "Art. 20^1 alin. (1) din Legea nr. 80/1995 dă dreptul la o compensație lunară pentru chirie de până la 50% din solda lunară cadrelor militare în activitate mutate în interesul serviciului într-o altă garnizoană decât cea în care își au domiciliul, care nu dețin locuință proprietate personală în acea garnizoană, nici ele, nici soțiile sau soții lor, și cărora nu li se poate asigura spațiu de locuit corespunzător. Dumitrescu este mutat în interesul serviciului din Craiova în Constanța, nu are locuință acolo și nici unitatea nu îi poate da una, deci îndeplinește toate condițiile."
+   ],
+   "temei": [
+    {"act": "Legea nr. 80/1995 privind statutul cadrelor militare", "articol": "art. 20^1 alin. (1)", "citat": "Cadrele militare în activitate numite în prima funcție/mutate în interesul serviciului, detașate și/sau împuternicite într-o altă garnizoană decât cea în care își au domiciliul și care nu dețin locuință proprietate personală în acea garnizoană, nici ei și nici soțiile sau soții acestora, în situația în care nu li se poate asigura spațiu de locuit corespunzător, au dreptul la o compensație lunară pentru chirie de până la 50% din solda lunară.", "fisier": "01_Legea_80-1995_statutul_cadrelor_militare.txt"}
+   ]
+  },
+  {
+   "titlu": "Cuantumul pentru chirie",
+   "paragrafe": [
+    "Art. 1 alin. (1) din Hotărârea Guvernului nr. 1867/2005 calculează compensația în raport cu solda de funcție aflată în plată: 50% dacă locuința închiriată se află în municipii (lit. a)), dar nu mai mult decât chiria prevăzută în contractul de închiriere. 50% din solda de funcție de 6.000 lei înseamnă 3.000 lei, însă chiria este de 2.400 lei, deci compensația lunară pentru chirie este de 2.400 lei."
+   ],
+   "temei": [
+    {"act": "H.G. nr. 1867/2005 privind compensația lunară pentru chirie", "articol": "art. 1 alin. (1)", "citat": "Cadrele militare în activitate din Ministerul Apărării Naționale, aflate în situațiile prevăzute la art. 20^1 alin. 1, 2 și 2^1 din Legea nr. 80/1995 privind Statutul cadrelor militare, cu modificările și completările ulterioare, au dreptul la o compensație lunară pentru chirie, calculată în raport cu solda de funcție aflată în plată corespunzătoare lunii pentru care se cuvine acest drept, în cuantum de: a) 50% din solda de funcție aflată în plată, dacă locuința închiriată/achiziționată se află în municipii, stațiuni turistice ori balneare sau în localități cu situații deosebite, dar nu mai mult decât chiria prevăzută în contractul de închiriere, rata lunară prevăzută în contractul de credit ipotecar/imobiliar destinat achiziționării unei locuințe sau rata lunară prevăzută în contractul de vânzare-cumpărare cu plata în rate a unei locuințe, după caz;", "fisier": "09_HG_1867-2005_compensatia_chirie.txt"}
+   ]
+  },
+  {
+   "titlu": "Creditul pentru construirea casei",
+   "paragrafe": [
+    "Art. 20^1 alin. (2^1) extinde compensația la cadrele militare care contractează un credit ipotecar/imobiliar destinat achiziționării unei locuințe sau încheie un contract de vânzare-cumpărare cu plata în rate a unei locuințe. Prin Decizia HP nr. 40/2025, Înalta Curte de Casație și Justiție a stabilit că dreptul la compensația lunară pentru chirie nu poate fi recunoscut cadrelor militare care au încheiat contracte de credit ipotecar în vederea construirii unei locuințe. Creditul lui Dumitrescu este pentru construire, nu pentru achiziționare, deci rata lui nu poate fi acoperită din compensație."
+   ],
+   "temei": [
+    {"act": "Legea nr. 80/1995 privind statutul cadrelor militare", "articol": "art. 20^1 alin. (2^1)", "citat": "Cadrele militare care îndeplinesc condițiile de acordare a compensației lunare pentru chirie potrivit alin. 1 și 2 și care contractează un credit ipotecar/imobiliar destinat achiziționării unei locuințe sau încheie un contract de vânzare-cumpărare cu plata în rate a unei locuințe beneficiază de compensația lunară pentru chirie, pe o perioadă ce nu poate depăși durata de derulare a creditului sau contractului de vânzare-cumpărare cu plata în rate", "fisier": "01_Legea_80-1995_statutul_cadrelor_militare.txt"},
+    {"act": "Î.C.C.J. – Decizia HP nr. 40/2025, M. Of. nr. 398 din 5 mai 2025 (notă la art. 20^1)", "articol": "art. 20^1", "tip": "decizie", "citat": "Dreptul la compensația lunară pentru chirie nu poate fi recunoscut și cadrelor militare care au încheiat contracte de credit ipotecar în vederea construirii unei locuințe.", "fisier": "01_Legea_80-1995_statutul_cadrelor_militare.txt"}
+   ]
+  },
+  {
+   "titlu": "Cumulul chiriei cu rata",
+   "paragrafe": [
+    "Art. 20^1 alin. (2^2) interzice acordarea concomitentă a compensației pentru situația de la alin. 1 și 2 (chirie) și pentru situația de la alin. 2^1 (credit sau rate): cadrul militar optează pentru una dintre ele, iar compensația pentru credit se acordă pentru o singură locuință achiziționată pe timpul carierei. Chiar dacă Dumitrescu ar fi cumpărat locuința, nu ar fi putut primi și chiria, și rata, ci ar fi ales una; iar pentru rată, alin. (2^1) prevede că se acordă cuantumul de la alin. 1, dar nu mai mult decât rata lunară plătită. În plus, alin. (2^4) prevede că cei mutați pot beneficia de compensație într-o singură garnizoană."
+   ],
+   "temei": [
+    {"act": "Legea nr. 80/1995 privind statutul cadrelor militare", "articol": "art. 20^1 alin. (2^2)", "citat": "În situația prevăzută la alin. 2^1, compensația lunară pentru chirie se acordă pentru o singură locuință achiziționată pe timpul carierei. Compensația lunară pentru chirie nu se poate acorda concomitent pentru situația prevăzută la alin. 1 și 2 și pentru situația prevăzută la alin. 2^1, caz în care cadrul militar optează pentru una dintre aceste situații.", "fisier": "01_Legea_80-1995_statutul_cadrelor_militare.txt"},
+    {"act": "Legea nr. 80/1995 privind statutul cadrelor militare", "articol": "art. 20^1 alin. (2^1)", "citat": "În această situație, compensația lunară pentru chirie se acordă în cuantumul prevăzut la alin. 1, dar nu poate depăși rata lunară plătită pentru creditul ipotecar/imobiliar sau pentru contractul de vânzare-cumpărare cu plata în rate.", "fisier": "01_Legea_80-1995_statutul_cadrelor_militare.txt"},
+    {"act": "Legea nr. 80/1995 privind statutul cadrelor militare", "articol": "art. 20^1 alin. (2^4)", "citat": "Cadrele militare în activitate, mutate sau detașate și/sau împuternicite, prevăzute la alin. 1, pot beneficia de compensație lunară pentru chirie într-o singură garnizoană.", "fisier": "01_Legea_80-1995_statutul_cadrelor_militare.txt"}
+   ]
+  }
+ ],
+ "verdict": "Dumitrescu primește 2.400 lei pe lună compensație pentru chirie (50% din solda de funcție ar fi 3.000 lei, dar nu mai mult decât chiria), cât timp durează situația de la art. 20^1 alin. (1). Pentru rata creditului de construire nu primește nimic: alin. (2^1) vizează achiziționarea unei locuințe, iar Decizia HP nr. 40/2025 exclude creditele pentru construire. Cumulul este oricum exclus de alin. (2^2): dacă ar fi cumpărat, ar fi trebuit să opteze între chirie și rată.",
+ "capcane": [
+  "Procentul de 50% din HG nr. 1867/2005 se aplică la solda de funcție aflată în plată, nu la întreaga soldă lunară, și este plafonat la chiria din contract, respectiv la rata lunară plătită.",
+  "Achiziționare nu înseamnă construire: art. 20^1 alin. (2^1) vorbește de credit destinat achiziționării unei locuințe, iar Decizia HP nr. 40/2025 a Înaltei Curți a tranșat că pentru creditele de construire dreptul nu poate fi recunoscut.",
+  "Compensația pentru credit se acordă pentru o singură locuință achiziționată pe timpul carierei și nu se cumulează cu cea pentru chirie (art. 20^1 alin. (2^2)); cei mutați o pot primi într-o singură garnizoană (alin. (2^4))."
+ ]
+}

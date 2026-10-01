@@ -66,12 +66,12 @@ def _articole_sectiune(temeiuri, cache):
     return out
 
 
-def _stare(tema, eticheta_sec, temeiuri, cache, afirmatii):
+def _stare(tema, eticheta_sec, temeiuri, cache, afirmatii, fapte=None, intrebare=""):
     text_ref = " ".join([t.get("citat", "") for t in temeiuri] + list(afirmatii.values()))
     rezolvate = {}
     for t in temeiuri:
         rezolvate.update(_alin.rezolva(text_ref, t, cache))
-    return {
+    stare = {
         "tema": tema,
         "sectiune": eticheta_sec,
         # Capcanele vorbesc des despre ce intră sau nu în tematică („art. 96 nu e în
@@ -82,6 +82,14 @@ def _stare(tema, eticheta_sec, temeiuri, cache, afirmatii):
         "trimiteri_rezolvate": rezolvate,
         "afirmatii": afirmatii,
     }
+    # Spețe: dispozitivul hotărârilor prealabile (verificat verbatim de spete_build.py contra
+    # notelor portalului) și situația de fapt ipotetică — fără ele, aplicarea legii la fapte
+    # ar ieși „neverificabilă".
+    decizii = {t.get("act", ""): t.get("citat", "") for t in temeiuri if t.get("tip") == "decizie"}
+    if decizii: stare["decizii_instanta"] = decizii
+    if fapte: stare["situatia_de_fapt"] = fapte
+    if intrebare: stare["intrebarea_spetei"] = intrebare
+    return stare
 
 
 def _intreaba(client, stare):
@@ -90,8 +98,11 @@ def _intreaba(client, stare):
     for i in stare["afirmatii"]:
         intrebari["a_" + i] = Choice(
             instructions=("Cum se raportează textul normativ pus la dispoziție (`articole`, "
-                          "`trimiteri_rezolvate`, `temeiuri_citate`) la afirmația "
-                          "`afirmatii.%s` din pagina de sinteză?" % i),
+                          "`trimiteri_rezolvate`, `temeiuri_citate` și, dacă există, "
+                          "`decizii_instanta`) la afirmația `afirmatii.%s` din pagina de "
+                          "sinteză? Dacă există `situatia_de_fapt`, afirmația poate fi aplicarea "
+                          "textului la aceste fapte ipotetice: judecă dacă aplicarea e corectă "
+                          "față de text și de fapte, nu dacă faptele sunt reale." % i),
             criteria={
                 "sustine": "Textul confirmă afirmația: o spune sau o implică direct.",
                 "contrazice": "Textul spune altceva — afirmația redă greșit un termen, un "
@@ -123,8 +134,12 @@ def _bucati(tema_json):
     return out
 
 
+def cale_tema(nr):
+    """„13” → tools/tematica/13.json; o cale (cu „/” sau „.json”) → fișierul acela (spețe etc.)."""
+    return Path(nr) if ("/" in str(nr) or str(nr).endswith(".json")) else DIR_TEMATICA / ("%s.json" % nr)
+
 def verifica_tema(client, nr):
-    cale = DIR_TEMATICA / ("%s.json" % nr)
+    cale = cale_tema(nr)
     d = json.loads(cale.read_text(encoding="utf-8"))
     cache = {}
     bucati = [b for b in _bucati(d) if b[2]]
@@ -132,7 +147,8 @@ def verifica_tema(client, nr):
     def una(b):
         eticheta, tem, afirmatii = b
         try:
-            stare = _stare(d.get("titlu", ""), eticheta, tem, cache, afirmatii)
+            stare = _stare(d.get("titlu", ""), eticheta, tem, cache, afirmatii,
+                           d.get("fapte"), d.get("intrebare", ""))
             r = _intreaba(client, stare)
             return {"loc": eticheta,
                     "afirmatii": {k: {"text": afirmatii[k],
@@ -203,7 +219,8 @@ def main(argv):
     with TypeSafeClient() as client:
         for nr in teme:
             rezultate = verifica_tema(client, nr)
-            iesire = DIR_TEMATICA / ("%s-ts.json" % nr)
+            cale = cale_tema(nr)
+            iesire = cale.with_name(cale.stem + "-ts.json")
             iesire.write_text(json.dumps(rezultate, ensure_ascii=False, indent=1), encoding="utf-8")
             rez, linii = raport(rezultate, praguri)
             tok = sum(b.get("usage") or 0 for b in rezultate)

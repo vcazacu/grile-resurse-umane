@@ -760,3 +760,23 @@ a.trm:hover, a.trm.deschis { background: var(--primary-soft); }
 .bara-versiune .btn { flex: 0 0 auto; width: auto; min-height: 44px; }
 .bara-versiune .btn-icon { width: 44px; height: 44px; margin-left: -4px; border-color: transparent; background: transparent; }
 .bara-versiune .btn-icon:hover { background: var(--muted); }
+
+/* Spețe — rezolvarea pas cu pas */
+.fapte ol { padding-left: 1.3rem; margin: 0.4rem 0; } .fapte li { margin: 0.3rem 0; line-height: 1.55; }
+.fapte .intrebare { margin-top: 0.8rem; font-weight: 600; line-height: 1.5; }
+.pas { border: 1px solid var(--border); border-radius: var(--radius); margin: 0.6rem 0; background: var(--card); }
+.pas > summary { list-style: none; cursor: pointer; padding: 0.75rem 0.95rem; display: flex; gap: 0.6rem; align-items: baseline; font-weight: 600; }
+.pas > summary::-webkit-details-marker { display: none; }
+.pas > summary .nr-pas { color: var(--muted-foreground); font-weight: 700; min-width: 4.2rem; font-size: 0.85rem; }
+.pas.blocat > summary { cursor: default; color: var(--muted-foreground); font-weight: 500; }
+.pas.blocat > summary .nr-pas::after { content: " ·"; }
+.pas .pas-corp { padding: 0 0.95rem 0.8rem; } .pas .pas-corp p { line-height: 1.55; margin: 0.35rem 0; }
+.pas.verdict { border-color: var(--success-border); background: var(--success-bg); } .pas.verdict > summary { color: var(--success); }
+.calcul { width: 100%; border-collapse: collapse; margin: 0.5rem 0; font-size: 0.9rem; }
+.calcul td { padding: 0.3rem 0.5rem; border-bottom: 1px solid var(--border); } .calcul td:last-child { text-align: right; font-variant-numeric: tabular-nums; font-weight: 600; }
+.spete-bara { display: flex; gap: 0.6rem; flex-wrap: wrap; margin: 0.4rem 0 0.8rem; }
+.nivel { display: inline-block; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.02em; text-transform: uppercase; padding: 0.15rem 0.5rem; border-radius: 999px; border: 1px solid var(--border); color: var(--muted-foreground); }
+.nivel.simpla { color: var(--success); border-color: var(--success-border); background: var(--success-bg); }
+.nivel.medie { color: var(--warning); border-color: var(--warning-border); background: var(--warning-bg); }
+.nivel.complexa { color: var(--destructive); border-color: var(--destructive-border); background: var(--destructive-bg); }
+.decizie .act { color: var(--warning); }

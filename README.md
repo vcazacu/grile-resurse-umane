@@ -131,6 +131,27 @@ sursa de adevăr pentru toate uneltele) pe marcajele existente (`## `, `Articolu
 cunoscută: tabelele din Legea 360/2023 (art. 48, 51) sunt sparte pe rânduri în sursă și apar
 ca bloc monospațiat, nu ca tabel.
 
+## Spețe — situații concrete, rezolvate pas cu pas
+
+Secțiunea **Spețe** (`spete/index.html`, a patra din navigație) are studii de caz din domeniul
+militar, pe trei niveluri: *simplă* (un articol, o condiție), *medie* (două-trei articole și un
+calcul), *complexă* (mai multe acte și o excepție, de regulă o hotărâre prealabilă a ÎCCJ).
+Fiecare speță are situația de fapt, întrebarea, rezolvarea pe pași — în pagină pașii se deschid
+unul câte unul, ca cititorul să încerce întâi singur („Arată toată rezolvarea" îi deschide pe
+toți) — verdictul și capcanele; fiecare pas citează temeiul verbatim, cu „Deschide în lege".
+
+Conținutul stă în `tools/spete/NN.json` (schema e în capul lui `tools/spete_build.py`), iar
+`tools/spete_build.py` generează paginile, indexul și lista din `sw.js`. Verifică la construire,
+cu ieșire 1 la eșec: fiecare citat e găsit verbatim în lege; dispozitivul unei hotărâri prealabile
+(temei cu `tip: "decizie"`) e găsit în notele portalului de la articolul respectiv; pentru spețele
+cu `calcul`, vechimile și procentul se calculează în cod (art. 3, 24, 29, 30 din Legea 223/2015)
+și fiecare valoare trebuie să apară în rezolvare, iar orice procent din rezolvare trebuie să
+rezulte din calcul. Poarta semantică le verifică cu `check_tematica.py spete/NN.json` (primește
+și situația de fapt, ca să judece aplicarea legii la fapte). Calibrare pe primele trei spețe: 37
+de afirmații susținute, 0 contrazise; din 3 erori plantate, poarta a prins 2 la p = 1,00 — pe a
+treia, un procent greșit (72% în loc de 68%), a prins-o verificarea din cod. Aritmetica e treaba
+codului, nu a modelului.
+
 ## Fișiere
 
 - `index.html` — pagina aplicației (deschide-o pe aceasta)
@@ -143,6 +164,7 @@ ca bloc monospațiat, nu ca tabel.
   revenirea în aplicație cere verificarea versiunii
 - `tools/tematica_build.py`, `tools/tematica/` — construirea paginilor de tematică
 - `tools/legislatie_build.py`, `legislatie/` — paginile de citit ale legislației
+- `tools/spete_build.py`, `tools/spete/`, `spete/` — spețele rezolvate pas cu pas
 - `tools/carcasa.py` — antetul, navigația și subsolul comune paginilor generate; navigația repetă pe cea din
   `index.html`, iar toate stilurile (și ale paginilor generate) sunt în `style.css`
 - `tools/` — lanțul de generare și verificare:

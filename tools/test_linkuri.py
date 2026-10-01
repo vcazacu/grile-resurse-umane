@@ -12,7 +12,8 @@ DIR = os.path.dirname(os.path.abspath(__file__))
 APP = os.path.dirname(DIR)
 
 PAGINI = [os.path.join(APP, "index.html")] + sorted(glob.glob(os.path.join(APP, "tematica", "*.html"))) \
-    + sorted(glob.glob(os.path.join(APP, "legislatie", "*.html")))
+    + sorted(glob.glob(os.path.join(APP, "legislatie", "*.html"))) \
+    + sorted(glob.glob(os.path.join(APP, "spete", "*.html")))
 ATRIBUT = re.compile(r'\b(?:href|src)="([^"]*)"')
 
 def id_uri(cale, _cache={}):
