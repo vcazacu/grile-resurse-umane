@@ -144,7 +144,7 @@ body.in-test .shell { padding-bottom: 0; }
 
 .nav-app {
   position: fixed; left: 0; right: 0; bottom: 0; z-index: 20;
-  display: grid; grid-template-columns: repeat(3, minmax(0, 1fr));
+  display: grid; grid-template-columns: repeat(4, minmax(0, 1fr));   /* Teste · Tematica · Legislația · Spețe */
   padding: 6px 8px calc(8px + env(safe-area-inset-bottom, 0px));
   background: var(--card); border-top: 1px solid var(--border);
 }

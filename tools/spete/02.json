@@ -4,14 +4,14 @@
  "titlu": "Trei feluri de vechime pentru același căpitan",
  "teme": [13],
  "fapte": [
-  "Căpitanul Popescu are 47 de ani.",
+  "Căpitanul Popescu are 47 de ani și este cadru militar în activitate.",
+  "Între 1998 și 2001, înainte de armată, a lucrat în civilie cu contract individual de muncă (3 ani).",
   "Între 2001 și 2005 a fost student al Academiei Forțelor Terestre, instituție militară de învățământ pentru formarea cadrelor militare (4 ani).",
-  "Între 2005 și 2023 a fost ofițer în activitate (18 ani): 6 ani în condiții speciale de muncă și 12 ani în condiții normale, stabilite potrivit Hotărârii Guvernului nr. 1.294/2001.",
-  "Între 2023 și 2026, după trecerea în rezervă, a lucrat în civilie cu contract individual de muncă (3 ani)."
+  "Din 2005 până la 1 iulie 2026 este ofițer în activitate (21 de ani): 6 ani în condiții speciale de muncă și 15 ani în condiții normale, stabilite potrivit Hotărârii Guvernului nr. 1.294/2001."
  ],
  "intrebare": "Care sunt vechimea în serviciu, vechimea cumulată și vechimea efectivă ale lui Popescu? Îndeplinește condiția de vechime de la art. 16 alin. (1) lit. b)? Și, la împlinirea vârstei standard de pensionare, ce procent din baza de calcul ar avea pensia de serviciu, cu aceste vechimi?",
  "calcul": {
-  "serviciu": {"student al Academiei Forțelor Terestre": 4, "ofițer în activitate": 18},
+  "serviciu": {"student al Academiei Forțelor Terestre": 4, "ofițer în activitate": 21},
   "munca": {"activitate în civilie, cu contract de muncă": 3},
   "conditii": {"speciale": 6}
  },
@@ -19,7 +19,7 @@
   {
    "titlu": "Vechimea în serviciu",
    "paragrafe": [
-    "Art. 3 lit. e) definește vechimea în serviciu ca perioada în care persoana s-a aflat în una dintre situațiile enumerate acolo, între care calitatea de cadru militar în activitate (pct. 1) și cea de student al unei instituții militare de învățământ pentru formarea cadrelor militare, cu excepția învățământului liceal (pct. 3). Cei 4 ani de academie și cei 18 ani de ofițer în activitate dau o vechime în serviciu de 22 de ani; cei 3 ani lucrați în civilie nu intră aici, pentru că nu sunt niciuna dintre situațiile de la lit. e), ci vechime în muncă."
+    "Art. 3 lit. e) definește vechimea în serviciu ca perioada în care persoana s-a aflat în una dintre situațiile enumerate acolo, între care calitatea de cadru militar în activitate (pct. 1) și cea de student al unei instituții militare de învățământ pentru formarea cadrelor militare, cu excepția învățământului liceal (pct. 3). Cei 4 ani de academie și cei 21 de ani de ofițer în activitate dau o vechime în serviciu de 25 de ani; cei 3 ani lucrați în civilie înainte de armată nu intră aici, pentru că nu sunt niciuna dintre situațiile de la lit. e), ci vechime în muncă."
    ],
    "temei": [
     {"act": "Legea nr. 223/2015 privind pensiile militare de stat", "articol": "art. 3 lit. e)", "citat": "e) vechimea în serviciu - perioada în care o persoană din sistemul de apărare națională, ordine publică și securitate națională s-a aflat în una dintre următoarele situații: 1. a avut calitatea de cadru militar/polițist/funcționar public cu statut special, în activitate;", "fisier": "04_Legea_223-2015_pensiile_militare.txt"},
@@ -41,7 +41,7 @@
   {
    "titlu": "Vechimea cumulată și vechimea efectivă",
    "paragrafe": [
-    "Art. 3 lit. f) definește vechimea cumulată ca perioadele recunoscute ca vechime în serviciu, vechime în muncă, stagiu de cotizare sau perioade asimilate: 22 de ani vechime în serviciu, 3 ani vechime în muncă din civilie și sporul de 3 ani dau o vechime cumulată de 28 de ani. Art. 3 lit. g) definește vechimea efectivă ca vechimea de la lit. f) fără sporurile acordate pentru condiții deosebite, speciale sau alte condiții de muncă: 28 de ani minus 3 ani înseamnă o vechime efectivă de 25 de ani."
+    "Art. 3 lit. f) definește vechimea cumulată ca perioadele recunoscute ca vechime în serviciu, vechime în muncă, stagiu de cotizare sau perioade asimilate: 25 de ani vechime în serviciu, 3 ani vechime în muncă din civilie și sporul de 3 ani dau o vechime cumulată de 31 de ani. Art. 3 lit. g) definește vechimea efectivă ca vechimea de la lit. f) fără sporurile acordate pentru condiții deosebite, speciale sau alte condiții de muncă: 31 de ani minus 3 ani înseamnă o vechime efectivă de 28 de ani."
    ],
    "temei": [
     {"act": "Legea nr. 223/2015 privind pensiile militare de stat", "articol": "art. 3 lit. f)", "citat": "f) vechime cumulată - perioadele de timp recunoscute ca vechime în serviciu, vechime în muncă, stagiu de cotizare sau perioade asimilate în vederea obținerii unei pensii în condițiile legii;", "fisier": "04_Legea_223-2015_pensiile_militare.txt"},
@@ -51,7 +51,7 @@
   {
    "titlu": "Condiția de vechime de la art. 16",
    "paragrafe": [
-    "Art. 16 alin. (1) cere, cumulativ, împlinirea vârstei standard de pensionare (lit. a)) și o vechime efectivă de cel puțin 25 de ani, din care cel puțin 15 ani vechime în serviciu (lit. b)). Popescu are exact 25 de ani vechime efectivă și 22 de ani vechime în serviciu, deci condiția de vechime de la lit. b) este îndeplinită; la 47 de ani nu a împlinit însă vârsta standard de pensionare, așa că pensia de serviciu pentru limită de vârstă nu se poate deschide încă."
+    "Art. 16 alin. (1) cere, cumulativ, împlinirea vârstei standard de pensionare (lit. a)) și o vechime efectivă de cel puțin 25 de ani, din care cel puțin 15 ani vechime în serviciu (lit. b)). Popescu are 28 de ani vechime efectivă și 25 de ani vechime în serviciu, deci condiția de vechime de la lit. b) este îndeplinită; la 47 de ani nu a împlinit însă vârsta standard de pensionare, așa că pensia de serviciu pentru limită de vârstă nu se poate deschide încă, iar el rămâne în activitate."
    ],
    "temei": [
     {"act": "Legea nr. 223/2015 privind pensiile militare de stat", "articol": "art. 16 alin. (1)", "citat": "Au dreptul la pensie de serviciu pentru limită de vârstă militarii, polițiștii și funcționarii publici cu statut special, în activitate, care îndeplinesc cumulativ următoarele condiții: a) au împlinit vârsta standard de pensionare pentru limită de vârstă; b) au o vechime efectivă de cel puțin 25 de ani, din care cel puțin 15 ani reprezintă vechimea în serviciu.", "fisier": "04_Legea_223-2015_pensiile_militare.txt"}
@@ -60,7 +60,7 @@
   {
    "titlu": "Procentul pensiei, cu aceste vechimi",
    "paragrafe": [
-    "Art. 29 alin. (1) lit. a) dă, la o vechime cumulată de cel puțin 25 de ani, o pensie de serviciu de 65% din baza de calcul prevăzută la art. 28, iar lit. b) adaugă câte 1% din baza de calcul pentru fiecare an care depășește această vechime. Cu 28 de ani vechime cumulată, procentul este 65% plus 3%, adică 68% din baza de calcul, sub plafonul de 85% stabilit de art. 30. Baza de calcul este, potrivit art. 28 alin. (1), media soldelor lunare brute realizate la funcția de bază, deci solda de comandă contează acolo, ca bani, nu ca vechime."
+    "Art. 29 alin. (1) lit. a) dă, la o vechime cumulată de cel puțin 25 de ani, o pensie de serviciu de 65% din baza de calcul prevăzută la art. 28, iar lit. b) adaugă câte 1% din baza de calcul pentru fiecare an care depășește această vechime. Cu 31 de ani vechime cumulată, cei 6 ani de peste 25 aduc câte 1% fiecare: pensia ar fi de 71% din baza de calcul, sub plafonul de 85% stabilit de art. 30. Baza de calcul este, potrivit art. 28 alin. (1), media soldelor lunare brute realizate la funcția de bază, deci solda de comandă contează acolo, ca bani, nu ca vechime."
    ],
    "temei": [
     {"act": "Legea nr. 223/2015 privind pensiile militare de stat", "articol": "art. 29 alin. (1)", "citat": "Cuantumul pensiei de serviciu se determină în procente din baza de calcul, astfel: a) militarii, polițiștii și funcționarii publici cu statut special, cu vechime cumulată conform art. 3 lit. f) de cel puțin 25 de ani, beneficiază, la împlinirea vârstei prevăzute de lege, de pensie de serviciu, în cuantum de 65% din baza de calcul prevăzută la art. 28; b) pentru fiecare an care depășește vechimea prevăzută la lit. a), la cuantumul pensiei se adaugă câte 1% din baza de calcul prevăzută la art. 28.", "fisier": "04_Legea_223-2015_pensiile_militare.txt"},
@@ -69,9 +69,9 @@
    ]
   }
  ],
- "verdict": "Vechime în serviciu 22 de ani, vechime cumulată 28 de ani, vechime efectivă 25 de ani. Condiția de vechime de la art. 16 alin. (1) lit. b) este îndeplinită; pensia de serviciu pentru limită de vârstă se deschide însă numai la împlinirea vârstei standard, iar cu aceste vechimi ar fi de 68% din baza de calcul.",
+ "verdict": "Vechime în serviciu 25 de ani, vechime cumulată 31 de ani, vechime efectivă 28 de ani. Condiția de vechime de la art. 16 alin. (1) lit. b) este îndeplinită; pensia de serviciu pentru limită de vârstă se deschide însă numai la împlinirea vârstei standard, iar cu aceste vechimi ar fi de 71% din baza de calcul.",
  "capcane": [
-  "Anii de academie militară sunt vechime în serviciu (art. 3 lit. e) pct. 3); o facultate civilă nu ar fi fost, chiar dacă absolventul primea ulterior grad.",
+  "Anii de academie militară sunt vechime în serviciu (art. 3 lit. e) pct. 3); o facultate civilă nu ar fi fost, chiar dacă absolventul primea ulterior grad. Anii lucrați în civilie, înainte sau după armată, sunt vechime în muncă: intră în cumulată și în efectivă, nu în vechimea în serviciu.",
   "Sporul de 3 ani nu ajută la condiția de 25 de ani de la art. 16: vechimea efectivă de la art. 3 lit. g) este fără sporuri, iar art. 23 alin. (2) spune același lucru pentru deschiderea dreptului. Sporul contează doar la cuantum, prin vechimea cumulată de la art. 29.",
   "La examen, „spor” înseamnă aici timp (1 an și 3 luni, 1 an și 6 luni, 2 ani pentru fiecare an lucrat efectiv, art. 24); solda de comandă nu este un spor de vechime, ci intră în baza de calcul de la art. 28."
  ]
